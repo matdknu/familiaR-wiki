@@ -4,7 +4,10 @@
 
 El presente proyecto busca describir las redes y estrategias de reproducción de la elite chilena usando Wikipedia como fuente de datos. Para ello, se utilizan técnicas de análisis de redes sociales y web scraping para analizar las relaciones familiares documentadas en artículos de Wikipedia.
 
+Estamos creando el paquete **familiaRes**, que reunira datos de **5 paises latinoamericanos** sobre las “familias” y sus relaciones.
+
 ![Red Familiar](outputs/figures/red_familiar.png)
+![Red General Todos](outputs/figures/red_general_todos.png)
 
 ---
 
@@ -108,6 +111,49 @@ Extrae automáticamente +100 familias desde [Categoría:Familias de Chile](https
 **Salida:** 
 - Un archivo CSV por familia en `data/raw/chile/familias/`
 - Archivo consolidado: `_CONSOLIDADO_todas_familias.csv`
+
+---
+
+## 🌎 Extender a America Latina
+
+El scraping masivo de familias esta centrado en Chile, pero se puede reutilizar
+para otros paises cambiando la categoria raiz y la carpeta de salida.
+
+**Archivos clave:**
+- `scripts/01_scraping/scraper_all_families.py` (orquesta el scraping masivo)
+- `scripts/01_scraping/scraper_categories.py` (scrapea una categoria y guarda CSV)
+
+**Como funciona el flujo:**
+1. `scraper_all_families.py` consulta la API de Wikipedia y obtiene las
+   subcategorias desde `Categoría:Familias_de_Chile`.
+2. Por cada familia encontrada, llama a `scraper_categories.py`.
+3. `scraper_categories.py` guarda un CSV por familia en
+   `data/raw/chile/familias/`.
+
+**Para usarlo en otros paises:**
+1. Cambiar la categoria raiz en `scraper_all_families.py`:
+   - Ejemplos comunes:
+     - `Categoría:Familias_de_Argentina`
+     - `Categoría:Familias_de_Perú`
+     - `Categoría:Familias_de_Colombia`
+     - `Categoría:Familias_de_México`
+2. Ajustar la carpeta de salida en `scraper_categories.py` para que apunte a:
+   - `data/raw/argentina/familias/`
+   - `data/raw/peru/familias/`
+   - `data/raw/colombia/familias/`
+   - `data/raw/mexico/familias/`
+3. Ejecutar el scraping masivo con `--resume` para evitar duplicados:
+
+```bash
+cd scripts/01_scraping
+python scraper_all_families.py --resume
+```
+
+**Notas:**
+- Algunas categorias pueden no existir o tener nombres distintos. Si no hay
+  resultados, revisa la categoria exacta en Wikipedia.
+- El scraping respeta rate limits y reintentos; para lotes grandes puede tomar
+  varias horas.
 
 #### **Opción C: Scraper recursivo desde URLs iniciales**
 ```bash
