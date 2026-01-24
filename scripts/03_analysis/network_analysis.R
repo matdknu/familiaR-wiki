@@ -4,8 +4,14 @@ pacman::p_load(ggplot2, dplyr, tidyr, cowplot, ggpubr, ggrepel, scales,
 
 
 library(readr)
-datos_wikipedia <- read_csv("data/datos_wikipedia.csv") |> 
-  clean_names()
+
+# Leer y preparar datos
+datos_wikipedia <- read_csv("datos_chile_manual2.csv") |> 
+  clean_names() |> 
+  rename(id = url) |> 
+  select(nombre, familia, id) |> 
+  mutate(row_id = row_number())
+
 
 
 
@@ -61,7 +67,7 @@ g1 <- ggraph(g_tidy, layout = "fr") +
     title = "Red Familiar de Familias en Chile",
     color = "Tamaño\nComunidad"
   )
-
+g1
 ggsave(g1, filename = "images/red_familiar.png", width = 10, height = 8, dpi = 300)
 1
 

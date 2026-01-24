@@ -1,0 +1,21 @@
+# Requirements para wiki-chile_project
+# Scraping y procesamiento web
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Procesamiento de datos
+pandas>=2.0.0
+openpyxl>=3.1.0  # Para leer archivos Excel
+
+# Análisis y visualización
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Jupyter notebooks
+jupyter>=1.0.0
+ipykernel>=6.25.0
+
+# Utilidades
+python-dotenv>=1.0.0  # Para variables de entorno si es necesario

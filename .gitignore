@@ -1,6 +1,98 @@
+# =============================================================================
+# .gitignore para wiki-chile_project
+# =============================================================================
+
+# -------------------------------------
+# R
+# -------------------------------------
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
-familias_chilenas.csv
-datos_wikipedia.csv
+*.Rproj.user/
+
+# -------------------------------------
+# Python
+# -------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# -------------------------------------
+# DATOS DE SCRAPING - NO SUBIR
+# -------------------------------------
+# Excluir TODOS los datos de scraping (raw, procesados, etc.)
+data/raw/**/*.csv
+data/raw/**/*.xlsx
+data/raw/**/*.json
+data/processed/**/*.csv
+data/processed/**/*.xlsx
+data/processed/**/*.json
+
+# Excluir datos manuales sensibles (pero mantener la estructura)
+data/manual/*.xlsx
+data/manual/*.csv
+
+# Permitir que se suban archivos README en las carpetas de datos
+!data/**/README.md
+!data/README.md
+
+# -------------------------------------
+# Archivos temporales y del sistema
+# -------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# -------------------------------------
+# IDEs y editores
+# -------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.spyderproject
+.spyproject
+
+# -------------------------------------
+# Outputs (opcional - descomentar si no quieres subir outputs)
+# -------------------------------------
+# outputs/figures/*.png
+# outputs/figures/*.jpg
+# outputs/figures/*.html
+# outputs/tables/*.csv
+# outputs/reports/*.pdf
+
+# -------------------------------------
+# Logs y cachés
+# -------------------------------------
+*.log
+logs/
+cache/
+
+# -------------------------------------
+# Archivos de configuración local
+# -------------------------------------
+.env
+.env.local
+config.local.py
+secrets.yml
