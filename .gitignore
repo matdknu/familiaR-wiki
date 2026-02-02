@@ -96,3 +96,6 @@ cache/
 .env.local
 config.local.py
 secrets.yml
+
+# Scraping scripts (privado)
+scripts/01_scraping/
