@@ -1,0 +1,15 @@
+from,to,relation_type,from_pais,related_name,to_pais
+https://es.wikipedia.org/wiki/Manuel_Antonio_Jos%C3%A9_Warnes,https://es.wikipedia.org/wiki/Ignacio_Warnes,hijos,Chile,Ignacio Warnes,Argentina
+https://es.wikipedia.org/wiki/Manuel_Antonio_Jos%C3%A9_Warnes,https://es.wikipedia.org/wiki/Mart%C3%ADn_Jos%C3%A9_Warnes,hijos,Chile,Martín José Warnes,Argentina
+https://es.wikipedia.org/wiki/Manuel_Antonio_Jos%C3%A9_Warnes,https://es.wikipedia.org/wiki/Martina_Warnes,hijos,Chile,Martina Warnes,Argentina
+https://es.wikipedia.org/wiki/Ana_Jacoba_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,https://es.wikipedia.org/wiki/Alonso_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,padres,Chile,Alonso García de Zúñiga,Argentina
+https://es.wikipedia.org/wiki/Ana_Jacoba_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,https://es.wikipedia.org/wiki/Ignacio_Warnes,hijos,Chile,Ignacio Warnes,Argentina
+https://es.wikipedia.org/wiki/Ana_Jacoba_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,https://es.wikipedia.org/wiki/Martina_Warnes,hijos,Chile,Martina Warnes,Argentina
+https://es.wikipedia.org/wiki/Ana_Jacoba_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,https://es.wikipedia.org/wiki/Mart%C3%ADn_Jos%C3%A9_Warnes,hijos,Chile,Martín José Warnes,Argentina
+https://es.wikipedia.org/wiki/Alonso_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,https://es.wikipedia.org/wiki/Ana_Jacoba_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,hijos,Argentina,Ana Jacoba García de Zúñiga,Chile
+https://es.wikipedia.org/wiki/Ignacio_Warnes,https://es.wikipedia.org/wiki/Manuel_Antonio_Jos%C3%A9_Warnes,padres,Argentina,Manuel Antonio José Warnes,Chile
+https://es.wikipedia.org/wiki/Ignacio_Warnes,https://es.wikipedia.org/wiki/Ana_Jacoba_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,padres,Argentina,Ana Jacoba García de Zúñiga,Chile
+https://es.wikipedia.org/wiki/Mart%C3%ADn_Jos%C3%A9_Warnes,https://es.wikipedia.org/wiki/Manuel_Antonio_Jos%C3%A9_Warnes,padres,Argentina,Manuel Antonio José Warnes,Chile
+https://es.wikipedia.org/wiki/Mart%C3%ADn_Jos%C3%A9_Warnes,https://es.wikipedia.org/wiki/Ana_Jacoba_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,padres,Argentina,Ana Jacoba García de Zúñiga,Chile
+https://es.wikipedia.org/wiki/Martina_Warnes,https://es.wikipedia.org/wiki/Manuel_Antonio_Jos%C3%A9_Warnes,padres,Argentina,Manuel Antonio José Warnes,Chile
+https://es.wikipedia.org/wiki/Martina_Warnes,https://es.wikipedia.org/wiki/Ana_Jacoba_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,padres,Argentina,Ana Jacoba García de Zúñiga,Chile

@@ -1,0 +1,534 @@
+person_id,canonical_name,surname_1,surname_2,surname_signature,era_guess,has_positions,positions_count,has_family_edges,family_edges_count
+magdalena_vicu_na_aguirre,Magdalena Vicuña Aguirre,Aguirre,Vicuña,Aguirre Vicuña,1800s,FALSE,0,TRUE,5
+gregorio_amun_ategui_aldunate,Gregorio Amunátegui Aldunate,Aldunate,Amunátegui,Aldunate Amunátegui,1800s,TRUE,2,TRUE,2
+francisco_javier_err_azuriz_aldunate,Francisco Javier Errázuriz Aldunate,Aldunate,Errázuriz,Aldunate Errázuriz,1700s,TRUE,2,TRUE,5
+francisco_javier_err_azuriz_aldunate,Francisco Javier Errázuriz Aldunate,Aldunate,Errázuriz,Aldunate Errázuriz,1700s,TRUE,4,TRUE,10
+francisco_javier_err_azuriz_aldunate,Francisco Javier Errázuriz Aldunate,Aldunate,Errázuriz,Aldunate Errázuriz,1700s,TRUE,4,TRUE,10
+isidoro_err_azuriz_aldunate,Isidoro Errázuriz Aldunate,Aldunate,Errázuriz,Aldunate Errázuriz,1700s,TRUE,3,TRUE,1
+isidoro_de_err_azuriz_aldunate,Isidoro de Errázuriz Aldunate,Aldunate,Errázuriz,Aldunate Errázuriz,1700s,TRUE,3,TRUE,6
+arturo_fontaine_aldunate,Arturo Fontaine Aldunate,Aldunate,Fontaine,Aldunate Fontaine,1900s,TRUE,2,TRUE,4
+jorge_fontaine_aldunate,Jorge Fontaine Aldunate,Aldunate,Fontaine,Aldunate Fontaine,1900s,TRUE,1,TRUE,3
+felipe_alessandri,Felipe Alessandri,Alessandri,Felipe,Alessandri Felipe,1900s,TRUE,3,TRUE,7
+andr_es_allamand,Andrés Allamand,Allamand,Andrés,Allamand Andrés,1900s,TRUE,6,TRUE,3
+ignacia_allamand,Ignacia Allamand,Allamand,Ignacia,Allamand Ignacia,1900s,FALSE,0,TRUE,3
+mait_e_allamand,Maité Allamand,Allamand,Maité,Allamand Maité,1900s,FALSE,0,TRUE,3
+miguel_allamand,Miguel Allamand,Allamand,Miguel,Allamand Miguel,1900s,TRUE,1,TRUE,3
+miguel_luis_amun_ategui,Miguel Luis Amunátegui,Amunátegui,Luis,Amunátegui Luis,1800s,TRUE,10,TRUE,6
+miguel_luis_amun_ategui,Miguel Luis Amunátegui,Amunátegui,Luis,Amunátegui Luis,1800s,TRUE,10,TRUE,6
+anacleto_angelini,Anacleto Angelini,Angelini,Anacleto,Angelini Anacleto,1900s,FALSE,0,TRUE,3
+ignacio_cousi_no_arag_on,Ignacio Cousiño Aragón,Aragón,Cousiño,Aragón Cousiño,1900s,TRUE,1,TRUE,7
+julita_astaburuaga,Julita Astaburuaga,Astaburuaga,Julita,Astaburuaga Julita,1900s,FALSE,0,TRUE,4
+lionel_edwards_atherton,Lionel Edwards Atherton,Atherton,Edwards,Atherton Edwards,1800s,FALSE,0,TRUE,2
+arturo_aylwin,Arturo Aylwin,Aylwin,Arturo,Aylwin Arturo,1900s,TRUE,1,TRUE,6
+miguel_aylwin,Miguel Aylwin,Aylwin,Miguel,Aylwin Miguel,1800s,TRUE,2,TRUE,14
+miguel_aylwin,Miguel Aylwin,Aylwin,Miguel,Aylwin Miguel,1800s,TRUE,2,TRUE,14
+patricio_aylwin,Patricio Aylwin,Aylwin,Patricio,Aylwin Patricio,1900s,TRUE,3,TRUE,7
+andr_es_aylwin_az_ocar,Andrés Aylwin Azócar,Azócar,Aylwin,Azócar Aylwin,1900s,TRUE,2,TRUE,4
+alberto_bachelet,Alberto Bachelet,Bachelet,Alberto,Bachelet Alberto,1900s,TRUE,1,TRUE,3
+michelle_bachelet,Michelle Bachelet,Bachelet,Michelle,Bachelet Michelle,1900s,TRUE,2,TRUE,10
+michelle_bachelet,Michelle Bachelet,Bachelet,Michelle,Bachelet Michelle,1900s,TRUE,2,TRUE,10
+anselmo_de_la_cruz_y_bahamonde,Anselmo de la Cruz y Bahamonde,Bahamonde,Cruz,Bahamonde Cruz,1700s,TRUE,3,TRUE,1
+vicente_de_la_cruz_y_bahamonde,Vicente de la Cruz y Bahamonde,Bahamonde,Cruz,Bahamonde Cruz,1700s,FALSE,0,TRUE,3
+manuel_de_balmaceda_ballesteros,Manuel de Balmaceda Ballesteros,Ballesteros,Balmaceda,Ballesteros Balmaceda,1800s,TRUE,1,TRUE,5
+manuel_de_balmaceda_ballesteros,Manuel de Balmaceda Ballesteros,Ballesteros,Balmaceda,Ballesteros Balmaceda,1800s,TRUE,1,TRUE,5
+gustavo_alessandri_balmaceda,Gustavo Alessandri Balmaceda,Balmaceda,Alessandri,Balmaceda Alessandri,1900s,TRUE,1,TRUE,3
+jos_e_el_ias_balmaceda,José Elías Balmaceda,Balmaceda,Elías,Balmaceda Elías,1800s,FALSE,0,TRUE,1
+enrique_balmaceda,Enrique Balmaceda,Balmaceda,Enrique,Balmaceda Enrique,1800s,TRUE,18,TRUE,4
+enrique_balmaceda,Enrique Balmaceda,Balmaceda,Enrique,Balmaceda Enrique,1800s,TRUE,18,TRUE,4
+ernesto_balmaceda,Ernesto Balmaceda,Balmaceda,Ernesto,Balmaceda Ernesto,1800s,FALSE,0,TRUE,2
+ernesto_balmaceda,Ernesto Balmaceda,Balmaceda,Ernesto,Balmaceda Ernesto,1800s,FALSE,0,TRUE,2
+ernesto_balmaceda,Ernesto Balmaceda,Balmaceda,Ernesto,Balmaceda Ernesto,1800s,FALSE,0,TRUE,2
+ernesto_balmaceda,Ernesto Balmaceda,Balmaceda,Ernesto,Balmaceda Ernesto,1800s,FALSE,0,TRUE,2
+jos_e_luis_balmaceda,José Luis Balmaceda,Balmaceda,Luis,Balmaceda Luis,1900s,FALSE,0,FALSE,0
+jos_e_manuel_balmaceda,José Manuel Balmaceda,Balmaceda,Manuel,Balmaceda Manuel,1800s,TRUE,10,TRUE,12
+jos_e_manuel_balmaceda,José Manuel Balmaceda,Balmaceda,Manuel,Balmaceda Manuel,1800s,TRUE,10,TRUE,12
+ra_ul_mar_in_balmaceda,Raúl Marín Balmaceda,Balmaceda,Marín,Balmaceda Marín,1900s,TRUE,2,TRUE,3
+manuel_montt_balmaceda,Manuel Montt Balmaceda,Balmaceda,Montt,Balmaceda Montt,1900s,TRUE,2,TRUE,5
+marta_montt_balmaceda,Marta Montt Balmaceda,Balmaceda,Montt,Balmaceda Montt,1900s,FALSE,0,TRUE,3
+pedro_balmaceda,Pedro Balmaceda,Balmaceda,Pedro,Balmaceda Pedro,1800s,FALSE,0,TRUE,2
+jaime_concha_bara_nao,Jaime Concha Barañao,Barañao,Concha,Barañao Concha,1900s,TRUE,1,TRUE,2
+manuel_jos_e_barrenechea,Manuel José Barrenechea,Barrenechea,José,Barrenechea José,1800s,TRUE,1,FALSE,0
+julio_barrenechea,Julio Barrenechea,Barrenechea,Julio,Barrenechea Julio,1900s,TRUE,2,TRUE,2
+miguel_lobos_barrenechea,Miguel Lobos Barrenechea,Barrenechea,Lobos,Barrenechea Lobos,1900s,FALSE,0,FALSE,0
+bego_na_basauri,Begoña Basauri,Basauri,Begoña,Basauri Begoña,1900s,FALSE,0,TRUE,3
+paz_bascu_n_an,Paz Bascuñán,Bascuñán,Paz,Bascuñán Paz,1900s,FALSE,0,TRUE,6
+enrique_basombr_io,Enrique Basombrío,Basombrío,Enrique,Basombrío Enrique,1800s,TRUE,1,TRUE,4
+andr_es_bello,Andrés Bello,Bello,Andrés,Bello Andrés,1700s,TRUE,2,TRUE,7
+carlos_bello,Carlos Bello,Bello,Carlos,Bello Carlos,1800s,TRUE,1,TRUE,3
+in_es_echever_ia_bello,Inés Echevería Bello,Bello,Echevería,Bello Echevería,1800s,FALSE,0,TRUE,3
+joaqu_in_edwards_bello,Joaquín Edwards Bello,Bello,Edwards,Bello Edwards,1800s,FALSE,0,TRUE,5
+joaqu_in_edwards_bello,Joaquín Edwards Bello,Bello,Edwards,Bello Edwards,1800s,FALSE,0,TRUE,5
+emilio_bello,Emilio Bello,Bello,Emilio,Bello Emilio,1800s,TRUE,7,TRUE,5
+rebeca_matte_bello,Rebeca Matte Bello,Bello,Matte,Bello Matte,1800s,FALSE,0,TRUE,8
+rebeca_matte_bello,Rebeca Matte Bello,Bello,Matte,Bello Matte,1800s,FALSE,0,TRUE,8
+gloria_benavides,Gloria Benavides,Benavides,Gloria,Benavides Gloria,1900s,FALSE,0,TRUE,2
+javier_bitar,Javier Bitar,Bitar,Javier,Bitar Javier,1900s,FALSE,0,TRUE,2
+basti_an_bodenh_ofer,Bastián Bodenhöfer,Bodenhfer,Bastián,Bodenhfer Bastián,1900s,FALSE,0,TRUE,7
+jos_e_domingo_amun_ategui_borgo_no,José Domingo Amunátegui Borgoño,Borgoño,Amunátegui,Borgoño Amunátegui,1800s,FALSE,0,FALSE,0
+vicente_bori_c,Vicente Borić,Bori,Vicente,Bori Vicente,1900s,FALSE,0,TRUE,5
+vladimiro_bori_c,Vladimiro Borić,Bori,Vladimiro,Bori Vladimiro,1900s,FALSE,0,TRUE,1
+federico_puga_borne,Federico Puga Borne,Borne,Puga,Borne Puga,1800s,FALSE,0,TRUE,2
+jorge_edwards_brown,Jorge Edwards Brown,Brown,Edwards,Brown Edwards,1700s,TRUE,12,TRUE,6
+jorge_edwards_brown,Jorge Edwards Brown,Brown,Edwards,Brown Edwards,1700s,TRUE,12,TRUE,6
+francisco_echenique_bryce,Francisco Echenique Bryce,Bryce,Echenique,Bryce Echenique,1800s,TRUE,1,TRUE,3
+agust_in_edwards_budge,Agustín Edwards Budge,Budge,Edwards,Budge Edwards,1800s,FALSE,0,TRUE,4
+gonzalo_bulnes,Gonzalo Bulnes,Bulnes,Gonzalo,Bulnes Gonzalo,1800s,FALSE,0,TRUE,4
+gonzalo_bulnes,Gonzalo Bulnes,Bulnes,Gonzalo,Bulnes Gonzalo,1800s,FALSE,0,TRUE,4
+luis_hern_an_granier_bulnes,Luis Hernán Granier Bulnes,Bulnes,Granier,Bulnes Granier,1900s,FALSE,0,TRUE,3
+luz_granier_bulnes,Luz Granier Bulnes,Bulnes,Granier,Bulnes Granier,1900s,FALSE,0,TRUE,2
+luz_bulnes,Luz Bulnes,Bulnes,Luz,Bulnes Luz,1900s,FALSE,0,TRUE,3
+manuel_bulnes,Manuel Bulnes,Bulnes,Manuel,Bulnes Manuel,1700s,TRUE,10,TRUE,14
+manuel_bulnes,Manuel Bulnes,Bulnes,Manuel,Bulnes Manuel,1700s,TRUE,10,TRUE,14
+mercedes_bulnes,Mercedes Bulnes,Bulnes,Mercedes,Bulnes Mercedes,1900s,FALSE,0,TRUE,3
+juan_luis_ossa_bulnes,Juan Luis Ossa Bulnes,Bulnes,Ossa,Bulnes Ossa,1900s,TRUE,1,TRUE,3
+claudio_bunster,Claudio Bunster,Bunster,Claudio,Bunster Claudio,1900s,FALSE,0,FALSE,0
+jorge_bunster,Jorge Bunster,Bunster,Jorge,Bunster Jorge,1900s,TRUE,2,TRUE,4
+jorge_gabriel_larra_in_bunster,Jorge Gabriel Larraín Bunster,Bunster,Larraín,Bunster Larraín,1900s,FALSE,0,TRUE,5
+cristi_an_campos,Cristián Campos,Campos,Cristián,Campos Cristián,1900s,FALSE,0,TRUE,8
+ducado_de_san_carlos,Ducado de San Carlos,Carlos,San,Carlos San,NA,FALSE,0,FALSE,0
+santos_cavada_carvajal,Santos Cavada Carvajal,Carvajal,Cavada,Carvajal Cavada,1800s,FALSE,0,TRUE,3
+condado_de_carvajal,Condado de Carvajal,Carvajal,Condado,Carvajal Condado,NA,FALSE,0,FALSE,0
+luis_ferm_in_de_carvajal,Luis Fermín de Carvajal,Carvajal,Fermín,Carvajal Fermín,1700s,FALSE,0,TRUE,2
+arturo_prat_carvajal,Arturo Prat Carvajal,Carvajal,Prat,Carvajal Prat,1800s,TRUE,3,TRUE,4
+luis_mar_ia_de_silva_y_carvajal,Luis María de Silva y Carvajal,Carvajal,Silva,Carvajal Silva,1800s,FALSE,0,TRUE,1
+mar_ia_de_silva_y_carvajal,María de Silva y Carvajal,Carvajal,Silva,Carvajal Silva,1800s,FALSE,0,TRUE,5
+jos_e_pi_nera_carvallo,José Piñera Carvallo,Carvallo,Piñera,Carvallo Piñera,1900s,TRUE,3,TRUE,6
+condado_de_castillejo,Condado de Castillejo,Castillejo,Condado,Castillejo Condado,NA,FALSE,0,FALSE,0
+francisco_concha_castillo,Francisco Concha Castillo,Castillo,Concha,Castillo Concha,1800s,TRUE,1,TRUE,2
+alfredo_castro,Alfredo Castro,Castro,Alfredo,Castro Alfredo,1900s,FALSE,0,TRUE,2
+antonio_alfonso_cavada,Antonio Alfonso Cavada,Cavada,Alfonso,Cavada Alfonso,1800s,TRUE,3,TRUE,3
+ignacio_alfonso_cavada,Ignacio Alfonso Cavada,Cavada,Alfonso,Cavada Alfonso,2000s,FALSE,0,FALSE,0
+jos_e_alfonso_cavada,José Alfonso Cavada,Cavada,Alfonso,Cavada Alfonso,1800s,FALSE,0,FALSE,0
+dar_io_cavada,Darío Cavada,Cavada,Darío,Cavada Darío,1800s,FALSE,0,FALSE,0
+rafael_cavada,Rafael Cavada,Cavada,Rafael,Cavada Rafael,1900s,FALSE,0,TRUE,4
+ignacio_verdugo_cavada,Ignacio Verdugo Cavada,Cavada,Verdugo,Cavada Verdugo,1800s,FALSE,0,FALSE,0
+roberto_celed_on,Roberto Celedón,Celedón,Roberto,Celedón Roberto,1900s,TRUE,1,TRUE,2
+melchor_de_santiago_concha_y_cerda,Melchor de Santiago Concha y Cerda,Cerda,Concha,Cerda Concha,1700s,FALSE,0,FALSE,0
+emilio_de_la_cerda,Emilio de la Cerda,Cerda,Emilio,Cerda Emilio,1900s,TRUE,1,TRUE,1
+sergio_bitar_chacra,Sergio Bitar Chacra,Chacra,Bitar,Chacra Bitar,1900s,TRUE,4,TRUE,3
+andr_es_chadwick,Andrés Chadwick,Chadwick,Andrés,Chadwick Andrés,1900s,TRUE,6,TRUE,11
+casa_chadwick,Casa Chadwick,Chadwick,Casa,Chadwick Casa,NA,FALSE,0,FALSE,0
+familia_chadwick,Familia Chadwick,Chadwick,Familia,Chadwick Familia,NA,FALSE,0,FALSE,0
+familias_fundadoras_de_chile,Familias fundadoras de Chile,Chile,fundadoras,Chile fundadoras,NA,FALSE,0,FALSE,0
+francisco_solano_concha_cienfuegos,Francisco Solano Concha Cienfuegos,Cienfuegos,Concha,Cienfuegos Concha,1800s,FALSE,0,TRUE,2
+pedro_de_cisternas,Pedro de Cisternas,Cisternas,Pedro,Cisternas Pedro,NA,FALSE,0,TRUE,2
+eduardo_chadwick_claro,Eduardo Chadwick Claro,Claro,Chadwick,Claro Chadwick,1900s,FALSE,0,TRUE,3
+eduardo_chadwick_claro,Eduardo Chadwick Claro,Claro,Chadwick,Claro Chadwick,1900s,FALSE,0,TRUE,3
+eduardo_chadwick_claro,Eduardo Chadwick Claro,Claro,Chadwick,Claro Chadwick,1900s,FALSE,0,TRUE,3
+jorge_claro,Jorge Claro,Claro,Jorge,Claro Jorge,1900s,FALSE,0,TRUE,1
+carlos_larra_in_claro,Carlos Larraín Claro,Claro,Larraín,Claro Larraín,1800s,TRUE,4,TRUE,3
+miguel_claro,Miguel Claro,Claro,Miguel,Claro Miguel,1800s,FALSE,0,FALSE,0
+sebasti_an_claro,Sebastián Claro,Claro,Sebastián,Claro Sebastián,1900s,TRUE,2,TRUE,3
+sebasti_an_claro,Sebastián Claro,Claro,Sebastián,Claro Sebastián,1900s,TRUE,2,TRUE,3
+amelia_solar_de_claro,Amelia Solar de Claro,Claro,Solar,Claro Solar,1800s,FALSE,0,TRUE,3
+andr_es_concha,Andrés Concha,Concha,Andrés,Concha Andrés,1900s,FALSE,0,TRUE,3
+angel_e_concha,Ángel E. Concha,Concha,E,Concha E,1800s,TRUE,3,TRUE,1
+domingo_fern_andez_concha,Domingo Fernández Concha,Concha,Fernández,Concha Fernández,1800s,FALSE,0,TRUE,1
+ram_on_gonz_alez_concha,Ramón González Concha,Concha,González,Concha González,1800s,TRUE,1,FALSE,0
+malaqu_ias_concha,Malaquías Concha,Concha,Malaquías,Concha Malaquías,1800s,FALSE,0,FALSE,0
+joaqu_in_prieto_concha,Joaquín Prieto Concha,Concha,Prieto,Concha Prieto,1800s,TRUE,5,TRUE,5
+jos_e_nicol_as_de_la_cerda_de_santiago_concha,José Nicolás de la Cerda de Santiago Concha,Concha,Santiago,Concha Santiago,1700s,FALSE,0,TRUE,1
+sara_concha,Sara Concha,Concha,Sara,Concha Sara,1900s,FALSE,0,TRUE,1
+corregimiento_de_conchucos,Corregimiento de Conchucos,Conchucos,Corregimiento,Conchucos Corregimiento,NA,FALSE,0,FALSE,0
+francisco_javier_cavada_contreras,Francisco Javier Cavada Contreras,Contreras,Cavada,Contreras Cavada,1800s,FALSE,0,FALSE,0
+francisco_bulnes_correa,Francisco Bulnes Correa,Correa,Bulnes,Correa Bulnes,1800s,FALSE,0,TRUE,5
+tiago_correa,Tiago Correa,Correa,Tiago,Correa Tiago,1900s,FALSE,0,TRUE,4
+tiago_correa,Tiago Correa,Correa,Tiago,Correa Tiago,1900s,FALSE,0,TRUE,4
+mar_ia_elena_etcheberry_court,María Elena Etcheberry Court,Court,Etcheberry,Court Etcheberry,1900s,FALSE,0,TRUE,2
+taira_court,Taira Court,Court,Taira,Court Taira,1900s,FALSE,0,TRUE,2
+buenaventura_cousi_no,Buenaventura Cousiño,Cousiño,Buenaventura,Cousiño Buenaventura,1800s,TRUE,3,TRUE,1
+carlos_cousi_no,Carlos Cousiño,Cousiño,Carlos,Cousiño Carlos,1800s,FALSE,0,TRUE,2
+luis_cousi_no,Luis Cousiño,Cousiño,Luis,Cousiño Luis,1800s,TRUE,2,TRUE,3
+mat_ias_cousi_no,Matías Cousiño,Cousiño,Matías,Cousiño Matías,1800s,FALSE,0,TRUE,3
+casimiro_albano_de_la_cruz,Casimiro Albano de la Cruz,Cruz,Albano,Cruz Albano,1700s,TRUE,4,TRUE,1
+juan_albano_cruz,Juan Albano Cruz,Cruz,Albano,Cruz Albano,1700s,TRUE,4,TRUE,3
+emilio_claro_cruz,Emilio Claro Cruz,Cruz,Claro,Cruz Claro,1800s,FALSE,0,TRUE,1
+jos_e_luis_claro_y_cruz,José Luis Claro y Cruz,Cruz,Claro,Cruz Claro,1800s,FALSE,0,TRUE,2
+delfina_de_la_cruz,Delfina de la Cruz,Cruz,Delfina,Cruz Delfina,1800s,FALSE,0,TRUE,3
+fabio_cruz,Fabio Cruz,Cruz,Fabio,Cruz Fabio,1900s,FALSE,0,TRUE,3
+guillermo_feli_u_cruz,Guillermo Feliú Cruz,Cruz,Feliú,Cruz Feliú,1900s,FALSE,0,FALSE,0
+juan_manuel_de_la_cruz,Juan Manuel de la Cruz,Cruz,Manuel,Cruz Manuel,1700s,FALSE,0,TRUE,3
+mateo_de_la_cruz,Mateo de la Cruz,Cruz,Mateo,Cruz Mateo,1700s,FALSE,0,TRUE,6
+mateo_de_la_cruz,Mateo de la Cruz,Cruz,Mateo,Cruz Mateo,1700s,FALSE,0,TRUE,6
+francisco_antonio_pinto_cruz,Francisco Antonio Pinto Cruz,Cruz,Pinto,Cruz Pinto,1800s,TRUE,4,TRUE,5
+mariano_de_silva_y_carvajalxiiimarqu_es_de_santa_cruz,Mariano de Silva y CarvajalXIIImarqués de Santa Cruz,Cruz,Santa,Cruz Santa,1800s,TRUE,4,TRUE,6
+mariano_de_silva_y_carvajalxiiimarqu_es_de_santa_cruz,Mariano de Silva y CarvajalXIIImarqués de Santa Cruz,Cruz,Santa,Cruz Santa,1800s,TRUE,4,TRUE,6
+eduardo_cruz_coke,Eduardo Cruz-Coke,CruzCoke,Eduardo,CruzCoke Eduardo,1800s,TRUE,3,TRUE,4
+eduardo_cruz_coke,Eduardo Cruz-Coke,CruzCoke,Eduardo,CruzCoke Eduardo,1800s,TRUE,3,TRUE,4
+luciano_cruz_coke,Luciano Cruz-Coke,CruzCoke,Luciano,CruzCoke Luciano,1900s,TRUE,3,TRUE,7
+marta_cruz_coke,Marta Cruz-Coke,CruzCoke,Marta,CruzCoke Marta,1900s,FALSE,0,TRUE,4
+marta_cruz_coke,Marta Cruz-Coke,CruzCoke,Marta,CruzCoke Marta,1900s,FALSE,0,TRUE,8
+marta_cruz_coke,Marta Cruz-Coke,CruzCoke,Marta,CruzCoke Marta,1900s,FALSE,0,TRUE,8
+carlos_cruzat,Carlos Cruzat,Cruzat,Carlos,Cruzat Carlos,1900s,FALSE,0,FALSE,0
+jos_e_antonio_guzm_an_cruzat,José Antonio Guzmán Cruzat,Cruzat,Guzmán,Cruzat Guzmán,1900s,TRUE,1,FALSE,0
+hern_an_cubillos,Hernán Cubillos,Cubillos,Hernán,Cubillos Hernán,1900s,TRUE,1,TRUE,4
+marcela_cubillos,Marcela Cubillos,Cubillos,Marcela,Cubillos Marcela,1900s,FALSE,0,TRUE,5
+mauricio_riesco_droguett,Mauricio Riesco Droguett,Droguett,Riesco,Droguett Riesco,1800s,TRUE,1,TRUE,2
+mauricio_riesco_droguett,Mauricio Riesco Droguett,Droguett,Riesco,Droguett Riesco,1800s,TRUE,1,TRUE,2
+mercedes_ducci,Mercedes Ducci,Ducci,Mercedes,Ducci Mercedes,1900s,FALSE,0,TRUE,4
+mar_ia_elena_duvauchelle,María Elena Duvauchelle,Duvauchelle,Elena,Duvauchelle Elena,1900s,FALSE,0,TRUE,2
+julio_jung_duvauchelle,Julio Jung Duvauchelle,Duvauchelle,Jung,Duvauchelle Jung,1900s,FALSE,0,TRUE,4
+mar_ia_luisa_carvajal_d_avalos,María Luisa Carvajal Dávalos,Dávalos,Carvajal,Dávalos Carvajal,1800s,FALSE,0,TRUE,8
+mar_ia_luisa_carvajal_d_avalos,María Luisa Carvajal Dávalos,Dávalos,Carvajal,Dávalos Carvajal,1800s,FALSE,0,TRUE,8
+sebasti_an_d_avalos,Sebastián Dávalos,Dávalos,Sebastián,Dávalos Sebastián,1900s,TRUE,1,TRUE,3
+agust_in_edwards_eastman,Agustín Edwards Eastman,Eastman,Edwards,Eastman Edwards,1900s,FALSE,0,TRUE,7
+roberto_edwards_eastman,Roberto Edwards Eastman,Eastman,Edwards,Eastman Edwards,1900s,FALSE,0,TRUE,1
+federico_err_azuriz_echaurren,Federico Errázuriz Echaurren,Echaurren,Errázuriz,Echaurren Errázuriz,1800s,TRUE,8,TRUE,8
+federico_err_azuriz_echaurren,Federico Errázuriz Echaurren,Echaurren,Errázuriz,Echaurren Errázuriz,1800s,TRUE,8,TRUE,8
+javier_err_azuriz_echaurren,Javier Errázuriz Echaurren,Echaurren,Errázuriz,Echaurren Errázuriz,1800s,TRUE,3,TRUE,3
+mar_ia_josefa_err_azuriz_echaurren,María Josefa Errázuriz Echaurren,Echaurren,Errázuriz,Echaurren Errázuriz,1800s,FALSE,0,TRUE,14
+mar_ia_josefa_err_azuriz_echaurren,María Josefa Errázuriz Echaurren,Echaurren,Errázuriz,Echaurren Errázuriz,1800s,FALSE,0,TRUE,14
+mar_ia_josefa_err_azuriz_echaurren,María Josefa Errázuriz Echaurren,Echaurren,Errázuriz,Echaurren Errázuriz,1800s,FALSE,0,TRUE,14
+mar_ia_josefa_err_azuriz_echaurren,María Josefa Errázuriz Echaurren,Echaurren,Errázuriz,Echaurren Errázuriz,1800s,FALSE,0,TRUE,14
+rafael_err_azuriz_echaurren,Rafael Errázuriz Echaurren,Echaurren,Errázuriz,Echaurren Errázuriz,1800s,TRUE,2,TRUE,7
+rafael_err_azuriz_echaurren,Rafael Errázuriz Echaurren,Echaurren,Errázuriz,Echaurren Errázuriz,1800s,TRUE,2,TRUE,7
+eulogia_echaurren,Eulogia Echaurren,Echaurren,Eulogia,Echaurren Eulogia,1800s,FALSE,0,TRUE,14
+eulogia_echaurren,Eulogia Echaurren,Echaurren,Eulogia,Echaurren Eulogia,1800s,FALSE,0,TRUE,14
+eulogia_echaurren,Eulogia Echaurren,Echaurren,Eulogia,Echaurren Eulogia,1800s,FALSE,0,TRUE,14
+eulogia_echaurren,Eulogia Echaurren,Echaurren,Eulogia,Echaurren Eulogia,1800s,FALSE,0,TRUE,14
+francisco_echaurren,Francisco Echaurren,Echaurren,Francisco,Echaurren Francisco,1800s,TRUE,6,TRUE,2
+francisco_echaurren,Francisco Echaurren,Echaurren,Francisco,Echaurren Francisco,1800s,TRUE,6,TRUE,2
+fernando_lazcano_echaurren,Fernando Lazcano Echaurren,Echaurren,Lazcano,Echaurren Lazcano,1800s,TRUE,5,TRUE,5
+prudencio_lazcano_echaurren,Prudencio Lazcano Echaurren,Echaurren,Lazcano,Echaurren Lazcano,1800s,TRUE,4,TRUE,4
+silvestre_ochagav_ia_echaurren,Silvestre Ochagavía Echaurren,Echaurren,Ochagavía,Echaurren Ochagavía,1800s,TRUE,1,TRUE,1
+silvestre_ochagav_ia_echaurren,Silvestre Ochagavía Echaurren,Echaurren,Ochagavía,Echaurren Ochagavía,1800s,TRUE,1,TRUE,1
+pablo_echaurren,Pablo Echaurren,Echaurren,Pablo,Echaurren Pablo,1900s,FALSE,0,TRUE,1
+plaza_echaurren,Plaza Echaurren,Echaurren,Plaza,Echaurren Plaza,NA,FALSE,0,FALSE,0
+jorge_prieto_echaurren,Jorge Prieto Echaurren,Echaurren,Prieto,Echaurren Prieto,1800s,TRUE,3,TRUE,3
+cecilia_echenique,Cecilia Echenique,Echenique,Cecilia,Echenique Cecilia,1900s,FALSE,0,TRUE,2
+miguel_echenique,Miguel Echenique,Echenique,Miguel,Echenique Miguel,1800s,TRUE,2,TRUE,1
+jos_e_pi_nera_echenique,José Piñera Echenique,Echenique,Piñera,Echenique Piñera,1900s,TRUE,3,TRUE,7
+jos_e_rufino_echenique,José Rufino Echenique,Echenique,Rufino,Echenique Rufino,1800s,TRUE,6,TRUE,3
+victoria_trist_an_de_echenique,Victoria Tristán de Echenique,Echenique,Tristán,Echenique Tristán,1800s,FALSE,0,TRUE,8
+victoria_trist_an_de_echenique,Victoria Tristán de Echenique,Echenique,Tristán,Echenique Tristán,1800s,FALSE,0,TRUE,8
+gertrudis_eche_nique,Gertrudis Echeñique,Echeñique,Gertrudis,Echeñique Gertrudis,1800s,FALSE,0,TRUE,3
+gertrudis_eche_nique,Gertrudis Echeñique,Echeñique,Gertrudis,Echeñique Gertrudis,1800s,FALSE,0,TRUE,3
+catalina_edwards,Catalina Edwards,Edwards,Catalina,Edwards Catalina,1900s,FALSE,0,TRUE,2
+edificio_comercial_edwards,Edificio Comercial Edwards,Edwards,Comercial,Edwards Comercial,NA,TRUE,1,FALSE,0
+alberto_decombe_edwards,Alberto Decombe Edwards,Edwards,Decombe,Edwards Decombe,1900s,TRUE,1,TRUE,3
+emilio_edwards,Emilio Edwards,Edwards,Emilio,Edwards Emilio,1900s,FALSE,0,TRUE,2
+familia_edwards,Familia Edwards,Edwards,Familia,Edwards Familia,NA,FALSE,0,FALSE,0
+p_ia_figueroa_edwards,Pía Figueroa Edwards,Edwards,Figueroa,Edwards Figueroa,1900s,FALSE,0,TRUE,3
+carlos_izquierdo_edwards,Carlos Izquierdo Edwards,Edwards,Izquierdo,Edwards Izquierdo,1800s,FALSE,0,TRUE,1
+rojo_edwards,Rojo Edwards,Edwards,Rojo,Edwards Rojo,1900s,TRUE,2,TRUE,4
+ricardo_salas_edwards,Ricardo Salas Edwards,Edwards,Salas,Edwards Salas,1800s,FALSE,0,TRUE,2
+ricardo_salas_edwards,Ricardo Salas Edwards,Edwards,Salas,Edwards Salas,1800s,FALSE,0,TRUE,2
+maximiano_err_azuriz_eguiguren,Maximiano Errázuriz Eguiguren,Eguiguren,Errázuriz,Eguiguren Errázuriz,1900s,TRUE,2,TRUE,3
+nicolas_laso_errazuriz,Nicolas Laso Errazuriz,Errazuriz,Laso,Errazuriz Laso,1800s,TRUE,2,TRUE,3
+guillermo_arthur_err_azuriz,Guillermo Arthur Errázuriz,Errázuriz,Arthur,Errázuriz Arthur,1900s,TRUE,2,TRUE,1
+luis_barriga_err_azuriz,Luis Barriga Errázuriz,Errázuriz,Barriga,Errázuriz Barriga,1800s,TRUE,1,TRUE,3
+alfredo_barros_err_azuriz,Alfredo Barros Errázuriz,Errázuriz,Barros,Errázuriz Barros,1800s,TRUE,7,TRUE,4
+juan_alfonso_chadwick_err_azuriz,Juan Alfonso Chadwick Errázuriz,Errázuriz,Chadwick,Errázuriz Chadwick,1900s,FALSE,0,TRUE,3
+juan_alfonso_chadwick_err_azuriz,Juan Alfonso Chadwick Errázuriz,Errázuriz,Chadwick,Errázuriz Chadwick,1900s,FALSE,0,TRUE,3
+juan_alfonso_chadwick_err_azuriz,Juan Alfonso Chadwick Errázuriz,Errázuriz,Chadwick,Errázuriz Chadwick,1900s,FALSE,0,TRUE,3
+francisco_javier_correa_err_azuriz,Francisco Javier Correa Errázuriz,Errázuriz,Correa,Errázuriz Correa,1800s,TRUE,1,TRUE,2
+familia_err_azuriz,Familia Errázuriz,Errázuriz,Familia,Errázuriz Familia,NA,FALSE,0,FALSE,0
+federico_err_azuriz,Federico Errázuriz,Errázuriz,Federico,Errázuriz Federico,1800s,TRUE,1,TRUE,2
+federico_err_azuriz,Federico Errázuriz,Errázuriz,Federico,Errázuriz Federico,1800s,TRUE,1,TRUE,2
+hern_an_felipe_err_azuriz,Hernán Felipe Errázuriz,Errázuriz,Felipe,Errázuriz Felipe,1900s,TRUE,6,TRUE,5
+fernando_err_azuriz,Fernando Errázuriz,Errázuriz,Fernando,Errázuriz Fernando,1800s,TRUE,5,TRUE,11
+fernando_err_azuriz,Fernando Errázuriz,Errázuriz,Fernando,Errázuriz Fernando,1700s,TRUE,5,TRUE,11
+fernando_err_azuriz,Fernando Errázuriz,Errázuriz,Fernando,Errázuriz Fernando,1700s,TRUE,5,TRUE,11
+juan_ignacio_gonz_alez_err_azuriz,Juan Ignacio González Errázuriz,Errázuriz,González,Errázuriz González,1900s,FALSE,0,FALSE,0
+eugenia_huici_de_err_azuriz,Eugenia Huici de Errázuriz,Errázuriz,Huici,Errázuriz Huici,1800s,FALSE,0,TRUE,6
+eugenia_huici_de_err_azuriz,Eugenia Huici de Errázuriz,Errázuriz,Huici,Errázuriz Huici,1800s,FALSE,0,TRUE,6
+isidoro_err_azuriz,Isidoro Errázuriz,Errázuriz,Isidoro,Errázuriz Isidoro,1800s,FALSE,0,FALSE,0
+josefa_err_azuriz,Josefa Errázuriz,Errázuriz,Josefa,Errázuriz Josefa,1900s,TRUE,2,TRUE,5
+ladislao_err_azuriz,Ladislao Errázuriz,Errázuriz,Ladislao,Errázuriz Ladislao,1800s,TRUE,3,TRUE,7
+ladislao_err_azuriz,Ladislao Errázuriz,Errázuriz,Ladislao,Errázuriz Ladislao,1800s,TRUE,3,TRUE,7
+le_on_err_azuriz,León Errázuriz,Errázuriz,León,Errázuriz León,1900s,FALSE,0,FALSE,0
+avenida_lo_err_azuriz,Avenida Lo Errázuriz,Errázuriz,Lo,Errázuriz Lo,NA,FALSE,0,FALSE,0
+silvestre_ochagav_ia_err_azuriz,Silvestre Ochagavía Errázuriz,Errázuriz,Ochagavía,Errázuriz Ochagavía,1800s,TRUE,3,TRUE,3
+silvestre_ochagav_ia_err_azuriz,Silvestre Ochagavía Errázuriz,Errázuriz,Ochagavía,Errázuriz Ochagavía,1800s,TRUE,3,TRUE,3
+javier_ovalle_err_azuriz,Javier Ovalle Errázuriz,Errázuriz,Ovalle,Errázuriz Ovalle,1700s,TRUE,4,TRUE,1
+mat_ias_ovalle_err_azuriz,Matías Ovalle Errázuriz,Errázuriz,Ovalle,Errázuriz Ovalle,1800s,TRUE,3,TRUE,1
+pedro_pablo_err_azuriz,Pedro Pablo Errázuriz,Errázuriz,Pablo,Errázuriz Pablo,1900s,TRUE,1,TRUE,3
+paz_err_azuriz,Paz Errázuriz,Errázuriz,Paz,Errázuriz Paz,1900s,FALSE,0,TRUE,2
+clemente_p_erez_err_azuriz,Clemente Pérez Errázuriz,Errázuriz,Pérez,Errázuriz Pérez,1900s,TRUE,3,TRUE,5
+ram_on_err_azuriz,Ramón Errázuriz,Errázuriz,Ramón,Errázuriz Ramón,1700s,TRUE,4,TRUE,2
+carlos_riesco_err_azuriz,Carlos Riesco Errázuriz,Errázuriz,Riesco,Errázuriz Riesco,1800s,TRUE,4,TRUE,6
+jorge_riesco_err_azuriz,Jorge Riesco Errázuriz,Errázuriz,Riesco,Errázuriz Riesco,1800s,TRUE,5,TRUE,5
+jos_e_rafael_salas_err_azuriz,José Rafael Salas Errázuriz,Errázuriz,Salas,Errázuriz Salas,1800s,FALSE,0,TRUE,1
+jos_e_rafael_salas_err_azuriz,José Rafael Salas Errázuriz,Errázuriz,Salas,Errázuriz Salas,1800s,FALSE,0,TRUE,1
+juan_subercaseaux_err_azuriz,Juan Subercaseaux Errázuriz,Errázuriz,Subercaseaux,Errázuriz Subercaseaux,1800s,FALSE,0,FALSE,0
+blas_tomic_err_azuriz,Blas Tomic Errázuriz,Errázuriz,Tomic,Errázuriz Tomic,1900s,TRUE,1,TRUE,4
+esteban_tomic_err_azuriz,Esteban Tomic Errázuriz,Errázuriz,Tomic,Errázuriz Tomic,1900s,TRUE,2,TRUE,4
+francisco_tomic_err_azuriz,Francisco Tomic Errázuriz,Errázuriz,Tomic,Errázuriz Tomic,1900s,FALSE,0,TRUE,4
+jos_e_tom_as_err_azuriz,José Tomás Errázuriz,Errázuriz,Tomás,Errázuriz Tomás,1800s,FALSE,0,TRUE,5
+virginia_err_azuriz,Virginia Errázuriz,Errázuriz,Virginia,Errázuriz Virginia,1900s,FALSE,0,TRUE,3
+vi_na_err_azuriz,Viña Errázuriz,Errázuriz,Viña,Errázuriz Viña,NA,FALSE,0,FALSE,0
+vi_na_err_azuriz,Viña Errázuriz,Errázuriz,Viña,Errázuriz Viña,NA,FALSE,0,FALSE,0
+c_esar_benavides_escobar,César Benavides Escobar,Escobar,Benavides,Escobar Benavides,1900s,TRUE,3,TRUE,2
+alvaro_espinoza,Álvaro Espinoza,Espinoza,Álvaro,Espinoza Álvaro,1900s,FALSE,0,TRUE,4
+alfredo_etcheberry,Alfredo Etcheberry,Etcheberry,Alfredo,Etcheberry Alfredo,1900s,FALSE,0,TRUE,8
+alfredo_etcheberry,Alfredo Etcheberry,Etcheberry,Alfredo,Etcheberry Alfredo,1900s,FALSE,0,TRUE,8
+javier_etcheberry,Javier Etcheberry,Etcheberry,Javier,Etcheberry Javier,1900s,TRUE,4,TRUE,5
+gino_angelini_fabbri,Gino Angelini Fabbri,Fabbri,Angelini,Fabbri Angelini,1900s,FALSE,0,TRUE,4
+juan_benavides_feli_u,Juan Benavides Feliú,Feliú,Benavides,Feliú Benavides,1900s,TRUE,1,TRUE,3
+juan_benavides_feli_u,Juan Benavides Feliú,Feliú,Benavides,Feliú Benavides,1900s,TRUE,1,TRUE,3
+manuel_feli_u,Manuel Feliú,Feliú,Manuel,Feliú Manuel,1900s,FALSE,0,TRUE,3
+olga_feli_u,Olga Feliú,Feliú,Olga,Feliú Olga,1900s,TRUE,1,TRUE,2
+jos_e_daniel_balmaceda_fern_andez,José Daniel Balmaceda Fernández,Fernández,Balmaceda,Fernández Balmaceda,1800s,FALSE,0,TRUE,1
+jos_e_mar_ia_balmaceda_fern_andez,José María Balmaceda Fernández,Fernández,Balmaceda,Fernández Balmaceda,1800s,FALSE,0,TRUE,2
+jos_e_rafael_balmaceda_fern_andez,José Rafael Balmaceda Fernández,Fernández,Balmaceda,Fernández Balmaceda,1800s,FALSE,0,TRUE,7
+jos_e_rafael_balmaceda_fern_andez,José Rafael Balmaceda Fernández,Fernández,Balmaceda,Fernández Balmaceda,1800s,FALSE,0,TRUE,7
+dionisio_concha_fern_andez,Dionisio Concha Fernández,Fernández,Concha,Fernández Concha,1800s,TRUE,1,TRUE,3
+mar_ia_luisa_fern_andez,María Luisa Fernández,Fernández,Luisa,Fernández Luisa,1800s,FALSE,0,TRUE,3
+mariano_fern_andez,Mariano Fernández,Fernández,Mariano,Fernández Mariano,1900s,TRUE,2,TRUE,3
+patricio_fern_andez,Patricio Fernández,Fernández,Patricio,Fernández Patricio,1900s,FALSE,0,TRUE,2
+jos_e_fern_andez_villaverde,José Fernández-Villaverde,FernándezVillaverde,José,FernándezVillaverde José,1900s,FALSE,0,TRUE,2
+ernesto_fontaine_ferreira_nobriga,Ernesto Fontaine Ferreira-Nobriga,FerreiraNobriga,Fontaine,FerreiraNobriga Fontaine,1900s,TRUE,1,TRUE,3
+sebasti_an_edwards_figueroa,Sebastián Edwards Figueroa,Figueroa,Edwards,Figueroa Edwards,1900s,FALSE,0,TRUE,5
+juan_andr_es_fontaine,Juan Andrés Fontaine,Fontaine,Andrés,Fontaine Andrés,1900s,TRUE,2,TRUE,3
+sof_ia_garc_ia,Sofía García,García,Sofía,García Sofía,1900s,FALSE,0,TRUE,2
+luisa_garmendia,Luisa Garmendia,Garmendia,Luisa,Garmendia Luisa,1700s,FALSE,0,TRUE,5
+enriqueta_pinto_garmendia,Enriqueta Pinto Garmendia,Garmendia,Pinto,Garmendia Pinto,1800s,FALSE,0,TRUE,10
+enriqueta_pinto_garmendia,Enriqueta Pinto Garmendia,Garmendia,Pinto,Garmendia Pinto,1800s,FALSE,0,TRUE,10
+benjam_in_edwards_garriga,Benjamín Edwards Garriga,Garriga,Edwards,Garriga Edwards,1800s,TRUE,1,TRUE,2
+guillermo_edwards_garriga,Guillermo Edwards Garriga,Garriga,Edwards,Garriga Edwards,1800s,FALSE,0,TRUE,2
+antonio_di_girolamo,Antonio di Girolamo,Girolamo,di,Girolamo di,1900s,FALSE,0,TRUE,5
+claudia_di_girolamo,Claudia di Girolamo,Girolamo,di,Girolamo di,1900s,FALSE,0,TRUE,6
+claudio_di_girolamo,Claudio di Girolamo,Girolamo,di,Girolamo di,1900s,FALSE,0,TRUE,8
+mariana_di_girolamo,Mariana di Girolamo,Girolamo,di,Girolamo di,1900s,FALSE,0,TRUE,2
+pedro_di_girolamo,Pedro di Girolamo,Girolamo,di,Girolamo di,1900s,FALSE,0,TRUE,4
+vittorio_di_girolamo,Vittorio di Girolamo,Girolamo,di,Girolamo di,1900s,FALSE,0,TRUE,4
+beatrice_di_gir_olamo,Beatrice di Girólamo,Girólamo,di,Girólamo di,1900s,FALSE,0,FALSE,0
+jos_e_francisco_echaurren_gonz_alez,José Francisco Echaurren González,González,Echaurren,González Echaurren,1800s,TRUE,2,TRUE,3
+isidora_goyenechea,Isidora Goyenechea,Goyenechea,Isidora,Goyenechea Isidora,1800s,FALSE,0,TRUE,3
+marquesado_de_piedra_blanca_de_guana,Marquesado de Piedra Blanca de Guana,Guana,Blanca,Guana Blanca,NA,FALSE,0,FALSE,0
+octavio_err_azuriz_guilisasti,Octavio Errázuriz Guilisasti,Guilisasti,Errázuriz,Guilisasti Errázuriz,1900s,TRUE,4,TRUE,5
+juan_carlos_concha_guti_errez,Juan Carlos Concha Gutiérrez,Gutiérrez,Concha,Gutiérrez Concha,1900s,TRUE,1,TRUE,2
+jaime_guzm_an,Jaime Guzmán,Guzmán,Jaime,Guzmán Jaime,1900s,TRUE,1,TRUE,2
+casilda_de_silva_y_fern_andez_de_henestrosa,Casilda de Silva y Fernández de Henestrosa,Henestrosa,Fernández,Henestrosa Fernández,1900s,FALSE,0,TRUE,1
+gregorio_de_echaurren_herrera,Gregorio de Echaurren Herrera,Herrera,Echaurren,Herrera Echaurren,1700s,TRUE,2,TRUE,4
+gregorio_de_echaurren_herrera,Gregorio de Echaurren Herrera,Herrera,Echaurren,Herrera Echaurren,1700s,TRUE,2,TRUE,4
+isaac_hevia,Isaac Hevia,Hevia,Isaac,Hevia Isaac,1800s,TRUE,2,TRUE,5
+mar_ia_eugenia_hirmas,María Eugenia Hirmas,Hirmas,Eugenia,Hirmas Eugenia,1900s,TRUE,1,TRUE,2
+vicente_huidobro,Vicente Huidobro,Huidobro,Vicente,Huidobro Vicente,1800s,FALSE,0,TRUE,4
+ricardo_cruzat_hurtado,Ricardo Cruzat Hurtado,Hurtado,Cruzat,Hurtado Cruzat,1800s,TRUE,2,TRUE,3
+jos_e_joaqu_in_prieto_hurtado,José Joaquín Prieto Hurtado,Hurtado,Prieto,Hurtado Prieto,1800s,TRUE,4,TRUE,3
+francisco_javier_err_azuriz_isch,"Francisco Javier Errázuriz, ISch",ISch,Errázuriz,ISch Errázuriz,1900s,FALSE,0,FALSE,0
+godofredo_iommi,Godofredo Iommi,Iommi,Godofredo,Iommi Godofredo,1900s,FALSE,0,TRUE,2
+virginia_iommi,Virginia Iommi,Iommi,Virginia,Iommi Virginia,NA,FALSE,0,TRUE,2
+luis_cousi_no_mac_iver,Luis Cousiño Mac Iver,Iver,Mac,Iver Mac,1900s,FALSE,0,TRUE,3
+lily_i_niguez,Lily Iñiguez,Iñiguez,Lily,Iñiguez Lily,1900s,FALSE,0,TRUE,4
+lily_i_niguez,Lily Iñiguez,Iñiguez,Lily,Iñiguez Lily,1900s,FALSE,0,TRUE,4
+angela_jeria,Ángela Jeria,Jeria,Ángela,Jeria Ángela,1900s,FALSE,0,TRUE,3
+miguel_luis_amun_ategui_johnson,Miguel Luis Amunátegui Johnson,Johnson,Amunátegui,Johnson Amunátegui,1900s,TRUE,1,TRUE,3
+gabriel_amun_ategui_jord_an,Gabriel Amunátegui Jordán,Jordán,Amunátegui,Jordán Amunátegui,1800s,FALSE,0,FALSE,0
+gregorio_amun_ategui_jord_an,Gregorio Amunátegui Jordán,Jordán,Amunátegui,Jordán Amunátegui,1900s,TRUE,3,TRUE,2
+julio_jung,Julio Jung,Jung,Julio,Jung Julio,1900s,TRUE,1,TRUE,3
+isla_j_echica,Isla Jéchica,Jéchica,Isla,Jéchica Isla,NA,TRUE,1,FALSE,0
+aline_kuppenheim,Aline Kuppenheim,Kuppenheim,Aline,Kuppenheim Aline,1900s,FALSE,0,TRUE,4
+gonzalo_lama,Gonzalo Lama,Lama,Gonzalo,Lama Gonzalo,1900s,FALSE,0,FALSE,0
+herman_chadwick_larra_in,Herman Chadwick Larraín,Larraín,Chadwick,Larraín Chadwick,1900s,FALSE,0,TRUE,1
+jos_e_francisco_echaurren_larra_in,José Francisco Echaurren Larraín,Larraín,Echaurren,Larraín Echaurren,1800s,TRUE,3,TRUE,3
+el_ias_err_azuriz_larra_in,Elías Errázuriz Larraín,Larraín,Errázuriz,Larraín Errázuriz,1800s,TRUE,2,TRUE,3
+francisco_javier_err_azuriz_larra_in,Francisco Javier Errázuriz Larraín,Larraín,Errázuriz,Larraín Errázuriz,1700s,FALSE,0,TRUE,3
+gustavo_err_azuriz_larra_in,Gustavo Errázuriz Larraín,Larraín,Errázuriz,Larraín Errázuriz,1800s,TRUE,1,TRUE,5
+manuel_larra_in,Manuel Larraín,Larraín,Manuel,Larraín Manuel,1900s,FALSE,0,FALSE,0
+patricia_matte_larra_in,Patricia Matte Larraín,Larraín,Matte,Larraín Matte,1900s,FALSE,0,TRUE,5
+rafael_larra_in,Rafael Larraín,Larraín,Rafael,Larraín Rafael,1900s,FALSE,0,FALSE,0
+pedro_i_niguez_larra_in,Pedro Íñiguez Larraín,Larraín,Íñiguez,Larraín Íñiguez,1800s,TRUE,1,TRUE,3
+ana_mar_ia_barrenechea_de_lawner,Ana María Barrenechea de Lawner,Lawner,Barrenechea,Lawner Barrenechea,1900s,FALSE,0,TRUE,3
+miguel_lawner,Miguel Lawner,Lawner,Miguel,Lawner Miguel,1900s,FALSE,0,TRUE,2
+ladislao_err_azuriz_lazcano,Ladislao Errázuriz Lazcano,Lazcano,Errázuriz,Lazcano Errázuriz,1800s,FALSE,0,TRUE,3
+ladislao_err_azuriz_lazcano,Ladislao Errázuriz Lazcano,Lazcano,Errázuriz,Lazcano Errázuriz,1800s,FALSE,0,TRUE,3
+micaela_cousi_no_qui_nones_de_le_on,Micaela Cousiño Quiñones de León,León,Quiñones,León Quiñones,1900s,FALSE,0,TRUE,4
+jos_e_de_santiago_concha_jim_enez_lobat_on,José de Santiago Concha Jiménez Lobatón,Lobatón,Jiménez,Lobatón Jiménez,1700s,TRUE,1,FALSE,0
+jorge_astaburuaga_lyon,Jorge Astaburuaga Lyon,Lyon,Astaburuaga,Lyon Astaburuaga,1800s,TRUE,2,TRUE,4
+ricardo_lyon,Ricardo Lyon,Lyon,Ricardo,Lyon Ricardo,1800s,TRUE,2,TRUE,3
+carloscardenaloviedo_cavada_o_de_m,CarlosCardenalOviedo Cavada O. de M.,M,O,M O,1900s,FALSE,0,TRUE,1
+agust_in_edwards_mac_clure,Agustín Edwards Mac-Clure,MacClure,Edwards,MacClure Edwards,1800s,TRUE,4,TRUE,7
+ra_ul_edwards_mac_clure,Raúl Edwards Mac-Clure,MacClure,Edwards,MacClure Edwards,1800s,FALSE,0,TRUE,1
+alejandro_err_azuriz_mackenna,Alejandro Errázuriz Mackenna,Mackenna,Errázuriz,Mackenna Errázuriz,1800s,TRUE,2,TRUE,6
+domingo_err_azuriz_madariaga,Domingo Errázuriz Madariaga,Madariaga,Errázuriz,Madariaga Errázuriz,1700s,FALSE,0,TRUE,1
+francisco_javier_err_azuriz_madariaga,Francisco Javier Errázuriz Madariaga,Madariaga,Errázuriz,Madariaga Errázuriz,1700s,TRUE,1,TRUE,6
+jos_e_antonio_err_azuriz_madariaga,José Antonio Errázuriz Madariaga,Madariaga,Errázuriz,Madariaga Errázuriz,1700s,TRUE,2,TRUE,1
+santiago_err_azuriz_madariaga,Santiago Errázuriz Madariaga,Madariaga,Errázuriz,Madariaga Errázuriz,1700s,TRUE,1,TRUE,3
+jos_e_miguel_de_carvajal_y_manrique,José Miguel de Carvajal y Manrique,Manrique,Carvajal,Manrique Carvajal,1700s,FALSE,0,TRUE,1
+manuel_concha_mart_inez,Manuel Concha Martínez,Martínez,Concha,Martínez Concha,1900s,TRUE,4,TRUE,2
+roberto_matta,Roberto Matta,Matta,Roberto,Matta Roberto,1900s,FALSE,0,TRUE,6
+gordon_matta_clark,Gordon Matta-Clark,MattaClark,Gordon,MattaClark Gordon,1900s,FALSE,0,TRUE,2
+guillermo_edwards_matte,Guillermo Edwards Matte,Matte,Edwards,Matte Edwards,1800s,TRUE,7,TRUE,4
+ismael_edwards_matte,Ismael Edwards Matte,Matte,Edwards,Matte Edwards,1800s,TRUE,1,TRUE,3
+bernardo_larra_in_matte,Bernardo Larraín Matte,Matte,Larraín,Matte Larraín,1900s,FALSE,0,TRUE,3
+gustavo_lagos_matus,Gustavo Lagos Matus,Matus,Lagos,Matus Lagos,1900s,TRUE,1,TRUE,4
+gustavo_lagos_matus,Gustavo Lagos Matus,Matus,Lagos,Matus Lagos,1900s,TRUE,1,TRUE,4
+nicol_as_de_la_cruz_y_bahamondeiconde_de_maule,Nicolás de la Cruz y BahamondeiConde de Maule,Maule,BahamondeiConde,Maule BahamondeiConde,1700s,TRUE,1,TRUE,1
+francisco_de_la_maza,Francisco de la Maza,Maza,Francisco,Maza Francisco,1900s,TRUE,2,TRUE,1
+mar_ia_edwards_mcclure,María Edwards McClure,McClure,Edwards,McClure Edwards,1800s,FALSE,0,TRUE,6
+mar_ia_edwards_mcclure,María Edwards McClure,McClure,Edwards,McClure Edwards,1800s,FALSE,0,TRUE,6
+jorge_awad_mehech,Jorge Awad Mehech,Mehech,Awad,Mehech Awad,1900s,FALSE,0,TRUE,3
+pedro_cort_es_de_monroy_y_mendoza,Pedro Cortés de Monroy y Mendoza,Mendoza,Monroy,Mendoza Monroy,1700s,FALSE,0,TRUE,2
+ram_on_subercaseaux_mercado,Ramón Subercaseaux Mercado,Mercado,Subercaseaux,Mercado Subercaseaux,1700s,TRUE,3,TRUE,5
+francisca_merino,Francisca Merino,Merino,Francisca,Merino Francisca,1900s,FALSE,0,TRUE,4
+domingo_matte_mes_ias,Domingo Matte Mesías,Mesías,Matte,Mesías Matte,1800s,TRUE,3,TRUE,6
+paul_von_metternich,Paul von Metternich,Metternich,Paul,Metternich Paul,1800s,FALSE,0,TRUE,6
+paul_von_metternich,Paul von Metternich,Metternich,Paul,Metternich Paul,1800s,FALSE,0,TRUE,6
+agust_in_de_rojas_y_cort_es_monroy,Agustín de Rojas y Cortés Monroy,Monroy,Cortés,Monroy Cortés,NA,FALSE,0,FALSE,0
+federico_varela_cort_es_de_monroy,Federico Varela Cortés de Monroy,Monroy,Cortés,Monroy Cortés,1800s,FALSE,0,FALSE,0
+francisco_de_aguirre_cort_es_monroy,Francisco de Aguirre Cortés Monroy,Monroy,Cortés,Monroy Cortés,NA,FALSE,0,FALSE,0
+pedro_cort_es_de_monroy,Pedro Cortés de Monroy,Monroy,Cortés,Monroy Cortés,NA,FALSE,0,TRUE,3
+josefina_montan_e,Josefina Montané,Montané,Josefina,Montané Josefina,1900s,FALSE,0,TRUE,5
+juan_nicol_as_de_aguirre_y_barrenecheaimarqu_es_de_montep_io,Juan Nicolás de Aguirre y Barrenecheaimarqués de Montepío,Montepío,Barrenecheaimarqués,Montepío Barrenecheaimarqués,1700s,FALSE,0,FALSE,0
+carolina_de_moras,Carolina de Moras,Moras,Carolina,Moras Carolina,1900s,FALSE,0,TRUE,3
+fernando_lazcano_mujica,Fernando Lazcano Mujica,Mujica,Lazcano,Mujica Lazcano,1800s,TRUE,1,FALSE,0
+m_aximo_mujica,Máximo Mujica,Mujica,Máximo,Mujica Máximo,1800s,TRUE,2,FALSE,0
+ambrosio_bernardo_o_higgins,Ambrosio Bernardo O'Higgins,OHiggins,Bernardo,OHiggins Bernardo,1700s,TRUE,1,TRUE,4
+bernardo_o_higgins,Bernardo O'Higgins,OHiggins,Bernardo,OHiggins Bernardo,1700s,TRUE,6,TRUE,6
+pedro_demetrio_o_higgins,Pedro Demetrio O'Higgins,OHiggins,Demetrio,OHiggins Demetrio,1800s,FALSE,0,TRUE,3
+sandra_o_ryan,Sandra O'Ryan,ORyan,Sandra,ORyan Sandra,1900s,FALSE,0,TRUE,3
+marquesado_del_valle_de_oaxaca,Marquesado del Valle de Oaxaca,Oaxaca,Valle,Oaxaca Valle,NA,FALSE,0,FALSE,0
+ricardo_cruzat_ochagav_ia,Ricardo Cruzat Ochagavía,Ochagavía,Cruzat,Ochagavía Cruzat,1900s,FALSE,0,TRUE,3
+alvaro_cruzat_ochagav_ia,Álvaro Cruzat Ochagavía,Ochagavía,Cruzat,Ochagavía Cruzat,1900s,TRUE,2,TRUE,3
+carla_ochoa,Carla Ochoa,Ochoa,Carla,Ochoa Carla,1900s,TRUE,1,TRUE,1
+catalina_olcay,Catalina Olcay,Olcay,Catalina,Olcay Catalina,1900s,FALSE,0,TRUE,2
+an_ibal_cruzat_ortega,Aníbal Cruzat Ortega,Ortega,Cruzat,Ortega Cruzat,1800s,TRUE,3,TRUE,6
+aurelio_cruzat_ortega,Aurelio Cruzat Ortega,Ortega,Cruzat,Ortega Cruzat,1800s,TRUE,1,TRUE,2
+guillermo_chadwick_ort_uzar,Guillermo Chadwick Ortúzar,Ortúzar,Chadwick,Ortúzar Chadwick,1800s,TRUE,1,TRUE,2
+emiliana_concha_de_ossa,Emiliana Concha de Ossa,Ossa,Concha,Ossa Concha,1800s,FALSE,0,TRUE,1
+carlos_cruz_coke_ossa,Carlos Cruz-Coke Ossa,Ossa,CruzCoke,Ossa CruzCoke,1900s,TRUE,1,TRUE,1
+juan_eduardo_err_azuriz_ossa,Juan Eduardo Errázuriz Ossa,Ossa,Errázuriz,Ossa Errázuriz,1900s,FALSE,0,TRUE,5
+juan_jos_e_ossa,Juan José Ossa,Ossa,José,Ossa José,1900s,TRUE,4,TRUE,3
+eliodoro_matte_ossa,Eliodoro Matte Ossa,Ossa,Matte,Ossa Matte,1900s,FALSE,0,TRUE,6
+agust_in_edwards_ossand_on,Agustín Edwards Ossandón,Ossandón,Edwards,Ossandón Edwards,1800s,TRUE,2,TRUE,6
+jos_e_joaqu_in_edwards_ossand_on,José Joaquín Edwards Ossandón,Ossandón,Edwards,Ossandón Edwards,1800s,TRUE,1,TRUE,3
+luz_valdivieso_ovalle,Luz Valdivieso Ovalle,Ovalle,Valdivieso,Ovalle Valdivieso,1900s,FALSE,0,TRUE,3
+mar_ia_victoria_ovalle,María Victoria Ovalle,Ovalle,Victoria,Ovalle Victoria,1900s,FALSE,0,TRUE,3
+mariana_aylwin_oyarz_un,Mariana Aylwin Oyarzún,Oyarzún,Aylwin,Oyarzún Aylwin,1900s,FALSE,0,TRUE,10
+mariana_aylwin_oyarz_un,Mariana Aylwin Oyarzún,Oyarzún,Aylwin,Oyarzún Aylwin,1900s,FALSE,0,TRUE,10
+leonor_oyarz_un,Leonor Oyarzún,Oyarzún,Leonor,Oyarzún Leonor,1900s,TRUE,1,TRUE,5
+lux_pascal,Lux Pascal,Pascal,Lux,Pascal Lux,1900s,FALSE,0,TRUE,3
+pedro_pascal,Pedro Pascal,Pascal,Pedro,Pascal Pedro,1900s,FALSE,0,TRUE,3
+manuel_concha_pedregal,Manuel Concha Pedregal,Pedregal,Concha,Pedregal Concha,1800s,TRUE,1,TRUE,3
+ladislao_err_azuriz_pereira,Ladislao Errázuriz Pereira,Pereira,Errázuriz,Pereira Errázuriz,1900s,TRUE,2,TRUE,3
+ladislao_err_azuriz_pereira,Ladislao Errázuriz Pereira,Pereira,Errázuriz,Pereira Errázuriz,1900s,TRUE,2,TRUE,3
+francisco_antonio_pinto,Francisco Antonio Pinto,Pinto,Antonio,Pinto Antonio,1700s,TRUE,10,TRUE,12
+an_ibal_pinto,Aníbal Pinto,Pinto,Aníbal,Pinto Aníbal,1800s,TRUE,10,TRUE,18
+an_ibal_pinto,Aníbal Pinto,Pinto,Aníbal,Pinto Aníbal,1800s,TRUE,10,TRUE,18
+ar_istides_pinto,Arístides Pinto,Pinto,Arístides,Pinto Arístides,1800s,TRUE,2,FALSE,0
+manuel_bulnes_pinto,Manuel Bulnes Pinto,Pinto,Bulnes,Pinto Bulnes,1800s,TRUE,2,TRUE,5
+herman_chadwick_pi_nera,Herman Chadwick Piñera,Piñera,Chadwick,Piñera Chadwick,1900s,TRUE,3,TRUE,5
+mar_ia_teresa_chadwick_pi_nera,María Teresa Chadwick Piñera,Piñera,Chadwick,Piñera Chadwick,1900s,TRUE,1,TRUE,4
+miguel_pi_nera,Miguel Piñera,Piñera,Miguel,Piñera Miguel,1900s,FALSE,0,TRUE,7
+pablo_pi_nera,Pablo Piñera,Piñera,Pablo,Piñera Pablo,1900s,TRUE,4,TRUE,5
+sebasti_an_pi_nera,Sebastián Piñera,Piñera,Sebastián,Piñera Sebastián,1900s,TRUE,5,TRUE,8
+enrique_cueto_plaza,Enrique Cueto Plaza,Plaza,Cueto,Plaza Cueto,1900s,FALSE,0,TRUE,3
+ignacio_cueto_plaza,Ignacio Cueto Plaza,Plaza,Cueto,Plaza Cueto,1900s,FALSE,0,TRUE,4
+arturo_prat,Arturo Prat,Prat,Arturo,Prat Arturo,1800s,FALSE,0,TRUE,3
+carmela_carvajal_de_prat,Carmela Carvajal de Prat,Prat,Carvajal,Prat Carvajal,1800s,FALSE,0,TRUE,3
+francisco_prat,Francisco Prat,Prat,Francisco,Prat Francisco,1900s,TRUE,2,TRUE,5
+jorge_prat,Jorge Prat,Prat,Jorge,Prat Jorge,1900s,TRUE,2,TRUE,5
+jos_e_mar_ia_de_la_cruz_prieto,José María de la Cruz Prieto,Prieto,Cruz,Prieto Cruz,1700s,TRUE,2,TRUE,3
+mar_ia_jos_e_prieto,María José Prieto,Prieto,José,Prieto José,1900s,FALSE,0,TRUE,7
+mariano_puga,Mariano Puga,Puga,Mariano,Puga Mariano,1900s,FALSE,0,TRUE,1
+rosario_puga,Rosario Puga,Puga,Rosario,Puga Rosario,1700s,FALSE,0,TRUE,4
+augusto_matte_p_erez,Augusto Matte Pérez,Pérez,Matte,Pérez Matte,1800s,TRUE,3,TRUE,3
+manuel_bulnes_quevedo,Manuel Bulnes Quevedo,Quevedo,Bulnes,Quevedo Bulnes,1700s,FALSE,0,TRUE,2
+miguel_concha_quezada,Miguel Concha Quezada,Quezada,Concha,Quezada Concha,1900s,TRUE,2,TRUE,3
+miguel_luis_amun_ategui_reyes,Miguel Luis Amunátegui Reyes,Reyes,Amunátegui,Reyes Amunátegui,1800s,FALSE,0,TRUE,2
+germ_an_riesco,Germán Riesco,Riesco,Germán,Riesco Germán,1800s,TRUE,2,TRUE,8
+germ_an_riesco,Germán Riesco,Riesco,Germán,Riesco Germán,1800s,TRUE,2,TRUE,8
+germ_an_ignacio_riesco,Germán Ignacio Riesco,Riesco,Ignacio,Riesco Ignacio,1800s,TRUE,3,TRUE,4
+germ_an_ignacio_riesco,Germán Ignacio Riesco,Riesco,Ignacio,Riesco Ignacio,1800s,TRUE,3,TRUE,4
+isabel_riquelme,Isabel Riquelme,Riquelme,Isabel,Riquelme Isabel,1700s,FALSE,0,TRUE,6
+petronila_riquelme,Petronila Riquelme,Riquelme,Petronila,Riquelme Petronila,1800s,FALSE,0,TRUE,3
+sergio_concha_rodr_iguez,Sergio Concha Rodríguez,Rodríguez,Concha,Rodríguez Concha,1900s,FALSE,0,FALSE,0
+fernando_de_la_fuente_y_rojas,Fernando de la Fuente y Rojas,Rojas,Fuente,Rojas Fuente,1700s,FALSE,0,FALSE,0
+pedro_de_la_fuente_y_rojas,Pedro de la Fuente y Rojas,Rojas,Fuente,Rojas Fuente,1700s,FALSE,0,FALSE,0
+agust_in_ross,Agustín Ross,Ross,Agustín,Ross Agustín,1800s,TRUE,1,TRUE,1
+agust_in_edwards_ross,Agustín Edwards Ross,Ross,Edwards,Ross Edwards,1800s,TRUE,5,TRUE,7
+arturo_edwards_ross,Arturo Edwards Ross,Ross,Edwards,Ross Edwards,1800s,TRUE,1,TRUE,4
+juana_ross,Juana Ross,Ross,Juana,Ross Juana,1800s,FALSE,0,TRUE,8
+juana_ross,Juana Ross,Ross,Juana,Ross Juana,1800s,FALSE,0,TRUE,8
+roberto_angelini_rossi,Roberto Angelini Rossi,Rossi,Angelini,Rossi Angelini,1900s,FALSE,0,TRUE,4
+alvaro_rudolphy,Álvaro Rudolphy,Rudolphy,Álvaro,Rudolphy Álvaro,1900s,FALSE,0,TRUE,4
+rodrigo_err_azuriz_ruiz_tagle,Rodrigo Errázuriz Ruiz-Tagle,RuizTagle,Errázuriz,RuizTagle Errázuriz,1900s,FALSE,0,TRUE,1
+jos_e_raymundo_del_r_io,José Raymundo del Río,Río,Raymundo,Río Raymundo,1700s,FALSE,0,FALSE,0
+carlos_balmaceda_saavedra,Carlos Balmaceda Saavedra,Saavedra,Balmaceda,Saavedra Balmaceda,1800s,TRUE,8,TRUE,4
+juan_ignacio_sabatini,Juan Ignacio Sabatini,Sabatini,Ignacio,Sabatini Ignacio,1900s,FALSE,0,TRUE,2
+vicente_sabatini,Vicente Sabatini,Sabatini,Vicente,Sabatini Vicente,1900s,TRUE,1,TRUE,3
+casilda_fern_andez_de_henestrosa_y_salabert,Casilda Fernández de Henestrosa y Salabert,Salabert,Henestrosa,Salabert Henestrosa,1800s,FALSE,0,TRUE,1
+adela_edwards_salas,Adela Edwards Salas,Salas,Edwards,Salas Edwards,1800s,FALSE,0,FALSE,0
+ignacio_err_azuriz_salas,Ignacio Errázuriz Salas,Salas,Errázuriz,Salas Errázuriz,1800s,TRUE,2,TRUE,2
+rodrigo_salinas,Rodrigo Salinas,Salinas,Rodrigo,Salinas Rodrigo,1900s,FALSE,0,TRUE,3
+francisco_bulnes_sanfuentes,Francisco Bulnes Sanfuentes,Sanfuentes,Bulnes,Sanfuentes Bulnes,1900s,TRUE,4,TRUE,11
+jaime_bulnes_sanfuentes,Jaime Bulnes Sanfuentes,Sanfuentes,Bulnes,Sanfuentes Bulnes,1900s,TRUE,2,TRUE,10
+manuel_bulnes_sanfuentes,Manuel Bulnes Sanfuentes,Sanfuentes,Bulnes,Sanfuentes Bulnes,1900s,TRUE,1,TRUE,10
+john_de_saulles,John de Saulles,Saulles,John,Saulles John,1800s,FALSE,0,TRUE,3
+felipe_bulnes_serrano,Felipe Bulnes Serrano,Serrano,Bulnes,Serrano Bulnes,1900s,TRUE,3,TRUE,9
+juan_cueto_sierra,Juan Cueto Sierra,Sierra,Cueto,Sierra Cueto,1900s,FALSE,0,TRUE,4
+isabel_de_silva,Isabel de Silva,Silva,Isabel,Silva Isabel,1800s,FALSE,0,TRUE,5
+domingo_amun_ategui_solar,Domingo Amunátegui Solar,Solar,Amunátegui,Solar Amunátegui,1800s,TRUE,3,FALSE,0
+gregorio_amun_ategui_solar,Gregorio Amunátegui Solar,Solar,Amunátegui,Solar Amunátegui,1800s,TRUE,2,TRUE,3
+luis_claro_solar,Luis Claro Solar,Solar,Claro,Solar Claro,1800s,TRUE,2,TRUE,2
+felipe_cruzat_solar,Felipe Cruzat Solar,Solar,Cruzat,Solar Cruzat,1900s,FALSE,0,TRUE,1
+mercedes_mar_in_del_solar,Mercedes Marín del Solar,Solar,Marín,Solar Marín,1800s,FALSE,0,TRUE,4
+hern_an_de_solminihac,Hernán de Solminihac,Solminihac,Hernán,Solminihac Hernán,1900s,TRUE,2,TRUE,3
+mar_ia_del_carmen_sotomayor,María del Carmen Sotomayor,Sotomayor,Carmen,Sotomayor Carmen,1700s,FALSE,0,TRUE,8
+mar_ia_del_carmen_sotomayor,María del Carmen Sotomayor,Sotomayor,Carmen,Sotomayor Carmen,1700s,FALSE,0,TRUE,8
+francisco_javier_err_azuriz_sotomayor,Francisco Javier Errázuriz Sotomayor,Sotomayor,Errázuriz,Sotomayor Errázuriz,1800s,TRUE,3,TRUE,3
+aquiles_concha_stuardo,Aquiles Concha Stuardo,Stuardo,Concha,Stuardo Concha,1800s,TRUE,2,TRUE,3
+buenaventura_argando_na_subercaseaux,Buenaventura Argandoña Subercaseaux,Subercaseaux,Argandoña,Subercaseaux Argandoña,1800s,FALSE,0,TRUE,1
+carlos_concha_subercaseaux,Carlos Concha Subercaseaux,Subercaseaux,Concha,Subercaseaux Concha,1800s,TRUE,5,TRUE,3
+juan_enrique_concha_subercaseaux,Juan Enrique Concha Subercaseaux,Subercaseaux,Concha,Subercaseaux Concha,1800s,TRUE,4,TRUE,3
+luis_subercaseaux,Luis Subercaseaux,Subercaseaux,Luis,Subercaseaux Luis,1800s,FALSE,0,TRUE,2
+pedro_subercaseaux,Pedro Subercaseaux,Subercaseaux,Pedro,Subercaseaux Pedro,1800s,FALSE,0,TRUE,1
+china_su_arez,China Suárez,Suárez,China,Suárez China,1900s,FALSE,0,TRUE,3
+jorge_err_azuriz_tagle,Jorge Errázuriz Tagle,Tagle,Errázuriz,Tagle Errázuriz,1800s,FALSE,0,TRUE,1
+marcial_tagle,Marcial Tagle,Tagle,Marcial,Tagle Marcial,1900s,FALSE,0,TRUE,2
+luis_cousi_no_talavera,Luis Cousiño Talavera,Talavera,Cousiño,Talavera Cousiño,1800s,FALSE,0,TRUE,3
+francisco_javier_err_azuriz_talavera,Francisco Javier Errázuriz Talavera,Talavera,Errázuriz,Talavera Errázuriz,1900s,TRUE,1,TRUE,3
+arturo_fontaine_talavera,Arturo Fontaine Talavera,Talavera,Fontaine,Talavera Fontaine,1900s,FALSE,0,TRUE,3
+patricio_de_solminihac_tampier,Patricio de Solminihac Tampier,Tampier,Solminihac,Tampier Solminihac,1900s,FALSE,0,TRUE,3
+radomiro_tomic,Radomiro Tomic,Tomic,Radomiro,Tomic Radomiro,1900s,TRUE,5,TRUE,5
+melchor_concha_y_toro,Melchor Concha y Toro,Toro,Concha,Toro Concha,1800s,TRUE,3,TRUE,6
+emilia_de_toro,Emilia de Toro,Toro,Emilia,Toro Emilia,1800s,FALSE,0,TRUE,8
+emilia_de_toro,Emilia de Toro,Toro,Emilia,Toro Emilia,1800s,FALSE,0,TRUE,8
+jos_e_mar_ia_echenique_y_trist_an,José María Echenique y Tristán,Tristán,Echenique,Tristán Echenique,2000s,TRUE,4,TRUE,3
+juan_mart_in_echenique_y_trist_an,Juan Martín Echenique y Tristán,Tristán,Echenique,Tristán Echenique,1800s,TRUE,10,TRUE,6
+juan_mart_in_echenique_y_trist_an,Juan Martín Echenique y Tristán,Tristán,Echenique,Tristán Echenique,1800s,TRUE,10,TRUE,6
+p_io_trist_an,Pío Tristán,Tristán,Pío,Tristán Pío,1700s,TRUE,2,TRUE,2
+rafael_err_azuriz_urmeneta,Rafael Errázuriz Urmeneta,Urmeneta,Errázuriz,Urmeneta Errázuriz,1800s,FALSE,0,TRUE,1
+crescente_err_azuriz_valdivieso,Crescente Errázuriz Valdivieso,Valdivieso,Errázuriz,Valdivieso Errázuriz,1800s,FALSE,0,FALSE,0
+maximiano_err_azuriz_valdivieso,Maximiano Errázuriz Valdivieso,Valdivieso,Errázuriz,Valdivieso Errázuriz,1800s,TRUE,4,TRUE,4
+gustavo_alessandri_vald_es,Gustavo Alessandri Valdés,Valdés,Alessandri,Valdés Alessandri,1900s,TRUE,4,TRUE,12
+herman_chadwick_vald_es,Herman Chadwick Valdés,Valdés,Chadwick,Valdés Chadwick,1900s,FALSE,0,TRUE,4
+tom_as_chadwick_vald_es,Tomás Chadwick Valdés,Valdés,Chadwick,Valdés Chadwick,1900s,TRUE,1,TRUE,3
+ricardo_claro_vald_es,Ricardo Claro Valdés,Valdés,Claro,Valdés Claro,1900s,FALSE,0,TRUE,3
+consuelo_vald_es,Consuelo Valdés,Valdés,Consuelo,Valdés Consuelo,1900s,FALSE,0,TRUE,2
+loreto_valenzuela,Loreto Valenzuela,Valenzuela,Loreto,Valenzuela Loreto,1900s,FALSE,0,TRUE,3
+v_ictor_echaurren_valero,Víctor Echaurren Valero,Valero,Echaurren,Valero Echaurren,1800s,TRUE,3,TRUE,2
+juvencio_valle,Juvencio Valle,Valle,Juvencio,Valle Juvencio,1900s,FALSE,0,FALSE,0
+casa_de_carvajal_y_vargas,Casa de Carvajal y Vargas,Vargas,Carvajal,Vargas Carvajal,NA,FALSE,0,FALSE,0
+ferm_in_francisco_de_carvajal_vargas,Fermín Francisco de Carvajal Vargas,Vargas,Carvajal,Vargas Carvajal,1700s,FALSE,0,TRUE,1
+francisco_de_carvajal_vargas,Francisco de Carvajal Vargas,Vargas,Carvajal,Vargas Carvajal,NA,FALSE,0,TRUE,3
+eugenio_cruz_vargas,Eugenio Cruz Vargas,Vargas,Cruz,Vargas Cruz,1900s,FALSE,0,TRUE,5
+eugenio_cruz_vargas,Eugenio Cruz Vargas,Vargas,Cruz,Vargas Cruz,1900s,FALSE,0,TRUE,5
+mariano_puga_vega,Mariano Puga Vega,Vega,Puga,Vega Puga,1800s,FALSE,0,TRUE,3
+benjam_in_claro_velasco,Benjamín Claro Velasco,Velasco,Claro,Velasco Claro,1900s,TRUE,3,TRUE,2
+jorge_alessandri_vergara,Jorge Alessandri Vergara,Vergara,Alessandri,Vergara Alessandri,1900s,TRUE,2,TRUE,10
+jorge_astaburuaga_vergara,Jorge Astaburuaga Vergara,Vergara,Astaburuaga,Vergara Astaburuaga,1800s,TRUE,3,TRUE,4
+pedro_nolasco_cruz_vergara,Pedro Nolasco Cruz Vergara,Vergara,Cruz,Vergara Cruz,1800s,FALSE,0,TRUE,3
+blanca_err_azuriz_vergara,Blanca Errázuriz Vergara,Vergara,Errázuriz,Vergara Errázuriz,1800s,FALSE,0,TRUE,3
+benjam_in_vicu_na,Benjamín Vicuña,Vicuña,Benjamín,Vicuña Benjamín,1900s,FALSE,0,TRUE,3
+ram_on_subercaseaux_vicu_na,Ramón Subercaseaux Vicuña,Vicuña,Subercaseaux,Vicuña Subercaseaux,1800s,TRUE,8,TRUE,10
+jos_e_antonio_viera_gallo,José Antonio Viera-Gallo,VieraGallo,Antonio,VieraGallo Antonio,1900s,TRUE,7,TRUE,7
+ren_e_benavides_del_villar,René Benavides del Villar,Villar,Benavides,Villar Benavides,1900s,TRUE,2,TRUE,3
+ren_e_benavides_del_villar,René Benavides del Villar,Villar,Benavides,Villar Benavides,1900s,TRUE,2,TRUE,3
+raimundo_fern_andez_villaverde,Raimundo Fernández Villaverde,Villaverde,Fernández,Villaverde Fernández,1800s,TRUE,8,TRUE,2
+alberto_edwards_vives,Alberto Edwards Vives,Vives,Edwards,Vives Edwards,1800s,TRUE,6,TRUE,5
+benjam_in_walker,Benjamín Walker,Walker,Benjamín,Walker Benjamín,1900s,FALSE,0,TRUE,2
+ignacio_walker,Ignacio Walker,Walker,Ignacio,Walker Ignacio,1900s,TRUE,3,TRUE,9
+felipe_ward,Felipe Ward,Ward,Felipe,Ward Felipe,1900s,TRUE,4,TRUE,3
+gonzalo_winter,Gonzalo Winter,Winter,Gonzalo,Winter Gonzalo,1900s,TRUE,1,TRUE,5
+eduardo_yrarr_azaval,Eduardo Yrarrázaval,Yrarrázaval,Eduardo,Yrarrázaval Eduardo,1800s,TRUE,4,TRUE,4
+manuel_jos_e_yrarr_azaval,Manuel José Yrarrázaval,Yrarrázaval,José,Yrarrázaval José,1800s,TRUE,5,TRUE,7
+manuel_yrarr_azaval,Manuel Yrarrázaval,Yrarrázaval,Manuel,Yrarrázaval Manuel,1800s,TRUE,1,TRUE,3
+pedro_cort_es_de_monroy_y_zavala,Pedro Cortés de Monroy y Zavala,Zavala,Monroy,Zavala Monroy,1700s,TRUE,1,TRUE,3
+dositeo_err_azuriz_za_nartu,Dositeo Errázuriz Zañartu,Zañartu,Errázuriz,Zañartu Errázuriz,1800s,TRUE,4,TRUE,2
+federico_err_azuriz_za_nartu,Federico Errázuriz Zañartu,Zañartu,Errázuriz,Zañartu Errázuriz,1800s,TRUE,3,TRUE,5
+federico_err_azuriz_za_nartu,Federico Errázuriz Zañartu,Zañartu,Errázuriz,Zañartu Errázuriz,1800s,TRUE,3,TRUE,5
+alfredo_prieto_zenteno,Alfredo Prieto Zenteno,Zenteno,Prieto,Zenteno Prieto,1800s,TRUE,1,TRUE,4
+melanie_zichy_ferraris,Melanie Zichy-Ferraris,ZichyFerraris,Melanie,ZichyFerraris Melanie,1800s,FALSE,0,TRUE,2

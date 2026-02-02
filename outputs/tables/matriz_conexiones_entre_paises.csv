@@ -1,0 +1,10 @@
+from_pais,to_pais,relation_type,n
+Argentina,Chile,padres,6
+Chile,Argentina,hijos,6
+Argentina,Chile,hijos,1
+Argentina,Perú,padres,1
+Chile,Argentina,padres,1
+Chile,Perú,hijos,1
+México,Argentina,pareja,1
+México,Chile,hijos,1
+Perú,Argentina,hijos,1

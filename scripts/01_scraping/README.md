@@ -43,6 +43,8 @@ python scraper_categories.py --category "Familia_Montt" --output "montt_2024"
 - `--category`: Nombre de la categoría (ej: "Familia_Alessandri")
 - `--url`: URL completa de la categoría
 - `--output`: Nombre personalizado para archivos de salida
+- `--depth`: Profundidad máxima de scraping recursivo (default: 2)
+- `--resume`: Reanudar desde archivo existente si está disponible
 
 **Características:**
 - ✅ Extrae TODOS los miembros listados en la categoría
@@ -61,19 +63,26 @@ Esto generará: `data/raw/chile/familias/familia_alessandri_completo.csv`
 ---
 
 ### 3. `scraper_all_families.py` - Scraper Masivo
-Scraper que extrae TODAS las familias chilenas desde la categoría principal.
+Scraper que extrae TODAS las familias de un país (por categoría principal).
 
 **Uso:**
 ```bash
-# Scrapear todas las familias
+# Scrapear todas las familias (chile por defecto)
 python scraper_all_families.py
+
+# Scrapear familias de Argentina
+python scraper_all_families.py --country argentina
 
 # Scrapear solo las primeras 5 (para testing)
 python scraper_all_families.py --limit 5
 ```
 
 **Parámetros:**
+- `--country`: País a scrapear (`chile`, `argentina`, `mexico`)
+- `--category-custom`: Categoría personalizada (ej: `"Familias_políticas_de_Argentina"`)
 - `--limit`: Número máximo de familias a scrapear (útil para testing)
+- `--workers`: Número de procesos en paralelo (default: 1)
+- `--resume`: Reanudar saltando familias ya descargadas
 
 **Características:**
 - ✅ Scraping automático de +100 familias chilenas
@@ -92,10 +101,13 @@ python scraper_all_families.py --limit 5
 ### `config.py`
 Configuración centralizada:
 - URLs iniciales por país
-- Profundidad máxima de scraping
-- Delays entre requests
+- Profundidad máxima de scraping (por defecto 1)
+- Delay entre requests (por defecto 3s)
 - Palabras clave para relaciones
 - Prefijos de URLs a excluir
+- Headers base y variables de entorno:
+  - `WIKI_USER_AGENT` sobreescribe el UA para HTML/API
+  - `WIKI_ACCESS_TOKEN` se usa solo si exportas además `WIKI_BEARER_HTML=true` (Bearer en HTML puede devolver 400)
 
 ### `scraper_utils.py`
 Funciones auxiliares compartidas:
@@ -164,6 +176,93 @@ python scraper_all_families.py --limit 10
 python scraper_all_families.py
 ```
 
+### Ejemplo 5: Reanudar y paralelizar scraping masivo
+```bash
+python scraper_all_families.py --resume --workers 3
+```
+
+### Ejemplo 6: Scrapear Argentina (limit 5 para probar)
+```bash
+python scraper_all_families.py --country argentina --limit 5 --resume
+```
+
+### Ejemplo 7: Scrapear México (limit 5 para probar)
+```bash
+python scraper_all_families.py --country mexico --limit 5 --resume
+```
+
+### Ejemplo 8: Scrapear Familias Políticas de Argentina
+```bash
+# Scrapear todas las familias políticas de Argentina
+export WIKI_USER_AGENT='familiares/1.0'
+python scraper_all_families.py --country argentina --category-custom "Familias_políticas_de_Argentina" --resume --workers 1
+
+# O usar el script helper:
+./scripts/01_scraping/scrape_familias_politicas_argentina.sh
+```
+
+---
+
+## Guía rápida multi-país
+
+1) Preparar entorno
+- Recomendado: setear un User-Agent propio:
+  ```bash
+  export WIKI_USER_AGENT="familiares/1.0"
+  ```
+- No uses Bearer en HTML salvo que lo necesites: por defecto el token solo se envía a la API; si exportas `WIKI_BEARER_HTML=true` se añadirá Authorization a HTML (puede causar 400).
+- Si tienes token API: `export WIKI_ACCESS_TOKEN="..."` (se usará en API; en HTML solo con `WIKI_BEARER_HTML=true`).
+
+2) Scraper masivo por país
+- Chile (por defecto):
+  ```bash
+  python scraper_all_families.py --resume --workers 1
+  ```
+- Argentina:
+  ```bash
+  python scraper_all_families.py --country argentina --resume --workers 1
+  ```
+- México:
+  ```bash
+  python scraper_all_families.py --country mexico --resume --workers 1
+  ```
+- Usa `--limit` para pruebas pequeñas y `--workers N` para paralelizar (cuidado con rate limits).
+
+3) Scraper por familia (categoría)
+- Chile:
+  ```bash
+  python scraper_categories.py --category "Familia_Alessandri"
+  ```
+- Argentina (especificando país para la ruta de salida):
+  ```bash
+  python scraper_categories.py --category "Familia_Macri" --country argentina
+  ```
+- México:
+  ```bash
+  python scraper_categories.py --url "https://es.wikipedia.org/wiki/Categoría:Familia_X" --country mexico
+  ```
+- Flags útiles: `--depth` (profundidad recursiva), `--no-relatives` (sin recursión), `--resume`.
+
+4) Scraper general por URLs
+- Arranque rápido:
+  ```bash
+  python scraper_main.py --country chile --depth 1
+  ```
+- Con URLs manuales (Excel con columna URL):
+  ```bash
+  python scraper_main.py --manual ../../data/manual/familia_link_manual2.xlsx --depth 1
+  ```
+- Nota: `scraper_main` usa `data/raw/<pais>/{personas,relaciones}` como salida.
+
+5) Salidas
+- Masivo/categorías: `data/raw/<pais>/familias/familia_xxx_completo.csv` y `_CONSOLIDADO_todas_familias.csv`.
+- General: `data/raw/<pais>/personas/<output>_personas.csv` y `.../relaciones/<output>_relaciones.csv`.
+
+6) Manejo de errores comunes
+- 403 Too many requests: sube `DELAY_SECONDS` (config.py), usa `WIKI_USER_AGENT`, baja `--workers`, y evita `WIKI_BEARER_HTML`.
+- 400 con token: quita `WIKI_BEARER_HTML` para no mandar Bearer en HTML; deja solo `WIKI_USER_AGENT`.
+- Categoría vacía: algunas categorías son contenedores sin páginas; prueba otra familia o subcategoría específica.
+
 ---
 
 ## Notas Importantes
@@ -173,6 +272,10 @@ python scraper_all_families.py
 3. **Reintentos**: Todos los scripts reintentan automáticamente en caso de errores
 4. **Enlaces preservados**: Los datos familiares incluyen URLs para análisis de redes
 5. **Duplicados**: El script masivo elimina personas duplicadas automáticamente
+6. **Token opcional**: Si tienes acceso vía API, exporta `WIKI_ACCESS_TOKEN` y se usará en los requests
+   - `WIKI_USER_AGENT` para un User-Agent personalizado
+   - Solo se envía el Bearer en HTML si defines `WIKI_BEARER_HTML=true`
+   - Si ves 400 al usar token, quita `WIKI_BEARER_HTML` y deja solo `WIKI_USER_AGENT`
 
 ---
 
@@ -185,6 +288,10 @@ python scraper_all_families.py
 **Error: Connection timeout**
 - Verifica tu conexión a internet
 - Los scripts reintentan automáticamente
+**Error: 403 / Too many requests**
+- Sube el delay (`config.py`), define `WIKI_USER_AGENT`, y evita Bearer en HTML (no exportes `WIKI_BEARER_HTML`)
+**Error: 400 con token**
+- No envíes Bearer en HTML: elimina `WIKI_BEARER_HTML` o deja solo `WIKI_USER_AGENT`
 
 **Error: Categoría vacía**
 - Verifica que la categoría exista en Wikipedia

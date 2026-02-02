@@ -1,0 +1,17 @@
+periodo,cargo_tipo,n,pct
+Pre-1973,Otro,2992,91.1
+Post-dictadura (1990+),Otro,1487,98.7
+Dictadura (1973-1990),Otro,418,97.2
+Pre-1973,Diputado,117,3.6
+Pre-1973,Senador,85,2.6
+Pre-1973,Ministro,37,1.1
+Pre-1973,Presidente,37,1.1
+Post-dictadura (1990+),Presidente,15,1
+Pre-1973,Embajador,15,0.5
+Dictadura (1973-1990),Diputado,5,1.2
+Dictadura (1973-1990),Presidente,4,0.9
+Dictadura (1973-1990),Embajador,3,0.7
+Post-dictadura (1990+),Diputado,2,0.1
+Post-dictadura (1990+),Embajador,1,0.1
+Post-dictadura (1990+),Senador,1,0.1
+Pre-1973,Alcalde,1,0

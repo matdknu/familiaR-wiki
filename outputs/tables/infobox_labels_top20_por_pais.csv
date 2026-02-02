@@ -1,0 +1,181 @@
+pais,label,count
+ecuador,detalle,333
+ecuador,Sucesor,117
+ecuador,Predecesor,116
+ecuador,Información personal,113
+ecuador,Nacimiento,110
+ecuador,Familia,103
+ecuador,Información profesional,101
+ecuador,Ocupación,100
+ecuador,Fallecimiento,91
+ecuador,Nacionalidad,84
+ecuador,Padres,81
+ecuador,Cónyuge,81
+ecuador,Hijos,67
+ecuador,Educación,59
+ecuador,Familiares,56
+ecuador,Presidente,54
+ecuador,Educado en,44
+ecuador,Partido político,34
+ecuador,Religión,26
+ecuador,Nombre de nacimiento,23
+uruguay,detalle,353
+uruguay,Nacimiento,143
+uruguay,Información personal,139
+uruguay,Información profesional,137
+uruguay,Ocupación,137
+uruguay,Nacionalidad,134
+uruguay,Fallecimiento,127
+uruguay,Familia,124
+uruguay,Cónyuge,92
+uruguay,Predecesor,91
+uruguay,Sucesor,88
+uruguay,Padres,81
+uruguay,Hijos,69
+uruguay,Partido político,55
+uruguay,Nombre de nacimiento,53
+uruguay,Educación,44
+uruguay,Presidente,43
+uruguay,Educado en,37
+uruguay,Sepultura,35
+uruguay,Familiares,20
+argentina,detalle,3111
+argentina,Nacimiento,1152
+argentina,Información personal,1115
+argentina,Nacionalidad,1086
+argentina,Información profesional,1074
+argentina,Ocupación,1061
+argentina,Sucesor,974
+argentina,Predecesor,969
+argentina,Fallecimiento,924
+argentina,Familia,879
+argentina,Cónyuge,595
+argentina,Hijos,525
+argentina,Padres,489
+argentina,Educación,448
+argentina,Presidente,440
+argentina,Partido político,419
+argentina,Educado en,336
+argentina,Sepultura,312
+argentina,Nombre de nacimiento,303
+argentina,Religión,211
+bolivia,detalle,164
+bolivia,Información personal,65
+bolivia,Nacimiento,64
+bolivia,Información profesional,58
+bolivia,Ocupación,58
+bolivia,Nacionalidad,56
+bolivia,Fallecimiento,50
+bolivia,Familia,47
+bolivia,Predecesor,40
+bolivia,Sucesor,40
+bolivia,Cónyuge,29
+bolivia,Presidente,28
+bolivia,Educación,27
+bolivia,Padres,26
+bolivia,Hijos,25
+bolivia,Partido político,22
+bolivia,Educado en,21
+bolivia,Nombre de nacimiento,15
+bolivia,Familiares,12
+bolivia,Firma,11
+colombia,detalle,4049
+colombia,Predecesor,1405
+colombia,Sucesor,1402
+colombia,Nacimiento,1303
+colombia,Información personal,1295
+colombia,Familia,1221
+colombia,Información profesional,1160
+colombia,Ocupación,1124
+colombia,Nacionalidad,1057
+colombia,Fallecimiento,973
+colombia,Padres,967
+colombia,Cónyuge,871
+colombia,Familiares,862
+colombia,Presidente,859
+colombia,Hijos,777
+colombia,Educación,707
+colombia,Educado en,487
+colombia,Partido político,483
+colombia,Nombre completo,328
+colombia,Religión,318
+mexico,detalle,1788
+mexico,Sucesor,665
+mexico,Predecesor,662
+mexico,Nacimiento,646
+mexico,Información personal,635
+mexico,Información profesional,604
+mexico,Ocupación,594
+mexico,Nacionalidad,592
+mexico,Familia,469
+mexico,Fallecimiento,417
+mexico,Cónyuge,289
+mexico,Educación,270
+mexico,Hijos,263
+mexico,Nombre de nacimiento,222
+mexico,Padres,186
+mexico,Partido político,179
+mexico,Presidente,172
+mexico,Educado en,168
+mexico,Años activo,128
+mexico,Causa de muerte,114
+peru,detalle,3900
+peru,Nacimiento,1356
+peru,Información personal,1322
+peru,Información profesional,1259
+peru,Nacionalidad,1258
+peru,Ocupación,1241
+peru,Predecesor,1217
+peru,Sucesor,1204
+peru,Familia,1104
+peru,Fallecimiento,938
+peru,Educación,789
+peru,Presidente,769
+peru,Cónyuge,725
+peru,Padres,710
+peru,Hijos,648
+peru,Educado en,609
+peru,Partido político,342
+peru,Nombre de nacimiento,338
+peru,Sepultura,327
+peru,Afiliaciones,291
+chile,detalle,4232
+chile,Nacimiento,1332
+chile,Información personal,1314
+chile,Predecesor,1267
+chile,Sucesor,1261
+chile,Información profesional,1241
+chile,Familia,1236
+chile,Nacionalidad,1228
+chile,Ocupación,1221
+chile,Cónyuge,918
+chile,Educación,907
+chile,Fallecimiento,891
+chile,Hijos,858
+chile,Padres,829
+chile,Educado en,705
+chile,Presidente,674
+chile,Partido político,644
+chile,Lengua materna,490
+chile,Nombre de nacimiento,454
+chile,Religión,423
+paraguay,detalle,75
+paraguay,Nacimiento,26
+paraguay,Fallecimiento,20
+paraguay,Información personal,19
+paraguay,Nacionalidad,18
+paraguay,Información profesional,17
+paraguay,Familia,15
+paraguay,Ocupación,15
+paraguay,Predecesor,14
+paraguay,Sucesor,14
+paraguay,Padres,13
+paraguay,Cónyuge,11
+paraguay,Hijos,11
+paraguay,Presidente,9
+paraguay,Familiares,8
+paraguay,Educación,8
+paraguay,Datos personales,7
+paraguay,Deporte,7
+paraguay,Posición,7
+paraguay,Retirada deportiva,7

@@ -1,0 +1,20 @@
+from,to,relation_type,from_pais,to_pais,to_nombre,from_nombre
+https://es.wikipedia.org/wiki/Huayna_C%C3%A1pac,https://es.wikipedia.org/wiki/Hu%C3%A1scar,hijos,Chile,Perú,Huáscar,Huayna Cápac
+https://es.wikipedia.org/wiki/Manuel_Antonio_Jos%C3%A9_Warnes,https://es.wikipedia.org/wiki/Ignacio_Warnes,hijos,Chile,Argentina,Ignacio Warnes,Manuel Antonio José Warnes
+https://es.wikipedia.org/wiki/Manuel_Antonio_Jos%C3%A9_Warnes,https://es.wikipedia.org/wiki/Mart%C3%ADn_Jos%C3%A9_Warnes,hijos,Chile,Argentina,Martín José Warnes,Manuel Antonio José Warnes
+https://es.wikipedia.org/wiki/Manuel_Antonio_Jos%C3%A9_Warnes,https://es.wikipedia.org/wiki/Martina_Warnes,hijos,Chile,Argentina,Martina Warnes,Manuel Antonio José Warnes
+https://es.wikipedia.org/wiki/Ana_Jacoba_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,https://es.wikipedia.org/wiki/Alonso_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,padres,Chile,Argentina,Alonso García de Zúñiga,Ana Jacoba García de Zúñiga
+https://es.wikipedia.org/wiki/Ana_Jacoba_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,https://es.wikipedia.org/wiki/Ignacio_Warnes,hijos,Chile,Argentina,Ignacio Warnes,Ana Jacoba García de Zúñiga
+https://es.wikipedia.org/wiki/Ana_Jacoba_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,https://es.wikipedia.org/wiki/Martina_Warnes,hijos,Chile,Argentina,Martina Warnes,Ana Jacoba García de Zúñiga
+https://es.wikipedia.org/wiki/Ana_Jacoba_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,https://es.wikipedia.org/wiki/Mart%C3%ADn_Jos%C3%A9_Warnes,hijos,Chile,Argentina,Martín José Warnes,Ana Jacoba García de Zúñiga
+https://es.wikipedia.org/wiki/Ignacio_Warnes,https://es.wikipedia.org/wiki/Manuel_Antonio_Jos%C3%A9_Warnes,padres,Argentina,Chile,Manuel Antonio José Warnes,Ignacio Warnes
+https://es.wikipedia.org/wiki/Ignacio_Warnes,https://es.wikipedia.org/wiki/Ana_Jacoba_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,padres,Argentina,Chile,Ana Jacoba García de Zúñiga,Ignacio Warnes
+https://es.wikipedia.org/wiki/Mart%C3%ADn_Jos%C3%A9_Warnes,https://es.wikipedia.org/wiki/Manuel_Antonio_Jos%C3%A9_Warnes,padres,Argentina,Chile,Manuel Antonio José Warnes,Martín José Warnes
+https://es.wikipedia.org/wiki/Mart%C3%ADn_Jos%C3%A9_Warnes,https://es.wikipedia.org/wiki/Ana_Jacoba_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,padres,Argentina,Chile,Ana Jacoba García de Zúñiga,Martín José Warnes
+https://es.wikipedia.org/wiki/Martina_Warnes,https://es.wikipedia.org/wiki/Manuel_Antonio_Jos%C3%A9_Warnes,padres,Argentina,Chile,Manuel Antonio José Warnes,Martina Warnes
+https://es.wikipedia.org/wiki/Martina_Warnes,https://es.wikipedia.org/wiki/Ana_Jacoba_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,padres,Argentina,Chile,Ana Jacoba García de Zúñiga,Martina Warnes
+https://es.wikipedia.org/wiki/Alonso_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,https://es.wikipedia.org/wiki/Ana_Jacoba_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,hijos,Argentina,Chile,Ana Jacoba García de Zúñiga,Alonso García de Zúñiga
+https://es.wikipedia.org/wiki/Jorge_Piqueras,https://es.wikipedia.org/wiki/Manuel_Piqueras_Cotol%C3%AD,padres,Argentina,Perú,Manuel Piqueras Cotolí,Jorge Piqueras
+https://es.wikipedia.org/wiki/Marlene_Dietrich,https://es.wikipedia.org/wiki/John_F._Kennedy,pareja,México,Argentina,John F. Kennedy,Marlene Dietrich
+https://es.wikipedia.org/wiki/Moctezuma_Xocoyotzin,https://es.wikipedia.org/wiki/Isabel_Moctezuma_Tecuichpo_Ixcaxochitzin,hijos,México,Chile,Isabel Moctezuma Tecuichpo Ixcaxochitzin,Moctezuma Xocoyotzin
+https://es.wikipedia.org/wiki/Manuel_Pardo_Ribadeneira,https://es.wikipedia.org/wiki/Felipe_Pardo_y_Aliaga,hijos,Perú,Argentina,Felipe Pardo y Aliaga,Manuel Pardo Ribadeneira

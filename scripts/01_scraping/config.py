@@ -21,13 +21,14 @@ INITIAL_URLS = {
 
 # Configuración de scraping
 MAX_DEPTH = 1  # Profundidad máxima de búsqueda de familiares
-DELAY_SECONDS = 1  # Delay entre requests para respetar rate limits
+# Delay base entre requests (subido para reducir 403 en países no chilenos)
+DELAY_SECONDS = 3  # Delay entre requests para respetar rate limits
 
 # Rutas de salida
 OUTPUT_DIR = "data/raw"
 MANUAL_INPUT_FILE = "data/manual/familia_link_manual2.xlsx"
 
-# Headers para requests
+# Headers base para requests (pueden ser sobreescritos por variables de entorno)
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
 }

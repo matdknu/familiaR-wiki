@@ -1,0 +1,23 @@
+from,to,relation_type,from_pais_familia,from_pais_nacionalidad,related_name,to_pais_familia,to_pais_nacionalidad,to_es_caso_especial,to_nombre
+https://es.wikipedia.org/wiki/Benjam%C3%ADn_Vicu%C3%B1a,https://es.wikipedia.org/wiki/Pampita,pareja,Chile,Chile,Pampita,Chile,Argentina,TRUE,Pampita
+https://es.wikipedia.org/wiki/Benjam%C3%ADn_Vicu%C3%B1a,https://es.wikipedia.org/wiki/China_Su%C3%A1rez,pareja,Chile,Chile,China Suárez,Chile,Argentina,TRUE,China Suárez
+https://es.wikipedia.org/wiki/Pampita,https://es.wikipedia.org/wiki/Benjam%C3%ADn_Vicu%C3%B1a,pareja,Chile,Argentina,Benjamín Vicuña,Chile,Chile,FALSE,Benjamín Vicuña
+https://es.wikipedia.org/wiki/China_Su%C3%A1rez,https://es.wikipedia.org/wiki/Benjam%C3%ADn_Vicu%C3%B1a,pareja,Chile,Argentina,Benjamín Vicuña,Chile,Chile,FALSE,Benjamín Vicuña
+https://es.wikipedia.org/wiki/An%C3%ADbal_Pinto_Garmendia,https://es.wikipedia.org/wiki/Luisa_Garmendia,padres,Chile,Chile,Luisa Garmendia Alurralde,Chile,Argentina,TRUE,Luisa Garmendia
+https://es.wikipedia.org/wiki/Francisco_Antonio_Pinto,https://es.wikipedia.org/wiki/Luisa_Garmendia_Alurralde,conyuge,Chile,Chile,Luisa Garmendia Alurralde,Chile,Argentina,TRUE,Luisa Garmendia
+https://es.wikipedia.org/wiki/Luisa_Garmendia,https://es.wikipedia.org/wiki/Francisco_Antonio_Pinto,conyuge,Chile,Argentina,Francisco Antonio Pinto,Chile,Chile,FALSE,Francisco Antonio Pinto
+https://es.wikipedia.org/wiki/Luisa_Garmendia,https://es.wikipedia.org/wiki/Enriqueta_Pinto,hijos,Chile,Argentina,Enriqueta,Chile,Chile,FALSE,Enriqueta Pinto
+https://es.wikipedia.org/wiki/Luisa_Garmendia,https://es.wikipedia.org/wiki/An%C3%ADbal_Pinto,hijos,Chile,Argentina,Aníbal,Chile,Chile,FALSE,Aníbal Pinto
+https://es.wikipedia.org/wiki/An%C3%ADbal_Pinto,https://es.wikipedia.org/wiki/Luisa_Garmendia,padres,Chile,Chile,Luisa Garmendia Alurralde,Chile,Argentina,TRUE,Luisa Garmendia
+https://es.wikipedia.org/wiki/Nelly_Meruane,https://es.wikipedia.org/wiki/Juan_Carlos_Bistoto,conyuge,Chile,Chile,Juan Carlos Bistoto,Chile,Argentina,TRUE,Juan Carlos Bistoto
+https://es.wikipedia.org/wiki/Juan_Carlos_Bistoto,https://es.wikipedia.org/wiki/Nelly_Meruane,conyuge,Chile,Argentina,Nelly Meruane,Chile,Chile,FALSE,Nelly Meruane
+https://es.wikipedia.org/wiki/David_de_Tezanos_Pinto,https://es.wikipedia.org/wiki/C%C3%A9sar_de_Tezanos_Pinto,hijos,Chile,Chile,César,Chile,Argentina,TRUE,César de Tezanos Pinto
+https://es.wikipedia.org/wiki/Manuel_de_Tezanos_Pinto_%28constituyente%29,https://es.wikipedia.org/wiki/David_de_Tezanos_Pinto,hijos,Chile,Argentina,David,Chile,Chile,FALSE,David de Tezanos Pinto
+https://es.wikipedia.org/wiki/Luisa_Garmendia_Alurralde,https://es.wikipedia.org/wiki/Francisco_Antonio_Pinto,conyuge,Chile,Argentina,Francisco Antonio Pinto,Chile,Chile,FALSE,Francisco Antonio Pinto
+https://es.wikipedia.org/wiki/Luisa_Garmendia_Alurralde,https://es.wikipedia.org/wiki/Enriqueta_Pinto,hijos,Chile,Argentina,Enriqueta,Chile,Chile,FALSE,Enriqueta Pinto
+https://es.wikipedia.org/wiki/Luisa_Garmendia_Alurralde,https://es.wikipedia.org/wiki/An%C3%ADbal_Pinto,hijos,Chile,Argentina,Aníbal,Chile,Chile,FALSE,Aníbal Pinto
+https://es.wikipedia.org/wiki/Manuela_Warnes,https://es.wikipedia.org/wiki/Ana_Jacoba_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,padres,Chile,Chile,Ana Jacoba García de Zúñiga,Chile,Argentina,TRUE,Ana Jacoba García de Zúñiga
+https://es.wikipedia.org/wiki/Manuela_Warnes_y_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,https://es.wikipedia.org/wiki/Ana_Jacoba_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,padres,Chile,Chile,Ana Jacoba García de Zúñiga,Chile,Argentina,TRUE,Ana Jacoba García de Zúñiga
+https://es.wikipedia.org/wiki/Ana_Jacoba_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,https://es.wikipedia.org/wiki/Manuela_Warnes,hijos,Chile,Argentina,Manuela Warnes y García de Zúñiga,Chile,Chile,FALSE,Manuela Warnes
+https://es.wikipedia.org/wiki/Cecilia_Bolocco,https://es.wikipedia.org/wiki/Carlos_Menem,conyuge,Argentina,Chile,Carlos Menem,Argentina,Argentina,FALSE,Carlos Menem
+https://es.wikipedia.org/wiki/Carlos_Menem,https://es.wikipedia.org/wiki/Cecilia_Bolocco,conyuge,Argentina,Argentina,Cecilia Bolocco,Argentina,Chile,TRUE,Cecilia Bolocco

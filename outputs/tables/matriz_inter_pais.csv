@@ -1,0 +1,10 @@
+from_pais,to_pais,n
+Argentina,Chile,7
+Chile,Argentina,7
+Colombia,Chile,2
+Argentina,Perú,1
+Chile,Colombia,1
+Chile,Perú,1
+México,Argentina,1
+México,Chile,1
+Perú,Argentina,1

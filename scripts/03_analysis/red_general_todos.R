@@ -3,6 +3,15 @@
 # Red general de todos los personajes (simple, tidyverse)
 # ============================================================================
 
+
+getwd()
+
+
+system("cat ~/.ssh/id_ed25519.pub")
+
+system("ls -la ~/.ssh | grep id_ed25519")
+
+
 library(readr)
 library(dplyr)
 library(igraph)

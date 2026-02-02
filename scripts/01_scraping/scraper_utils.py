@@ -1,12 +1,31 @@
 """
 Funciones auxiliares para el scraper de Wikipedia
 """
+import os
 import requests
 from bs4 import BeautifulSoup
 import time
 from config import HEADERS, EXCLUDED_URL_PREFIXES, RELATIONSHIP_KEYWORDS
 
 BASE_URL = "https://es.wikipedia.org"
+
+
+def build_headers():
+    """
+    Construye headers dinámicos con soporte para token y user agent custom.
+    Usa HEADERS como base, y sobreescribe con variables de entorno:
+    - WIKI_USER_AGENT
+    - WIKI_ACCESS_TOKEN (Bearer) si WIKI_BEARER_HTML está en {1,true,yes}
+    """
+    headers = dict(HEADERS)
+    ua = os.environ.get("WIKI_USER_AGENT")
+    if ua:
+        headers["User-Agent"] = ua
+    token = os.environ.get("WIKI_ACCESS_TOKEN")
+    use_bearer = os.environ.get("WIKI_BEARER_HTML", "").lower() in {"1", "true", "yes"}
+    if token and use_bearer:
+        headers["Authorization"] = f"Bearer {token}"
+    return headers
 
 
 def get_soup(url, retries=3):
@@ -22,7 +41,7 @@ def get_soup(url, retries=3):
     """
     for i in range(retries):
         try:
-            resp = requests.get(url, headers=HEADERS, timeout=10)
+            resp = requests.get(url, headers=build_headers(), timeout=10)
             resp.raise_for_status()
             return BeautifulSoup(resp.text, 'html.parser')
         except Exception as e:

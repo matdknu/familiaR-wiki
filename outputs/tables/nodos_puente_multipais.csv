@@ -1,0 +1,436 @@
+url,nombre,pais,conecta_con
+https://es.wikipedia.org/wiki/Miguel_Luis_Amun%C3%A1tegui_Reyes,Miguel Luis Amunátegui Reyes,Chile,Argentina
+https://es.wikipedia.org/wiki/Benjam%C3%ADn_Vicu%C3%B1a,Benjamín Vicuña,Chile,Argentina
+https://es.wikipedia.org/wiki/China_Su%C3%A1rez,China Suárez,Chile,Argentina
+https://es.wikipedia.org/wiki/Juan_Nicol%C3%A1s_de_Aguirre_Barrenechea,Juan Nicolás de Aguirre Barrenechea,Chile,Perú
+https://es.wikipedia.org/wiki/Emilio_Bello,Emilio Bello,Chile,México
+https://es.wikipedia.org/wiki/Francisco_de_Carvajal_y_Vargas,Francisco de Carvajal y Vargas,Chile,Perú
+https://es.wikipedia.org/wiki/Jos%C3%A9_Miguel_de_Carvajal_y_Manrique,José Miguel de Carvajal y Manrique,Chile,Perú
+https://es.wikipedia.org/wiki/Luis_Ferm%C3%ADn_de_Carvajal,Luis Fermín de Carvajal,Chile,Perú
+https://es.wikipedia.org/wiki/Condado_de_Castillejo,Condado de Castillejo,Chile,Perú
+https://es.wikipedia.org/wiki/Corregimiento_de_Conchucos,Corregimiento de Conchucos,Chile,Perú
+https://es.wikipedia.org/wiki/Ducado_de_San_Carlos,Ducado de San Carlos,Chile,Perú
+https://es.wikipedia.org/wiki/Jos%C3%A9_Antonio_Viera-Gallo,José Antonio Viera-Gallo,Chile,Argentina
+https://es.wikipedia.org/wiki/Benjam%C3%ADn_Claro_Velasco,Benjamín Claro Velasco,Chile,"Argentina, Perú"
+https://es.wikipedia.org/wiki/Ram%C3%B3n_Gonz%C3%A1lez_Concha,Ramón González Concha,Chile,Perú
+https://es.wikipedia.org/wiki/Jos%C3%A9_de_Santiago_Concha_Jim%C3%A9nez_Lobat%C3%B3n,José de Santiago Concha Jiménez Lobatón,Chile,Argentina
+https://es.wikipedia.org/wiki/Ar%C3%ADstides_Pinto,Arístides Pinto,Chile,Perú
+https://es.wikipedia.org/wiki/Fernando_de_la_Fuente_y_Rojas,Fernando de la Fuente y Rojas,Chile,Perú
+https://es.wikipedia.org/wiki/Pedro_de_la_Fuente_y_Rojas,Pedro de la Fuente y Rojas,Chile,Perú
+https://es.wikipedia.org/wiki/Marquesado_del_Valle_de_Oaxaca,Marquesado del Valle de Oaxaca,Chile,México
+https://es.wikipedia.org/wiki/An%C3%ADbal_Pinto_Garmendia,Aníbal Pinto,Chile,Perú
+https://es.wikipedia.org/wiki/Ambrosio_O%27Higgins,Ambrosio O'Higgins,Chile,Perú
+https://es.wikipedia.org/wiki/Isabel_Riquelme,Isabel Riquelme,Chile,Perú
+https://es.wikipedia.org/wiki/Pedro_Demetrio_O%27Higgins,Pedro Demetrio O'Higgins,Chile,Perú
+https://es.wikipedia.org/wiki/Petronila_Riquelme,Petronila Riquelme,Chile,Perú
+https://es.wikipedia.org/wiki/Francisco_Antonio_Pinto,Francisco Antonio Pinto,Chile,Perú
+https://es.wikipedia.org/wiki/An%C3%ADbal_Pinto,Aníbal Pinto,Chile,Perú
+https://es.wikipedia.org/wiki/Enrique_Basombr%C3%ADo,Enrique Basombrío,Chile,Perú
+https://es.wikipedia.org/wiki/Jos%C3%A9_Rufino_Echenique,José Rufino Echenique,Chile,Perú
+https://es.wikipedia.org/wiki/Francisco_Echenique_Bryce,Francisco Echenique Bryce,Chile,Perú
+https://es.wikipedia.org/wiki/Juan_Mart%C3%ADn_Echenique,Juan Martín Echenique,Chile,Perú
+https://es.wikipedia.org/wiki/Miguel_Echenique,Miguel Echenique,Chile,Perú
+https://es.wikipedia.org/wiki/Victoria_Trist%C3%A1n_de_Echenique,Victoria Tristán de Echenique,Chile,Perú
+https://es.wikipedia.org/wiki/Jos%C3%A9_Mar%C3%ADa_Echenique_y_Trist%C3%A1n,José María Echenique y Tristán,Chile,Perú
+https://es.wikipedia.org/wiki/Victoria_Trist%C3%A1n_Flores,Victoria Tristán de Echenique,Chile,Perú
+https://es.wikipedia.org/wiki/P%C3%ADo_Trist%C3%A1n,Pío Tristán,Chile,Perú
+https://es.wikipedia.org/wiki/Juan_Mart%C3%ADn_Echenique_Trist%C3%A1n,Juan Martín Echenique,Chile,Perú
+https://es.wikipedia.org/wiki/Agust%C3%ADn_Edwards_Ossand%C3%B3n,Agustín Edwards Ossandón,Chile,Perú
+https://es.wikipedia.org/wiki/Isidoro_Err%C3%A1zuriz,Isidoro Errázuriz,Chile,"Argentina, Perú"
+https://es.wikipedia.org/wiki/Mat%C3%ADas_Ovalle_Err%C3%A1zuriz,Matías Ovalle Errázuriz,Chile,Perú
+https://es.wikipedia.org/wiki/Godofredo_Iommi,Godofredo Iommi,Chile,Argentina
+https://es.wikipedia.org/wiki/Arturo_Fontaine_Aldunate,Arturo Fontaine Aldunate,Chile,Argentina
+https://es.wikipedia.org/wiki/Rodrigo_Terr%C3%A9,Rodrigo Terré,Chile,Perú
+https://es.wikipedia.org/wiki/Ram%C3%B3n_Freire_%28marino%29,Ramón Freire (marino),Chile,Perú
+https://es.wikipedia.org/wiki/Nicol%C3%A1s_Freire,Nicolás Freire,Chile,Perú
+https://es.wikipedia.org/wiki/Nicol%C3%A1s_Freire_Gonz%C3%A1lez,Nicolás Freire,Chile,Perú
+https://es.wikipedia.org/wiki/Ram%C3%B3n_Freire_Goytizolo,Ramón Freire (marino),Chile,Perú
+https://es.wikipedia.org/wiki/Alberto_Labb%C3%A9_Galilea,Alberto Labbé Galilea,Chile,Argentina
+https://es.wikipedia.org/wiki/Micaela_Campos_y_Gavi%C3%B1o,Micaela Campos y Gaviño,Chile,Perú
+https://es.wikipedia.org/wiki/Juan_Antonio_de_Galleguillos_y_Corbal%C3%A1n-Castilla,Juan Antonio de Galleguillos y Corbalán-Castilla,Chile,Perú
+https://es.wikipedia.org/wiki/Juan_Antonio_de_Galleguillos_y_Godoy,Juan Antonio de Galleguillos y Godoy,Chile,Perú
+https://es.wikipedia.org/wiki/%C3%81lvaro_de_Galleguillos_y_Riberos_de_Castilla,Álvaro de Galleguillos y Riberos de Castilla,Chile,Perú
+https://es.wikipedia.org/wiki/Juan_Antonio_de_Galleguillos_y_Riberos_de_Castilla,Juan Antonio de Galleguillos y Riberos de Castilla,Chile,Perú
+https://es.wikipedia.org/wiki/Antonio_G%C3%B3mez_de_Galleguillos,Antonio Gómez de Galleguillos,Chile,Perú
+https://es.wikipedia.org/wiki/Antonio_Guti%C3%A9rrez_y_Galleguillos,Antonio Gutiérrez y Galleguillos,Chile,Perú
+https://es.wikipedia.org/wiki/Manuel_Jos%C3%A9_Gandarillas,Manuel José Gandarillas,Chile,Argentina
+https://es.wikipedia.org/wiki/Juan_Antonio_Garret%C3%B3n_Pibernat,Juan Antonio Garretón Pibernat,Chile,Perú
+https://es.wikipedia.org/wiki/Federico_Garret%C3%B3n_Silva,Federico Garretón Silva,Chile,Perú
+https://es.wikipedia.org/wiki/Jos%C3%A9_Antonio_Vidaurre,José Antonio Vidaurre,Chile,Perú
+https://es.wikipedia.org/wiki/Cristi%C3%A1n_Mackenna,Cristián Mackenna,Chile,Argentina
+https://es.wikipedia.org/wiki/Arturo_Yrarr%C3%A1zaval_Correa,Arturo Yrarrázaval Correa,Chile,Argentina
+https://es.wikipedia.org/wiki/Carmen_Ib%C3%A1%C3%B1ez,Carmen Ibáñez,Chile,Argentina
+https://es.wikipedia.org/wiki/Gonzalo_Men%C3%A9ndez,Gonzalo Menéndez,Chile,Perú
+https://es.wikipedia.org/wiki/Gonzalo_Men%C3%A9ndez_Duque,Gonzalo Menéndez,Chile,Perú
+https://es.wikipedia.org/wiki/Juan_Carlos_Bistoto,Juan Carlos Bistoto,Chile,Argentina
+https://es.wikipedia.org/wiki/Nicol%C3%A1s_Monckeberg,Nicolás Monckeberg,Chile,Argentina
+https://es.wikipedia.org/wiki/Sergio_Urrejola,Sergio Urrejola,Chile,Argentina
+https://es.wikipedia.org/wiki/Alberto_Montt,Alberto Montt,Chile,Argentina
+https://es.wikipedia.org/wiki/Jos%C3%A9_Esteban_de_Montt_Cabrera,José Esteban de Montt Cabrera,Chile,Perú
+https://es.wikipedia.org/wiki/Manuel_Montt,Manuel Montt,Chile,Perú
+https://es.wikipedia.org/wiki/Teresa_Wilms_Montt,Teresa Wilms Montt,Chile,Argentina
+https://es.wikipedia.org/wiki/Francisco_A._Barroetave%C3%B1a,Francisco A. Barroetaveña,Chile,Argentina
+https://es.wikipedia.org/wiki/C%C3%A9sar_de_Tezanos_Pinto,César de Tezanos Pinto,Chile,Argentina
+https://es.wikipedia.org/wiki/David_de_Tezanos_Pinto,David de Tezanos Pinto,Chile,Argentina
+https://es.wikipedia.org/wiki/Jorge_de_Tezanos_Pinto,Jorge de Tezanos Pinto,Chile,"Argentina, Perú"
+https://es.wikipedia.org/wiki/Manuel_de_Tezanos_Pinto_%28pol%C3%ADtico%29,Manuel de Tezanos Pinto (político),Chile,Argentina
+https://es.wikipedia.org/wiki/Serapio_de_Tezanos_Pinto,Serapio de Tezanos Pinto,Chile,Argentina
+https://es.wikipedia.org/wiki/Karen_Gallardo,Karen Gallardo,Chile,Argentina
+https://es.wikipedia.org/wiki/Jaime_Pinto,Jaime Pinto,Chile,Argentina
+https://es.wikipedia.org/wiki/Jos%C3%A9_Miguel_Carrera_Fontecilla,José Miguel Carrera Fontecilla,Chile,Perú
+https://es.wikipedia.org/wiki/Jos%C3%A9_de_Pi%C3%B1era_y_Lombera,José de Piñera y Lombera,Chile,Perú
+https://es.wikipedia.org/wiki/Alonso_Mart%C3%ADn_de_Don_Benito,Alonso Martín de Don Benito,Chile,Perú
+https://es.wikipedia.org/wiki/Nuestra_Se%C3%B1ora_de_la_Evangelizaci%C3%B3n,Nuestra Señora de la Evangelización,Chile,Perú
+https://es.wikipedia.org/wiki/Juan_de_Orellana_Pizarro,Juan de Orellana Pizarro,Chile,Perú
+https://es.wikipedia.org/wiki/Diego_Pizarro_del_Pozo_y_Clavijo_G%C3%A1lvez,Diego Pizarro del Pozo y Clavijo Gálvez,Chile,Perú
+https://es.wikipedia.org/wiki/Francisco_Pizarro,Francisco Pizarro,Chile,Perú
+https://es.wikipedia.org/wiki/Catalina_Su%C3%A1rez_Marcayda,Catalina Suárez Marcayda,Chile,México
+https://es.wikipedia.org/wiki/Contarhuacho,Contarhuacho,Chile,Perú
+https://es.wikipedia.org/wiki/Diego_Portales,Diego Portales,Chile,Perú
+https://es.wikipedia.org/wiki/Constanza_Nordenflycht,Constanza Nordenflycht,Chile,Perú
+https://es.wikipedia.org/wiki/Constanza_de_Nordenflycht,Constanza Nordenflycht,Chile,Perú
+https://es.wikipedia.org/wiki/Felipe_Braun,Felipe Braun,Chile,México
+https://es.wikipedia.org/wiki/Manuela_Warnes,Manuela Warnes,Chile,Argentina
+https://es.wikipedia.org/wiki/Manuela_Warnes_y_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,Manuela Warnes,Chile,Argentina
+https://es.wikipedia.org/wiki/Manuel_Antonio_Jos%C3%A9_Warnes,Manuel Antonio José Warnes,Chile,Argentina
+https://es.wikipedia.org/wiki/Ana_Jacoba_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,Ana Jacoba García de Zúñiga,Chile,Argentina
+https://es.wikipedia.org/wiki/Emilia_M%C3%A1rquez_de_la_Plata_Guzm%C3%A1n,Emilia Márquez de la Plata,Chile,Perú
+https://es.wikipedia.org/wiki/Fernando_M%C3%A1rquez_de_la_Plata_Encalada,Fernando Márquez de la Plata Encalada,Chile,Perú
+https://es.wikipedia.org/wiki/Jaime_Bayly,Jaime Bayly,Chile,Perú
+https://es.wikipedia.org/wiki/Condado_de_Sierrabella,Condado de Sierrabella,Chile,Perú
+https://es.wikipedia.org/wiki/Jos%C3%A9_de_Santiago_Concha,José de Santiago Concha,Chile,Perú
+https://es.wikipedia.org/wiki/Jos%C3%A9_de_Santiago_Concha_y_Traslavi%C3%B1a,José de Santiago Concha y Traslaviña,Chile,Perú
+https://es.wikipedia.org/wiki/Melchor_de_Santiago_Concha_y_Errazquin,Melchor de Santiago Concha y Errazquin,Chile,Perú
+https://es.wikipedia.org/wiki/Silvia_N%C3%BA%C3%B1ez_del_Arco,Silvia Núñez del Arco,Chile,Perú
+https://es.wikipedia.org/wiki/Benjam%C3%ADn_Subercaseaux,Benjamín Subercaseaux,Chile,Perú
+https://es.wikipedia.org/wiki/Waldemar_M%C3%A9ndez,Waldemar Méndez,Chile,Argentina
+https://es.wikipedia.org/wiki/Ram%C3%B3n_Sotomayor_Vald%C3%A9s,Ramón Sotomayor Valdés,Chile,México
+https://es.wikipedia.org/wiki/Ignacio_de_la_Carrera_y_de_las_Cuevas,Ignacio de la Carrera y de las Cuevas,Chile,Perú
+https://es.wikipedia.org/wiki/Diego_Jos%C3%A9_Benavente,Diego José Benavente,Chile,Argentina
+https://es.wikipedia.org/wiki/Ignacio_de_la_Carrera,Ignacio de la Carrera y de las Cuevas,Chile,Perú
+https://es.wikipedia.org/wiki/Bigote_Arrocet,Bigote Arrocet,Chile,Argentina
+https://es.wikipedia.org/wiki/Familia_Vial,Familia Vial,Chile,Argentina
+https://es.wikipedia.org/wiki/Carlos_Vial_Espantoso,Carlos Vial Espantoso,Chile,Perú
+https://es.wikipedia.org/wiki/Manuel_Camilo_Vial,Manuel Camilo Vial,Chile,Perú
+https://es.wikipedia.org/wiki/Francisco_Marambio,Francisco Marambio,Chile,Argentina
+https://es.wikipedia.org/wiki/Juan_Casanova_Vicu%C3%B1a,Juan Casanova Vicuña,Chile,Argentina
+https://es.wikipedia.org/wiki/Manuel_Rivas_Vicu%C3%B1a,Manuel Rivas Vicuña,Chile,Perú
+https://es.wikipedia.org/wiki/Cecilia_Vicu%C3%B1a,Cecilia Vicuña,Chile,Argentina
+https://es.wikipedia.org/wiki/Pablo_Vicu%C3%B1a,Pablo Vicuña,Chile,Argentina
+https://es.wikipedia.org/wiki/Emiliano_Figueroa,Emiliano Figueroa,Chile,"Argentina, Perú"
+https://es.wikipedia.org/wiki/Nicol%C3%A1s_Cabr%C3%A9,Nicolás Cabré,Chile,Argentina
+https://es.wikipedia.org/wiki/Adolfo_Zald%C3%ADvar,Adolfo Zaldívar,Chile,Argentina
+https://es.wikipedia.org/wiki/Alicia_Raquel_Hartridge,Alicia Raquel Hartridge,Chile,Argentina
+https://es.wikipedia.org/wiki/Jos%C3%A9_Videla_Castillo,José Videla Castillo,Chile,Perú
+https://es.wikipedia.org/wiki/Nicol%C3%A1s_Videla_del_Pino,Nicolás Videla del Pino,Chile,Argentina
+https://es.wikipedia.org/wiki/Blas_Videla,Blas Videla,Chile,Argentina
+https://es.wikipedia.org/wiki/Eufrasio_Videla,Eufrasio Videla,Chile,Argentina
+https://es.wikipedia.org/wiki/Jacinto_Videla,Jacinto Videla,Chile,Argentina
+https://es.wikipedia.org/wiki/Jorge_Rafael_Videla,Jorge Rafael Videla,Chile,Argentina
+https://es.wikipedia.org/wiki/Juan_de_Dios_Videla,Juan de Dios Videla,Chile,Argentina
+https://es.wikipedia.org/wiki/Luis_Videla,Luis Videla,Chile,Argentina
+https://es.wikipedia.org/wiki/Mario_Videla,Mario Videla,Chile,Argentina
+https://es.wikipedia.org/wiki/Ricardo_Videla,Ricardo Videla,Chile,Argentina
+https://es.wikipedia.org/wiki/Horacio_Walker,Horacio Walker,Chile,Perú
+https://es.wikipedia.org/wiki/Joaqu%C3%ADn_Walker_Mart%C3%ADnez,Joaquín Walker Martínez,Chile,Argentina
+https://es.wikipedia.org/wiki/Jorge_Yarur_Banna,Jorge Yarur Banna,Chile,Perú
+https://es.wikipedia.org/wiki/Patricio_Lynch,Patricio Lynch,Chile,"Argentina, Perú"
+https://es.wikipedia.org/wiki/Adolfo_Zald%C3%ADvar_Larra%C3%ADn,Adolfo Zaldívar,Chile,Argentina
+https://es.wikipedia.org/wiki/Pedro_Trujillo_Za%C3%B1artu,Pedro Trujillo Zañartu,Chile,Perú
+https://es.wikipedia.org/wiki/Guillermo_Tupper,Guillermo Tupper,Chile,Argentina
+https://es.wikipedia.org/wiki/Juana_Manuela_Gorriti,Juana Manuela Gorriti,Argentina,Perú
+https://es.wikipedia.org/wiki/Gustavo_Mart%C3%ADnez_Zuvir%C3%ADa_%28hijo%29,Gustavo Martínez Zuviría (hijo),Argentina,Perú
+https://es.wikipedia.org/wiki/Jos%C3%A9_Manuel_Astigueta_%28padre%29,José Manuel Astigueta (padre),Argentina,Perú
+https://es.wikipedia.org/wiki/Mauricio_Macri,Mauricio Macri,Argentina,Perú
+https://es.wikipedia.org/wiki/Mario_Brescia_Cafferata,Mario Brescia Cafferata,Argentina,Perú
+https://es.wikipedia.org/wiki/Pedro_Brescia_Cafferata,Pedro Brescia Cafferata,Argentina,Perú
+https://es.wikipedia.org/wiki/Ger%C3%B3nimo_Cafferata_Marazzi,Gerónimo Cafferata Marazzi,Argentina,Perú
+https://es.wikipedia.org/wiki/Pedro_Cafferata,Pedro Cafferata,Argentina,Perú
+https://es.wikipedia.org/wiki/Jos%C3%A9_Ildefonso_%C3%81lvarez_de_Arenales,José Ildefonso Álvarez de Arenales,Argentina,Perú
+https://es.wikipedia.org/wiki/Jos%C3%A9_Evaristo_Uriburu_Tezanos_Pinto,José Evaristo Uriburu Tezanos Pinto,Argentina,Perú
+https://es.wikipedia.org/wiki/Gisela_Ponce_de_Le%C3%B3n,Gisela Ponce de León,Argentina,Perú
+https://es.wikipedia.org/wiki/Maricr%C3%ADs_Rubio,Maricrís Rubio,Argentina,Perú
+https://es.wikipedia.org/wiki/Atala_Sarmiento,Atala Sarmiento,Argentina,México
+https://es.wikipedia.org/wiki/Octavio_Campero_Echaz%C3%BA,Octavio Campero Echazú,Argentina,Chile
+https://es.wikipedia.org/wiki/Mariano_Campero_y_Ugarte,Mariano Campero y Ugarte,Argentina,Perú
+https://es.wikipedia.org/wiki/Juan_Jos%C3%A9_Gervasio_Fern%C3%A1ndez-Campero,Juan José Gervasio Fernández-Campero,Argentina,Perú
+https://es.wikipedia.org/wiki/Marquesado_de_Yavi,Marquesado de Yavi,Argentina,Perú
+https://es.wikipedia.org/wiki/Vicente_Francisco_del_Sol_y_Vey%C3%A1n,Vicente Francisco del Sol y Veyán,Argentina,Chile
+https://es.wikipedia.org/wiki/Mart%C3%ADn_G%C3%BCemes_y_Puch,Martín Güemes y Puch,Argentina,Perú
+https://es.wikipedia.org/wiki/Tatiana_Schlossberg,Tatiana Schlossberg,Argentina,Perú
+https://es.wikipedia.org/wiki/Josefa_Dominga_Balcarce,Josefa Dominga Balcarce,Argentina,México
+https://es.wikipedia.org/wiki/Jos%C3%A9_de_San_Mart%C3%ADn,José de San Martín,Argentina,Perú
+https://es.wikipedia.org/wiki/Jos%C3%A9_Mar%C3%ADa_%C3%81lvarez_de_Toledo,José María Álvarez de Toledo,Argentina,Chile
+https://es.wikipedia.org/wiki/Saturnino_Allende,Saturnino Allende,Argentina,Chile
+https://es.wikipedia.org/wiki/Benita_Mart%C3%ADnez_Pastoriza,Benita Martínez Pastoriza de Sarmiento,Argentina,Chile
+https://es.wikipedia.org/wiki/Ana_Faustina_Sarmiento,Ana Faustina Sarmiento,Argentina,Chile
+https://es.wikipedia.org/wiki/Dominguito_Fidel_Sarmiento,Dominguito Fidel Sarmiento,Argentina,Chile
+https://es.wikipedia.org/wiki/Manuel_Ocampo_Saman%C3%A9s,Manuel Ocampo Samanés,Argentina,Perú
+https://es.wikipedia.org/wiki/Aldo_Cantoni,Aldo Cantoni,Argentina,Perú
+https://es.wikipedia.org/wiki/Mariano_P%C3%ADo_Cornejo,Mariano Pío Cornejo,Argentina,Perú
+https://es.wikipedia.org/wiki/Manuel_Augusto_Montes_de_Oca,Manuel Augusto Montes de Oca,Argentina,Chile
+https://es.wikipedia.org/wiki/Manuel_Augusto_Montes_de_Oca_%28m%C3%A9dico%29,Manuel Augusto Montes de Oca (médico),Argentina,Chile
+https://es.wikipedia.org/wiki/Ladislao_Guti%C3%A9rrez,Ladislao Gutiérrez,Argentina,Chile
+https://es.wikipedia.org/wiki/Francisco_Xavier_de_Echag%C3%BCe,Francisco Xavier de Echagüe,Argentina,"Chile, Perú"
+https://es.wikipedia.org/wiki/Jorge_Yoma,Jorge Yoma,Argentina,"Chile, México, Perú"
+https://es.wikipedia.org/wiki/Cecilia_Bolocco,Cecilia Bolocco,Argentina,Chile
+https://es.wikipedia.org/wiki/Rudecindo_Rojo,Rudecindo Rojo,Argentina,Chile
+https://es.wikipedia.org/wiki/Blanca_Varela,Blanca Varela,Argentina,Perú
+https://es.wikipedia.org/wiki/Enrique_Varela_Vidaurre,Enrique Varela Vidaurre,Argentina,Perú
+https://es.wikipedia.org/wiki/Luis_Varela_y_Orbegoso,Luis Varela y Orbegoso,Argentina,Perú
+https://es.wikipedia.org/wiki/Marcelino_Varela,Marcelino Varela,Argentina,"Chile, Perú"
+https://es.wikipedia.org/wiki/Serafina_Quinteras,Serafina Quinteras,Argentina,Perú
+https://es.wikipedia.org/wiki/Fernando_de_Szyszlo,Fernando de Szyszlo,Argentina,Perú
+https://es.wikipedia.org/wiki/Guillermo_Billinghurst,Guillermo Billinghurst,Argentina,"Chile, Perú"
+https://es.wikipedia.org/wiki/Jos%C3%A9_Francisco_de_San_Mart%C3%ADn,José de San Martín,Argentina,Perú
+https://es.wikipedia.org/wiki/Carlos_Saavedra_Lamas,Carlos Saavedra Lamas,Argentina,"Chile, Perú"
+https://es.wikipedia.org/wiki/Cornelio_Saavedra_Rodr%C3%ADguez,Cornelio Saavedra Rodríguez,Argentina,Chile
+https://es.wikipedia.org/wiki/Alfredo_Barnechea,Alfredo Barnechea,Argentina,Perú
+https://es.wikipedia.org/wiki/Hilda_Gadea,Hilda Gadea,Argentina,Perú
+https://es.wikipedia.org/wiki/Bartolom%C3%A9_Mitre_Vedia,Bartolomé Mitre Vedia,Argentina,Perú
+https://es.wikipedia.org/wiki/Jaime_D%C3%A1valos,Jaime Dávalos,Argentina,Perú
+https://es.wikipedia.org/wiki/Juan_Jos%C3%A9_Gorriti,Juan José Gorriti,Argentina,Perú
+https://es.wikipedia.org/wiki/Ra%C3%BAl_Pr%C3%A9bisch,Raúl Prébisch,Argentina,Chile
+https://es.wikipedia.org/wiki/Hip%C3%B3lito_Francisco_de_Villegas,Hipólito Francisco de Villegas,Argentina,Chile
+https://es.wikipedia.org/wiki/Jacinto_Mariano_de_Villegas,Jacinto Mariano de Villegas,Argentina,Perú
+https://es.wikipedia.org/wiki/Miguel_Mariano_de_Villegas,Miguel Mariano de Villegas,Argentina,Chile
+https://es.wikipedia.org/wiki/Miguel_Mariano_de_Villegas#Matrimonio_y_descendencia,Miguel Mariano de Villegas,Argentina,Chile
+https://es.wikipedia.org/wiki/Tiburcio_Benegas,Tiburcio Benegas,Argentina,Chile
+https://es.wikipedia.org/wiki/Manuel_Velarde_Dellepiane,Manuel Velarde Dellepiane,Argentina,Perú
+https://es.wikipedia.org/wiki/Manuel_Velarde_Asp%C3%ADllaga,Manuel Velarde Aspíllaga,Argentina,Perú
+https://es.wikipedia.org/wiki/Marcelo_Bielsa,Marcelo Bielsa,Argentina,Chile
+https://es.wikipedia.org/wiki/Rafael_Bielsa_%28pol%C3%ADtico%29,Rafael Bielsa (político),Argentina,Chile
+https://es.wikipedia.org/wiki/Delia_del_Carril,Delia del Carril,Argentina,Chile
+https://es.wikipedia.org/wiki/Pablo_Neruda,Pablo Neruda,Argentina,Chile
+https://es.wikipedia.org/wiki/Mar%C3%ADa_Antonia_Hagenaar_Vogelzang,Maria Antonia Hagenaar,Argentina,Chile
+https://es.wikipedia.org/wiki/Matilde_Urrutia,Matilde Urrutia,Argentina,Chile
+https://es.wikipedia.org/wiki/Carlos_Torcuato_de_Alvear,Carlos Torcuato de Alvear,Argentina,Perú
+https://es.wikipedia.org/wiki/Tom%C3%A1s_Godoy_Cruz,Tomás Godoy Cruz,Argentina,Chile
+https://es.wikipedia.org/wiki/Juan_Jos%C3%A9_Godoy,Juan José Godoy,Argentina,Chile
+https://es.wikipedia.org/wiki/Ruperto_Eduardo_Godoy,Ruperto Eduardo Godoy,Argentina,Chile
+https://es.wikipedia.org/wiki/Carlos_Juan_Rodr%C3%ADguez,Carlos Juan Rodríguez,Argentina,Chile
+https://es.wikipedia.org/wiki/Victorio_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,Victorio García de Zúñiga,Argentina,Chile
+https://es.wikipedia.org/wiki/Ana_de_Azcu%C3%A9naga_de_Olaguer_Feli%C3%BA,Ana de Azcuénaga de Olaguer Feliú,Argentina,Perú
+https://es.wikipedia.org/wiki/Manuel_Joaqu%C3%ADn_de_Valdivieso,Manuel Joaquín de Valdivieso,Argentina,Chile
+https://es.wikipedia.org/wiki/Manuel_de_la_Puente_y_Lavalle,Manuel de la Puente y Lavalle,Argentina,Perú
+https://es.wikipedia.org/wiki/Susana_de_la_Puente_Wiese,Susana de la Puente Wiese,Argentina,Perú
+https://es.wikipedia.org/wiki/Luis_Duncker_Lavalle,Luis Duncker Lavalle,Argentina,Perú
+https://es.wikipedia.org/wiki/Hernando_de_Lavalle,Hernando de Lavalle,Argentina,Perú
+https://es.wikipedia.org/wiki/Alberto_%C3%8Dsola,Alberto Ísola,Argentina,Perú
+https://es.wikipedia.org/wiki/Jos%C3%A9_Antonio_de_Lavalle,José Antonio de Lavalle,Argentina,"Chile, Perú"
+https://es.wikipedia.org/wiki/Jos%C3%A9_Antonio_de_Lavalle_y_Garc%C3%ADa,José Antonio de Lavalle y García,Argentina,Perú
+https://es.wikipedia.org/wiki/Jos%C3%A9_Antonio_de_Lavalle_y_Pardo,José Antonio de Lavalle y Pardo,Argentina,Perú
+https://es.wikipedia.org/wiki/Juan_Bautista_de_Lavalle,Juan Bautista de Lavalle,Argentina,Perú
+https://es.wikipedia.org/wiki/Juan_Bautista_de_Lavalle_y_Garc%C3%ADa,Juan Bautista de Lavalle y García,Argentina,Perú
+https://es.wikipedia.org/wiki/Jos%C3%A9_Antonio_de_Lavalle_y_Cort%C3%A9s,José Antonio de Lavalle y Cortés,Argentina,Perú
+https://es.wikipedia.org/wiki/Hernando_de_Lavalle_y_Garc%C3%ADa,Hernando de Lavalle y García,Argentina,Perú
+https://es.wikipedia.org/wiki/Jos%C3%A9_Casimiro_de_Lavalle_y_Zugasti,José Casimiro de Lavalle y Zugasti,Argentina,Perú
+https://es.wikipedia.org/wiki/Ricardo_Lavalle_%28pol%C3%ADtico%29,Ricardo Lavalle (político),Argentina,Chile
+https://es.wikipedia.org/wiki/Juan_Pardo_Heeren,Juan Pardo Heeren,Argentina,Perú
+https://es.wikipedia.org/wiki/Jos%C3%A9_Pardo_y_Barreda,José Pardo y Barreda,Argentina,Perú
+https://es.wikipedia.org/wiki/Manuel_Pardo_y_Lavalle,Manuel Pardo y Lavalle,Argentina,Perú
+https://es.wikipedia.org/wiki/Fernando_Villar%C3%A1n_de_la_Puente,Fernando Villarán de la Puente,Argentina,Perú
+https://es.wikipedia.org/wiki/Susana_Villar%C3%A1n,Susana Villarán,Argentina,Perú
+https://es.wikipedia.org/wiki/Augusto_Wiese_de_Osma,Augusto Wiese de Osma,Argentina,Perú
+https://es.wikipedia.org/wiki/Guillermo_Wiese_de_Osma,Guillermo Wiese de Osma,Argentina,Perú
+https://es.wikipedia.org/wiki/Augusto_Wiese_Eslava,Augusto Wiese Eslava,Argentina,Perú
+https://es.wikipedia.org/wiki/Andr%C3%A9s_Wiese,Andrés Wiese,Argentina,Perú
+https://es.wikipedia.org/wiki/Gonzalo_de_la_Puente_y_Lavalle,Gonzalo de la Puente y Lavalle,Argentina,Perú
+https://es.wikipedia.org/wiki/Felipe_Pardo_y_Aliaga,Felipe Pardo y Aliaga,Argentina,Perú
+https://es.wikipedia.org/wiki/Felipe_Pardo_y_Barreda,Felipe Pardo y Barreda,Argentina,Perú
+https://es.wikipedia.org/wiki/Juan_Pardo_y_Barreda,Juan Pardo y Barreda,Argentina,Perú
+https://es.wikipedia.org/wiki/Manuel_Piqueras_Luna,Manuel Piqueras Luna,Argentina,Perú
+https://es.wikipedia.org/wiki/Ver%C3%B3nica_Wiese,Verónica Wiese,Argentina,Perú
+https://es.wikipedia.org/wiki/Giselle_Collao,Giselle Collao,Argentina,Perú
+https://es.wikipedia.org/wiki/Valeria_Bringas,Valeria Bringas,Argentina,Perú
+https://es.wikipedia.org/wiki/Melania_Urbina,Melania Urbina,Argentina,Perú
+https://es.wikipedia.org/wiki/Janick_Maceta,Janick Maceta,Argentina,Perú
+https://es.wikipedia.org/wiki/Jorge_Piqueras,Jorge Piqueras,Argentina,Perú
+https://es.wikipedia.org/wiki/Frank_P%C3%A9rez-Garland,Frank Pérez-Garland,Argentina,Perú
+https://es.wikipedia.org/wiki/Florentino_Ameghino,Florentino Ameghino,Argentina,Perú
+https://es.wikipedia.org/wiki/Julio_Victorica_Roca,Julio Victorica Roca,Argentina,Chile
+https://es.wikipedia.org/wiki/Lorenzo_Lugones,Lorenzo Lugones,Argentina,Chile
+https://es.wikipedia.org/wiki/Antonio_Cafiero,Antonio Cafiero,Argentina,Chile
+https://es.wikipedia.org/wiki/Bartolom%C3%A9_Ortiz_de_Rozas,Bartolomé Ortiz de Rozas,Argentina,Chile
+https://es.wikipedia.org/wiki/Hern%C3%A1n_Hip%C3%B3lito_Cornejo,Hernán Hipólito Cornejo,Argentina,Chile
+https://es.wikipedia.org/wiki/Antonio_Candioti_y_Mujica,Antonio Candioti y Mujica,Argentina,Perú
+https://es.wikipedia.org/wiki/Alberto_Mar%C3%ADa_Candioti,Alberto María Candioti,Argentina,México
+https://es.wikipedia.org/wiki/Joaqu%C3%ADn_Nazar,Joaquín Nazar,Argentina,Chile
+https://es.wikipedia.org/wiki/Fernando_Vaca_Narvaja,Fernando Vaca Narvaja,Argentina,México
+https://es.wikipedia.org/wiki/Patricia_Vaca_Narvaja,Patricia Vaca Narvaja,Argentina,México
+https://es.wikipedia.org/wiki/Federico_Mart%C3%ADnez_de_Hoz,Federico Martínez de Hoz,Argentina,Perú
+https://es.wikipedia.org/wiki/Mar%C3%ADa_Emilia_Soria,María Emilia Soria,Argentina,Chile
+https://es.wikipedia.org/wiki/Ciriaco_D%C3%ADaz_V%C3%A9lez,Ciriaco Díaz Vélez,Argentina,Perú
+https://es.wikipedia.org/wiki/Enrique_Llopis,Enrique Llopis,Argentina,Perú
+https://es.wikipedia.org/wiki/Juan_Cris%C3%B3stomo_Lafinur,Juan Crisóstomo Lafinur,Argentina,Chile
+https://es.wikipedia.org/wiki/Casimiro_Marc%C3%B3_del_Pont,Casimiro Marcó del Pont,Argentina,Chile
+https://es.wikipedia.org/wiki/Carlos_Alberto_Pueyrred%C3%B3n,Carlos Alberto Pueyrredón,Argentina,Perú
+https://es.wikipedia.org/wiki/Augusto_Bel%C3%ADn_Sarmiento,Augusto Belín Sarmiento,Argentina,Chile
+https://es.wikipedia.org/wiki/Benita_Mart%C3%ADnez_Pastoriza_de_Sarmiento,Benita Martínez Pastoriza de Sarmiento,Argentina,Chile
+https://es.wikipedia.org/wiki/Jos%C3%A9_Manuel_Quiroga_Sarmiento,José Manuel Quiroga Sarmiento,Argentina,Chile
+https://es.wikipedia.org/wiki/Cristina_Fern%C3%A1ndez_de_Kirchner,Cristina Fernández de Kirchner,Argentina,Chile
+https://es.wikipedia.org/wiki/Juan_Cris%C3%B3stomo_%C3%81lvarez,Juan Crisóstomo Álvarez,Argentina,Chile
+https://es.wikipedia.org/wiki/Mercedes_Ar%C3%A1oz,Mercedes Aráoz,Argentina,Perú
+https://es.wikipedia.org/wiki/%C3%81ntero_Flores-Ar%C3%A1oz,Ántero Flores-Aráoz,Argentina,Perú
+https://es.wikipedia.org/wiki/Carlos_Rodr%C3%ADguez_Larreta,Carlos Rodríguez Larreta,Argentina,Perú
+https://es.wikipedia.org/wiki/Juan_Manuel_%C3%81lvarez_del_Castillo,Juan Manuel Álvarez del Castillo,México,"Argentina, Perú"
+https://es.wikipedia.org/wiki/Alejandra_de_Cima_Aldrete,Alejandra de Cima Aldrete,México,Chile
+https://es.wikipedia.org/wiki/Alberto_Salinas_Carranza,Alberto Salinas Carranza,México,Perú
+https://es.wikipedia.org/wiki/Mar%C3%ADa_Talavera_Brouss%C3%A9,María Talavera Broussé,México,Perú
+https://es.wikipedia.org/wiki/Juan_Mariano_Coss%C3%ADo,Juan Mariano Cossío,México,Perú
+https://es.wikipedia.org/wiki/Antonio_Gonz%C3%A1lez_Guevara,Antonio González Guevara,México,Perú
+https://es.wikipedia.org/wiki/Carlos_Trejo_Lerdo_de_Tejada,Carlos Trejo Lerdo de Tejada,México,"Chile, Argentina"
+https://es.wikipedia.org/wiki/Alberto_Loret_de_Mola,Alberto Loret de Mola,México,Perú
+https://es.wikipedia.org/wiki/Aurelio_Loret_de_Mola,Aurelio Loret de Mola,México,Perú
+https://es.wikipedia.org/wiki/Porfirio_Thierry_Mu%C3%B1oz_Ledo,Porfirio Thierry Muñoz Ledo,México,Perú
+https://es.wikipedia.org/wiki/Martha_Hildebrandt,Martha Hildebrandt,México,Perú
+https://es.wikipedia.org/wiki/%C3%81lvaro_P%C3%A9rez_Trevi%C3%B1o,Álvaro Pérez Treviño,México,Chile
+https://es.wikipedia.org/wiki/Christian_Bach,Christian Bach,México,Argentina
+https://es.wikipedia.org/wiki/Melit%C3%B3n_Reyes_Andrade,Melitón Reyes Andrade,México,Perú
+https://es.wikipedia.org/wiki/Carlos_Riva_Palacio,Carlos Riva Palacio,México,Chile
+https://es.wikipedia.org/wiki/Mercedes_Soler_%28actriz%29,Mercedes Soler (actriz),México,Argentina
+https://es.wikipedia.org/wiki/Alejandro_Ciangherotti,Alejandro Ciangherotti,México,Argentina
+https://es.wikipedia.org/wiki/Alejandro_Ciangherotti_II,Alejandro Ciangherotti II,México,Argentina
+https://es.wikipedia.org/wiki/Gast%C3%B3n_Acurio,Gastón Acurio,Perú,Argentina
+https://es.wikipedia.org/wiki/Gast%C3%B3n_Acurio_Jaramillo,Gastón Acurio,Perú,Argentina
+https://es.wikipedia.org/wiki/Luc%C3%ADa_Dammert,Lucía Dammert,Perú,Chile
+https://es.wikipedia.org/wiki/Ciro_Alegr%C3%ADa,Ciro Alegría,Perú,Chile
+https://es.wikipedia.org/wiki/Alessia_Injoque,Alessia Injoque,Perú,Chile
+https://es.wikipedia.org/wiki/Alfredo_%C3%81lvarez-Calder%C3%B3n,Alfredo Álvarez-Calderón,Perú,Argentina
+https://es.wikipedia.org/wiki/Jos%C3%A9_Guillermo_del_Solar,José Guillermo del Solar,Perú,Chile
+https://es.wikipedia.org/wiki/Rom%C3%A1n_Alzamora,Román Alzamora,Perú,Chile
+https://es.wikipedia.org/wiki/Mar%C3%ADa_Ram%C3%ADrez,María Ramírez,Perú,Chile
+https://es.wikipedia.org/wiki/Andr%C3%A9s_Arambur%C3%BA_Salinas,Andrés Aramburú Salinas,Perú,Chile
+https://es.wikipedia.org/wiki/Andr%C3%A9s_Avelino_Arambur%C3%BA_Salinas,Andrés Aramburú Salinas,Perú,Chile
+https://es.wikipedia.org/wiki/Juan_Francisco_Balta_del_Campo,Juan Francisco Balta del Campo,Perú,Chile
+https://es.wikipedia.org/wiki/Enrique_Barreda_y_Laos,Enrique Barreda y Laos,Perú,Argentina
+https://es.wikipedia.org/wiki/Felipe_Barreda_y_Laos,Felipe Barreda y Laos,Perú,Argentina
+https://es.wikipedia.org/wiki/Carlos_Basadre_Forero,Carlos Basadre Forero,Perú,Chile
+https://es.wikipedia.org/wiki/Enrique_Basadre_Stevenson,Enrique Basadre Stevenson,Perú,Chile
+https://es.wikipedia.org/wiki/Manuel_Augusto_Bedoya_Lerzundi,Manuel Augusto Bedoya Lerzundi,Perú,"Chile, Argentina"
+https://es.wikipedia.org/wiki/Antonio_Bela%C3%BAnde_Moreyra,Antonio Belaúnde Moreyra,Perú,México
+https://es.wikipedia.org/wiki/Mart%C3%ADn_Bela%C3%BAnde_Moreyra,Martín Belaúnde Moreyra,Perú,Argentina
+https://es.wikipedia.org/wiki/Fernando_Bela%C3%BAnde_Terry,Fernando Belaúnde Terry,Perú,Argentina
+https://es.wikipedia.org/wiki/Andr%C3%A9s_Bolognesi,Andrés Bolognesi,Perú,Chile
+https://es.wikipedia.org/wiki/Enrique_Goytisolo_Bolognesi,Enrique Goytisolo Bolognesi,Perú,Chile
+https://es.wikipedia.org/wiki/Francisco_Bolognesi,Francisco Bolognesi,Perú,Chile
+https://es.wikipedia.org/wiki/Antonio_de_Boza_y_Garc%C3%A9s,Antonio de Boza y Garcés,Perú,Chile
+https://es.wikipedia.org/wiki/Jos%C3%A9_Boza,José Boza,Perú,Chile
+https://es.wikipedia.org/wiki/Mariano_Bustamante,Mariano Bustamante,Perú,Chile
+https://es.wikipedia.org/wiki/Eduardo_L%C3%B3pez_de_Roma%C3%B1a,Eduardo López de Romaña,Perú,Chile
+https://es.wikipedia.org/wiki/Sybila_Arredondo,Sybila Arredondo,Perú,Chile
+https://es.wikipedia.org/wiki/Mariano_Castro_Zald%C3%ADvar,Mariano Castro Zaldívar,Perú,Chile
+https://es.wikipedia.org/wiki/Jos%C3%A9_Mar%C3%ADa_Checa,José María Checa,Perú,Chile
+https://es.wikipedia.org/wiki/Manuel_Checa_Solari,Manuel Checa Solari,Perú,Chile
+https://es.wikipedia.org/wiki/Miguel_Antonio_Checa_Eguiguren,Miguel Antonio Checa Eguiguren,Perú,"Chile, Argentina"
+https://es.wikipedia.org/wiki/Manuel_Benjam%C3%ADn_Cisneros,Manuel Benjamín Cisneros,Perú,Chile
+https://es.wikipedia.org/wiki/Pedro_Cisneros_de_la_Torre,Pedro Cisneros de la Torre,Perú,Chile
+https://es.wikipedia.org/wiki/Luis_Cisneros_Vizquerra,Luis Cisneros Vizquerra,Perú,Argentina
+https://es.wikipedia.org/wiki/Alberto_Ulloa_Cisneros,Alberto Ulloa Cisneros,Perú,Argentina
+https://es.wikipedia.org/wiki/Alberto_Ulloa_Sotomayor,Alberto Ulloa Sotomayor,Perú,Chile
+https://es.wikipedia.org/wiki/Manuel_Gonz%C3%A1lez_Prada,Manuel González Prada,Perú,Chile
+https://es.wikipedia.org/wiki/Juan_Jos%C3%A9_de_la_Puente_e_Ib%C3%A1%C3%B1ez_de_Segovia,Juan José de la Puente e Ibáñez de Segovia,Perú,Chile
+https://es.wikipedia.org/wiki/Daniel_Ruzo,Daniel Ruzo,Perú,México
+https://es.wikipedia.org/wiki/Manuel_Vicente_del_Solar,Manuel Vicente del Solar,Perú,Chile
+https://es.wikipedia.org/wiki/Amador_del_Solar_C%C3%A1rdenas,Amador del Solar Cárdenas,Perú,Argentina
+https://es.wikipedia.org/wiki/Ram%C3%B3n_Castilla,Ramón Castilla,Perú,Argentina
+https://es.wikipedia.org/wiki/Manuel_Yrigoyen_Arias,Manuel Yrigoyen Arias,Perú,Chile
+https://es.wikipedia.org/wiki/Hern%C3%A1n_Velarde,Hernán Velarde,Perú,Argentina
+https://es.wikipedia.org/wiki/Rogelio_Valdivieso_Eguiguren,Rogelio Valdivieso Eguiguren,Perú,Argentina
+https://es.wikipedia.org/wiki/Juan_Bautista_El%C3%A9spuru,Juan Bautista Eléspuru,Perú,Chile
+https://es.wikipedia.org/wiki/Norberto_El%C3%A9spuru,Norberto Eléspuru,Perú,Chile
+https://es.wikipedia.org/wiki/Carlos_Mar%C3%ADa_El%C3%ADas,Carlos María Elías,Perú,Chile
+https://es.wikipedia.org/wiki/Carlos_M._El%C3%ADas,Carlos María Elías,Perú,Chile
+https://es.wikipedia.org/wiki/Jimena_El%C3%ADas,Jimena Elías,Perú,México
+https://es.wikipedia.org/wiki/Teodoro_Elmore,Teodoro Elmore,Perú,Chile
+https://es.wikipedia.org/wiki/Manuel_Ferreyros,Manuel Ferreyros,Perú,Chile
+https://es.wikipedia.org/wiki/Marcelo_Oxenford,Marcelo Oxenford,Perú,Argentina
+https://es.wikipedia.org/wiki/Juliana_Oxenford,Juliana Oxenford,Perú,Argentina
+https://es.wikipedia.org/wiki/Jos%C3%A9_G%C3%A1lvez_Eg%C3%BAsquiza,José Gálvez Egúsquiza,Perú,Chile
+https://es.wikipedia.org/wiki/Manuel_Mar%C3%ADa_G%C3%A1lvez_Eg%C3%BAsquiza,Manuel María Gálvez Egúsquiza,Perú,Chile
+https://es.wikipedia.org/wiki/Francisco_Garc%C3%ADa-Calder%C3%B3n_Landa,Francisco García-Calderón Landa,Perú,"Chile, Argentina"
+https://es.wikipedia.org/wiki/Francisco_Garc%C3%ADa-Calder%C3%B3n_Rey,Francisco García-Calderón Rey,Perú,Chile
+https://es.wikipedia.org/wiki/Francisco_Garc%C3%ADa_Calder%C3%B3n_Rey,Francisco García-Calderón Rey,Perú,Chile
+https://es.wikipedia.org/wiki/Aurelio_Garc%C3%ADa_y_Garc%C3%ADa,Aurelio García y García,Perú,Chile
+https://es.wikipedia.org/wiki/Jos%C3%A9_Antonio_Garc%C3%ADa_y_Garc%C3%ADa,José Antonio García y García,Perú,Chile
+https://es.wikipedia.org/wiki/Carlos_Gibson,Carlos Gibson,Perú,Argentina
+https://es.wikipedia.org/wiki/Daphne_Dougall,Daphne Dougall,Perú,Argentina
+https://es.wikipedia.org/wiki/Hans_Gildemeister,Hans Gildemeister,Perú,Chile
+https://es.wikipedia.org/wiki/Heinz_Gildemeister,Heinz Gildemeister,Perú,"Chile, Argentina"
+https://es.wikipedia.org/wiki/Jos%C3%A9_Joaqu%C3%ADn_Incl%C3%A1n,José Joaquín Inclán,Perú,Chile
+https://es.wikipedia.org/wiki/Manuel_Gonz%C3%A1lez-Olaechea_Franco,Manuel González-Olaechea Franco,Perú,Chile
+https://es.wikipedia.org/wiki/Miguel_Grau,Miguel Grau,Perú,Chile
+https://es.wikipedia.org/wiki/Eduardo_de_Habich,Eduardo de Habich,Perú,Chile
+https://es.wikipedia.org/wiki/Fernando_Tola_Mendoza,Fernando Tola Mendoza,Perú,Argentina
+https://es.wikipedia.org/wiki/Carmen_Dragonetti,Carmen Dragonetti,Perú,Argentina
+https://es.wikipedia.org/wiki/Chabuca_Granda,Chabuca Granda,Perú,"Argentina, México"
+https://es.wikipedia.org/wiki/V%C3%ADctor_Larco_Herrera,Víctor Larco Herrera,Perú,Chile
+https://es.wikipedia.org/wiki/Teresa_Mar%C3%ADa_Llona,Teresa María Llona,Perú,Chile
+https://es.wikipedia.org/wiki/Carlos_Llosa,Carlos Llosa,Perú,Chile
+https://es.wikipedia.org/wiki/Luis_Llosa_y_Abril,Luis Llosa y Abril,Perú,Chile
+https://es.wikipedia.org/wiki/Remigio_Morales_Berm%C3%BAdez,Remigio Morales Bermúdez,Perú,Chile
+https://es.wikipedia.org/wiki/Miguel_Emilio_Luna_y_Peralta,Miguel Emilio Luna y Peralta,Perú,Chile
+https://es.wikipedia.org/wiki/Jos%C3%A9_Carlos_Mari%C3%A1tegui,José Carlos Mariátegui,Perú,Argentina
+https://es.wikipedia.org/wiki/Manuel_de_Mendiburu,Manuel de Mendiburu,Perú,Chile
+https://es.wikipedia.org/wiki/Matilde_Ladr%C3%B3n_de_Guevara,Matilde Ladrón de Guevara,Perú,Chile
+https://es.wikipedia.org/wiki/Jorge_Teillier,Jorge Teillier,Perú,Chile
+https://es.wikipedia.org/wiki/Inti_Briones,Inti Briones,Perú,Chile
+https://es.wikipedia.org/wiki/Maki_Mir%C3%B3_Quesada,Maki Miró Quesada,Perú,Argentina
+https://es.wikipedia.org/wiki/Blanca_Luz_Brum,Blanca Luz Brum,Perú,México
+https://es.wikipedia.org/wiki/David_Alfaro_Siqueiros,David Alfaro Siqueiros,Perú,México
+https://es.wikipedia.org/wiki/Diego_Gonz%C3%A1lez_Montero,Diego González Montero,Perú,Chile
+https://es.wikipedia.org/wiki/Diego_Montero_del_%C3%81guila,Diego Montero del Águila,Perú,Chile
+https://es.wikipedia.org/wiki/Juan_Esteban_Montero,Juan Esteban Montero,Perú,Chile
+https://es.wikipedia.org/wiki/Lizardo_Montero,Lizardo Montero,Perú,Chile
+https://es.wikipedia.org/wiki/Graciela_Fehrman_Mart%C3%ADnez,Graciela Fehrman,Perú,Chile
+https://es.wikipedia.org/wiki/Juan_Guillermo_More,Juan Guillermo More,Perú,Chile
+https://es.wikipedia.org/wiki/El%C3%ADas_Mujica_y_Trasmonte,Elías Mujica y Trasmonte,Perú,Chile
+https://es.wikipedia.org/wiki/Segundo_Cernadas,Segundo Cernadas,Perú,Argentina
+https://es.wikipedia.org/wiki/Manuel_de_Odriozola,Manuel de Odriozola,Perú,Chile
+https://es.wikipedia.org/wiki/Teodorico_Olaechea,Teodorico Olaechea,Perú,Chile
+https://es.wikipedia.org/wiki/Carlos_Alfonso_Gonz%C3%A1lez_de_Orbegoso,Carlos Alfonso González de Orbegoso,Perú,Chile
+https://es.wikipedia.org/wiki/Luis_Jos%C3%A9_de_Orbegoso,Luis José de Orbegoso,Perú,Chile
+https://es.wikipedia.org/wiki/Andr%C3%A9s_Mart%C3%ADnez_de_Orihuela,Andrés Martínez de Orihuela,Perú,Chile
+https://es.wikipedia.org/wiki/Jos%C3%A9_Mar%C3%ADa_Orihuela_Mor%C3%B3n,José María Orihuela Morón,Perú,Argentina
+https://es.wikipedia.org/wiki/Felipe_de_Osma_y_Pardo,Felipe de Osma y Pardo,Perú,"Chile, Argentina"
+https://es.wikipedia.org/wiki/Javier_de_Osma,Javier de Osma,Perú,Chile
+https://es.wikipedia.org/wiki/Mariano_Felipe_Paz_Sold%C3%A1n,Mariano Felipe Paz Soldán,Perú,Chile
+https://es.wikipedia.org/wiki/Nicol%C3%A1s_de_Pi%C3%A9rola,Nicolás de Piérola,Perú,Chile
+https://es.wikipedia.org/wiki/Nicol%C3%A1s_de_Pi%C3%A9rola_Villena,Nicolás de Piérola,Perú,Chile
+https://es.wikipedia.org/wiki/Juan_Manuel_Polar_y_Carasas,Juan Manuel Polar y Carasas,Perú,Chile
+https://es.wikipedia.org/wiki/%C3%81lvaro_de_Soto,Álvaro de Soto,Perú,Argentina
+https://es.wikipedia.org/wiki/Melit%C3%B3n_Porras_Osores,Melitón Porras Osores,Perú,Chile
+https://es.wikipedia.org/wiki/Melit%C3%B3n_F._Porras_Osores,Melitón Porras Osores,Perú,Chile
+https://es.wikipedia.org/wiki/Juan_Antonio_Portugal_Prieto,Juan Antonio Portugal Prieto,Perú,Chile
+https://es.wikipedia.org/wiki/Leoncio_Prado,Leoncio Prado,Perú,Chile
+https://es.wikipedia.org/wiki/Leoncio_Prado_Guti%C3%A9rrez,Leoncio Prado,Perú,Chile
+https://es.wikipedia.org/wiki/Jos%C3%A9_Santos_Grocio_Prado_Linares,Grocio Prado,Perú,Chile
+https://es.wikipedia.org/wiki/Javier_Prado_y_Ugarteche,Javier Prado y Ugarteche,Perú,Argentina
+https://es.wikipedia.org/wiki/Claudio_Rebagliati,Claudio Rebagliati,Perú,Chile
+https://es.wikipedia.org/wiki/Edgardo_Rebagliati,Edgardo Rebagliati,Perú,México
+https://es.wikipedia.org/wiki/Gaspar_Rem%C3%ADrez_de_Laredo_y_Encalada,Gaspar Remírez de Laredo y Encalada,Perú,Chile
+https://es.wikipedia.org/wiki/Jos%C3%A9_de_la_Riva_Ag%C3%BCero_y_Looz_Corswarem,José de la Riva Agüero y Looz Corswarem,Perú,Chile
+https://es.wikipedia.org/wiki/Jos%C3%A9_de_la_Riva-Ag%C3%BCero,José de la Riva-Agüero,Perú,Chile
+https://es.wikipedia.org/wiki/Jos%C3%A9_de_la_Riva_Ag%C3%BCero,José de la Riva-Agüero,Perú,Chile
+https://es.wikipedia.org/wiki/Jos%C3%A9_Carlos_Fulgencio_Pedro_Regalado_de_la_Riva_Ag%C3%BCero_y_Looz_Corswarem,José de la Riva Agüero y Looz Corswarem,Perú,Chile
+https://es.wikipedia.org/wiki/Josafat_Roel_Pineda,Josafat Roel Pineda,Perú,Chile
+https://es.wikipedia.org/wiki/Jos%C3%A9_Cirilo_Julio_Rospigliosi,José Cirilo Julio Rospigliosi,Perú,"Chile, Argentina"
+https://es.wikipedia.org/wiki/Inda_Ledesma,Inda Ledesma,Perú,Argentina
+https://es.wikipedia.org/wiki/Osvaldo_Cattone,Osvaldo Cattone,Perú,Argentina
+https://es.wikipedia.org/wiki/Jos%C3%A9_Cabero_y_Salazar,José Cabero y Salazar,Perú,Chile
+https://es.wikipedia.org/wiki/Manuel_Salazar_y_Baqu%C3%ADjano,Manuel Salazar y Baquíjano,Perú,Chile
+https://es.wikipedia.org/wiki/Di%C3%B3medes_Arias_Schreiber,Diómedes Arias Schreiber,Perú,Argentina
+https://es.wikipedia.org/wiki/Augusto_Seminario_y_V%C3%A1scones,Augusto Seminario y Váscones,Perú,Chile
+https://es.wikipedia.org/wiki/Fernando_Seminario_y_Echand%C3%ADa,Fernando Seminario y Echandía,Perú,Chile
+https://es.wikipedia.org/wiki/Francisco_Garc%C3%ADa_y_Le%C3%B3n,Francisco García y León,Perú,Chile
+https://es.wikipedia.org/wiki/Edgardo_Seoane,Edgardo Seoane,Perú,México
+https://es.wikipedia.org/wiki/Juan_Seoane,Juan Seoane,Perú,"Chile, Argentina"
+https://es.wikipedia.org/wiki/Edgardo_Seoane_Corrales,Edgardo Seoane,Perú,México
+https://es.wikipedia.org/wiki/Rufino_Torrico,Rufino Torrico,Perú,Chile
+https://es.wikipedia.org/wiki/Domingo_Trist%C3%A1n_y_Moscoso,Domingo Tristán y Moscoso,Perú,Argentina
+https://es.wikipedia.org/wiki/Juan_Antonio_Ugarteche,Juan Antonio Ugarteche,Perú,Argentina
+https://es.wikipedia.org/wiki/Mario_Vargas_Llosa,Mario Vargas Llosa,Perú,Argentina
+https://es.wikipedia.org/wiki/Enrique_Iglesias,Enrique Iglesias,Perú,México
+https://es.wikipedia.org/wiki/Jorge_Enrique_Velarde,Jorge Enrique Velarde,Perú,Chile
+https://es.wikipedia.org/wiki/Juan_Manuel_Figueroa_Aznar,Juan Manuel Figueroa Aznar,Perú,Argentina
+https://es.wikipedia.org/wiki/Leonidas_Yerovi,Leonidas Yerovi,Perú,Chile

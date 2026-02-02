@@ -1,0 +1,16 @@
+familia,degree,betweenness,familia_central
+Pinto (Chile),4,3,TRUE
+Cruz (Chile),4,5,TRUE
+Velasco (Chile),2,1,TRUE
+Echenique,2,0,TRUE
+García-Huidobro,2,1,TRUE
+Mackenna,2,0,TRUE
+Piñera,2,0,TRUE
+Subercaseaux,2,0,TRUE
+Valdivieso,2,0,TRUE
+Vicuña,2,1,TRUE
+Vial,1,0,FALSE
+Aylwin,1,0,FALSE
+Concha (Chile),1,0,FALSE
+Cruz-Coke,1,0,FALSE
+Di Girolamo,1,0,FALSE

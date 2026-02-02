@@ -17,15 +17,31 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import time
 import argparse
+import json
 import os
-from urllib.parse import urljoin, unquote
+from urllib.parse import urljoin, unquote, quote
 from datetime import datetime
 from pathlib import Path
 
 BASE_URL = "https://es.wikipedia.org"
-HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-}
+API_URL = "https://es.wikipedia.org/w/api.php"
+DEFAULT_USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+
+
+def get_headers():
+    """Arma headers para requests normales (sin token)."""
+    user_agent = os.environ.get('WIKI_USER_AGENT', DEFAULT_USER_AGENT)
+    headers = {'User-Agent': user_agent}
+    return headers
+
+
+def get_api_headers():
+    """Arma headers con token para llamadas a la API."""
+    headers = get_headers()
+    access_token = os.environ.get('WIKI_ACCESS_TOKEN')
+    if access_token:
+        headers['Authorization'] = f"Bearer {access_token}"
+    return headers
 DELAY_SECONDS = 10  # Aumentado para evitar bloqueos 403
 
 
@@ -33,17 +49,97 @@ def get_project_root():
     """Obtiene la ruta raíz del proyecto."""
     return Path(__file__).resolve().parents[2]
 
-def get_soup(url, retries=3):
-    """Obtiene BeautifulSoup de una URL con reintentos"""
+
+def get_output_path(output_name, country="chile"):
+    """Construye la ruta de salida para una familia."""
+    safe_name = output_name.replace(' ', '_').replace(':', '').lower()
+    country_safe = country.lower()
+    output_dir = get_project_root() / "data" / "raw" / country_safe / "familias"
+    output_dir.mkdir(parents=True, exist_ok=True)
+    return output_dir / f"{safe_name}_completo.csv"
+
+
+def load_existing_data(output_path):
+    """Carga datos previos si existe un CSV (para reanudar)."""
+    if not output_path.exists():
+        return pd.DataFrame()
+    try:
+        return pd.read_csv(output_path, sep=';', encoding='utf-8')
+    except Exception as e:
+        print(f"⚠️  No se pudo leer archivo existente {output_path}: {e}")
+        return pd.DataFrame()
+
+def get_soup(url, retries=3, base_delay=2, rate_limit_delay=60):
+    """Obtiene BeautifulSoup de una URL con reintentos y backoff."""
     for i in range(retries):
         try:
-            resp = requests.get(url, headers=HEADERS, timeout=15)
+            resp = requests.get(url, headers=get_headers(), timeout=15)
+            if resp.status_code in (403, 429):
+                retry_after = resp.headers.get('Retry-After')
+                wait = (
+                    int(retry_after)
+                    if retry_after and retry_after.isdigit()
+                    else rate_limit_delay * (i + 1)
+                )
+                print(f"⚠️  Rate limit en {url}. Esperando {wait}s (intento {i+1}/{retries})")
+                time.sleep(wait)
+                continue
             resp.raise_for_status()
             return BeautifulSoup(resp.text, 'html.parser')
         except Exception as e:
             print(f"❌ Error cargando {url}: {e}. Reintento {i+1}/{retries}")
-            time.sleep(2)
+            time.sleep(base_delay * (i + 1))
     return None
+
+
+def get_category_title_from_url(category_url):
+    """Convierte URL de categoría a título para la API."""
+    if '/wiki/' in category_url:
+        title = category_url.split('/wiki/')[-1]
+    else:
+        title = category_url
+    title = unquote(title).replace('_', ' ')
+    if not title.startswith('Categoría:'):
+        title = f"Categoría:{title}"
+    return title
+
+
+def extract_category_members_api(category_title):
+    """Extrae miembros de una categoría usando la API de Wikipedia."""
+    members = []
+    params = {
+        'action': 'query',
+        'list': 'categorymembers',
+        'cmtitle': category_title,
+        'cmtype': 'page',
+        'cmlimit': 'max',
+        'format': 'json'
+    }
+
+    while True:
+        resp = requests.get(API_URL, headers=get_api_headers(), params=params, timeout=15)
+        if resp.status_code in (403, 429):
+            retry_after = resp.headers.get('Retry-After')
+            wait = int(retry_after) if retry_after and retry_after.isdigit() else 60
+            print(f"⚠️  Rate limit en API. Esperando {wait}s")
+            time.sleep(wait)
+            continue
+        resp.raise_for_status()
+        data = resp.json()
+        for item in data.get('query', {}).get('categorymembers', []):
+            title = item.get('title', '').strip()
+            if not title:
+                continue
+            url = f"{BASE_URL}/wiki/{quote(title.replace(' ', '_'))}"
+            members.append({'nombre': title, 'url': url})
+            print(f"  ✓ Encontrado: {title}")
+
+        if 'continue' in data:
+            params.update(data['continue'])
+        else:
+            break
+
+    return members
 
 
 def extract_category_members(category_url):
@@ -56,35 +152,8 @@ def extract_category_members(category_url):
     Returns:
         list: Lista de diccionarios con {nombre, url}
     """
-    soup = get_soup(category_url)
-    if not soup:
-        return []
-    
-    members = []
-    
-    # Buscar la sección "Páginas en la categoría"
-    pages_section = soup.find('div', {'id': 'mw-pages'})
-    if not pages_section:
-        print("⚠️  No se encontró la sección de páginas en la categoría")
-        return []
-    
-    # Extraer todos los enlaces a páginas de personas
-    links = pages_section.find_all('a')
-    
-    for link in links:
-        href = link.get('href', '')
-        text = link.get_text(strip=True)
-        
-        # Filtrar solo enlaces a artículos (que empiezan con /wiki/ y no son especiales)
-        if href.startswith('/wiki/') and ':' not in href:
-            full_url = BASE_URL + href
-            members.append({
-                'nombre': text,
-                'url': full_url
-            })
-            print(f"  ✓ Encontrado: {text}")
-    
-    return members
+    category_title = get_category_title_from_url(category_url)
+    return extract_category_members_api(category_title)
 
 
 def extract_infobox_data(soup, url):
@@ -126,6 +195,7 @@ def extract_infobox_data(soup, url):
         'nombre': nombre,
         'url': url,
         'biografia_inicial': biografia_inicial,
+        'biografia': '',
         'fecha_nacimiento': '',
         'lugar_nacimiento': '',
         'fecha_fallecimiento': '',
@@ -150,29 +220,65 @@ def extract_infobox_data(soup, url):
         'distinciones': '',
         'premios': '',
         'sitio_web': '',
+        'infobox_completa': '',
+        'infobox_json': '',
+        'perfiles_relacionados': '',
+        'perfiles_relacionados_padres': '',
+        'perfiles_relacionados_conyuge': '',
+        'perfiles_relacionados_pareja': '',
+        'perfiles_relacionados_hijos': '',
+        'perfiles_relacionados_hermanos': '',
+        'perfiles_relacionados_familia': '',
         'profundidad_scraping': 0,
         'timestamp': datetime.now().isoformat()
     }
+
+    # Extraer biografía completa (párrafos iniciales antes del primer H2)
+    if content:
+        bio_paragraphs = []
+        for child in content.find_all(['p', 'h2'], recursive=False):
+            if child.name == 'h2':
+                break
+            if child.name == 'p':
+                text = child.get_text(" ", strip=True)
+                if text:
+                    bio_paragraphs.append(text)
+        if bio_paragraphs:
+            data['biografia'] = "\n\n".join(bio_paragraphs)
     
     # Procesar todas las filas del infobox
     rows = infobox.find_all('tr')
+    infobox_entries = []
+    infobox_struct = []
     
     for row in rows:
         th = row.find('th')
         td = row.find('td')
         
-        if not th or not td:
+        if not th and not td:
             continue
         
         # Obtener el nombre del campo (header)
-        header = th.get_text(strip=True).lower()
+        header = th.get_text(strip=True) if th else ""
+        header_lower = header.lower()
         
         # Obtener el valor (con y sin enlaces)
-        value_text = td.get_text(' ', strip=True)
-        value_with_links = extract_value_with_links(td)
+        value_text = td.get_text(' ', strip=True) if td else ""
+        value_with_links = extract_value_with_links(td) if td else ""
+
+        # Guardar todas las filas en formato libre
+        if header or value_text:
+            entry_label = header if header else "detalle"
+            entry_value = value_with_links if value_with_links else value_text
+            infobox_entries.append(f"{entry_label}: {entry_value}".strip())
+            infobox_struct.append({
+                "label": entry_label,
+                "value_text": value_text,
+                "value_with_links": value_with_links
+            })
         
         # Mapear campos del infobox a nuestras columnas
-        if 'nacimiento' in header:
+        if 'nacimiento' in header_lower:
             data['fecha_nacimiento'] = value_text
             # Intentar extraer lugar de nacimiento si viene en la misma línea
             if '\n' in value_text:
@@ -181,7 +287,7 @@ def extract_infobox_data(soup, url):
                 if len(parts) > 1:
                     data['lugar_nacimiento'] = parts[1].strip()
         
-        elif 'fallecimiento' in header or 'muerte' in header:
+        elif 'fallecimiento' in header_lower or 'muerte' in header_lower:
             data['fecha_fallecimiento'] = value_text
             if '\n' in value_text:
                 parts = value_text.split('\n')
@@ -189,65 +295,69 @@ def extract_infobox_data(soup, url):
                 if len(parts) > 1:
                     data['lugar_fallecimiento'] = parts[1].strip()
         
-        elif 'residencia' in header:
+        elif 'residencia' in header_lower:
             data['residencia'] = value_text
         
-        elif 'nacionalidad' in header:
+        elif 'nacionalidad' in header_lower:
             data['nacionalidad'] = value_text
         
-        elif 'religión' in header or 'religion' in header:
+        elif 'religión' in header_lower or 'religion' in header_lower:
             data['religion'] = value_text
         
-        elif 'ocupación' in header or 'ocupacion' in header:
+        elif 'ocupación' in header_lower or 'ocupacion' in header_lower:
             data['ocupacion'] = value_text
         
-        elif 'partido' in header and 'político' in header:
+        elif 'partido' in header_lower and 'político' in header_lower:
             data['partido_politico'] = value_text
         
-        elif 'educación' in header or 'educado' in header or 'educada' in header:
+        elif 'educación' in header_lower or 'educado' in header_lower or 'educada' in header_lower:
             data['educacion'] = value_text
         
-        elif 'alma' in header and 'mater' in header:
+        elif 'alma' in header_lower and 'mater' in header_lower:
             data['alma_mater'] = value_text
         
-        elif 'padres' in header or 'padre' in header or 'madre' in header:
+        elif 'padres' in header_lower or 'padre' in header_lower or 'madre' in header_lower:
             data['padres'] = value_with_links
         
-        elif 'cónyuge' in header or 'conyuge' in header or 'esposa' in header or 'esposo' in header:
+        elif 'cónyuge' in header_lower or 'conyuge' in header_lower or 'esposa' in header_lower or 'esposo' in header_lower:
             data['conyuge'] = value_with_links
         
-        elif 'pareja' in header or 'conviviente' in header:
+        elif 'pareja' in header_lower or 'conviviente' in header_lower:
             data['pareja'] = value_with_links
         
-        elif 'hijos' in header or 'hijo' in header or 'hija' in header:
+        elif 'hijos' in header_lower or 'hijo' in header_lower or 'hija' in header_lower:
             data['hijos'] = value_with_links
         
-        elif 'hermanos' in header or 'hermano' in header or 'hermana' in header:
+        elif 'hermanos' in header_lower or 'hermano' in header_lower or 'hermana' in header_lower:
             data['hermanos'] = value_with_links
         
-        elif 'familia' in header:
+        elif 'familia' in header_lower:
             data['familia'] = value_with_links
         
-        elif 'cargo' in header or 'cargos' in header:
+        elif 'cargo' in header_lower or 'cargos' in header_lower:
             data['cargos_politicos'] = value_text
         
-        elif 'período' in header or 'periodo' in header:
+        elif 'período' in header_lower or 'periodo' in header_lower:
             data['periodo'] = value_text
         
-        elif 'predecesor' in header:
+        elif 'predecesor' in header_lower:
             data['predecesor'] = value_text
         
-        elif 'sucesor' in header:
+        elif 'sucesor' in header_lower:
             data['sucesor'] = value_text
         
-        elif 'distinción' in header or 'distinciones' in header or 'premio' in header or 'premios' in header:
+        elif 'distinción' in header_lower or 'distinciones' in header_lower or 'premio' in header_lower or 'premios' in header_lower:
             if data['distinciones']:
                 data['distinciones'] += '; ' + value_text
             else:
                 data['distinciones'] = value_text
         
-        elif 'sitio' in header and 'web' in header:
+        elif 'sitio' in header_lower and 'web' in header_lower:
             data['sitio_web'] = value_text
+
+    if infobox_entries:
+        data['infobox_completa'] = " | ".join(infobox_entries)
+        data['infobox_json'] = json.dumps(infobox_struct, ensure_ascii=False)
     
     return data
 
@@ -303,13 +413,32 @@ def extract_family_urls_from_data(person_data):
         value = person_data.get(field, '')
         if value and 'wikipedia.org' in value:
             # Extraer URLs del formato "Nombre (URL); Nombre2 (URL2)"
-            found_urls = re.findall(r'https://es\.wikipedia\.org/wiki/[^\)]+', value)
-            urls.extend(found_urls)
+            matches = re.findall(r'([^;]+?)\s*\((https://es\.wikipedia\.org/wiki/[^\)]+)\)', value)
+            if matches:
+                for name, url in matches:
+                    urls.append({
+                        'url': url,
+                        'field': field,
+                        'name': name.strip()
+                    })
+            else:
+                found_urls = re.findall(r'https://es\.wikipedia\.org/wiki/[^\)]+', value)
+                for url in found_urls:
+                    urls.append({
+                        'url': url,
+                        'field': field,
+                        'name': ''
+                    })
     
-    return list(set(urls))  # Eliminar duplicados
+    # Eliminar duplicados por URL + campo
+    unique = {}
+    for item in urls:
+        key = (item['url'], item['field'])
+        unique[key] = item
+    return list(unique.values())
 
 
-def scrape_family_from_category(category_url, output_name=None, scrape_relatives=True, max_depth=2):
+def scrape_family_from_category(category_url, output_name=None, scrape_relatives=True, max_depth=2, resume=False, country="chile"):
     """
     Scrapea toda una familia desde su categoría de Wikipedia
     CON scraping recursivo de familiares enlazados
@@ -331,6 +460,8 @@ def scrape_family_from_category(category_url, output_name=None, scrape_relatives
     if not output_name:
         # Extraer de la URL (ej: "Familia_Alessandri" de la URL)
         output_name = category_url.split(':')[-1].replace('_', ' ')
+
+    output_path = get_output_path(output_name, country=country)
     
     print(f"\n📋 Extrayendo miembros de la categoría...")
     members = extract_category_members(category_url)
@@ -342,10 +473,21 @@ def scrape_family_from_category(category_url, output_name=None, scrape_relatives
     print(f"\n✓ Encontrados {len(members)} miembros en la categoría")
     print("=" * 80)
     
-    # Scrapear cada miembro + sus familiares (recursivo)
+    # Cargar datos existentes si se reanuda
     all_data = []
     visited_urls = set()
-    urls_to_scrape = [(m['url'], m['nombre'], 0) for m in members]  # (url, nombre, depth)
+    discovered_by = {}
+    if resume:
+        existing_df = load_existing_data(output_path)
+        if not existing_df.empty and 'url' in existing_df.columns:
+            visited_urls = set(existing_df['url'].dropna().unique())
+            all_data = existing_df.to_dict(orient='records')
+            print(f"↩️  Reanudando: {len(visited_urls)} URLs ya scrapearon")
+
+    # Scrapear cada miembro + sus familiares (recursivo)
+    urls_to_scrape = [
+        (m['url'], m['nombre'], 0) for m in members if m['url'] not in visited_urls
+    ]  # (url, nombre, depth)
     
     contador = 0
     while urls_to_scrape:
@@ -380,7 +522,15 @@ def scrape_family_from_category(category_url, output_name=None, scrape_relatives
             # Agregar metadata
             person_data['categoria_origen'] = category_url
             person_data['familia'] = output_name
+            person_data['pais_origen'] = country
             person_data['profundidad_scraping'] = depth
+            if current_url in discovered_by:
+                flat_sources = []
+                for field, items in discovered_by[current_url].items():
+                    unique_items = sorted(set(items))
+                    flat_sources.extend(unique_items)
+                    person_data[f"perfiles_relacionados_{field}"] = "; ".join(unique_items)
+                person_data['perfiles_relacionados'] = "; ".join(sorted(set(flat_sources)))
             all_data.append(person_data)
             print(f"  ✓ Datos extraídos exitosamente")
             
@@ -389,13 +539,17 @@ def scrape_family_from_category(category_url, output_name=None, scrape_relatives
                 family_urls = extract_family_urls_from_data(person_data)
                 
                 if family_urls:
-                    nuevos = [url for url in family_urls if url not in visited_urls]
+                    nuevos = [item for item in family_urls if item['url'] not in visited_urls]
                     print(f"  🔍 Encontrados {len(family_urls)} familiares enlazados ({len(nuevos)} nuevos)")
                     
                     # Agregar a la cola (si no fueron visitados)
-                    for fam_url in nuevos:
+                    for fam in nuevos:
                         # Extraer nombre del URL
+                        fam_url = fam['url']
                         fam_name = fam_url.split('/wiki/')[-1].replace('_', ' ').replace('%C3%A9', 'é').replace('%C3%A1', 'á').replace('%C3%B3', 'ó')
+                        source_field = fam.get('field', 'relacion')
+                        source_label = f"{current_name} ({current_url})"
+                        discovered_by.setdefault(fam_url, {}).setdefault(source_field, []).append(source_label)
                         urls_to_scrape.append((fam_url, fam_name, depth + 1))
         else:
             print(f"  ⚠️  No se pudo extraer infobox")
@@ -405,6 +559,8 @@ def scrape_family_from_category(category_url, output_name=None, scrape_relatives
     
     # Crear DataFrame
     df = pd.DataFrame(all_data)
+    if not df.empty and 'url' in df.columns:
+        df.drop_duplicates(subset=['url'], keep='first', inplace=True)
     
     print(f"\n" + "=" * 80)
     print(f"📊 Resumen del scraping:")
@@ -417,21 +573,14 @@ def scrape_family_from_category(category_url, output_name=None, scrape_relatives
     return df, output_name
 
 
-def save_data(df, output_name):
+def save_data(df, output_name, country="chile"):
     """Guarda los datos en CSV"""
     if df is None or df.empty:
         print("\n❌ No hay datos para guardar")
         return
     
-    # Limpiar nombre para archivo
-    safe_name = output_name.replace(' ', '_').replace(':', '').lower()
-    
-    # Crear directorio de salida
-    output_dir = get_project_root() / "data" / "raw" / "chile" / "familias"
-    output_dir.mkdir(parents=True, exist_ok=True)
-    
     # Guardar
-    filename = output_dir / f"{safe_name}_completo.csv"
+    filename = get_output_path(output_name, country=country)
     df.to_csv(str(filename), index=False, sep=';', encoding='utf-8')
     
     print(f"\n" + "=" * 80)
@@ -482,6 +631,17 @@ def main():
         default=2,
         help='Profundidad máxima de scraping recursivo (default: 2)'
     )
+    parser.add_argument(
+        '--resume',
+        action='store_true',
+        help='Reanudar desde archivo existente si está disponible'
+    )
+    parser.add_argument(
+        '--country',
+        type=str,
+        default='chile',
+        help='País para la ruta de salida (default: chile)'
+    )
     
     args = parser.parse_args()
     
@@ -498,14 +658,16 @@ def main():
     # Scrapear
     scrape_relatives = not args.no_relatives
     df, family_name = scrape_family_from_category(
-        category_url, 
-        args.output, 
+        category_url,
+        args.output,
         scrape_relatives=scrape_relatives,
-        max_depth=args.depth
+        max_depth=args.depth,
+        resume=args.resume,
+        country=args.country
     )
     
     # Guardar
-    save_data(df, family_name)
+    save_data(df, family_name, country=args.country)
 
 
 if __name__ == "__main__":
