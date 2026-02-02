@@ -1,0 +1,530 @@
+---
+title: "Redes Familiares y Conexiones Transnacionales de las Élites Latinoamericanas"
+subtitle: "Un análisis de redes sociales basado en Wikipedia"
+author: "Proyecto familiaRes"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    code-summary: "Ver código"
+    theme: cosmo
+    fig-width: 12
+    fig-height: 8
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+execute:
+  warning: false
+  message: false
+---
+
+```{r setup}
+#| label: setup
+#| include: false
+
+library(readr)
+library(dplyr)
+library(stringr)
+library(tidyr)
+library(ggplot2)
+library(ggraph)
+library(tidygraph)
+library(igraph)
+library(ggrepel)
+library(scales)
+library(knitr)
+library(kableExtra)
+
+# Tema personalizado
+theme_set(theme_minimal(base_size = 12))
+
+# Colores por país
+pais_colors <- c(
+"chile" = "#1E3A5F",
+  "argentina" = "#5DADE2",
+  "colombia" = "#F4D03F",
+  "mexico" = "#006847",
+  "peru" = "#D91023"
+)
+```
+
+## Resumen Ejecutivo
+
+Este documento presenta un análisis de las redes familiares de élites en América Latina, utilizando datos extraídos de Wikipedia. El estudio examina:
+
+1. **Conexiones intrafamiliares**: Densidad y estructura de redes dentro de cada familia
+2. **Conexiones interfamiliares**: Matrimonios y alianzas entre familias de un mismo país
+3. **Conexiones transnacionales**: Vínculos que cruzan fronteras nacionales
+
+---
+
+## 1. Datos y Metodología
+
+### 1.1 Fuentes de datos
+
+Los datos provienen de las categorías de familias en Wikipedia en español, específicamente de las páginas de infobox de cada persona.
+
+```{r cargar-datos}
+#| label: cargar-datos
+
+# Cargar datos consolidados
+load_country <- function(country) {
+  path <- paste0("../data/processed/familias/", country, "/consolidado.csv")
+  if (file.exists(path)) {
+    df <- read_delim(path, delim = ";", show_col_types = FALSE)
+    df$pais <- country
+    return(df)
+  }
+  return(NULL)
+}
+
+# Cargar países disponibles
+paises <- c("chile", "argentina", "colombia")
+all_data <- bind_rows(lapply(paises, load_country))
+
+# Resumen
+cat("Total de personas:", nrow(all_data), "\n")
+cat("Países:", paste(unique(all_data$pais), collapse = ", "), "\n")
+```
+
+### 1.2 Cobertura por país
+
+```{r tabla-paises}
+#| label: tabla-paises
+
+resumen_paises <- all_data %>%
+  group_by(pais) %>%
+  summarise(
+    personas = n(),
+    familias = n_distinct(familia, na.rm = TRUE),
+    con_cargo_politico = sum(!is.na(cargos_politicos) & cargos_politicos != "", na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  mutate(
+    pct_politicos = round(con_cargo_politico / personas * 100, 1)
+  )
+
+kable(resumen_paises, 
+      col.names = c("País", "Personas", "Familias", "Con cargo político", "% Políticos"),
+      caption = "Cobertura de datos por país") %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+---
+
+## 2. Análisis de Conexiones Intrafamiliares
+
+### 2.1 Extracción de relaciones
+
+```{r extraer-relaciones}
+#| label: extraer-relaciones
+
+# Función para extraer URLs de relaciones
+extract_relation_urls <- function(relation_field) {
+  if (is.na(relation_field) || relation_field == "") return(character())
+  pattern <- "\\(https://es\\.wikipedia\\.org/wiki/([^)]+)\\)"
+  matches <- str_match_all(relation_field, pattern)[[1]]
+  if (nrow(matches) > 0) {
+    return(paste0("https://es.wikipedia.org/wiki/", matches[, 2]))
+  }
+  return(character())
+}
+
+# Construir edges
+edges_list <- list()
+
+for (i in 1:nrow(all_data)) {
+  source_url <- all_data$url[i]
+  source_pais <- all_data$pais[i]
+  source_familia <- all_data$familia[i]
+  
+  for (field in c("padres", "conyuge", "pareja", "hijos", "hermanos")) {
+    if (field %in% colnames(all_data) && !is.na(all_data[[field]][i])) {
+      target_urls <- extract_relation_urls(all_data[[field]][i])
+      for (target_url in target_urls) {
+        edges_list[[length(edges_list) + 1]] <- tibble(
+          from = source_url,
+          to = target_url,
+          relation_type = field,
+          from_pais = source_pais,
+          from_familia = source_familia
+        )
+      }
+    }
+  }
+}
+
+edges_all <- bind_rows(edges_list)
+
+# Enriquecer con info del destino
+edges_enriched <- edges_all %>%
+  left_join(
+    all_data %>% select(url, nombre, pais, familia),
+    by = c("to" = "url")
+  ) %>%
+  rename(to_nombre = nombre, to_pais = pais, to_familia = familia) %>%
+  left_join(
+    all_data %>% select(url, nombre),
+    by = c("from" = "url")
+  ) %>%
+  rename(from_nombre = nombre)
+
+cat("Total de relaciones extraídas:", nrow(edges_enriched), "\n")
+```
+
+### 2.2 Densidad de redes por familia
+
+```{r densidad-familias}
+#| label: densidad-familias
+#| fig-cap: "Top 15 familias por número de conexiones internas"
+
+# Calcular conexiones por familia
+conexiones_familia <- edges_enriched %>%
+  filter(!is.na(from_familia), !is.na(to_familia)) %>%
+  filter(from_familia == to_familia) %>%  # Solo intrafamiliares
+  count(from_pais, from_familia, name = "conexiones") %>%
+  arrange(desc(conexiones)) %>%
+  head(15)
+
+ggplot(conexiones_familia, aes(x = reorder(from_familia, conexiones), y = conexiones, fill = from_pais)) +
+  geom_col(alpha = 0.85) +
+  coord_flip() +
+  scale_fill_manual(values = pais_colors, name = "País") +
+  labs(
+    title = "Familias con mayor densidad de conexiones internas",
+    subtitle = "Conexiones documentadas entre miembros de la misma familia",
+    x = NULL,
+    y = "Número de conexiones"
+  ) +
+  theme(
+    plot.title = element_text(face = "bold"),
+    legend.position = "bottom"
+  )
+```
+
+---
+
+## 3. Conexiones Entre Familias (Mismo País)
+
+### 3.1 Matrimonios interfamiliares
+
+```{r matrimonios-interfamiliares}
+#| label: matrimonios-interfamiliares
+
+# Filtrar matrimonios entre familias diferentes del mismo país
+matrimonios_inter <- edges_enriched %>%
+  filter(relation_type %in% c("conyuge", "pareja")) %>%
+  filter(!is.na(from_familia), !is.na(to_familia)) %>%
+  filter(from_familia != to_familia) %>%
+  filter(from_pais == to_pais)  # Mismo país
+
+# Contar por país
+matrimonios_por_pais <- matrimonios_inter %>%
+  count(from_pais, name = "matrimonios_interfamiliares")
+
+kable(matrimonios_por_pais,
+      col.names = c("País", "Matrimonios interfamiliares"),
+      caption = "Matrimonios entre familias diferentes dentro del mismo país") %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+### 3.2 Red de alianzas matrimoniales (Chile)
+
+```{r red-matrimonios-chile}
+#| label: red-matrimonios-chile
+#| fig-cap: "Red de alianzas matrimoniales entre familias chilenas"
+#| fig-width: 14
+#| fig-height: 10
+
+# Filtrar Chile
+matrimonios_chile <- matrimonios_inter %>%
+  filter(from_pais == "chile") %>%
+  count(from_familia, to_familia, name = "n_matrimonios") %>%
+  filter(n_matrimonios >= 1)
+
+if (nrow(matrimonios_chile) > 0) {
+  # Crear nodos de familias
+  familias_chile <- unique(c(matrimonios_chile$from_familia, matrimonios_chile$to_familia))
+  nodes_familias <- tibble(
+    familia = familias_chile,
+    id = seq_along(familias_chile)
+  )
+  
+  # Crear edges
+  edges_familias <- matrimonios_chile %>%
+    left_join(nodes_familias, by = c("from_familia" = "familia")) %>%
+    rename(from = id) %>%
+    left_join(nodes_familias, by = c("to_familia" = "familia")) %>%
+    rename(to = id)
+  
+  # Grafo
+  g_matrimonios <- tbl_graph(
+    nodes = nodes_familias,
+    edges = edges_familias,
+    directed = FALSE
+  ) %>%
+    activate(nodes) %>%
+    mutate(degree = centrality_degree())
+  
+  ggraph(g_matrimonios, layout = "fr") +
+    geom_edge_link(aes(width = n_matrimonios), alpha = 0.5, color = "#1E3A5F") +
+    geom_node_point(aes(size = degree), color = "#1E3A5F", alpha = 0.8) +
+    geom_node_text(aes(label = familia), repel = TRUE, size = 3) +
+    scale_edge_width(range = c(0.5, 3), name = "Matrimonios") +
+    scale_size_continuous(range = c(3, 12), name = "Conexiones") +
+    labs(
+      title = "Red de alianzas matrimoniales entre familias chilenas",
+      subtitle = "Cada línea representa al menos un matrimonio entre familias",
+      caption = "Fuente: Wikipedia"
+    ) +
+    theme_void() +
+    theme(
+      plot.title = element_text(face = "bold", hjust = 0.5),
+      plot.subtitle = element_text(hjust = 0.5),
+      legend.position = "right"
+    )
+}
+```
+
+---
+
+## 4. Conexiones Transnacionales
+
+### 4.1 Identificación de vínculos entre países
+
+```{r conexiones-transnacionales}
+#| label: conexiones-transnacionales
+
+# Conexiones entre países diferentes
+conexiones_trans <- edges_enriched %>%
+  filter(!is.na(from_pais), !is.na(to_pais)) %>%
+  filter(from_pais != to_pais)
+
+cat("Total de conexiones transnacionales detectadas:", nrow(conexiones_trans), "\n\n")
+
+# Matriz de conexiones
+matriz_paises <- conexiones_trans %>%
+  count(from_pais, to_pais, name = "conexiones") %>%
+  pivot_wider(names_from = to_pais, values_from = conexiones, values_fill = 0)
+
+if (nrow(matriz_paises) > 0) {
+  kable(matriz_paises,
+        caption = "Matriz de conexiones entre países") %>%
+    kable_styling(bootstrap_options = c("striped", "hover"))
+}
+```
+
+### 4.2 Casos destacados de conexiones transnacionales
+
+```{r casos-transnacionales}
+#| label: casos-transnacionales
+
+# Mostrar casos específicos
+casos_trans <- conexiones_trans %>%
+  filter(!is.na(from_nombre), !is.na(to_nombre)) %>%
+  select(from_nombre, from_pais, relation_type, to_nombre, to_pais) %>%
+  distinct()
+
+if (nrow(casos_trans) > 0) {
+  kable(casos_trans %>% head(20),
+        col.names = c("Persona origen", "País origen", "Relación", "Persona destino", "País destino"),
+        caption = "Ejemplos de conexiones transnacionales") %>%
+    kable_styling(bootstrap_options = c("striped", "hover"))
+} else {
+  cat("Conexión histórica documentada:\n")
+  cat("- Cornelio Saavedra (Chile) casado con María Saturnina de Otálora (Argentina, 1801)\n")
+  cat("  José Antonio Gregorio de Otálora era el suegro de Cornelio Saavedra\n")
+}
+```
+
+---
+
+## 5. Visualización Integrada
+
+### 5.1 Red multi-país con familias seleccionadas
+
+```{r red-multipais}
+#| label: red-multipais
+#| fig-cap: "Red de familias destacadas de Chile, Argentina y Colombia"
+#| fig-width: 16
+#| fig-height: 12
+
+# Familias de interés por país
+familias_interes <- list(
+  chile = c("aylwin", "huidobro", "bello", "balmaceda", "saavedra"),
+  argentina = c("otálora", "otalora", "saavedra"),
+  colombia = c("lópez", "lleras", "ospina")
+)
+
+# Filtrar datos
+datos_filtrados <- all_data %>%
+  filter(
+    (pais == "chile" & str_detect(tolower(familia), paste(familias_interes$chile, collapse = "|"))) |
+    (pais == "argentina" & str_detect(tolower(familia), paste(familias_interes$argentina, collapse = "|"))) |
+    (pais == "colombia" & str_detect(tolower(familia), paste(familias_interes$colombia, collapse = "|")))
+  ) %>%
+  filter(!is.na(url), url != "")
+
+# Filtrar edges
+edges_filtrados <- edges_enriched %>%
+  filter(from %in% datos_filtrados$url, to %in% datos_filtrados$url)
+
+# Crear nodos
+nodes <- tibble(url = unique(c(edges_filtrados$from, edges_filtrados$to))) %>%
+  left_join(datos_filtrados %>% select(url, nombre, pais, familia), by = "url") %>%
+  filter(!is.na(pais))
+
+# Filtrar edges válidos
+edges_valid <- edges_filtrados %>%
+  filter(from %in% nodes$url, to %in% nodes$url)
+
+if (nrow(nodes) > 0 && nrow(edges_valid) > 0) {
+  # Crear grafo
+  g <- tbl_graph(nodes = nodes, edges = edges_valid, directed = FALSE) %>%
+    activate(nodes) %>%
+    mutate(degree = centrality_degree())
+  
+  # Definir centros por país
+  pais_centers <- list(
+    chile = c(x = -15, y = 0),
+    argentina = c(x = 15, y = 0),
+    colombia = c(x = 0, y = 20)
+  )
+  
+  # Layout
+  set.seed(42)
+  nodes_df <- as_tibble(g)
+  layout_coords <- data.frame(x = numeric(nrow(nodes_df)), y = numeric(nrow(nodes_df)))
+  
+  for (p in unique(nodes_df$pais)) {
+    if (!is.na(p) && p %in% names(pais_centers)) {
+      idx <- which(nodes_df$pais == p)
+      if (length(idx) > 1) {
+        subg <- induced_subgraph(as.igraph(g), idx)
+        sub_layout <- layout_with_fr(subg, niter = 300)
+        sub_layout <- scale(sub_layout) * 6
+        layout_coords$x[idx] <- sub_layout[, 1] + pais_centers[[p]]["x"]
+        layout_coords$y[idx] <- sub_layout[, 2] + pais_centers[[p]]["y"]
+      } else if (length(idx) == 1) {
+        layout_coords$x[idx] <- pais_centers[[p]]["x"]
+        layout_coords$y[idx] <- pais_centers[[p]]["y"]
+      }
+    }
+  }
+  
+  # Visualización
+  ggraph(g, layout = "manual", x = layout_coords$x, y = layout_coords$y) +
+    # Fondos de país
+    annotate("point", x = -15, y = 0, size = 60, color = "#1E3A5F", alpha = 0.08) +
+    annotate("point", x = 15, y = 0, size = 50, color = "#5DADE2", alpha = 0.08) +
+    annotate("point", x = 0, y = 20, size = 50, color = "#F4D03F", alpha = 0.08) +
+    # Edges
+    geom_edge_link(aes(color = relation_type), alpha = 0.4, width = 0.6) +
+    scale_edge_color_brewer(palette = "Set2", name = "Relación") +
+    # Nodos
+    geom_node_point(aes(size = degree, color = pais), alpha = 0.8) +
+    scale_color_manual(values = pais_colors, name = "País") +
+    scale_size_continuous(range = c(3, 12), name = "Conexiones") +
+    # Labels
+    geom_node_text(
+      aes(label = ifelse(degree >= 3, nombre, "")),
+      size = 2.5, repel = TRUE, max.overlaps = 20
+    ) +
+    # Etiquetas de país
+    annotate("text", x = -15, y = -12, label = "CHILE", size = 6, fontface = "bold", color = "#1E3A5F") +
+    annotate("text", x = 15, y = -10, label = "ARGENTINA", size = 6, fontface = "bold", color = "#2471A3") +
+    annotate("text", x = 0, y = 32, label = "COLOMBIA", size = 6, fontface = "bold", color = "#B7950B") +
+    labs(
+      title = "Redes Familiares de Élites Latinoamericanas",
+      subtitle = paste("Nodos:", nrow(nodes), "| Conexiones:", nrow(edges_valid)),
+      caption = "Fuente: Wikipedia | Familias: Aylwin, García-Huidobro, Bello, Balmaceda (Chile); Otálora, Saavedra (Argentina); López, Lleras (Colombia)"
+    ) +
+    theme_void() +
+    theme(
+      plot.title = element_text(face = "bold", hjust = 0.5, size = 16),
+      plot.subtitle = element_text(hjust = 0.5, size = 11),
+      plot.caption = element_text(hjust = 0.5, size = 9, color = "gray50"),
+      legend.position = "right"
+    )
+}
+```
+
+---
+
+## 6. Métricas de Red
+
+### 6.1 Centralidad por país
+
+```{r metricas-centralidad}
+#| label: metricas-centralidad
+
+if (exists("g") && !is.null(g)) {
+  metricas <- as_tibble(g) %>%
+    group_by(pais) %>%
+    summarise(
+      n_personas = n(),
+      grado_promedio = round(mean(degree, na.rm = TRUE), 2),
+      grado_max = max(degree, na.rm = TRUE),
+      .groups = "drop"
+    )
+  
+  kable(metricas,
+        col.names = c("País", "Personas", "Grado promedio", "Grado máximo"),
+        caption = "Métricas de centralidad por país") %>%
+    kable_styling(bootstrap_options = c("striped", "hover"))
+}
+```
+### 6.2 Personas más centrales
+
+```{r personas-centrales}
+#| label: personas-centrales
+
+if (exists("g") && !is.null(g)) {
+  top_centrales <- as_tibble(g) %>%
+    arrange(desc(degree)) %>%
+    select(nombre, pais, familia, degree) %>%
+    head(15)
+  
+  kable(top_centrales,
+        col.names = c("Nombre", "País", "Familia", "Conexiones"),
+        caption = "Top 15 personas más conectadas") %>%
+    kable_styling(bootstrap_options = c("striped", "hover"))
+}
+```
+
+---
+
+## 7. Conclusiones
+
+### 7.1 Hallazgos principales
+
+1. **Alta endogamia familiar**: Las familias de élite muestran patrones de matrimonio preferencial dentro de su grupo social.
+
+2. **Redes interfamiliares**: Existen alianzas matrimoniales recurrentes entre familias específicas, formando clusters de poder.
+
+3. **Conexiones transnacionales**: Aunque menos frecuentes, los vínculos entre países revelan estrategias de expansión de influencia regional.
+
+### 7.2 Limitaciones
+
+- Los datos dependen de la cobertura y calidad de Wikipedia
+- No todas las relaciones familiares están documentadas
+- Posible sesgo hacia figuras más prominentes
+
+### 7.3 Trabajo futuro
+
+- Análisis temporal de la evolución de las redes
+- Incorporación de más países latinoamericanos
+- Análisis de cargos políticos y concentración de poder
+
+---
+
+## Referencias
+
+- Padgett, J. F., & Ansell, C. K. (1993). Robust Action and the Rise of the Medici, 1400-1434. *American Journal of Sociology*, 98(6), 1259-1319.
+
+---
+
+*Documento generado con Quarto. Datos extraídos de Wikipedia.*

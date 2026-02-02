@@ -1,0 +1,1516 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.56">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Proyecto familiaRes">
+<meta name="dcterms.date" content="2026-02-02">
+
+<title>Redes Familiares y Conexiones Transnacionales de las Élites Latinoamericanas</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="redes_elites_latam_files/libs/clipboard/clipboard.min.js"></script>
+<script src="redes_elites_latam_files/libs/quarto-html/quarto.js"></script>
+<script src="redes_elites_latam_files/libs/quarto-html/popper.min.js"></script>
+<script src="redes_elites_latam_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="redes_elites_latam_files/libs/quarto-html/anchor.min.js"></script>
+<link href="redes_elites_latam_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="redes_elites_latam_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="redes_elites_latam_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="redes_elites_latam_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="redes_elites_latam_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="redes_elites_latam_files/libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="redes_elites_latam_files/libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#resumen-ejecutivo" id="toc-resumen-ejecutivo" class="nav-link active" data-scroll-target="#resumen-ejecutivo">Resumen Ejecutivo</a></li>
+  <li><a href="#datos-y-metodología" id="toc-datos-y-metodología" class="nav-link" data-scroll-target="#datos-y-metodología">1. Datos y Metodología</a>
+  <ul class="collapse">
+  <li><a href="#fuentes-de-datos" id="toc-fuentes-de-datos" class="nav-link" data-scroll-target="#fuentes-de-datos">1.1 Fuentes de datos</a></li>
+  <li><a href="#cobertura-por-país" id="toc-cobertura-por-país" class="nav-link" data-scroll-target="#cobertura-por-país">1.2 Cobertura por país</a></li>
+  </ul></li>
+  <li><a href="#análisis-de-conexiones-intrafamiliares" id="toc-análisis-de-conexiones-intrafamiliares" class="nav-link" data-scroll-target="#análisis-de-conexiones-intrafamiliares">2. Análisis de Conexiones Intrafamiliares</a>
+  <ul class="collapse">
+  <li><a href="#extracción-de-relaciones" id="toc-extracción-de-relaciones" class="nav-link" data-scroll-target="#extracción-de-relaciones">2.1 Extracción de relaciones</a></li>
+  <li><a href="#densidad-de-redes-por-familia" id="toc-densidad-de-redes-por-familia" class="nav-link" data-scroll-target="#densidad-de-redes-por-familia">2.2 Densidad de redes por familia</a></li>
+  </ul></li>
+  <li><a href="#conexiones-entre-familias-mismo-país" id="toc-conexiones-entre-familias-mismo-país" class="nav-link" data-scroll-target="#conexiones-entre-familias-mismo-país">3. Conexiones Entre Familias (Mismo País)</a>
+  <ul class="collapse">
+  <li><a href="#matrimonios-interfamiliares" id="toc-matrimonios-interfamiliares" class="nav-link" data-scroll-target="#matrimonios-interfamiliares">3.1 Matrimonios interfamiliares</a></li>
+  <li><a href="#red-de-alianzas-matrimoniales-chile" id="toc-red-de-alianzas-matrimoniales-chile" class="nav-link" data-scroll-target="#red-de-alianzas-matrimoniales-chile">3.2 Red de alianzas matrimoniales (Chile)</a></li>
+  </ul></li>
+  <li><a href="#conexiones-transnacionales" id="toc-conexiones-transnacionales" class="nav-link" data-scroll-target="#conexiones-transnacionales">4. Conexiones Transnacionales</a>
+  <ul class="collapse">
+  <li><a href="#identificación-de-vínculos-entre-países" id="toc-identificación-de-vínculos-entre-países" class="nav-link" data-scroll-target="#identificación-de-vínculos-entre-países">4.1 Identificación de vínculos entre países</a></li>
+  <li><a href="#casos-destacados-de-conexiones-transnacionales" id="toc-casos-destacados-de-conexiones-transnacionales" class="nav-link" data-scroll-target="#casos-destacados-de-conexiones-transnacionales">4.2 Casos destacados de conexiones transnacionales</a></li>
+  </ul></li>
+  <li><a href="#visualización-integrada" id="toc-visualización-integrada" class="nav-link" data-scroll-target="#visualización-integrada">5. Visualización Integrada</a>
+  <ul class="collapse">
+  <li><a href="#red-multi-país-con-familias-seleccionadas" id="toc-red-multi-país-con-familias-seleccionadas" class="nav-link" data-scroll-target="#red-multi-país-con-familias-seleccionadas">5.1 Red multi-país con familias seleccionadas</a></li>
+  </ul></li>
+  <li><a href="#métricas-de-red" id="toc-métricas-de-red" class="nav-link" data-scroll-target="#métricas-de-red">6. Métricas de Red</a>
+  <ul class="collapse">
+  <li><a href="#centralidad-por-país" id="toc-centralidad-por-país" class="nav-link" data-scroll-target="#centralidad-por-país">6.1 Centralidad por país</a></li>
+  <li><a href="#personas-más-centrales" id="toc-personas-más-centrales" class="nav-link" data-scroll-target="#personas-más-centrales">6.2 Personas más centrales</a></li>
+  </ul></li>
+  <li><a href="#conclusiones" id="toc-conclusiones" class="nav-link" data-scroll-target="#conclusiones">7. Conclusiones</a>
+  <ul class="collapse">
+  <li><a href="#hallazgos-principales" id="toc-hallazgos-principales" class="nav-link" data-scroll-target="#hallazgos-principales">7.1 Hallazgos principales</a></li>
+  <li><a href="#limitaciones" id="toc-limitaciones" class="nav-link" data-scroll-target="#limitaciones">7.2 Limitaciones</a></li>
+  <li><a href="#trabajo-futuro" id="toc-trabajo-futuro" class="nav-link" data-scroll-target="#trabajo-futuro">7.3 Trabajo futuro</a></li>
+  </ul></li>
+  <li><a href="#referencias" id="toc-referencias" class="nav-link" data-scroll-target="#referencias">Referencias</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="redes_elites_latam.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Redes Familiares y Conexiones Transnacionales de las Élites Latinoamericanas</h1>
+<p class="subtitle lead">Un análisis de redes sociales basado en Wikipedia</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Proyecto familiaRes </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 2, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="resumen-ejecutivo" class="level2">
+<h2 class="anchored" data-anchor-id="resumen-ejecutivo">Resumen Ejecutivo</h2>
+<p>Este documento presenta un análisis de las redes familiares de élites en América Latina, utilizando datos extraídos de Wikipedia. El estudio examina:</p>
+<ol type="1">
+<li><strong>Conexiones intrafamiliares</strong>: Densidad y estructura de redes dentro de cada familia</li>
+<li><strong>Conexiones interfamiliares</strong>: Matrimonios y alianzas entre familias de un mismo país</li>
+<li><strong>Conexiones transnacionales</strong>: Vínculos que cruzan fronteras nacionales</li>
+</ol>
+<hr>
+</section>
+<section id="datos-y-metodología" class="level2">
+<h2 class="anchored" data-anchor-id="datos-y-metodología">1. Datos y Metodología</h2>
+<section id="fuentes-de-datos" class="level3">
+<h3 class="anchored" data-anchor-id="fuentes-de-datos">1.1 Fuentes de datos</h3>
+<p>Los datos provienen de las categorías de familias en Wikipedia en español, específicamente de las páginas de infobox de cada persona.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Ver código</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Cargar datos consolidados</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>load_country <span class="ot">&lt;-</span> <span class="cf">function</span>(country) {</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  path <span class="ot">&lt;-</span> <span class="fu">paste0</span>(<span class="st">"../data/processed/familias/"</span>, country, <span class="st">"/consolidado.csv"</span>)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="fu">file.exists</span>(path)) {</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    df <span class="ot">&lt;-</span> <span class="fu">read_delim</span>(path, <span class="at">delim =</span> <span class="st">";"</span>, <span class="at">show_col_types =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    df<span class="sc">$</span>pais <span class="ot">&lt;-</span> country</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="fu">return</span>(df)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(<span class="cn">NULL</span>)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Cargar países disponibles</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>paises <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"chile"</span>, <span class="st">"argentina"</span>, <span class="st">"colombia"</span>)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>all_data <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(<span class="fu">lapply</span>(paises, load_country))</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Resumen</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Total de personas:"</span>, <span class="fu">nrow</span>(all_data), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Total de personas: 3999 </code></pre>
+</div>
+<details class="code-fold">
+<summary>Ver código</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Países:"</span>, <span class="fu">paste</span>(<span class="fu">unique</span>(all_data<span class="sc">$</span>pais), <span class="at">collapse =</span> <span class="st">", "</span>), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Países: chile, argentina, colombia </code></pre>
+</div>
+</div>
+</section>
+<section id="cobertura-por-país" class="level3">
+<h3 class="anchored" data-anchor-id="cobertura-por-país">1.2 Cobertura por país</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Ver código</summary>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>resumen_paises <span class="ot">&lt;-</span> all_data <span class="sc">%&gt;%</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(pais) <span class="sc">%&gt;%</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">personas =</span> <span class="fu">n</span>(),</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">familias =</span> <span class="fu">n_distinct</span>(familia, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">con_cargo_politico =</span> <span class="fu">sum</span>(<span class="sc">!</span><span class="fu">is.na</span>(cargos_politicos) <span class="sc">&amp;</span> cargos_politicos <span class="sc">!=</span> <span class="st">""</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">pct_politicos =</span> <span class="fu">round</span>(con_cargo_politico <span class="sc">/</span> personas <span class="sc">*</span> <span class="dv">100</span>, <span class="dv">1</span>)</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(resumen_paises, </span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>      <span class="at">col.names =</span> <span class="fu">c</span>(<span class="st">"País"</span>, <span class="st">"Personas"</span>, <span class="st">"Familias"</span>, <span class="st">"Con cargo político"</span>, <span class="st">"% Políticos"</span>),</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>      <span class="at">caption =</span> <span class="st">"Cobertura de datos por país"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable_styling</span>(<span class="at">bootstrap_options =</span> <span class="fu">c</span>(<span class="st">"striped"</span>, <span class="st">"hover"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<table class="table table-striped table-hover caption-top table-sm small" data-quarto-postprocess="true">
+<caption>Cobertura de datos por país</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">País</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Personas</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Familias</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Con cargo político</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">% Políticos</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">argentina</td>
+<td style="text-align: right;">1190</td>
+<td style="text-align: right;">165</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">3.4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">chile</td>
+<td style="text-align: right;">1398</td>
+<td style="text-align: right;">97</td>
+<td style="text-align: right;">106</td>
+<td style="text-align: right;">7.6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">colombia</td>
+<td style="text-align: right;">1411</td>
+<td style="text-align: right;">149</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">3.6</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="análisis-de-conexiones-intrafamiliares" class="level2">
+<h2 class="anchored" data-anchor-id="análisis-de-conexiones-intrafamiliares">2. Análisis de Conexiones Intrafamiliares</h2>
+<section id="extracción-de-relaciones" class="level3">
+<h3 class="anchored" data-anchor-id="extracción-de-relaciones">2.1 Extracción de relaciones</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Ver código</summary>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Función para extraer URLs de relaciones</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>extract_relation_urls <span class="ot">&lt;-</span> <span class="cf">function</span>(relation_field) {</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="fu">is.na</span>(relation_field) <span class="sc">||</span> relation_field <span class="sc">==</span> <span class="st">""</span>) <span class="fu">return</span>(<span class="fu">character</span>())</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  pattern <span class="ot">&lt;-</span> <span class="st">"</span><span class="sc">\\</span><span class="st">(https://es</span><span class="sc">\\</span><span class="st">.wikipedia</span><span class="sc">\\</span><span class="st">.org/wiki/([^)]+)</span><span class="sc">\\</span><span class="st">)"</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  matches <span class="ot">&lt;-</span> <span class="fu">str_match_all</span>(relation_field, pattern)[[<span class="dv">1</span>]]</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="fu">nrow</span>(matches) <span class="sc">&gt;</span> <span class="dv">0</span>) {</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>    <span class="fu">return</span>(<span class="fu">paste0</span>(<span class="st">"https://es.wikipedia.org/wiki/"</span>, matches[, <span class="dv">2</span>]))</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(<span class="fu">character</span>())</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Construir edges</span></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>edges_list <span class="ot">&lt;-</span> <span class="fu">list</span>()</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">nrow</span>(all_data)) {</span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>  source_url <span class="ot">&lt;-</span> all_data<span class="sc">$</span>url[i]</span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>  source_pais <span class="ot">&lt;-</span> all_data<span class="sc">$</span>pais[i]</span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>  source_familia <span class="ot">&lt;-</span> all_data<span class="sc">$</span>familia[i]</span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (field <span class="cf">in</span> <span class="fu">c</span>(<span class="st">"padres"</span>, <span class="st">"conyuge"</span>, <span class="st">"pareja"</span>, <span class="st">"hijos"</span>, <span class="st">"hermanos"</span>)) {</span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (field <span class="sc">%in%</span> <span class="fu">colnames</span>(all_data) <span class="sc">&amp;&amp;</span> <span class="sc">!</span><span class="fu">is.na</span>(all_data[[field]][i])) {</span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a>      target_urls <span class="ot">&lt;-</span> <span class="fu">extract_relation_urls</span>(all_data[[field]][i])</span>
+<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a>      <span class="cf">for</span> (target_url <span class="cf">in</span> target_urls) {</span>
+<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a>        edges_list[[<span class="fu">length</span>(edges_list) <span class="sc">+</span> <span class="dv">1</span>]] <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
+<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a>          <span class="at">from =</span> source_url,</span>
+<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a>          <span class="at">to =</span> target_url,</span>
+<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a>          <span class="at">relation_type =</span> field,</span>
+<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a>          <span class="at">from_pais =</span> source_pais,</span>
+<span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a>          <span class="at">from_familia =</span> source_familia</span>
+<span id="cb6-30"><a href="#cb6-30" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb6-31"><a href="#cb6-31" aria-hidden="true" tabindex="-1"></a>      }</span>
+<span id="cb6-32"><a href="#cb6-32" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb6-33"><a href="#cb6-33" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb6-34"><a href="#cb6-34" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb6-35"><a href="#cb6-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-36"><a href="#cb6-36" aria-hidden="true" tabindex="-1"></a>edges_all <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(edges_list)</span>
+<span id="cb6-37"><a href="#cb6-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-38"><a href="#cb6-38" aria-hidden="true" tabindex="-1"></a><span class="co"># Enriquecer con info del destino</span></span>
+<span id="cb6-39"><a href="#cb6-39" aria-hidden="true" tabindex="-1"></a>edges_enriched <span class="ot">&lt;-</span> edges_all <span class="sc">%&gt;%</span></span>
+<span id="cb6-40"><a href="#cb6-40" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(</span>
+<span id="cb6-41"><a href="#cb6-41" aria-hidden="true" tabindex="-1"></a>    all_data <span class="sc">%&gt;%</span> <span class="fu">select</span>(url, nombre, pais, familia),</span>
+<span id="cb6-42"><a href="#cb6-42" aria-hidden="true" tabindex="-1"></a>    <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"to"</span> <span class="ot">=</span> <span class="st">"url"</span>)</span>
+<span id="cb6-43"><a href="#cb6-43" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb6-44"><a href="#cb6-44" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">to_nombre =</span> nombre, <span class="at">to_pais =</span> pais, <span class="at">to_familia =</span> familia) <span class="sc">%&gt;%</span></span>
+<span id="cb6-45"><a href="#cb6-45" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(</span>
+<span id="cb6-46"><a href="#cb6-46" aria-hidden="true" tabindex="-1"></a>    all_data <span class="sc">%&gt;%</span> <span class="fu">select</span>(url, nombre),</span>
+<span id="cb6-47"><a href="#cb6-47" aria-hidden="true" tabindex="-1"></a>    <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"from"</span> <span class="ot">=</span> <span class="st">"url"</span>)</span>
+<span id="cb6-48"><a href="#cb6-48" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb6-49"><a href="#cb6-49" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">from_nombre =</span> nombre)</span>
+<span id="cb6-50"><a href="#cb6-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-51"><a href="#cb6-51" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Total de relaciones extraídas:"</span>, <span class="fu">nrow</span>(edges_enriched), <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Total de relaciones extraídas: 4346 </code></pre>
+</div>
+</div>
+</section>
+<section id="densidad-de-redes-por-familia" class="level3">
+<h3 class="anchored" data-anchor-id="densidad-de-redes-por-familia">2.2 Densidad de redes por familia</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Ver código</summary>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calcular conexiones por familia</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>conexiones_familia <span class="ot">&lt;-</span> edges_enriched <span class="sc">%&gt;%</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(from_familia), <span class="sc">!</span><span class="fu">is.na</span>(to_familia)) <span class="sc">%&gt;%</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(from_familia <span class="sc">==</span> to_familia) <span class="sc">%&gt;%</span>  <span class="co"># Solo intrafamiliares</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(from_pais, from_familia, <span class="at">name =</span> <span class="st">"conexiones"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(conexiones)) <span class="sc">%&gt;%</span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(<span class="dv">15</span>)</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(conexiones_familia, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(from_familia, conexiones), <span class="at">y =</span> conexiones, <span class="at">fill =</span> from_pais)) <span class="sc">+</span></span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">alpha =</span> <span class="fl">0.85</span>) <span class="sc">+</span></span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> pais_colors, <span class="at">name =</span> <span class="st">"País"</span>) <span class="sc">+</span></span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Familias con mayor densidad de conexiones internas"</span>,</span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Conexiones documentadas entre miembros de la misma familia"</span>,</span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="cn">NULL</span>,</span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Número de conexiones"</span></span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">face =</span> <span class="st">"bold"</span>),</span>
+<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.position =</span> <span class="st">"bottom"</span></span>
+<span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="redes_elites_latam_files/figure-html/densidad-familias-1.png" class="img-fluid figure-img" width="1152"></p>
+<figcaption>Top 15 familias por número de conexiones internas</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="conexiones-entre-familias-mismo-país" class="level2">
+<h2 class="anchored" data-anchor-id="conexiones-entre-familias-mismo-país">3. Conexiones Entre Familias (Mismo País)</h2>
+<section id="matrimonios-interfamiliares" class="level3">
+<h3 class="anchored" data-anchor-id="matrimonios-interfamiliares">3.1 Matrimonios interfamiliares</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Ver código</summary>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Filtrar matrimonios entre familias diferentes del mismo país</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>matrimonios_inter <span class="ot">&lt;-</span> edges_enriched <span class="sc">%&gt;%</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(relation_type <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"conyuge"</span>, <span class="st">"pareja"</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(from_familia), <span class="sc">!</span><span class="fu">is.na</span>(to_familia)) <span class="sc">%&gt;%</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(from_familia <span class="sc">!=</span> to_familia) <span class="sc">%&gt;%</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(from_pais <span class="sc">==</span> to_pais)  <span class="co"># Mismo país</span></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Contar por país</span></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>matrimonios_por_pais <span class="ot">&lt;-</span> matrimonios_inter <span class="sc">%&gt;%</span></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(from_pais, <span class="at">name =</span> <span class="st">"matrimonios_interfamiliares"</span>)</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(matrimonios_por_pais,</span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>      <span class="at">col.names =</span> <span class="fu">c</span>(<span class="st">"País"</span>, <span class="st">"Matrimonios interfamiliares"</span>),</span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>      <span class="at">caption =</span> <span class="st">"Matrimonios entre familias diferentes dentro del mismo país"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable_styling</span>(<span class="at">bootstrap_options =</span> <span class="fu">c</span>(<span class="st">"striped"</span>, <span class="st">"hover"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<table class="table table-striped table-hover caption-top table-sm small" data-quarto-postprocess="true">
+<caption>Matrimonios entre familias diferentes dentro del mismo país</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">País</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Matrimonios interfamiliares</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">argentina</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">chile</td>
+<td style="text-align: right;">22</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">colombia</td>
+<td style="text-align: right;">19</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+</div>
+</section>
+<section id="red-de-alianzas-matrimoniales-chile" class="level3">
+<h3 class="anchored" data-anchor-id="red-de-alianzas-matrimoniales-chile">3.2 Red de alianzas matrimoniales (Chile)</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Ver código</summary>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Filtrar Chile</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>matrimonios_chile <span class="ot">&lt;-</span> matrimonios_inter <span class="sc">%&gt;%</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(from_pais <span class="sc">==</span> <span class="st">"chile"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(from_familia, to_familia, <span class="at">name =</span> <span class="st">"n_matrimonios"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(n_matrimonios <span class="sc">&gt;=</span> <span class="dv">1</span>)</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="fu">nrow</span>(matrimonios_chile) <span class="sc">&gt;</span> <span class="dv">0</span>) {</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Crear nodos de familias</span></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>  familias_chile <span class="ot">&lt;-</span> <span class="fu">unique</span>(<span class="fu">c</span>(matrimonios_chile<span class="sc">$</span>from_familia, matrimonios_chile<span class="sc">$</span>to_familia))</span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>  nodes_familias <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">familia =</span> familias_chile,</span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">id =</span> <span class="fu">seq_along</span>(familias_chile)</span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Crear edges</span></span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a>  edges_familias <span class="ot">&lt;-</span> matrimonios_chile <span class="sc">%&gt;%</span></span>
+<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a>    <span class="fu">left_join</span>(nodes_familias, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"from_familia"</span> <span class="ot">=</span> <span class="st">"familia"</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a>    <span class="fu">rename</span>(<span class="at">from =</span> id) <span class="sc">%&gt;%</span></span>
+<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a>    <span class="fu">left_join</span>(nodes_familias, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"to_familia"</span> <span class="ot">=</span> <span class="st">"familia"</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a>    <span class="fu">rename</span>(<span class="at">to =</span> id)</span>
+<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb10-22"><a href="#cb10-22" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Grafo</span></span>
+<span id="cb10-23"><a href="#cb10-23" aria-hidden="true" tabindex="-1"></a>  g_matrimonios <span class="ot">&lt;-</span> <span class="fu">tbl_graph</span>(</span>
+<span id="cb10-24"><a href="#cb10-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">nodes =</span> nodes_familias,</span>
+<span id="cb10-25"><a href="#cb10-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">edges =</span> edges_familias,</span>
+<span id="cb10-26"><a href="#cb10-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">directed =</span> <span class="cn">FALSE</span></span>
+<span id="cb10-27"><a href="#cb10-27" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb10-28"><a href="#cb10-28" aria-hidden="true" tabindex="-1"></a>    <span class="fu">activate</span>(nodes) <span class="sc">%&gt;%</span></span>
+<span id="cb10-29"><a href="#cb10-29" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">degree =</span> <span class="fu">centrality_degree</span>())</span>
+<span id="cb10-30"><a href="#cb10-30" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb10-31"><a href="#cb10-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggraph</span>(g_matrimonios, <span class="at">layout =</span> <span class="st">"fr"</span>) <span class="sc">+</span></span>
+<span id="cb10-32"><a href="#cb10-32" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_edge_link</span>(<span class="fu">aes</span>(<span class="at">width =</span> n_matrimonios), <span class="at">alpha =</span> <span class="fl">0.5</span>, <span class="at">color =</span> <span class="st">"#1E3A5F"</span>) <span class="sc">+</span></span>
+<span id="cb10-33"><a href="#cb10-33" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_node_point</span>(<span class="fu">aes</span>(<span class="at">size =</span> degree), <span class="at">color =</span> <span class="st">"#1E3A5F"</span>, <span class="at">alpha =</span> <span class="fl">0.8</span>) <span class="sc">+</span></span>
+<span id="cb10-34"><a href="#cb10-34" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_node_text</span>(<span class="fu">aes</span>(<span class="at">label =</span> familia), <span class="at">repel =</span> <span class="cn">TRUE</span>, <span class="at">size =</span> <span class="dv">3</span>) <span class="sc">+</span></span>
+<span id="cb10-35"><a href="#cb10-35" aria-hidden="true" tabindex="-1"></a>    <span class="fu">scale_edge_width</span>(<span class="at">range =</span> <span class="fu">c</span>(<span class="fl">0.5</span>, <span class="dv">3</span>), <span class="at">name =</span> <span class="st">"Matrimonios"</span>) <span class="sc">+</span></span>
+<span id="cb10-36"><a href="#cb10-36" aria-hidden="true" tabindex="-1"></a>    <span class="fu">scale_size_continuous</span>(<span class="at">range =</span> <span class="fu">c</span>(<span class="dv">3</span>, <span class="dv">12</span>), <span class="at">name =</span> <span class="st">"Conexiones"</span>) <span class="sc">+</span></span>
+<span id="cb10-37"><a href="#cb10-37" aria-hidden="true" tabindex="-1"></a>    <span class="fu">labs</span>(</span>
+<span id="cb10-38"><a href="#cb10-38" aria-hidden="true" tabindex="-1"></a>      <span class="at">title =</span> <span class="st">"Red de alianzas matrimoniales entre familias chilenas"</span>,</span>
+<span id="cb10-39"><a href="#cb10-39" aria-hidden="true" tabindex="-1"></a>      <span class="at">subtitle =</span> <span class="st">"Cada línea representa al menos un matrimonio entre familias"</span>,</span>
+<span id="cb10-40"><a href="#cb10-40" aria-hidden="true" tabindex="-1"></a>      <span class="at">caption =</span> <span class="st">"Fuente: Wikipedia"</span></span>
+<span id="cb10-41"><a href="#cb10-41" aria-hidden="true" tabindex="-1"></a>    ) <span class="sc">+</span></span>
+<span id="cb10-42"><a href="#cb10-42" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme_void</span>() <span class="sc">+</span></span>
+<span id="cb10-43"><a href="#cb10-43" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme</span>(</span>
+<span id="cb10-44"><a href="#cb10-44" aria-hidden="true" tabindex="-1"></a>      <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">face =</span> <span class="st">"bold"</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>),</span>
+<span id="cb10-45"><a href="#cb10-45" aria-hidden="true" tabindex="-1"></a>      <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">hjust =</span> <span class="fl">0.5</span>),</span>
+<span id="cb10-46"><a href="#cb10-46" aria-hidden="true" tabindex="-1"></a>      <span class="at">legend.position =</span> <span class="st">"right"</span></span>
+<span id="cb10-47"><a href="#cb10-47" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb10-48"><a href="#cb10-48" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="redes_elites_latam_files/figure-html/red-matrimonios-chile-1.png" class="img-fluid figure-img" width="1344"></p>
+<figcaption>Red de alianzas matrimoniales entre familias chilenas</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="conexiones-transnacionales" class="level2">
+<h2 class="anchored" data-anchor-id="conexiones-transnacionales">4. Conexiones Transnacionales</h2>
+<section id="identificación-de-vínculos-entre-países" class="level3">
+<h3 class="anchored" data-anchor-id="identificación-de-vínculos-entre-países">4.1 Identificación de vínculos entre países</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Ver código</summary>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Conexiones entre países diferentes</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>conexiones_trans <span class="ot">&lt;-</span> edges_enriched <span class="sc">%&gt;%</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(from_pais), <span class="sc">!</span><span class="fu">is.na</span>(to_pais)) <span class="sc">%&gt;%</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(from_pais <span class="sc">!=</span> to_pais)</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Total de conexiones transnacionales detectadas:"</span>, <span class="fu">nrow</span>(conexiones_trans), <span class="st">"</span><span class="sc">\n\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Total de conexiones transnacionales detectadas: 178 </code></pre>
+</div>
+<details class="code-fold">
+<summary>Ver código</summary>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Matriz de conexiones</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>matriz_paises <span class="ot">&lt;-</span> conexiones_trans <span class="sc">%&gt;%</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(from_pais, to_pais, <span class="at">name =</span> <span class="st">"conexiones"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_wider</span>(<span class="at">names_from =</span> to_pais, <span class="at">values_from =</span> conexiones, <span class="at">values_fill =</span> <span class="dv">0</span>)</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="fu">nrow</span>(matriz_paises) <span class="sc">&gt;</span> <span class="dv">0</span>) {</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable</span>(matriz_paises,</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>        <span class="at">caption =</span> <span class="st">"Matriz de conexiones entre países"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>    <span class="fu">kable_styling</span>(<span class="at">bootstrap_options =</span> <span class="fu">c</span>(<span class="st">"striped"</span>, <span class="st">"hover"</span>))</span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<table class="table table-striped table-hover caption-top table-sm small" data-quarto-postprocess="true">
+<caption>Matriz de conexiones entre países</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">from_pais</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">chile</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">colombia</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">argentina</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">argentina</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">chile</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">58</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">colombia</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">12</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+</div>
+</section>
+<section id="casos-destacados-de-conexiones-transnacionales" class="level3">
+<h3 class="anchored" data-anchor-id="casos-destacados-de-conexiones-transnacionales">4.2 Casos destacados de conexiones transnacionales</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Ver código</summary>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Mostrar casos específicos</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>casos_trans <span class="ot">&lt;-</span> conexiones_trans <span class="sc">%&gt;%</span></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(from_nombre), <span class="sc">!</span><span class="fu">is.na</span>(to_nombre)) <span class="sc">%&gt;%</span></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(from_nombre, from_pais, relation_type, to_nombre, to_pais) <span class="sc">%&gt;%</span></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">distinct</span>()</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="fu">nrow</span>(casos_trans) <span class="sc">&gt;</span> <span class="dv">0</span>) {</span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable</span>(casos_trans <span class="sc">%&gt;%</span> <span class="fu">head</span>(<span class="dv">20</span>),</span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>        <span class="at">col.names =</span> <span class="fu">c</span>(<span class="st">"Persona origen"</span>, <span class="st">"País origen"</span>, <span class="st">"Relación"</span>, <span class="st">"Persona destino"</span>, <span class="st">"País destino"</span>),</span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>        <span class="at">caption =</span> <span class="st">"Ejemplos de conexiones transnacionales"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a>    <span class="fu">kable_styling</span>(<span class="at">bootstrap_options =</span> <span class="fu">c</span>(<span class="st">"striped"</span>, <span class="st">"hover"</span>))</span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> {</span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">"Conexión histórica documentada:</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">"- Cornelio Saavedra (Chile) casado con María Saturnina de Otálora (Argentina, 1801)</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">"  José Antonio Gregorio de Otálora era el suegro de Cornelio Saavedra</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<table class="table table-striped table-hover caption-top table-sm small" data-quarto-postprocess="true">
+<caption>Ejemplos de conexiones transnacionales</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">Persona origen</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">País origen</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Relación</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Persona destino</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">País destino</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Joaquín Prieto Concha</td>
+<td style="text-align: left;">chile</td>
+<td style="text-align: left;">padres</td>
+<td style="text-align: left;">Joaquín Prieto Hurtado</td>
+<td style="text-align: left;">argentina</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Joaquín Prieto Hurtado</td>
+<td style="text-align: left;">chile</td>
+<td style="text-align: left;">hijos</td>
+<td style="text-align: left;">Joaquín Prieto Concha</td>
+<td style="text-align: left;">argentina</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Pantaleón Sanz de Santamaría</td>
+<td style="text-align: left;">chile</td>
+<td style="text-align: left;">hijos</td>
+<td style="text-align: left;">María Josefa Sanz de Santamaría</td>
+<td style="text-align: left;">colombia</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">José Prieto de Salazar</td>
+<td style="text-align: left;">chile</td>
+<td style="text-align: left;">hijos</td>
+<td style="text-align: left;">Tomás Prieto de Salazar</td>
+<td style="text-align: left;">colombia</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Joaquín Prieto Warnes</td>
+<td style="text-align: left;">chile</td>
+<td style="text-align: left;">padres</td>
+<td style="text-align: left;">Joaquín Prieto</td>
+<td style="text-align: left;">argentina</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Joaquín Prieto Warnes</td>
+<td style="text-align: left;">chile</td>
+<td style="text-align: left;">padres</td>
+<td style="text-align: left;">Manuela Warnes</td>
+<td style="text-align: left;">argentina</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Joaquín Prieto Warnes</td>
+<td style="text-align: left;">chile</td>
+<td style="text-align: left;">hijos</td>
+<td style="text-align: left;">Joaquín Prieto Hurtado</td>
+<td style="text-align: left;">argentina</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Joaquín Prieto</td>
+<td style="text-align: left;">chile</td>
+<td style="text-align: left;">conyuge</td>
+<td style="text-align: left;">Manuela Warnes</td>
+<td style="text-align: left;">argentina</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Joaquín Prieto</td>
+<td style="text-align: left;">chile</td>
+<td style="text-align: left;">hijos</td>
+<td style="text-align: left;">Joaquín Prieto Warnes</td>
+<td style="text-align: left;">argentina</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Tomás Prieto de Salazar</td>
+<td style="text-align: left;">chile</td>
+<td style="text-align: left;">padres</td>
+<td style="text-align: left;">José Prieto de Salazar</td>
+<td style="text-align: left;">colombia</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">José Sanz de Santamaría</td>
+<td style="text-align: left;">chile</td>
+<td style="text-align: left;">padres</td>
+<td style="text-align: left;">Francisco Sanz de Santamaría</td>
+<td style="text-align: left;">colombia</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Manuela Sanz de Santamaría</td>
+<td style="text-align: left;">chile</td>
+<td style="text-align: left;">padres</td>
+<td style="text-align: left;">Francisco Sanz de Santamaría</td>
+<td style="text-align: left;">colombia</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">María Josefa Sanz de Santamaría</td>
+<td style="text-align: left;">chile</td>
+<td style="text-align: left;">padres</td>
+<td style="text-align: left;">Pantaleón Sanz de Santamaría</td>
+<td style="text-align: left;">colombia</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Manuela Warnes</td>
+<td style="text-align: left;">chile</td>
+<td style="text-align: left;">padres</td>
+<td style="text-align: left;">Manuel Antonio José Warnes</td>
+<td style="text-align: left;">argentina</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Manuela Warnes</td>
+<td style="text-align: left;">chile</td>
+<td style="text-align: left;">padres</td>
+<td style="text-align: left;">Ana Jacoba García de Zúñiga</td>
+<td style="text-align: left;">argentina</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Manuela Warnes</td>
+<td style="text-align: left;">chile</td>
+<td style="text-align: left;">conyuge</td>
+<td style="text-align: left;">Joaquín Prieto</td>
+<td style="text-align: left;">argentina</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Manuela Warnes</td>
+<td style="text-align: left;">chile</td>
+<td style="text-align: left;">hijos</td>
+<td style="text-align: left;">Joaquín Prieto Warnes</td>
+<td style="text-align: left;">argentina</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Francisco Sanz de Santamaría</td>
+<td style="text-align: left;">chile</td>
+<td style="text-align: left;">padres</td>
+<td style="text-align: left;">Nicolás Sanz de Santamaría</td>
+<td style="text-align: left;">colombia</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Francisco Sanz de Santamaría</td>
+<td style="text-align: left;">chile</td>
+<td style="text-align: left;">hijos</td>
+<td style="text-align: left;">José Sanz de Santamaría</td>
+<td style="text-align: left;">colombia</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Francisco Sanz de Santamaría</td>
+<td style="text-align: left;">chile</td>
+<td style="text-align: left;">hijos</td>
+<td style="text-align: left;">Manuela Sanz de Santamaría</td>
+<td style="text-align: left;">colombia</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="visualización-integrada" class="level2">
+<h2 class="anchored" data-anchor-id="visualización-integrada">5. Visualización Integrada</h2>
+<section id="red-multi-país-con-familias-seleccionadas" class="level3">
+<h3 class="anchored" data-anchor-id="red-multi-país-con-familias-seleccionadas">5.1 Red multi-país con familias seleccionadas</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Ver código</summary>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Familias de interés por país</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>familias_interes <span class="ot">&lt;-</span> <span class="fu">list</span>(</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">chile =</span> <span class="fu">c</span>(<span class="st">"aylwin"</span>, <span class="st">"huidobro"</span>, <span class="st">"bello"</span>, <span class="st">"balmaceda"</span>, <span class="st">"saavedra"</span>),</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">argentina =</span> <span class="fu">c</span>(<span class="st">"otálora"</span>, <span class="st">"otalora"</span>, <span class="st">"saavedra"</span>),</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">colombia =</span> <span class="fu">c</span>(<span class="st">"lópez"</span>, <span class="st">"lleras"</span>, <span class="st">"ospina"</span>)</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Filtrar datos</span></span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>datos_filtrados <span class="ot">&lt;-</span> all_data <span class="sc">%&gt;%</span></span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(</span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>    (pais <span class="sc">==</span> <span class="st">"chile"</span> <span class="sc">&amp;</span> <span class="fu">str_detect</span>(<span class="fu">tolower</span>(familia), <span class="fu">paste</span>(familias_interes<span class="sc">$</span>chile, <span class="at">collapse =</span> <span class="st">"|"</span>))) <span class="sc">|</span></span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>    (pais <span class="sc">==</span> <span class="st">"argentina"</span> <span class="sc">&amp;</span> <span class="fu">str_detect</span>(<span class="fu">tolower</span>(familia), <span class="fu">paste</span>(familias_interes<span class="sc">$</span>argentina, <span class="at">collapse =</span> <span class="st">"|"</span>))) <span class="sc">|</span></span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a>    (pais <span class="sc">==</span> <span class="st">"colombia"</span> <span class="sc">&amp;</span> <span class="fu">str_detect</span>(<span class="fu">tolower</span>(familia), <span class="fu">paste</span>(familias_interes<span class="sc">$</span>colombia, <span class="at">collapse =</span> <span class="st">"|"</span>)))</span>
+<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(url), url <span class="sc">!=</span> <span class="st">""</span>)</span>
+<span id="cb15-16"><a href="#cb15-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-17"><a href="#cb15-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Filtrar edges</span></span>
+<span id="cb15-18"><a href="#cb15-18" aria-hidden="true" tabindex="-1"></a>edges_filtrados <span class="ot">&lt;-</span> edges_enriched <span class="sc">%&gt;%</span></span>
+<span id="cb15-19"><a href="#cb15-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(from <span class="sc">%in%</span> datos_filtrados<span class="sc">$</span>url, to <span class="sc">%in%</span> datos_filtrados<span class="sc">$</span>url)</span>
+<span id="cb15-20"><a href="#cb15-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-21"><a href="#cb15-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear nodos</span></span>
+<span id="cb15-22"><a href="#cb15-22" aria-hidden="true" tabindex="-1"></a>nodes <span class="ot">&lt;-</span> <span class="fu">tibble</span>(<span class="at">url =</span> <span class="fu">unique</span>(<span class="fu">c</span>(edges_filtrados<span class="sc">$</span>from, edges_filtrados<span class="sc">$</span>to))) <span class="sc">%&gt;%</span></span>
+<span id="cb15-23"><a href="#cb15-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(datos_filtrados <span class="sc">%&gt;%</span> <span class="fu">select</span>(url, nombre, pais, familia), <span class="at">by =</span> <span class="st">"url"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb15-24"><a href="#cb15-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(pais))</span>
+<span id="cb15-25"><a href="#cb15-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-26"><a href="#cb15-26" aria-hidden="true" tabindex="-1"></a><span class="co"># Filtrar edges válidos</span></span>
+<span id="cb15-27"><a href="#cb15-27" aria-hidden="true" tabindex="-1"></a>edges_valid <span class="ot">&lt;-</span> edges_filtrados <span class="sc">%&gt;%</span></span>
+<span id="cb15-28"><a href="#cb15-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(from <span class="sc">%in%</span> nodes<span class="sc">$</span>url, to <span class="sc">%in%</span> nodes<span class="sc">$</span>url)</span>
+<span id="cb15-29"><a href="#cb15-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-30"><a href="#cb15-30" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="fu">nrow</span>(nodes) <span class="sc">&gt;</span> <span class="dv">0</span> <span class="sc">&amp;&amp;</span> <span class="fu">nrow</span>(edges_valid) <span class="sc">&gt;</span> <span class="dv">0</span>) {</span>
+<span id="cb15-31"><a href="#cb15-31" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Crear grafo</span></span>
+<span id="cb15-32"><a href="#cb15-32" aria-hidden="true" tabindex="-1"></a>  g <span class="ot">&lt;-</span> <span class="fu">tbl_graph</span>(<span class="at">nodes =</span> nodes, <span class="at">edges =</span> edges_valid, <span class="at">directed =</span> <span class="cn">FALSE</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb15-33"><a href="#cb15-33" aria-hidden="true" tabindex="-1"></a>    <span class="fu">activate</span>(nodes) <span class="sc">%&gt;%</span></span>
+<span id="cb15-34"><a href="#cb15-34" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">degree =</span> <span class="fu">centrality_degree</span>())</span>
+<span id="cb15-35"><a href="#cb15-35" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb15-36"><a href="#cb15-36" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Definir centros por país</span></span>
+<span id="cb15-37"><a href="#cb15-37" aria-hidden="true" tabindex="-1"></a>  pais_centers <span class="ot">&lt;-</span> <span class="fu">list</span>(</span>
+<span id="cb15-38"><a href="#cb15-38" aria-hidden="true" tabindex="-1"></a>    <span class="at">chile =</span> <span class="fu">c</span>(<span class="at">x =</span> <span class="sc">-</span><span class="dv">15</span>, <span class="at">y =</span> <span class="dv">0</span>),</span>
+<span id="cb15-39"><a href="#cb15-39" aria-hidden="true" tabindex="-1"></a>    <span class="at">argentina =</span> <span class="fu">c</span>(<span class="at">x =</span> <span class="dv">15</span>, <span class="at">y =</span> <span class="dv">0</span>),</span>
+<span id="cb15-40"><a href="#cb15-40" aria-hidden="true" tabindex="-1"></a>    <span class="at">colombia =</span> <span class="fu">c</span>(<span class="at">x =</span> <span class="dv">0</span>, <span class="at">y =</span> <span class="dv">20</span>)</span>
+<span id="cb15-41"><a href="#cb15-41" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb15-42"><a href="#cb15-42" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb15-43"><a href="#cb15-43" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Layout</span></span>
+<span id="cb15-44"><a href="#cb15-44" aria-hidden="true" tabindex="-1"></a>  <span class="fu">set.seed</span>(<span class="dv">42</span>)</span>
+<span id="cb15-45"><a href="#cb15-45" aria-hidden="true" tabindex="-1"></a>  nodes_df <span class="ot">&lt;-</span> <span class="fu">as_tibble</span>(g)</span>
+<span id="cb15-46"><a href="#cb15-46" aria-hidden="true" tabindex="-1"></a>  layout_coords <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">x =</span> <span class="fu">numeric</span>(<span class="fu">nrow</span>(nodes_df)), <span class="at">y =</span> <span class="fu">numeric</span>(<span class="fu">nrow</span>(nodes_df)))</span>
+<span id="cb15-47"><a href="#cb15-47" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb15-48"><a href="#cb15-48" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (p <span class="cf">in</span> <span class="fu">unique</span>(nodes_df<span class="sc">$</span>pais)) {</span>
+<span id="cb15-49"><a href="#cb15-49" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.na</span>(p) <span class="sc">&amp;&amp;</span> p <span class="sc">%in%</span> <span class="fu">names</span>(pais_centers)) {</span>
+<span id="cb15-50"><a href="#cb15-50" aria-hidden="true" tabindex="-1"></a>      idx <span class="ot">&lt;-</span> <span class="fu">which</span>(nodes_df<span class="sc">$</span>pais <span class="sc">==</span> p)</span>
+<span id="cb15-51"><a href="#cb15-51" aria-hidden="true" tabindex="-1"></a>      <span class="cf">if</span> (<span class="fu">length</span>(idx) <span class="sc">&gt;</span> <span class="dv">1</span>) {</span>
+<span id="cb15-52"><a href="#cb15-52" aria-hidden="true" tabindex="-1"></a>        subg <span class="ot">&lt;-</span> <span class="fu">induced_subgraph</span>(<span class="fu">as.igraph</span>(g), idx)</span>
+<span id="cb15-53"><a href="#cb15-53" aria-hidden="true" tabindex="-1"></a>        sub_layout <span class="ot">&lt;-</span> <span class="fu">layout_with_fr</span>(subg, <span class="at">niter =</span> <span class="dv">300</span>)</span>
+<span id="cb15-54"><a href="#cb15-54" aria-hidden="true" tabindex="-1"></a>        sub_layout <span class="ot">&lt;-</span> <span class="fu">scale</span>(sub_layout) <span class="sc">*</span> <span class="dv">6</span></span>
+<span id="cb15-55"><a href="#cb15-55" aria-hidden="true" tabindex="-1"></a>        layout_coords<span class="sc">$</span>x[idx] <span class="ot">&lt;-</span> sub_layout[, <span class="dv">1</span>] <span class="sc">+</span> pais_centers[[p]][<span class="st">"x"</span>]</span>
+<span id="cb15-56"><a href="#cb15-56" aria-hidden="true" tabindex="-1"></a>        layout_coords<span class="sc">$</span>y[idx] <span class="ot">&lt;-</span> sub_layout[, <span class="dv">2</span>] <span class="sc">+</span> pais_centers[[p]][<span class="st">"y"</span>]</span>
+<span id="cb15-57"><a href="#cb15-57" aria-hidden="true" tabindex="-1"></a>      } <span class="cf">else</span> <span class="cf">if</span> (<span class="fu">length</span>(idx) <span class="sc">==</span> <span class="dv">1</span>) {</span>
+<span id="cb15-58"><a href="#cb15-58" aria-hidden="true" tabindex="-1"></a>        layout_coords<span class="sc">$</span>x[idx] <span class="ot">&lt;-</span> pais_centers[[p]][<span class="st">"x"</span>]</span>
+<span id="cb15-59"><a href="#cb15-59" aria-hidden="true" tabindex="-1"></a>        layout_coords<span class="sc">$</span>y[idx] <span class="ot">&lt;-</span> pais_centers[[p]][<span class="st">"y"</span>]</span>
+<span id="cb15-60"><a href="#cb15-60" aria-hidden="true" tabindex="-1"></a>      }</span>
+<span id="cb15-61"><a href="#cb15-61" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb15-62"><a href="#cb15-62" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb15-63"><a href="#cb15-63" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb15-64"><a href="#cb15-64" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Visualización</span></span>
+<span id="cb15-65"><a href="#cb15-65" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggraph</span>(g, <span class="at">layout =</span> <span class="st">"manual"</span>, <span class="at">x =</span> layout_coords<span class="sc">$</span>x, <span class="at">y =</span> layout_coords<span class="sc">$</span>y) <span class="sc">+</span></span>
+<span id="cb15-66"><a href="#cb15-66" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Fondos de país</span></span>
+<span id="cb15-67"><a href="#cb15-67" aria-hidden="true" tabindex="-1"></a>    <span class="fu">annotate</span>(<span class="st">"point"</span>, <span class="at">x =</span> <span class="sc">-</span><span class="dv">15</span>, <span class="at">y =</span> <span class="dv">0</span>, <span class="at">size =</span> <span class="dv">60</span>, <span class="at">color =</span> <span class="st">"#1E3A5F"</span>, <span class="at">alpha =</span> <span class="fl">0.08</span>) <span class="sc">+</span></span>
+<span id="cb15-68"><a href="#cb15-68" aria-hidden="true" tabindex="-1"></a>    <span class="fu">annotate</span>(<span class="st">"point"</span>, <span class="at">x =</span> <span class="dv">15</span>, <span class="at">y =</span> <span class="dv">0</span>, <span class="at">size =</span> <span class="dv">50</span>, <span class="at">color =</span> <span class="st">"#5DADE2"</span>, <span class="at">alpha =</span> <span class="fl">0.08</span>) <span class="sc">+</span></span>
+<span id="cb15-69"><a href="#cb15-69" aria-hidden="true" tabindex="-1"></a>    <span class="fu">annotate</span>(<span class="st">"point"</span>, <span class="at">x =</span> <span class="dv">0</span>, <span class="at">y =</span> <span class="dv">20</span>, <span class="at">size =</span> <span class="dv">50</span>, <span class="at">color =</span> <span class="st">"#F4D03F"</span>, <span class="at">alpha =</span> <span class="fl">0.08</span>) <span class="sc">+</span></span>
+<span id="cb15-70"><a href="#cb15-70" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Edges</span></span>
+<span id="cb15-71"><a href="#cb15-71" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_edge_link</span>(<span class="fu">aes</span>(<span class="at">color =</span> relation_type), <span class="at">alpha =</span> <span class="fl">0.4</span>, <span class="at">width =</span> <span class="fl">0.6</span>) <span class="sc">+</span></span>
+<span id="cb15-72"><a href="#cb15-72" aria-hidden="true" tabindex="-1"></a>    <span class="fu">scale_edge_color_brewer</span>(<span class="at">palette =</span> <span class="st">"Set2"</span>, <span class="at">name =</span> <span class="st">"Relación"</span>) <span class="sc">+</span></span>
+<span id="cb15-73"><a href="#cb15-73" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Nodos</span></span>
+<span id="cb15-74"><a href="#cb15-74" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_node_point</span>(<span class="fu">aes</span>(<span class="at">size =</span> degree, <span class="at">color =</span> pais), <span class="at">alpha =</span> <span class="fl">0.8</span>) <span class="sc">+</span></span>
+<span id="cb15-75"><a href="#cb15-75" aria-hidden="true" tabindex="-1"></a>    <span class="fu">scale_color_manual</span>(<span class="at">values =</span> pais_colors, <span class="at">name =</span> <span class="st">"País"</span>) <span class="sc">+</span></span>
+<span id="cb15-76"><a href="#cb15-76" aria-hidden="true" tabindex="-1"></a>    <span class="fu">scale_size_continuous</span>(<span class="at">range =</span> <span class="fu">c</span>(<span class="dv">3</span>, <span class="dv">12</span>), <span class="at">name =</span> <span class="st">"Conexiones"</span>) <span class="sc">+</span></span>
+<span id="cb15-77"><a href="#cb15-77" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Labels</span></span>
+<span id="cb15-78"><a href="#cb15-78" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_node_text</span>(</span>
+<span id="cb15-79"><a href="#cb15-79" aria-hidden="true" tabindex="-1"></a>      <span class="fu">aes</span>(<span class="at">label =</span> <span class="fu">ifelse</span>(degree <span class="sc">&gt;=</span> <span class="dv">3</span>, nombre, <span class="st">""</span>)),</span>
+<span id="cb15-80"><a href="#cb15-80" aria-hidden="true" tabindex="-1"></a>      <span class="at">size =</span> <span class="fl">2.5</span>, <span class="at">repel =</span> <span class="cn">TRUE</span>, <span class="at">max.overlaps =</span> <span class="dv">20</span></span>
+<span id="cb15-81"><a href="#cb15-81" aria-hidden="true" tabindex="-1"></a>    ) <span class="sc">+</span></span>
+<span id="cb15-82"><a href="#cb15-82" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Etiquetas de país</span></span>
+<span id="cb15-83"><a href="#cb15-83" aria-hidden="true" tabindex="-1"></a>    <span class="fu">annotate</span>(<span class="st">"text"</span>, <span class="at">x =</span> <span class="sc">-</span><span class="dv">15</span>, <span class="at">y =</span> <span class="sc">-</span><span class="dv">12</span>, <span class="at">label =</span> <span class="st">"CHILE"</span>, <span class="at">size =</span> <span class="dv">6</span>, <span class="at">fontface =</span> <span class="st">"bold"</span>, <span class="at">color =</span> <span class="st">"#1E3A5F"</span>) <span class="sc">+</span></span>
+<span id="cb15-84"><a href="#cb15-84" aria-hidden="true" tabindex="-1"></a>    <span class="fu">annotate</span>(<span class="st">"text"</span>, <span class="at">x =</span> <span class="dv">15</span>, <span class="at">y =</span> <span class="sc">-</span><span class="dv">10</span>, <span class="at">label =</span> <span class="st">"ARGENTINA"</span>, <span class="at">size =</span> <span class="dv">6</span>, <span class="at">fontface =</span> <span class="st">"bold"</span>, <span class="at">color =</span> <span class="st">"#2471A3"</span>) <span class="sc">+</span></span>
+<span id="cb15-85"><a href="#cb15-85" aria-hidden="true" tabindex="-1"></a>    <span class="fu">annotate</span>(<span class="st">"text"</span>, <span class="at">x =</span> <span class="dv">0</span>, <span class="at">y =</span> <span class="dv">32</span>, <span class="at">label =</span> <span class="st">"COLOMBIA"</span>, <span class="at">size =</span> <span class="dv">6</span>, <span class="at">fontface =</span> <span class="st">"bold"</span>, <span class="at">color =</span> <span class="st">"#B7950B"</span>) <span class="sc">+</span></span>
+<span id="cb15-86"><a href="#cb15-86" aria-hidden="true" tabindex="-1"></a>    <span class="fu">labs</span>(</span>
+<span id="cb15-87"><a href="#cb15-87" aria-hidden="true" tabindex="-1"></a>      <span class="at">title =</span> <span class="st">"Redes Familiares de Élites Latinoamericanas"</span>,</span>
+<span id="cb15-88"><a href="#cb15-88" aria-hidden="true" tabindex="-1"></a>      <span class="at">subtitle =</span> <span class="fu">paste</span>(<span class="st">"Nodos:"</span>, <span class="fu">nrow</span>(nodes), <span class="st">"| Conexiones:"</span>, <span class="fu">nrow</span>(edges_valid)),</span>
+<span id="cb15-89"><a href="#cb15-89" aria-hidden="true" tabindex="-1"></a>      <span class="at">caption =</span> <span class="st">"Fuente: Wikipedia | Familias: Aylwin, García-Huidobro, Bello, Balmaceda (Chile); Otálora, Saavedra (Argentina); López, Lleras (Colombia)"</span></span>
+<span id="cb15-90"><a href="#cb15-90" aria-hidden="true" tabindex="-1"></a>    ) <span class="sc">+</span></span>
+<span id="cb15-91"><a href="#cb15-91" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme_void</span>() <span class="sc">+</span></span>
+<span id="cb15-92"><a href="#cb15-92" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme</span>(</span>
+<span id="cb15-93"><a href="#cb15-93" aria-hidden="true" tabindex="-1"></a>      <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">face =</span> <span class="st">"bold"</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>, <span class="at">size =</span> <span class="dv">16</span>),</span>
+<span id="cb15-94"><a href="#cb15-94" aria-hidden="true" tabindex="-1"></a>      <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">hjust =</span> <span class="fl">0.5</span>, <span class="at">size =</span> <span class="dv">11</span>),</span>
+<span id="cb15-95"><a href="#cb15-95" aria-hidden="true" tabindex="-1"></a>      <span class="at">plot.caption =</span> <span class="fu">element_text</span>(<span class="at">hjust =</span> <span class="fl">0.5</span>, <span class="at">size =</span> <span class="dv">9</span>, <span class="at">color =</span> <span class="st">"gray50"</span>),</span>
+<span id="cb15-96"><a href="#cb15-96" aria-hidden="true" tabindex="-1"></a>      <span class="at">legend.position =</span> <span class="st">"right"</span></span>
+<span id="cb15-97"><a href="#cb15-97" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb15-98"><a href="#cb15-98" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="redes_elites_latam_files/figure-html/red-multipais-1.png" class="img-fluid figure-img" width="1536"></p>
+<figcaption>Red de familias destacadas de Chile, Argentina y Colombia</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="métricas-de-red" class="level2">
+<h2 class="anchored" data-anchor-id="métricas-de-red">6. Métricas de Red</h2>
+<section id="centralidad-por-país" class="level3">
+<h3 class="anchored" data-anchor-id="centralidad-por-país">6.1 Centralidad por país</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Ver código</summary>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="fu">exists</span>(<span class="st">"g"</span>) <span class="sc">&amp;&amp;</span> <span class="sc">!</span><span class="fu">is.null</span>(g)) {</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>  metricas <span class="ot">&lt;-</span> <span class="fu">as_tibble</span>(g) <span class="sc">%&gt;%</span></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">group_by</span>(pais) <span class="sc">%&gt;%</span></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">summarise</span>(</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>      <span class="at">n_personas =</span> <span class="fu">n</span>(),</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>      <span class="at">grado_promedio =</span> <span class="fu">round</span>(<span class="fu">mean</span>(degree, <span class="at">na.rm =</span> <span class="cn">TRUE</span>), <span class="dv">2</span>),</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>      <span class="at">grado_max =</span> <span class="fu">max</span>(degree, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>      <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable</span>(metricas,</span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a>        <span class="at">col.names =</span> <span class="fu">c</span>(<span class="st">"País"</span>, <span class="st">"Personas"</span>, <span class="st">"Grado promedio"</span>, <span class="st">"Grado máximo"</span>),</span>
+<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a>        <span class="at">caption =</span> <span class="st">"Métricas de centralidad por país"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a>    <span class="fu">kable_styling</span>(<span class="at">bootstrap_options =</span> <span class="fu">c</span>(<span class="st">"striped"</span>, <span class="st">"hover"</span>))</span>
+<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<table class="table table-striped table-hover caption-top table-sm small" data-quarto-postprocess="true">
+<caption>Métricas de centralidad por país</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">País</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Personas</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Grado promedio</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Grado máximo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">argentina</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">4.10</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">chile</td>
+<td style="text-align: right;">56</td>
+<td style="text-align: right;">3.57</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">colombia</td>
+<td style="text-align: right;">64</td>
+<td style="text-align: right;">4.84</td>
+<td style="text-align: right;">12</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+</div>
+</section>
+<section id="personas-más-centrales" class="level3">
+<h3 class="anchored" data-anchor-id="personas-más-centrales">6.2 Personas más centrales</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Ver código</summary>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="fu">exists</span>(<span class="st">"g"</span>) <span class="sc">&amp;&amp;</span> <span class="sc">!</span><span class="fu">is.null</span>(g)) {</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>  top_centrales <span class="ot">&lt;-</span> <span class="fu">as_tibble</span>(g) <span class="sc">%&gt;%</span></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">arrange</span>(<span class="fu">desc</span>(degree)) <span class="sc">%&gt;%</span></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">select</span>(nombre, pais, familia, degree) <span class="sc">%&gt;%</span></span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">head</span>(<span class="dv">15</span>)</span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable</span>(top_centrales,</span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>        <span class="at">col.names =</span> <span class="fu">c</span>(<span class="st">"Nombre"</span>, <span class="st">"País"</span>, <span class="st">"Familia"</span>, <span class="st">"Conexiones"</span>),</span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>        <span class="at">caption =</span> <span class="st">"Top 15 personas más conectadas"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a>    <span class="fu">kable_styling</span>(<span class="at">bootstrap_options =</span> <span class="fu">c</span>(<span class="st">"striped"</span>, <span class="st">"hover"</span>))</span>
+<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<table class="table table-striped table-hover caption-top table-sm small" data-quarto-postprocess="true">
+<caption>Top 15 personas más conectadas</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">Nombre</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">País</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Familia</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Conexiones</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Mariano Ospina Pérez</td>
+<td style="text-align: left;">colombia</td>
+<td style="text-align: left;">Familia Ospina</td>
+<td style="text-align: right;">12</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Alfonso López Michelsen</td>
+<td style="text-align: left;">colombia</td>
+<td style="text-align: left;">Familia López</td>
+<td style="text-align: right;">11</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Alfonso López Pumarejo</td>
+<td style="text-align: left;">colombia</td>
+<td style="text-align: left;">Familia López</td>
+<td style="text-align: right;">11</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Mariano Ospina Rodríguez</td>
+<td style="text-align: left;">colombia</td>
+<td style="text-align: left;">Familia Ospina</td>
+<td style="text-align: right;">11</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Manuel de Balmaceda Ballesteros</td>
+<td style="text-align: left;">chile</td>
+<td style="text-align: left;">Familia Balmaceda</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Tulio Ospina</td>
+<td style="text-align: left;">colombia</td>
+<td style="text-align: left;">Familia Ospina</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Enriqueta Vásquez de Ospina</td>
+<td style="text-align: left;">colombia</td>
+<td style="text-align: left;">Familia Ospina</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">José Manuel Balmaceda</td>
+<td style="text-align: left;">chile</td>
+<td style="text-align: left;">Familia Balmaceda</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">José Antonio Gregorio de Otálora</td>
+<td style="text-align: left;">argentina</td>
+<td style="text-align: left;">Familia Otálora</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bertha Hernández de Ospina</td>
+<td style="text-align: left;">colombia</td>
+<td style="text-align: left;">Familia Ospina</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Manuel Ospina Vásquez</td>
+<td style="text-align: left;">colombia</td>
+<td style="text-align: left;">Familia Ospina</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Pedro Nel Ospina</td>
+<td style="text-align: left;">colombia</td>
+<td style="text-align: left;">Familia Ospina</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Patricio Aylwin</td>
+<td style="text-align: left;">chile</td>
+<td style="text-align: left;">Familia Aylwin</td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Pedro Nel Ospina</td>
+<td style="text-align: left;">colombia</td>
+<td style="text-align: left;">Familia Lleras</td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Carolina Vásquez de Ospina</td>
+<td style="text-align: left;">colombia</td>
+<td style="text-align: left;">Familia Lleras</td>
+<td style="text-align: right;">8</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="conclusiones" class="level2">
+<h2 class="anchored" data-anchor-id="conclusiones">7. Conclusiones</h2>
+<section id="hallazgos-principales" class="level3">
+<h3 class="anchored" data-anchor-id="hallazgos-principales">7.1 Hallazgos principales</h3>
+<ol type="1">
+<li><p><strong>Alta endogamia familiar</strong>: Las familias de élite muestran patrones de matrimonio preferencial dentro de su grupo social.</p></li>
+<li><p><strong>Redes interfamiliares</strong>: Existen alianzas matrimoniales recurrentes entre familias específicas, formando clusters de poder.</p></li>
+<li><p><strong>Conexiones transnacionales</strong>: Aunque menos frecuentes, los vínculos entre países revelan estrategias de expansión de influencia regional.</p></li>
+</ol>
+</section>
+<section id="limitaciones" class="level3">
+<h3 class="anchored" data-anchor-id="limitaciones">7.2 Limitaciones</h3>
+<ul>
+<li>Los datos dependen de la cobertura y calidad de Wikipedia</li>
+<li>No todas las relaciones familiares están documentadas</li>
+<li>Posible sesgo hacia figuras más prominentes</li>
+</ul>
+</section>
+<section id="trabajo-futuro" class="level3">
+<h3 class="anchored" data-anchor-id="trabajo-futuro">7.3 Trabajo futuro</h3>
+<ul>
+<li>Análisis temporal de la evolución de las redes</li>
+<li>Incorporación de más países latinoamericanos</li>
+<li>Análisis de cargos políticos y concentración de poder</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="referencias" class="level2">
+<h2 class="anchored" data-anchor-id="referencias">Referencias</h2>
+<ul>
+<li>Padgett, J. F., &amp; Ansell, C. K. (1993). Robust Action and the Rise of the Medici, 1400-1434. <em>American Journal of Sociology</em>, 98(6), 1259-1319.</li>
+</ul>
+<hr>
+<p><em>Documento generado con Quarto. Datos extraídos de Wikipedia.</em></p>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
