@@ -1,26 +1,673 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>familiaRes | Red General</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-    header { padding: 16px 24px; background: #111827; color: #fff; }
-    main { padding: 16px 24px; }
-    iframe { width: 100%; height: 900px; border: none; }
-    .note { color: #555; margin-top: 8px; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>familiaRes - Redes de Élites Latinoamericanas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1E3A5F;
+            --secondary: #5DADE2;
+            --accent: #F4D03F;
+            --text: #2C3E50;
+            --text-light: #5D6D7E;
+            --bg: #FAFAFA;
+            --white: #FFFFFF;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: var(--white);
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+        
+        .logo span {
+            color: var(--secondary);
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: var(--text);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: var(--secondary);
+        }
+        
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 6rem 2rem 4rem;
+            background: linear-gradient(135deg, var(--primary) 0%, #2C5282 100%);
+            color: var(--white);
+        }
+        
+        .hero-content {
+            max-width: 900px;
+        }
+        
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            letter-spacing: -0.02em;
+        }
+        
+        .hero h1 span {
+            color: var(--accent);
+        }
+        
+        .hero .tagline {
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        .hero p {
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto 2.5rem;
+            opacity: 0.85;
+            line-height: 1.8;
+        }
+        
+        .btn-group {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            padding: 0.9rem 2rem;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .btn-primary {
+            background: var(--accent);
+            color: var(--primary);
+        }
+        
+        .btn-primary:hover {
+            background: #F1C40F;
+            transform: translateY(-2px);
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            color: var(--white);
+            border: 2px solid var(--white);
+        }
+        
+        .btn-secondary:hover {
+            background: var(--white);
+            color: var(--primary);
+        }
+        
+        /* Stats */
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 4rem;
+            margin-top: 4rem;
+            flex-wrap: wrap;
+        }
+        
+        .stat {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--accent);
+        }
+        
+        .stat-label {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            opacity: 0.8;
+        }
+        
+        /* Section */
+        section {
+            padding: 6rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 1rem;
+            color: var(--primary);
+        }
+        
+        .section-subtitle {
+            text-align: center;
+            color: var(--text-light);
+            max-width: 600px;
+            margin: 0 auto 3rem;
+        }
+        
+        /* Features */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .feature {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+        }
+        
+        .feature:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .feature h3 {
+            font-size: 1.3rem;
+            margin-bottom: 0.75rem;
+            color: var(--primary);
+        }
+        
+        .feature p {
+            color: var(--text-light);
+        }
+        
+        /* Highlights */
+        .highlight-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: var(--white);
+            border-radius: 16px;
+            padding: 3rem;
+            margin: 3rem 0;
+        }
+        
+        .highlight-box h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .highlight-list {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        
+        .highlight-list li {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-size: 1rem;
+        }
+        
+        .highlight-list li::before {
+            content: "→";
+            color: var(--accent);
+            font-weight: bold;
+        }
+        
+        /* Structure */
+        .structure {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+        }
+        
+        .structure pre {
+            background: #1E1E1E;
+            color: #D4D4D4;
+            padding: 1.5rem;
+            border-radius: 8px;
+            font-family: 'Fira Code', 'Consolas', monospace;
+            font-size: 0.85rem;
+            overflow-x: auto;
+            line-height: 1.6;
+        }
+        
+        .structure .folder {
+            color: #569CD6;
+        }
+        
+        .structure .file {
+            color: #CE9178;
+        }
+        
+        .structure .comment {
+            color: #6A9955;
+        }
+        
+        /* Countries */
+        .countries-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .country-card {
+            background: var(--white);
+            padding: 1.5rem;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            transition: all 0.3s;
+        }
+        
+        .country-card:hover {
+            transform: scale(1.03);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+        
+        .country-flag {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .country-name {
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 0.25rem;
+        }
+        
+        .country-stats {
+            font-size: 0.85rem;
+            color: var(--text-light);
+        }
+        
+        /* Quick Start */
+        .quickstart {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+        }
+        
+        .quickstart h3 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+        
+        .quickstart code {
+            display: block;
+            background: #1E1E1E;
+            color: #D4D4D4;
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            font-family: 'Fira Code', 'Consolas', monospace;
+            font-size: 0.9rem;
+            margin: 0.5rem 0;
+        }
+        
+        .quickstart code .comment {
+            color: #6A9955;
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--primary);
+            color: var(--white);
+            padding: 3rem 2rem 2rem;
+            text-align: center;
+        }
+        
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        .footer-links a {
+            color: var(--white);
+            opacity: 0.8;
+        }
+        
+        .footer-links a:hover {
+            opacity: 1;
+        }
+        
+        .copyright {
+            opacity: 0.6;
+            font-size: 0.9rem;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero .tagline {
+                font-size: 1.2rem;
+            }
+            
+            .stats {
+                gap: 2rem;
+            }
+            
+            .stat-number {
+                font-size: 2rem;
+            }
+            
+            nav ul {
+                display: none;
+            }
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>familiaRes</h1>
-    <p>Red general de personajes y familias (Chile)</p>
-  </header>
-  <main>
-    <h2>Red interactiva</h2>
-    <iframe src="red_general_todos_interactiva.html"></iframe>
-    <p class="note">Si no carga, verifica que los assets esten en la carpeta docs.</p>
-  </main>
+    <nav>
+        <div class="logo">familia<span>Res</span></div>
+        <ul>
+            <li><a href="#about">Sobre el proyecto</a></li>
+            <li><a href="#structure">Estructura</a></li>
+            <li><a href="#data">Datos</a></li>
+            <li><a href="https://github.com/matdknu/familiaR-wiki" target="_blank">GitHub</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>familia<span>Res</span></h1>
+            <p class="tagline">Redes de Élites Latinoamericanas</p>
+            <p>
+                Proyecto de ciencia de datos sociales que analiza las <strong>redes familiares 
+                y estrategias de reproducción de las élites</strong> en América Latina. 
+                Utilizamos Wikipedia como fuente de datos para mapear conexiones familiares, 
+                alianzas matrimoniales y vínculos transnacionales que abarcan más de 500 años de historia.
+            </p>
+            <div class="btn-group">
+                <a href="https://github.com/matdknu/familiaR-wiki" class="btn btn-primary" target="_blank">
+                    📦 Ver repositorio en GitHub
+                </a>
+                <a href="https://github.com/matdknu/familiaR-wiki/blob/main/WORKFLOW.md" class="btn btn-secondary" target="_blank">
+                    📄 Ver documentación
+                </a>
+            </div>
+            
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number">6,700+</div>
+                    <div class="stat-label">Personas</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">565+</div>
+                    <div class="stat-label">Familias</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">10</div>
+                    <div class="stat-label">Países</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">546</div>
+                    <div class="stat-label">Años de historia</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="section-title">¿Qué es este proyecto?</h2>
+        <p class="section-subtitle">
+            Un repositorio de datos y herramientas para estudiar las élites latinoamericanas
+            a través del análisis de redes familiares.
+        </p>
+        
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">🔍</div>
+                <h3>Scraping de Wikipedia</h3>
+                <p>Scripts en Python para extraer automáticamente información biográfica, 
+                   relaciones familiares y cargos políticos desde Wikipedia en español.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">📊</div>
+                <h3>Datos consolidados</h3>
+                <p>Archivos CSV procesados con información de más de 6,700 personas 
+                   de 565 familias de élite de 10 países latinoamericanos.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🕸️</div>
+                <h3>Análisis de redes</h3>
+                <p>Scripts en R para construir grafos familiares, calcular métricas de 
+                   centralidad y detectar patrones de endogamia y alianzas matrimoniales.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🌎</div>
+                <h3>Conexiones transnacionales</h3>
+                <p>Identificación de vínculos que cruzan fronteras: desde el Emperador 
+                   Moctezuma hasta los Borgia, conectados con personas vivas hoy.</p>
+            </div>
+        </div>
+        
+        <div class="highlight-box">
+            <h3>🏆 Hallazgos destacados</h3>
+            <ul class="highlight-list">
+                <li>Conexión genealógica de <strong>546 años</strong> (Fonseca 1415 → Catherine Oxenberg 1961)</li>
+                <li>Descendientes del <strong>Emperador Moctezuma</strong> documentados hasta hoy</li>
+                <li><strong>Lucas Leiva</strong> (futbolista) conectado con nobleza del siglo XV</li>
+                <li><strong>37 conexiones inter-familiares</strong> entre países identificadas</li>
+                <li>Patrones de <strong>endogamia política</strong> en Chile, Colombia y Argentina</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="structure">
+        <h2 class="section-title">Estructura del Repositorio</h2>
+        <p class="section-subtitle">
+            Organización clara y reproducible del proyecto
+        </p>
+        
+        <div class="structure">
+            <pre><span class="folder">wiki-chile_project/</span>
+├── <span class="folder">data/</span>
+│   ├── <span class="folder">raw/</span>                    <span class="comment"># Datos crudos del scraping</span>
+│   │   ├── <span class="folder">chile/familias/</span>
+│   │   ├── <span class="folder">argentina/familias/</span>
+│   │   └── <span class="folder">...</span>
+│   ├── <span class="folder">processed/</span>              <span class="comment"># Datos procesados</span>
+│   │   └── <span class="folder">familias/</span>
+│   │       └── <span class="file">_CONSOLIDADO_familias_latam.csv</span>  <span class="comment"># ⭐ ARCHIVO PRINCIPAL</span>
+│   └── <span class="folder">manual/</span>                 <span class="comment"># Datos agregados manualmente</span>
+│
+├── <span class="folder">scripts/</span>
+│   ├── <span class="folder">01_scraping/</span>            <span class="comment"># Extracción de Wikipedia</span>
+│   ├── <span class="folder">02_processing/</span>          <span class="comment"># Limpieza y normalización</span>
+│   └── <span class="folder">03_analysis/</span>            <span class="comment"># Análisis de redes</span>
+│
+├── <span class="folder">notebooks/</span>                  <span class="comment"># Jupyter notebooks por país</span>
+├── <span class="folder">outputs/</span>                    <span class="comment"># Figuras, tablas, reportes</span>
+│
+├── <span class="file">README.md</span>                   <span class="comment"># Descripción del proyecto</span>
+└── <span class="file">WORKFLOW.md</span>                 <span class="comment"># Flujo de trabajo detallado</span></pre>
+        </div>
+        
+        <div class="quickstart" style="margin-top: 2rem;">
+            <h3>⚡ Inicio rápido</h3>
+            <code><span class="comment"># Clonar el repositorio</span>
+git clone https://github.com/matdknu/familiaR-wiki.git
+cd wiki-chile_project</code>
+            <code><span class="comment"># Instalar dependencias</span>
+pip install -r requirements.txt</code>
+            <code><span class="comment"># Scrapear familias de Chile</span>
+python scripts/01_scraping/scraper_wikipedia_familias.py --pais chile --listar</code>
+        </div>
+    </section>
+
+    <section id="data">
+        <h2 class="section-title">Cobertura de Datos</h2>
+        <p class="section-subtitle">
+            10 países latinoamericanos con información de familias de élite
+        </p>
+        
+        <div class="countries-grid">
+            <div class="country-card">
+                <div class="country-flag">🇨🇱</div>
+                <div class="country-name">Chile</div>
+                <div class="country-stats">~100 familias · ~1,400 personas</div>
+            </div>
+            <div class="country-card">
+                <div class="country-flag">🇦🇷</div>
+                <div class="country-name">Argentina</div>
+                <div class="country-stats">~165 familias · ~1,200 personas</div>
+            </div>
+            <div class="country-card">
+                <div class="country-flag">🇨🇴</div>
+                <div class="country-name">Colombia</div>
+                <div class="country-stats">~150 familias · ~1,400 personas</div>
+            </div>
+            <div class="country-card">
+                <div class="country-flag">🇻🇪</div>
+                <div class="country-name">Venezuela</div>
+                <div class="country-stats">~30 familias · ~280 personas</div>
+            </div>
+            <div class="country-card">
+                <div class="country-flag">🇲🇽</div>
+                <div class="country-name">México</div>
+                <div class="country-stats">~50 familias · ~500 personas</div>
+            </div>
+            <div class="country-card">
+                <div class="country-flag">🇵🇪</div>
+                <div class="country-name">Perú</div>
+                <div class="country-stats">~30 familias · ~300 personas</div>
+            </div>
+            <div class="country-card">
+                <div class="country-flag">🇪🇨</div>
+                <div class="country-name">Ecuador</div>
+                <div class="country-stats">~10 familias · ~200 personas</div>
+            </div>
+            <div class="country-card">
+                <div class="country-flag">🇧🇴</div>
+                <div class="country-name">Bolivia</div>
+                <div class="country-stats">~10 familias · ~100 personas</div>
+            </div>
+            <div class="country-card">
+                <div class="country-flag">🇺🇾</div>
+                <div class="country-name">Uruguay</div>
+                <div class="country-stats">~15 familias · ~150 personas</div>
+            </div>
+            <div class="country-card">
+                <div class="country-flag">🇵🇾</div>
+                <div class="country-name">Paraguay</div>
+                <div class="country-stats">~5 familias · ~50 personas</div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Metodología</h2>
+        <p class="section-subtitle">
+            Basado en técnicas de análisis de redes sociales
+        </p>
+        
+        <div class="features" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+            <div class="feature">
+                <div class="feature-icon">📚</div>
+                <h3>Fuente de datos</h3>
+                <p>Wikipedia en español: infoboxes biográficas y categorías de familias por país.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">👨‍👩‍👧‍👦</div>
+                <h3>Tipos de relaciones</h3>
+                <p>Padres, cónyuges, hijos, hermanos - extraídos automáticamente de las biografías.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">📈</div>
+                <h3>Métricas</h3>
+                <p>Centralidad de grado, betweenness, detección de comunidades, índices de endogamia.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🔬</div>
+                <h3>Referencias</h3>
+                <p>Inspirado en Padgett & Ansell (1993): "Robust Action and the Rise of the Medici".</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="https://github.com/matdknu/familiaR-wiki" target="_blank">GitHub</a>
+            <a href="https://github.com/matdknu/familiaR-wiki/blob/main/WORKFLOW.md" target="_blank">Documentación</a>
+            <a href="https://github.com/matdknu/familiaR-wiki/issues" target="_blank">Reportar issue</a>
+        </div>
+        <p class="copyright">
+            © 2025 Proyecto familiaRes · 
+            <a href="https://github.com/matdknu/familiaR-wiki/blob/main/LICENSE">MIT License</a>
+        </p>
+    </footer>
 </body>
 </html>
