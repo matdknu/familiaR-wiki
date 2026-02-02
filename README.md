@@ -1,4 +1,4 @@
-# Redes y reproducción de élites latinoamericanas
+# Redes y Reproducción de Élites Latinoamericanas
 
 > *¿Te sorprendería saber que existe una relación clara entre el Mio Cid Campeador y Vicente Huidobro? ¿O entre Atahualpa y Piñera?*
 
@@ -13,17 +13,9 @@ Estamos desarrollando el paquete **familiaRes**, que reúne datos de **múltiple
 ![Redes Familiares de Élites Latinoamericanas](outputs/figures/red_familias_latam.png)
 
 **La red muestra:**
-- **122 personas** de familias destacadas de Chile, Argentina y Colombia
-- **228 conexiones familiares** (padres, cónyuges, hijos, hermanos)
-- **Vínculos transnacionales** como el matrimonio de Cornelio Saavedra (prócer chileno) con María Saturnina de Otálora (Argentina, 1801)
-
-### Familias incluidas
-
-| País | Familias |
-|------|----------|
-| 🇨🇱 Chile | Aylwin, García-Huidobro, Bello, Balmaceda, Saavedra |
-| 🇦🇷 Argentina | Otálora, Saavedra |
-| 🇨🇴 Colombia | López, Lleras, Ospina |
+- **6,700+ personas** de familias destacadas de toda Latinoamérica
+- **Miles de conexiones familiares** (padres, cónyuges, hijos, hermanos)
+- **Vínculos transnacionales** entre países
 
 ---
 
@@ -33,39 +25,38 @@ Estamos desarrollando el paquete **familiaRes**, que reúne datos de **múltiple
 wiki-chile_project/
 ├── data/                          # Datos del proyecto
 │   ├── raw/                       # Datos crudos de scraping por país
-│   │   ├── chile/
-│   │   ├── argentina/
-│   │   ├── colombia/
-│   │   └── otros_paises/
+│   │   ├── chile/familias/
+│   │   ├── argentina/familias/
+│   │   ├── colombia/familias/
+│   │   ├── venezuela/familias/
+│   │   └── .../familias/
 │   ├── processed/                 # Datos procesados y consolidados
 │   │   └── familias/
-│   │       ├── chile/consolidado.csv
-│   │       ├── argentina/consolidado.csv
-│   │       ├── colombia/consolidado.csv
+│   │       ├── <pais>/consolidado.csv
 │   │       └── _CONSOLIDADO_familias_latam.csv
 │   └── manual/                    # Datos ingresados manualmente
 │
-├── scripts/                       # Scripts de análisis
+├── scripts/
+│   ├── 01_scraping/              # Extracción de Wikipedia
+│   │   └── scraper_wikipedia_familias.py
 │   ├── 02_processing/            # Limpieza y normalización
-│   │   ├── 01_parse_and_normalize.R
-│   │   ├── 02_descriptive_analysis.R
-│   │   └── 03_visualizations.R
+│   │   └── run_pipeline.R
 │   └── 03_analysis/              # Análisis de redes
-│       ├── network_analysis.R
-│       ├── red_familias_multipais_v2.R
-│       └── analisis_endogamia_politica_multipais.R
+│       └── red_familias_multipais_v2.R
 │
-├── notebooks/                     # Notebooks exploratorios
-│   ├── 01_exploracion/
-│   └── 02_scraping_paises/       # Notebooks de scraping por país
+├── notebooks/                     # Notebooks de scraping por país
+│   └── 02_scraping_paises/
 │
 ├── outputs/                       # Resultados finales
-│   ├── figures/                   # Gráficos y visualizaciones
-│   └── tables/                    # Tablas procesadas
+│   ├── figures/
+│   ├── tables/
+│   └── reports/
 │
-├── bibliography/                  # Referencias bibliográficas
+├── WORKFLOW.md                    # 👈 Flujo de trabajo completo
 └── README.md                      # Este archivo
 ```
+
+**📖 Ver [WORKFLOW.md](WORKFLOW.md) para el flujo de trabajo detallado.**
 
 ---
 
@@ -73,45 +64,37 @@ wiki-chile_project/
 
 ### Requisitos previos
 
-**Python 3.8+** y **R 4.0+**
+- **Python 3.8+**
+- **R 4.0+**
 
 ### Instalación
 
-1. **Clonar el repositorio**
 ```bash
+# Clonar el repositorio
 git clone https://github.com/matdknu/familiaR-wiki.git
 cd wiki-chile_project
-```
 
-2. **Instalar dependencias Python**
-```bash
+# Instalar dependencias Python
 pip install -r requirements.txt
+
+# Instalar dependencias R
+Rscript -e 'install.packages(c("tidyverse", "ggraph", "tidygraph", "igraph", "viridis", "ggrepel"))'
 ```
 
-3. **Instalar dependencias R**
-```R
-install.packages(c("readr", "tidyverse", "janitor", "ggraph", "tidygraph", "viridis", "ggrepel"))
-```
+### Uso básico
 
----
+```bash
+# 1. Listar familias disponibles para Chile
+python scripts/01_scraping/scraper_wikipedia_familias.py --pais chile --listar
 
-## 📊 Análisis de Redes
+# 2. Scrapear todas las familias de Chile
+python scripts/01_scraping/scraper_wikipedia_familias.py --pais chile
 
-### Generar visualización principal
+# 3. Procesar datos (en R)
+Rscript scripts/02_processing/run_pipeline.R
 
-```R
+# 4. Generar visualización de redes
 Rscript scripts/03_analysis/red_familias_multipais_v2.R
-```
-
-Esto genera la red multi-país con:
-- Clusters separados por país
-- Conexiones transnacionales destacadas
-- Métricas de centralidad
-
-### Análisis de endogamia
-
-```R
-Rscript scripts/03_analysis/analisis_endogamia_politica_multipais.R
 ```
 
 ---
@@ -120,46 +103,85 @@ Rscript scripts/03_analysis/analisis_endogamia_politica_multipais.R
 
 | País | Familias | Personas | Estado |
 |------|----------|----------|--------|
-| 🇨🇱 Chile | 97 | 1,398 | ✅ Completo |
-| 🇦🇷 Argentina | 165 | 1,190 | ✅ Completo |
-| 🇨🇴 Colombia | 149 | 1,411 | ✅ Completo |
-| 🇲🇽 México | 50+ | 500+ | 🔄 En progreso |
-| 🇵🇪 Perú | 30+ | 300+ | 🔄 En progreso |
+| 🇨🇱 Chile | ~100 | ~1,400 | ✅ Completo |
+| 🇦🇷 Argentina | ~165 | ~1,200 | ✅ Completo |
+| 🇨🇴 Colombia | ~150 | ~1,400 | ✅ Completo |
+| 🇻🇪 Venezuela | ~30 | ~280 | ✅ Completo |
+| 🇲🇽 México | ~50 | ~500 | ✅ Completo |
+| 🇵🇪 Perú | ~30 | ~300 | ✅ Completo |
+| 🇪🇨 Ecuador | ~10 | ~200 | ✅ Completo |
+| 🇧🇴 Bolivia | ~10 | ~100 | ✅ Completo |
+| 🇺🇾 Uruguay | ~15 | ~150 | ✅ Completo |
+| 🇵🇾 Paraguay | ~5 | ~50 | ✅ Completo |
+
+**Total LATAM: ~6,700 personas**
+
+---
+
+## 📊 Fuentes de Datos
+
+### 1. Scraping automatizado (Principal)
+```bash
+python scripts/01_scraping/scraper_wikipedia_familias.py --pais <pais>
+```
+Extrae automáticamente de las categorías de Wikipedia.
+
+### 2. Notebooks interactivos
+```
+notebooks/02_scraping_paises/
+├── familias-chile.ipynb
+├── familias-argentina_general.ipynb
+├── familias-colombia.ipynb
+└── ...
+```
+Para scraping personalizado y debugging.
+
+### 3. Datos manuales
+```
+data/manual/
+├── familia_tovar_venezuela_manual.csv
+└── familias_extra_<pais>.csv
+```
+Para agregar familias no disponibles en Wikipedia.
+
+**Ver [data/manual/README.md](data/manual/README.md) para más detalles.**
+
+---
+
+## 📈 Análisis Disponibles
+
+| Script | Descripción | Salida |
+|--------|-------------|--------|
+| `red_familias_multipais_v2.R` | Red multi-país con clusters | `red_familias_latam.png` |
+| `red_general_todos.R` | Red general completa | `red_general_todos.png` |
+| `analisis_endogamia_politica_multipais.R` | Análisis de endogamia | Tablas y gráficos |
+| `cambio_elites_1973.R` | Cambio de élites post-1973 | Análisis temporal |
+| `red_chile_argentina.R` | Redes transnacionales | Redes binacionales |
 
 ---
 
 ## 📝 Datos Procesados
 
 Los datos consolidados incluyen para cada persona:
-- **Identificación**: nombre, URL de Wikipedia
-- **Biografía**: fecha/lugar de nacimiento y fallecimiento
-- **Relaciones**: padres, cónyuge, hijos, hermanos (con URLs)
-- **Carrera**: ocupación, cargos políticos, partido
-- **Educación**: alma mater, títulos
-- **Infobox JSON**: datos estructurados completos
+
+| Campo | Descripción |
+|-------|-------------|
+| nombre | Nombre completo |
+| url | URL de Wikipedia |
+| biografia | Texto biográfico |
+| fecha_nacimiento | Fecha de nacimiento |
+| nacionalidad | Nacionalidad |
+| ocupacion | Ocupación principal |
+| padres | Nombres de padres |
+| conyuge | Cónyuge(s) |
+| hijos | Hijos |
+| familia | Familia a la que pertenece |
+| cargos_politicos | Cargos políticos |
+| infobox_json | Datos estructurados |
 
 ---
 
-## 📚 Metodología
-
-### Fuentes de Datos
-- Wikipedia (español): Infoboxes de biografías
-- Categorías de familias por país
-
-### Tipos de Relaciones
-- Padre/Madre
-- Cónyuge/Pareja
-- Hijo/Hija
-- Hermano/Hermana
-
-### Análisis de Redes
-- Layout Fruchterman-Reingold por país
-- Centralidad de grado y betweenness
-- Detección de conexiones transnacionales
-
----
-
-## 📖 Referencias
+## 📚 Referencias
 
 - Padgett, J. F., & Ansell, C. K. (1993). Robust Action and the Rise of the Medici, 1400-1434. *American Journal of Sociology*, 98(6), 1259-1319.
 
@@ -167,7 +189,6 @@ Los datos consolidados incluyen para cada persona:
 
 ## 🤝 Contribuciones
 
-Para contribuir:
 1. Crear una rama: `git checkout -b feature/nueva-funcionalidad`
 2. Hacer commit: `git commit -m "Descripción"`
 3. Push: `git push origin feature/nueva-funcionalidad`

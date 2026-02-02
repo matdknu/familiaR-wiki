@@ -1,148 +1,122 @@
-# Scripts de Procesamiento y Análisis
+# 02_PROCESSING - Procesamiento y Normalización de Datos
 
-Pipeline completo para procesar datos de Wikipedia infoboxes JSON y generar análisis.
+Este directorio contiene scripts para limpiar, normalizar y consolidar los datos extraídos de Wikipedia.
 
-## Estructura de Scripts
+## 📁 Estructura
 
-### 1. `01_parse_and_normalize.R`
-**Propósito:** Parsing y normalización de datos
+```
+02_processing/
+├── README.md                      # Este archivo
+├── run_pipeline.R                 # Script principal que ejecuta todo el pipeline
+├── 01_parse_and_normalize.R       # Parseo y normalización de datos
+├── 02_descriptive_analysis.R      # Análisis descriptivo básico
+├── 02_model_and_analyze.R         # Modelado y análisis avanzado
+├── 03_visualizations.R            # Visualizaciones de datos procesados
+└── enrich_infobox.R               # Enriquecimiento de datos de infobox
+```
 
-- Lee archivos CSV con `infobox_json`
-- Parsea JSON de infoboxes de Wikipedia
-- Genera tablas normalizadas:
-  - `persons_all`: Información personal
-  - `positions_all`: Cargos políticos con fechas, predecesores, sucesores
-  - `family_relations_all`: Relaciones familiares
-  - `education_all`: Educación
-  - `affiliations_all`: Afiliaciones
+## 🚀 Uso
 
-**Funciones principales:**
-- `parse_infobox_one()`: Parsea un infobox individual
-- `parse_all_infoboxes()`: Procesamiento en lote
+### Ejecutar el pipeline completo
 
-**Output:** Tablas CSV en `data/processed/`
-
----
-
-### 2. `02_descriptive_analysis.R`
-**Propósito:** Análisis descriptivo y estadísticas
-
-- Resúmenes generales (conteos, porcentajes)
-- Análisis de personas (nacionalidades, religiones, ocupaciones)
-- Análisis de posiciones políticas (tipos, distribución temporal)
-- Análisis de relaciones familiares
-- Análisis de educación e instituciones
-- Análisis de afiliaciones
-- Resúmenes de carreras políticas
-
-**Output:** Objetos R con estadísticas descriptivas (no guarda archivos)
-
----
-
-### 3. `02_model_and_analyze.R`
-**Propósito:** Modelado avanzado
-
-- **Redes familiares:** Construcción de grafos (igraph), centralidad
-- **Trayectorias políticas:** Análisis longitudinal de carreras
-- **Patrones dinásticos:** Detección de overlap parent-child en cargos
-
-**Output:** Objetos R:
-- `g_family`: Grafo de red familiar
-- `top_central`: Personas más centrales
-- `career_summary`: Resumen de carreras
-- `dynastic_overlap`: Patrones dinásticos
-
----
-
-### 4. `03_visualizations.R`
-**Propósito:** Generación de visualizaciones
-
-- Gráficos de barras (tipos de cargo, relaciones, instituciones)
-- Gráficos temporales (distribución por década/siglo)
-- Red familiar (PNG estático + HTML interactivo si `visNetwork` disponible)
-- Gráficos de centralidad y carreras
-
-**Output:** Archivos PNG y HTML en `outputs/figures/`
-
----
-
-### 5. `run_pipeline.R`
-**Propósito:** Orquestador del pipeline completo
-
-Ejecuta en orden:
-1. Parsing y normalización
-2. Análisis descriptivo
-3. Modelado avanzado
-4. Visualizaciones
-
-**Uso:**
 ```r
-Rscript scripts/02_processing/run_pipeline.R
+source("scripts/02_processing/run_pipeline.R")
 ```
 
----
+### Ejecutar scripts individuales
 
-## Flujo de Trabajo
+```r
+# 1. Normalizar datos
+source("scripts/02_processing/01_parse_and_normalize.R")
 
-```
-CSV con infobox_json
-    ↓
-01_parse_and_normalize.R
-    ↓
-Tablas normalizadas (CSV)
-    ↓
-02_descriptive_analysis.R → Estadísticas descriptivas
-    ↓
-02_model_and_analyze.R → Modelos avanzados
-    ↓
-03_visualizations.R → Gráficos
+# 2. Análisis descriptivo
+source("scripts/02_processing/02_descriptive_analysis.R")
+
+# 3. Generar visualizaciones
+source("scripts/02_processing/03_visualizations.R")
 ```
 
----
+## 📊 Pipeline de Procesamiento
 
-## Requisitos
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  ENTRADA: data/raw/<pais>/familias/_CONSOLIDADO_todas_familias.csv  │
+└─────────────────────────────────┬───────────────────────────────┘
+                                  │
+                                  ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  01_parse_and_normalize.R                                       │
+│  - Limpieza de texto                                            │
+│  - Normalización de nombres                                     │
+│  - Estandarización de fechas                                    │
+│  - Extracción de relaciones familiares                          │
+└─────────────────────────────────┬───────────────────────────────┘
+                                  │
+                                  ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  02_descriptive_analysis.R                                      │
+│  - Conteos por familia                                          │
+│  - Distribución temporal                                        │
+│  - Análisis de ocupaciones                                      │
+│  - Análisis de cargos políticos                                 │
+└─────────────────────────────────┬───────────────────────────────┘
+                                  │
+                                  ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  SALIDA: data/processed/familias/<pais>/consolidado.csv         │
+└─────────────────────────────────────────────────────────────────┘
+```
 
-**Paquetes R:**
-- `tidyverse` (dplyr, tidyr, stringr, purrr)
-- `readr`
-- `jsonlite`
-- `ggplot2`
-- `igraph`
-- `visNetwork` (opcional, para red interactiva)
+## 📋 Transformaciones Principales
 
-**Estructura de datos:**
-- Archivos CSV en `data/raw/chile/familias/` con columna `infobox_json`
-- Formato JSON: `[{"label": "...", "value_text": "...", "value_with_links": "..."}, ...]`
+### 1. Normalización de nombres
+- Eliminar acentos inconsistentes
+- Estandarizar mayúsculas/minúsculas
+- Separar nombres compuestos
 
----
+### 2. Parseo de relaciones
+- Extraer links de padres, cónyuges, hijos
+- Crear columnas separadas para cada tipo de relación
+- Resolver referencias cruzadas
 
-## Outputs
+### 3. Estandarización de fechas
+- Convertir formatos de fecha variados
+- Extraer año, mes, día
+- Calcular edades aproximadas
 
-**Tablas normalizadas (`data/processed/`):**
-- `persons_normalized.csv`
-- `positions_normalized.csv`
-- `family_relations_normalized.csv`
-- `education_normalized.csv`
-- `affiliations_normalized.csv`
+### 4. Limpieza de texto
+- Eliminar referencias [1], [2], etc.
+- Eliminar notas de Wikipedia
+- Normalizar espacios y caracteres especiales
 
-**Visualizaciones (`outputs/figures/`):**
-- `01_tipos_cargo.png`
-- `02_distribucion_temporal.png`
-- `03_top_cargos.png`
-- `04_tipos_relacion.png`
-- `05_red_familiar.png`
-- `06_carreras_largas.png`
-- `07_posiciones_por_siglo.png`
-- `08_instituciones.png`
-- `09_organizaciones.png`
-- `10_centralidad.png`
-- `red_familiar_interactiva.html` (si `visNetwork` disponible)
+## 📂 Salida
 
----
+Los datos procesados se guardan en:
 
-## Notas
+```
+data/processed/familias/
+├── chile/consolidado.csv
+├── argentina/consolidado.csv
+├── colombia/consolidado.csv
+├── venezuela/consolidado.csv
+├── mexico/consolidado.csv
+├── peru/consolidado.csv
+├── ecuador/consolidado.csv
+├── bolivia/consolidado.csv
+├── uruguay/consolidado.csv
+├── paraguay/consolidado.csv
+└── _CONSOLIDADO_familias_latam.csv    # Todos los países combinados
+```
 
-- Los scripts están diseñados para ejecutarse en secuencia
-- `run_pipeline.R` ejecuta todo el flujo automáticamente
-- Los scripts individuales pueden ejecutarse por separado si se cargan las dependencias previas
-- Los objetos intermedios se mantienen en memoria entre scripts cuando se ejecuta `run_pipeline.R`
+## ⚙️ Dependencias R
+
+```r
+install.packages(c(
+  "tidyverse",
+  "readr", 
+  "janitor",
+  "lubridate",
+  "stringr",
+  "jsonlite"
+))
+```

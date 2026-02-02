@@ -48,3 +48,5 @@ with open('personas.csv', 'w', encoding='utf-8', newline='') as f:
         writer.writerow([title, data, link])
 
 print("CSV generado: personas.csv")
+
+print(data)
