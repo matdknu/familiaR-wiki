@@ -1,13 +1,29 @@
-# Redes y reproducción de la elite chilena. Aproximación desde Wikipedia
+# Redes y reproducción de élites latinoamericanas
 
-¿Te sorprendería si te digo que existe una relación clara entre el Mio Cid Campeador y Vicente Huidobro? ¿Y Atahualpa y Piñera?
+> *¿Te sorprendería saber que existe una relación clara entre el Mio Cid Campeador y Vicente Huidobro? ¿O entre Atahualpa y Piñera?*
 
-El presente proyecto busca describir las redes y estrategias de reproducción de la elite chilena usando Wikipedia como fuente de datos. Para ello, se utilizan técnicas de análisis de redes sociales y web scraping para analizar las relaciones familiares documentadas en artículos de Wikipedia.
+Este proyecto analiza las **redes familiares y estrategias de reproducción de las élites latinoamericanas** utilizando Wikipedia como fuente de datos. Aplicamos técnicas de análisis de redes sociales y web scraping para mapear las relaciones familiares documentadas en artículos de Wikipedia.
 
-Estamos creando el paquete **familiaRes**, que reunira datos de **5 paises latinoamericanos** sobre las “familias” y sus relaciones.
+Estamos desarrollando el paquete **familiaRes**, que reúne datos de **múltiples países latinoamericanos** sobre familias de élite y sus conexiones.
 
-![Red Familiar](outputs/figures/red_familiar.png)
-![Red General Todos](outputs/figures/red_general_todos.png)
+---
+
+## 🌎 Visualización Principal
+
+![Redes Familiares de Élites Latinoamericanas](outputs/figures/red_familias_latam.png)
+
+**La red muestra:**
+- **122 personas** de familias destacadas de Chile, Argentina y Colombia
+- **228 conexiones familiares** (padres, cónyuges, hijos, hermanos)
+- **Vínculos transnacionales** como el matrimonio de Cornelio Saavedra (prócer chileno) con María Saturnina de Otálora (Argentina, 1801)
+
+### Familias incluidas
+
+| País | Familias |
+|------|----------|
+| 🇨🇱 Chile | Aylwin, García-Huidobro, Bello, Balmaceda, Saavedra |
+| 🇦🇷 Argentina | Otálora, Saavedra |
+| 🇨🇴 Colombia | López, Lleras, Ospina |
 
 ---
 
@@ -15,39 +31,39 @@ Estamos creando el paquete **familiaRes**, que reunira datos de **5 paises latin
 
 ```
 wiki-chile_project/
-├── data/                          # Datos del proyecto (NO se suben a git)
+├── data/                          # Datos del proyecto
 │   ├── raw/                       # Datos crudos de scraping por país
 │   │   ├── chile/
 │   │   ├── argentina/
-│   │   ├── mexico/
+│   │   ├── colombia/
 │   │   └── otros_paises/
-│   ├── processed/                 # Datos procesados y limpios
-│   │   ├── personas/
-│   │   └── relaciones/
+│   ├── processed/                 # Datos procesados y consolidados
+│   │   └── familias/
+│   │       ├── chile/consolidado.csv
+│   │       ├── argentina/consolidado.csv
+│   │       ├── colombia/consolidado.csv
+│   │       └── _CONSOLIDADO_familias_latam.csv
 │   └── manual/                    # Datos ingresados manualmente
 │
 ├── scripts/                       # Scripts de análisis
-│   ├── 01_scraping/              # Extracción de datos
-│   │   ├── scraper_main.py       # Script principal de scraping
-│   │   ├── scraper_utils.py      # Funciones auxiliares
-│   │   └── config.py             # Configuración
-│   ├── 02_processing/            # Limpieza de datos
-│   │   └── clean_data.R
-│   └── 03_analysis/              # Análisis y visualización
-│       └── network_analysis.R
+│   ├── 02_processing/            # Limpieza y normalización
+│   │   ├── 01_parse_and_normalize.R
+│   │   ├── 02_descriptive_analysis.R
+│   │   └── 03_visualizations.R
+│   └── 03_analysis/              # Análisis de redes
+│       ├── network_analysis.R
+│       ├── red_familias_multipais_v2.R
+│       └── analisis_endogamia_politica_multipais.R
 │
 ├── notebooks/                     # Notebooks exploratorios
 │   ├── 01_exploracion/
-│   ├── 02_scraping_paises/       # Notebooks de scraping por país
-│   └── 03_analisis_redes/
+│   └── 02_scraping_paises/       # Notebooks de scraping por país
 │
 ├── outputs/                       # Resultados finales
 │   ├── figures/                   # Gráficos y visualizaciones
-│   ├── tables/                    # Tablas procesadas
-│   └── reports/                   # Reportes y documentos
+│   └── tables/                    # Tablas procesadas
 │
 ├── bibliography/                  # Referencias bibliográficas
-├── archive/                       # Archivos obsoletos
 └── README.md                      # Este archivo
 ```
 
@@ -63,7 +79,7 @@ wiki-chile_project/
 
 1. **Clonar el repositorio**
 ```bash
-git clone <tu-repo>
+git clone https://github.com/matdknu/familiaR-wiki.git
 cd wiki-chile_project
 ```
 
@@ -74,144 +90,53 @@ pip install -r requirements.txt
 
 3. **Instalar dependencias R**
 ```R
-install.packages(c("readr", "tidyverse", "janitor", "ggraph", "tidygraph", "viridis"))
+install.packages(c("readr", "tidyverse", "janitor", "ggraph", "tidygraph", "viridis", "ggrepel"))
 ```
 
 ---
 
-## 📊 Flujo de Trabajo
+## 📊 Análisis de Redes
 
-### 1. Scraping de Datos
-
-Hay 3 formas de scrapear datos desde Wikipedia:
-
-#### **Opción A: Scrapear una familia específica desde su categoría** (⭐ Recomendado)
-```bash
-cd scripts/01_scraping
-python scraper_categories.py --category "Familia_Alessandri"
-```
-
-Esta opción extrae TODA la información del infobox de cada miembro de la familia:
-- Datos biográficos completos
-- Relaciones familiares con enlaces
-- Cargos políticos
-- Educación y ocupación
-
-**Salida:** `data/raw/chile/familias/familia_alessandri_completo.csv`
-
-#### **Opción B: Scrapear TODAS las familias chilenas**
-```bash
-cd scripts/01_scraping
-python scraper_all_families.py
-# O para testing: python scraper_all_families.py --limit 5
-```
-
-Extrae automáticamente +100 familias desde [Categoría:Familias de Chile](https://es.wikipedia.org/wiki/Categoría:Familias_de_Chile).
-
-**Salida:** 
-- Un archivo CSV por familia en `data/raw/chile/familias/`
-- Archivo consolidado: `_CONSOLIDADO_todas_familias.csv`
-
----
-
-## 🌎 Extender a America Latina
-
-El scraping masivo de familias esta centrado en Chile, pero se puede reutilizar
-para otros paises cambiando la categoria raiz y la carpeta de salida.
-
-**Archivos clave:**
-- `scripts/01_scraping/scraper_all_families.py` (orquesta el scraping masivo)
-- `scripts/01_scraping/scraper_categories.py` (scrapea una categoria y guarda CSV)
-
-**Como funciona el flujo:**
-1. `scraper_all_families.py` consulta la API de Wikipedia y obtiene las
-   subcategorias desde `Categoría:Familias_de_Chile`.
-2. Por cada familia encontrada, llama a `scraper_categories.py`.
-3. `scraper_categories.py` guarda un CSV por familia en
-   `data/raw/chile/familias/`.
-
-**Para usarlo en otros paises:**
-1. Cambiar la categoria raiz en `scraper_all_families.py`:
-   - Ejemplos comunes:
-     - `Categoría:Familias_de_Argentina`
-     - `Categoría:Familias_de_Perú`
-     - `Categoría:Familias_de_Colombia`
-     - `Categoría:Familias_de_México`
-2. Ajustar la carpeta de salida en `scraper_categories.py` para que apunte a:
-   - `data/raw/argentina/familias/`
-   - `data/raw/peru/familias/`
-   - `data/raw/colombia/familias/`
-   - `data/raw/mexico/familias/`
-3. Ejecutar el scraping masivo con `--resume` para evitar duplicados:
-
-```bash
-cd scripts/01_scraping
-python scraper_all_families.py --resume
-```
-
-**Notas:**
-- Algunas categorias pueden no existir o tener nombres distintos. Si no hay
-  resultados, revisa la categoria exacta en Wikipedia.
-- El scraping respeta rate limits y reintentos; para lotes grandes puede tomar
-  varias horas.
-
-#### **Opción C: Scraper recursivo desde URLs iniciales**
-```bash
-cd scripts/01_scraping
-python scraper_main.py --country chile --depth 1
-# O con Excel: python scraper_main.py --manual ../../data/manual/familia_link_manual2.xlsx
-```
-
-**Parámetros:**
-- `--country`: País a scrapear (`chile`, `argentina`, `mexico`)
-- `--manual`: Ruta a archivo Excel con columna 'URL'
-- `--depth`: Profundidad de búsqueda (0-2 recomendado)
-
-**Salida:**
-- `data/raw/{país}/personas/{nombre}_personas.csv`
-- `data/raw/{país}/relaciones/{nombre}_relaciones.csv`
-
-### 2. Procesamiento de Datos
-
-Limpiar y estructurar los datos crudos:
+### Generar visualización principal
 
 ```R
-cd scripts/02_processing
-Rscript clean_data.R
+Rscript scripts/03_analysis/red_familias_multipais_v2.R
 ```
 
-### 3. Análisis de Redes
+Esto genera la red multi-país con:
+- Clusters separados por país
+- Conexiones transnacionales destacadas
+- Métricas de centralidad
 
-Generar visualizaciones de redes familiares:
+### Análisis de endogamia
 
 ```R
-cd scripts/03_analysis
-Rscript network_analysis.R
+Rscript scripts/03_analysis/analisis_endogamia_politica_multipais.R
 ```
 
-Los gráficos se guardan en `outputs/figures/`
+---
+
+## 🌎 Países Disponibles
+
+| País | Familias | Personas | Estado |
+|------|----------|----------|--------|
+| 🇨🇱 Chile | 97 | 1,398 | ✅ Completo |
+| 🇦🇷 Argentina | 165 | 1,190 | ✅ Completo |
+| 🇨🇴 Colombia | 149 | 1,411 | ✅ Completo |
+| 🇲🇽 México | 50+ | 500+ | 🔄 En progreso |
+| 🇵🇪 Perú | 30+ | 300+ | 🔄 En progreso |
 
 ---
 
-## 📝 Notebooks Exploratorios
+## 📝 Datos Procesados
 
-Los notebooks Jupyter se organizan por etapa:
-
-1. **`notebooks/01_exploracion/`**: Análisis exploratorio inicial
-2. **`notebooks/02_scraping_paises/`**: Notebooks de scraping específicos por país
-3. **`notebooks/03_analisis_redes/`**: Análisis de redes y visualizaciones
-
----
-
-## 🔐 Privacidad y Git
-
-Los datos de scraping **NO se suben** al repositorio por privacidad y tamaño. El `.gitignore` está configurado para excluir:
-
-- `data/raw/**/*.csv`
-- `data/processed/**/*.csv`
-- `data/manual/*.xlsx`
-
-Para compartir datos, usar un servicio externo (Google Drive, etc.)
+Los datos consolidados incluyen para cada persona:
+- **Identificación**: nombre, URL de Wikipedia
+- **Biografía**: fecha/lugar de nacimiento y fallecimiento
+- **Relaciones**: padres, cónyuge, hijos, hermanos (con URLs)
+- **Carrera**: ocupación, cargos políticos, partido
+- **Educación**: alma mater, títulos
+- **Infobox JSON**: datos estructurados completos
 
 ---
 
@@ -219,19 +144,18 @@ Para compartir datos, usar un servicio externo (Google Drive, etc.)
 
 ### Fuentes de Datos
 - Wikipedia (español): Infoboxes de biografías
-- Campos extraídos: nombre, fechas, ocupación, partido político, relaciones familiares
+- Categorías de familias por país
 
 ### Tipos de Relaciones
 - Padre/Madre
-- Cónyuge
+- Cónyuge/Pareja
 - Hijo/Hija
 - Hermano/Hermana
-- Familia (genérico)
 
 ### Análisis de Redes
-- Detección de comunidades (algoritmo Infomap)
-- Visualización con layout Fruchterman-Reingold
-- Análisis de centralidad y estructura
+- Layout Fruchterman-Reingold por país
+- Centralidad de grado y betweenness
+- Detección de conexiones transnacionales
 
 ---
 
@@ -259,4 +183,4 @@ Para preguntas o sugerencias, abrir un issue en el repositorio.
 
 ## 📄 Licencia
 
-[Especificar licencia del proyecto]
+MIT License - Ver archivo LICENSE para más detalles.
