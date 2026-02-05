@@ -17,9 +17,11 @@ library(jsonlite)
 cat("📊 Visualización Multi-Globos: Todos los Países Latinoamericanos\n")
 cat(strrep("=", 80), "\n")
 
-# Países disponibles
-paises_disponibles <- c("chile", "argentina", "mexico", "peru")
-nombres_paises <- c("Chile", "Argentina", "México", "Perú")
+# Países disponibles (todos los del consolidado LATAM)
+paises_disponibles <- c("chile", "argentina", "mexico", "peru", "colombia", "venezuela",
+                       "bolivia", "paraguay", "uruguay", "ecuador")
+nombres_paises <- c("Chile", "Argentina", "México", "Perú", "Colombia", "Venezuela",
+                    "Bolivia", "Paraguay", "Uruguay", "Ecuador")
 
 # Función para detectar nacionalidad
 detect_nationality <- function(row_data, paises_list) {
@@ -45,19 +47,30 @@ detect_nationality <- function(row_data, paises_list) {
       "Chile" = c("santiago", "chile", "valparaíso", "concepción", "viña del mar"),
       "Argentina" = c("buenos aires", "córdoba", "rosario", "argentina", "mendoza"),
       "México" = c("ciudad de méxico", "méxico", "guadalajara", "monterrey", "puebla"),
-      "Perú" = c("lima", "perú", "cusco", "arequipa", "trujillo")
+      "Perú" = c("lima", "perú", "cusco", "arequipa", "trujillo"),
+      "Colombia" = c("bogotá", "colombia", "medellín", "cali", "cartagena", "barranquilla"),
+      "Venezuela" = c("caracas", "venezuela", "maracaibo", "valencia"),
+      "Bolivia" = c("la paz", "bolivia", "santa cruz", "sucre", "cochabamba"),
+      "Paraguay" = c("asunción", "paraguay", "encarnación"),
+      "Uruguay" = c("montevideo", "uruguay", "paysandú"),
+      "Ecuador" = c("quito", "guayaquil", "ecuador", "cuenca")
     )
-    
     for (pais in names(patterns)) {
       if (any(str_detect(lugar, patterns[[pais]]))) return(pais)
     }
   }
-  
+
   patterns_bio <- list(
     "Chile" = c("chileno", "chilena"),
     "Argentina" = c("argentino", "argentina"),
     "México" = c("mexicano", "mexicana"),
-    "Perú" = c("peruano", "peruana")
+    "Perú" = c("peruano", "peruana"),
+    "Colombia" = c("colombiano", "colombiana"),
+    "Venezuela" = c("venezolano", "venezolana"),
+    "Bolivia" = c("boliviano", "boliviana"),
+    "Paraguay" = c("paraguayo", "paraguaya"),
+    "Uruguay" = c("uruguayo", "uruguaya"),
+    "Ecuador" = c("ecuatoriano", "ecuatoriana")
   )
   
   for (pais in names(patterns_bio)) {
@@ -75,11 +88,13 @@ for (i in seq_along(paises_disponibles)) {
   pais <- paises_disponibles[i]
   nombre_pais <- nombres_paises[i]
   file_path <- paste0("data/raw/", pais, "/familias/_CONSOLIDADO_todas_familias.csv")
-  
+  if (!file.exists(file_path)) {
+    file_path <- paste0("data/processed/familias/", pais, "/consolidado.csv")
+  }
   if (file.exists(file_path)) {
     cat("  ✓ Cargando", nombre_pais, "...\n")
     tryCatch({
-      data <- read_delim(file_path, delim = ";", show_col_types = FALSE, 
+      data <- read_delim(file_path, delim = ";", show_col_types = FALSE,
                         locale = locale(encoding = "UTF-8"))
       data <- data %>%
         filter(!is.na(url), as.character(url) != "") %>%
@@ -89,7 +104,6 @@ for (i in seq_along(paises_disponibles)) {
           pais_nacionalidad = detect_nationality(pick(everything()), nombres_paises)
         ) %>%
         ungroup()
-      
       all_countries_data[[nombre_pais]] <- data
       cat("    →", nrow(data), "personas\n")
     }, error = function(e) {
@@ -280,27 +294,39 @@ g_igraph <- as.igraph(g_tbl)
 paises_unicos <- unique(nodes$pais[nodes$pais != "Desconocido"])
 n_paises <- length(paises_unicos)
 
-# Colores por país (asegurar que todos los países tengan color)
+# Colores por país (todos los países + Desconocido)
 country_colors <- c(
   "Chile" = "#0033A0",
   "Argentina" = "#6CACE4",
   "México" = "#006847",
   "Perú" = "#D91023",
-  "Peru" = "#D91023",  # Por si acaso aparece sin tilde
+  "Peru" = "#D91023",
+  "Colombia" = "#FCD116",
+  "Venezuela" = "#CF142B",
+  "Bolivia" = "#007A33",
+  "Paraguay" = "#D52B1E",
+  "Uruguay" = "#0038A8",
+  "Ecuador" = "#FFD100",
   "Desconocido" = "gray70"
 )
 
-# Crear layout: cada país en posiciones específicas para mejor visualización cruzada
+# Crear layout: cada país en posiciones específicas
 layout_combined <- matrix(0, vcount(g_igraph), 2)
 
-# Posiciones específicas para cada país (distribuidas para ver conexiones cruzadas)
-# Layout en forma de cuadrado para mejor visualización de conexiones
+# Posiciones en círculo/elipse para 10 países (mejor visualización de conexiones cruzadas)
+# Orden aproximado geográfico: Chile, Argentina, Uruguay, Paraguay, Bolivia, Perú, Ecuador, Colombia, Venezuela, México
 posiciones_paises <- list(
-  "México" = c(-10, 10),      # Izquierda superior
-  "Argentina" = c(10, 10),    # Derecha superior
-  "Chile" = c(10, -10),       # Derecha inferior
-  "Perú" = c(-10, -10),       # Izquierda inferior
-  "Peru" = c(-10, -10)        # Por si acaso aparece sin tilde
+  "Chile"    = c(8, -6),
+  "Argentina" = c(10, 2),
+  "Uruguay"  = c(10, -2),
+  "Paraguay" = c(6, 4),
+  "Bolivia"  = c(2, 6),
+  "Perú"     = c(-4, 6),
+  "Peru"     = c(-4, 6),
+  "Ecuador"  = c(-8, 4),
+  "Colombia" = c(-10, 0),
+  "Venezuela" = c(-8, -4),
+  "México"   = c(-4, -8)
 )
 
 # Posicionar cada país en su ubicación específica
@@ -359,6 +385,9 @@ g_tbl <- g_tbl %>%
     x = layout_combined[, 1],
     y = layout_combined[, 2]
   )
+
+
+g_tbl
 
 # Visualización
 p <- ggraph(g_tbl, layout = "manual", x = x, y = y) +

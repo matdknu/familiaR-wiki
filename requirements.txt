@@ -19,3 +19,6 @@ ipykernel>=6.25.0
 
 # Utilidades
 python-dotenv>=1.0.0  # Para variables de entorno si es necesario
+
+# API OpenAI (enriquecimiento con GPT)
+openai>=1.0.0

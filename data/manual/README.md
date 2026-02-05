@@ -11,10 +11,19 @@ Este directorio contiene datos de familias y personas que fueron agregados **man
 
 ```
 data/manual/
-├── README.md                              # Este archivo
-├── familia_tovar_venezuela_manual.csv     # Familia Tovar de Venezuela (2026-01)
-└── familias_extra_<pais>.csv              # Archivos adicionales por país
+├── README.md                                  # Este archivo
+├── familia_tovar_venezuela_manual.csv         # Familia Tovar de Venezuela (2026-01)
+├── familias_extra_<pais>.csv                  # Archivos adicionales por país
+├── url_pais_extra.csv                         # URL → país para conexiones entre países
+└── conexiones_familiares_manuales.csv         # Pares (from, to, pais_origen, pais_destino)
 ```
+
+### Conexiones familiares entre países
+
+Para que aparezcan en el gráfico de **unión entre países** (p. ej. Vicuña–China Suárez, Bolocco–Menem):
+
+- **`url_pais_extra.csv`** (columnas: `url`, `pais`): asigna país a personas que aparecen como “relacionadas” pero no están en el consolidado, o corrige el país en vínculos cruzados (ej. Cecilia Bolocco = Chile, China Suárez = Argentina). Las URLs deben ser de Wikipedia en español.
+- **`conexiones_familiares_manuales.csv`** (columnas: `from`, `to`, `pais_origen`, `pais_destino`): pares de conexión familiar entre países que no salen del consolidado (ej. Benjamín Vicuña ↔ China Suárez, Cecilia Bolocco ↔ Carlos Menem).
 
 ## 📋 Archivos Actuales
 

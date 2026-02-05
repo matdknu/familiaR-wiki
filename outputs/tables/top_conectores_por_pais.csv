@@ -1,0 +1,236 @@
+pais,nombre,url,grado,betweenness,ranking
+argentina,Manuel Rafael García Aguirre,https://es.wikipedia.org/wiki/Manuel_Rafael_Garc%C3%ADa_Aguirre,9,66.64285714285714,1
+argentina,Eduarda Mansilla,https://es.wikipedia.org/wiki/Eduarda_Mansilla,9,122.50000000000001,2
+argentina,León Ortiz de Rozas,https://es.wikipedia.org/wiki/Le%C3%B3n_Ortiz_de_Rozas,8,134,3
+argentina,Agustina López de Osornio,https://es.wikipedia.org/wiki/Agustina_L%C3%B3pez_de_Osornio,8,134,4
+argentina,María de los Remedios de Escalada,https://es.wikipedia.org/wiki/Mar%C3%ADa_de_los_Remedios_de_Escalada,8,110.60000000000001,5
+argentina,Antonio José de Escalada,https://es.wikipedia.org/wiki/Antonio_Jos%C3%A9_de_Escalada,8,34.85,6
+argentina,Ana Jacoba García de Zúñiga,https://es.wikipedia.org/wiki/Ana_Jacoba_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,7,96.75,7
+argentina,Francisco Solano López,https://es.wikipedia.org/wiki/Francisco_Solano_L%C3%B3pez,7,41.5,8
+argentina,Agustina Ortiz de Rozas,https://es.wikipedia.org/wiki/Agustina_Ortiz_de_Rozas,7,237.64285714285714,9
+argentina,Eduarda Mansilla,https://es.wikipedia.org/wiki/Eduarda_Damasia_Mansilla,7,79,10
+argentina,Carlos Menem,https://es.wikipedia.org/wiki/Carlos_Menem,7,16.833333333333336,11
+argentina,Juana Manuela Gorriti,https://es.wikipedia.org/wiki/Juana_Manuela_Gorriti,6,10.5,12
+argentina,Joaquín Prieto Warnes,https://es.wikipedia.org/wiki/Joaqu%C3%ADn_Prieto_Warnes,6,37.75,13
+argentina,Manuela Warnes,https://es.wikipedia.org/wiki/Manuela_Warnes_y_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,6,49.5,14
+argentina,Manuel Antonio José Warnes,https://es.wikipedia.org/wiki/Manuel_Antonio_Jos%C3%A9_Warnes,6,18.75,15
+argentina,Jacqueline Kennedy Onassis,https://es.wikipedia.org/wiki/Jacqueline_Kennedy_Onassis,6,139.5,16
+argentina,John F. Kennedy,https://es.wikipedia.org/wiki/John_F._Kennedy,6,54.5,17
+argentina,John F. Kennedy Jr.,https://es.wikipedia.org/wiki/John_F._Kennedy_Jr.,6,78,18
+argentina,Che Guevara,https://es.wikipedia.org/wiki/Ernesto_Che_Guevara,6,7.5,19
+argentina,Carlos María de Alvear,https://es.wikipedia.org/wiki/Carlos_Mar%C3%ADa_de_Alvear,6,23,20
+bolivia,Adolfo Ballivián,https://es.wikipedia.org/wiki/Adolfo_Ballivi%C3%A1n,2,2,1
+bolivia,José Ballivián,https://es.wikipedia.org/wiki/Jos%C3%A9_Ballivi%C3%A1n,2,2,2
+bolivia,Juan José Feliciano Fernández Campero,https://es.wikipedia.org/wiki/Juan_Jos%C3%A9_Feliciano_Fern%C3%A1ndez_Campero,2,6,3
+bolivia,Juan José Gervasio Fernández-Campero,https://es.wikipedia.org/wiki/Juan_Jos%C3%A9_Gervasio_Fern%C3%A1ndez-Campero,2,6,4
+bolivia,Manuela Micaela Ignacia Fernández-Campero,https://es.wikipedia.org/wiki/Manuela_Micaela_Ignacia_Fern%C3%A1ndez-Campero,2,4,5
+bolivia,Fernando María Campero Barragán,https://es.wikipedia.org/wiki/Fernando_Mar%C3%ADa_Campero_Barrag%C3%A1n,2,4,6
+bolivia,Manuel Avelino Orihuela,https://es.wikipedia.org/wiki/Manuel_Avelino_Orihuela,2,2,7
+bolivia,Telémaco Orihuela,https://es.wikipedia.org/wiki/Tel%C3%A9maco_Orihuela,2,2,8
+bolivia,Matías Ramos Mejía,https://es.wikipedia.org/wiki/Mat%C3%ADas_Ramos_Mej%C3%ADa,2,1,9
+bolivia,Adolfo Ballivián Grimwood,https://es.wikipedia.org/wiki/Adolfo_Ballivi%C3%A1n_Grimwood,1,0,10
+bolivia,Jorge Ballivián,https://es.wikipedia.org/wiki/Jorge_Ballivi%C3%A1n,1,0,11
+bolivia,María Esther Ballivián,https://es.wikipedia.org/wiki/Mar%C3%ADa_Esther_Ballivi%C3%A1n,1,0,12
+bolivia,Rafael Ballivián,https://es.wikipedia.org/wiki/Rafael_Ballivi%C3%A1n,1,0,13
+bolivia,Lindaura Anzoátegui Campero,https://es.wikipedia.org/wiki/Lindaura_Anzo%C3%A1tegui_Campero,1,0,14
+bolivia,Narciso Campero,https://es.wikipedia.org/wiki/Narciso_Campero,1,0,15
+bolivia,Mariano Campero y Ugarte,https://es.wikipedia.org/wiki/Mariano_Campero_y_Ugarte,1,0,16
+bolivia,Juan José Fernández-Campero de Herrera,https://es.wikipedia.org/wiki/Juan_Jos%C3%A9_Fern%C3%A1ndez-Campero_de_Herrera,1,0,17
+bolivia,Juan Manuel Fernández Campero,https://es.wikipedia.org/wiki/Juan_Manuel_Fern%C3%A1ndez_Campero,1,0,18
+bolivia,Ana María Romero,https://es.wikipedia.org/wiki/Ana_Mar%C3%ADa_Romero,1,0,19
+bolivia,Julio Campero y Aráoz,https://es.wikipedia.org/wiki/Julio_Campero_y_Araoz,1,0,20
+bolivia,Gonzalo Romero Álvarez,https://es.wikipedia.org/wiki/Gonzalo_Romero_%C3%81lvarez,1,0,21
+bolivia,José Estenssoro,https://es.wikipedia.org/wiki/Jos%C3%A9_Estenssoro,1,0,22
+bolivia,María Eugenia Estenssoro,https://es.wikipedia.org/wiki/Mar%C3%ADa_Eugenia_Estenssoro,1,0,23
+bolivia,José María Orihuela,https://es.wikipedia.org/wiki/Jos%C3%A9_Mar%C3%ADa_Orihuela,1,0,24
+bolivia,José Orihuela Yabar,https://es.wikipedia.org/wiki/Jos%C3%A9_Orihuela_Yabar,1,0,25
+bolivia,Mariano Orihuela Bravo,https://es.wikipedia.org/wiki/Mariano_Orihuela_Bravo,1,0,26
+bolivia,José María Orihuela Morón,https://es.wikipedia.org/wiki/Jos%C3%A9_Mar%C3%ADa_Orihuela_Mor%C3%B3n,1,0,27
+bolivia,Francisco Hermógenes Ramos Mejía,https://es.wikipedia.org/wiki/Francisco_Herm%C3%B3genes_Ramos_Mej%C3%ADa,1,0,28
+bolivia,José María Ramos Mejía,https://es.wikipedia.org/wiki/Jos%C3%A9_Mar%C3%ADa_Ramos_Mej%C3%ADa,1,0,29
+bolivia,Sebastián de Segurola,https://es.wikipedia.org/wiki/Sebasti%C3%A1n_de_Segurola,1,0,30
+bolivia,Saturnino Segurola,https://es.wikipedia.org/wiki/Saturnino_Segurola,1,0,31
+chile,Federico Errázuriz Zañartu,https://es.wikipedia.org/wiki/Federico_Err%C3%A1zuriz_Za%C3%B1artu,10,561.8333333333334,1
+chile,Francisco Javier de Errázuriz Madariaga,https://es.wikipedia.org/wiki/Francisco_Javier_de_Err%C3%A1zuriz_Madariaga,8,503.5,2
+chile,Bernardo O'Higgins,https://es.wikipedia.org/wiki/Bernardo_O%27Higgins,7,19,3
+chile,Eulogia Echaurren,https://es.wikipedia.org/wiki/Eulogia_Echaurren,7,98.91666666666663,4
+chile,Agustín Edwards Ross,https://es.wikipedia.org/wiki/Agust%C3%ADn_Edwards_Ross,7,71.33333333333333,5
+chile,Arturo Alessandri,https://es.wikipedia.org/wiki/Arturo_Alessandri,7,6.166666666666666,6
+chile,Rosa Rodríguez (primera dama),https://es.wikipedia.org/wiki/Rosa_Ester_Rodr%C3%ADguez_Velasco,7,6.166666666666666,7
+chile,Manuel de Balmaceda Ballesteros,https://es.wikipedia.org/wiki/Manuel_de_Balmaceda_Ballesteros,6,66.41666666666667,8
+chile,José Manuel Balmaceda,https://es.wikipedia.org/wiki/Jos%C3%A9_Manuel_Balmaceda,6,33,9
+chile,Domingo Matte Mesías,https://es.wikipedia.org/wiki/Domingo_Matte_Mes%C3%ADas,6,54.5,10
+chile,Manuel Bulnes,https://es.wikipedia.org/wiki/Manuel_Bulnes,6,50.8,11
+chile,Enriqueta Pinto,https://es.wikipedia.org/wiki/Enriqueta_Pinto,6,124.03333333333335,12
+chile,Aníbal Pinto,https://es.wikipedia.org/wiki/An%C3%ADbal_Pinto,6,68.06666666666666,13
+chile,Cristián Campos,https://es.wikipedia.org/wiki/Cristi%C3%A1n_Campos,6,57,14
+chile,Eulogia Echaurren,https://es.wikipedia.org/wiki/Eulogia_Echaurren_Garc%C3%ADa-Huidobro,6,77.16666666666667,15
+chile,Andrónico Lukšić Abaroa,https://es.wikipedia.org/wiki/Andr%C3%B3nico_Luk%C5%A1i%C4%87_Abaroa,6,25.5,16
+chile,Carmen Ibáñez,https://es.wikipedia.org/wiki/Carmen_Ib%C3%A1%C3%B1ez,6,12.5,17
+chile,Manuel Montt,https://es.wikipedia.org/wiki/Manuel_Montt,6,5.866666666666665,18
+chile,Hernán Alessandri,https://es.wikipedia.org/wiki/Hern%C3%A1n_Alessandri,6,19.533333333333335,19
+chile,Joaquín Prieto Warnes,https://es.wikipedia.org/wiki/Joaqu%C3%ADn_Prieto_Warnes,6,17.75,20
+chile,Manuela Warnes,https://es.wikipedia.org/wiki/Manuela_Warnes_y_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,6,9.5,21
+chile,Rosa Rodríguez (primera dama),https://es.wikipedia.org/wiki/Rosa_Rodr%C3%ADguez_%28primera_dama%29,6,6,22
+chile,Arturo Alessandri,https://es.wikipedia.org/wiki/Arturo_Alessandri_Palma,6,6,23
+colombia,José de Mosquera y Prieto,https://es.wikipedia.org/wiki/Jos%C3%A9_de_Mosquera_Figueroa_y_Prieto_de_Tobar,8,75.48333333333333,1
+colombia,Carlos Holguín Mallarino,https://es.wikipedia.org/wiki/Carlos_Holgu%C3%ADn_Mallarino,8,219.86666666666662,2
+colombia,Francisco Xavier Vergara,https://es.wikipedia.org/wiki/Francisco_Xavier_de_Vergara_Azc%C3%A1rate,8,147.17345220568902,3
+colombia,Gloria Pachón,https://es.wikipedia.org/wiki/Gloria_Pach%C3%B3n,8,79.83333333333333,4
+colombia,María Cristina Arango,https://es.wikipedia.org/wiki/Mar%C3%ADa_Cristina_Arango,7,23.816666666666663,5
+colombia,Margarita Caro de Holguín,https://es.wikipedia.org/wiki/Margarita_Caro_Tobar,7,84.70000000000003,6
+colombia,Luis Carlos Galán,https://es.wikipedia.org/wiki/Luis_Carlos_Gal%C3%A1n_Sarmiento,7,36.3,7
+colombia,Alfonso López Pumarejo,https://es.wikipedia.org/wiki/Alfonso_L%C3%B3pez_Pumarejo,7,61.25,8
+colombia,Mariano Ospina Pérez,https://es.wikipedia.org/wiki/Mariano_Ospina_P%C3%A9rez,7,208.7,9
+colombia,Mariano Ospina Rodríguez,https://es.wikipedia.org/wiki/Mariano_Ospina_Rodr%C3%ADguez,7,114.83962148962149,10
+colombia,José María de Mosquera,https://es.wikipedia.org/wiki/Jos%C3%A9_Mar%C3%ADa_de_Mosquera_y_Figueroa,6,35,11
+colombia,Misael Pastrana,https://es.wikipedia.org/wiki/Misael_Pastrana,6,13.9,12
+colombia,Enrique Santos Castillo,https://es.wikipedia.org/wiki/Enrique_Santos_Castillo,6,108.5,13
+colombia,Margarita Caro de Holguín,https://es.wikipedia.org/wiki/Margarita_Caro_de_Holgu%C3%ADn,6,58.599999999999994,14
+colombia,Francisco Vergara Azcárate,https://es.wikipedia.org/wiki/Francisco_Vergara_Azc%C3%A1rate_y_Vela_Pati%C3%B1o,6,63.81205709495185,15
+colombia,Antonia Vergara y Sanz de Santamaría,https://es.wikipedia.org/wiki/Antonia_Vergara_y_Sanz_de_Santamar%C3%ADa,6,109.45238095238095,16
+colombia,José de Vergara Azcárate,https://es.wikipedia.org/wiki/Jos%C3%A9_Sebasti%C3%A1n_de_Vergara_Azc%C3%A1rate_y_G%C3%B3mez_de_Sandoval,6,102.50429928258875,17
+colombia,Nydia Quintero,https://es.wikipedia.org/wiki/Nydia_Quintero,6,11.75,18
+colombia,Guillermo León Valencia,https://es.wikipedia.org/wiki/Guillermo_Le%C3%B3n_Valencia,6,32,19
+colombia,Pedro Nel Ospina,https://es.wikipedia.org/wiki/Pedro_Nel_Ospina,6,138.86764346764346,20
+colombia,Alfonso López Michelsen,https://es.wikipedia.org/wiki/Alfonso_L%C3%B3pez_Michelsen,6,66,21
+colombia,Matilde Osorio Ricaurte,https://es.wikipedia.org/wiki/Matilde_Osorio_Ricaurte,6,9.5,22
+colombia,Manuel Ospina Vásquez,https://es.wikipedia.org/wiki/Manuel_Ospina_V%C3%A1squez,6,92.53333333333333,23
+colombia,Tulio Ospina,https://es.wikipedia.org/wiki/Tulio_Ospina_V%C3%A1squez,6,141.31752136752138,24
+colombia,Enriqueta Vásquez de Ospina,https://es.wikipedia.org/wiki/Enriqueta_V%C3%A1squez_Jaramillo,6,112.08962148962149,25
+colombia,Pedro Nel Ospina,https://es.wikipedia.org/wiki/Pedro_Nel_Ospina_V%C3%A1squez,6,146.04902319902322,26
+colombia,José Martín París Álvarez,https://es.wikipedia.org/wiki/Jos%C3%A9_Mart%C3%ADn_Par%C3%ADs_%C3%81lvarez,6,14.5,27
+colombia,Genoveva Ricaurte Mauris,https://es.wikipedia.org/wiki/Genoveva_Ricaurte_Mauris,6,14.5,28
+colombia,Dolores Vargas París,https://es.wikipedia.org/wiki/Dolores_Vargas_Par%C3%ADs,6,8,29
+colombia,María Eugenia Rojas,https://es.wikipedia.org/wiki/Mar%C3%ADa_Eugenia_Rojas,6,9.5,30
+ecuador,Francisco Xavier Vergara,https://es.wikipedia.org/wiki/Francisco_Xavier_de_Vergara_Azc%C3%A1rate,7,53.983333333333334,1
+ecuador,Francisco Vergara Azcárate,https://es.wikipedia.org/wiki/Francisco_Vergara_Azc%C3%A1rate_y_Vela_Pati%C3%B1o,6,22.28333333333333,2
+ecuador,Francisco Vergara Azcárate,https://es.wikipedia.org/wiki/Francisco_Vergara_Azc%C3%A1rate,5,19.849999999999998,3
+ecuador,Antonia Vergara y Sanz de Santamaría,https://es.wikipedia.org/wiki/Antonia_Vergara_y_Sanz_de_Santamar%C3%ADa,5,30.833333333333332,4
+ecuador,Cristóbal de Vergara Azcárate,https://es.wikipedia.org/wiki/Crist%C3%B3bal_de_Vergara_Azc%C3%A1rate,4,3.583333333333333,5
+ecuador,Felipe de Vergara Azcárate,https://es.wikipedia.org/wiki/Felipe_de_Vergara_Azc%C3%A1rate,4,3.583333333333333,6
+ecuador,Miguel Antonio Caro,https://es.wikipedia.org/wiki/Miguel_Antonio_Caro,4,3.5,7
+ecuador,Francisco Vergara Azcárate,https://es.wikipedia.org/wiki/Francisco_Javier_de_Vergara_Azc%C3%A1rate_Vela_Pati%C3%B1o_y_Sandoval,4,4.85,8
+ecuador,Francisco Vergara Azcárate,https://es.wikipedia.org/wiki/Francisco_de_Vergara_Azc%C3%A1rate,4,4.85,9
+ecuador,Estanislao Vergara,https://es.wikipedia.org/wiki/Estanislao_Vergara_y_Sanz_de_Santamar%C3%ADa,4,12.633333333333331,10
+ecuador,José de Vergara Azcárate,https://es.wikipedia.org/wiki/Jos%C3%A9_Sebasti%C3%A1n_de_Vergara_Azc%C3%A1rate_y_G%C3%B3mez_de_Sandoval,4,3.583333333333333,11
+ecuador,Luis Caycedo y Flórez,https://es.wikipedia.org/wiki/Luis_Caycedo_y_Fl%C3%B3rez,3,3,12
+ecuador,Francisco Xavier Vergara,https://es.wikipedia.org/wiki/Francisco_Xavier_Vergara,3,5.633333333333333,13
+ecuador,Ana de Narváez de Caro,https://es.wikipedia.org/wiki/Ana_de_Narv%C3%A1ez_de_Caro,3,0.5,14
+ecuador,Alejandro Eder,https://es.wikipedia.org/wiki/Alejandro_%C3%89der,3,3.5,15
+ecuador,Rodrigo Lloreda Caicedo,https://es.wikipedia.org/wiki/Rodrigo_Lloreda,3,1.5,16
+ecuador,Rodrigo Lloreda Caicedo,https://es.wikipedia.org/wiki/Rodrigo_Lloreda_Caicedo,3,1.5,17
+ecuador,Francisco Xavier Vergara,https://es.wikipedia.org/wiki/Francisco_Xavier_Vergara_Azc%C3%A1rate,3,5.633333333333333,18
+ecuador,Francisco José Eguiguren Escudero,https://es.wikipedia.org/wiki/Francisco_Jos%C3%A9_Eguiguren_Escudero,3,3.5,19
+ecuador,Miguel Checa y Checa,https://es.wikipedia.org/wiki/Miguel_Checa_y_Checa,3,5,20
+ecuador,Emilio Estrada,https://es.wikipedia.org/wiki/Emilio_Estrada,3,4.333333333333333,21
+ecuador,Victor Emilio Estrada,https://es.wikipedia.org/wiki/Victor_Emilio_Estrada,3,2.5,22
+ecuador,Victor Emilio Estrada,https://es.wikipedia.org/wiki/V%C3%ADctor_Emilio_Estrada,3,2.5,23
+ecuador,Álvaro Noboa,https://es.wikipedia.org/wiki/%C3%81lvaro_Noboa,3,9,24
+ecuador,Daniel Noboa,https://es.wikipedia.org/wiki/Daniel_Noboa,3,5,25
+mexico,Ana María Huarte,https://es.wikipedia.org/wiki/Ana_Mar%C3%ADa_Huarte,8,43,1
+mexico,Jaime Garza,https://es.wikipedia.org/wiki/Jaime_Garza,7,135,2
+mexico,Eugenio Derbez,https://es.wikipedia.org/wiki/Eugenio_Derbez,6,58,3
+mexico,Francisco Madero Hernández,https://es.wikipedia.org/wiki/Francisco_Madero_Hern%C3%A1ndez,6,33,4
+mexico,Silvia Pinal,https://es.wikipedia.org/wiki/Silvia_Pinal,6,203,5
+mexico,Fernando Luján,https://es.wikipedia.org/wiki/Fernando_Luj%C3%A1n,6,18,6
+mexico,Pepe Aguilar,https://es.wikipedia.org/wiki/Pepe_Aguilar,5,41,7
+mexico,Flor Silvestre,https://es.wikipedia.org/wiki/Flor_Silvestre,5,37,8
+mexico,Joaquín Guzmán Loera,https://es.wikipedia.org/wiki/Joaqu%C3%ADn_Guzm%C3%A1n_Loera,5,14,9
+mexico,Rafaela López Aguado de Rayón,https://es.wikipedia.org/wiki/Rafaela_L%C3%B3pez_Aguado_de_Ray%C3%B3n,5,10,10
+mexico,Hernán Cortés,https://es.wikipedia.org/wiki/Hern%C3%A1n_Cort%C3%A9s,5,15,11
+mexico,Rafael Banquells,https://es.wikipedia.org/wiki/Rafael_Banquells,5,71,12
+mexico,Antonio Aguilar,https://es.wikipedia.org/wiki/Antonio_Aguilar,4,27,13
+mexico,Miguel Alemán Velasco,https://es.wikipedia.org/wiki/Miguel_Alem%C3%A1n_Velasco,4,6,14
+mexico,Cuauhtémoc Cárdenas,https://es.wikipedia.org/wiki/Cuauht%C3%A9moc_C%C3%A1rdenas,4,2.5,15
+mexico,Amalia Solórzano,https://es.wikipedia.org/wiki/Amalia_Sol%C3%B3rzano,4,1.833333333333333,16
+mexico,Porfirio Díaz,https://es.wikipedia.org/wiki/Porfirio_D%C3%ADaz,4,12,17
+mexico,Eddie Guerrero,https://es.wikipedia.org/wiki/Eddie_Guerrero,4,4.333333333333333,18
+mexico,Orson Welles,https://es.wikipedia.org/wiki/Orson_Welles,4,9,19
+mexico,Gustavo Alatriste,https://es.wikipedia.org/wiki/Gustavo_Alatriste,4,49,20
+mexico,Humberto Zurita,https://es.wikipedia.org/wiki/Humberto_Zurita,4,69.5,21
+mexico,Diego Luna,https://es.wikipedia.org/wiki/Diego_Luna,4,8,22
+paraguay,Francisco Solano López,https://es.wikipedia.org/wiki/Francisco_Solano_L%C3%B3pez,7,41.5,1
+paraguay,Juana Pabla Carrillo,https://es.wikipedia.org/wiki/Juana_Pabla_Carrillo,3,10.5,2
+paraguay,Carlos Antonio López,https://es.wikipedia.org/wiki/Carlos_Antonio_L%C3%B3pez,3,10.5,3
+paraguay,Venancio López,https://es.wikipedia.org/wiki/Venancio_L%C3%B3pez,3,18,4
+paraguay,Elisa Alicia Lynch,https://es.wikipedia.org/wiki/Elisa_Alicia_Lynch,3,0.5,5
+paraguay,Ercilia López de Blomberg,https://es.wikipedia.org/wiki/Ercilia_L%C3%B3pez_de_Blomberg,2,10,6
+paraguay,Juan Francisco López,https://es.wikipedia.org/wiki/Juan_Francisco_L%C3%B3pez,2,0,7
+paraguay,Enrique Solano López,https://es.wikipedia.org/wiki/Enrique_Solano_L%C3%B3pez,2,0,8
+paraguay,Juana Pesoa,https://es.wikipedia.org/wiki/Juana_Pesoa,2,10,9
+paraguay,Héctor Pedro Blomberg,https://es.wikipedia.org/wiki/H%C3%A9ctor_Pedro_Blomberg,1,0,10
+paraguay,Saturnina Burgos,https://es.wikipedia.org/wiki/Saturnina_Burgos,1,0,11
+paraguay,Pedro Hermosa,https://es.wikipedia.org/wiki/Pedro_Hermosa,1,0,12
+peru,Isabel Preysler,https://es.wikipedia.org/wiki/Isabel_Preysler,8,43.5,1
+peru,Mariano Ignacio Prado,https://es.wikipedia.org/wiki/Mariano_Ignacio_Prado,7,34,2
+peru,Mariano A. Belaúnde,https://es.wikipedia.org/wiki/Mariano_A._Bela%C3%BAnde,6,52.66666666666667,3
+peru,Mariano Ignacio Prado,https://es.wikipedia.org/wiki/Mariano_Ignacio_Prado_Ochoa,6,22,4
+peru,Guillermo Seoane,https://es.wikipedia.org/wiki/Guillermo_Seoane,6,15,5
+peru,Ciro Alegría,https://es.wikipedia.org/wiki/Ciro_Alegr%C3%ADa,5,6.833333333333333,6
+peru,Clemente von Althaus,https://es.wikipedia.org/wiki/Clemente_von_Althaus,5,14.833333333333332,7
+peru,Fernando Belaúnde Terry,https://es.wikipedia.org/wiki/Fernando_Bela%C3%BAnde_Terry,5,49.666666666666664,8
+peru,Manuel Prado Ugarteche,https://es.wikipedia.org/wiki/Manuel_Prado_Ugarteche,5,39.83333333333333,9
+peru,José Rufino Echenique,https://es.wikipedia.org/wiki/Jos%C3%A9_Rufino_Echenique,5,2.583333333333333,10
+peru,Victoria Tristán de Echenique,https://es.wikipedia.org/wiki/Victoria_Trist%C3%A1n_Flores,5,3.833333333333333,11
+peru,Dora Varona,https://es.wikipedia.org/wiki/Dora_Varona,4,1.833333333333333,12
+peru,Manuel Pardo y Lavalle,https://es.wikipedia.org/wiki/Manuel_Pardo_y_Lavalle,4,17,13
+peru,Clemente von Althaus,https://es.wikipedia.org/wiki/Clemente_Althaus_von_Hessen,4,7.166666666666666,14
+peru,Emilio de Althaus y Flores del Campo,https://es.wikipedia.org/wiki/Emilio_de_Althaus_Flores_del_Campo,4,9.583333333333332,15
+peru,Andrés Aramburú Sarrio,https://es.wikipedia.org/wiki/Andr%C3%A9s_Avelino_Arambur%C3%BA_Sarrio,4,9.666666666666666,16
+peru,Andrés Aramburú Salinas,https://es.wikipedia.org/wiki/Andr%C3%A9s_Avelino_Arambur%C3%BA_Salinas,4,7.583333333333333,17
+peru,Alejandro Arenas Villarreal,https://es.wikipedia.org/wiki/Alejandro_Arenas_Villarreal,4,9,18
+peru,Rafael Belaúnde Diez-Canseco,https://es.wikipedia.org/wiki/Rafael_Belaunde_Diez_Canseco,4,27.666666666666668,19
+peru,Sybila Arredondo,https://es.wikipedia.org/wiki/Sybila_Arredondo,4,9,20
+peru,Lilly Caballero de Cueto,https://es.wikipedia.org/wiki/Lilly_Caballero_de_Cueto,4,1.5,21
+peru,Carlos Cueto Fernandini,https://es.wikipedia.org/wiki/Carlos_Cueto_Fernandini,4,1.5,22
+peru,Augusto Leguía,https://es.wikipedia.org/wiki/Augusto_B._Legu%C3%ADa,4,2.5,23
+peru,Carlos Ferreyros,https://es.wikipedia.org/wiki/Carlos_Ferreyros,4,8.5,24
+peru,Carlos Ferreyros,https://es.wikipedia.org/wiki/Carlos_Ferreyros_y_Senra,4,8.5,25
+peru,Patricia Frayssinet,https://es.wikipedia.org/wiki/Patricia_Frayssinet,4,24,26
+peru,Fernando Tola Mendoza,https://es.wikipedia.org/wiki/Fernando_Tola_Mendoza,4,9,27
+peru,Isaac Humala,https://es.wikipedia.org/wiki/Isaac_Humala,4,11.5,28
+peru,José Antonio de Lavalle y Pardo,https://es.wikipedia.org/wiki/Jos%C3%A9_Antonio_de_Lavalle_y_Pardo,4,18,29
+peru,Andrés Wiese,https://es.wikipedia.org/wiki/Andr%C3%A9s_Wiese,4,9,30
+peru,Augusto Leguía,https://es.wikipedia.org/wiki/Augusto_Legu%C3%ADa,4,2.5,31
+peru,José Mariano Luna,https://es.wikipedia.org/wiki/Jos%C3%A9_Mariano_Luna,4,9.333333333333334,32
+peru,Anna Chiappe,https://es.wikipedia.org/wiki/Anna_Chiappe,4,1.5,33
+peru,José Carlos Mariátegui,https://es.wikipedia.org/wiki/Jos%C3%A9_Carlos_Mari%C3%A1tegui,4,1.5,34
+peru,Manuel Mujica Gallo,https://es.wikipedia.org/wiki/Manuel_Mujica_Gallo,4,11.333333333333332,35
+peru,Victoria Tristán de Echenique,https://es.wikipedia.org/wiki/Victoria_Trist%C3%A1n_de_Echenique,4,1.833333333333333,36
+peru,Mario Vargas Llosa,https://es.wikipedia.org/wiki/Mario_Vargas_Llosa,4,27,37
+peru,Julio Iglesias,https://es.wikipedia.org/wiki/Julio_Iglesias,4,1.5,38
+uruguay,Ana Jacoba García de Zúñiga,https://es.wikipedia.org/wiki/Ana_Jacoba_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,7,80.75,1
+uruguay,Juan Vicente Podestá,https://es.wikipedia.org/wiki/Juan_Vicente_Podest%C3%A1,7,88,2
+uruguay,José Batlle y Ordóñez,https://es.wikipedia.org/wiki/Jos%C3%A9_Batlle_y_Ord%C3%B3%C3%B1ez,6,18.5,3
+uruguay,Manuel Antonio José Warnes,https://es.wikipedia.org/wiki/Manuel_Antonio_Jos%C3%A9_Warnes,6,14.75,4
+uruguay,Pedro Podestá,https://es.wikipedia.org/wiki/Pedro_Podest%C3%A1,6,84,5
+uruguay,María Teresa Torterolo,https://es.wikipedia.org/wiki/Mar%C3%ADa_Teresa_Torterolo,6,84,6
+uruguay,Luis Batlle Berres,https://es.wikipedia.org/wiki/Luis_Batlle_Berres,5,4.733333333333333,7
+uruguay,Joaquín Prieto Warnes,https://es.wikipedia.org/wiki/Joaqu%C3%ADn_Prieto_Warnes,5,17.75,8
+uruguay,Manuela Warnes,https://es.wikipedia.org/wiki/Manuela_Warnes_y_Garc%C3%ADa_de_Z%C3%BA%C3%B1iga,5,30.5,9
+uruguay,Esther Boggini,https://es.wikipedia.org/wiki/Esther_Boggini,5,3,10
+uruguay,Gerónimo Podestá,https://es.wikipedia.org/wiki/Ger%C3%B3nimo_Podest%C3%A1,5,93,11
+uruguay,Jorge Batlle,https://es.wikipedia.org/wiki/Jorge_Batlle,4,2.933333333333333,12
+uruguay,Matilde Pacheco,https://es.wikipedia.org/wiki/Matilde_Pacheco,4,1.5,13
+uruguay,Matilde Ibáñez Tálice,https://es.wikipedia.org/wiki/Matilde_Ib%C3%A1%C3%B1ez,4,2.4,14
+uruguay,Jorge Batlle,https://es.wikipedia.org/wiki/Jorge_Batlle_Ib%C3%A1%C3%B1ez,4,7.4,15
+uruguay,Juan Carlos Blanco Fernández,https://es.wikipedia.org/wiki/Juan_Carlos_Blanco_Fern%C3%A1ndez,4,9,16
+uruguay,Manuela Warnes,https://es.wikipedia.org/wiki/Manuela_Warnes,4,18,17
+uruguay,Victoria Saravia,https://es.wikipedia.org/wiki/Victoria_Saravia,4,9,18
+venezuela,Elena Frías de Chávez,https://es.wikipedia.org/wiki/Elena_Fr%C3%ADas_de_Ch%C3%A1vez,9,28.666666666666668,1
+venezuela,Hugo de los Reyes Chávez,https://es.wikipedia.org/wiki/Hugo_de_los_Reyes_Ch%C3%A1vez,9,28.666666666666668,2
+venezuela,Juan Vicente Bolívar y Ponte,https://es.wikipedia.org/wiki/Juan_Vicente_Bol%C3%ADvar_y_Ponte,7,47,3
+venezuela,Carlos Holguín Mallarino,https://es.wikipedia.org/wiki/Carlos_Holgu%C3%ADn_Mallarino,7,20,4
+venezuela,Margarita Caro de Holguín,https://es.wikipedia.org/wiki/Margarita_Caro_Tobar,7,20,5
+venezuela,Hugo Chávez,https://es.wikipedia.org/wiki/Hugo_Ch%C3%A1vez,7,28.5,6
+venezuela,María de la Concepción Palacios y Blanco,https://es.wikipedia.org/wiki/Mar%C3%ADa_de_la_Concepci%C3%B3n_Palacios_y_Blanco,6,57,7
+venezuela,Dolores Vargas París,https://es.wikipedia.org/wiki/Dolores_Vargas_Par%C3%ADs,6,8,8
+venezuela,Hugo Chávez,https://es.wikipedia.org/wiki/Hugo_Ch%C3%A1vez_Fr%C3%ADas,6,18,9
+venezuela,Simón Bolívar,https://es.wikipedia.org/wiki/Sim%C3%B3n_Bol%C3%ADvar,5,42,10
+venezuela,Rafael Urdaneta,https://es.wikipedia.org/wiki/Rafael_Urdaneta,5,3,11
+venezuela,Eduardo López Rivas,https://es.wikipedia.org/wiki/Eduardo_L%C3%B3pez_Rivas,4,9,12
+venezuela,Jorge Leyva Urdaneta,https://es.wikipedia.org/wiki/Jorge_Leyva_Urdaneta,4,15,13
+venezuela,Lisandro Leyva Mazuera,https://es.wikipedia.org/wiki/Lisandro_Leyva_Mazuera,4,15,14
+venezuela,Clemencia Holguín de Urdaneta,https://es.wikipedia.org/wiki/Clemencia_Holgu%C3%ADn_y_Caro,4,21.5,15
+venezuela,María Gabriela Chávez,https://es.wikipedia.org/wiki/Mar%C3%ADa_Gabriela_Ch%C3%A1vez,4,1.6666666666666667,16

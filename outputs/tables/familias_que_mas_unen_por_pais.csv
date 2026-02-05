@@ -1,0 +1,93 @@
+pais,familia,total_conexiones,n_miembros,pais_label,familia_corto
+argentina,Familia García-Mansilla,75,16,Argentina,Familia García-Mans...
+argentina,Familia Balcarce,62,18,Argentina,Familia Balcarce
+argentina,Familia Onassis,58,23,Argentina,Familia Onassis
+argentina,Familia Warnes,50,15,Argentina,Familia Warnes
+argentina,Familia Lavalle,48,30,Argentina,Familia Lavalle
+argentina,Familia Paz,39,17,Argentina,Familia Paz
+argentina,Familia Otálora,32,15,Argentina,Familia Otálora
+argentina,Familia López Carrillo,30,12,Argentina,Familia López Carrillo
+argentina,Familia San Martín,30,8,Argentina,Familia San Martín
+argentina,Familia Guevara,28,8,Argentina,Familia Guevara
+bolivia,Familia Campero,16,12,Bolivia,Familia Campero
+bolivia,Familia Ballivián,8,6,Bolivia,Familia Ballivián
+bolivia,Familia Orihuela,8,6,Bolivia,Familia Orihuela
+bolivia,Familia Segurola,6,5,Bolivia,Familia Segurola
+bolivia,Familia Estenssoro,2,2,Bolivia,Familia Estenssoro
+chile,Familia Echaurren,98,37,Chile,Familia Echaurren
+chile,Familia Errázuriz,91,38,Chile,Familia Errázuriz
+chile,Familia Vicuña,81,40,Chile,Familia Vicuña
+chile,Familia Matte,71,36,Chile,Familia Matte
+chile,Familia Velasco (Chile),61,28,Chile,Familia Velasco (Ch...
+chile,Familia Montt,60,30,Chile,Familia Montt
+chile,Familia Cruz (Chile),59,21,Chile,Familia Cruz (Chile)
+chile,Familia Pizarro,55,23,Chile,Familia Pizarro
+chile,Familia Pinto (Chile),51,25,Chile,Familia Pinto (Chile)
+chile,Familia Bulnes,47,21,Chile,Familia Bulnes
+colombia,Familia Arboleda,113,44,Colombia,Familia Arboleda
+colombia,Familia Caicedo,94,32,Colombia,Familia Caicedo
+colombia,Familia Ospina,88,28,Colombia,Familia Ospina
+colombia,Familia Borja,62,36,Colombia,Familia Borja
+colombia,Familia López,62,19,Colombia,Familia López
+colombia,Familia Borrero,52,23,Colombia,Familia Borrero
+colombia,Familia Galán,51,15,Colombia,Familia Galán
+colombia,Familia París,48,17,Colombia,Familia París
+colombia,Familia Caro,42,11,Colombia,Familia Caro
+colombia,Familia Lleras,42,17,Colombia,Familia Lleras
+ecuador,Familia Caicedo,85,32,Ecuador,Familia Caicedo
+ecuador,Familia Eguiguren,18,10,Ecuador,Familia Eguiguren
+ecuador,Familia Noboa,16,9,Ecuador,Familia Noboa
+ecuador,Familia Estrada (Ecuador),14,6,Ecuador,Familia Estrada (Ec...
+ecuador,Familia Azuola,12,5,Ecuador,Familia Azuola
+ecuador,Familia Cabal,9,4,Ecuador,Familia Cabal
+ecuador,Familia Roca y Rodríguez,6,3,Ecuador,Familia Roca y Rodr...
+ecuador,Familia Mosquera,4,3,Ecuador,Familia Mosquera
+ecuador,Yerovi (familia),4,3,Ecuador,Yerovi (familia)
+ecuador,Familia Cano,2,1,Ecuador,Familia Cano
+ecuador,Familia Sanz de Santamaría,2,1,Ecuador,Familia Sanz de San...
+mexico,Familia Pinal Hidalgo,62,27,Mexico,Familia Pinal Hidalgo
+mexico,Familia Aguilar,32,16,Mexico,Familia Aguilar
+mexico,Familia Derbez,24,13,Mexico,Familia Derbez
+mexico,Familia Soler,22,11,Mexico,Familia Soler
+mexico,Familia Iturbide,20,11,Mexico,Familia Iturbide
+mexico,Familia Cárdenas,18,6,Mexico,Familia Cárdenas
+mexico,Familia Sodi,17,10,Mexico,Familia Sodi
+mexico,Familia Alemán,16,8,Mexico,Familia Alemán
+mexico,Familia Bichir,16,9,Mexico,Familia Bichir
+mexico,Familia Carranza,16,11,Mexico,Familia Carranza
+mexico,Familia Díaz,16,9,Mexico,Familia Díaz
+mexico,Familia Guerrero,16,6,Mexico,Familia Guerrero
+paraguay,Familia López Carrillo,30,12,Paraguay,Familia López Carrillo
+peru,Familia Belaúnde,62,26,Peru,Familia Belaúnde
+peru,Familia Lavalle,50,30,Peru,Familia Lavalle
+peru,Familia Diez Canseco,34,20,Peru,Familia Diez Canseco
+peru,Althaus (familia),30,12,Peru,Althaus (familia)
+peru,Familia Vargas Llosa,30,12,Peru,Familia Vargas Llosa
+peru,Familia Cisneros,29,14,Peru,Familia Cisneros
+peru,Familia Miró Quesada,25,15,Peru,Familia Miró Quesada
+peru,Familia Echenique,24,7,Peru,Familia Echenique
+peru,Familia Luna,24,13,Peru,Familia Luna
+peru,Alarco (familia),23,17,Peru,Alarco (familia)
+uruguay,Familia Podestá,64,25,Uruguay,Familia Podestá
+uruguay,Familia Warnes,44,13,Uruguay,Familia Warnes
+uruguay,Familia Batlle,31,13,Uruguay,Familia Batlle
+uruguay,Familia Saavedra,21,6,Uruguay,Familia Saavedra
+uruguay,Familia Blanco,10,6,Uruguay,Familia Blanco
+uruguay,Familia Bordaberry,10,5,Uruguay,Familia Bordaberry
+uruguay,Familia Saravia,10,6,Uruguay,Familia Saravia
+uruguay,Familia García de Zúñiga,8,5,Uruguay,Familia García de Z...
+uruguay,Familia Varela,8,7,Uruguay,Familia Varela
+uruguay,Familia Heber,6,6,Uruguay,Familia Heber
+uruguay,Familia Scheck,6,4,Uruguay,Familia Scheck
+venezuela,Familia Chávez,58,15,Venezuela,Familia Chávez
+venezuela,Familia Palacios (Venezuela),40,17,Venezuela,Familia Palacios (V...
+venezuela,Familia Caro,29,8,Venezuela,Familia Caro
+venezuela,Familia París,18,6,Venezuela,Familia París
+venezuela,Familia Urdaneta,15,9,Venezuela,Familia Urdaneta
+venezuela,Familia Durán (Colombia),11,5,Venezuela,Familia Durán (Colo...
+venezuela,Familia Cabello,8,4,Venezuela,Familia Cabello
+venezuela,Familia Cisneros (Venezuela),8,4,Venezuela,Familia Cisneros (V...
+venezuela,Familia Febres-Cordero,8,6,Venezuela,Familia Febres-Cordero
+venezuela,Familia Lander,8,5,Venezuela,Familia Lander
+venezuela,Familia Maduro,8,4,Venezuela,Familia Maduro
+venezuela,Familia Monagas,8,5,Venezuela,Familia Monagas

@@ -90,12 +90,13 @@ logs/
 cache/
 
 # -------------------------------------
-# Archivos de configuración local
+# Archivos de configuración local / secretos
 # -------------------------------------
 .env
 .env.local
 config.local.py
 secrets.yml
+api.R
 
 # Scraping scripts (privado)
 scripts/01_scraping/
