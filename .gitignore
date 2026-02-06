@@ -96,7 +96,21 @@ cache/
 .env.local
 config.local.py
 secrets.yml
+
+# -------------------------------------
+# API keys / todo lo que diga API — no subir
+# -------------------------------------
 api.R
+*api*.R
+*api*.key
+*api*.env
+*API*
+*api_key*
+*apikey*
+**/api.R
+**/api.key
+**/api_*.key
+**/api_*.env
 
 # Scraping scripts (privado)
 scripts/01_scraping/
