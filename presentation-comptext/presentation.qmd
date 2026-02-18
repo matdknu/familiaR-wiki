@@ -1,0 +1,80 @@
+---
+title: "Elite identification in Latin America"
+subtitle: "Approaches from Natural Language Processing"
+author: "Matías Deneken"
+date: "April 2026"
+format:
+  revealjs:
+    theme: default
+    slide-number: true
+    transition: fade
+    footer: "8th ANNUAL COMPTEXT Conference 2026"
+---
+
+## Introducción
+
+Contenido de la primera diapositiva.
+
+- Punto 1
+- Punto 2
+- Punto 3
+
+## Slide con código
+```{r}
+#| echo: true
+library(tidyverse)
+
+datos <- tibble(
+  x = 1:10,
+  y = rnorm(10)
+)
+
+head(datos)
+```
+
+## Slide con gráfico
+```{r}
+#| echo: false
+#| fig-align: center
+
+ggplot(datos, aes(x, y)) +
+  geom_point() +
+  geom_line() +
+  theme_minimal()
+```
+
+## Dos columnas
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Columna izquierda**
+
+- Item A
+- Item B
+:::
+
+::: {.column width="50%"}
+**Columna derecha**
+
+- Item C
+- Item D
+:::
+
+::::
+
+## Slide con imagen
+
+![Descripción](ruta/imagen.png){fig-align="center" width="60%"}
+
+## Conclusiones
+
+1. Primera conclusión
+2. Segunda conclusión
+3. Tercera conclusión
+
+## ¿Preguntas?
+
+Gracias por su atención.
+
+{{< fa envelope >}} correo@ejemplo.com
