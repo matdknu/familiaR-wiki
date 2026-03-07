@@ -1,80 +1,132 @@
 ---
-title: "Elite identification in Latin America"
-subtitle: "Approaches from Natural Language Processing"
+title: "Elite Identification in Latin America"
+subtitle: "Networks, Text Mining & NLP"
 author: "Matías Deneken"
 date: "April 2026"
 format:
   revealjs:
-    theme: default
+    theme: dark
     slide-number: true
     transition: fade
-    footer: "8th ANNUAL COMPTEXT Conference 2026"
+    background-transition: fade
+    footer: "8th Annual COMPTEXT Conference 2026"
+    css: comptext-theme.css
 ---
 
-## Introducción
+## Motivation
 
-Contenido de la primera diapositiva.
+Identifying political and economic elites in Latin America is central to the study of power and inequality.
 
-- Punto 1
-- Punto 2
-- Punto 3
+- **Structured data** (biographies, kinship, offices) is scattered across languages and sources.
+- **Text mining** and **NLP** help extract entities, relations, and roles from unstructured text.
+- **Network analysis** turns those relations into graphs: families, institutions, cross-country ties.
 
-## Slide con código
-```{r}
-#| echo: true
-library(tidyverse)
+::: {.fragment}
+Combining NLP + networks yields a computational approach to elite identification and comparison across countries.
+:::
 
-datos <- tibble(
-  x = 1:10,
-  y = rnorm(10)
-)
-
-head(datos)
-```
-
-## Slide con gráfico
-```{r}
-#| echo: false
-#| fig-align: center
-
-ggplot(datos, aes(x, y)) +
-  geom_point() +
-  geom_line() +
-  theme_minimal()
-```
-
-## Dos columnas
+## Pipeline Overview
 
 :::: {.columns}
 
 ::: {.column width="50%"}
-**Columna izquierda**
+**Data & text**
 
-- Item A
-- Item B
+- Wikipedia biographies (multilingual).
+- Infoboxes and structured fields.
+- Person–person relations (family, office).
 :::
 
 ::: {.column width="50%"}
-**Columna derecha**
+**Methods**
 
-- Item C
-- Item D
+- Entity extraction and normalization.
+- Relation extraction (NLP / rules).
+- Graph construction and centrality.
+- Cross-country linkage.
 :::
 
 ::::
 
-## Slide con imagen
+## From Text to Networks
 
-![Descripción](ruta/imagen.png){fig-align="center" width="60%"}
+1. **Text** → entities (persons, roles, places) via parsing and (optionally) NER.
+2. **Relations** → edges (marriage, parent–child, shared office, diplomatic links).
+3. **Graph** → nodes = persons/families; edges = relations; metrics = degree, betweenness, communities.
 
-## Conclusiones
+::: {.fragment}
+The same pipeline supports **within-country** elite networks and **cross-country** family/diplomatic ties.
+:::
 
-1. Primera conclusión
-2. Segunda conclusión
-3. Tercera conclusión
+## Example: Within-Country Networks
 
-## ¿Preguntas?
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "Red de personas relacionadas por país (ejemplo Chile)."
+knitr::include_graphics(
+  if (file.exists("../outputs/figures/exploracion_redes_pais/red_chile.png"))
+    "../outputs/figures/exploracion_redes_pais/red_chile.png"
+  else
+    "https://placehold.co/800x500/1a2332/5eb3d6?text=Red+por+país"
+)
+```
 
-Gracias por su atención.
+Families and key connectors emerge from degree and betweenness; layout highlights clusters.
 
-{{< fa envelope >}} correo@ejemplo.com
+## Example: Cross-Country Ties
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "Uniones familiares y vínculos diplomáticos entre países."
+knitr::include_graphics(
+  if (file.exists("../outputs/figures/exploracion_union_entre_paises.png"))
+    "../outputs/figures/exploracion_union_entre_paises.png"
+  else
+    "https://placehold.co/800x450/1a2332/8b5cf6?text=Red+entre+países"
+)
+```
+
+Nodes = countries; edges = family unions or diplomatic/professional links inferred from text and metadata.
+
+## Text Mining in the Workflow
+
+- **Structured fields**: infoboxes, categories, “personas relacionadas” (Wikipedia).
+- **Unstructured**: biography text for nationality, residence, offices, death place.
+- **Inference**: cross-country links from `nacionalidad`, `lugar_nacimiento`, `cargos_politicos`, `residencia`.
+- **Optional**: NER, relation extraction, or LLMs for roles and ties when structure is missing.
+
+::: {.fragment}
+Text mining supports both **node attributes** and **edge creation** in the elite network.
+:::
+
+## Tools & Stack
+
+| Layer        | Role                          |
+|-------------|--------------------------------|
+| **Data**    | Wikipedia API, CSV consolidado |
+| **Text**    | R (stringr, tidytext), Python  |
+| **Graphs**  | igraph, ggraph, tidygraph     |
+| **Viz**     | ggplot2, redes por país/facet |
+
+::: {.fragment}
+Reproducible pipeline: scripts for consolidation → enrichment → network construction → figures.
+:::
+
+## Takeaways
+
+1. **Elite identification** in LATAM can be operationalized with text-derived entities and relations.
+2. **Networks** make kinship and institutional ties explicit and comparable across countries.
+3. **Text mining** fills gaps when structured data is missing (e.g. nationality, offices, links).
+4. **Combining NLP + networks** fits COMPTEXT’s focus on computational approaches to political text and structure.
+
+## Thank you
+
+**Elite identification in Latin America: networks, text mining & NLP**
+
+Matías Deneken · COMPTEXT 2026
+
+::: {.fragment}
+Questions and suggestions welcome.
+:::

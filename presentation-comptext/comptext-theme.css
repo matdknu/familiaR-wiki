@@ -1,0 +1,232 @@
+/* ==========================================================================
+   COMPTEXT 2026 — Redes, Text Mining, identificación de élites
+   Tema: elegante, moderno, tonos de red / grafos
+   ========================================================================== */
+
+/* ---- Variables (override Reveal) ---- */
+.reveal {
+  --r-background-color: #0f1419;
+  --r-main-font: "DM Sans", "Source Sans 3", system-ui, sans-serif;
+  --r-heading-font: "Outfit", "DM Sans", system-ui, sans-serif;
+  --r-heading-color: #e8eaed;
+  --r-main-color: #b8bcc4;
+  --r-link-color: #5eb3d6;
+  --r-link-color-hover: #8ed4f0;
+  --r-selection-background-color: #2a3f5f;
+  --r-selection-color: #fff;
+}
+
+/* ---- Import tipografía moderna ---- */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&family=Outfit:wght@400;600;700&display=swap');
+
+/* ---- Fondo con sutiles nodos / red ---- */
+.reveal .slides {
+  background-color: #0f1419;
+  background-image:
+    radial-gradient(circle at 20% 30%, rgba(94, 179, 214, 0.06) 0%, transparent 45%),
+    radial-gradient(circle at 80% 70%, rgba(139, 92, 246, 0.05) 0%, transparent 45%),
+    radial-gradient(circle at 50% 50%, rgba(94, 179, 214, 0.03) 0%, transparent 60%);
+}
+
+/* ---- Título y portada ---- */
+.reveal .slide-background-title {
+  background: linear-gradient(135deg, #0f1419 0%, #1a2332 100%) !important;
+}
+
+.reveal .title-slide h1 {
+  font-family: var(--r-heading-font);
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 0 40px rgba(94, 179, 214, 0.2);
+  letter-spacing: -0.02em;
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(90deg, #5eb3d6, #8b5cf6) 1;
+  padding-bottom: 0.2em;
+  margin-bottom: 0.25em;
+}
+
+.reveal .title-slide h2 {
+  font-family: var(--r-main-font);
+  font-weight: 400;
+  color: #8b9cb3;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 0.85em;
+}
+
+.reveal .title-slide .author,
+.reveal .title-slide .date {
+  color: #b8bcc4;
+  font-size: 0.95em;
+}
+
+/* ---- Slides en general ---- */
+.reveal .slides section {
+  text-align: left;
+}
+
+.reveal .slides section h2 {
+  font-family: var(--r-heading-font);
+  font-weight: 700;
+  color: #e8eaed;
+  border-left: 4px solid #5eb3d6;
+  padding-left: 0.35em;
+  margin-bottom: 0.6em;
+  font-size: 1.5em;
+}
+
+.reveal .slides section h3 {
+  font-family: var(--r-heading-font);
+  font-weight: 600;
+  color: #c8ccd4;
+  font-size: 1.15em;
+}
+
+.reveal .slides section p,
+.reveal .slides section li {
+  color: var(--r-main-color);
+  line-height: 1.55;
+}
+
+.reveal .slides section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.reveal .slides section ul li {
+  position: relative;
+  padding-left: 1.35em;
+  margin-bottom: 0.35em;
+}
+
+.reveal .slides section ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 6px;
+  height: 6px;
+  background: linear-gradient(135deg, #5eb3d6, #8b5cf6);
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(94, 179, 214, 0.4);
+}
+
+/* ---- Código y bloques ---- */
+.reveal pre {
+  background: #161d28 !important;
+  border: 1px solid #2a3548;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.reveal code {
+  font-family: "JetBrains Mono", "Fira Code", "SF Mono", monospace;
+  background: rgba(94, 179, 214, 0.12);
+  color: #8ed4f0;
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.reveal pre code {
+  background: transparent;
+  color: #b8bcc4;
+  padding: 0;
+}
+
+/* ---- Gráficos / figuras ---- */
+.reveal .slide-content .cell-output-display img,
+.reveal figure img {
+  border-radius: 8px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  border: 1px solid #2a3548;
+}
+
+/* ---- Tablas ---- */
+.reveal table {
+  border-collapse: collapse;
+  font-size: 0.85em;
+}
+
+.reveal th {
+  background: linear-gradient(180deg, #1e2a3a, #161d28);
+  color: #5eb3d6;
+  font-weight: 600;
+  padding: 0.5em 0.75em;
+  border: 1px solid #2a3548;
+}
+
+.reveal td {
+  padding: 0.4em 0.75em;
+  border: 1px solid #2a3548;
+  color: var(--r-main-color);
+}
+
+.reveal tr:nth-child(even) {
+  background: rgba(94, 179, 214, 0.04);
+}
+
+/* ---- Dos columnas ---- */
+.reveal .columns .column {
+  padding-right: 1.5em;
+}
+
+/* ---- Footer ---- */
+.reveal .slide-number {
+  color: #5eb3d6 !important;
+  font-family: var(--r-main-font);
+  font-size: 0.75em;
+  opacity: 0.8;
+}
+
+.reveal .footer {
+  color: #6b7a8c;
+  font-size: 0.7em;
+}
+
+/* ---- Preguntas / cierre ---- */
+.reveal .slides section:has(h2:last-child) p {
+  font-size: 1.05em;
+}
+
+/* ---- Acentos "nodo" decorativos opcionales ---- */
+.reveal .slide-background.present {
+  position: relative;
+}
+
+.reveal .slide-background.present::after {
+  content: "";
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  width: 60px;
+  height: 60px;
+  background: radial-gradient(circle, rgba(94, 179, 214, 0.15) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+/* ---- Transiciones suaves ---- */
+.reveal .slides section {
+  transition: opacity 0.35s ease;
+}
+
+.reveal .slides section .fragment {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.reveal .slides section .fragment.highlight-current-green.current-fragment {
+  color: #5eb3d6;
+}
+
+.reveal .slides section a {
+  color: var(--r-link-color);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.reveal .slides section a:hover {
+  color: var(--r-link-color-hover);
+  border-bottom-color: var(--r-link-color-hover);
+}
