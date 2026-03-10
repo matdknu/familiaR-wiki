@@ -1,0 +1,163 @@
+---
+title: "Identificación de élites<br>en América Latina"
+subtitle: "Un acercamiento desde Wikipedia"
+author: "Matías Deneken"
+date: "April 2026"
+format:
+  revealjs:
+    theme: simple
+    fontsize: 28px
+    slide-number: true
+    transition: fade
+    background-transition: fade
+    controls: true
+    controls-layout: bottom-right
+    margin: 0.2
+    footer: "8th Annual COMPTEXT Conference 2026"
+    css: comptext-theme.css
+---
+
+## 
+
+## 
+
+## Pregunta de investigación
+
+¿Cómo identificar élites familiares y político-institucionales en LATAM con datos abiertos y texto semiestructurado?
+
+-   Integrar biografías + infobox + metadatos de relaciones.
+-   Construir redes comparables entre países.
+-   Detectar familias puente y nodos de intermediación.
+
+## Diseño de red propuesto (apto para paper)
+
+1.  **Capa 1 (persona-persona, intra-país):** parentesco explícito (`padres`, `hijos`, `conyuge`, `hermanos`, `personas_relacionadas`).
+2.  **Capa 2 (familia-familia):** agregar aristas cuando dos personas de distinta familia tienen vínculo verificable.
+3.  **Capa 3 (país-país):** agregar lazos familiares y diplomático-profesionales entre países.
+4.  **Capa temporal (opcional):** repetir 1-3 por ventana (ej. décadas) para evaluar cambio de élites.
+
+**Lectura analítica:** - Micro: actores centrales (degree, betweenness). - Meso: comunidades/bloques de poder (Leiden/Louvain). - Macro: estructura regional y países bisagra.
+
+## Métricas y tests recomendados
+
+-   **Centralidad**: degree, betweenness, eigenvector.
+-   **Estructura**: modularidad, densidad, assortativity por familia y país.
+-   **Puentes**: edge betweenness y cut-vertices.
+-   **Robustez**: repetir por ventana temporal y por tipo de vínculo.
+-   **Sensibilidad**: comparar con/sin nodos de baja confianza extraídos por LLM.
+
+::: fragment
+Compara redes observadas con null models (degree-preserving randomization) para evaluar si la concentración es mayor a lo esperable por azar.
+:::
+
+## Evidencia: red intra-país (ejemplo Chile)
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "Red de personas relacionadas (Chile). Tamaño del nodo = grado."
+knitr::include_graphics(
+  if (file.exists("../outputs/figures/exploracion_redes_pais/red_chile.png"))
+    "../outputs/figures/exploracion_redes_pais/red_chile.png"
+  else
+    "https://placehold.co/800x500/1a2332/5eb3d6?text=Red+intra-país"
+)
+```
+
+## Evidencia: red regional entre países
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "Uniones familiares y vínculos diplomático-profesionales entre países."
+knitr::include_graphics(
+  if (file.exists("../outputs/figures/exploracion_union_entre_paises.png"))
+    "../outputs/figures/exploracion_union_entre_paises.png"
+  else
+    "https://placehold.co/800x450/1a2332/8b5cf6?text=Red+regional"
+)
+```
+
+## Scraping: proceso documentado (paso a paso)
+
+**Objetivo:** extraer y consolidar familias políticas por país sin perder trazabilidad.
+
+1.  **Extracción por país**: `scripts/01_scraping/scraper_all_families.py --country <pais> --workers 1 --resume`
+2.  **Raw inmutable**: almacenar en `data/raw/<pais>/familias/` (nunca sobreescribir manualmente).
+3.  **Organización y merge**: `scripts/03_analysis/organizar_repo.py` genera `data/processed/familias/<pais>/consolidado.csv` y `data/processed/familias/_CONSOLIDADO_familias_latam.csv`.
+4.  **Curación manual controlada**: `scripts/03_analysis/agregar_familias_manual.py` para añadir casos fuera de Wikipedia.
+5.  **Extracción de estructura infobox**: `scripts/03_analysis/extract_infobox_labels.py` para tablas de variables comparables.
+6.  **Trazabilidad**: guardar fecha de corrida, país y script usado en logs y en README de resultados.
+
+## Scraping: control de calidad y gobernanza
+
+-   **Rate limit**: `WIKI_USER_AGENT`, `workers=1`, reintentos.
+-   **Deduplicación**: URL canónica de Wikipedia como llave principal.
+-   **Auditoría**: logs por país + conteo de filas antes/después.
+-   **Versionado**: raw no se sobreescribe; procesado se regenera desde scripts.
+-   **Riesgos**: sesgo de cobertura Wikipedia y ambigüedad de parentescos.
+
+## Prompt sugerido: identificación de familias (LLM)
+
+``` text
+Rol: extractor de relaciones familiares para investigación social computacional.
+Contexto: recibirás texto de biografía e infobox de Wikipedia (en español).
+Objetivo: identificar familia principal, vínculos y evidencia textual verificable.
+
+Devuelve SOLO JSON válido con estas claves exactas:
+{
+  "persona": string|null,
+  "familia_principal": string|null,
+  "familias_mencionadas": [string],
+  "vinculos_familiares": [
+    {
+      "tipo": "padre|madre|hijo|hija|conyuge|hermano|hermana|otro",
+      "nombre": string,
+      "url_wikipedia": string|null,
+      "evidencia_textual": string
+    }
+  ],
+  "pais_inferido": string|null,
+  "confianza": number,
+  "razonamiento_breve": string,
+  "alertas_calidad": [string]
+}
+
+Reglas:
+1) No inventes relaciones no explícitas.
+2) Si hay duda, usa null y baja confianza.
+3) Prioriza infobox y luego texto biográfico.
+4) Mantén apellidos normalizados (sin títulos ni cargos).
+5) Si hay homónimos, agrega alerta en "alertas_calidad".
+6) Si una relación es inferida indirectamente, marcarla como "otro" y justificar.
+```
+
+## Prompt sugerido: clasificación de enlaces para la red
+
+``` text
+Clasifica cada vínculo entre A y B en una sola etiqueta:
+"familiar", "diplomatico_profesional", "mixto" o "insuficiente".
+Usa únicamente evidencia textual entregada.
+Si no hay evidencia directa, responde "insuficiente".
+Entrega JSON: {"etiqueta": "...", "evidencia": "...", "confianza": 0-1}
+```
+
+## Depuración del proyecto (qué sí borrar)
+
+-   **Datos**: columnas vacías sistemáticas, duplicados exactos y auto-loops.
+-   **Muestras**: páginas sin evidencia de relación familiar/política verificable.
+-   **Scripts legacy**: mover a `archive/` lo no usado en el flujo activo.
+-   **Outputs viejos**: figuras/tablas sin script trazable.
+-   **Documentación obsoleta**: referencias a scripts inexistentes.
+
+**Candidatos inmediatos para limpieza técnica** - `archive/deprecated_scripts/*` (si ya no se requieren para replicación histórica). - `scripts/03_analysis/red_familias_multipais.R` (reemplazado por `red_familias_multipais_v2.R`). - `scripts/03_analysis/network_analysis.R` (si no forma parte del pipeline vigente). - Secciones desactualizadas en `WORKFLOW.md` (scripts no existentes en `02_processing`).
+
+## Cierre
+
+La combinación de scraping reproducible + text mining + redes permite:
+
+1.  Detectar élites familiares por país.
+2.  Medir nodos puente y coaliciones transnacionales.
+3.  Comparar estructura de poder entre países con métricas consistentes.
+
+**Siguiente paso recomendado:** incluir capa temporal (décadas) para modelar cambio de élites antes/después de shocks políticos.
