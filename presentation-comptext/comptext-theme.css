@@ -1,232 +1,356 @@
 /* ==========================================================================
-   COMPTEXT 2026 — Redes, Text Mining, identificación de élites
-   Tema: elegante, moderno, tonos de red / grafos
+   COMPTEXT 2026 — Base IC2S2 adaptada
+   Referencia: styles.css de rcantillan/slides (IC2S2)
    ========================================================================== */
 
-/* ---- Variables (override Reveal) ---- */
+@import url("https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600;700&display=swap");
+
 .reveal {
-  --r-background-color: #0f1419;
-  --r-main-font: "DM Sans", "Source Sans 3", system-ui, sans-serif;
-  --r-heading-font: "Outfit", "DM Sans", system-ui, sans-serif;
-  --r-heading-color: #e8eaed;
-  --r-main-color: #b8bcc4;
-  --r-link-color: #5eb3d6;
-  --r-link-color-hover: #8ed4f0;
-  --r-selection-background-color: #2a3f5f;
-  --r-selection-color: #fff;
+  --r-background-color: #f7f9fc;
+  --r-main-font: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --r-heading-font: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --r-main-color: #1f2937;
+  --r-heading-color: #5431b2;
+  --r-link-color: #315fbe;
+  --r-link-color-hover: #24498f;
+  --r-selection-background-color: #d8e4ff;
+  --r-selection-color: #1e3a6d;
+  --r-main-font-size: 30px;
+  line-height: 1.2;
 }
 
-/* ---- Import tipografía moderna ---- */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&family=Outfit:wght@400;600;700&display=swap');
+.reveal-viewport,
+html,
+body {
+  background: #ffffff !important;
+  background-image: none !important;
+}
 
-/* ---- Fondo con sutiles nodos / red ---- */
 .reveal .slides {
-  background-color: #0f1419;
-  background-image:
-    radial-gradient(circle at 20% 30%, rgba(94, 179, 214, 0.06) 0%, transparent 45%),
-    radial-gradient(circle at 80% 70%, rgba(139, 92, 246, 0.05) 0%, transparent 45%),
-    radial-gradient(circle at 50% 50%, rgba(94, 179, 214, 0.03) 0%, transparent 60%);
+  background: #ffffff !important;
 }
 
-/* ---- Título y portada ---- */
-.reveal .slide-background-title {
-  background: linear-gradient(135deg, #0f1419 0%, #1a2332 100%) !important;
-}
-
-.reveal .title-slide h1 {
-  font-family: var(--r-heading-font);
-  font-weight: 700;
-  color: #fff;
-  text-shadow: 0 0 40px rgba(94, 179, 214, 0.2);
-  letter-spacing: -0.02em;
-  border-bottom: 3px solid transparent;
-  border-image: linear-gradient(90deg, #5eb3d6, #8b5cf6) 1;
-  padding-bottom: 0.2em;
-  margin-bottom: 0.25em;
-}
-
-.reveal .title-slide h2 {
-  font-family: var(--r-main-font);
-  font-weight: 400;
-  color: #8b9cb3;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  font-size: 0.85em;
-}
-
-.reveal .title-slide .author,
-.reveal .title-slide .date {
-  color: #b8bcc4;
-  font-size: 0.95em;
-}
-
-/* ---- Slides en general ---- */
 .reveal .slides section {
   text-align: left;
+  background: transparent !important;
+  box-shadow: none !important;
 }
 
-.reveal .slides section h2 {
-  font-family: var(--r-heading-font);
-  font-weight: 700;
-  color: #e8eaed;
-  border-left: 4px solid #5eb3d6;
-  padding-left: 0.35em;
-  margin-bottom: 0.6em;
-  font-size: 1.5em;
+/* Fuerza títulos arriba en slides normales */
+.reveal .slides section:not(#title-slide) {
+  padding-top: 0.15em;
 }
 
-.reveal .slides section h3 {
-  font-family: var(--r-heading-font);
-  font-weight: 600;
-  color: #c8ccd4;
-  font-size: 1.15em;
+.reveal .slides section:not(#title-slide) h2 {
+  margin-top: 0 !important;
 }
 
-.reveal .slides section p,
-.reveal .slides section li {
-  color: var(--r-main-color);
-  line-height: 1.55;
+/* Evitar clipping de encabezados en slides normales */
+.reveal .slides section:not(#title-slide) {
+  overflow: visible !important;
 }
 
-.reveal .slides section ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.reveal .slides section ul li {
+/* Portada */
+#title-slide.quarto-title-block {
   position: relative;
-  padding-left: 1.35em;
-  margin-bottom: 0.35em;
+  overflow: hidden;
+  border-radius: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  background: #ffffff !important;
+  border-top: 0;
+  text-align: left !important;
 }
 
-.reveal .slides section ul li::before {
+#title-slide.quarto-title-block::before {
   content: "";
   position: absolute;
   left: 0;
-  top: 0.55em;
-  width: 6px;
-  height: 6px;
-  background: linear-gradient(135deg, #5eb3d6, #8b5cf6);
-  border-radius: 50%;
-  box-shadow: 0 0 8px rgba(94, 179, 214, 0.4);
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  background-image: url("image/america-latam.jpg");
+  background-size: contain;
+  background-position: left center;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  z-index: 0;
 }
 
-/* ---- Código y bloques ---- */
+#title-slide.quarto-title-block::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: #e3e9f2;
+  z-index: 1;
+}
+
+#title-slide.quarto-title-block > * {
+  position: relative;
+  z-index: 2;
+  margin-left: 50%;
+  width: calc(50% - 2.25em);
+  text-align: center !important;
+  padding-left: 1.15em;
+  padding-right: 1.1em;
+  box-sizing: border-box;
+}
+
+#title-slide h1 {
+  color: #2f2a85;
+  font-size: 1.34em;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  margin-top: 3em;
+  margin-bottom: 0.14em;
+  font-weight: 700;
+  text-shadow: none;
+  text-align: center !important;
+}
+
+#title-slide .subtitle,
+#title-slide h2 {
+  font-family: var(--r-main-font);
+  color: #475970;
+  font-size: 0.68em;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+  margin-top: 0.1em;
+  line-height: 1.25;
+  text-align: center !important;
+}
+
+#title-slide .quarto-title-authors {
+  position: absolute;
+  left: 50%;
+  bottom: 2.5em;
+  width: 50%;
+  margin: 0;
+  padding-left: 1.15em;
+  padding-right: 1.1em;
+  text-align: center !important;
+}
+
+#title-slide .quarto-title-author-name {
+  color: #5a6a82;
+  font-size: 0.43em;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  display: block;
+}
+
+#title-slide .quarto-title-author-name::after {
+  content: "LSE (coming soon)";
+  display: block;
+  color: #7a889e;
+  font-size: 0.9em;
+  font-weight: 400;
+  margin-top: 0.2em;
+}
+
+#title-slide .quarto-title-authors::after {
+  content: "8th Annual COMPTEXT Conference 2026";
+  display: block;
+  color: #ffffff;
+  background: #5431b2;
+  font-size: 0.38em;
+  font-weight: 500;
+  margin-top: 0.8em;
+  padding: 0.4em 1em;
+  border-radius: 3px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+#title-slide .date {
+  display: none;
+}
+
+/* Jerarquía tipográfica compacta */
+.reveal h2 {
+  color: #5431b2;
+  font-size: 1.12em;
+  line-height: 1.16;
+  margin: 0 0 0.36em 0;
+  padding-bottom: 0.12em;
+  border-bottom: 1px solid #d8deef;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.reveal h3 {
+  font-family: var(--r-main-font);
+  font-size: 0.74em;
+  color: #304866;
+  font-weight: 600;
+  margin: 0.24em 0 0.14em;
+}
+
+.reveal p,
+.reveal li {
+  color: var(--r-main-color);
+  font-size: 0.78em;
+  line-height: 1.28;
+}
+
+.reveal p {
+  margin: 0.16em 0 0.26em;
+}
+
+.reveal ul,
+.reveal ol {
+  margin: 0.12em 0 0.18em 0.82em;
+}
+
+.reveal li {
+  margin-bottom: 0.14em;
+}
+
+/* Código */
 .reveal pre {
-  background: #161d28 !important;
-  border: 1px solid #2a3548;
-  border-radius: 8px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  background: #f8fbff !important;
+  border: 1px solid #dde6f2;
+  border-radius: 6px;
+  box-shadow: none;
+  font-size: 0.52em;
+  line-height: 1.22;
 }
 
 .reveal code {
-  font-family: "JetBrains Mono", "Fira Code", "SF Mono", monospace;
-  background: rgba(94, 179, 214, 0.12);
-  color: #8ed4f0;
-  padding: 0.15em 0.4em;
+  font-family: "JetBrains Mono", "SFMono-Regular", Menlo, Consolas, monospace;
+  background: #f1f6fd;
+  color: #163d73;
   border-radius: 4px;
-  font-size: 0.9em;
+  padding: 0.1em 0.32em;
+  font-size: 0.76em;
 }
 
 .reveal pre code {
   background: transparent;
-  color: #b8bcc4;
+  color: #334155;
   padding: 0;
 }
 
-/* ---- Gráficos / figuras ---- */
-.reveal .slide-content .cell-output-display img,
-.reveal figure img {
-  border-radius: 8px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
-  border: 1px solid #2a3548;
+/* Figuras */
+.reveal figure img,
+.reveal .slide-content .cell-output-display img {
+  border: 1px solid #d6deea;
+  border-radius: 6px;
+  box-shadow: 0 3px 14px rgba(16, 35, 61, 0.08);
 }
 
-/* ---- Tablas ---- */
+.reveal figcaption,
+.reveal .figure-caption {
+  color: #4d6078;
+  font-size: 0.5em;
+  margin-top: 0.25em;
+}
+
+/* Tablas */
 .reveal table {
   border-collapse: collapse;
-  font-size: 0.85em;
+  font-size: 0.53em;
 }
 
 .reveal th {
-  background: linear-gradient(180deg, #1e2a3a, #161d28);
-  color: #5eb3d6;
+  background: #ebeff8;
+  color: #3d2b83;
+  border: 1px solid #c9d6e8;
   font-weight: 600;
-  padding: 0.5em 0.75em;
-  border: 1px solid #2a3548;
+  padding: 0.26em 0.46em;
 }
 
 .reveal td {
-  padding: 0.4em 0.75em;
-  border: 1px solid #2a3548;
-  color: var(--r-main-color);
+  border: 1px solid #d4deec;
+  color: #1f2a37;
+  padding: 0.22em 0.44em;
 }
 
 .reveal tr:nth-child(even) {
-  background: rgba(94, 179, 214, 0.04);
+  background: #f1f5fb;
 }
 
-/* ---- Dos columnas ---- */
+/* Layout */
 .reveal .columns .column {
-  padding-right: 1.5em;
+  padding-right: 0.58em;
 }
 
-/* ---- Footer ---- */
+/* Footer y navegación */
 .reveal .slide-number {
-  color: #5eb3d6 !important;
-  font-family: var(--r-main-font);
-  font-size: 0.75em;
-  opacity: 0.8;
+  color: #315d93 !important;
+  font-size: 0.42em;
+  opacity: 0.85;
 }
 
 .reveal .footer {
-  color: #6b7a8c;
-  font-size: 0.7em;
+  color: #60748e;
+  font-size: 0.42em;
 }
 
-/* ---- Preguntas / cierre ---- */
-.reveal .slides section:has(h2:last-child) p {
-  font-size: 1.05em;
-}
-
-/* ---- Acentos "nodo" decorativos opcionales ---- */
-.reveal .slide-background.present {
-  position: relative;
-}
-
-.reveal .slide-background.present::after {
-  content: "";
-  position: absolute;
-  bottom: 1rem;
-  right: 1rem;
-  width: 60px;
-  height: 60px;
-  background: radial-gradient(circle, rgba(94, 179, 214, 0.15) 0%, transparent 70%);
-  border-radius: 50%;
-  pointer-events: none;
-}
-
-/* ---- Transiciones suaves ---- */
-.reveal .slides section {
-  transition: opacity 0.35s ease;
-}
-
-.reveal .slides section .fragment {
-  transition: opacity 0.3s ease, transform 0.3s ease;
-}
-
-.reveal .slides section .fragment.highlight-current-green.current-fragment {
-  color: #5eb3d6;
-}
-
-.reveal .slides section a {
+.reveal a {
   color: var(--r-link-color);
   text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: color 0.2s ease, border-color 0.2s ease;
+  border-bottom: 1px solid rgba(49, 95, 190, 0.35);
 }
 
-.reveal .slides section a:hover {
+.reveal a:hover {
   color: var(--r-link-color-hover);
-  border-bottom-color: var(--r-link-color-hover);
+  border-bottom-color: rgba(36, 73, 143, 0.55);
+}
+
+/* --- Portada final limpia --- */
+#title-slide h1 {
+  margin-top: 5.2em !important;
+  text-align: center !important;
+  font-size: 1.14em;
+}
+
+#title-slide .subtitle,
+#title-slide h2 {
+  text-align: center !important;
+}
+
+#title-slide .date {
+  display: none !important;
+}
+
+#title-slide .quarto-title-authors {
+  position: absolute;
+  left: 50%;
+  bottom: 2em;
+  width: 50%;
+  padding-left: 1.15em;
+  padding-right: 1.1em;
+  text-align: center !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title-slide .quarto-title-author-name::after {
+  content: "LSE (coming soon)";
+  display: block;
+  color: #7a889e;
+  font-size: 0.9em;
+  font-weight: 400;
+  margin-top: 0.2em;
+}
+
+#title-slide .quarto-title-authors::after {
+  content: none;
+}
+
+/* Slides normales — reseteo explícito */
+.reveal .slides section:not(#title-slide) h2 {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  text-align: left !important;
+  font-size: 1.12em !important;
 }
