@@ -139,7 +139,7 @@ body {
 
 #title-slide .quarto-title-author-name {
   color: #5a6a82;
-  font-size: 0.43em;
+  font-size: 0.7em;
   font-weight: 600;
   letter-spacing: 0.01em;
   display: block;
@@ -149,11 +149,12 @@ body {
   content: "PhD Computational Social Science (Accepted)\a London School of Economics";
   display: block;
   color: #7a889e;
-  font-size: 0.9em;
+  font-size: 0.75em;
   font-weight: 400;
   font-style: italic;
-  margin-top: 0.2em;
+  margin-top: 0.3em;
   white-space: pre-line;
+  line-height: 1.5;
 }
 
 #title-slide .quarto-title-authors::after {
@@ -340,11 +341,12 @@ body {
   content: "PhD Computational Social Science (Accepted)\a London School of Economics";
   display: block;
   color: #7a889e;
-  font-size: 0.9em;
+  font-size: 0.75em;
   font-weight: 400;
   font-style: italic;
-  margin-top: 0.2em;
+  margin-top: 0.3em;
   white-space: pre-line;
+  line-height: 1.5;
 }
 
 #title-slide .quarto-title-authors::after {
