@@ -146,12 +146,14 @@ body {
 }
 
 #title-slide .quarto-title-author-name::after {
-  content: "LSE (coming soon)";
+  content: "PhD Computational Social Science (Accepted)\a London School of Economics";
   display: block;
   color: #7a889e;
   font-size: 0.9em;
   font-weight: 400;
+  font-style: italic;
   margin-top: 0.2em;
+  white-space: pre-line;
 }
 
 #title-slide .quarto-title-authors::after {
@@ -335,12 +337,14 @@ body {
 }
 
 #title-slide .quarto-title-author-name::after {
-  content: "LSE (coming soon)";
+  content: "PhD Computational Social Science (Accepted)\a London School of Economics";
   display: block;
   color: #7a889e;
   font-size: 0.9em;
   font-weight: 400;
+  font-style: italic;
   margin-top: 0.2em;
+  white-space: pre-line;
 }
 
 #title-slide .quarto-title-authors::after {
