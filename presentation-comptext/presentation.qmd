@@ -23,9 +23,21 @@ format:
 
 # Rastrear las familias de elite latinomericana desde los apellidos ¿Es eso posible?
 
-# ¿Son los apellidos un demarcativo de las elites en Latinamérica? 
+# ¿Son los apellidos un demarcativo de las elites en Latinamérica?
 
 ## Why is impo
+
+## .
+
+![](images/PINERA.png){fig-align="center"}
+
+# .
+
+![](images/pinera-milei.png){fig-align="center"}
+
+## .
+
+![](images/pinera-millei-allende.png){fig-align="center"}
 
 ## Pregunta de investigación
 
