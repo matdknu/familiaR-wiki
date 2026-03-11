@@ -60,6 +60,18 @@ wiki-chile_project/
 
 ---
 
+## 🎬 Presentación COMPTEXT 2026
+
+**[Ver presentación del proyecto](https://matdknu.github.io/familiaR-wiki/presentation-comptext/presentation.html)**
+
+Presentación preparada para la 8th Annual COMPTEXT Conference 2026, que incluye:
+- Diseño de red propuesto (persona-persona, familia-familia, país-país)
+- Métricas y tests recomendados
+- Proceso de scraping documentado
+- Prompts sugeridos para identificación de familias con LLM
+
+---
+
 ## 🚀 Inicio Rápido
 
 ### Requisitos previos
