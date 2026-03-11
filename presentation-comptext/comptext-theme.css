@@ -148,7 +148,7 @@ body {
 #title-slide .quarto-title-author-name::after {
   content: "PhD Computational Social Science (Accepted)\a London School of Economics";
   display: block;
-  color: #7a889e;
+  color: #1f2937;
   font-size: 0.75em;
   font-weight: 400;
   font-style: italic;
@@ -340,7 +340,7 @@ body {
 #title-slide .quarto-title-author-name::after {
   content: "PhD Computational Social Science (Accepted)\a London School of Economics";
   display: block;
-  color: #7a889e;
+  color: #1f2937;
   font-size: 0.75em;
   font-weight: 400;
   font-style: italic;

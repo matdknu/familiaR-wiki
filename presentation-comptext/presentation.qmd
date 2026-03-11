@@ -21,6 +21,12 @@ format:
 
 ## 
 
+# Rastrear las familias de elite latinomericana desde los apellidos ¿Es eso posible?
+
+# ¿Son los apellidos un demarcativo de las elites en Latinamérica? 
+
+## Why is impo
+
 ## Pregunta de investigación
 
 ¿Cómo identificar élites familiares y político-institucionales en LATAM con datos abiertos y texto semiestructurado?
