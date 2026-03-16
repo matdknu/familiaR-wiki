@@ -442,3 +442,29 @@ body {
   color: #1f2937 !important;
   font-style: italic !important;
 }
+
+#thank-you-slide .thank-you-content .email-link,
+#thank-you-slide .thank-you-content .github-link {
+  display: block !important;
+  color: #315fbe !important;
+  font-size: 0.6em !important;
+  margin: 0.3em 0 !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+#thank-you-slide .thank-you-content .github-link {
+  margin-top: 0.2em !important;
+}
+
+#thank-you-slide .conference-badge {
+  margin-top: 1.5em !important;
+  padding: 0.5em 1.2em !important;
+  background: #5431b2 !important;
+  color: #ffffff !important;
+  font-size: 0.5em !important;
+  font-weight: 500 !important;
+  border-radius: 4px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.04em !important;
+}

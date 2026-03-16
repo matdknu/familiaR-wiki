@@ -53,4 +53,12 @@ format:
 *PhD Computational Social Science (Accepted)*
 
 *London School of Economics*
+
+[m.deneken\@uc.cl](mailto:m.deneken@uc.cl){.email-link}
+
+[GitHub: \@matdknu](https://github.com/matdknu){.github-link}
+
+::: conference-badge
+8th Annual COMPTEXT Conference 2026
+:::
 :::
