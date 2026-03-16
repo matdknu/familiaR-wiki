@@ -457,14 +457,3 @@ body {
   margin-top: 0.2em !important;
 }
 
-#thank-you-slide .conference-badge {
-  margin-top: 1.5em !important;
-  padding: 0.5em 1.2em !important;
-  background: #5431b2 !important;
-  color: #ffffff !important;
-  font-size: 0.5em !important;
-  font-weight: 500 !important;
-  border-radius: 4px !important;
-  text-transform: uppercase !important;
-  letter-spacing: 0.04em !important;
-}

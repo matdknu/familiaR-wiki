@@ -13,7 +13,7 @@ format:
     controls: true
     controls-layout: bottom-right
     margin: 0.2
-    footer: "8th Annual COMPTEXT Conference 2026"
+    footer: "8th Annual COMPTEXT Conference 2026 | GitHub: @matdknu"
     css: comptext-theme.css
 ---
 
@@ -57,8 +57,4 @@ format:
 [m.deneken\@uc.cl](mailto:m.deneken@uc.cl){.email-link}
 
 [GitHub: \@matdknu](https://github.com/matdknu){.github-link}
-
-::: conference-badge
-8th Annual COMPTEXT Conference 2026
-:::
 :::
