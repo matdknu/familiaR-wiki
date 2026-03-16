@@ -397,23 +397,32 @@ if (nrow(all_edges_plot) > 0) {
   # Facet: una red por país; sin color por familia (solo tamaño = grado)
   nodos_con_label <- all_nodes_plot %>% filter(es_top)
   p_facet <- ggplot() +
-    geom_segment(data = all_edges_plot, aes(x = x_from, y = y_from, xend = x_to, yend = y_to), color = "gray65", alpha = 0.35, linewidth = 0.25) +
-    geom_point(data = all_nodes_plot, aes(x = x, y = y, size = grado + 0.5), color = "steelblue", alpha = 0.75, shape = 19)
+    geom_segment(data = all_edges_plot, aes(x = x_from, y = y_from, xend = x_to, yend = y_to), color = "gray50", alpha = 0.4, linewidth = 0.3) +
+    geom_point(data = all_nodes_plot, aes(x = x, y = y, size = grado + 0.5), color = "#3366CC", alpha = 0.8, shape = 19)
   # Etiquetas de top conectores (geom_text con overlap para evitar error de viewport en facet)
   if (nrow(nodos_con_label) > 0) {
     p_facet <- p_facet +
-      geom_text(data = nodos_con_label, aes(x = x, y = y, label = nombre_label), size = 2, check_overlap = TRUE, hjust = -0.1, vjust = 0)
+      geom_text(data = nodos_con_label, aes(x = x, y = y, label = nombre_label), size = 2.5, check_overlap = TRUE, hjust = -0.1, vjust = 0, fontface = "bold")
   }
   p_facet <- p_facet +
-    scale_size_continuous(range = c(0.8, 4), name = "Conexiones") +
-    facet_wrap(~ pais_label, scales = "free", ncol = 4) +
+    scale_size_continuous(range = c(1.2, 5), name = "Connections") +
+    facet_wrap(~ pais_label, scales = "free", ncol = 5) +
     labs(
-      title = "Redes por país (personas relacionadas)",
-      subtitle = "Tamaño = número de conexiones. Color por familia en el gráfico dedicado por país."
+      title = NULL,
+      subtitle = NULL
     ) +
-    theme_void(base_size = 10) +
-    theme(strip.text = element_text(face = "bold", size = 11), plot.title = element_text(face = "bold", hjust = 0.5), plot.subtitle = element_text(hjust = 0.5, color = "gray40"), legend.position = "right")
-  ggsave("outputs/figures/exploracion_redes_facet.png", p_facet, width = 18, height = 8, dpi = 150)
+    theme_void(base_size = 12) +
+    theme(
+      strip.text = element_text(face = "bold", size = 14, color = "#2f2a85", margin = margin(b = 8)),
+      strip.background = element_rect(fill = "#f0f4f8", color = NA),
+      panel.spacing = unit(1.2, "lines"),
+      panel.background = element_rect(fill = "#fafbfc", color = "#e0e5eb", linewidth = 0.5),
+      legend.position = "bottom",
+      legend.title = element_text(face = "bold", size = 10),
+      legend.text = element_text(size = 9),
+      plot.margin = margin(10, 10, 10, 10)
+    )
+  ggsave("outputs/figures/exploracion_redes_facet.png", p_facet, width = 20, height = 7, dpi = 200)
   message("Guardado: outputs/figures/exploracion_redes_facet.png")
 
   # Una figura por país (mismo estilo, color por familia)
