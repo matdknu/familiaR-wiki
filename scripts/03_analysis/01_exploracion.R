@@ -422,7 +422,7 @@ if (nrow(all_edges_plot) > 0) {
       legend.text = element_text(size = 9),
       plot.margin = margin(10, 10, 10, 10)
     )
-  ggsave("outputs/figures/exploracion_redes_facet.png", p_facet, width = 20, height = 7, dpi = 200)
+  ggsave("outputs/figures/exploracion_redes_facet.png", p_facet, width = 20, height = 11, dpi = 200)
   message("Guardado: outputs/figures/exploracion_redes_facet.png")
 
   # Una figura por país (mismo estilo, color por familia)
