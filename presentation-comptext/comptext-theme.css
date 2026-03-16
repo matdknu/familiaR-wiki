@@ -361,7 +361,7 @@ body {
   font-size: 1.12em !important;
 }
 
-/* Thank You Slide */
+/* Thank You Slide - mirror of title slide */
 #thank-you-slide {
   position: relative !important;
   overflow: hidden !important;
@@ -376,25 +376,37 @@ body {
   display: none !important;
 }
 
-#thank-you-slide p:has(img.thank-you-image),
-#thank-you-slide .thank-you-image {
+/* Image on the RIGHT side via ::after */
+#thank-you-slide::after {
+  content: "" !important;
   position: absolute !important;
   right: 0 !important;
-  left: auto !important;
   top: 0 !important;
+  bottom: 0 !important;
   width: 50% !important;
-  height: 100% !important;
-  object-fit: contain !important;
-  object-position: right center !important;
-  margin: 0 !important;
-  padding: 0 !important;
+  background-image: url("image/america-latam.jpg") !important;
+  background-size: contain !important;
+  background-position: right center !important;
+  background-color: #ffffff !important;
+  background-repeat: no-repeat !important;
+  z-index: 0 !important;
 }
 
-#thank-you-slide .thank-you-text {
+/* Vertical line separator */
+#thank-you-slide::before {
+  content: "" !important;
   position: absolute !important;
-  left: 0 !important;
-  right: auto !important;
+  left: 50% !important;
   top: 0 !important;
+  bottom: 0 !important;
+  width: 1px !important;
+  background: #e3e9f2 !important;
+  z-index: 1 !important;
+}
+
+#thank-you-slide .thank-you-content {
+  position: relative !important;
+  z-index: 2 !important;
   width: 50% !important;
   height: 100% !important;
   display: flex !important;
@@ -404,30 +416,29 @@ body {
   text-align: center !important;
   padding: 1em !important;
   box-sizing: border-box !important;
-  border-right: 1px solid #e3e9f2 !important;
-  border-left: none !important;
 }
 
-#thank-you-slide .thank-you-text h1 {
+#thank-you-slide .thank-you-content h3 {
   color: #5431b2 !important;
-  font-size: 1.8em !important;
+  font-size: 1.6em !important;
   margin-bottom: 0.5em !important;
   font-weight: 700 !important;
   margin-top: 0 !important;
+  border-bottom: none !important;
 }
 
-#thank-you-slide .thank-you-text p {
-  font-size: 0.85em !important;
-  margin: 0.2em 0 !important;
+#thank-you-slide .thank-you-content p {
+  font-size: 0.7em !important;
+  margin: 0.15em 0 !important;
   text-align: center !important;
 }
 
-#thank-you-slide .thank-you-text p strong {
+#thank-you-slide .thank-you-content p strong {
   color: #2f2a85 !important;
-  font-size: 1.05em !important;
+  font-size: 1.1em !important;
 }
 
-#thank-you-slide .thank-you-text p em {
+#thank-you-slide .thank-you-content p em {
   color: #1f2937 !important;
   font-style: italic !important;
 }
