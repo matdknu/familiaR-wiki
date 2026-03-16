@@ -376,19 +376,24 @@ body {
   display: none !important;
 }
 
+#thank-you-slide p:has(img.thank-you-image),
 #thank-you-slide .thank-you-image {
   position: absolute !important;
-  left: 0 !important;
+  right: 0 !important;
+  left: auto !important;
   top: 0 !important;
   width: 50% !important;
   height: 100% !important;
   object-fit: contain !important;
-  object-position: left center !important;
+  object-position: right center !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 #thank-you-slide .thank-you-text {
   position: absolute !important;
-  right: 0 !important;
+  left: 0 !important;
+  right: auto !important;
   top: 0 !important;
   width: 50% !important;
   height: 100% !important;
@@ -399,7 +404,8 @@ body {
   text-align: center !important;
   padding: 1em !important;
   box-sizing: border-box !important;
-  border-left: 1px solid #e3e9f2 !important;
+  border-right: 1px solid #e3e9f2 !important;
+  border-left: none !important;
 }
 
 #thank-you-slide .thank-you-text h1 {
