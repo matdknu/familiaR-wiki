@@ -1,6 +1,6 @@
 ---
-title: "Identificación de élites<br>en América Latina"
-subtitle: "Un acercamiento desde Wikipedia"
+title: "Elite Identification in Latin America"
+subtitle: "Approaches from Natural Language Processing"
 author: "Matías Deneken"
 date: "April 2026"
 format:
