@@ -406,14 +406,14 @@ if (nrow(all_edges_plot) > 0) {
   }
   p_facet <- p_facet +
     scale_size_continuous(range = c(0.8, 4), name = "Conexiones") +
-    facet_wrap(~ pais_label, scales = "free", ncol = 2) +
+    facet_wrap(~ pais_label, scales = "free", ncol = 4) +
     labs(
       title = "Redes por país (personas relacionadas)",
       subtitle = "Tamaño = número de conexiones. Color por familia en el gráfico dedicado por país."
     ) +
     theme_void(base_size = 10) +
     theme(strip.text = element_text(face = "bold", size = 11), plot.title = element_text(face = "bold", hjust = 0.5), plot.subtitle = element_text(hjust = 0.5, color = "gray40"), legend.position = "right")
-  ggsave("outputs/figures/exploracion_redes_facet.png", p_facet, width = 12, height = 14, dpi = 150)
+  ggsave("outputs/figures/exploracion_redes_facet.png", p_facet, width = 18, height = 8, dpi = 150)
   message("Guardado: outputs/figures/exploracion_redes_facet.png")
 
   # Una figura por país (mismo estilo, color por familia)
