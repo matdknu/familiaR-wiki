@@ -39,9 +39,11 @@ format:
 
 ![](images/pinera-millei-allende.png){fig-align="center"}
 
-## {#thank-you-slide .thank-you}
+##  {#thank-you-slide .thank-you}
 
-::: {.thank-you-content}
+![](image/america-latam.jpg){.thank-you-image}
+
+::: thank-you-text
 # Thank you!
 
 **Elite Identification in Latin America**
