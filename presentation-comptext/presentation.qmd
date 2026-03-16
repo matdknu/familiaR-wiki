@@ -39,6 +39,10 @@ format:
 
 ![](images/pinera-millei-allende.png){fig-align="center"}
 
+## Family Networks by Country
+
+![](image/exploracion_redes_facet.png){fig-align="center"}
+
 ##  {#thank-you-slide}
 
 ::: thank-you-content
