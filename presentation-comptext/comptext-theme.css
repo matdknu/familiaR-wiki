@@ -354,9 +354,50 @@ body {
 }
 
 /* Slides normales — reseteo explícito */
-.reveal .slides section:not(#title-slide) h2 {
+.reveal .slides section:not(#title-slide):not(#thank-you-slide) h2 {
   margin-top: 0 !important;
   padding-top: 0 !important;
   text-align: left !important;
   font-size: 1.12em !important;
+}
+
+/* Thank You Slide */
+#thank-you-slide {
+  text-align: center !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 100% !important;
+}
+
+#thank-you-slide h2 {
+  display: none !important;
+}
+
+#thank-you-slide .thank-you-content {
+  text-align: center !important;
+}
+
+#thank-you-slide .thank-you-content h1 {
+  color: #5431b2 !important;
+  font-size: 2em !important;
+  margin-bottom: 0.5em !important;
+  font-weight: 700 !important;
+}
+
+#thank-you-slide .thank-you-content p {
+  font-size: 0.9em !important;
+  margin: 0.2em 0 !important;
+  text-align: center !important;
+}
+
+#thank-you-slide .thank-you-content p strong {
+  color: #2f2a85 !important;
+  font-size: 1.1em !important;
+}
+
+#thank-you-slide .thank-you-content p em {
+  color: #1f2937 !important;
+  font-style: italic !important;
 }

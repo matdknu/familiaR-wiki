@@ -39,4 +39,20 @@ format:
 
 ![](images/pinera-millei-allende.png){fig-align="center"}
 
-## 
+## {#thank-you-slide .thank-you}
+
+::: {.thank-you-content}
+# Thank you!
+
+**Elite Identification in Latin America**
+
+*Approaches from Natural Language Processing*
+
+<br>
+
+**Matías Deneken**
+
+*PhD Computational Social Science (Accepted)*
+
+*London School of Economics*
+:::
