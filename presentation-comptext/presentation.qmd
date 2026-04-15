@@ -41,7 +41,15 @@ format:
 
 ## Family Networks by Country
 
-![](image/exploracion_redes_facet.png){fig-align="center"}
+![](image/exploracion_redes_facet.png){.r-stretch fig-align="center"}
+
+## Hypothesis 1: Family Closure vs Political Concentration
+
+![](image/h1_family_closure_vs_political_concentration.png){.r-stretch fig-align="center"}
+
+## Hypothesis 4: Centrality and Family Closure
+
+![](image/h4_centrality_vs_family_closure.png){.r-stretch fig-align="center"}
 
 ##  {#thank-you-slide}
 
