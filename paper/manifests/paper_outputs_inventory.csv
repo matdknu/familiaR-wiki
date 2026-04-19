@@ -1,0 +1,17 @@
+tipo,seccion_paper,prioridad,status,source_rel,paper_rel,descripcion,observacion
+figure,descriptivo,alta,copiado,outputs/figures/exploracion_redes_facet.png,figures/F01_exploracion_redes_facet.png,Mapa comparativo de redes familiares por pais.,Util para apertura descriptiva.
+figure,transnacional,alta,copiado,outputs/figures/exploracion_union_entre_paises.png,figures/F02_union_entre_paises.png,Visualizacion de conexiones familiares entre paises.,Buen puente hacia dimension internacional.
+figure,hipotesis_h1,alta,copiado,outputs/figures/h1_family_closure_vs_political_concentration.png,figures/F03_h1_cierre_vs_concentracion.png,Contraste entre cierre familiar y concentracion politica.,Resultado central H1.
+figure,hipotesis_h4,alta,copiado,outputs/figures/h4_centrality_vs_family_closure.png,figures/F04_h4_centralidad_vs_cierre.png,Relacion entre centralidad inter-familiar y cierre.,Resultado central H4.
+data,insumo_persona,media,copiado,outputs/df_consolidado_enriquecido_gpt.csv,data/D01_df_consolidado_enriquecido_gpt.csv,Dataset enriquecido con variables GPT existentes.,Util para apendice metodologico y cruce con LLM.
+table,hipotesis_h1_h4,alta,copiado,outputs/tables/h1_h4_familias_pais.csv,tables/T01_h1_h4_familias_pais.csv,Base familiar con metricas derivadas para H1 y H4.,Dataset clave de resultados a nivel familia.
+table,hipotesis_h1_h4,alta,copiado,outputs/tables/h1_h4_resumen_pais.csv,tables/T02_h1_h4_resumen_pais.csv,Resumen agregado por pais para H1 y H4.,Sirve para tabla comparativa del paper.
+table,endogamia,alta,copiado,outputs/tables/endogamia_por_pais.csv,tables/T03_endogamia_por_pais.csv,Matrimonios endogamicos por pais.,Puede integrarse como tabla principal o apendice.
+table,transnacional,media,copiado,outputs/tables/conexiones_familiares_entre_paises.csv,tables/T04_conexiones_entre_paises.csv,Conexiones familiares identificadas entre paises.,Util para extension comparada.
+table,descriptivo,media,copiado,outputs/tables/elites_por_pais.csv,tables/T05_elites_por_pais.csv,Conteo de actores con cargos politicos por pais.,Buen insumo para seccion de muestra.
+table,calidad_datos,media,copiado,outputs/tables/json_limpieza_resumen.csv,tables/T06_json_limpieza_resumen.csv,Cobertura y validez del infobox_json por pais.,Importante para transparencia metodologica.
+table,redes,media,copiado,outputs/tables/metricas_red_por_pais.csv,tables/T07_metricas_red_por_pais.csv,Metricas de red por pais.,Revisar: el output actual parece repetido entre paises.
+report,borrador,media,copiado,outputs/reports/paper_redes_multipais.md,reports/paper_redes_multipais.md,Reporte exploratorio existente para el paper.,Sirve como base narrativa inicial.
+report,llm,media,copiado,outputs/reports/llm_membership_prompt.md,reports/llm_membership_prompt.md,Prompt estructurado para clasificacion politica y diplomatica.,Apoyo para futura enriquecimiento semantico.
+report,llm,media,copiado,outputs/reports/llm_membership_input_summary.json,reports/llm_membership_input_summary.json,Resumen de calidad del insumo JSONL para LLM.,Sirve para dimensionar enriquecimiento pendiente.
+report,llm,baja,copiado,outputs/reports/llm_membership_input.jsonl,reports/llm_membership_input.jsonl,Input preparado para clasificacion fila a fila con LLM.,Grande; util solo si se va a correr el enriquecimiento.

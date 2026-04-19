@@ -1,0 +1,25 @@
+{
+  "input_csv": "/Users/matdknu/Dropbox/social-data-science/wiki-chile_project/data/processed/familias/_CONSOLIDADO_familias_latam.csv",
+  "enriched_csv": "/Users/matdknu/Dropbox/social-data-science/wiki-chile_project/outputs/df_consolidado_enriquecido_gpt.csv",
+  "output_jsonl": "/Users/matdknu/Dropbox/social-data-science/wiki-chile_project/outputs/reports/llm_membership_input.jsonl",
+  "total_rows": 6731,
+  "valid_infobox_json_rows": 6724,
+  "invalid_or_missing_infobox_json_rows": 7,
+  "countries": {
+    "argentina": 1190,
+    "bolivia": 66,
+    "chile": 1418,
+    "colombia": 1411,
+    "ecuador": 116,
+    "mexico": 683,
+    "paraguay": 28,
+    "peru": 1394,
+    "uruguay": 149,
+    "venezuela": 276
+  },
+  "notes": [
+    "The JSONL is the file that should be sent row-by-row or batch-by-batch to the LLM API.",
+    "infobox_json_clean is validated before export.",
+    "infobox_items is already parsed into structured JSON when parsing succeeds."
+  ]
+}

@@ -1,0 +1,116 @@
+variable,nivel,dataset_fuente,tipo,rol,estado,descripcion
+nombre,persona,base_latam,string,identificacion,disponible,Nombre de la persona en Wikipedia.
+url,persona,base_latam,string,id,disponible,Identificador canonico de la persona.
+pais,persona,base_latam,string,comparacion,disponible,Pais asignado a cada registro.
+pais_origen,persona,base_latam,string,trazabilidad,disponible,Pais de origen del scraping o la categoria.
+familia,persona,base_latam,string,familia,disponible,Nombre de familia reportado en el consolidado.
+categoria_origen,persona,base_latam,string,familia,disponible,Categoria Wikipedia desde la cual se scrapeo.
+timestamp,persona,base_latam,datetime,trazabilidad,disponible,Momento del scraping o ingreso del registro.
+profundidad_scraping,persona,base_latam,integer,trazabilidad,disponible,Profundidad alcanzada en la exploracion del perfil.
+biografia_inicial,persona,base_latam,text,contenido,disponible,"Primer parrafo biografico, util para clasificacion rapida."
+biografia,persona,base_latam,text,contenido,disponible,Texto biografico extendido.
+infobox_completa,persona,base_latam,text,estructura,disponible,Version textual completa de la infobox.
+ocupacion,persona,base_latam,string,perfil_social,disponible,Ocupacion declarada en la pagina.
+cargos_politicos,persona,base_latam,text,elite_politica,disponible,Descripcion cruda de cargos politicos.
+partido_politico,persona,base_latam,string,politica,disponible,Afiliacion partidaria sin normalizar.
+fecha_nacimiento,persona,base_latam,string,temporalidad,disponible,Fecha de nacimiento en formato crudo.
+lugar_nacimiento,persona,base_latam,string,imputacion_pais,disponible,Lugar de nacimiento; una de las mejores senales para imputar pais.
+fecha_fallecimiento,persona,base_latam,string,temporalidad,disponible,Fecha de fallecimiento en formato crudo.
+lugar_fallecimiento,persona,base_latam,string,imputacion_pais,disponible,Lugar de fallecimiento; util para trayectorias y anclaje territorial.
+residencia,persona,base_latam,string,imputacion_pais,disponible,"Residencia declarada, util para anclaje geografico contemporaneo."
+nacionalidad,persona,base_latam,string,imputacion_pais,disponible,Nacionalidad explicita; senal fuerte de adscripcion nacional.
+religion,persona,base_latam,string,contenido,disponible,Atributo cultural-contextual secundario.
+educacion,persona,base_latam,string,trayectoria,disponible,Formacion educativa declarada.
+alma_mater,persona,base_latam,string,trayectoria,disponible,Institucion de educacion superior asociada al actor.
+periodo,persona,base_latam,string,temporalidad,disponible,Periodo de ejercicio o ubicacion historica.
+predecesor,persona,base_latam,string,trayectoria_politica,disponible,"Antecesor en el cargo, util para redes institucionales."
+sucesor,persona,base_latam,string,trayectoria_politica,disponible,"Sucesor en el cargo, util para redes institucionales."
+distinciones,persona,base_latam,string,trayectoria,disponible,Honores o distinciones recibidas.
+premios,persona,base_latam,string,trayectoria,disponible,Premios mencionados en la biografia.
+sitio_web,persona,base_latam,string,identificacion,disponible,Sitio oficial si existe.
+padres,persona,base_latam,text,red_familiar,disponible,Campo textual con parentescos ascendentes.
+conyuge,persona,base_latam,text,red_familiar,disponible,Campo textual con conyuge(s).
+pareja,persona,base_latam,text,red_familiar,disponible,Campo textual con parejas no matrimoniales.
+hijos,persona,base_latam,text,red_familiar,disponible,Campo textual con descendencia.
+hermanos,persona,base_latam,text,red_familiar,disponible,Campo textual con hermanos/as.
+perfiles_relacionados,persona,base_latam,text,red_familiar,disponible,Listado general de perfiles relacionados extraidos del scraping.
+perfiles_relacionados_padres,persona,base_latam,text,red_familiar,disponible,Perfiles vinculados via padres.
+perfiles_relacionados_conyuge,persona,base_latam,text,red_familiar,disponible,Perfiles vinculados via conyuge.
+perfiles_relacionados_pareja,persona,base_latam,text,red_familiar,disponible,Perfiles vinculados via pareja.
+perfiles_relacionados_hijos,persona,base_latam,text,red_familiar,disponible,Perfiles vinculados via hijos.
+perfiles_relacionados_hermanos,persona,base_latam,text,red_familiar,disponible,Perfiles vinculados via hermanos.
+perfiles_relacionados_familia,persona,base_latam,text,red_familiar,disponible,Perfiles asociados a la misma familia o linaje.
+infobox_json,persona,base_latam,json,estructura,disponible,Infobox estructurado o semi-estructurado.
+familia_nombre,familia,h1_h4_familias_pais,string,familia,disponible,Nombre normalizado de familia para analisis.
+n_miembros,familia,h1_h4_familias_pais,integer,tamano,disponible,Numero de miembros por familia.
+intra_ties,familia,h1_h4_familias_pais,integer,cierre,disponible,Vinculos intra-familia observados.
+inter_ties,familia,h1_h4_familias_pais,integer,apertura,disponible,Vinculos con otras familias.
+intra_marriages,familia,h1_h4_familias_pais,integer,endogamia,disponible,Matrimonios o parejas dentro de la misma familia.
+inter_marriages,familia,h1_h4_familias_pais,integer,transfamilia,disponible,Matrimonios o parejas con otras familias.
+closure_index,familia,h1_h4_familias_pais,double,h1_h4,disponible,Indice de cierre familiar.
+ei_index,familia,h1_h4_familias_pais,double,apertura,disponible,Indice E-I de conexiones intra/inter.
+marital_endogamy,familia,h1_h4_familias_pais,double,endogamia,disponible,Proporcion de matrimonios endogamicos.
+degree_interfamily,familia,h1_h4_familias_pais,double,centralidad,disponible,Grado en la red entre familias.
+betweenness_interfamily,familia,h1_h4_familias_pais,double,centralidad,disponible,Intermediacion en la red entre familias.
+strength_interfamily,familia,h1_h4_familias_pais,double,centralidad,disponible,Fuerza ponderada de conexiones inter-familiares.
+dominant_party,familia,h1_h4_familias_pais,string,politica,disponible,Partido predominante al interior de la familia.
+dominant_party_share,familia,h1_h4_familias_pais,double,h1,disponible,Participacion del partido dominante en la familia.
+dominant_cargo_block,familia,h1_h4_familias_pais,string,cargos,disponible,Bloque institucional predominante.
+dominant_cargo_share,familia,h1_h4_familias_pais,double,h1,disponible,Participacion del bloque de cargos dominante.
+h1_delta_family_vs_party,familia,h1_h4_familias_pais,double,resultado_h1,disponible,Diferencia entre cierre familiar y concentracion partidaria.
+h1_delta_family_vs_cargo,familia,h1_h4_familias_pais,double,resultado_h1,disponible,Diferencia entre cierre familiar y concentracion de cargos.
+h4_central_closed_score,familia,h1_h4_familias_pais,double,resultado_h4,disponible,Indicador combinado de centralidad y cierre.
+mediana_cierre_familiar,pais,h1_h4_resumen_pais,double,comparacion,disponible,Mediana del cierre familiar por pais.
+mediana_endogamia_matrimonial,pais,h1_h4_resumen_pais,double,comparacion,disponible,Mediana de endogamia matrimonial por pais.
+corr_degree_cierre,pais,h1_h4_resumen_pais,double,resultado_h4,disponible,Correlacion entre grado y cierre por pais.
+corr_betweenness_cierre,pais,h1_h4_resumen_pais,double,resultado_h4,disponible,Correlacion entre intermediacion y cierre por pais.
+cargo_1,persona,gpt_enriched,string,cargos,parcial,Cargo principal normalizado.
+cargo_2,persona,gpt_enriched,string,cargos,parcial,Segundo cargo normalizado.
+cargo_3,persona,gpt_enriched,string,cargos,parcial,Tercer cargo normalizado.
+partido_limpio,persona,gpt_enriched,string,politica,parcial,Partido normalizado en enriquecimiento previo GPT.
+ideologia,persona,future_llm_labels,string,proyeccion,faltante,Clasificacion ideologica proyectada via LLM.
+pertenencia_partidaria_partido,persona,future_llm_labels,string,proyeccion,faltante,Partido inferido por LLM con criterio estricto de evidencia.
+pertenencia_partidaria_confianza,persona,future_llm_labels,double,proyeccion,faltante,Confianza del LLM sobre pertenencia partidaria.
+pertenencia_partidaria_evidencia,persona,future_llm_labels,json,proyeccion,faltante,Fragmentos textuales usados para identificar partido.
+ideologia_confianza,persona,future_llm_labels,double,proyeccion,faltante,Confianza del LLM en la etiqueta ideologica.
+ideologia_evidencia,persona,future_llm_labels,json,proyeccion,faltante,Fragmentos biograficos usados para la clasificacion ideologica.
+ideologia_nota_metodologica,persona,future_llm_labels,string,proyeccion,faltante,Nota corta sobre como se infirio ideologia.
+cargo_principal,persona,future_llm_labels,string,proyeccion,faltante,Cargo principal sintetizado desde biografia e infobox.
+bloque_cargo_llm,persona,future_llm_labels,string,proyeccion,faltante,Bloque institucional normalizado por LLM.
+es_cargo_diplomatico,persona,future_llm_labels,boolean,proyeccion,faltante,Marca de trayectoria diplomatica.
+tipo_diplomatico,persona,future_llm_labels,string,proyeccion,faltante,Tipo de cargo diplomatico.
+elite_politica,persona,future_llm_labels,boolean,proyeccion,faltante,Marca de pertenencia a elite politica.
+elite_familiar,persona,future_llm_labels,boolean,proyeccion,faltante,Marca de pertenencia a elite familiar o dinastica.
+elite_diplomatica,persona,future_llm_labels,boolean,proyeccion,faltante,Marca de elite diplomatica o de politica exterior.
+elite_economica,persona,future_llm_labels,boolean,proyeccion,faltante,Marca de elite economica.
+vinculo_transnacional_pareja,persona,future_llm_labels,string,proyeccion,faltante,Relacion de pareja con dimension internacional.
+vinculo_transnacional_pareja_existe,persona,future_llm_labels,boolean,proyeccion,faltante,Indica si la pareja conecta explicitamente con otro pais.
+vinculo_transnacional_pareja_pais_relacionado,persona,future_llm_labels,string,proyeccion,faltante,Pais conectado a traves de pareja o conyuge.
+vinculo_transnacional_pareja_evidencia,persona,future_llm_labels,json,proyeccion,faltante,Fragmentos de evidencia para el vinculo transnacional de pareja.
+alertas_calidad,persona,future_llm_labels,json,proyeccion,faltante,"Alertas sobre ambiguedad, mezcla de roles o informacion insuficiente."
+nacimiento_ano,persona,gpt_enriched,integer,temporalidad,parcial,Ano de nacimiento ya enriquecido para parte de los casos.
+fallecimiento_ano,persona,gpt_enriched,integer,temporalidad,parcial,Ano de fallecimiento ya enriquecido para parte de los casos.
+hijos_lista,persona,gpt_enriched,string,red_familiar,parcial,Lista linealizada de hijos identificados por GPT.
+conexion_otros_paises,persona,gpt_enriched,string,imputacion_pais,parcial,Resumen textual de conexiones transfronterizas detectadas.
+redes_dentro_pais,persona,gpt_enriched,string,intra_elite,parcial,Resumen textual de vinculos con otras elites del mismo pais.
+redes_entre_paises,persona,gpt_enriched,string,inter_paises,parcial,Resumen textual de vinculos con elites de otros paises.
+pais_nacimiento,persona,future_country_imputation,string,imputacion_pais,faltante,Pais extraido desde lugar_nacimiento.
+pais_muerte,persona,future_country_imputation,string,imputacion_pais,faltante,Pais extraido desde lugar_fallecimiento.
+pais_residencia,persona,future_country_imputation,string,imputacion_pais,faltante,Pais extraido desde residencia.
+pais_nacionalidad,persona,future_country_imputation,string,imputacion_pais,faltante,Pais derivado de nacionalidad declarada.
+pais_cargo,persona,future_country_imputation,string,imputacion_pais,faltante,Pais inferido a partir del cargo principal o bloque de cargo.
+pais_pareja,persona,future_country_imputation,string,imputacion_pais,faltante,Pais inferido desde pareja o conyuge cuando conecta explicitamente con otro pais.
+pais_padres,persona,future_country_imputation,string,imputacion_pais,faltante,Pais inferido desde padres o linaje ascendente.
+pais_hijos,persona,future_country_imputation,string,imputacion_pais,faltante,Pais inferido desde descendencia o continuidad familiar.
+pais_hermanos,persona,future_country_imputation,string,imputacion_pais,faltante,Pais inferido desde hermanos o red colateral.
+pais_infobox,persona,future_country_imputation,string,imputacion_pais,faltante,Pais extraido de campos estructurados en infobox.
+pais_biografia,persona,future_country_imputation,string,imputacion_pais,faltante,Pais inferido desde menciones explicitas en la biografia.
+pais_imputado,persona,future_country_imputation,string,imputacion_pais,faltante,Pais final imputado combinando multiples senales.
+confianza_imputacion_pais,persona,future_country_imputation,double,imputacion_pais,faltante,Confianza global de la imputacion final.
+razon_imputacion_pais,persona,future_country_imputation,string,imputacion_pais,faltante,"Motivo principal de la imputacion: nacimiento, nacionalidad, cargo, pareja, muerte, residencia, linaje u otro."
+evidencia_imputacion_pais,persona,future_country_imputation,json,imputacion_pais,faltante,Fragmentos textuales o campos concretos usados para justificar la imputacion.
+fuente_imputacion_pais,persona,future_country_imputation,json,imputacion_pais,faltante,Campos fuente que respaldan la imputacion final.
+score_union_paises,persona,future_country_imputation,double,inter_paises,faltante,Puntaje sintetico de capacidad del actor para unir paises.
+n_conexiones_intra_elite,persona,future_country_imputation,integer,intra_elite,faltante,Numero de conexiones con elites del mismo pais.
+n_conexiones_inter_paises,persona,future_country_imputation,integer,inter_paises,faltante,Numero de conexiones familiares o institucionales entre paises.
+tipo_conexion_dominante,persona,future_country_imputation,string,inter_paises,faltante,"Tipo dominante de conexion transnacional: pareja, cargo, diplomacia, linaje, residencia o educacion."

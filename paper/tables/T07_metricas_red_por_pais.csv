@@ -1,0 +1,6 @@
+pais,n_nodes,n_edges,density,avg_degree,transitivity,n_componentes,giant_size,avg_path_giant
+Chile,3691,5319,4e-4,1.73,0.2279,1120,46,4.298
+Argentina,3691,5319,4e-4,1.73,0.2279,1120,46,4.298
+México,3691,5319,4e-4,1.73,0.2279,1120,46,4.298
+Perú,3691,5319,4e-4,1.73,0.2279,1120,46,4.298
+Colombia,3691,5319,4e-4,1.73,0.2279,1120,46,4.298

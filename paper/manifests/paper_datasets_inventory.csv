@@ -1,0 +1,9 @@
+dataset,nivel_analisis,path,estado,descripcion
+base_latam,persona,data/processed/familias/_CONSOLIDADO_familias_latam.csv,disponible,Base consolidada principal del proyecto.
+gpt_enriched,persona,outputs/df_consolidado_enriquecido_gpt.csv,disponible,Enriquecimiento existente con variables GPT previas.
+llm_membership_input,persona,outputs/reports/llm_membership_input.jsonl,disponible,"Input preparado para clasificacion politica, ideologica y diplomatica."
+h1_h4_familias_pais,familia,outputs/tables/h1_h4_familias_pais.csv,disponible,Dataset principal para contrastes H1 y H4.
+h1_h4_resumen_pais,pais,outputs/tables/h1_h4_resumen_pais.csv,disponible,Resumen agregado por pais para el argumento comparado.
+country_metrics,pais,outputs/tables/metricas_red_por_pais.csv,revisar,Metricas de red por pais; requiere validacion porque parece repetirse.
+future_llm_labels,persona,paper/data/future_llm_labels.csv,faltante,Salida futura esperada del clasificador LLM en R.
+future_country_imputation,persona,paper/data/future_country_imputation.csv,faltante,"Tabla futura con pais imputado, razones, evidencia y confianza."
