@@ -1,0 +1,235 @@
+# Results {#sec-resultados}
+
+We organize results by hypothesis. Summary statistics for marriage closure and institutional concentration by country appear in @tbl-endogamia and @tbl-h1h4. Cross-border structure is documented in @tbl-pairs and @tbl-families-multinational. @fig-temporal-by-country situates the temporal distribution of births used throughout. National network layouts and transnational aggregates are shown in @fig-facet through @fig-mapa-circle.
+
+```{r}
+#| label: fig-temporal-by-country
+#| fig-cap: "Birth year distribution by country (kernel density ridges; documented individuals with non-missing birth year)."
+#| fig-width: 8
+#| fig-height: 5
+#| out-width: "100%"
+knitr::include_graphics(path_fig("dinastias_temporal_por_pais.png"))
+```
+
+## H1: Family closure and political concentration
+
+```{r}
+#| label: tbl-endogamia
+#| tbl-cap: "Marriage records and endogamy rates by country (matched partners; kinship-based definitions)."
+#| tbl-pos: "!ht"
+
+endo <- read_tbl("endogamia_por_pais.csv")
+endo |>
+  transmute(
+    Country = tools::toTitleCase(as.character(pais1)),
+    Marriages = total,
+    Endogamous = endogamicos,
+    `Endogamy rate` = round(tasa_endogamia, 3),
+    `Transnational marriages` = transnacionales,
+    `Transnational rate` = round(tasa_transnacional, 3)
+  ) |>
+  knitr::kable(booktabs = TRUE, linesep = "", caption = NULL) |>
+  kableExtra::kable_styling(latex_options = c("hold_position", "scale_down"), font_size = 8)
+```
+
+```{r}
+#| label: tbl-h1h4
+#| tbl-cap: "Country-level family counts and descriptive correlations between genealogical degree and family closure (paper summary table)."
+#| tbl-pos: "!ht"
+
+t02 <- read_tbl("T02_h1_h4_resumen_pais.csv", subdir = "paper/tables")
+fmt_or_dash <- function(x, d = 3) {
+  ifelse(is.na(x), "—", format(round(x, d), nsmall = d))
+}
+t02 |>
+  transmute(
+    Country = tools::toTitleCase(as.character(pais)),
+    `Families (n)` = n_familias,
+    `Median party conc.` = fmt_or_dash(mediana_concentracion_partidaria),
+    `Median office conc.` = fmt_or_dash(mediana_concentracion_cargo),
+    `Corr(degree, closure)` = fmt_or_dash(corr_degree_cierre),
+    `Corr(betweenness, closure)` = fmt_or_dash(corr_betweenness_cierre)
+  ) |>
+  knitr::kable(booktabs = TRUE, linesep = "", caption = NULL) |>
+  kableExtra::kable_styling(latex_options = c("hold_position", "scale_down"), font_size = 7) |>
+  kableExtra::footnote(
+    general_title = "Note. ",
+    general = "Correlations are not reported for countries with fewer than 10 families",
+    footnote_as_chunk = TRUE
+  )
+```
+
+Endogamy rates vary markedly across countries (@tbl-endogamia). Large republics cluster between roughly **0.77 and 0.87** on the kinship-based endogamy rate, with **Paraguay** at **1.00** on a very small marriage count (**4**). **Bolivia** shows the lowest endogamy rate in the table (**0.67**) alongside a high transnational marriage share (**0.67**), reflecting both small **n** and boundary effects in the corpus. @tbl-h1h4 reports family counts per country (e.g., **Argentina 165**, **Peru 182**, **Mexico 111**, **Chile 98**) and country-level correlations between mean genealogical degree and family closure, and between mean betweenness and closure, within families. Cells marked “—” indicate correlations that were not estimated (see table note).
+
+At the country level, **Corr(degree, closure)** is **negative** everywhere it is defined in @tbl-h1h4, and substantively large for several major republics: **Mexico −0.797**, **Venezuela −0.764**, **Argentina −0.738**, **Peru −0.720**, **Chile −0.536**, **Colombia −0.478**. One **observational** reading—consistent with competitive-oligarchy narratives and with multiplex “robust action” (Padgett & Ansell, 1993)—is that **large, highly connected families could not “afford” high endogamy** if maintaining network reach required outward marriage and alliance; smaller or less central lineages, by contrast, could sustain higher closure without sacrificing documented connectivity. Interpreted through Bourdieu’s (1996) vocabulary of capital conversion, brokerage across families and institutions and closure within the surname cluster appear here as **alternative strategies** whose joint realization is constrained in the marriage market, not as mechanically complementary dimensions.
+
+**Corr(betweenness, closure)** is **more modest** in magnitude than **Corr(degree, closure)** in every country where both are defined—for example **Argentina −0.236**, **Mexico −0.440**, **Chile −0.330**, **Venezuela −0.344**, **Peru −0.122**, **Colombia −0.073** (@tbl-h1h4)—suggesting that **structural brokerage in the multiplex graph** is less tightly organized around matrimonial closure than raw genealogical degree is. That pattern is consistent with institution-heavy shortest paths (party, university, succession) that need not align with endogamy rates computed on spouse/partner edges alone.
+
+**H1 receives partial descriptive support:** closure and institutional concentration co-vary in informative ways in @tbl-h1h4, but the degree–closure association is heterogeneous and **not** uniform across polities.
+
+## H2: Topology and stylized regime types
+
+```{r}
+#| label: fig-facet
+#| fig-cap: "Family kinship networks by country (exploratory faceted layouts; node size encodes degree in each subgraph)."
+#| fig-width: 8
+#| fig-height: 6
+#| out-width: "100%"
+knitr::include_graphics(path_fig("exploracion_redes_facet.png"))
+```
+
+Exploratory visualization and community structure suggest **ideal-typical alignments** (interpretive, not algorithmically assigned). **Paraguay** shows a near-linear chain around the López dynasty, evocative of patrimonial consolidation. **Chile and Peru** display star-like patterns with prominent hubs in exploratory plots. **Argentina, Colombia, and Mexico** show dense webs with multiple high-degree nodes. **Bolivia, Venezuela, and Ecuador** appear more fragmented into smaller cohesive clusters. @fig-facet summarizes the country-faceted view used in the replication workflow. **H2 is supported descriptively** at the level of stylized analogy; we do not estimate predictive models from topology to regime type.
+
+## H3: Transnational corridors
+
+```{r}
+#| label: tbl-pairs
+#| tbl-cap: "Strongest country–country ties (kinship + biographical signals), top 15 pairs by total weight."
+#| tbl-pos: "!ht"
+
+pairs <- read_tbl("transnacional_red_paises.csv") |>
+  arrange(desc(n_total)) |>
+  slice_head(n = 15) |>
+  transmute(
+    `From → To` = paste(from, "→", to),
+    Kinship = n_parentesco,
+    Biographical = n_biografico,
+    Total = n_total
+  )
+
+knitr::kable(pairs, booktabs = TRUE, caption = NULL) |>
+  kableExtra::kable_styling(latex_options = c("hold_position", "scale_down"), font_size = 8)
+```
+
+```{r}
+#| label: tbl-families-multinational
+#| tbl-cap: "Multinational families ranked by number of countries represented (top 12 by breadth × size)."
+#| tbl-pos: "!ht"
+
+fam <- read_tbl("transnacional_familias_multi.csv") |>
+  arrange(desc(n_paises), desc(n_miembros)) |>
+  slice_head(n = 12) |>
+  transmute(
+    Family = gsub("_", " ", familia_norm),
+    Countries = n_paises,
+    Members = n_miembros,
+    `Country list` = paises
+  )
+
+knitr::kable(fam, booktabs = TRUE, caption = NULL) |>
+  kableExtra::kable_styling(latex_options = c("hold_position", "scale_down"), font_size = 7)
+```
+
+```{r}
+#| label: fig-transnational-net
+#| fig-cap: "Transnational network between countries (cross-border kinship + biographical signals)."
+#| fig-width: 7
+#| fig-height: 5
+#| out-width: "100%"
+knitr::include_graphics(path_fig("transnacional_red_paises.png"))
+```
+
+```{r}
+#| label: fig-mapa-heatmap
+#| fig-cap: "Cross-national connections (aggregated matrix and country pairs with the most ties)."
+#| fig-width: 7
+#| fig-height: 5
+#| out-width: "100%"
+knitr::include_graphics(path_fig("mapa_global_conexiones.png"))
+```
+
+```{r}
+#| label: fig-mapa-circle
+#| fig-cap: "Country network (circular layout); one node = country, edge width = aggregated connections."
+#| fig-width: 7
+#| fig-height: 7
+#| out-width: "100%"
+knitr::include_graphics(path_fig("mapa_global_red_paises_circulo.png"))
+```
+
+Aggregated weights rank **Chile–Peru** first (**117** total counted events), followed by **Argentina–Uruguay** (**105**), **Argentina–Chile** (**94**), and **Argentina–Peru** (**90**) (@tbl-pairs; @fig-transnational-net through @fig-mapa-circle). Atlantic-oriented pairs such as **Argentina–Brazil** are absent from the top of this list in the current aggregation.
+
+The **decomposition into kinship versus biographical counts** matters theoretically. **Chile–Peru** combines **36** kinship and **81** biographical events—roughly **31%** kinship and **69%** biographical—so the strongest dyad in the table is driven **primarily** by biographical co-mention (death, residence, occupation) rather than by cross-border genealogy alone. **Argentina–Chile** shows the reverse emphasis: **56** kinship and **38** biographical events (**~60%** kinship, **~40%** biographical on **94** totals), making it the most **genealogically entangled** pair among the top ranks. **Argentina–Uruguay** is **mixed** (**46** vs **59**, or **~44%** kinship vs **~56%** biographical), consistent with a dense Rioplatense elite field in which family and professional or diplomatic circulation are both heavily documented. These contrasts are **descriptive**: kinship-heavy pairs point to family networks that actually cross borders in the scraped graph; biographical-heavy pairs capture elite circulation that **may or may not** coincide with kinship, but still registers transnational linkage in the corpus.
+
+Historical narratives are **suggestive**, not testable here. The old **Viceroyalty of Peru** linked Chilean and Peruvian territories administratively; the **War of the Pacific (1879–84)** plausibly increased biographical cross-referencing between Chilean and Peruvian entries (military, exile, diplomatic elites). **Argentina–Chile** aligns with long-standing **Andean–Southern Cone** mobility, including nineteenth-century political exile (unitario currents toward Chile). **Argentina–Uruguay** fits a **River Plate** basin elite culture. The **absence of a strong Argentina–Brazil** edge among top pairs—despite geographic scale—is consistent with the idea that **colonial administrative units and post-colonial circuits** structure documentary elite ties more than continental proximity alone.
+
+At the family level, @tbl-families-multinational highlights lineages such as **Borrero** (**39** members across **four** countries: Argentina, Chile, Colombia, Ecuador), **Campero** (**24** members; Argentina, Bolivia, Chile, Peru), and **Sucre** (**11** members; Argentina, Colombia, Ecuador, Venezuela). Their geographic footprints map onto **Bolivarian and Gran-Colombia** political geographies in ways that are **consistent with** post-independence elite continuity tied to colonial administrative networks—again, an interpretive alignment rather than a causal claim.
+
+**H3 receives descriptive support** for a Pacific–Andean and Southern Cone emphasis in this Wikipedia slice, with the critical caveat that **biographical layers inflate** some dyads relative to kinship and that mechanisms (mining, education, diplomacy) are not identified.
+
+## H4: Betweenness and brokerage
+
+```{r}
+#| label: tbl-brokers
+#| tbl-cap: "Top 15 individuals by betweenness centrality (multiplex graph; replication export)."
+#| tbl-pos: "!ht"
+
+# If source CSV still has duplicate biography rows, collapse to one row per name–family–country–birth year (max betweenness)
+mx <- read_tbl("metricas_centralidad.csv") |>
+  group_by(nombre, familia_norm, pais_base, anio_nacimiento) |>
+  slice_max(betweenness, n = 1, with_ties = FALSE) |>
+  ungroup() |>
+  arrange(desc(betweenness)) |>
+  slice_head(n = 15) |>
+  transmute(
+    Name = nombre,
+    Family = gsub("_", " ", familia_norm),
+    Country = tools::toTitleCase(as.character(pais_base)),
+    Degree = grado,
+    Betweenness = format(round(betweenness), big.mark = ",", scientific = FALSE, trim = TRUE)
+  )
+
+knitr::kable(mx, booktabs = TRUE, caption = NULL) |>
+  kableExtra::kable_styling(latex_options = c("hold_position", "scale_down"), font_size = 7)
+```
+
+High betweenness is concentrated among a small set of individuals (@tbl-brokers): examples include **Luis Felipe Villarán** and **Walter Humala** (Peru), **José Evaristo Uriburu** (Argentina), and **Cuauhtémoc Cárdenas** (Mexico). **H4 is descriptively supported** in the sense that structural brokerage positions are identifiable in the augmented graph. We refrain from equating betweenness with political influence outside the documented network.
+
+## Gender patterns
+
+The infobox pipeline does **not** encode sex; any gendered pattern must therefore be **exploratory**. @tbl-gender-heuristic applies an intentionally **crude** first-name heuristic (feminine-coded given names at the start of the string versus all others) to `metricas_centralidad.csv` for persons with positive degree. For **Argentina** and **Colombia**—the two largest samples—mean degree is similar across groups, while mean betweenness is **lower** for the feminine-coded group in **Colombia** and nearly identical in **Argentina**, underscoring **subnational heterogeneity** and the limits of name-based inference.
+
+```{r}
+#| label: tbl-gender-heuristic
+#| tbl-cap: "Exploratory means by inferred first-name gender (heuristic labels only; not validated against civil-registry sex)."
+#| tbl-pos: "!ht"
+
+library(stringr)
+mxg <- read_tbl("metricas_centralidad.csv") |>
+  filter(grado > 0) |>
+  mutate(
+    genero_inferido = if_else(
+      str_detect(
+        nombre,
+        regex(
+          "^(María|Maria|Ana |Carmen|Rosa |Isabel|Luisa|Elena|Paula|Laura|Sofía|Sofia)\\b",
+          ignore_case = TRUE
+        )
+      ),
+      "F (heuristic)",
+      "M (heuristic)"
+    )
+  ) |>
+  filter(pais_base %in% c("argentina", "colombia")) |>
+  group_by(pais_base, genero_inferido) |>
+  summarise(
+    n = n(),
+    `Mean degree` = mean(grado, na.rm = TRUE),
+    `Mean betweenness` = mean(betweenness, na.rm = TRUE),
+    .groups = "drop"
+  ) |>
+  mutate(
+    Country = tools::toTitleCase(as.character(pais_base)),
+    `Gender group` = genero_inferido
+  ) |>
+  select(Country, `Gender group`, n, `Mean degree`, `Mean betweenness`) |>
+  mutate(
+    `Mean degree` = round(`Mean degree`, 1),
+    `Mean betweenness` = round(`Mean betweenness`, 0)
+  )
+
+knitr::kable(mxg, booktabs = TRUE, caption = NULL) |>
+  kableExtra::kable_styling(latex_options = c("hold_position", "scale_down"), font_size = 8)
+```
+
+Interpretively, where **degree** in kin projections is **high** but **betweenness** in the multiplex graph is **not**, the pattern is **consistent with** women’s documented role as connectors in genealogical fields (marriage, descent) without equivalent placement on shortest paths that also traverse parties and universities—an alignment, at least narratively, with Lavrin’s (1990) emphasis on marriage as alliance and with Bourdieu’s (1996) distinction among forms of capital: **genealogical visibility** in Wikipedia need not translate into **institutional brokerage** in the augmented graph. A validated gender table (civil registers, manual coding, or external biographies) should replace @tbl-gender-heuristic before strong claims are attempted; the present discussion remains **hypothesis-generating** only.

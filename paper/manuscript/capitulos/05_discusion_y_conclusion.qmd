@@ -1,0 +1,27 @@
+# Discussion and conclusion {#sec-discusion}
+
+## Heterogeneity versus a single Latin American model
+
+Our results align with a **heterogeneous Latin America** thesis: elite kinship topologies are not isomorphic. Contrasting Paraguayan chain-like structures with Mexican or Colombian density resonates with institutionalist accounts of divergent state formation (Mahoney, 2010) even when measured through one digital source.
+
+## The Pacific corridor
+
+The Pacific–Andean emphasis in cross-border weights (@tbl-pairs; @fig-mapa-heatmap) is **not reducible to geographic proximity alone**. Bolivia and Ecuador are proximate to several large republics yet do not dominate the top dyads in this corpus; the pattern therefore aligns more closely with **historical administrative and biographical pathways** than with a simple distance decay model. Viceregal structures once centered on Lima linked Andean and coastal spaces into a common political field; the War of the Pacific (1879–84) further entangled Chilean and Peruvian elites through conflict, exile, and subsequent documentation in biographical fields. **Caveat:** biographical signals—death place, residence, occupation—inflate certain pairs relative to kinship alone; for Chile–Peru, **69%** of counted events are biographical (**81** of **117**) and **31%** kinship (**36** of **117**), which may partly reflect Chilean encyclopedic attention to Peruvian figures and exiles after 1879, not only cross-border genealogy. By contrast, Argentina–Chile is **predominantly kinship-weighted** (**60%** kinship, **40%** biographical on **94** events), consistent with denser genealogical entanglement (including historically documented migration and political exile corridors). Argentina–Uruguay is **mixed** (**44%** kinship, **56%** biographical on **105** events), consistent with a shared Rioplatense cultural field in which family and professional circulation are both visible. The **absence of Argentina–Brazil** among the strongest pairs is itself descriptive: elite ties in this archive appear **corridor-specific** rather than continental, which is consistent with colonial administrative legacies and Rioplatense cultural circuits more than with uniform neighborhood effects across Latin America. This pattern should be read as **policy- and archive-relevant** (where transnational elite coordination appears in a documentary corpus), not as proof of contemporary diplomatic alignment.
+
+## Wikipedia as archive, not mirror
+
+Reframing Wikipedia as an **archive of collective documentation** clarifies epistemic status: we study who is repeatedly named and linked—not the full elite stratum of each society. That move aligns with computational social science cautions about digital trace data (Lazer et al., 2014) and with calls for transparency in algorithm-assisted history.
+
+## Ethics and public use
+
+Wikipedia biographies are public, but aggregate reporting should avoid gratuitous emphasis on living persons without public-interest justification. We report aggregate patterns and historically distant examples where possible.
+
+## Toward stronger identification
+
+Future work might: (i) **cohort-slice** graphs by birth decade; (ii) **difference-in-differences** using external reforms; (iii) **validate** a subsample against national biographical dictionaries; (iv) **multiplex** networks separating kinship from party affiliation; (v) **ERGMs** or **stochastic blockmodels** with covariates. None are executed here.
+
+## Concluding remarks
+
+Drawing on Wikipedia-derived kinship networks for **6,169** Latin American notables and **8,201** matched kinship edges (embedded in a larger multiplex graph for centrality), we document substantial cross-national heterogeneity in elite family structure. Descriptive patterns align **directionally** with four working hypotheses—closure and concentration, topology and stylized regime narratives, Pacific-leaning transnational weights, and identifiable betweenness brokers—while remaining strictly **observational**. The most robust takeaway is **diversity**: elite kinship in Latin America does not reduce to a single network form. Secondary regularities—Pacific-Andean prominence in cross-border weights (@tbl-pairs), gendered degree–betweenness splits—warrant further investigation with richer data.
+
+We close with a practical observation: **digital genealogies** increasingly shape public imaginaries of elite connection. Scholarly use of such sources demands methodological transparency and humility about whose ties get documented—and whose remain invisible.

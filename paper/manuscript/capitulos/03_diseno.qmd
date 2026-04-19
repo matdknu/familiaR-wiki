@@ -1,0 +1,59 @@
+# Data and methods {#sec-diseno}
+
+## Source and population
+
+We scraped Spanish-language Wikipedia biographical pages for ten Latin American countries (Argentina, Bolivia, Chile, Colombia, Ecuador, Mexico, Paraguay, Peru, Uruguay, and Venezuela), following the project pipeline described in the replication repository. Raw extracts were consolidated and normalized into relational tables (`personas`, `relaciones`, `partidos`, `educacion`, `sucesiones`). @tbl-corpus summarizes the distribution of retained individuals by `pais_base` after deduplication. The working person table contains **6,169** rows; **8,201** kinship relation rows link two identified individuals (`persona_relacionada_id` non-missing) out of **14,190** extracted rows, so **57.8%** of raw kinship statements resolve to another scraped biography. **92.9%** of persons have a parsed birth year (`anio_nacimiento`), which anchors descriptive temporal plots.
+
+```{r}
+#| label: tbl-corpus
+#| tbl-cap: "Corpus coverage: individuals by country (pais_base) in the normalized person table."
+#| tbl-pos: "!ht"
+
+personas <- read_tbl("personas.csv", subdir = "data/processed/02_leer_data")
+stopifnot(nrow(personas) > 0)
+
+corpus_pais <- personas |>
+  count(pais_base, name = "n_personas") |>
+  arrange(desc(n_personas)) |>
+  mutate(pais_base = as.character(pais_base))
+
+corpus_pais |>
+  knitr::kable(
+    booktabs = TRUE,
+    digits = 0,
+    col.names = c("Country", "Individuals"),
+    caption = NULL
+  ) |>
+  kableExtra::kable_styling(
+    latex_options = c("hold_position", "scale_down"),
+    font_size = 9
+  )
+```
+
+**Family** is operationalized via **`familia_norm`**, a normalized surname cluster produced by the processing pipeline (orthographic merging). This is a Wikipedia-assigned label, not a validated genealogical house. **Country** attaches to individuals using nationality fields, infobox cues, text-based detection, and manual overrides (`url_pais_extra.csv`). A kinship edge is treated as **transnational** in aggregations when endpoint countries differ under these assignments.
+
+## Network construction and metrics
+
+We construct an undirected graph on matched kinship edges and—following `03_grafo_parentesco.R`—augment it with within-family ties for small lineages, predecessor–successor links, and bipartite projections from shared party and university membership for **global** centrality and community detection. Thus, degree and betweenness reported in `metricas_centralidad.csv` refer to this **multiplex** graph, whereas marriage-based endogamy rates use kin-type edges only (see below).
+
+### Why betweenness is computed on the multiplex graph
+
+Betweenness centrality in a **kinship-only** graph would identify individuals who structurally mediate genealogical chains—an analytically narrow concept tied to documented parent–child and spousal links alone. The **multiplex** graph used here layers party co-membership, shared educational institutions, and political predecessor–successor ties onto kinship edges, so that shortest paths can pass through institutional as well as familial channels. That specification better approximates the **multi-dimensional social infrastructure** through which elite coordination is plausibly sustained in historical and republican settings (office holding, party politics, and university training alongside marriage). Endogamy rates, by contrast, are computed on spouse and partner edges only, preserving a strictly **matrimonial** definition of family closure. Metrics were computed in **R** with **igraph**; edges were constructed and merged as documented in the replication scripts.
+
+Metrics computed with **igraph** include degree, betweenness centrality, PageRank, local clustering, and Louvain communities (resolution 1.0). **Endogamy:** on spouse/partner edges with matched partners, a tie is endogamous if both endpoints share `familia_norm`. Country-level marriage counts and rates are reported in @tbl-endogamia. **Transnational structure:** country-pair aggregates combine kinship and biographical “mention” signals (`transnacional_red_paises.csv`). **Dynasty persistence** is summarized in `dinastias_persistencia.csv`. Hypothesis-oriented country summaries are pre-computed in `paper/tables/T02_h1_h4_resumen_pais.csv` and reproduced as @tbl-h1h4.
+
+## Analytical stance and temporal scope
+
+All main analyses are **observational**. Network metrics describe co-occurrence in a digital corpus conditioned on notability and editorial practice. Language in @sec-resultados follows a **hedging norm** (“associated with,” “consistent with,” “suggestive”). Biographical dates span roughly **1800–2000** with colonial antecedents for some lineages; long-run graphs **conflate** periods unless cohorts are split explicitly.
+
+## Limitations (explicit) {#sec-limitaciones}
+
+1. **Selection bias:** Wikipedia encodes literate, visible, often male elites; indigenous, Afro-descendant, and subnational elites are systematically underrepresented.
+2. **Kinship incompleteness:** editors omit relatives; women may appear chiefly as spouses or mothers.
+3. **Label noise:** `familia_norm` may merge or split lineages incorrectly, especially across countries.
+4. **Temporal conflation:** graphs pool republican and colonial-era ties unless disaggregated.
+5. **Edge incompleteness:** **42.2%** of kinship rows lack a matched endpoint; covert patronage or business ties are invisible.
+6. **Single-country assignment** forces multinational biographies into one country, partially mitigated by manual overrides and biographical mention layers.
+7. **No causal identification:** betweenness or endogamy cannot be interpreted as manipulable treatments without additional design.
+
+These limitations frame the contribution as a **mapped documentary elite**—not an exhaustive social register—and motivate the interpretive discipline maintained in @sec-resultados and @sec-discusion.

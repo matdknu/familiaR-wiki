@@ -1,0 +1,19 @@
+# Literature and theoretical background {#sec-marco}
+
+## Notable families, oligarchy, and the state
+
+Classic scholarship on Latin America emphasized the *familia notable* as a unit linking land, urban property, marriage, and access to state office (Balmori et al., 1984). Centeno (2002) connected elite networks to war-making and the fiscal–military organization of republics; Mahoney (2010) emphasized path dependence in colonial and postcolonial institutions. These works imply testable expectations at the network level: **family strategies**—endogamy, strategic exogamy, and placement of kin in parties and ministries—should covary with how concentrated political access is and how durable elite coalitions prove over time.
+
+Bourdieu’s (1996) analysis of the French state nobility supplies a vocabulary for **social reproduction**: elites convert economic resources into social ties and cultural credentials, then monopolize institutional positions across generations. Latin American contexts differ—Catholic Church, army, export agriculture, mining enclaves—but the *problem* of stabilizing advantage through kinship remains analogous. Where elites successfully restrict marriage markets, one expects measurable **closure** at the level of surname clusters (H1). Where party systems fragment elite access, closure may remain moderate even as network density rises.
+
+## Network topology and political orders
+
+Historical network analysis demonstrates that **macro-structure**—chains, stars, dense cores, or disconnected fragments—can correspond to distinct modes of coordination and conflict (Padgett & Ansell, 1993). Granovetter (1973) motivated attention to weak ties and brokers bridging clusters. Translating these ideas to Latin America requires caution: one may *loosely* associate linear dynastic chains with personalist or patrimonial consolidation (Weber’s patrimonialism as ideal type), star-like graphs with a legitimating “founding” lineage, dense webs with competitive oligarchy and multiple channels of access, and fragmented graphs with regionalized or weakly integrated national elites. Such mappings are **stylized ideal-types** for interpretation, not operational codes inferred mechanically from graph metrics (H2).
+
+## Empire, corridor, and transnational elites
+
+Colonial geography—mining belts, highland–coastal links, viceregal capitals—may channel later elite mobility and marriage. Pacific Andean spaces and Chilean–Peruvian histories of war and diplomacy plausibly leave **residual structure** in cross-border kinship long after independence. If transnational kinship edges in a Wikipedia-derived graph concentrate along a Pacific–Andean corridor rather than dispersing uniformly, that pattern offers descriptive support for **path-dependent geography** (H3)—not proof of a colonial causal mechanism, but consistency with historically informed priors.
+
+## Gender, marriage, and visibility
+
+Colonial and republican marriage regimes structured women’s positions as alliance partners and transmitters of property and status (Lavrin, 1990). If encyclopedic records disproportionately document women through ties to notable husbands and sons, **degree** in a kin-only graph may overstate public-political centrality while **betweenness** on office-weighted projections remains low. We treat gendered splits between degree and betweenness as **hypothesis-generating** evidence about brokerage and exclusion, not as definitive proof of mechanisms.
