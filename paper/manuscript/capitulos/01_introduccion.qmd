@@ -6,6 +6,31 @@ Historical sociology and political sociology nevertheless offer rich idiographic
 
 Digital traces offer a complementary path. Spanish-language Wikipedia aggregates biographical entries produced by dispersed editors; kinship statements—spouses, parents, children, partners—are often included in infoboxes or narrative leads. These data are neither representative of whole populations nor free of bias: they disproportionately document literate, urban, politically and culturally visible individuals. Yet precisely that bias may approximate what successive generations of national publics chose to record about “notable” families—a *documentary elite* whose network properties are sociologically interesting in their own right (Lazer et al., 2014). The task is not to confuse Wikipedia with society, but to analyze the structure of a large, public, repeatedly edited genealogical corpus.
 
-This paper asks: **How have elite family networks structured the reproduction of political power in Latin America from roughly the nineteenth through the twenty-first centuries?** We articulate four hypotheses (H1–H4) linking (i) marriage closure to political concentration, (ii) macro-scale graph topology to stylized regime types, (iii) transnational kinship geography to colonial-era corridors, and (iv) betweenness centrality to brokerage positions potentially associated with cross-national salience. Our contribution is threefold. First, we provide a **multi-country, comparable kinship graph** built under documented extraction rules from a single digital source, enabling cross-national juxtaposition rarely feasible with archival prosopography alone. Second, we **map heterogeneity** across states—rejecting a single “Latin American elite model”—by relating stylized network forms (chain, star, web, fragment) to diverse national histories. Third, we **foreground gender and documentation asymmetry**: women often appear as high-degree connectors in pure kinship projections while exhibiting lower betweenness when ties are weighted toward publicly documented roles, a pattern we link cautiously to marriage as alliance and to women’s historical exclusion from formal high office.
+This paper asks: **How have elite family networks structured the reproduction of political power in Latin America from roughly the nineteenth through the twenty-first centuries?** We articulate four hypotheses (H1–H4) linking (i) marriage closure to political concentration, (ii) macro-scale graph topology to stylized regime types, (iii) transnational kinship geography to colonial-era corridors, and (iv) betweenness centrality to brokerage positions potentially associated with cross-national salience.
+
+Our contribution is threefold, but rests on a single organizing claim:
+**family network structure is not a byproduct of political order in Latin
+America—it is a constitutive infrastructure of it.** Where elites built
+durable states, they did so by layering kinship closure onto institutional
+access; where states remained fragile or personalist, the kinship graph
+itself encodes why. This claim does not require causal identification to
+be useful: demonstrating that network topology *covaries systematically*
+with regime type across ten republics, using a common corpus and comparable
+metrics, is itself a contribution that archival prosopography has rarely
+achieved at this scale.
+
+We introduce two conceptual distinctions that organize the analysis.
+First, we distinguish **closure** from **reach** as alternative elite
+network strategies: families that maximize endogamy (closure) sacrifice
+the bridging ties needed for transnational coordination, while families
+that maximize cross-border reach typically exhibit lower endogamy rates.
+This **closure–reach trade-off** is observable in degree–endogamy
+correlations and is theoretically grounded in the tension between Bourdieu's
+(1996) reproductive closure and Granovetter's (1973) structural holes.
+Second, we distinguish the **documentary elite field**—the stratum of
+families that have successfully inscribed themselves in public digital
+archives—from the broader social elite. The documentary elite field
+is the object we analyze; its boundaries are themselves a sociological
+datum, not merely a sampling limitation.
 
 The remainder proceeds as follows. @sec-marco reviews relevant literature. @sec-diseno describes data construction, variables, and limitations—with summary statistics in @tbl-corpus and related tables. @sec-resultados presents results by hypothesis, embedding the main empirical tables and figures in the narrative. @sec-discusion discusses interpretation and scope conditions, then concludes.
