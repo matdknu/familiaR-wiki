@@ -206,10 +206,44 @@ algorithm-assisted history.
 
 ## Ethics and public use
 
-Although the data are publicly available, aggregate reporting should
-avoid unnecessary emphasis on identifiable living individuals.
-Interpretation should prioritize structural patterns over individual
-exposure.
+The ethical stance of this project requires explicit articulation,
+particularly given that the paper names four families (Caicedo, Cruz,
+Pinto, Vicuña) in a context that invites interpretive attention to their
+members.
+
+*Families as lineages, not individuals as targets.* Our unit of analysis
+is the surname cluster `familia_norm`, which aggregates individuals into
+lineages spanning multiple generations. When we name Caicedo, Cruz,
+Pinto, or Vicuña, we refer to documented patterns of kinship across 150+
+years of biographical records — not to specific living members of those
+lineages. Inferences about structural position apply to the lineage as a
+historical object, not to any particular person carrying the surname
+today. This distinction matters: the families identified by the SBM are
+identified by the *aggregate* configuration of their documented ties,
+not by the contemporary activities of their living members.
+
+*Individuals named, individuals not named.* Where individuals are named
+(as in @tbl-brokers's list of high-betweenness figures), they are already
+public historical figures whose biographical entries are themselves part
+of the Wikipedia corpus: Luis Felipe Villarán, Walter Humala, José
+Evaristo Uriburu, Cuauhtémoc Cárdenas, and others whose political roles
+are matters of historical record. We do not name individuals who are not
+already documented public figures, and we do not cross-reference
+Wikipedia-derived kinship with non-public data sources such as
+contemporary corporate registries, tax records, or contract databases.
+
+*Scope limits on the accountability use case.* The concluding remarks
+observe that the documentary elite field is increasingly legible to
+accountability journalism. We regard this legibility as a legitimate use
+of public data, but we also note that the responsibility for ensuring
+that cross-referencing does not harm specific living individuals lies
+with the journalist or researcher undertaking it, not with this paper.
+The aggregate patterns we document are intended to inform comparative
+historical analysis of elite structure, not to serve as a targeting list.
+Future iterations of this project will maintain a firewall between the
+structural analysis of documentary kinship and any cross-reference to
+contemporary individual-level data; any departure from that firewall will
+require explicit institutional review.
 
 ## Toward causal identification
 

@@ -171,6 +171,11 @@ fam_edges_und <- edges_enriched %>%
   group_by(a, b) %>%
   summarise(n_ties = n(), w = sum(n_tie, na.rm = TRUE), .groups = "drop")
 
+safe_write_csv(
+  fam_edges_und %>% transmute(from = a, to = b, n_ties, w),
+  "outputs/tables/advanced/A0_family_kinship_edges.csv"
+)
+
 families <- sort(unique(c(fam_nodes_base$familia_grupo, fam_edges_und$a, fam_edges_und$b)))
 
 if (length(families) < 3) {

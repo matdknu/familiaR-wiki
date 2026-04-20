@@ -362,10 +362,19 @@ h5_summary |>
 ```
 
 No single analysis is decisive on its own. The contribution of H5 lies
-in the convergence across approaches. The combined evidence is
-consistent with a sparse but strongly structured network organized
-around a core–periphery architecture that is historically consolidated
-and structurally vulnerable.
+in the convergence across approaches. The six analyses do not share a
+common pipeline — they draw on different graph representations
+(family-level kinship graph, multiplex graph with institutional layers,
+cohort-sliced subgraphs), different inference procedures
+(maximum-likelihood ERGM, variational SBM, permutation-based homophily
+tests, betweenness-ordered attack simulation, Gould–Fernandez role
+decomposition), and different null models (edges-only baseline, random
+block assignment, random removal order). Yet they describe the same
+elite architecture: sparse but sorted, historically consolidated,
+Chilean-dominated at the core, and dependent on a small set of robust
+brokers for connectivity beyond the core. That the results converge
+despite methodological independence is the substantive contribution of
+H5; no single analysis, taken alone, would license this claim.
 
 **H5 receives strong descriptive support** based on the agreement across
 independent indicators.
