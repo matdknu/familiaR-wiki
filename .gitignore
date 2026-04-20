@@ -41,6 +41,8 @@ data/raw/**/*.json
 data/processed/**/*.csv
 data/processed/**/*.xlsx
 data/processed/**/*.json
+data/processed/**/*.rds
+diagnostico/tablas/*.csv
 
 # Excluir datos manuales sensibles (pero mantener la estructura)
 data/manual/*.xlsx
@@ -61,6 +63,8 @@ data/manual/*.csv
 ehthumbs.db
 Thumbs.db
 *~
+.RDataTmp
+Rplots.pdf
 
 # -------------------------------------
 # IDEs y editores

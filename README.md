@@ -106,7 +106,7 @@ python scripts/01_scraping/scraper_wikipedia_familias.py --pais chile
 Rscript scripts/02_processing/run_pipeline.R
 
 # 4. Generar visualización de redes
-Rscript scripts/03_analysis/red_familias_multipais_v2.R
+Rscript scripts/03_analysis/core/red_familias_multipais_v2.R
 ```
 
 ---

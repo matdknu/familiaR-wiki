@@ -1,6 +1,18 @@
+---
+editor: 
+  markdown: 
+    wrap: 72
+---
+
 # Results {#sec-resultados}
 
-We organize results by hypothesis. Summary statistics for marriage closure and institutional concentration by country appear in @tbl-endogamia and @tbl-h1h4. Cross-border structure is documented in @tbl-pairs and @tbl-families-multinational. @fig-temporal-by-country situates the temporal distribution of births used throughout. National network layouts and transnational aggregates are shown in @fig-facet through @fig-mapa-circle.
+We organize results by hypothesis. Summary statistics for marriage
+closure and institutional concentration by country appear in
+@tbl-endogamia and @tbl-h1h4. Cross-border structure is documented in
+@tbl-pairs and @tbl-families-multinational. @fig-temporal-by-country
+situates the temporal distribution of births used throughout. National
+network layouts and transnational aggregates are shown in @fig-facet
+through @fig-mapa-circle.
 
 ```{r}
 #| label: fig-temporal-by-country
@@ -59,42 +71,78 @@ t02 |>
   )
 ```
 
-Endogamy rates vary markedly across countries (@tbl-endogamia). Large republics cluster between roughly **0.77 and 0.87** on the kinship-based endogamy rate, with **Paraguay** at **1.00** on a very small marriage count (**4**). **Bolivia** shows the lowest endogamy rate in the table (**0.67**) alongside a high transnational marriage share (**0.67**), reflecting both small **n** and boundary effects in the corpus. @tbl-h1h4 reports family counts per country (e.g., **Argentina 165**, **Peru 182**, **Mexico 111**, **Chile 98**) and country-level correlations between mean genealogical degree and family closure, and between mean betweenness and closure, within families. Cells marked “—” indicate correlations that were not estimated (see table note).
+Endogamy rates vary markedly across countries (@tbl-endogamia). Large
+republics cluster between roughly **0.77 and 0.87** on the kinship-based
+endogamy rate, with **Paraguay** at **1.00** on a very small marriage
+count (**4**). **Bolivia** shows the lowest endogamy rate in the table
+(**0.67**) alongside a high transnational marriage share (**0.67**),
+reflecting both small **n** and boundary effects in the corpus.
+@tbl-h1h4 reports family counts per country (e.g., **Argentina 165**,
+**Peru 182**, **Mexico 111**, **Chile 98**) and country-level
+correlations between mean genealogical degree and family closure, and
+between mean betweenness and closure, within families. Cells marked “—”
+indicate correlations that were not estimated (see table note).
 
-At the country level, **Corr(degree, closure)** is **negative** everywhere it is defined in @tbl-h1h4, and substantively large for several major republics: **Mexico −0.797**, **Venezuela −0.764**, **Argentina −0.738**, **Peru −0.720**, **Chile −0.536**, **Colombia −0.478**. One **observational** reading—consistent with competitive-oligarchy narratives and with multiplex “robust action” (Padgett & Ansell, 1993)—is that **large, highly connected families could not “afford” high endogamy** if maintaining network reach required outward marriage and alliance; smaller or less central lineages, by contrast, could sustain higher closure without sacrificing documented connectivity. Interpreted through Bourdieu’s (1996) vocabulary of capital conversion, brokerage across families and institutions and closure within the surname cluster appear here as **alternative strategies** whose joint realization is constrained in the marriage market, not as mechanically complementary dimensions.
+At the country level, **Corr(degree, closure)** is **negative**
+everywhere it is defined in @tbl-h1h4, and substantively large for
+several major republics: **Mexico −0.797**, **Venezuela −0.764**,
+**Argentina −0.738**, **Peru −0.720**, **Chile −0.536**, **Colombia
+−0.478**. One **observational** reading—consistent with
+competitive-oligarchy narratives and with multiplex “robust action”
+(Padgett & Ansell, 1993)—is that **large, highly connected families
+could not “afford” high endogamy** if maintaining network reach required
+outward marriage and alliance; smaller or less central lineages, by
+contrast, could sustain higher closure without sacrificing documented
+connectivity. Interpreted through Bourdieu’s (1996) vocabulary of
+capital conversion, brokerage across families and institutions and
+closure within the surname cluster appear here as **alternative
+strategies** whose joint realization is constrained in the marriage
+market, not as mechanically complementary dimensions.
 
-**Corr(betweenness, closure)** is **more modest** in magnitude than **Corr(degree, closure)** in every country where both are defined—for example **Argentina −0.236**, **Mexico −0.440**, **Chile −0.330**, **Venezuela −0.344**, **Peru −0.122**, **Colombia −0.073** (@tbl-h1h4)—suggesting that **structural brokerage in the multiplex graph** is less tightly organized around matrimonial closure than raw genealogical degree is. That pattern is consistent with institution-heavy shortest paths (party, university, succession) that need not align with endogamy rates computed on spouse/partner edges alone.
+**Corr(betweenness, closure)** is **more modest** in magnitude than
+**Corr(degree, closure)** in every country where both are defined—for
+example **Argentina −0.236**, **Mexico −0.440**, **Chile −0.330**,
+**Venezuela −0.344**, **Peru −0.122**, **Colombia −0.073**
+(@tbl-h1h4)—suggesting that **structural brokerage in the multiplex
+graph** is less tightly organized around matrimonial closure than raw
+genealogical degree is. That pattern is consistent with
+institution-heavy shortest paths (party, university, succession) that
+need not align with endogamy rates computed on spouse/partner edges
+alone.
 
 The negative degree–closure correlation admits a structural mechanism
-that goes beyond coincidence. In competitive oligarchic settings,
-access to state resources—contracts, appointments, fiscal transfers—
-required coalition partners drawn from *outside* one's own surname
-cluster. Endogamy, in this context, is a luxury of the politically
-marginal: families secure enough in their economic base (hacienda,
-mining enclave, Church patronage) to forgo the brokerage rents available
-through exogamous alliance. Large, high-degree families in the Wikipedia
-corpus are disproportionately political families—presidents, ministers,
+that goes beyond coincidence. In competitive oligarchic settings, access
+to state resources—contracts, appointments, fiscal transfers— required
+coalition partners drawn from *outside* one's own surname cluster.
+Endogamy, in this context, is a luxury of the politically marginal:
+families secure enough in their economic base (hacienda, mining enclave,
+Church patronage) to forgo the brokerage rents available through
+exogamous alliance. Large, high-degree families in the Wikipedia corpus
+are disproportionately political families—presidents, ministers,
 generals—whose positions required permanent negotiation with rival
 lineages. This is consistent with Padgett and Ansell's (1993) finding
-that Medici dominance depended precisely on *not* over-committing to
-any single faction: multiplex, outward-facing networks sustained
-"robust action" that dense in-group closure would have foreclosed.
-The pattern is descriptive, not causal; the mechanism proposed here
-is a hypothesis for future cohort-level testing.
+that Medici dominance depended precisely on *not* over-committing to any
+single faction: multiplex, outward-facing networks sustained "robust
+action" that dense in-group closure would have foreclosed. The pattern
+is descriptive, not causal; the mechanism proposed here is a hypothesis
+for future cohort-level testing.
 
 The weaker betweenness–closure correlation has a different explanation.
 Betweenness in the multiplex graph reflects position on shortest paths
 that traverse parties, universities, and succession chains—not only
 kinship. An individual can be a structural broker across institutions
-*regardless* of whether their family is endogamous, because brokerage
-in the multiplex graph is determined by the *institutional* layer, not
-the matrimonial layer. This separation of genealogical closure from
+*regardless* of whether their family is endogamous, because brokerage in
+the multiplex graph is determined by the *institutional* layer, not the
+matrimonial layer. This separation of genealogical closure from
 institutional brokerage is itself a substantive finding: it suggests
 that the two classic mechanisms of elite reproduction—marriage strategy
-and institutional placement—operated with considerable independence
-in Latin American republics, and should not be conflated analytically.
+and institutional placement—operated with considerable independence in
+Latin American republics, and should not be conflated analytically.
 
-**H1 receives partial descriptive support:** closure and institutional concentration co-vary in informative ways in @tbl-h1h4, but the degree–closure association is heterogeneous and **not** uniform across polities.
+**H1 receives partial descriptive support:** closure and institutional
+concentration co-vary in informative ways in @tbl-h1h4, but the
+degree–closure association is heterogeneous and **not** uniform across
+polities.
 
 ## H2: Topology and stylized regime types
 
@@ -107,7 +155,23 @@ in Latin American republics, and should not be conflated analytically.
 knitr::include_graphics(path_fig("exploracion_redes_facet.png"))
 ```
 
-Exploratory visualization and community structure suggest **ideal-typical alignments** (interpretive, not algorithmically assigned). **Paraguay** shows a near-linear chain around the López dynasty, evocative of patrimonial consolidation. **Chile and Peru** display star-like patterns with prominent hubs in exploratory plots. **Argentina, Colombia, and Mexico** show dense webs with multiple high-degree nodes. **Bolivia, Venezuela, and Ecuador** appear more fragmented into smaller cohesive clusters. @fig-facet summarizes the country-faceted view used in the replication workflow. **H2 is supported descriptively** at the level of stylized analogy; we do not estimate predictive models from topology to regime type.
+Exploratory visualization and community structure suggest
+**ideal-typical alignments** (interpretive, not algorithmically
+assigned). **Paraguay** shows a near-linear chain around the López
+dynasty, evocative of patrimonial consolidation. **Chile and Peru**
+display star-like patterns with prominent hubs in exploratory plots.
+**Argentina, Colombia, and Mexico** show dense webs with multiple
+high-degree nodes. **Bolivia, Venezuela, and Ecuador** appear more
+fragmented into smaller cohesive clusters. @fig-facet summarizes the
+country-faceted view used in the replication workflow. **H2 is supported
+descriptively** at the level of stylized analogy; we do not estimate
+predictive models from topology to regime type.
+
+![](images/pres_transnacional_flow_map_continent.png){fig-align="center"}
+
+![](images/transnacional_familias_red_bipartita.png)
+
+![](images/dinastias_temporal_por_pais.png){fig-align="center"}
 
 ## H3: Transnational corridors
 
@@ -176,13 +240,53 @@ knitr::include_graphics(path_fig("mapa_global_conexiones.png"))
 knitr::include_graphics(path_fig("mapa_global_red_paises_circulo.png"))
 ```
 
-Aggregated weights rank **Chile–Peru** first (**117** total counted events), followed by **Argentina–Uruguay** (**105**), **Argentina–Chile** (**94**), and **Argentina–Peru** (**90**) (@tbl-pairs; @fig-transnational-net through @fig-mapa-circle). Atlantic-oriented pairs such as **Argentina–Brazil** are absent from the top of this list in the current aggregation.
+Aggregated weights rank **Chile–Peru** first (**117** total counted
+events), followed by **Argentina–Uruguay** (**105**),
+**Argentina–Chile** (**94**), and **Argentina–Peru** (**90**)
+(@tbl-pairs; @fig-transnational-net through @fig-mapa-circle).
+Atlantic-oriented pairs such as **Argentina–Brazil** are absent from the
+top of this list in the current aggregation.
 
-The **decomposition into kinship versus biographical counts** matters theoretically. **Chile–Peru** combines **36** kinship and **81** biographical events—roughly **31%** kinship and **69%** biographical—so the strongest dyad in the table is driven **primarily** by biographical co-mention (death, residence, occupation) rather than by cross-border genealogy alone. **Argentina–Chile** shows the reverse emphasis: **56** kinship and **38** biographical events (**~60%** kinship, **~40%** biographical on **94** totals), making it the most **genealogically entangled** pair among the top ranks. **Argentina–Uruguay** is **mixed** (**46** vs **59**, or **~44%** kinship vs **~56%** biographical), consistent with a dense Rioplatense elite field in which family and professional or diplomatic circulation are both heavily documented. These contrasts are **descriptive**: kinship-heavy pairs point to family networks that actually cross borders in the scraped graph; biographical-heavy pairs capture elite circulation that **may or may not** coincide with kinship, but still registers transnational linkage in the corpus.
+The **decomposition into kinship versus biographical counts** matters
+theoretically. **Chile–Peru** combines **36** kinship and **81**
+biographical events—roughly **31%** kinship and **69%** biographical—so
+the strongest dyad in the table is driven **primarily** by biographical
+co-mention (death, residence, occupation) rather than by cross-border
+genealogy alone. **Argentina–Chile** shows the reverse emphasis: **56**
+kinship and **38** biographical events (**\~60%** kinship, **\~40%**
+biographical on **94** totals), making it the most **genealogically
+entangled** pair among the top ranks. **Argentina–Uruguay** is **mixed**
+(**46** vs **59**, or **\~44%** kinship vs **\~56%** biographical),
+consistent with a dense Rioplatense elite field in which family and
+professional or diplomatic circulation are both heavily documented.
+These contrasts are **descriptive**: kinship-heavy pairs point to family
+networks that actually cross borders in the scraped graph;
+biographical-heavy pairs capture elite circulation that **may or may
+not** coincide with kinship, but still registers transnational linkage
+in the corpus.
 
-Historical narratives are **suggestive**, not testable here. The old **Viceroyalty of Peru** linked Chilean and Peruvian territories administratively; the **War of the Pacific (1879–84)** plausibly increased biographical cross-referencing between Chilean and Peruvian entries (military, exile, diplomatic elites). **Argentina–Chile** aligns with long-standing **Andean–Southern Cone** mobility, including nineteenth-century political exile (unitario currents toward Chile). **Argentina–Uruguay** fits a **River Plate** basin elite culture. The **absence of a strong Argentina–Brazil** edge among top pairs—despite geographic scale—is consistent with the idea that **colonial administrative units and post-colonial circuits** structure documentary elite ties more than continental proximity alone.
+Historical narratives are **suggestive**, not testable here. The old
+**Viceroyalty of Peru** linked Chilean and Peruvian territories
+administratively; the **War of the Pacific (1879–84)** plausibly
+increased biographical cross-referencing between Chilean and Peruvian
+entries (military, exile, diplomatic elites). **Argentina–Chile** aligns
+with long-standing **Andean–Southern Cone** mobility, including
+nineteenth-century political exile (unitario currents toward Chile).
+**Argentina–Uruguay** fits a **River Plate** basin elite culture. The
+**absence of a strong Argentina–Brazil** edge among top pairs—despite
+geographic scale—is consistent with the idea that **colonial
+administrative units and post-colonial circuits** structure documentary
+elite ties more than continental proximity alone.
 
-At the family level, @tbl-families-multinational highlights lineages such as **Borrero** (**39** members across **four** countries: Argentina, Chile, Colombia, Ecuador), **Campero** (**24** members; Argentina, Bolivia, Chile, Peru), and **Sucre** (**11** members; Argentina, Colombia, Ecuador, Venezuela). Their geographic footprints map onto **Bolivarian and Gran-Colombia** political geographies in ways that are **consistent with** post-independence elite continuity tied to colonial administrative networks—again, an interpretive alignment rather than a causal claim.
+At the family level, @tbl-families-multinational highlights lineages
+such as **Borrero** (**39** members across **four** countries:
+Argentina, Chile, Colombia, Ecuador), **Campero** (**24** members;
+Argentina, Bolivia, Chile, Peru), and **Sucre** (**11** members;
+Argentina, Colombia, Ecuador, Venezuela). Their geographic footprints
+map onto **Bolivarian and Gran-Colombia** political geographies in ways
+that are **consistent with** post-independence elite continuity tied to
+colonial administrative networks—again, an interpretive alignment rather
+than a causal claim.
 
 The Pacific-corridor pattern is not self-explanatory. Three mechanisms,
 operating at different scales, are consistent with it. At the *colonial*
@@ -197,22 +301,24 @@ intensified their biographical entanglement through military command,
 diplomatic negotiation, and forced exile, all of which generate
 Wikipedia cross-referencing independently of genealogy. At the
 *demographic* scale, the Andean corridor concentrated literate,
-Spanish-speaking populations in highland cities (Lima, Santiago,
-La Paz, Bogotá) that were closer to each other in travel time and
-cultural distance than to the Amazon basin or the Río de la Plata
-coast—creating a natural marriage market among notables.
+Spanish-speaking populations in highland cities (Lima, Santiago, La Paz,
+Bogotá) that were closer to each other in travel time and cultural
+distance than to the Amazon basin or the Río de la Plata coast—creating
+a natural marriage market among notables.
 
-None of these mechanisms is identified here; each is a hypothesis
-that cohort-level analysis, archival validation, or event-study
-designs using the War of the Pacific as a natural experiment could
-partially test. The absence of Argentina–Brazil from the top dyads
-is the strongest implicit test available: if geographic proximity
-alone drove the pattern, the two largest adjacent economies should
-dominate the matrix. They do not—which is consistent with the
-administrative-corridor hypothesis and inconsistent with a simple
-distance-decay model.
+None of these mechanisms is identified here; each is a hypothesis that
+cohort-level analysis, archival validation, or event-study designs using
+the War of the Pacific as a natural experiment could partially test. The
+absence of Argentina–Brazil from the top dyads is the strongest implicit
+test available: if geographic proximity alone drove the pattern, the two
+largest adjacent economies should dominate the matrix. They do not—which
+is consistent with the administrative-corridor hypothesis and
+inconsistent with a simple distance-decay model.
 
-**H3 receives descriptive support** for a Pacific–Andean and Southern Cone emphasis in this Wikipedia slice, with the critical caveat that **biographical layers inflate** some dyads relative to kinship and that mechanisms (mining, education, diplomacy) are not identified.
+**H3 receives descriptive support** for a Pacific–Andean and Southern
+Cone emphasis in this Wikipedia slice, with the critical caveat that
+**biographical layers inflate** some dyads relative to kinship and that
+mechanisms (mining, education, diplomacy) are not identified.
 
 ## H4: Betweenness and brokerage
 
@@ -240,41 +346,53 @@ knitr::kable(mx, booktabs = TRUE, caption = NULL) |>
   kableExtra::kable_styling(latex_options = c("hold_position", "scale_down"), font_size = 7)
 ```
 
-High betweenness is concentrated among a small set of individuals (@tbl-brokers): examples include **Luis Felipe Villarán** and **Walter Humala** (Peru), **José Evaristo Uriburu** (Argentina), and **Cuauhtémoc Cárdenas** (Mexico). **H4 is descriptively supported** in the sense that structural brokerage positions are identifiable in the augmented graph. We refrain from equating betweenness with political influence outside the documented network.
+High betweenness is concentrated among a small set of individuals
+(@tbl-brokers): examples include **Luis Felipe Villarán** and **Walter
+Humala** (Peru), **José Evaristo Uriburu** (Argentina), and **Cuauhtémoc
+Cárdenas** (Mexico). **H4 is descriptively supported** in the sense that
+structural brokerage positions are identifiable in the augmented graph.
+We refrain from equating betweenness with political influence outside
+the documented network.
 
 The concentration of betweenness among Peruvian and Argentine
 individuals warrants a structural interpretation. Peru's over-
-representation at the top of the betweenness ranking—three of the
-top five individuals, including the highest-scoring node—is consistent
-with Lima's historical role as the hub of the Viceregal network:
-a city that connected Andean silver routes to Atlantic commerce,
-Andean highland populations to coastal ports, and Bolivarian
-revolutionary circuits to conservative post-independence
-institutions. High betweenness, in this reading, is not a
-property of individuals per se but of structural positions
-inherited from colonial geography and reinforced by republican
-institution-building. The individuals who occupy these positions
-in the multiplex graph may do so because their biographies
-happen to articulate multiple institutional circuits—military,
-legal, party, educational—that are themselves geographically
-concentrated in Lima.
+representation at the top of the betweenness ranking—three of the top
+five individuals, including the highest-scoring node—is consistent with
+Lima's historical role as the hub of the Viceregal network: a city that
+connected Andean silver routes to Atlantic commerce, Andean highland
+populations to coastal ports, and Bolivarian revolutionary circuits to
+conservative post-independence institutions. High betweenness, in this
+reading, is not a property of individuals per se but of structural
+positions inherited from colonial geography and reinforced by republican
+institution-building. The individuals who occupy these positions in the
+multiplex graph may do so because their biographies happen to articulate
+multiple institutional circuits—military, legal, party, educational—that
+are themselves geographically concentrated in Lima.
 
-Argentina's cluster of high-betweenness individuals (Uriburu,
-Obligado, Di Tella, Sáenz Peña) corresponds to the so-called
-"Generation of 1880"—the oligarchic coalition that built the
-Argentine state and simultaneously consolidated a marriage
-market, a party system, and a university system in Buenos Aires.
-That this generation produces high betweenness in the multiplex
-graph is mechanistically plausible: they were, empirically,
-the individuals who most intensively layered kinship onto
-institutional position. This is the structural signature of
-what Centeno (2002) calls the "limited war" elite—a group that
-achieved state consolidation not through mass mobilization but
-through network coordination among a small, interconnected stratum.
+Argentina's cluster of high-betweenness individuals (Uriburu, Obligado,
+Di Tella, Sáenz Peña) corresponds to the so-called "Generation of
+1880"—the oligarchic coalition that built the Argentine state and
+simultaneously consolidated a marriage market, a party system, and a
+university system in Buenos Aires. That this generation produces high
+betweenness in the multiplex graph is mechanistically plausible: they
+were, empirically, the individuals who most intensively layered kinship
+onto institutional position. This is the structural signature of what
+Centeno (2002) calls the "limited war" elite—a group that achieved state
+consolidation not through mass mobilization but through network
+coordination among a small, interconnected stratum.
 
 ## Gender patterns
 
-The infobox pipeline does **not** encode sex; any gendered pattern must therefore be **exploratory**. @tbl-gender-heuristic applies an intentionally **crude** first-name heuristic (feminine-coded given names at the start of the string versus all others) to `metricas_centralidad.csv` for persons with positive degree. For **Argentina** and **Colombia**—the two largest samples—mean degree is similar across groups, while mean betweenness is **lower** for the feminine-coded group in **Colombia** and nearly identical in **Argentina**, underscoring **subnational heterogeneity** and the limits of name-based inference.
+The infobox pipeline does **not** encode sex; any gendered pattern must
+therefore be **exploratory**. @tbl-gender-heuristic applies an
+intentionally **crude** first-name heuristic (feminine-coded given names
+at the start of the string versus all others) to
+`metricas_centralidad.csv` for persons with positive degree. For
+**Argentina** and **Colombia**—the two largest samples—mean degree is
+similar across groups, while mean betweenness is **lower** for the
+feminine-coded group in **Colombia** and nearly identical in
+**Argentina**, underscoring **subnational heterogeneity** and the limits
+of name-based inference.
 
 ```{r}
 #| label: tbl-gender-heuristic
@@ -319,4 +437,15 @@ knitr::kable(mxg, booktabs = TRUE, caption = NULL) |>
   kableExtra::kable_styling(latex_options = c("hold_position", "scale_down"), font_size = 8)
 ```
 
-Interpretively, where **degree** in kin projections is **high** but **betweenness** in the multiplex graph is **not**, the pattern is **consistent with** women’s documented role as connectors in genealogical fields (marriage, descent) without equivalent placement on shortest paths that also traverse parties and universities—an alignment, at least narratively, with Lavrin’s (1990) emphasis on marriage as alliance and with Bourdieu’s (1996) distinction among forms of capital: **genealogical visibility** in Wikipedia need not translate into **institutional brokerage** in the augmented graph. A validated gender table (civil registers, manual coding, or external biographies) should replace @tbl-gender-heuristic before strong claims are attempted; the present discussion remains **hypothesis-generating** only.
+Interpretively, where **degree** in kin projections is **high** but
+**betweenness** in the multiplex graph is **not**, the pattern is
+**consistent with** women’s documented role as connectors in
+genealogical fields (marriage, descent) without equivalent placement on
+shortest paths that also traverse parties and universities—an alignment,
+at least narratively, with Lavrin’s (1990) emphasis on marriage as
+alliance and with Bourdieu’s (1996) distinction among forms of capital:
+**genealogical visibility** in Wikipedia need not translate into
+**institutional brokerage** in the augmented graph. A validated gender
+table (civil registers, manual coding, or external biographies) should
+replace @tbl-gender-heuristic before strong claims are attempted; the
+present discussion remains **hypothesis-generating** only.
