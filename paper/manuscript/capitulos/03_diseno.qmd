@@ -30,30 +30,46 @@ corpus_pais |>
   )
 ```
 
-**Family** is operationalized via **`familia_norm`**, a normalized surname cluster produced by the processing pipeline (orthographic merging). This is a Wikipedia-assigned label, not a validated genealogical house. **Country** attaches to individuals using nationality fields, infobox cues, text-based detection, and manual overrides (`url_pais_extra.csv`). A kinship edge is treated as **transnational** in aggregations when endpoint countries differ under these assignments.
+## Family, country, and measurement definitions
+
+**Family** is operationalized via *familia_norm*, a normalized surname cluster constructed through orthographic harmonization. This construct should be interpreted as a **documentary grouping** derived from Wikipedia conventions rather than as a validated genealogical lineage.
+
+**Country** is assigned using nationality fields, infobox cues, and text-based inference, complemented by manual verification where ambiguity arises. A kinship edge is classified as **transnational** when the assigned countries of its endpoints differ. Both family and country variables are therefore subject to classification error inherent to the source.
 
 ## Network construction and metrics
 
-We construct an undirected graph on matched kinship edges and—following `03_grafo_parentesco.R`—augment it with within-family ties for small lineages, predecessor–successor links, and bipartite projections from shared party and university membership for **global** centrality and community detection. Thus, degree and betweenness reported in `metricas_centralidad.csv` refer to this **multiplex** graph, whereas marriage-based endogamy rates use kin-type edges only (see below).
+We construct an undirected graph based on matched kinship relations and augment it with additional relational layers, including within-family ties for small lineages, predecessor–successor links, and affiliations derived from shared party membership and educational institutions. Together, these layers define a **multiplex network** used for centrality estimation and community detection.
+
+Accordingly, degree and betweenness centrality are computed on the multiplex graph, whereas marriage-based endogamy measures rely exclusively on kinship edges. This distinction separates **institutional connectivity** from strictly **genealogical closure**.
 
 ### Why betweenness is computed on the multiplex graph
 
-Betweenness centrality in a **kinship-only** graph would identify individuals who structurally mediate genealogical chains—an analytically narrow concept tied to documented parent–child and spousal links alone. The **multiplex** graph used here layers party co-membership, shared educational institutions, and political predecessor–successor ties onto kinship edges, so that shortest paths can pass through institutional as well as familial channels. That specification better approximates the **multi-dimensional social infrastructure** through which elite coordination is plausibly sustained in historical and republican settings (office holding, party politics, and university training alongside marriage). Endogamy rates, by contrast, are computed on spouse and partner edges only, preserving a strictly **matrimonial** definition of family closure. Metrics were computed in **R** with **igraph**; edges were constructed and merged as documented in the replication scripts.
+Betweenness centrality in a kinship-only graph captures mediation along genealogical chains, an analytically narrow concept tied to parent–child and spousal links. The multiplex specification allows shortest paths to traverse institutional as well as familial relations—such as shared party affiliation, educational trajectories, and succession ties—thus approximating a broader **infrastructure of elite coordination**.
 
-Metrics computed with **igraph** include degree, betweenness centrality, PageRank, local clustering, and Louvain communities (resolution 1.0). **Endogamy:** on spouse/partner edges with matched partners, a tie is endogamous if both endpoints share `familia_norm`. Country-level marriage counts and rates are reported in @tbl-endogamia. **Transnational structure:** country-pair aggregates combine kinship and biographical “mention” signals (`transnacional_red_paises.csv`). **Dynasty persistence** is summarized in `dinastias_persistencia.csv`. Hypothesis-oriented country summaries are pre-computed in `paper/tables/T02_h1_h4_resumen_pais.csv` and reproduced as @tbl-h1h4.
+This specification does not imply that multiplex betweenness directly measures political influence; rather, it captures **structural positioning** within the observed relational system. By contrast, endogamy rates are computed exclusively on spouse and partner ties, preserving a strictly **matrimonial definition** of closure.
+
+Network measures are computed with `igraph`, including degree, betweenness centrality, PageRank, local clustering coefficient, and community structure via modularity optimization. Additional aggregate indicators are constructed as follows:
+
+- **Endogamy:** On spouse/partner edges with matched partners, a tie is classified as endogamous if both endpoints share `familia_norm`.
+- **Transnational structure:** Country-pair aggregates combine kinship ties with biographical co-mention signals, which should be interpreted as complementary indicators of cross-border linkage.
+- **Dynasty persistence:** Summarized through longitudinal patterns of surname continuity and connectivity.
+- **Country-level summaries:** Aggregate indicators are reported to support hypothesis-oriented comparisons.
 
 ## Analytical stance and temporal scope
 
-All main analyses are **observational**. Network metrics describe co-occurrence in a digital corpus conditioned on notability and editorial practice. Language in @sec-resultados follows a **hedging norm** (“associated with,” “consistent with,” “suggestive”). Biographical dates span roughly **1800–2000** with colonial antecedents for some lineages; long-run graphs **conflate** periods unless cohorts are split explicitly.
+All analyses are **observational**. Network measures describe co-occurrence patterns within a digital corpus shaped by notability and editorial practices. Throughout @sec-resultados, we adopt a **descriptively cautious language** (e.g., “associated with,” “consistent with,” “suggestive”) to avoid causal over-interpretation.
 
-## Limitations (explicit) {#sec-limitaciones}
+Biographical dates span approximately **1800–2000**, with some colonial antecedents. Unless explicitly disaggregated, network representations **pool multiple historical periods**, implying that observed structures combine relationships formed under different institutional contexts.
 
-1. **Selection bias:** Wikipedia encodes literate, visible, often male elites; indigenous, Afro-descendant, and subnational elites are systematically underrepresented.
-2. **Kinship incompleteness:** editors omit relatives; women may appear chiefly as spouses or mothers.
-3. **Label noise:** `familia_norm` may merge or split lineages incorrectly, especially across countries.
-4. **Temporal conflation:** graphs pool republican and colonial-era ties unless disaggregated.
-5. **Edge incompleteness:** **42.2%** of kinship rows lack a matched endpoint; covert patronage or business ties are invisible.
-6. **Single-country assignment** forces multinational biographies into one country, partially mitigated by manual overrides and biographical mention layers.
-7. **No causal identification:** betweenness or endogamy cannot be interpreted as manipulable treatments without additional design.
+## Limitations {#sec-limitaciones}
 
-These limitations frame the contribution as a **mapped documentary elite**—not an exhaustive social register—and motivate the interpretive discipline maintained in @sec-resultados and @sec-discusion.
+1. **Selection bias:** Wikipedia disproportionately documents literate, urban, and politically visible individuals; indigenous, Afro-descendant, and subnational elites are underrepresented.  
+2. **Kinship incompleteness:** Many familial ties are unrecorded; women may appear primarily as relational nodes (e.g., spouses or mothers).  
+3. **Label uncertainty:** *familia_norm* may merge distinct lineages or split unified ones, particularly across national contexts.  
+4. **Temporal aggregation:** Networks combine ties across historical periods unless explicitly segmented.  
+5. **Edge incompleteness:** A substantial share of kinship relations lack a matched endpoint, limiting full network reconstruction.  
+6. **Country assignment constraints:** Multinational biographies are reduced to a single country label, partially mitigated by biographical cross-referencing.  
+7. **Measurement dependence:** Multiple metrics (e.g., centrality, block structure, robustness) are derived from the same underlying graph and should be interpreted as **complementary rather than independent** evidence.  
+8. **No causal identification:** Network position measures (e.g., betweenness, endogamy) cannot be interpreted as causal drivers without additional research designs.
+
+These limitations position the analysis as a **structured mapping of a documentary elite field**, rather than a comprehensive representation of Latin American elites. They also motivate the interpretive discipline maintained in @sec-resultados and @sec-discusion.

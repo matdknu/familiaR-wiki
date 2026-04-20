@@ -1,0 +1,150 @@
+% ============================================================
+% Academic paper preamble — Elite Networks LATAM
+% Targets journal aesthetic (AJS / ASR / CPS)
+% ============================================================
+
+% ---------- Typography ----------
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else
+  \usepackage{fontspec}
+  \defaultfontfeatures{Ligatures=TeX}
+  % Main serif — Libertinus if available, fallback to Latin Modern
+  \IfFontExistsTF{Libertinus Serif}{
+    \setmainfont{Libertinus Serif}[
+      Numbers={OldStyle,Proportional},
+      Ligatures={Common,TeX}
+    ]
+  }{
+    % Latin Modern remains default
+  }
+  % Optional sans/mono: install Inter / JetBrains Mono system-wide to enable;
+  % otherwise Latin Modern derivatives are used and PDF build stays portable.
+\fi
+
+% ---------- Geometry ----------
+\usepackage[
+  top=1.1in,
+  bottom=1.2in,
+  left=1.25in,
+  right=1.25in,
+  headheight=14pt,
+  footskip=0.5in
+]{geometry}
+
+% ---------- Line spacing ----------
+\usepackage{setspace}
+\setstretch{1.18}  % journal-style: slightly tighter than 1.5, looser than single
+
+% Paragraph indent / spacing — journal convention
+\setlength{\parindent}{1.5em}
+\setlength{\parskip}{0pt plus 1pt}
+
+% ---------- Section headings ----------
+\usepackage{titlesec}
+
+\titleformat{\section}
+  {\normalfont\fontsize{12}{14}\bfseries}
+  {\thesection}{0.8em}{}
+\titlespacing*{\section}{0pt}{1.6em}{0.6em}
+
+\titleformat{\subsection}
+  {\normalfont\fontsize{11}{13}\bfseries}
+  {\thesubsection}{0.7em}{}
+\titlespacing*{\subsection}{0pt}{1.2em}{0.4em}
+
+\titleformat{\subsubsection}
+  {\normalfont\fontsize{10.5}{12}\itshape}
+  {\thesubsubsection}{0.6em}{}
+\titlespacing*{\subsubsection}{0pt}{0.9em}{0.3em}
+
+% ---------- Captions ----------
+\usepackage[
+  font=small,
+  labelfont=bf,
+  labelsep=period,
+  justification=justified,
+  singlelinecheck=false
+]{caption}
+
+\captionsetup[table]{
+  position=above,
+  skip=4pt
+}
+\captionsetup[figure]{
+  position=below,
+  skip=6pt
+}
+
+% ---------- Tables ----------
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+
+% Slightly tighter booktabs rules
+\setlength{\aboverulesep}{0pt}
+\setlength{\belowrulesep}{0pt}
+\setlength{\extrarowheight}{1pt}
+\setlength{\heavyrulewidth}{0.9pt}
+\setlength{\lightrulewidth}{0.4pt}
+
+% Row spacing inside tables
+\renewcommand{\arraystretch}{1.15}
+
+% Table font size default — journal tables are typically 9-10pt
+\AtBeginEnvironment{tabular}{\small}
+\AtBeginEnvironment{tabularx}{\small}
+
+% ---------- Figures ----------
+\usepackage{float}
+\usepackage{graphicx}
+
+% Force figures to stay near their declaration point
+\floatplacement{figure}{!ht}
+\floatplacement{table}{!ht}
+
+% Reduce space around floats
+\setlength{\textfloatsep}{12pt plus 2pt minus 2pt}
+\setlength{\intextsep}{12pt plus 2pt minus 2pt}
+
+% ---------- Bibliography ----------
+\usepackage[hang,flushmargin]{footmisc}
+
+\usepackage{etoolbox}
+% Hanging indent for bibliography (Pandoc / Quarto CSL)
+\AtBeginEnvironment{CSLReferences}{%
+  \setlength{\parindent}{0pt}%
+  \setlength{\leftskip}{2em}%
+  \setlength{\parskip}{0.5em}%
+  \everypar{\setlength{\hangindent}{-2em}}%
+}
+
+% Smaller font for bibliography
+\newcommand{\bibfontsize}{\small}
+
+% Hyperref is loaded by Quarto; use YAML (colorlinks, linkcolor, urlcolor) for black links.
+
+% ---------- Page numbering ----------
+\usepackage{fancyhdr}
+\pagestyle{plain}
+
+% ---------- Prevent orphans and widows ----------
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+
+% ---------- Footnotes ----------
+\renewcommand{\footnotesize}{\fontsize{9}{11}\selectfont}
+\setlength{\skip\footins}{12pt plus 4pt minus 2pt}
+\setlength{\footnotesep}{9pt}
+
+% ---------- List spacing ----------
+\usepackage{enumitem}
+\setlist{itemsep=2pt, topsep=4pt, parsep=0pt}
+
+% ---------- Lowercase section refs ----------
+% "see section 3" not "see Section 3" if you want Chicago style
+% (comment out if you prefer capitalized)
+% \crefformat{section}{section~#2#1#3}

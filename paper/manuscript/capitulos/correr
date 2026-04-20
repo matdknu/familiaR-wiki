@@ -1,1 +1,3 @@
+cd paper/manuscript
+quarto render elite_networks_paper.qmd --to html
 quarto render elite_networks_paper.qmd --to pdf

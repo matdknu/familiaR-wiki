@@ -1,127 +1,319 @@
+---
+editor:
+  markdown:
+    wrap: 72
+---
+
 # Discussion and conclusion {#sec-discusion}
 
 ## Heterogeneity versus a single Latin American model
 
-Our results align with a **heterogeneous Latin America** thesis: elite kinship topologies are not isomorphic. Contrasting Paraguayan chain-like structures with Mexican or Colombian density resonates with institutionalist accounts of divergent state formation (Mahoney, 2010) even when measured through one digital source.
+Our results are consistent with a **heterogeneous Latin America**:
+elite kinship structures are not isomorphic across countries.
+Contrasting chain-like configurations in Paraguay with dense or
+multi-hub structures in Mexico, Colombia, or Argentina aligns with
+institutionalist accounts of divergent state formation. These
+differences emerge even when all cases are measured through a single
+digital corpus, suggesting that the variation reflects underlying
+historical processes rather than purely methodological artifacts.
+
+## Chilean exceptionalism as structural pattern
+
+H5 raises a finding that the heterogeneity frame does not fully
+accommodate: **sixteen of the twenty-one families in the SBM core, and
+three of the four robust brokers, are Chilean**. This is not a minor
+imbalance. Chile contributes **99** families to the corpus — fewer than
+Argentina (**161**), Peru (**185**), or Colombia (**146**) — yet dominates
+the structurally central positions. The pattern is not reducible to
+sub-corpus size; if anything, the opposite holds.
+
+Two readings are available, and we do not adjudicate between them here.
+
+*As a structural fact.* Chilean elite continuity across the Portalian,
+Parliamentary, Popular Front, and early neoliberal regimes is a standing
+puzzle in Latin American political sociology. Zeitlin (1984), Stabili
+(1996), and Valenzuela and Valenzuela (1976) variously attribute this
+continuity to (i) a restricted electoral regime from 1833 to the 1920s
+that insulated elite marriage markets from mass politics, (ii) the
+absence of a successful land reform until 1967 that preserved hacendado
+lineages, and (iii) Santiago's unusual demographic dominance within
+Chile, concentrating the marriage market geographically in ways that
+Buenos Aires, Lima, or Mexico City — each rivaled by strong regional
+capitals — did not. The SBM core is consistent with these accounts: it
+identifies precisely the structural signature (densely interconnected
+small group, peripheral brokerage layer) that a closed Santiago elite
+would produce.
+
+*As a sampling artifact.* Spanish-language Wikipedia editorial practices
+vary across countries. If Chilean editors are disproportionately
+attentive to genealogical detail — recording spouses, parents, and
+children more consistently than Peruvian or Argentine editors — then
+Chilean families would appear more densely linked not because they *are*
+more densely linked, but because their links are more completely
+documented. The ratio of matched to total kinship rows (**57.8%**,
+@sec-diseno) is a global figure; country-level variation in this ratio
+would partially test the artifact hypothesis.
+
+The two readings are not mutually exclusive, and both generate testable
+predictions that the next iteration of this project should pursue:
+country-specific edge-matching rates, archival cross-validation of
+core-family genealogies, and comparison against non-Wikipedia elite
+registers (where available) for Chile, Colombia, and one contrast
+country.
 
 ## The Pacific corridor
 
-The Pacific–Andean emphasis in cross-border weights (@tbl-pairs; @fig-mapa-heatmap) is **not reducible to geographic proximity alone**. Bolivia and Ecuador are proximate to several large republics yet do not dominate the top dyads in this corpus; the pattern therefore aligns more closely with **historical administrative and biographical pathways** than with a simple distance decay model. Viceregal structures once centered on Lima linked Andean and coastal spaces into a common political field; the War of the Pacific (1879–84) further entangled Chilean and Peruvian elites through conflict, exile, and subsequent documentation in biographical fields. **Caveat:** biographical signals—death place, residence, occupation—inflate certain pairs relative to kinship alone; for Chile–Peru, **69%** of counted events are biographical (**81** of **117**) and **31%** kinship (**36** of **117**), which may partly reflect Chilean encyclopedic attention to Peruvian figures and exiles after 1879, not only cross-border genealogy. By contrast, Argentina–Chile is **predominantly kinship-weighted** (**60%** kinship, **40%** biographical on **94** events), consistent with denser genealogical entanglement (including historically documented migration and political exile corridors). Argentina–Uruguay is **mixed** (**44%** kinship, **56%** biographical on **105** events), consistent with a shared Rioplatense cultural field in which family and professional circulation are both visible. The **absence of Argentina–Brazil** among the strongest pairs is itself descriptive: elite ties in this archive appear **corridor-specific** rather than continental, which is consistent with colonial administrative legacies and Rioplatense cultural circuits more than with uniform neighborhood effects across Latin America. This pattern should be read as **policy- and archive-relevant** (where transnational elite coordination appears in a documentary corpus), not as proof of contemporary diplomatic alignment.
+The Pacific–Andean emphasis in cross-border weights (@tbl-pairs;
+@fig-mapa-heatmap) is not reducible to geographic proximity alone. Bolivia
+and Ecuador are proximate to several large republics yet do not dominate
+the top dyads in this corpus; the pattern therefore aligns more closely
+with **historical administrative and biographical pathways** than with a
+simple distance-decay model. Viceregal structures once centered on Lima
+linked Andean and coastal spaces into a common political field; the War
+of the Pacific (1879–84) further entangled Chilean and Peruvian elites
+through conflict, exile, and subsequent documentation in biographical
+fields.
 
-## Alternative explanations and their limits
+The kinship/biographical decomposition matters here. For Chile–Peru,
+**69%** of counted events are biographical (**81** of **117**) and
+**31%** kinship (**36** of **117**), which may partly reflect Chilean
+encyclopedic attention to Peruvian figures and exiles after 1879, not
+only cross-border genealogy. By contrast, Argentina–Chile is
+predominantly kinship-weighted (**60%** kinship, **40%** biographical on
+**94** events), consistent with denser genealogical entanglement
+including documented migration and political exile corridors.
+Argentina–Uruguay is mixed (**44%** kinship, **56%** biographical on
+**105** events), consistent with a shared Rioplatense cultural field in
+which family and professional circulation are both visible. The three
+pairs thus carry three different relational signatures, even though they
+rank close together on total weight.
 
-Three alternative explanations must be addressed before treating
-the observed patterns as informative.
+The absence of Argentina–Brazil among the strongest pairs is the
+strongest implicit test available for the administrative-corridor
+hypothesis: if geographic proximity alone drove the pattern, the two
+largest adjacent economies should dominate the matrix. They do not.
+This pattern is consistent with colonial administrative legacies and
+Rioplatense cultural circuits structuring elite ties more than uniform
+neighborhood effects across Latin America — an empirical regularity that
+future comparative work on Brazilian elite networks (using
+Portuguese-language sources) could extend or challenge.
 
-*Wikipedia visibility bias* is the most serious. If some families
-are documented in Wikipedia simply because they are more famous—
-rather than because they are more networked—then high degree could
-reflect celebrity rather than structural position. Two observations
-partially mitigate this concern. First, the negative correlation
-between degree and endogamy (H1) would not follow from a pure
-visibility story: celebrity families are not systematically more
-exogamous than obscure ones. Second, the topological variation
-across countries—chain in Paraguay, star in Chile, web in Argentina—
-is not reducible to differential Wikipedia coverage, since all
-countries are drawn from the same Spanish-language corpus under
-comparable extraction rules. Visibility bias inflates all graphs
-equally; it cannot explain *differential* topology.
+## Oligarchic consolidation
+
+H5's temporal analysis (@tbl-temporal) documents a monotonic **70%**
+decline in the cross-family tie share from the Colonial cohort to the
+Modern cohort, coinciding with rising total edge volume through the
+Republican period. This conjunction — more ties, fewer lineages — is the
+empirical signature of oligarchic consolidation, and it occurs during
+the period Centeno (2002) identifies as the formative century of the
+Latin American state (roughly 1820–1920). Centeno's argument is that
+Latin American republics did *not* undergo the fiscal-military
+transformation that Tilly (1990) and others associate with European state
+formation, because they did not fight the mass wars that forced such
+transformations in Europe. Instead, Centeno argues, they produced **"states
+without wars"**: administrative structures sustained not by centralized
+fiscal capacity but by elite network coordination.
+
+The present data do not test Centeno's mechanism directly. What they show
+is consistent with its structural prediction: if Latin American states
+consolidated through kinship intensification rather than bureaucratic
+institution-building, the network signature should be precisely the
+pattern we observe — rising edge volume in the state-building cohorts,
+concentrated within a shrinking set of structurally dominant lineages,
+producing a core–periphery architecture by the end of the consolidation
+period. Whether this structural signature *caused* the institutional
+weakness Centeno describes, or merely accompanied it, is a question for
+designs that exploit variation in the timing of elite consolidation
+across countries — another priority for cohort-level follow-up work.
+
+## Alternative explanations
+
+Four alternative explanations warrant treatment before the observed
+patterns can be read as informative.
+
+*Wikipedia visibility bias* is the most serious. If some families are
+documented in Wikipedia simply because they are more famous — rather
+than because they are more networked — then high degree could reflect
+celebrity rather than structural position. Two observations partially
+mitigate this concern. First, the negative correlation between degree
+and endogamy (H1) would not follow from a pure visibility story:
+celebrity families are not systematically more exogamous than obscure
+ones. Second, the topological variation across countries — chain in
+Paraguay, star in Chile, web in Argentina — is not reducible to
+differential Wikipedia coverage, since all countries are drawn from the
+same Spanish-language corpus under comparable extraction rules.
+Visibility bias would inflate all graphs equally; it cannot explain
+*differential* topology.
 
 *Demographic structure* offers a second alternative: countries with
-larger populations should produce denser networks simply by having
-more nodes. Mexico and Argentina are the most populous countries in
-the corpus and do show dense webs—but Chile, with fewer than half
-Mexico's population, also shows a dense star structure, while
-Bolivia and Ecuador, with smaller corpora, show fragmentation
-rather than simple sparsity. The topology classification is not
-monotonically predicted by corpus size. Paraguay's linear chain
-emerges from the smallest national corpus (n=21), which is
-consistent with patrimonial consolidation rather than with any
-density artifact.
+larger populations should produce denser networks simply by having more
+nodes. Mexico and Argentina are the most populous countries in the
+corpus and do show dense webs — but Chile, with fewer than half Mexico's
+population, also shows a dense star structure, while Bolivia and Ecuador,
+with smaller corpora, show fragmentation rather than simple sparsity.
+The topology classification is not monotonically predicted by corpus
+size. Paraguay's linear chain emerges from the smallest national corpus
+($n = 21$), which is consistent with patrimonial consolidation rather
+than with any density artifact.
 
-*Random network formation* is the null hypothesis that neither
-analysis explicitly tests. An Erdős–Rényi random graph with the
-same degree sequence as the Chilean subgraph would not produce
-a star topology; star formation requires a generative process
-(preferential attachment, or a founding lineage with historically
-higher documentation probability) that is itself non-random.
-Future work using configuration models or exponential random
-graph models (ERGMs) could formalize this comparison; the present
-analysis treats topology classification as interpretive, not
-inferential.
+*Random network formation* is the null hypothesis that H1–H4 treat
+interpretively but H5 tests formally. The ERGM in @tbl-ergm rejects an
+edges-only baseline with high confidence: `nodematch.pais`
+$p < 10^{-40}$ and `nodecov.n_members` $p < 10^{-115}$ under MCMC
+maximum likelihood estimation. The observed sorting by country and
+lineage size is not produced by sparse random graphs with the same edge
+count. An Erdős–Rényi random graph with the same degree sequence as the
+Chilean subgraph would not produce a star topology; star formation
+requires a generative process (preferential attachment, or a founding
+lineage with historically higher documentation probability) that is
+itself non-random. Configuration-model baselines for the SBM partition —
+not estimated here — would further strengthen the core–periphery claim
+and remain priority work for a follow-up paper.
 
-## Wikipedia as archive, not mirror
+*Core–periphery as random clustering.* Any sparse graph will exhibit some
+unevenness in density. The question is whether the SBM's detected core is
+statistically distinguishable from what a null model would produce.
+Two facts argue that it is. First, the within-core tie probability
+(0.138) is three orders of magnitude above the periphery's within-block
+probability (0.00066) and two orders of magnitude above the cross-block
+probability (0.0020). Structural equivalence at this scale is not
+produced by sparse random graphs with the observed edge count. Second,
+the convergence between SBM core membership and attack-simulation
+criticality — six of ten critical families are core members — is not
+predicted by any null model that treats the blocks as interchangeable.
+Together these facts make the core–periphery structure a fact about the
+graph, not an artifact of the detection method.
 
-Reframing Wikipedia as an **archive of collective documentation** clarifies epistemic status: we study who is repeatedly named and linked—not the full elite stratum of each society. That move aligns with computational social science cautions about digital trace data (Lazer et al., 2014) and with calls for transparency in algorithm-assisted history.
+## Wikipedia as archive
+
+Reframing Wikipedia as an *archive of collective documentation*
+clarifies the epistemic status of this study: we analyze who is
+repeatedly named and linked in a public archive — not the full elite
+stratum of each society. This reframing is more than a caveat. It
+converts the sample-selection problem into a substantive object: the
+*documentary elite field* is what we study, and its boundaries are
+themselves sociologically informative. Who gets inscribed in Wikipedia
+— and who does not — reflects decisions made by dispersed editors over
+two decades, shaped by language, political orientation, media coverage,
+academic attention, and family memory. The documentary elite field is
+therefore not a proxy for the social elite; it is a distinct object whose
+structure (as documented here) bears systematic relation to the social
+elite but is not identical with it.
+
+This move aligns with computational social science cautions about digital
+trace data (Lazer et al., 2014) and with calls for transparency in
+algorithm-assisted history.
 
 ## Ethics and public use
 
-Wikipedia biographies are public, but aggregate reporting should avoid gratuitous emphasis on living persons without public-interest justification. We report aggregate patterns and historically distant examples where possible.
+Although the data are publicly available, aggregate reporting should
+avoid unnecessary emphasis on identifiable living individuals.
+Interpretation should prioritize structural patterns over individual
+exposure.
 
-## Toward causal identification: design proposals
+## Toward causal identification
 
-The observational design of this study precludes causal inference,
-but the data infrastructure supports at least three identification
-gestures that future work could pursue.
+The observational design of this study precludes causal inference, but
+the data infrastructure supports at least three identification gestures
+that future work could pursue.
 
-**Cohort analysis.** The corpus contains birth years for 92.9% of
+**Cohort analysis.** The corpus contains birth years for **92.9%** of
 individuals. Slicing the network by birth decade (e.g., 1800–1829,
-1830–1859, ...) would allow testing whether the closure–reach
-trade-off (H1) intensified during periods of state consolidation
-and relaxed during revolutionary disruptions. If endogamy rates
-rose in Chile in the decades following the 1833 Constitution
-and fell after the 1891 Civil War, that would be consistent
-with the institutional mechanism proposed under H1—and
-inconsistent with a purely demographic explanation.
+1830–1859, …) would allow testing whether the closure–reach trade-off
+(H1) intensified during periods of state consolidation and relaxed during
+revolutionary disruptions. If endogamy rates rose in Chile in the
+decades following the **1833** Constitution and fell after the **1891**
+Civil War, that would be consistent with the institutional mechanism
+proposed under H1 — and inconsistent with a purely demographic
+explanation.
 
-**The War of the Pacific as a natural experiment.** The 1879–84
+**The War of the Pacific as a natural experiment.** The **1879–84**
 conflict introduced an exogenous shock to Chilean–Peruvian elite
 relations: diplomatic expulsion, property confiscation, and forced
 migration disrupted pre-war kinship networks while simultaneously
-generating new biographical cross-referencing (military records,
-exile accounts, peace negotiations). A difference-in-differences
+generating new biographical cross-referencing through military records,
+exile accounts, and peace negotiations. A difference-in-differences
 design comparing Chile–Peru cross-border kinship edges (pre- vs.
-post-1879, using birth year as a proxy for cohort) against a
-control corridor (e.g., Argentina–Uruguay, which experienced no
-equivalent shock) could test whether the biographical-heavy
-Chile–Peru dyad is a post-war artifact of documentary entanglement
-rather than a pre-war kinship structure. This design is feasible
-with the existing data; it is a priority for the next iteration
-of this project.
+post-1879, using birth year as a proxy for cohort) against a control
+corridor such as Argentina–Uruguay (which experienced no equivalent
+shock) could test whether the biographical-heavy Chile–Peru dyad is a
+post-war artifact of documentary entanglement rather than a pre-war
+kinship structure. This design is feasible with the existing data; it is
+a priority for the next iteration of this project.
 
-**Geographic constraints as instruments.** The Andes mountain
-range created differential travel costs across the corridor.
-Pairs of cities at similar distances but separated by different
-geographic barriers (Andean passes vs. coastal routes) should
-show different kinship edge densities if physical access shaped
-the marriage market. This geographic instrument—variation in
-natural barriers to elite mobility—could partially identify the
-geographic component of the transnational corridor effect,
-separating it from the administrative and cultural components.
+**Geographic constraints as instruments.** The Andes mountain range
+created differential travel costs across the corridor. Pairs of cities
+at similar Euclidean distances but separated by different geographic
+barriers (Andean passes vs. coastal routes) should show different
+kinship edge densities if physical access shaped the marriage market.
+This geographic instrument — variation in natural barriers to elite
+mobility — could partially identify the geographic component of the
+transnational corridor effect, separating it from the administrative and
+cultural components documented in the Pacific-corridor discussion above.
 
-None of these designs is executed here. We flag them not as
-post-hoc rationalizations but as genuine implications of the
-data infrastructure already built—implications that make the
-present descriptive contribution a foundation rather than an endpoint.
+None of these designs is executed here. We flag them not as post-hoc
+rationalizations but as genuine implications of the data infrastructure
+already built — implications that make the present descriptive
+contribution a foundation rather than an endpoint.
 
 ## Concluding remarks
 
-Drawing on Wikipedia-derived kinship networks for **6,169** Latin American notables and **8,201** matched kinship edges (embedded in a larger multiplex graph for centrality), we document substantial cross-national heterogeneity in elite family structure. Descriptive patterns align **directionally** with four working hypotheses—closure and concentration, topology and stylized regime narratives, Pacific-leaning transnational weights, and identifiable betweenness brokers—while remaining strictly **observational**. The most robust takeaway is **diversity**: elite kinship in Latin America does not reduce to a single network form. Secondary regularities—Pacific-Andean prominence in cross-border weights (@tbl-pairs), gendered degree–betweenness splits—warrant further investigation with richer data.
+Drawing on Wikipedia-derived kinship networks for **6,169** Latin
+American notables and **8,201** matched kinship edges (embedded in a
+larger multiplex graph for centrality), this study documents substantial
+cross-national heterogeneity in elite family structure. Descriptive
+patterns align directionally with five working hypotheses — closure and
+concentration, topology and stylized regime narratives, Pacific-leaning
+transnational weights, identifiable betweenness brokers, and the
+integrative core–periphery architecture under H5 — while remaining
+strictly observational. The most robust takeaway at the level of H1–H4
+is **diversity on surface features**: elite kinship in Latin America
+does not reduce to a single network form at the level of country
+topology.
 
-We close with a practical observation: **digital genealogies** increasingly shape public imaginaries of elite connection. Scholarly use of such sources demands methodological transparency and humility about whose ties get documented—and whose remain invisible.
+H5 reframes the contribution. The surface findings (H1–H4) describe
+regularities in an elite corpus; the deeper finding is that these
+regularities share a generative substrate. Latin American elite networks,
+as visible through Spanish-language Wikipedia, are organized by a
+sparse-but-sorted tie-formation process (ERGM), sort by structural tier
+and country while specializing by political office (homophily),
+partition into a Chilean-dominated dense core and a large sparse
+periphery (SBM), consolidate this structure through nineteenth- and
+early-twentieth-century cohorts (temporal analysis), and depend on a
+small number of Medici-like families — **Caicedo**, **Cruz**, **Pinto**,
+**Vicuña** — to mediate between the core and the rest of the graph.
 
-The broader implication extends beyond Latin American historiography.
-Elite kinship networks documented in public digital archives are
-increasingly legible to journalists, activists, and political
-opponents—not only to scholars. The families that inscribed themselves
-most densely in Wikipedia are also the families most vulnerable to
-network-based accountability journalism (cross-referencing kinship
-with corporate boards, public contracts, and party donations).
-Understanding the structure of the documentary elite field is
-therefore not merely an academic exercise: it is a prerequisite
-for assessing the political consequences of open genealogical data.
-Where network closure and institutional concentration coincide—
-as they do in several of the polities analyzed here—the transparency
-afforded by digital archives may paradoxically reinforce elite
-salience by making visible precisely those connections that elite
-families have long relied upon but rarely had to defend publicly.
+The convergence of six methodologically independent analyses on the same
+structural object is the paper's strongest epistemic claim; see
+@tbl-h5-summary for a consolidated view. Individually, each could be
+contested: an ERGM fit could be unstable, an SBM could over-partition, an
+attack simulation could be noisy, a temporal split could be
+cohort-sensitive, a brokerage decomposition could be sensitive to
+role-coding assumptions, a homophily index could be inflated by attribute
+granularity. Jointly, they tell a single story. The Latin American
+documentary elite, in this corpus, is not a scatter of national networks
+loosely connected by corridors. It is a single architecture with a
+Chilean core, a documented history of consolidation, and an identifiable
+set of robust brokers — Caicedo, Cruz, Pinto, and Vicuña — holding it
+together.
+
+We close with two implications that extend beyond Latin American
+historiography. First, *digital genealogies increasingly shape public
+imaginaries of elite connection.* Scholarly use of such sources demands
+methodological transparency and humility about whose ties get
+documented and whose remain invisible — a point that applies to any
+Wikipedia-based prosopography, not only this one. Second, *the
+documentary elite field is increasingly legible to non-scholars.*
+Journalists, activists, and political opponents can now cross-reference
+kinship with corporate boards, public contracts, and party donations at a
+scale that was unthinkable a generation ago. The families that inscribed
+themselves most densely in Wikipedia are, by construction, the families
+most exposed to network-based accountability journalism. Where network
+closure and institutional concentration coincide — as they do in several
+of the polities analyzed here — the transparency afforded by open
+genealogical data may paradoxically reinforce elite salience by making
+visible precisely those connections that elite families have long relied
+upon but rarely had to defend publicly. Understanding the structure of
+the documentary elite field is therefore not merely an academic exercise:
+it is a prerequisite for assessing the political consequences of open
+genealogical data.

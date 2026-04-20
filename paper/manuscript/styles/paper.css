@@ -1,0 +1,507 @@
+/* ============================================================
+   Academic paper styling — Elite Networks LATAM
+   Target: AJS / ASR / Comparative Political Studies aesthetic
+   ============================================================ */
+
+/* ---------- Typography ---------- */
+
+:root {
+  --body-font: "Libertinus Serif", "Linux Libertine", "EB Garamond",
+               Georgia, "Times New Roman", serif;
+  --sans-font: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --mono-font: "JetBrains Mono", "Source Code Pro", Menlo, monospace;
+
+  --body-size: 11pt;
+  --body-leading: 1.55;
+  --small-size: 9.5pt;
+
+  --ink: #1a1a1a;
+  --ink-muted: #555;
+  --rule: #333;
+  --rule-light: #ccc;
+  --accent: #3b3b3b;     /* no blue hyperlinks; muted dark for accent */
+}
+
+html {
+  font-size: var(--body-size);
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--body-size);
+  line-height: var(--body-leading);
+  color: var(--ink);
+  max-width: 38em;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+/* ---------- Title block ---------- */
+
+.title {
+  font-family: var(--body-font);
+  font-size: 1.55rem;
+  font-weight: 600;
+  line-height: 1.25;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+}
+
+.subtitle {
+  font-family: var(--body-font);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.1rem;
+  text-align: center;
+  color: var(--ink-muted);
+  margin-bottom: 1.8rem;
+}
+
+.author, .date, .affiliation {
+  text-align: center;
+  font-size: 1rem;
+  margin: 0.1rem 0;
+}
+
+.author {
+  font-weight: 500;
+}
+
+.affiliation {
+  font-style: italic;
+  color: var(--ink-muted);
+  font-size: 0.95rem;
+}
+
+/* Working paper / conference line (HTML title area) */
+.working-paper-banner {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.95rem;
+  color: var(--ink-muted);
+  margin: 0 auto 2rem;
+  max-width: 38em;
+  line-height: 1.4;
+}
+
+/* ---------- Headings ---------- */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--body-font);
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.25;
+  margin-top: 2.2rem;
+  margin-bottom: 0.7rem;
+}
+
+h1 {
+  font-size: 1.25rem;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+h2 {
+  font-size: 1.12rem;
+  font-style: normal;
+}
+
+h3 {
+  font-size: 1.02rem;
+  font-style: italic;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* Section numbering — small caps, space */
+h1 .header-section-number,
+h2 .header-section-number,
+h3 .header-section-number {
+  font-feature-settings: "lnum" 1;
+  margin-right: 0.6em;
+  color: var(--ink-muted);
+}
+
+/* ---------- Abstract ---------- */
+
+.abstract, #abstract + p, div[id="abstract"] + p,
+blockquote.abstract {
+  font-size: 0.95rem;
+  line-height: 1.45;
+  margin: 1.5rem 2rem;
+  padding: 0;
+  border: none;
+  color: var(--ink);
+  text-align: justify;
+}
+
+.abstract-title, h1.abstract-heading, h2.abstract-heading {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  border: none;
+}
+
+/* Keywords line below abstract */
+.keywords, p.keywords {
+  font-size: 0.9rem;
+  margin: 1rem 2rem 2rem;
+  font-style: italic;
+  color: var(--ink-muted);
+}
+
+/* ---------- Body paragraphs ---------- */
+
+p {
+  margin: 0 0 0.7rem 0;
+  text-indent: 0;
+}
+
+/* First paragraph after heading — no indent */
+h1 + p, h2 + p, h3 + p, h4 + p {
+  text-indent: 0;
+}
+
+/* Subsequent paragraphs — first-line indent, no top margin */
+p + p {
+  text-indent: 1.2em;
+  margin-top: 0;
+}
+
+/* ---------- Links ---------- */
+
+a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: var(--rule-light);
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-color: var(--ink);
+}
+
+/* ---------- Lists ---------- */
+
+ul, ol {
+  margin: 0.5rem 0 0.9rem 1.5rem;
+  padding-left: 0.5rem;
+}
+
+li {
+  margin-bottom: 0.3rem;
+  line-height: 1.5;
+}
+
+li > p {
+  margin-bottom: 0.3rem;
+}
+
+/* Tight bullet for the Limitations and similar numbered lists */
+ol.tight li, ul.tight li {
+  margin-bottom: 0.15rem;
+}
+
+/* ---------- Blockquotes ---------- */
+
+blockquote {
+  margin: 0.8rem 1.5rem;
+  padding: 0 0 0 0.8rem;
+  border-left: 2px solid var(--rule-light);
+  color: var(--ink-muted);
+  font-style: normal;
+  font-size: 0.95rem;
+}
+
+/* ---------- Tables — booktabs style ---------- */
+
+table {
+  border-collapse: collapse;
+  margin: 1.2rem auto;
+  font-size: var(--small-size);
+  line-height: 1.35;
+  font-family: var(--body-font);
+  border-top: 1.2px solid var(--rule);
+  border-bottom: 1.2px solid var(--rule);
+}
+
+thead tr:first-child th,
+thead tr:first-child td {
+  border-top: none;
+}
+
+thead tr:last-child th,
+thead tr:last-child td {
+  border-bottom: 0.6px solid var(--rule);
+  padding-bottom: 0.35rem;
+}
+
+tbody tr:first-child td,
+tbody tr:first-child th {
+  padding-top: 0.4rem;
+}
+
+th, td {
+  padding: 0.28rem 0.7rem;
+  border: none;
+  text-align: left;
+  vertical-align: top;
+}
+
+/* Numeric columns: right-align typical of journal tables */
+th:not(:first-child), td:not(:first-child) {
+  text-align: right;
+}
+
+/* But if the cell contains text (letters), keep left-align — apply
+   via class if needed; default to right for numeric columns */
+td.text, th.text {
+  text-align: left;
+}
+
+tbody tr:last-child td {
+  padding-bottom: 0.4rem;
+}
+
+/* No zebra striping — clean booktabs look */
+tbody tr:nth-child(even) {
+  background: transparent;
+}
+
+/* Table captions */
+caption, .table-caption, .tbl-cap {
+  caption-side: top;
+  font-size: 0.9rem;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  margin-bottom: 0.35rem;
+  color: var(--ink);
+  padding: 0;
+}
+
+/* Table footnotes (kableExtra footnote) */
+.footnote, .table-footnote, tfoot td {
+  font-size: 0.85rem;
+  color: var(--ink-muted);
+  font-style: italic;
+  padding-top: 0.4rem;
+  border-top: none;
+}
+
+/* ---------- Figures ---------- */
+
+figure, .figure {
+  margin: 1.4rem 0;
+  text-align: center;
+}
+
+figure img, .figure img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption, .figure-caption, .fig-cap {
+  font-size: 0.9rem;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--ink);
+  margin-top: 0.5rem;
+  line-height: 1.4;
+  text-align: left;
+  max-width: 100%;
+}
+
+/* ---------- Captions: bold label, roman body ---------- */
+
+/* Matches journal convention: "Table 1. Marriage records..." with
+   the label portion bolded via the generated Quarto markup */
+.table > caption::before,
+.figure-caption::first-letter {
+  /* handled by Quarto's auto-numbering; no override needed */
+}
+
+/* ---------- Code ---------- */
+
+code {
+  font-family: var(--mono-font);
+  font-size: 0.88em;
+  background: #f3f3f0;
+  padding: 0.05em 0.3em;
+  border-radius: 2px;
+}
+
+pre code {
+  display: block;
+  padding: 0.7rem 0.9rem;
+  background: #f7f6f2;
+  border: 1px solid #e5e3dc;
+  border-radius: 3px;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  overflow-x: auto;
+}
+
+/* ---------- Citations and cross-references ---------- */
+
+.citation, .cite {
+  /* AJS-style in-text: (Author, Year) — no special treatment */
+}
+
+.quarto-title-meta,
+.quarto-title-block .quarto-title-meta {
+  text-align: center;
+  margin: 0.5rem 0 1.5rem;
+}
+
+/* Number cross-references like "Table 1", "Figure 2" — no special color */
+a.quarto-xref {
+  color: var(--ink);
+  text-decoration: none;
+  font-style: normal;
+}
+
+/* ---------- Footnotes ---------- */
+
+.footnote-ref {
+  font-size: 0.8em;
+  vertical-align: super;
+  line-height: 0;
+}
+
+.footnotes {
+  font-size: 0.9rem;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule-light);
+  color: var(--ink);
+}
+
+.footnotes ol {
+  padding-left: 1.2em;
+}
+
+.footnotes li {
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+/* ---------- References / bibliography ---------- */
+
+#refs, .references, div.csl-bib-body {
+  font-size: 0.95rem;
+  line-height: 1.45;
+  margin-top: 2rem;
+}
+
+#refs .csl-entry, div.csl-entry {
+  margin-bottom: 0.8rem;
+  padding-left: 2em;
+  text-indent: -2em;  /* hanging indent */
+  text-align: left;   /* bibliography left-aligned, not justified */
+}
+
+/* ---------- Table of contents ---------- */
+
+#TOC, nav#TOC, .toc {
+  font-size: 0.92rem;
+  line-height: 1.5;
+  border: none;
+  padding: 0;
+  margin: 1.5rem 0 2.5rem;
+}
+
+#TOC > ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#TOC ul ul {
+  padding-left: 1.2em;
+  margin-top: 0.2rem;
+}
+
+#TOC a {
+  text-decoration: none;
+  color: var(--ink);
+}
+
+#TOC a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Emphasized callout phrases ---------- */
+
+strong, b {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+em, i {
+  font-style: italic;
+}
+
+/* "H1 receives partial descriptive support" — bold cue phrases in
+   the paper use <strong> already; no extra styling needed */
+
+/* ---------- Section breaks ---------- */
+
+hr {
+  border: none;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+hr::after {
+  content: "* * *";
+  color: var(--ink-muted);
+  letter-spacing: 0.4em;
+  font-size: 0.9rem;
+}
+
+/* ---------- Print / PDF ---------- */
+
+@media print {
+  body {
+    max-width: none;
+    margin: 0;
+    font-size: 10.5pt;
+  }
+
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+
+  figure, table {
+    page-break-inside: avoid;
+  }
+}
+
+/* ---------- Small-screen graceful degradation ---------- */
+
+@media (max-width: 720px) {
+  body {
+    margin: 1rem auto;
+    padding: 0 1rem;
+    text-align: left;
+    hyphens: none;
+  }
+
+  table {
+    font-size: 0.82rem;
+  }
+}

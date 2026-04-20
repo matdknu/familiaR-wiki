@@ -3,7 +3,7 @@ title: "Elite Family Networks and the Reproduction of Political Power in Latin A
 subtitle: "Evidence from Wikipedia Genealogical Data, Nineteenth to Twenty-First Centuries"
 author:
   - name: "Matías Deneken"
-    affiliation: "[Institution]"
+    affiliation: "Universidad de Chile"
 date: today
 lang: en
 keywords:
@@ -15,24 +15,40 @@ keywords:
   - social network analysis
 format:
   pdf:
-    toc: true
-    toc-depth: 3
+    documentclass: article
+    classoption:
+      - 11pt
+    papersize: letter
+    toc: false
     number-sections: true
     fig-cap-location: bottom
     tbl-cap-location: top
     fig-dpi: 150
     keep-tex: false
-    colorlinks: true
-    geometry:
-      - margin=1in
+    colorlinks: false
+    linkcolor: black
+    urlcolor: black
+    citecolor: black
+    fig-pos: "!ht"
+    pdf-engine: xelatex
+    include-before-body: portada_articulo.tex
     include-in-header:
+      - styles/paper-preamble.tex
       - text: |
-          \usepackage{float}
           \floatplacement{figure}{H}
           \floatplacement{table}{H}
+          \renewcommand{\maketitle}{}
   html:
-    toc: true
+    theme: none
+    css: styles/paper.css
+    toc: false
     number-sections: true
+    section-numbering: true
+    fig-cap-location: bottom
+    tbl-cap-location: top
+    link-citations: true
+    fontsize: 11pt
+    linestretch: 1.55
 execute:
   echo: false
   warning: false
@@ -49,13 +65,9 @@ library(knitr)
 library(kableExtra)
 ```
 
-# Abstract {-}
-
-How do elite family networks structure the reproduction of political power in Latin America across the long nineteenth to twenty-first centuries? Using genealogical data scraped from Spanish-language Wikipedia for 6,169 notable individuals across ten countries, we construct kinship networks based on spouse, parent–child, and partner ties (8,201 matched edges between identified individuals). We combine network topology measures—degree, betweenness, PageRank, and Louvain community detection—with country-level aggregates of endogamy, transnational reach, and dynasty persistence. Descriptive and correlational analyses speak to four hypotheses: (H1) family closure covaries with political concentration; (H2) macro-scale network topology (chain, star, web, fragment) aligns with stylized regime types; (H3) transnational family ties follow Pacific–Andean rather than Atlantic corridors in the aggregate; (H4) betweenness centrality identifies individuals in structural brokerage positions potentially relevant to cross-national influence. We find substantial heterogeneity across republics. The strongest cross-national weights in the documented graph link Chile–Peru and Argentina–Uruguay. We emphasize that Wikipedia encodes a *documentary* elite biased toward literate, nationally visible strata. Causal claims are hedged throughout; findings are best interpreted as structured description of a collective digital archive rather than as an exhaustive map of Latin American elites.
-
-**Keywords:** elite networks; Latin America; family; political reproduction; Wikipedia; social network analysis
-
-\newpage
+```{=html}
+<p class="working-paper-banner">Working paper presentado para Conference Computational Text 2026, University of Birmingham.</p>
+```
 
 {{< include capitulos/01_introduccion.qmd >}}
 
@@ -64,6 +76,8 @@ How do elite family networks structure the reproduction of political power in La
 {{< include capitulos/03_diseno.qmd >}}
 
 {{< include capitulos/04_resultados.qmd >}}
+
+{{< include capitulos/04b_resultados_H5_nucleo_periferia.qmd >}}
 
 {{< include capitulos/05_discusion_y_conclusion.qmd >}}
 
