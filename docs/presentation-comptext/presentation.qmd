@@ -151,7 +151,7 @@ limitation.
 ## Four Hypotheses
 
 |        | Hypothesis                                        | Mechanism                                               |
-|--------------|---------------------------|-------------------------------|
+|--------|---------------------------------------------------|---------------------------------------------------------|
 | **H1** | Family closure ↔ political concentration          | Marriage market as political institution                |
 | **H2** | Network topology ↔ regime type                    | Chain=patrimonial; Star=founding lineage; Web=oligarchy |
 | **H3** | Transnational ties follow Pacific–Andean corridor | Colonial administrative geography                       |
@@ -174,12 +174,36 @@ panel = one national kinship subgraph (Fruchterman-Reingold layout).
 
 ## H2: Chile Interfamily (Animated)
 
-![](images/red_familias_chile_animada.gif){style="display:block; margin:0 auto;  max-"
+![](images/red_familias_chile_animada.gif){.r-stretch
 fig-align="center"}
 
 ::: {style="font-size:0.48em; color:#60748e; text-align:center;"}
 Animated reveal of Chile interfamily elite ties. Highlighted labels are
 top families by degree centrality.
+:::
+
+------------------------------------------------------------------------
+
+## H2: Argentina Interfamily (Animated)
+
+![](images/red_familias_argentina_animada.gif){.r-stretch
+fig-align="center"}
+
+::: {style="font-size:0.48em; color:#60748e; text-align:center;"}
+Animated reveal of Argentina elite kinship ties (same style as Chile).
+Highlighted labels follow the same degree-centrality rule.
+:::
+
+------------------------------------------------------------------------
+
+## H2: Mexico Interfamily (Animated)
+
+![](images/red_familias_mexico_animada.gif){.r-stretch
+fig-align="center"}
+
+::: {style="font-size:0.48em; color:#60748e; text-align:center;"}
+Animated reveal of Mexico elite kinship ties (same style as Chile).
+Highlighted labels follow the same degree-centrality rule.
 :::
 
 ------------------------------------------------------------------------
