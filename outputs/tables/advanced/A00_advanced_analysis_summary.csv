@@ -1,0 +1,13 @@
+Analysis,N_obs,Key_finding,File
+A1,275653,Model converged; top predicted tie probability = 0.270,outputs/tables/advanced/A1_marriage_probability_model.csv | outputs/figures/advanced/A1_marriage_probability_model.png
+A2,232,ERGM fitted; strongest absolute coefficient = edges (-8.776),outputs/tables/advanced/A2_ergm_coefficients.csv | outputs/figures/advanced/A2_ergm_gof.png
+A3,743,Selected K=2 by minimum ICL surrogate,outputs/tables/advanced/A3_sbm_membership.csv | outputs/figures/advanced/A3_sbm_structure.png
+A4,232,Strongest homophily signal: NetworkTier (H=1.000),outputs/tables/advanced/A4_homophily_indices.csv | outputs/figures/advanced/A4_homophily_indices.png
+A5,743,Borgatti-Everett continuous fit correlation = 0.198,outputs/tables/advanced/A5_core_periphery.csv | outputs/figures/advanced/A5_core_periphery.png
+A6,3707,Top liaison: Juana Uribe (1.000),outputs/tables/advanced/A6_brokerage_roles.csv | outputs/figures/advanced/A6_brokerage_roles.png
+A7,8162,Highest cross-family share in Colonial (pre-1800) (0.177),outputs/tables/advanced/A7_temporal_network_metrics.csv | outputs/figures/advanced/A7_temporal_network_evolution.png
+A8,45,"Most robust predictor: x1 (beta=0.001, p=0.000)",outputs/tables/advanced/A8_qap_regression.csv | outputs/figures/advanced/A8_qap_regression.png
+A9,743,"Pearson corr(closure, reach)=0.104 (p=0.00437)",outputs/tables/advanced/A9_closure_reach_tradeoff.csv | outputs/figures/advanced/A9_closure_reach_tradeoff.png
+A10,743,LCC drops below 50% after removing 1 families (targeted).,outputs/tables/advanced/A10_attack_simulation.csv | outputs/figures/advanced/A10_attack_simulation.png
+A11,743,Highest modularity: Louvain (Q=0.926),outputs/tables/advanced/A11_community_comparison.csv | outputs/figures/advanced/A11_community_comparison.png
+A12,896,Stationary vs observed degree share correlation = 0.030,outputs/tables/advanced/A12_markov_transitions.csv | outputs/figures/advanced/A12_markov_transitions.png

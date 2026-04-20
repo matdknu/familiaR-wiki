@@ -1,0 +1,51 @@
+url,nombre,pais,role,score
+https://es.wikipedia.org/wiki/Agustina_Paz,Agustina Paz de Roca,argentina,consultant,1
+https://es.wikipedia.org/wiki/Alejandro_Eder,Alejandro Eder,colombia,consultant,1
+https://es.wikipedia.org/wiki/Andr%C3%A9s_Marroqu%C3%ADn_Osorio,Andrés Marroquín Osorio,colombia,consultant,1
+https://es.wikipedia.org/wiki/Antonio_de_Vergara_Azc%C3%A1rate,Antonio de Vergara Azcárate,colombia,consultant,1
+https://es.wikipedia.org/wiki/Augusto_Legu%C3%ADa,Augusto Leguía,peru,consultant,1
+https://es.wikipedia.org/wiki/Carlos_Cano_de_la_Fuente,Carlos Cano (actor),peru,consultant,1
+https://es.wikipedia.org/wiki/Casimiro_Ulloa,Casimiro Ulloa,peru,consultant,1
+https://es.wikipedia.org/wiki/Consuelo_Lleras,Consuelo Lleras Puga,colombia,consultant,1
+https://es.wikipedia.org/wiki/Delfina_de_la_Cruz,Delfina de la Cruz,chile,consultant,1
+https://es.wikipedia.org/wiki/Diana_Turbay_Quintero,Diana Turbay,colombia,consultant,1
+https://es.wikipedia.org/wiki/%C3%81lvaro_Casta%C3%B1o_Castillo,Álvaro Castaño Castillo,colombia,coordinator,1
+https://es.wikipedia.org/wiki/%C3%81lvaro_Espinoza_%28actor%29,Álvaro Espinoza (actor),chile,coordinator,1
+https://es.wikipedia.org/wiki/%C3%81lvaro_G%C3%B3mez_Hurtado,Álvaro Gómez Hurtado,colombia,coordinator,1
+https://es.wikipedia.org/wiki/%C3%81lvaro_Holgu%C3%ADn_y_Caro,Álvaro Holguín y Caro,colombia,coordinator,1
+https://es.wikipedia.org/wiki/%C3%81lvaro_Noboa,Álvaro Noboa,ecuador,coordinator,1
+https://es.wikipedia.org/wiki/%C3%81lvaro_Pach%C3%B3n_de_la_Torre,Álvaro Pachón de la Torre,colombia,coordinator,1
+https://es.wikipedia.org/wiki/%C3%81lvaro_Uribe_V%C3%A9lez,Álvaro Uribe Vélez,colombia,coordinator,1
+https://es.wikipedia.org/wiki/%C3%81lvaro_de_Miranda_Neto,Álvaro de Miranda Neto,argentina,coordinator,1
+https://es.wikipedia.org/wiki/%C3%81ngel_Cuervo_Urisarri,Ángel Cuervo Urisarri,colombia,coordinator,1
+https://es.wikipedia.org/wiki/%C3%81ngel_Parra,Ángel Parra,chile,coordinator,1
+https://es.wikipedia.org/wiki/%C3%81lvaro_P%C3%ADo_Valencia,Álvaro Pío Valencia,colombia,gatekeeper,1
+https://es.wikipedia.org/wiki/Alberto_Lozano_Simonelli,Alberto Lozano Simonelli,colombia,gatekeeper,1
+https://es.wikipedia.org/wiki/Alejandro_Bunge,Alejandro Bunge,argentina,gatekeeper,1
+https://es.wikipedia.org/wiki/Ana_Mar%C3%ADa_Groot,Ana María Groot,colombia,gatekeeper,1
+https://es.wikipedia.org/wiki/Arturo_Yrarr%C3%A1zaval_Correa,Arturo Yrarrázaval Correa,chile,gatekeeper,1
+https://es.wikipedia.org/wiki/Beatriz_Caballero,Beatriz Caballero,colombia,gatekeeper,1
+https://es.wikipedia.org/wiki/Carmen_Calisto_Ponce,Carmen Calisto,ecuador,gatekeeper,1
+https://es.wikipedia.org/wiki/Cecilia_Navia,Cecilia Navia,colombia,gatekeeper,1
+https://es.wikipedia.org/wiki/Celia_Bustamante,Celia Bustamante,peru,gatekeeper,1
+https://es.wikipedia.org/wiki/Crist%C3%B3bal_de_Mosquera_y_Figueroa,Cristóbal de Mosquera y Silva,colombia,gatekeeper,1
+https://es.wikipedia.org/wiki/Juana_Uribe,Juana Uribe,colombia,liaison,1
+https://es.wikipedia.org/wiki/Magdalena_de_Guzm%C3%A1n,Magdalena de Guzmán,chile,liaison,1
+https://es.wikipedia.org/wiki/Mar%C3%ADa_Teresa_del_Toro,María Teresa del Toro,venezuela,liaison,1
+https://es.wikipedia.org/wiki/Tomasa_Francisca_de_la_Quintana,Tomasa de la Quintana,argentina,liaison,0.7777777777777778
+https://es.wikipedia.org/wiki/Luisa_Garmendia_Alurralde,Luisa Garmendia,argentina,liaison,0.5
+https://es.wikipedia.org/wiki/Mariano_Escalada,Mariano Escalada,argentina,liaison,0.5
+https://es.wikipedia.org/wiki/Mercedes_Ortiz_de_Rozas,Mercedes Ortiz de Rozas,argentina,liaison,0.5
+https://es.wikipedia.org/wiki/Nicol%C3%A1s_Sanz_de_Santamar%C3%ADa,Nicolás Sanz de Santamaría,chile,liaison,0.5
+https://es.wikipedia.org/wiki/Ignacio_de_la_Carrera,Ignacio de la Carrera y de las Cuevas,chile,liaison,0.375
+https://es.wikipedia.org/wiki/Fernando_Castillo_Velasco,Fernando Castillo Velasco,chile,liaison,0.3333333333333333
+https://es.wikipedia.org/wiki/Adolfo_Zald%C3%ADvar_Larra%C3%ADn,Adolfo Zaldívar,chile,representative,1
+https://es.wikipedia.org/wiki/Agust%C3%ADn_Edwards_Eastman,Agustín Edwards Eastman,chile,representative,1
+https://es.wikipedia.org/wiki/An%C3%ADbal_Fern%C3%A1ndez_de_Soto,Aníbal Fernández de Soto,colombia,representative,1
+https://es.wikipedia.org/wiki/Ana_Carolina_Gaillard,Ana Carolina Gaillard,argentina,representative,1
+https://es.wikipedia.org/wiki/Ana_Faustina_Sarmiento,Ana Faustina Sarmiento,argentina,representative,1
+https://es.wikipedia.org/wiki/Armando_Samper_Gnecco,Armando Samper,colombia,representative,1
+https://es.wikipedia.org/wiki/Bego%C3%B1a_Basauri,Begoña Basauri,chile,representative,1
+https://es.wikipedia.org/wiki/Benjam%C3%ADn_Vicu%C3%B1a_Subercaseaux,Benjamín Vicuña Subercaseaux,chile,representative,1
+https://es.wikipedia.org/wiki/Blanca_Guerra,Blanca Guerra,mexico,representative,1
+https://es.wikipedia.org/wiki/Camila_Hirane,Camila Hirane,chile,representative,1
