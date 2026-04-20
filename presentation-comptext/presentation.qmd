@@ -21,6 +21,10 @@ format:
 
 ## 
 
+## .
+
+![](image/yo.jpg){fig-align="center"}
+
 ## The Central Question
 
 ::: columns
