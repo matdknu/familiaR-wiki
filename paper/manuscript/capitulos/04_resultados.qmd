@@ -167,11 +167,11 @@ country-faceted view used in the replication workflow. **H2 is supported
 descriptively** at the level of stylized analogy; we do not estimate
 predictive models from topology to regime type.
 
-![](images/pres_transnacional_flow_map_continent.png){fig-align="center"}
+![](capitulos/images/pres_transnacional_flow_map_continent.png){fig-align="center" width="100%"}
 
-![](images/transnacional_familias_red_bipartita.png)
+![](capitulos/images/transnacional_familias_red_bipartita.png){fig-align="center" width="100%"}
 
-![](images/dinastias_temporal_por_pais.png){fig-align="center"}
+![](capitulos/images/dinastias_temporal_por_pais.png){fig-align="center" width="100%"}
 
 ## H3: Transnational corridors
 
