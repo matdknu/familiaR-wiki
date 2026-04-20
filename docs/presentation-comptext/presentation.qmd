@@ -17,6 +17,16 @@ format:
     css: comptext-theme.css
 ---
 
+##.
+
+## .
+
+## Me
+
+![](image/yo.jpg){fig-align="center" width="55%"}
+
+---
+
 ## The Central Question
 
 :::: {.columns}
@@ -31,7 +41,7 @@ format:
 **This paper:** Wikipedia genealogical data as a computational social science resource
 :::
 ::: {.column width="40%"}
-![](images/PINERA.png){fig-align="center" width="100%"}
+![](image/PINERA.png){fig-align="center" width="100%"}
 
 ::: {style="font-size:0.45em; color:#60748e; text-align:center;"}
 Piñera family — repeated elite surnames across Chilean politics
@@ -59,7 +69,7 @@ In Latin America, surnames function as **social capital certificates** — encod
 Wikipedia infoboxes encode kinship ties at scale — and we can extract them
 :::
 ::: {.column width="45%"}
-![](images/pinera-milei.png){fig-align="center" width="100%"}
+![](image/pinera-milei.png){fig-align="center" width="100%"}
 
 ::: {style="font-size:0.45em; color:#60748e; text-align:center;"}
 Cross-national elite connections: Chile–Argentina
@@ -71,7 +81,7 @@ Cross-national elite connections: Chile–Argentina
 
 ## The Extended Network
 
-![](images/pinera-millei-allende.png){fig-align="center" width="75%"}
+![](image/pinera-millei-allende.png){fig-align="center" width="75%"}
 
 ::: {style="font-size:0.5em; color:#60748e; text-align:center;"}
 Elite kinship extending across political factions and historical periods — the same surnames reappear
@@ -502,6 +512,20 @@ Women = top-degree nodes in kinship graph — but absent from betweenness rankin
 
 :::
 ::::
+
+---
+
+## Package
+
+![](image/package-idea.jpg){fig-align="center" width="80%"}
+
+---
+
+## Future Implications
+
+- JSON pipeline exports for reproducibility and interoperability
+- LLM-assisted annotation for exploratory coding support
+- Open-access dissemination for teaching and replication use
 
 ---
 
