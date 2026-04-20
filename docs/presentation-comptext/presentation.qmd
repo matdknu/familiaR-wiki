@@ -151,7 +151,7 @@ limitation.
 ## Four Hypotheses
 
 |        | Hypothesis                                        | Mechanism                                               |
-|------------------------|------------------------|------------------------|
+|--------------|---------------------------|-------------------------------|
 | **H1** | Family closure ↔ political concentration          | Marriage market as political institution                |
 | **H2** | Network topology ↔ regime type                    | Chain=patrimonial; Star=founding lineage; Web=oligarchy |
 | **H3** | Transnational ties follow Pacific–Andean corridor | Colonial administrative geography                       |
@@ -168,6 +168,18 @@ limitation.
 ::: {style="font-size:0.48em; color:#60748e; text-align:center;"}
 Node size = degree centrality. Color = family surname cluster. Each
 panel = one national kinship subgraph (Fruchterman-Reingold layout).
+:::
+
+------------------------------------------------------------------------
+
+## H2: Chile Interfamily (Animated)
+
+![](images/red_familias_chile_animada.gif){style="display:block; margin:0 auto;  max-"
+fig-align="center"}
+
+::: {style="font-size:0.48em; color:#60748e; text-align:center;"}
+Animated reveal of Chile interfamily elite ties. Highlighted labels are
+top families by degree centrality.
 :::
 
 ------------------------------------------------------------------------
@@ -382,9 +394,6 @@ Illustrative bipartite graph: countries and multinational families
 ------------------------------------------------------------------------
 
 ## H4: Structural Brokers
-
-![](image/h4_centrality_vs_family_closure.png){.r-stretch
-fig-align="center"}
 
 ::: {style="font-size:0.48em; color:#60748e; text-align:center;"}
 Top brokers by betweenness centrality in the multiplex graph (kinship +
