@@ -14,16 +14,16 @@
 - `scripts/`
   - `01_scraping/` (scrapers y runners por país; `scraper_all_families.py`, scripts *.sh)
   - `02_processing/` (ETL/limpieza en R)
-  - `03_analysis/` (análisis y visualizaciones en R/Python; incluye organizadores y extractores)
+  - `03_analysis/` (análisis, visualizaciones y utilidades en R)
 - `notebooks/` (exploración)
 - `docs/` (documentación y assets estáticos)
 
 ## Flujo sugerido
 1) Scraping: `scripts/01_scraping/scraper_all_families.py` (o los *.sh por país) → escribe en `data/raw/<pais>/familias/`.
-2) Organizar/copiar: `python scripts/03_analysis/organizar_repo.py` → copia a `data/processed/familias/<pais>/` y genera el LATAM.
+2) Organizar/copiar: `Rscript scripts/02_processing/organizar_repo.R` → copia a `data/processed/familias/<pais>/` y genera el LATAM.
 3) Análisis/figuras/tablas: guardar siempre en `outputs/figures` y `outputs/tables` (subcarpetas por tema si aplica).
 4) Reportes finales: `outputs/reports/`.
 
 ## Utilidades clave
-- `scripts/03_analysis/organizar_repo.py`: copia y consolida familias (por país y LATAM) y genera `outputs/tables/familias/resumen_conteo_filas.csv`.
-- `scripts/03_analysis/extract_infobox_labels.py`: extrae etiquetas de `infobox_json` a tablas en `outputs/tables/`.
+- `scripts/02_processing/organizar_repo.R`: copia y consolida familias (por país y LATAM) y genera `outputs/tables/familias/resumen_conteo_filas.csv`.
+- `scripts/02_processing/extract_infobox_labels.R`: extrae etiquetas de `infobox_json` a tablas en `outputs/tables/`.

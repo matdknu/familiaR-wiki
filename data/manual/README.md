@@ -57,16 +57,16 @@ Los datos manuales de Chile están en `data/raw/chile/`:
 
 3. Ejecutar el script de integración:
    ```bash
-   python scripts/03_analysis/agregar_familias_manual.py
+   Rscript scripts/01_scraping/agregar_familias_manual.R
    ```
 
-### Opción 2: Usar el script add_tovar_family.py como plantilla
+### Opción 2: Usar el script add_tovar_family.R como plantilla
 
 ```bash
-python scripts/add_tovar_family.py
+Rscript scripts/01_scraping/add_tovar_family.R
 ```
 
-Este script sirve como ejemplo de cómo agregar familias manualmente usando Python.
+Este script sirve como ejemplo de cómo agregar familias manualmente usando R.
 
 ## 📊 Formato del CSV
 
@@ -104,7 +104,7 @@ Los datos manuales se integran automáticamente al ejecutar:
 
 ```bash
 # Agregar datos manuales a los consolidados
-python scripts/03_analysis/agregar_familias_manual.py
+Rscript scripts/01_scraping/agregar_familias_manual.R
 
 # O al regenerar el consolidado LATAM
 Rscript scripts/02_processing/run_pipeline.R
