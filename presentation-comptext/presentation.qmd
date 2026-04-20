@@ -422,11 +422,6 @@ Women = top-degree nodes in kinship graph — but absent from betweenness rankin
 **Digital Archives:** Elite families most densely inscribed in Wikipedia are most vulnerable to network-based accountability journalism. Open genealogical data may paradoxically reinforce elite salience by making visible what previously required archival access.
 :::
 
-------------------------------------------------------------------------
-
-## Package
-
-![](image/package-idea.jpg){fig-align="center"}
 
 ## Summary
 
@@ -461,6 +456,20 @@ Women = top-degree nodes in kinship graph — but absent from betweenness rankin
 :::
 
 ------------------------------------------------------------------------
+
+## Package
+
+![](image/package-idea.jpg){fig-align="center"}
+
+
+------------------------------------------------------------------------
+
+## Future implicatioms
+
+* Json
+* LLM
+* OpenAcces
+
 
 ##  {#thank-you-slide}
 
