@@ -1,0 +1,704 @@
+institucion,alumnos,paises,lista_paises,familias
+Universidad de Chile,311,4,"argentina, chile, colombia, peru",82
+Universidad Nacional Mayor de San Marcos,238,4,"argentina, chile, ecuador, peru",111
+Universidad de Buenos Aires,127,3,"argentina, peru, uruguay",75
+Pontificia Universidad Católica del Perú,123,1,peru,64
+Pontificia Universidad Católica de Chile,91,2,"chile, colombia",41
+Universidad Católica de Chile,83,1,chile,44
+Instituto Nacional,75,1,chile,30
+Universidad del Rosario,75,3,"chile, colombia, peru",36
+Universidad Nacional de Colombia,71,1,colombia,47
+Universidad Nacional Autónoma de México,50,2,"chile, mexico",37
+Pontificia Universidad Javeriana,45,1,colombia,24
+Colegio de los Sagrados Corazones de Santiago,38,1,chile,24
+Universidad del Cauca,33,2,"colombia, ecuador",15
+Colegio Nacional de Buenos Aires,32,1,argentina,24
+Real Universidad de San Felipe,31,2,"argentina, chile",17
+Universidad de los Andes,30,2,"chile, colombia",23
+Universidad Nacional de Córdoba,29,1,argentina,19
+Colegio San Ignacio,28,1,chile,15
+Colegio Mayor de San Bartolomé,26,2,"colombia, venezuela",18
+Universidad Nacional de Ingeniería,24,1,peru,23
+Universidad de la República,21,2,"argentina, uruguay",11
+Escuela Militar del Libertador Bernardo O'Higgins,20,1,chile,13
+Lic.,19,5,"chile, colombia, ecuador, mexico, peru",15
+Universidad Mayor de San Marcos,19,1,peru,17
+Universidad de Antioquia,17,1,colombia,12
+Universidad Central de Venezuela,16,3,"argentina, colombia, venezuela",10
+Universidad Externado de Colombia,16,1,colombia,13
+Universidad Harvard,16,7,"argentina, chile, colombia, ecuador, mexico, peru, venezuela",16
+"Universidad Mayor, Real y Pontificia San Francisco Xavier de Chuquisaca",16,3,"argentina, bolivia, peru",14
+Universidad Nacional de San Agustín,16,1,peru,11
+Universidad de Columbia,16,5,"argentina, chile, colombia, mexico, peru",14
+Colegio Mayor de Nuestra Señora del Rosario,15,1,colombia,12
+Saint George's College,15,1,chile,11
+Derecho,14,4,"argentina, chile, mexico, peru",11
+Universidad Complutense de Madrid,13,3,"chile, colombia, peru",11
+Universidad de Harvard,13,3,"argentina, colombia, peru",12
+Universidad de Salamanca,13,5,"argentina, chile, colombia, ecuador, peru",12
+Ph.D.,12,5,"chile, colombia, ecuador, mexico, peru",12
+Universidad Nacional de La Plata,12,1,argentina,10
+Convictorio de San Carlos,11,1,peru,8
+Universidad Iberoamericana,11,1,mexico,8
+Colegio de los Sagrados Corazones de Viña Del Mar,10,2,"chile, peru",7
+Universidad Nacional de Trujillo,10,1,peru,10
+Universidad de Georgetown,10,4,"argentina, chile, colombia, peru",9
+Universidad de Lima,10,1,peru,10
+"Facultad de Ciencias Médicas, Universidad de Buenos Aires",9,1,argentina,8
+Liceo Eduardo de la Barra de Valparaíso,9,1,chile,5
+M.A.,9,2,"chile, peru",8
+Maestría,9,4,"chile, ecuador, mexico, peru",9
+The Grange School,9,1,chile,7
+Universidad Nacional Agraria La Molina,9,1,peru,8
+Colegio de la Inmaculada,8,1,peru,7
+Educación secundaria,8,2,"chile, ecuador",7
+Escuela Libre de Derecho,8,1,mexico,5
+Escuela Militar de Chorrillos,8,1,peru,7
+Escuela de Economía y Ciencia Política de Londres,8,2,"chile, colombia",6
+Instituto Tecnológico Autónomo de México,8,1,mexico,8
+Lic. en Derecho,8,7,"argentina, chile, colombia, ecuador, mexico, peru, uruguay",8
+Sorbonne Universidad de París,8,6,"argentina, chile, colombia, mexico, uruguay, venezuela",8
+Universidad Cornell,8,2,"colombia, peru",7
+Universidad Nacional de San Agustín de Arequipa,8,1,peru,4
+Universidad Yale,8,5,"argentina, chile, colombia, mexico, peru",8
+Universidad del Pacífico,8,1,peru,6
+Colegio Militar de la Nación,7,1,argentina,6
+Escuela de Gobierno John F. Kennedy,7,3,"chile, colombia, peru",6
+Universidad Católica Argentina,7,2,"argentina, peru",7
+Universidad Central del Ecuador,7,2,"colombia, ecuador",4
+Universidad de Barcelona,7,2,"colombia, peru",2
+Universidad de Cambridge,7,5,"argentina, chile, colombia, mexico, peru",7
+Universidad de Heidelberg,7,3,"argentina, chile, colombia",7
+Universidad de Los Andes,7,3,"chile, colombia, venezuela",5
+Universidad de Miami,7,3,"colombia, mexico, peru",7
+Actuación,6,2,"chile, colombia",4
+Escuela Nacional Superior Autónoma de Bellas Artes del Perú,6,1,peru,6
+Gimnasio Moderno,6,1,colombia,5
+Grado,6,4,"argentina, chile, colombia, peru",5
+Ingeniería comercial,6,1,chile,5
+Instituto Nacional General José Miguel Carrera,6,1,chile,5
+Instituto Pedagógico,6,1,chile,5
+Instituto Tecnológico de Massachusetts,6,3,"argentina, chile, mexico",5
+Internado Nacional Barros Arana,6,1,chile,6
+Medicina,6,2,"argentina, chile",4
+Universidad Católica de Lovaina,6,4,"argentina, chile, colombia, peru",5
+Universidad Diego Portales,6,1,chile,5
+Universidad Javeriana,6,1,colombia,3
+Universidad Nacional de San Antonio Abad del Cusco,6,1,peru,5
+Universidad Republicana,6,1,colombia,6
+Universidad Stanford,6,4,"chile, colombia, mexico, peru",6
+Universidad de Chicago,6,3,"argentina, chile, colombia",4
+Universidad de Nueva York,6,3,"argentina, chile, peru",5
+Universidad de Oxford,6,3,"argentina, colombia, peru",6
+Universidad de París,6,3,"mexico, peru, venezuela",6
+Universidad de Pensilvania,6,6,"chile, colombia, ecuador, mexico, peru, venezuela",6
+Universidad de Texas en Austin,6,3,"colombia, mexico, peru",6
+Abogado,5,2,"argentina, chile",5
+Academia de Guerra del Ejército de Chile,5,1,chile,4
+Colegio San Agustín,5,2,"chile, peru",4
+Doc.,5,3,"chile, colombia, peru",5
+Escuela Militar,5,2,"chile, peru",5
+Escuela Nacional de Ingenieros,5,1,peru,5
+Escuela Naval del Perú,5,1,peru,5
+Instituto de Estudios Políticos de París,5,2,"chile, colombia",4
+Lic. en derecho,5,1,mexico,3
+Pedagogía,5,1,chile,4
+Universidad Externado,5,1,colombia,5
+Universidad Pontificia Bolivariana,5,1,colombia,5
+Universidad Santo Tomás,5,2,"chile, colombia",4
+Universidad de Kansas,5,1,colombia,1
+Universidad de Princeton,5,2,"chile, colombia",5
+Universidad de San Marcos,5,1,peru,3
+Universidad de San Martín de Porres,5,1,peru,4
+Universidad del Salvador,5,1,argentina,5
+Academia Militar del Ejército Bolivariano,4,1,venezuela,3
+Babson College,4,2,"chile, venezuela",3
+Colegio Nuestra Señora de Guadalupe,4,1,peru,4
+Colegio de San Bartolomé,4,1,colombia,4
+Colegio del Verbo Divino,4,1,chile,3
+Conservatorio Nacional de Música,4,2,"chile, peru",4
+Convictorio Carolino,4,1,chile,4
+Economía,4,1,chile,3
+Escuela de Ingenieros del Perú,4,1,peru,4
+Instituto Pedagógico Nacional,4,1,colombia,1
+Instituto de Ciencias y Artes de Oaxaca,4,1,mexico,2
+Instituto de Humanidades Luis Campino,4,1,chile,4
+Liceo Gregorio Cordovez,4,1,chile,4
+Liceo de Aplicación,4,1,chile,2
+Pontificia Universidad Católica de Valparaíso,4,1,chile,4
+Universidad Católica Andrés Bello,4,1,venezuela,4
+Universidad Finis Terrae,4,1,chile,3
+Universidad Jorge Tadeo Lozano,4,1,colombia,4
+Universidad Libre,4,1,colombia,4
+Universidad Mayor de San Andrés,4,2,"bolivia, peru",3
+Universidad Veracruzana,4,1,mexico,3
+Universidad de California,4,2,"chile, colombia",4
+Universidad de Guadalajara,4,1,mexico,4
+Universidad de Madrid,4,3,"chile, colombia, peru",3
+Universidad de Stanford,4,2,"colombia, peru",4
+Academia Militar de Chile,3,1,chile,3
+Administración de empresas,3,2,"ecuador, mexico",3
+Administración pública,3,2,"colombia, ecuador",2
+Bachiller,3,2,"chile, peru",2
+Ciencias Económicas,3,2,"chile, peru",3
+Ciencias Políticas,3,2,"chile, ecuador",3
+Colegio Alexander von Humboldt,3,1,peru,2
+Colegio Cardenal Newman,3,1,argentina,3
+Colegio Champagnat,3,2,"argentina, peru",3
+Colegio Markham,3,1,peru,2
+Colegio de los Padres Franceses,3,1,chile,2
+Educación primaria,3,2,"chile, ecuador",2
+Escuela Especial Militar de Saint-Cyr,3,3,"bolivia, colombia, paraguay",3
+Escuela Nacional de Agricultura,3,1,peru,2
+Escuela Nacional de Jurisprudencia,3,1,mexico,3
+Escuela Nacional de Minas,3,1,colombia,3
+Escuela Naval Militar,3,1,argentina,3
+Escuela de Derecho Harvard,3,3,"argentina, colombia, peru",3
+Facultad de Derecho de la Universidad de Chile,3,1,chile,3
+Geopolítica,3,1,chile,2
+Historia,3,2,"chile, colombia",3
+Instituto de Tecnología de Massachusetts,3,2,"colombia, peru",2
+Maestría en Leyes,3,1,chile,2
+Posgrado,3,2,"chile, colombia",3
+Real Academia de Bellas Artes de San Fernando,3,2,"colombia, peru",3
+Sociología,3,2,"chile, peru",3
+Universidad Adolfo Ibáñez,3,1,chile,3
+Universidad Andrés Bello,3,1,chile,3
+Universidad Anáhuac,3,1,mexico,3
+Universidad Autónoma de Nuevo León,3,1,mexico,2
+Universidad Autónoma de Zacatecas,3,1,mexico,1
+Universidad Brown,3,2,"argentina, peru",2
+Universidad César Vallejo,3,1,peru,2
+Universidad Gabriela Mistral,3,1,chile,3
+Universidad Inca Garcilaso de la Vega,3,1,peru,3
+Universidad Mayor Real y Pontificia San Francisco Xavier de Chuquisaca,3,2,"bolivia, peru",3
+Universidad Nacional Federico Villarreal,3,1,peru,3
+Universidad Nacional de Tucumán,3,1,argentina,3
+Universidad Peruana Cayetano Heredia,3,1,peru,3
+Universidad Técnica Federico Santa María,3,1,chile,3
+Universidad de Belgrano,3,1,argentina,3
+Universidad de Berkeley,3,1,colombia,3
+Universidad de Concepción,3,2,"chile, peru",3
+Universidad de Deusto,3,2,"colombia, mexico",3
+Universidad de Fordham,3,2,"chile, mexico",3
+Universidad de La Habana,3,3,"chile, colombia, peru",3
+Universidad de Leipzig,3,3,"chile, colombia, mexico",3
+Universidad de Míchigan,3,3,"argentina, colombia, peru",3
+Universidad de Navarra,3,2,"chile, colombia",2
+Universidad de Virginia,3,3,"colombia, peru, venezuela",3
+Universidad de Yale,3,3,"argentina, chile, colombia",3
+Universidad del Estado,3,1,chile,2
+Williams College,3,2,"colombia, peru",2
+École polytechnique,3,3,"bolivia, colombia, paraguay",3
+Academia Chilena de Bellas Artes,2,1,chile,1
+Academia Diplomática del Perú,2,1,peru,2
+Academia de Bellas Artes de Bogotá,2,1,colombia,2
+Arquitectura,2,2,"chile, peru",2
+Centro de Altos Estudios Nacionales,2,1,peru,1
+Cinematografía,2,1,chile,2
+Colegio La Salle Buenos Aires,2,1,argentina,2
+Colegio Nacional Coronel Bolognesi,2,1,chile,1
+Colegio Sagrados Corazones Recoleta,2,1,peru,1
+Colegio Sagrados Corazones de los Padres Franceses,2,1,chile,2
+Colegio San Andrés,2,1,peru,2
+Colegio San Ignacio El Bosque,2,1,chile,2
+Colegio del Salvador,2,1,argentina,2
+Colegio del Uruguay,2,1,argentina,2
+Columbia Business School,2,2,"argentina, peru",2
+Comunicación audiovisual,2,1,chile,2
+Conservatorio de París,2,1,argentina,2
+Diplomado,2,1,chile,2
+Escuela Militar de Cadetes,2,1,colombia,1
+Escuela Militar de Cadetes General José María Córdova,2,1,colombia,1
+Escuela Naval Arturo Prat,2,1,chile,2
+Escuela Naval del Estado,2,1,chile,2
+Escuela Politécnica,2,1,argentina,2
+Escuela de Artes y Oficios,2,1,chile,2
+Escuela de Aviación Militar,2,1,argentina,1
+Escuela de Negocios Harvard,2,2,"argentina, colombia",2
+Escuela del Instituto de Arte de Chicago,2,2,"colombia, mexico",2
+"Facultad de Derecho, Universidad de Buenos Aires",2,1,argentina,2
+Filosofía,2,2,"chile, peru",2
+Fundación Universidad de América,2,1,colombia,1
+Georgetown University,2,1,colombia,1
+Glorioso Colegio Nacional de San Carlos de Puno,2,1,peru,2
+Guardia de Corps,2,1,chile,2
+Heroico Colegio Militar,2,1,mexico,2
+Inacap,2,1,chile,2
+Inglés,2,1,chile,1
+Instituto Libre de Segunda Enseñanza,2,1,argentina,2
+Instituto Pedagógico de la Universidad de Chile,2,1,chile,1
+Instituto Rafael Ariztía,2,1,chile,1
+Instituto Tecnológico y de Estudios Superiores de Monterrey,2,1,mexico,2
+Instituto de Teatro y Cine Lee Strasberg,2,2,"chile, mexico",2
+Instituto del Hemisferio Occidental para la Cooperación en Seguridad,2,2,"argentina, peru",2
+J.D.,2,2,"argentina, ecuador",2
+Jurisprudencia,2,2,"argentina, peru",2
+La Sorbona,2,2,"argentina, chile",2
+Le Cordon Bleu,2,1,peru,1
+Liceo Bernardo O'Higgins,2,1,chile,1
+London School of Economics,2,2,"colombia, peru",2
+MPhil,2,1,chile,2
+Phillips Academy,2,2,"argentina, colombia",2
+Politécnico de Milán,2,1,argentina,1
+Real Colegio de Físicos de Londres,2,1,chile,1
+Real Seminario de Nobles de Madrid,2,1,argentina,2
+Relaciones internacionales,2,2,"chile, peru",2
+Seminario de San Antonio Abad,2,1,peru,2
+Seminario de San Jerónimo,2,1,peru,2
+Seminario de Santo Toribio,2,1,peru,2
+Sociedad de Estudios Internacionales (SEI),2,2,"chile, colombia",2
+UNMSM,2,1,peru,2
+Universidad Academia de Humanismo Cristiano,2,1,chile,2
+Universidad Alas Peruanas,2,1,peru,1
+Universidad Autónoma Benito Juárez de Oaxaca,2,1,mexico,1
+Universidad Autónoma de Tlaxcala,2,1,mexico,2
+Universidad Católica de Valparaíso,2,1,chile,2
+Universidad Católica del Perú,2,1,peru,2
+Universidad Complutense,2,2,"chile, colombia",2
+Universidad George Washington,2,2,"chile, ecuador",2
+Universidad Johns Hopkins,2,2,"mexico, peru",2
+Universidad Libre (Colombia),2,1,colombia,2
+Universidad Libre de Bruselas,2,2,"colombia, peru",2
+Universidad Mayor,2,1,chile,2
+Universidad Nacional de Cajamarca,2,1,peru,2
+Universidad Nacional de Rosario,2,1,argentina,2
+Universidad Nacional del Centro del Perú,2,1,peru,1
+Universidad Peruana Los Andes,2,1,peru,2
+Universidad San Ignacio de Loyola,2,1,peru,2
+Universidad Santo Tomás (Colombia),2,1,colombia,2
+Universidad Sergio Arboleda,2,1,colombia,2
+Universidad Torcuato Di Tella,2,1,argentina,2
+Universidad Victoria,2,1,colombia,1
+Universidad de América,2,1,colombia,1
+Universidad de California en Berkeley,2,2,"mexico, peru",2
+Universidad de Edimburgo,2,1,chile,1
+Universidad de Estrasburgo,2,2,"chile, peru",2
+Universidad de Gotinga,2,2,"chile, colombia",2
+Universidad de Guayaquil,2,1,ecuador,2
+"Universidad de Los Andes, Bogotá Universidad Javeriana, Bogotá Universidad Georgetown, Washington",2,1,colombia,2
+Universidad de Lovaina,2,1,chile,2
+Universidad de Minnesota,2,2,"colombia, peru",2
+Universidad de Piura,2,1,peru,2
+Universidad de Roma La Sapienza,2,2,"chile, peru",2
+Universidad de Sevilla,2,2,"argentina, peru",2
+Universidad de la Sorbona,2,1,colombia,2
+Universidad de la sabana,2,1,colombia,1
+Universidad del Desarrollo,2,1,chile,2
+Universidad del Noroeste,2,2,"colombia, mexico",2
+Universidad del Zulia,2,1,venezuela,2
+École nationale supérieure de chimie de Paris,2,1,colombia,2
+Academia Club de Teatro,1,1,chile,1
+Academia Diplomática de Chile,1,1,chile,1
+Academia Julian,1,1,colombia,1
+Academia Julián,1,1,chile,1
+Academia Militar Teresiana,1,1,argentina,1
+Academia de Bellas Artes de San Fernando,1,1,mexico,1
+Academia de España en Roma,1,1,peru,1
+Academia de San Carlos,1,1,mexico,1
+Academia de la Marina Imperial,1,1,paraguay,1
+Academia del Mirto,1,1,peru,1
+Academia militar,1,1,mexico,1
+Académie Colarossi,1,1,colombia,1
+Académie de la Grande Chaumière,1,1,colombia,1
+Accademia Musicale Chigiana,1,1,chile,1
+Administración,1,1,mexico,1
+Administración de Empresas,1,1,mexico,1
+Alianza Francesa de Lima,1,1,peru,1
+American Film Institute,1,1,chile,1
+American University,1,1,peru,1
+Antiguo Colegio de San Ildefonso,1,1,mexico,1
+Arte del Renacimiento,1,1,chile,1
+Australian National University,1,1,colombia,1
+B.A.,1,1,chile,1
+B.L.,1,1,chile,1
+B.S.,1,1,chile,1
+BA,1,1,argentina,1
+Bad Godesberg,1,1,colombia,1
+Bioquímica,1,1,chile,1
+Bogotá,1,1,colombia,1
+Boonton High School,1,1,argentina,1
+Bélgica,1,1,chile,1
+Campo de concentración de Auschwitz,1,1,peru,1
+Centro de Educación Artística,1,1,mexico,1
+Chekhov Gymnasium,1,1,argentina,1
+Ciencia política,1,1,chile,1
+Clínica Mayo,1,1,colombia,1
+Colegio Alemán de Santiago,1,1,chile,1
+Colegio CEYCA,1,1,mexico,1
+Colegio Civil de Querétaro,1,1,mexico,1
+Colegio Civil del Estado de Querétaro,1,1,mexico,1
+Colegio Craighouse,1,1,chile,1
+Colegio Manuel Belgrano de Merlo,1,1,argentina,1
+Colegio Mayor del Rosario,1,1,colombia,1
+Colegio Militar Francisco Bolognesi,1,1,peru,1
+Colegio Militar Naval,1,1,peru,1
+Colegio Nacional Alfonso Ugarte,1,1,peru,1
+Colegio Nacional Rafael Hernández,1,1,argentina,1
+Colegio Nacional de Monserrat,1,1,argentina,1
+Colegio Nacional de la Capital Gral. Bernardino Caballero,1,1,argentina,1
+Colegio Real de San Carlos,1,1,argentina,1
+Colegio Sagrados Corazones Belén,1,1,peru,1
+Colegio Saint-Michel,1,1,colombia,1
+Colegio Santa María Marianistas,1,1,peru,1
+Colegio Tabancura,1,1,chile,1
+Colegio de Boyacá,1,1,colombia,1
+Colegio de Francia,1,1,peru,1
+Colegio de San Felipe Neri Colegio del Seminario,1,1,colombia,1
+Colegio de San Nicolás Obispo,1,1,mexico,1
+Colegio de Valparaíso,1,1,chile,1
+Colegio de los Manriques,1,1,colombia,1
+Colegio de los Sagrados Corazones,1,1,chile,1
+Colegio de los Sagrados Corazones de Concepción,1,1,chile,1
+Colegio de los Sagrados Corazones de Manquehue‎,1,1,chile,1
+Colegio del Rosario,1,1,colombia,1
+Collège Calvin,1,1,argentina,1
+Collège de France,1,1,uruguay,1
+Columbia University,1,1,argentina,1
+Conservatorio Giuseppe Verdi,1,1,chile,1
+Conservatorio Nacional de Música de México,1,1,mexico,1
+Conservatorio de Música de Nueva Inglaterra,1,1,colombia,1
+Conservatorio municipal de Música de Barcelona,1,1,mexico,1
+Contabilidad financiera,1,1,peru,1
+Cornell University,1,1,colombia,1
+"Cornell University College of Architecture, Art, and Planning",1,1,chile,1
+Coronel,1,1,chile,1
+Cuerpo de Caballería de Lima,1,1,peru,1
+Culver Academies,1,1,mexico,1
+Curso Fiscal de Leyes de Concepción,1,1,chile,1
+Curso de Leyes de Valparaíso,1,1,chile,1
+Derecho constitucional comparado,1,1,chile,1
+Dibujo,1,1,chile,1
+Diplomatura,1,1,chile,1
+Doctor en ciencias jurídicas,1,1,chile,1
+Doctorado,1,1,chile,1
+Duoc UC,1,1,chile,1
+Edron Academy,1,1,mexico,1
+Egresado,1,1,chile,1
+Ejército del Perú,1,1,peru,1
+Escuela Juilliard,1,1,peru,1
+Escuela Militar Bernardo O'Higgins,1,1,chile,1
+Escuela Militar de Cadetes General José María Córdoba,1,1,colombia,1
+Escuela Militar de Chorrillos y Escuela de la Guardia Civil y Policía.,1,1,peru,1
+Escuela Nacional Preparatoria,1,1,mexico,1
+Escuela Nacional Superior de Arte Dramático,1,1,peru,1
+Escuela Nacional de Agricultura y Veterinaría,1,1,peru,1
+Escuela Nacional de Antropología e Historia,1,1,mexico,1
+"Escuela Nacional de Arquitectura, Universidad Nacional Autónoma de México ('34 al '38)",1,1,mexico,1
+Escuela Nacional de Medicina,1,1,mexico,1
+Escuela Nacional de Puentes y Caminos,1,1,peru,1
+Escuela Naval de Suboficiales A.R.C. Barranquilla,1,1,colombia,1
+Escuela Superior Técnica,1,1,argentina,1
+Escuela Superior de Artes y Oficios de la I.E. Jorge Eliecer Gaitán Ayala,1,1,colombia,1
+Escuela Superior de Bellas Artes de la Nación Ernesto de la Cárcova,1,1,peru,1
+Escuela Superior de Cine y Audiovisuales de Cataluña,1,1,chile,1
+Escuela Superior de Formación de Maestros Simón Bolívar,1,1,bolivia,1
+Escuela Superior de Guerra,1,1,argentina,1
+Escuela Técnica de Berlín,1,1,chile,1
+Escuela al Aire Libre,1,1,mexico,1
+Escuela de Agricultura La Molina,1,1,peru,1
+Escuela de Bellas Artes,1,1,argentina,1
+Escuela de Bellas Artes de Bogotá,1,1,colombia,1
+Escuela de Bellas Artes de París,1,1,peru,1
+Escuela de Cadetes General Santander,1,1,colombia,1
+Escuela de Cadetes de Policía General Santander,1,1,colombia,1
+Escuela de Carabineros del General Carlos Ibáñez del Campo,1,1,chile,1
+Escuela de Derecho de la Universidad de Nueva York,1,1,argentina,1
+Escuela de Derecho de la Universidad de Valparaíso,1,1,chile,1
+Escuela de Derecho y Diplomacia Fletcher,1,1,argentina,1
+Escuela de Diseño de Rhode Island,1,1,colombia,1
+Escuela de Economía de Londres,1,1,colombia,1
+Escuela de Estado Mayor,1,1,chile,1
+Escuela de Estudios Superiores de Comercio,1,1,mexico,1
+Escuela de Estudios Superiores en Ciencias Sociales,1,1,chile,1
+Escuela de Graduados de Diseño de Harvard,1,1,peru,1
+Escuela de Ingenieros,1,1,peru,1
+Escuela de Ingenieros de Lima,1,1,peru,1
+Escuela de José Mires,1,1,colombia,1
+Escuela de Leyes de los SSCC en Valparaíso,1,1,chile,1
+Escuela de Negocios Stern,1,1,ecuador,1
+Escuela de Negocios de Harvard,1,1,colombia,1
+Escuela del Estado Mayor francés,1,1,bolivia,1
+Escuela del Louvre,1,1,chile,1
+España,1,1,argentina,1
+Eton College,1,1,argentina,1
+Evangelical School of Smyrna,1,1,argentina,1
+Faculdades Integradas Rio Branco,1,1,argentina,1
+Facultad Latinoamericana de Ciencias Sociales,1,1,argentina,1
+"Facultad de Arquitectura, Diseño y Urbanismo",1,1,uruguay,1
+Facultad de Ciencias Económicas,1,1,argentina,1
+Facultad de Derecho de París,1,1,colombia,1
+Facultad de Derecho de la Pontificia Universidad Católica del Perú,1,1,peru,1
+Facultad de Medicina,1,1,argentina,1
+Filosofía política,1,1,chile,1
+Formación científica autodidacta.,1,1,argentina,1
+Francés,1,1,peru,1
+Física,1,1,peru,1
+Georgia Augusta,1,1,chile,1
+Georgia Institute of Technology,1,1,colombia,1
+Gimnasio Campestre,1,1,colombia,1
+Guardiamarina,1,1,chile,1
+Harvard Business School,1,1,colombia,1
+Heroica Escuela Naval,1,1,mexico,1
+Hospital General de México “Dr. Eduardo Liceaga”,1,1,mexico,1
+Hotchkiss School,1,1,colombia,1
+Humanidades,1,1,chile,1
+Ingeniero agrónomo,1,1,mexico,1
+Ingeniero industrial,1,1,mexico,1
+Ingeniería hidráulica,1,1,chile,1
+Ingeniería mecánica,1,1,ecuador,1
+Instituto Andrés Soler,1,1,mexico,1
+"Instituto Goethe, Madrid",1,1,peru,1
+Instituto Le Rosey,1,1,ecuador,1
+Instituto Literario de Toluca,1,1,mexico,1
+Instituto Mexicano de Cinematografía,1,1,mexico,1
+Instituto Nacional (Chile),1,1,chile,1
+Instituto Nacional José Miguel Carrera,1,1,chile,1
+Instituto Nacional de Capacitación Profesional,1,1,chile,1
+Instituto Pedagógico Nacional de Varones de Lima,1,1,peru,1
+Instituto Politécnico Nacional,1,1,mexico,1
+Instituto Politécnico Rensselaer,1,1,argentina,1
+Instituto Ramón Muntaner,1,1,colombia,1
+Instituto Superior de Comercio,1,1,chile,1
+Instituto Tecnológico de Massachussets,1,1,mexico,1
+"Instituto Tecnológico y de Estudios Superiores de Monterrey, Campus Cuernavaca",1,1,colombia,1
+"Instituto Tecnológico y de Estudios Superiores de Monterrey, Campus Estado de México",1,1,mexico,1
+Instituto Tecnológico y de Estudios Superiores de Occidente,1,1,mexico,1
+Instituto de Artes y Ciencias de Oaxaca,1,1,mexico,1
+"Instituto de Estudios Políticos de París, 1985.DEA : Diplome d' Étude Approfondies, 1985-1986. Instituto de Altos Estudios para el Desarrollo, Universidad Externado de Colombia. Magister en Relaciones Internacionales, 1984. Departamento de Ciencia Política. Universidad de los Andes.Postgrado en Ciencia Política, 1976.-1977.",1,1,colombia,1
+Instituto de Música Curtis,1,1,peru,1
+Instituto de Publicidad y Ventas,1,1,chile,1
+Instituto de Tecnología de Georgia,1,1,colombia,1
+Instituto de Tecnología de Massachussets,1,1,peru,1
+Instituto de los Hermanos de las Escuelas Cristianas,1,1,ecuador,1
+Internado Nacional,1,1,chile,1
+Investigador postdoctoral,1,1,chile,1
+Katholieke Universiteit Leuven,1,1,chile,1
+Kennesaw State University,1,1,colombia,1
+Lic. en Economía,1,1,mexico,1
+Lic. en economía,1,1,mexico,1
+Licenciatura,1,1,peru,1
+Licenciatura en Derecho,1,1,peru,1
+Liceo Don Bosco de La Cisterna Liceo San José de Punta Arenas Liceo de Hombres Luis Alberto Barrera,1,1,chile,1
+Liceo Experimental Manuel de Salas,1,1,chile,1
+Liceo José Victorino Lastarria,1,1,chile,1
+Liceo Mexicano Japonés,1,1,mexico,1
+Liga de estudiantes de arte de Nueva York,1,1,mexico,1
+London Academy of Music and Dramatic Art,1,1,chile,1
+Lycée Hoche,1,1,mexico,1
+Lycée Janson de Sailly,1,1,peru,1
+M.B.A.,1,1,argentina,1
+M.S.,1,1,peru,1
+MA,1,1,argentina,1
+MIT,1,1,peru,1
+Markham College,1,1,peru,1
+Matemáticas,1,1,peru,1
+Mercadotecnia,1,1,chile,1
+Montevideo,1,1,argentina,1
+Médico,1,1,mexico,1
+New College,1,1,chile,1
+New World School of the Arts,1,1,venezuela,1
+PUCP,1,1,peru,1
+Periodismo,1,1,chile,1
+PhD,1,1,argentina,1
+Philadelphia University,1,1,ecuador,1
+Política pública,1,1,chile,1
+Pomona College,1,1,peru,1
+Pontificia Universidad Católica de Ecuador,1,1,colombia,1
+"Pontificia Universidad Católica del Perú [2] , Atelier 17 (Paris) [3] , Slade School of Fine Arts (London) [4] .",1,1,peru,1
+Pontificia Universidad Gregoriana,1,1,colombia,1
+Pratt Institute,1,1,mexico,1
+Pregrado,1,1,chile,1
+Psicología,1,1,chile,1
+Real Colegio de Monserrat,1,1,argentina,1
+Real Universidad de San Felipe.,1,1,argentina,1
+Real y Pontificia Universidad de Caracas,1,1,chile,1
+Red de Universidades Anáhuac,1,1,mexico,1
+Royal Agricultural College of Cirencester,1,1,colombia,1
+Royal College of Music,1,1,colombia,1
+Santiago de Querétaro,1,1,mexico,1
+Schola Cantorum de París,1,1,colombia,1
+Sciences Po,1,1,mexico,1
+Secretaría de Educación Pública de México,1,1,mexico,1
+Sede Valparaíso de la Universidad de Chile,1,1,chile,1
+Seminario Mayor de Bogotá,1,1,colombia,1
+Seminario de Bogotá,1,1,colombia,1
+Seminario de Lima,1,1,chile,1
+Seminario de Naturales,1,1,chile,1
+Seminario de San Sulpicio (París) Universidad de San Apolinar,1,1,colombia,1
+Seminario de Talca,1,1,chile,1
+Seminario de la ciudad de Durango,1,1,mexico,1
+Severn School The Principia Principia College (hasta 1953) Neighborhood Playhouse School of the Theatre (1955-1957),1,1,argentina,1
+"St Patrick's College, Dublin",1,1,colombia,1
+St. Edward's University,1,1,mexico,1
+St. Joseph College,1,1,paraguay,1
+Stonyhurst College,1,1,peru,1
+Sábana,1,1,colombia,1
+Teatro de la Universidad Católica,1,1,peru,1
+Technische Universität Bergakademie Freiberg,1,1,colombia,1
+Tecnológico de Monterrey,1,1,mexico,1
+Televisa San Ángel,1,1,mexico,1
+Texas A&M University,1,1,peru,1
+Tisch School of the Arts,1,1,chile,1
+Trinity Hall,1,1,peru,1
+Trinity School,1,1,mexico,1
+UBA,1,1,argentina,1
+ULA,1,1,venezuela,1
+Universidad Andina Néstor Cáceres Velásquez,1,1,peru,1
+Universidad Anáhuac Sur,1,1,mexico,1
+Universidad Anáhuac del Sur,1,1,mexico,1
+Universidad Austral,1,1,argentina,1
+Universidad Autónoma Chapingo,1,1,mexico,1
+Universidad Autónoma Latinoamericana,1,1,colombia,1
+Universidad Autónoma Metropolitana,1,1,mexico,1
+Universidad Autónoma de Occidente,1,1,colombia,1
+Universidad Autónoma de Puebla,1,1,mexico,1
+Universidad Autónoma de Querétaro,1,1,mexico,1
+Universidad Autónoma de San Luis Potosí,1,1,mexico,1
+Universidad Autónoma de Veracruz Villa Rica,1,1,mexico,1
+Universidad CAECE,1,1,argentina,1
+Universidad Carnegie Mellon,1,1,colombia,1
+Universidad Católica,1,1,chile,1
+Universidad Católica de América,1,1,chile,1
+Universidad Católica de La Plata (UCALP),1,1,argentina,1
+Universidad Católica de Salta,1,1,argentina,1
+Universidad Católica del Uruguay,1,1,uruguay,1
+Universidad Central,1,1,chile,1
+Universidad Central (Colombia),1,1,colombia,1
+Universidad Central de Chile,1,1,chile,1
+Universidad Central de Madrid,1,1,mexico,1
+Universidad ESAN,1,1,peru,1
+Universidad Estatal de Kansas,1,1,peru,1
+Universidad Estatal de Nuevo México,1,1,mexico,1
+Universidad Estatal de Pensilvania,1,1,peru,1
+Universidad Experimental de las Fuerzas Armadas,1,1,venezuela,1
+Universidad Federal de Río de Janeiro,1,1,mexico,1
+Universidad Federico Guillermo,1,1,chile,1
+Universidad Francisco de Vitoria,1,1,colombia,1
+Universidad Gregoriana de Roma,1,1,peru,1
+Universidad INCCA de Colombia,1,1,colombia,1
+Universidad Industrial de Santander,1,1,colombia,1
+Universidad Internacional de Cataluña,1,1,chile,1
+Universidad Juárez del Estado de Durango,1,1,mexico,1
+Universidad La Gran Colombia,1,1,colombia,1
+Universidad Libre de Berlín,1,1,colombia,1
+Universidad Militar Nueva Granada,1,1,colombia,1
+Universidad Mount St. Mary's,1,1,mexico,1
+Universidad Nacional,1,1,colombia,1
+Universidad Nacional Hermilio Valdizán,1,1,peru,1
+Universidad Nacional Pedro Ruiz Gallo,1,1,peru,1
+Universidad Nacional San Agustín de Arequipa,1,1,peru,1
+Universidad Nacional San Antonio Abad del Cusco,1,1,peru,1
+Universidad Nacional Santiago Antúnez de Mayolo,1,1,peru,1
+Universidad Nacional de Colombia sede Medellín,1,1,colombia,1
+Universidad Nacional de Defensa,1,1,colombia,1
+Universidad Nacional de Ingeniería (Perú),1,1,peru,1
+Universidad Nacional de Jujuy,1,1,argentina,1
+Universidad Nacional de Lanús,1,1,argentina,1
+Universidad Nacional de Loja,1,1,ecuador,1
+Universidad Nacional de Salta,1,1,argentina,1
+Universidad Nacional de San Cristóbal de Huamanga,1,1,peru,1
+Universidad Nacional de Santa Fe Universidad Nacional de Tucumán,1,1,argentina,1
+Universidad Nacional del Litoral,1,1,peru,1
+Universidad Nacional del Nordeste,1,1,argentina,1
+Universidad Nacional del Sur,1,1,argentina,1
+Universidad Obrera de México,1,1,chile,1
+Universidad París I Panthéon-Sorbonne,1,1,mexico,1
+Universidad Privada Antenor Orrego,1,1,peru,1
+Universidad Purdue,1,1,colombia,1
+Universidad Rey Juan Carlos,1,1,colombia,1
+Universidad Ricardo Palma,1,1,peru,1
+Universidad Rice,1,1,peru,1
+Universidad San Martín de Porres,1,1,peru,1
+Universidad San Pedro,1,1,peru,1
+Universidad Simón Bolívar,1,1,venezuela,1
+Universidad Sorbona Nueva-París 3,1,1,peru,1
+Universidad Técnica de Aquisgrán,1,1,mexico,1
+Universidad Técnica de Múnich,1,1,argentina,1
+Universidad Técnica del Estado,1,1,chile,1
+Universidad de Arizona,1,1,peru,1
+Universidad de Arte y Ciencias Sociales,1,1,chile,1
+"Universidad de Artes, Ciencias y Comunicación",1,1,chile,1
+Universidad de Atenas,1,1,argentina,1
+Universidad de Bath,1,1,colombia,1
+Universidad de Berna,1,1,argentina,1
+Universidad de Bonn,1,1,mexico,1
+Universidad de CEMA,1,1,argentina,1
+Universidad de Caldas,1,1,colombia,1
+"Universidad de California, Berkeley",1,1,peru,1
+Universidad de Cartagena,1,1,colombia,1
+Universidad de Chuquisaca,1,1,argentina,1
+Universidad de Ciencias Médicas de Camagüey,1,1,peru,1
+Universidad de Cincinnati,1,1,colombia,1
+Universidad de Colorado,1,1,peru,1
+Universidad de Corea,1,1,peru,1
+Universidad de Cuenca,1,1,ecuador,1
+Universidad de Dayton,1,1,colombia,1
+Universidad de Detroit Misericordia,1,1,peru,1
+Universidad de Essex,1,1,mexico,1
+Universidad de Florencia,1,1,chile,1
+"Universidad de Fordham, B.S",1,1,peru,1
+Universidad de Friburgo,1,1,argentina,1
+Universidad de Gante,1,1,chile,1
+Universidad de Grenoble,1,1,peru,1
+Universidad de Indiana,1,1,peru,1
+Universidad de Iowa,1,1,peru,1
+Universidad de La Plata,1,1,argentina,1
+Universidad de La Serena,1,1,chile,1
+Universidad de Le Havre,1,1,colombia,1
+Universidad de Medellín,1,1,colombia,1
+Universidad de Milán,1,1,argentina,1
+Universidad de Mississippi,1,1,colombia,1
+Universidad de Montevideo,1,1,uruguay,1
+Universidad de Northwestern,1,1,chile,1
+Universidad de Notre Dame,1,1,chile,1
+Universidad de Nuevo México,1,1,mexico,1
+Universidad de Oviedo,1,1,mexico,1
+Universidad de París 1 Panthéon-Sorbonne,1,1,colombia,1
+Universidad de París IV París Sorbonne,1,1,mexico,1
+Universidad de París Panthéon-Assas,1,1,colombia,1
+Universidad de Pittsburgh,1,1,colombia,1
+Universidad de Purdue,1,1,colombia,1
+Universidad de Roma,1,1,colombia,1
+Universidad de Saint Andrews,1,1,peru,1
+Universidad de San Andrés,1,1,argentina,1
+Universidad de San Carlos,1,1,argentina,1
+Universidad de Santa Fe,1,1,argentina,1
+Universidad de Santiago de Compostela,1,1,peru,1
+Universidad de Santo Tomás,1,1,colombia,1
+Universidad de Southampton,1,1,chile,1
+Universidad de Sussex,1,1,chile,1
+Universidad de Texas,1,1,chile,1
+Universidad de Texas A&M en Galveston,1,1,mexico,1
+Universidad de Toronto,1,1,colombia,1
+Universidad de Upsala,1,1,colombia,1
+Universidad de Valladolid,1,1,argentina,1
+Universidad de Valparaíso,1,1,chile,1
+Universidad de Wisconsin,1,1,colombia,1
+Universidad de Wisconsin-Madison,1,1,ecuador,1
+Universidad de Wisconsin–Milwaukee,1,1,peru,1
+Universidad de la City de Londres,1,1,colombia,1
+Universidad de la Florida,1,1,colombia,1
+Universidad de la Frontera,1,1,chile,1
+Universidad de los Andes (Colombia),1,1,colombia,1
+Universidad del Museo Social Argentino,1,1,argentina,1
+Universidad del Norte,1,1,colombia,1
+Universidad del Norte (Colombia),1,1,colombia,1
+Universidad del Sur de California,1,1,mexico,1
+Universidad del Valle,1,1,colombia,1
+Universidad del Valle de México,1,1,mexico,1
+University of London,1,1,mexico,1
+Virginia Military Institute,1,1,colombia,1
+Wharton Business School,1,1,argentina,1
+Wye College,1,1,peru,1
+actuación,1,1,chile,1
+ciencia política,1,1,mexico,1
+ciencias de la comunicación,1,1,mexico,1
+derecho,1,1,mexico,1
+economía,1,1,mexico,1
+filosofía,1,1,paraguay,1
+ingeniería civil,1,1,mexico,1
+teología,1,1,paraguay,1
+École Pratique des Hautes Études,1,1,peru,1
+École Spéciale des Travaux Publics,1,1,peru,1
+École centrale Paris,1,1,peru,1

@@ -1,0 +1,28 @@
+from,to,n_total,n_parentesco,n_biografico,motivo_dom,detalle,tipo_dom
+argentina,bolivia,25,12,13,Filiación,Filiación=10 | Matrimonio/Pareja=2 | Murió allí=7 | Nació allí=3 | Residió allí=3,Biográfico
+argentina,chile,94,56,38,Matrimonio/Pareja,Filiación=23 | Matrimonio/Pareja=33 | Murió allí=11 | Nació allí=18 | Residió allí=8 | Trabajó allí=1,Parentesco
+argentina,colombia,57,30,27,Filiación,Filiación=20 | Matrimonio/Pareja=10 | Murió allí=6 | Nació allí=18 | Residió allí=2 | Trabajó allí=1,Parentesco
+argentina,mexico,26,19,7,Matrimonio/Pareja,Filiación=9 | Matrimonio/Pareja=10 | Murió allí=1 | Nació allí=1 | Residió allí=5,Parentesco
+argentina,paraguay,12,7,5,Filiación,Filiación=5 | Matrimonio/Pareja=2 | Murió allí=2 | Nació allí=2 | Residió allí=1,Parentesco
+argentina,peru,90,31,59,Nació allí,Filiación=13 | Matrimonio/Pareja=18 | Murió allí=16 | Nació allí=39 | Residió allí=4,Biográfico
+argentina,uruguay,105,46,59,Filiación,Filiación=34 | Matrimonio/Pareja=12 | Murió allí=27 | Nació allí=29 | Residió allí=3,Biográfico
+argentina,venezuela,8,3,5,Murió allí,Filiación=1 | Matrimonio/Pareja=2 | Murió allí=3 | Nació allí=1 | Residió allí=1,Biográfico
+bolivia,chile,3,1,2,Murió allí,Matrimonio/Pareja=1 | Murió allí=2,Biográfico
+bolivia,mexico,4,0,4,Nació allí,Murió allí=1 | Nació allí=2 | Residió allí=1,Biográfico
+bolivia,peru,7,2,5,Nació allí,Matrimonio/Pareja=2 | Murió allí=2 | Nació allí=3,Biográfico
+chile,colombia,57,43,14,Filiación,Filiación=30 | Matrimonio/Pareja=13 | Murió allí=4 | Nació allí=10,Parentesco
+chile,ecuador,5,2,3,Nació allí,Filiación=1 | Matrimonio/Pareja=1 | Murió allí=1 | Nació allí=2,Biográfico
+chile,mexico,44,17,27,Nació allí,Filiación=7 | Matrimonio/Pareja=10 | Murió allí=8 | Nació allí=18 | Residió allí=1,Biográfico
+chile,peru,117,36,81,Murió allí,Filiación=20 | Matrimonio/Pareja=16 | Murió allí=36 | Nació allí=27 | Residió allí=18,Biográfico
+chile,uruguay,7,3,4,Matrimonio/Pareja,Matrimonio/Pareja=3 | Murió allí=1 | Residió allí=3,Biográfico
+chile,venezuela,6,3,3,Filiación,Filiación=3 | Nació allí=3,Mixto
+colombia,ecuador,22,13,9,Filiación,Filiación=9 | Matrimonio/Pareja=4 | Murió allí=3 | Nació allí=5 | Residió allí=1,Parentesco
+colombia,mexico,19,12,7,Matrimonio/Pareja,Filiación=3 | Matrimonio/Pareja=9 | Murió allí=1 | Nació allí=2 | Residió allí=4,Parentesco
+colombia,paraguay,2,0,2,Murió allí,Murió allí=1 | Nació allí=1,Biográfico
+colombia,peru,51,23,28,Nació allí,Filiación=16 | Matrimonio/Pareja=7 | Murió allí=7 | Nació allí=21,Biográfico
+colombia,venezuela,48,37,11,Filiación,Filiación=29 | Matrimonio/Pareja=8 | Murió allí=4 | Nació allí=6 | Residió allí=1,Parentesco
+ecuador,peru,10,2,8,Nació allí,Matrimonio/Pareja=2 | Murió allí=2 | Nació allí=4 | Trabajó allí=2,Biográfico
+mexico,peru,15,6,9,Filiación,Filiación=5 | Matrimonio/Pareja=1 | Murió allí=4 | Nació allí=1 | Residió allí=4,Biográfico
+mexico,uruguay,2,2,0,Matrimonio/Pareja,Matrimonio/Pareja=2,Parentesco
+peru,uruguay,4,4,0,Matrimonio/Pareja,Matrimonio/Pareja=4,Parentesco
+peru,venezuela,2,2,0,Matrimonio/Pareja,Matrimonio/Pareja=2,Parentesco

@@ -1,0 +1,581 @@
+nombre_p,fam_p,pais_p,nombre_r,fam_r,pais_r,tipo_relacion,ocupacion_p,ocupacion_r
+Agustina Paz de Roca,roca,argentina,Rudecindo Roca,paz,argentina,padre/madre,Comerciante,Militar
+Ana Jacoba García de Zúñiga,warnes,argentina,Ignacio Warnes,garcía_de_zúñiga,argentina,padre/madre,Ejército Patriota,Militar y político
+Ana Jacoba García de Zúñiga,warnes,argentina,Martín José Warnes,garcía_de_zúñiga,argentina,padre/madre,Ejército Patriota,Militar
+Ana de Narváez de Caro,caicedo,colombia,Victor Caro,azuola,colombia,padre/madre,NA,"Escritor, poeta, científico, catedrático, filántropo, periodista"
+Augusto Leguía,leguía,peru,Enriqueta Leguía,diez_canseco,peru,padre/madre,"Político , negociante y empresario",Poetisa y escritora
+Augusto Leguía,leguía,peru,Juan Leguía Swayne,diez_canseco,peru,padre/madre,"Político , negociante y empresario",Piloto de aviación
+Carlos Cano (actor),frayssinet,peru,Carolina Cano,cano,peru,padre/madre,Actor y Productor de teatro,Actriz modelo
+Clemente López de Osornio,ortiz_de_rozas,argentina,Agustina López de Osornio,garcía-mansilla,argentina,padre/madre,Militar,Estanciera
+Consuelo Lleras Puga,carrizosa,colombia,Felipe Zuleta Lleras,camargo,colombia,padre/madre,Política,Periodista
+Dolores Vargas París,urdaneta,venezuela,Amenodoro Urdaneta,parís,colombia,padre/madre,NA,"Escritor, artista, político, educador"
+Dolores Vargas París,urdaneta,venezuela,Luciano Urdaneta Vargas,parís,venezuela,padre/madre,NA,Arquitecto e ingeniero
+Eduardo Vásquez Jaramillo,ospina,colombia,Carolina Vásquez de Ospina,lleras,colombia,padre/madre,"Político , Terrateniente , Banquero",Empresaria
+Enriqueta Vásquez de Ospina,ospina,colombia,Pedro Nel Ospina,lleras,colombia,padre/madre,Empresaria,"Militar , político , ingeniero de minas"
+Estanislao Vergara,tenorio,colombia,José María Vergara Tenorio,caicedo,colombia,padre/madre,"abogado , diplomático , político","Escritor, Periodista y Diplomático"
+Feliciano Palacios y Sojo,toro_venezuela,venezuela,María de la Concepción Palacios y Blanco,palacios_venezuela,venezuela,padre/madre,Militar,NA
+Francisco Vergara Mayorga,olmos,colombia,José de Vergara Azcárate,caicedo,colombia,padre/madre,Contador,"Sacerdote , Filósofo"
+Hernán Cortés,moctezuma,colombia,Leonor Cortés Moctezuma,pizarro,chile,padre/madre,"Conquistador , explorador y marqués",NA
+Ignacio Vargas,parís,colombia,Dolores Vargas París,urdaneta,venezuela,padre/madre,Político,NA
+Isaac León Frías,tamayo_perú,peru,Matilde León,alarco,peru,padre/madre,"Periodista , Escritor , crítico de cine y profesor universitario",Actriz y guionista
+Isabel Moctezuma Tecuichpo Ixcaxochitzin,moctezuma,mexico,Leonor Cortés Moctezuma,pizarro,chile,padre/madre,NA,NA
+José Bernardo Sáenz de Santamaría,galeano,colombia,Nicolás Sanz de Santamaría,prieto,chile,padre/madre,"Militar , Político , Caballero",alcalde capitán
+José Cayetano Carreño,carreño,venezuela,Manuel Antonio Carreño,toro_venezuela,venezuela,padre/madre,Compositor,"Diplomático , Músico y Pedagogo"
+José Gregorio Gutiérrez,gutiérrez_díaz,colombia,Ignacio Gutiérrez Vergara,caicedo,colombia,padre/madre,Abogado Fiscal y Civil,"Político , periodista , militar"
+Joaquín Prieto,warnes,chile,Joaquín Prieto Warnes,garcía_de_zúñiga,chile,padre/madre,Militar y político,diputado y empresario
+Juan Vicente Bolívar y Ponte,palacios_venezuela,venezuela,Juan Vicente Bolívar Palacios,toro_venezuela,venezuela,padre/madre,NA,NA
+Juan Vicente Bolívar y Ponte,palacios_venezuela,venezuela,Juana Bolívar Palacios,toro_venezuela,venezuela,padre/madre,NA,NA
+Juan Vicente Bolívar y Ponte,palacios_venezuela,venezuela,María Antonia Bolívar Palacios,toro_venezuela,venezuela,padre/madre,NA,Propietaria
+Juan Vicente Bolívar y Ponte,palacios_venezuela,venezuela,Simón Bolívar,bolívar,colombia,padre/madre,NA,Militar y político
+León Villaveces Ibáñez,urdaneta,colombia,Carlos Villaveces Restrepo,villaveces,colombia,padre/madre,Litógrafo e impresor,NA
+Luis de la Cruz,vial,chile,José María de la Cruz Prieto,cruz_chile,chile,padre/madre,Político y militar,NA
+Manuel Antonio Carreño,toro_venezuela,venezuela,Teresa Carreño,carreño,venezuela,padre/madre,"Diplomático , Músico y Pedagogo","Pianista , cantante y compositora"
+Manuel Antonio José Warnes,garcía_de_zúñiga,colombia,Manuela Warnes,warnes,chile,padre/madre,Alcalde de primer voto del Cabildo de Buenos Aires,Primera Dama
+Manuel Antonio José Warnes,garcía_de_zúñiga,colombia,Martina Warnes,warnes,argentina,padre/madre,Alcalde de primer voto del Cabildo de Buenos Aires,NA
+Manuel Piqueras Cotolí,sánchez-concha,peru,Jorge Piqueras,lavalle,peru,padre/madre,Escultor y arquitecto,"Artista, pintor, escultor y fotógrafo"
+Manuel Velarde Aspíllaga,paz,peru,Manuel Velarde Dellepiane,diez_canseco,peru,padre/madre,"Abogado , político",Político y abogado
+Manuela Warnes,warnes,chile,Joaquín Prieto Warnes,garcía_de_zúñiga,chile,padre/madre,Primera Dama,diputado y empresario
+María de la Concepción Palacios y Blanco,palacios_venezuela,venezuela,Juan Vicente Bolívar Palacios,toro_venezuela,venezuela,padre/madre,NA,NA
+María de la Concepción Palacios y Blanco,palacios_venezuela,venezuela,Juana Bolívar Palacios,toro_venezuela,venezuela,padre/madre,NA,NA
+María de la Concepción Palacios y Blanco,palacios_venezuela,venezuela,María Antonia Bolívar Palacios,toro_venezuela,venezuela,padre/madre,NA,Propietaria
+María de la Concepción Palacios y Blanco,palacios_venezuela,venezuela,Simón Bolívar,bolívar,colombia,padre/madre,NA,Militar y político
+Marcelino Uribe Botero,urdaneta,colombia,Marcelino Uribe Arango,restrepo,colombia,padre/madre,"Político , militar , abogado","Político , abogado"
+Matilde Ladrón de Guevara,mendoza_ladrón_de_guevara,chile,Sybila Arredondo,bustamante,chile,padre/madre,"Escritora , periodista , poetisa y novelista",Historiadora
+Miguel Antonio Caro,azuola,colombia,Julio Caro,caicedo,colombia,padre/madre,"Estadista , humanista .","Economista , Banquero"
+Nicolás Sanz de Santamaría,prieto,chile,Francisco Sanz de Santamaría,galeano,colombia,padre/madre,alcalde capitán,abogado
+Pío Tristán,tristán_del_pozo,peru,Victoria Tristán de Echenique,echenique,peru,padre/madre,Político y militar,NA
+Pantaleón Gutiérrez,gutiérrez_díaz,colombia,José Gregorio Gutiérrez,caicedo,colombia,padre/madre,Político y empresario,Abogado Fiscal y Civil
+Ricardo Portocarrero Caicedo,soublette,colombia,Julio Portocarrero O'Leary,caicedo,colombia,padre/madre,Comerciante,NA
+Tomasa de la Quintana,escalada,argentina,Mariano Escalada,san_martín,argentina,padre/madre,Dama patricia,Militar
+Agustina Paz de Roca,roca,argentina,Juan Bautista Paz,paz,argentina,padre/madre,Comerciante,Político
+Alejandro Bulgheroni,bulgheroni,argentina,Alejandro Bunge,bunge,argentina,padre/madre,"empresario, ingeniero","Economista , político"
+Alejandro Eder,eder,colombia,Henry Eder,caicedo,colombia,padre/madre,Político,Empresario
+Alejandro Santos,santos,colombia,Enrique Santos Calderón,calderón_colombia,colombia,padre/madre,Expresidente del Grupo Semana Ex Director de la revista Semana,Periodista
+Anacleto Clemente Bolívar,palacios_venezuela,venezuela,María Antonia Bolívar Palacios,toro_venezuela,venezuela,padre/madre,Militar,Propietaria
+Andrés Marroquín Osorio,ricaurte,colombia,José Manuel Marroquín,nariño,colombia,padre/madre,NA,Escritor educador político periodista Estadista
+Andrés Marroquín Osorio,ricaurte,colombia,Matilde Osorio Ricaurte,nariño,colombia,padre/madre,NA,Socialité
+Andrés Villamizar,pachón,colombia,Maruja Pachón,galán,colombia,padre/madre,Economista,Periodista
+Andrónico Lukšić Craig,fontbona,chile,Andrónico Lukšić Abaroa,luksic,chile,padre/madre,Empresario,Empresario
+Antonio Subercaseaux,subercaseaux,chile,Ramón Subercaseaux Mercado,errázuriz,chile,padre/madre,Comerciante,"Comerciante , Pintura"
+Antonio Subercaseaux,subercaseaux,chile,Magdalena Vicuña Aguirre,errázuriz,chile,padre/madre,Comerciante,Socialité y filántropa
+Antonio de Vergara Azcárate,vergara-azcárate,colombia,Francisco de Vergara y Azcárate,olmos,colombia,padre/madre,"Militar , Político , Caballero y Tesorero",Militar
+Armando Samper,samper,colombia,Daniel Samper Ortega,gnecco,colombia,padre/madre,Político,"Escritor, educador e historiador"
+Arturo Alessandri Rodríguez,velasco_chile,chile,Arturo Alessandri,morandé,chile,padre/madre,Abogado,Abogado y político
+Benjamín Vicuña Subercaseaux,subercaseaux,chile,Benjamín Vicuña Mackenna,mackenna,chile,padre/madre,Escritor y periodista,"Abogado , escritor y político"
+Bernardo Larraín Matte,matte,chile,Patricia Matte,bunster,chile,padre/madre,Ingeniero comercial y empresario,"Socióloga , académica, investigadora y consultora naturista"
+Bernardo Larraín Matte,matte,chile,Jorge Gabriel Larraín,bunster,chile,padre/madre,Ingeniero comercial y empresario,"Ingeniero comercial , académico y empresario"
+Bernardo Matte,matte,chile,Eliodoro Matte Ossa,bunster,chile,padre/madre,Ingeniero comercial y empresario,Empresario
+Bolívar Ulloa,ulloa,peru,Luis Ulloa,cisneros,peru,padre/madre,"Diplomático, docente universitario",Historiador
+Carlos Díaz Vélez,álvarez_de_toledo_argentina,argentina,Eustoquio Díaz Vélez (hijo),díaz_vélez,argentina,padre/madre,estanciero,"estanciero, político"
+Carlos Eugenio Restrepo,restrepo,colombia,Pedro Antonio Restrepo,jaramillo_colombia,colombia,padre/madre,"Abogado , periodista y militar","Empresario, educador, político, abogado"
+Carlos Holguín Mallarino,caro,colombia,Vicente Holguín,arboleda,colombia,padre/madre,"Político, abogado, militar, escritor, periodista y diplomático",Empresario
+Carlos María de Alvear,alvear,argentina,Diego de Alvear y Ponce de León,ponce_de_león,argentina,padre/madre,Militar,"Militar , geógrafo y político colonial"
+Carlos Palacios y Blanco,palacios_venezuela,venezuela,Feliciano Palacios y Sojo,toro_venezuela,venezuela,padre/madre,Militar,Militar
+Carlos Riesco Errazuriz,errázuriz,chile,Mauricio Riesco Droguett,echaurren,chile,padre/madre,NA,Abogado y Agricultor
+Carmen Castillo (cineasta),allende,chile,Fernando Castillo Velasco,velasco_chile,chile,padre/madre,"Directora de cine , guionista , docente, documentalista y realizadora",Arquitecto y político
+Carmen Castillo (cineasta),allende,chile,Mónica Echeverría,velasco_chile,chile,padre/madre,"Directora de cine , guionista , docente, documentalista y realizadora",Escritora y profesora
+Claudio Matte,matte,chile,Domingo Matte Mesías,bello,chile,padre/madre,"Abogado , educador , político y filántropo",Político y abogado
+Consuelo Lleras Puga,carrizosa,colombia,Alberto Lleras Camargo,camargo,colombia,padre/madre,Política,Periodista
+Consuelo Lleras Puga,carrizosa,colombia,Bertha Puga,camargo,chile,padre/madre,Política,Escritora y política
+Cristián Maquieira,vicuña,chile,Julita Astaburuaga,claro_chile,chile,padre/madre,Diplomático,Socialité
+Cristian Castro,valdés,mexico,Manuel Vial,vial,chile,padre/madre,"Cantante , compositor , cantautor y productor discográfico",NA
+Daniel Domingo de Escalada,escalada,argentina,Mariano Escalada,san_martín,argentina,padre/madre,Militar,Militar
+David de Tezanos Pinto,pinto_chile,chile,Manuel de Tezanos-Pinto,garcía-huidobro,chile,padre/madre,"Abogado , profesor , funcionario","Periodista , youtuber , escritor deportivo, locutor y presentador de televisión"
+Delfina de la Cruz,vial,chile,José María de la Cruz Prieto,cruz_chile,chile,padre/madre,"Primera dama , pianista y compositora",NA
+Delia Matte Pérez,matte,chile,Domingo Matte Mesías,bello,chile,padre/madre,Suffragette,Político y abogado
+Diana Turbay,turbay,colombia,Julio César Turbay,quintero,colombia,padre/madre,Periodista,Político
+Diana Turbay,turbay,colombia,Nydia Quintero,quintero,colombia,padre/madre,Periodista,Lideresa comunitaria y filántropa
+Diego de Angulo Lemos,largacha,colombia,Miguel Wenceslao de Angulo,angulo,colombia,padre/madre,Militar Abogado Estadista,Abogado
+Eduardo Matte,matte,chile,Domingo Matte Mesías,bello,chile,padre/madre,Político y abogado,Político y abogado
+Eduardo Matte,matte,chile,Domingo Matte Mesías,bello,chile,padre/madre,Político y abogado,Político y abogado
+Eduardo Santos Montejo,santos,colombia,Francisco Santos Galvis,calderón_colombia,colombia,padre/madre,Abogado periodista historiador Político,"Abogado, periodista, político, empresario de medios"
+Eliodoro Matte Larraín,matte,chile,Eliodoro Matte Ossa,bunster,chile,padre/madre,Empresario,Empresario
+Elvira Rawson,rawson,argentina,Juan de Dios Rawson,rojo,argentina,padre/madre,"Médica, política, profesora, sufragista",Militar
+Enrique Tola Mendoza,tola,peru,Fernando Tola Cires,de_habich,peru,padre/madre,"Ingeniero civil , docente universitario","Diplomático , político y abogado"
+Ernesto Samper,samper,colombia,Andrés Samper Gnecco,gnecco,colombia,padre/madre,"Diplomático , abogado , economista y político",NA
+Estanislao Vergara,tenorio,colombia,Francisco Xavier Vergara,caicedo,colombia,padre/madre,"abogado , diplomático , político",Abogado Fiscal y Civil
+Esteban Justo García de Zúñiga,garcía_de_zúñiga,argentina,Alonso García de Zúñiga,warnes,argentina,padre/madre,Militar,Militar y comerciante
+Esteban Palacios y Blanco,palacios_venezuela,venezuela,Feliciano Palacios y Sojo,toro_venezuela,venezuela,padre/madre,Político y Diputado a las Cortes de Cádiz,Militar
+Fabio Lozano y Lozano,torrijos,colombia,Fabio Lozano Torrijos,lozano,colombia,padre/madre,"Abogado, escritor, historiador, diplomático","Abogado, escritor, político, diplomático"
+Federica Matta,matta,chile,Roberto Matta,echaurren,chile,padre/madre,NA,"Pintor , escultor , arquitecto , diseñador , grabador , litógrafo , artista gráfico y artista visual"
+Fernando Alessandri,velasco_chile,chile,Arturo Alessandri,morandé,chile,padre/madre,Abogado,Abogado y político
+Fernando Bolívar,palacios_venezuela,venezuela,Juan Vicente Bolívar Palacios,toro_venezuela,venezuela,padre/madre,NA,NA
+Fernando Caro Tanco,azuola,colombia,Julio Caro,caicedo,colombia,padre/madre,Fotógrafo y periodista,"Economista , Banquero"
+Francisco Díez Marina,díez_marina,mexico,José María Díaz Ordaz,díaz_ordaz,mexico,padre/madre,Político,Militar
+Francisco Javier Errázuriz Aldunate,echaurren,chile,Francisco Javier de Errázuriz Madariaga,errázuriz,chile,padre/madre,"Militar , político , comerciante y agricultor","Abogado , comerciante y político"
+Francisco Javier Errázuriz Talavera,errázuriz,chile,Ladislao Errázuriz Pereira,echaurren,chile,padre/madre,"Ingeniero , empresario y político","Abogado , político"
+Francisco Madero Hernández,madero,mexico,Evaristo Madero Elizondo,farías,mexico,padre/madre,NA,"Militar , empresario y político"
+Francisco Morales Bermúdez,morales_bermúdez,peru,Remigio Morales Bermúdez Sánchez,llosa,peru,padre/madre,Político y oficial militar,Militar
+Guillermo Lukšić,fontbona,chile,Andrónico Lukšić Abaroa,luksic,chile,padre/madre,Empresario,Empresario
+Guillermo Palacios Bolívar,palacios_venezuela,venezuela,Juana Bolívar Palacios,toro_venezuela,venezuela,padre/madre,Militar,NA
+Gustavo Santos Montejo,santos,colombia,Francisco Santos Galvis,calderón_colombia,colombia,padre/madre,"Escritor, artista","Abogado, periodista, político, empresario de medios"
+Hernando Zuleta González,holguín,colombia,Hernando Zuleta Holguín,carreño,colombia,padre/madre,"Economista, escritor, educador y académico",Economista
+Ignacio Sanz de Santamaría y Gómez de Salazar,sanz_de_santamaría,colombia,Nicolás Sanz de Santamaría,prieto,chile,padre/madre,alcalde,alcalde capitán
+Ignacio de la Carrera y de las Cuevas,valdés_chile,chile,Ignacio de la Carrera y de las Cuevas,valdivieso,chile,padre/madre,Militar y político,Militar y político
+Inti Briones,mendoza_ladrón_de_guevara,chile,Sybila Arredondo,bustamante,chile,padre/madre,"Director de cine , actor , director de fotografía y productor de cine",Historiadora
+Isabel Sabogal,sabogal,peru,José Sabogal Wiesse,portocarrero_perú,peru,padre/madre,"Escritora , traductora , astróloga",Ingeniero agrónomo y Sociólogo
+Javier Prado y Ugarteche,prado,peru,Mariano Ignacio Prado,málaga,peru,padre/madre,"Historiador , abogado",Militar
+Joaquín Maciel y Lacoizqueta,maciel,argentina,Manuel Maciel y Cabral de Alpoin,alpoim,argentina,padre/madre,"Militar , conquistador , poblador , hacendado , comerciante , funcionario y gobernante colonial","Militar , conquistador , explorador , hacendado , funcionario y gobernante colonial"
+Jorge Alessandri,velasco_chile,chile,Arturo Alessandri,morandé,chile,padre/madre,"Ingeniero civil , emprendedor , político e ingeniero",Abogado y político
+Jorge Batlle,batlle,uruguay,Luis Batlle Berres,saavedra,uruguay,padre/madre,Abogado periodista político,"Periodista , político"
+Jorge Batlle,batlle,uruguay,Matilde Ibáñez Tálice,saavedra,argentina,padre/madre,Abogado periodista político,Política
+Jorge Riesco Errázuriz,errázuriz,chile,Mauricio Riesco Droguett,echaurren,chile,padre/madre,Funcionario y político,Abogado y Agricultor
+Jorge de Tezanos Pinto,pinto_chile,argentina,Manuel de Tezanos-Pinto,garcía-huidobro,chile,padre/madre,"Comerciante , diplomático , militar","Periodista , youtuber , escritor deportivo, locutor y presentador de televisión"
+José de San Martín,san_martín,argentina,Juan de San Martín,balcarce,argentina,padre/madre,Militar y político,"Militar , funcionario y gobernante colonial"
+José de San Martín,san_martín,argentina,Gregoria Matorras,balcarce,argentina,padre/madre,Militar y político,Activista
+José Manuel Marroquín Osorio,ricaurte,colombia,José Manuel Marroquín,nariño,colombia,padre/madre,"Escritor, licenciado en derecho canónico, biógrafo, necrólogo, sacerdote católico, educador",Escritor educador político periodista Estadista
+José Manuel Marroquín Osorio,ricaurte,colombia,Matilde Osorio Ricaurte,nariño,colombia,padre/madre,"Escritor, licenciado en derecho canónico, biógrafo, necrólogo, sacerdote católico, educador",Socialité
+José Miguel Carrera,pinto_chile,chile,Ignacio de la Carrera y de las Cuevas,valdivieso,chile,padre/madre,Político y militar,Militar y político
+José Pablo Leyva,leyva,colombia,Lisandro Leyva Mazuera,durán_colombia,colombia,padre/madre,médico,Militar
+José Pablo Leyva,leyva,colombia,Lisandro Leyva Mazuera,durán_colombia,colombia,padre/madre,médico,Militar
+Grocio Prado,prado,peru,Mariano Ignacio Prado,málaga,peru,padre/madre,Oficial militar,Militar
+José de Mosquera y Prieto,mosquera,colombia,Cristóbal de Mosquera y Silva,arboleda,colombia,padre/madre,NA,NA
+José de Vergara Azcárate,vergara-azcárate,colombia,Francisco Vergara Mayorga,olmos,colombia,padre/madre,"Sacerdote , Filósofo",Contador
+Juan Francisco García de Zúñiga,garcía_de_zúñiga,argentina,Alonso García de Zúñiga,warnes,argentina,padre/madre,Militar,Militar y comerciante
+Juan Manuel de Rosas,ortiz_de_rozas,argentina,León Ortiz de Rozas,garcía-mansilla,argentina,padre/madre,"Estanciero , militar y político",Militar y político
+Juan Manuel de Rosas,ortiz_de_rozas,argentina,Agustina López de Osornio,garcía-mansilla,argentina,padre/madre,"Estanciero , militar y político",Estanciera
+Juana Uribe,pachón,colombia,Maruja Pachón,galán,colombia,padre/madre,"Guionista , productora de televisión",Periodista
+Julia Vial,vial,chile,Patricio Valdés,valdés_chile,chile,padre/madre,Periodista,Juez y abogado
+Julio Vicuña Cifuentes,vicuña,chile,Benjamín Vicuña,aylwin,chile,padre/madre,Escritor y poeta,Actor y empresario
+León Ortiz de Rozas,garcía-mansilla,argentina,Domingo Ortiz de Rozas y Rodillo,ortiz_de_rozas,argentina,padre/madre,Militar y político,Militar
+Leoncio Prado,prado,peru,Mariano Ignacio Prado,málaga,peru,padre/madre,Oficial naval,Militar
+Leoncio Prado,prado,peru,Mariano Ignacio Prado,málaga,peru,padre/madre,Oficial naval,Militar
+Lisandro Leyva Pereira,leyva,colombia,Lisandro Leyva Mazuera,durán_colombia,colombia,padre/madre,"Médico traumatólogo, escritor, ortopedista, educador",Militar
+Lorenzo Marroquín,ricaurte,colombia,José Manuel Marroquín,nariño,colombia,padre/madre,"Escritor, político y diplomático",Escritor educador político periodista Estadista
+Lorenzo Marroquín,ricaurte,colombia,Matilde Osorio Ricaurte,nariño,colombia,padre/madre,"Escritor, político y diplomático",Socialité
+Lucio V. Mansilla,mansilla,argentina,Lucio Norberto Mansilla,garcía-mansilla,argentina,padre/madre,"Periodista , escritor , diplomático y militar",Militar
+Lucio V. Mansilla,mansilla,argentina,Agustina Ortiz de Rozas,garcía-mansilla,argentina,padre/madre,"Periodista , escritor , diplomático y militar",Política
+Luis Batlle Ibáñez,saavedra,uruguay,Matilde Ibáñez Tálice,batlle,argentina,padre/madre,Pianista,Política
+Luis Miró Quesada Garland,miró_quesada,peru,Luis Miró Quesada de la Guerra,cisneros,peru,padre/madre,"arquitecto, periodista","Periodista, político"
+Luis Prieto Vial,vial,chile,Jenaro Prieto,prieto,chile,padre/madre,"Arquitecto , empresario y dirigente gremial","Abogado , periodista y escritor"
+Luis Ulloa,cisneros,peru,Casimiro Ulloa,ulloa,peru,padre/madre,Historiador,"médico , docente , escritor , periodista , político"
+Luis Vicuña Cifuentes,vicuña,chile,Benjamín Vicuña,aylwin,chile,padre/madre,Abogado,Actor y empresario
+Luis Villaveces Santamaría,villaveces,colombia,León Villaveces Ibáñez,urdaneta,colombia,padre/madre,"Empresario, contador público y juguetero",Litógrafo e impresor
+Magdalena Vicuña Aguirre,errázuriz,chile,Francisco Ramón Vicuña Larraín,mackenna,chile,padre/madre,Socialité y filántropa,"Militar , Político"
+Manuel Escalada,san_martín,argentina,Antonio José de Escalada,balcarce,argentina,padre/madre,Militar,Político y Comerciante
+Manuel José Yrarrázaval,concha_chile,chile,José Miguel Irarrázaval Alcalde,mackenna,chile,padre/madre,Abogado y político,Abogado y político
+Manuel Ospina Vásquez,ospina,colombia,Carolina Vásquez de Ospina,lleras,colombia,padre/madre,"Político , terrateniente",Empresaria
+Manuel de Tezanos Pinto (constituyente),pinto_chile,argentina,Manuel de Tezanos-Pinto,garcía-huidobro,chile,padre/madre,"Abogado , político , comerciante","Periodista , youtuber , escritor deportivo, locutor y presentador de televisión"
+Manuela Warnes,warnes,chile,Manuel Antonio José Warnes,garcía_de_zúñiga,colombia,padre/madre,Primera Dama,Alcalde de primer voto del Cabildo de Buenos Aires
+María Eugenia de Escalada,san_martín,argentina,Antonio José de Escalada,balcarce,argentina,padre/madre,Ejércitos patriotas,Político y Comerciante
+María de las Nieves de Escalada,san_martín,argentina,Antonio José de Escalada,balcarce,argentina,padre/madre,Ejércitos patriotas,Político y Comerciante
+Margarita Caro de Holguín,caro,colombia,José Eusebio Caro,azuola,colombia,padre/madre,NA,"Filósofo, poeta, escritor, ideólogo"
+Margarita Caro de Holguín,caro,colombia,José Eusebio Caro,azuola,colombia,padre/madre,NA,"Filósofo, poeta, escritor, ideólogo"
+Mariano Escalada,san_martín,argentina,Antonio José de Escalada,balcarce,argentina,padre/madre,Militar,Político y Comerciante
+Mariano Prado Ugarteche,prado,peru,Mariano Ignacio Prado,málaga,peru,padre/madre,"Empresario , banquero , catedrático universitario , político",Militar
+Martín Gabriel Güemes,güemes,argentina,Martín Güemes y Puch,puch,argentina,padre/madre,Abogado y político,Político y militar
+Marta Cruz-Coke,cruz-coke,chile,Eduardo Cruz-Coke,cruz_chile,chile,padre/madre,"filósofa, profesora, gestora cultural","Diplomático , político y médico"
+Maximiano Errázuriz Valdivieso,errázuriz,chile,Francisco Javier Errázuriz Aldunate,echaurren,chile,padre/madre,Agrimensor,"Militar , político , comerciante y agricultor"
+Mercedes Belzu,gorriti,bolivia,Manuel Isidoro Belzu,zuviría,bolivia,padre/madre,"Escritora , poetisa y traductora",Militar y político
+Mercedes Belzu,gorriti,bolivia,Juana Manuela Gorriti,zuviría,argentina,padre/madre,"Escritora , poetisa y traductora",Escritora y periodista
+Mercedes Marín del Solar,claro_chile,chile,Gaspar Manrique,manrique,colombia,padre/madre,"Educadora, poetisa, profesora",NA
+Mercedes Ortiz de Rozas,ortiz_de_rozas,argentina,León Ortiz de Rozas,garcía-mansilla,argentina,padre/madre,Escritora,Militar y político
+Mercedes Ortiz de Rozas,ortiz_de_rozas,argentina,Agustina López de Osornio,garcía-mansilla,argentina,padre/madre,Escritora,Estanciera
+Miguel Samper Strouss,gnecco,colombia,Ernesto Samper,samper,colombia,padre/madre,"Abogado , político","Diplomático , abogado , economista y político"
+Natalia Toledo Paz,pinal_hidalgo,mexico,Francisco Tudela,osma,peru,padre/madre,Escritora y poeta,Abogado
+Nicanor Restrepo Santamaría,restrepo,colombia,Juan Guillermo Restrepo,jaramillo_colombia,colombia,padre/madre,"Empresario, profesor y líder",Político
+Nicolás Caputo,caputo,argentina,Jorge Claro,claro_chile,chile,padre/madre,Empresario y político,Ingeniero civil y economista
+Nicolás Yerovi,cano,peru,Leonidas Yerovi,yerovi,peru,padre/madre,"Escritor, periodista, poeta, dramaturgo, humorista","Poeta , dramaturgo y periodista"
+Paloma Yerovi Cisneros,yerovi,peru,Nicolás Yerovi,cano,peru,padre/madre,Actriz y Dramaturga,"Escritor, periodista, poeta, dramaturgo, humorista"
+Pedro Nel Ospina,lleras,colombia,Mariano Ospina Rodríguez,ospina,colombia,padre/madre,"Militar , político , ingeniero de minas",Abogado
+Pedro de Cisternas,cortés_de_monroy,chile,María Malo,malo,mexico,padre/madre,NA,Modelo Reina de Belleza
+Prudencio Rosas,ortiz_de_rozas,argentina,León Ortiz de Rozas,garcía-mansilla,argentina,padre/madre,Militar,Militar y político
+Prudencio Rosas,ortiz_de_rozas,argentina,Agustina López de Osornio,garcía-mansilla,argentina,padre/madre,Militar,Estanciera
+Prudencio Rosas,ortiz_de_rozas,argentina,León Ortiz de Rozas,garcía-mansilla,argentina,padre/madre,Militar,Militar y político
+Prudencio Rosas,ortiz_de_rozas,argentina,Agustina López de Osornio,garcía-mansilla,argentina,padre/madre,Militar,Estanciera
+Rafael Urdaneta Vargas,parís,venezuela,Dolores Vargas París,urdaneta,venezuela,padre/madre,Político y militar,NA
+Rafael Urdaneta Vargas,urdaneta,venezuela,Rafael Urdaneta,parís,venezuela,padre/madre,Político y militar,"Militar , político"
+Ramón Subercaseaux Mercado,errázuriz,chile,Francisco Subercaseaux Breton,subercaseaux,chile,padre/madre,"Comerciante , Pintura",Empresario
+Ricardo Matte Pérez,matte,chile,Domingo Matte Mesías,bello,chile,padre/madre,Abogado,Político y abogado
+Roberto Urdaneta,urdaneta,colombia,Roberto Urdaneta,caro,colombia,padre/madre,"Periodista, político, diplomático","Periodista, político, diplomático"
+Rodrigo Lloreda Caicedo,caicedo,colombia,Álvaro Lloreda,cabal,colombia,padre/madre,"Abogado, periodista, empresario",Político y diplomático
+Serapio de Tezanos Pinto,pinto_chile,argentina,Manuel de Tezanos-Pinto,garcía-huidobro,chile,padre/madre,Político y comerciante,"Periodista , youtuber , escritor deportivo, locutor y presentador de televisión"
+Tadea Lozano e Isasi,lozano,colombia,José María Lozano de Peralta,álvarez_del_casal,colombia,padre/madre,NA,Empresario
+Tadea Lozano e Isasi,lozano,colombia,José María Lozano de Peralta,álvarez_del_casal,colombia,padre/madre,NA,Empresario
+Tadeo Vergara,sanz_de_santamaría,colombia,Francisco Xavier Vergara,caicedo,colombia,padre/madre,Profesor y Militar,Abogado Fiscal y Civil
+Teresa Lozano e Isasi,ayala,colombia,José María Lozano de Peralta,álvarez_del_casal,colombia,padre/madre,NA,Empresario
+Teresa Tanco de Herrera,cordovéz,colombia,Mariano Tanco,argáez,colombia,padre/madre,Pianista y compositora,Diplomático
+Teresa Tanco de Herrera,cordovéz,colombia,Mariano Tanco,argáez,colombia,padre/madre,Pianista y compositora,Diplomático
+Victoria Subercaseaux Vicuña,subercaseaux,chile,Ramón Subercaseaux Mercado,errázuriz,chile,padre/madre,NA,"Comerciante , Pintura"
+Victoria Subercaseaux Vicuña,subercaseaux,chile,Magdalena Vicuña Aguirre,errázuriz,chile,padre/madre,NA,Socialité y filántropa
+Amenodoro Urdaneta,parís,colombia,Dolores Vargas París,urdaneta,venezuela,hijo/a,"Escritor, artista, político, educador",NA
+Anacleto Clemente Bolívar,palacios_venezuela,venezuela,María Antonia Bolívar Palacios,toro_venezuela,venezuela,hijo/a,Militar,Propietaria
+Andrés Marroquín Osorio,ricaurte,colombia,José Manuel Marroquín,nariño,colombia,hijo/a,NA,Escritor educador político periodista Estadista
+Andrés Villamizar,pachón,colombia,Maruja Pachón,galán,colombia,hijo/a,Economista,Periodista
+Antonio Subercaseaux,subercaseaux,chile,Ramón Subercaseaux Mercado,errázuriz,chile,hijo/a,Comerciante,"Comerciante , Pintura"
+Arturo Alessandri Rodríguez,velasco_chile,chile,Arturo Alessandri,morandé,chile,hijo/a,Abogado,Abogado y político
+Bolívar Ulloa,ulloa,peru,Luis Ulloa,cisneros,peru,hijo/a,"Diplomático, docente universitario",Historiador
+Carlos Eugenio Restrepo,restrepo,colombia,Pedro Antonio Restrepo,jaramillo_colombia,colombia,hijo/a,"Abogado , periodista y militar","Empresario, educador, político, abogado"
+Carlos Palacios y Blanco,palacios_venezuela,venezuela,Feliciano Palacios y Sojo,toro_venezuela,venezuela,hijo/a,Militar,Militar
+Carlos Villaveces Restrepo,villaveces,colombia,León Villaveces Ibáñez,urdaneta,colombia,hijo/a,NA,Litógrafo e impresor
+Cristián Samper,samper,colombia,Armando Samper,gnecco,colombia,hijo/a,Biólogo y ambientalista,Político
+Delfina de la Cruz,vial,chile,José María de la Cruz Prieto,cruz_chile,chile,hijo/a,"Primera dama , pianista y compositora",NA
+Eduardo Alessandri,velasco_chile,chile,Arturo Alessandri,morandé,chile,hijo/a,Político y abogado,Abogado y político
+Eduardo Matte,matte,chile,Domingo Matte Mesías,bello,chile,hijo/a,Político y abogado,Político y abogado
+Eduardo Santos Montejo,santos,colombia,Francisco Santos Galvis,calderón_colombia,colombia,hijo/a,Abogado periodista historiador Político,"Abogado, periodista, político, empresario de medios"
+Enrique Tola Mendoza,tola,peru,Fernando Tola Cires,de_habich,peru,hijo/a,"Ingeniero civil , docente universitario","Diplomático , político y abogado"
+Esteban Justo García de Zúñiga,garcía_de_zúñiga,argentina,Alonso García de Zúñiga,warnes,argentina,hijo/a,Militar,Militar y comerciante
+Esteban Palacios y Blanco,palacios_venezuela,venezuela,Feliciano Palacios y Sojo,toro_venezuela,venezuela,hijo/a,Político y Diputado a las Cortes de Cádiz,Militar
+Fernando Alessandri,velasco_chile,chile,Arturo Alessandri,morandé,chile,hijo/a,Abogado,Abogado y político
+Fernando Bolívar,palacios_venezuela,venezuela,Juan Vicente Bolívar Palacios,toro_venezuela,venezuela,hijo/a,NA,NA
+Fernando Caro Tanco,azuola,colombia,Julio Caro,caicedo,colombia,hijo/a,Fotógrafo y periodista,"Economista , Banquero"
+Francisco Sanz de Santamaría,galeano,colombia,Nicolás Sanz de Santamaría,prieto,chile,hijo/a,abogado,alcalde capitán
+Gervasio Ortiz de Rozas,ortiz_de_rozas,argentina,Agustina López de Osornio,garcía-mansilla,argentina,hijo/a,Político,Estanciera
+Gervasio Ortiz de Rozas,ortiz_de_rozas,argentina,León Ortiz de Rozas,garcía-mansilla,argentina,hijo/a,Político,Militar y político
+Guillermo Palacios Bolívar,palacios_venezuela,venezuela,Juana Bolívar Palacios,toro_venezuela,venezuela,hijo/a,Militar,NA
+Gustavo Santos Montejo,santos,colombia,Francisco Santos Galvis,calderón_colombia,colombia,hijo/a,"Escritor, artista","Abogado, periodista, político, empresario de medios"
+Ignacio Warnes,garcía_de_zúñiga,argentina,Ana Jacoba García de Zúñiga,warnes,argentina,hijo/a,Militar y político,Ejército Patriota
+Inti Briones,mendoza_ladrón_de_guevara,chile,Sybila Arredondo,bustamante,chile,hijo/a,"Director de cine , actor , director de fotografía y productor de cine",Historiadora
+Isabel Sabogal,sabogal,peru,José Sabogal Wiesse,portocarrero_perú,peru,hijo/a,"Escritora , traductora , astróloga",Ingeniero agrónomo y Sociólogo
+Javier Prado y Ugarteche,prado,peru,Mariano Ignacio Prado,málaga,peru,hijo/a,"Historiador , abogado",Militar
+Joaquín Prieto Hurtado,warnes,chile,Joaquín Prieto Warnes,garcía_de_zúñiga,chile,hijo/a,"Abogado , empresario y político",diputado y empresario
+Joaquín Prieto Warnes,garcía_de_zúñiga,chile,Joaquín Prieto,warnes,chile,hijo/a,diputado y empresario,Militar y político
+Joaquín Prieto Warnes,garcía_de_zúñiga,chile,Manuela Warnes,warnes,chile,hijo/a,diputado y empresario,Primera Dama
+Jorge Alessandri,velasco_chile,chile,Arturo Alessandri,morandé,chile,hijo/a,"Ingeniero civil , emprendedor , político e ingeniero",Abogado y político
+Jorge Batlle,saavedra,uruguay,Matilde Ibáñez Tálice,batlle,argentina,hijo/a,Abogado periodista político,Política
+Jorge Prado Ugarteche,prado,peru,Mariano Ignacio Prado,málaga,peru,hijo/a,Político y diplomático,Militar
+José de San Martín,san_martín,argentina,Juan de San Martín,balcarce,argentina,hijo/a,Militar y político,"Militar , funcionario y gobernante colonial"
+José Manuel Marroquín Osorio,ricaurte,colombia,José Manuel Marroquín,nariño,colombia,hijo/a,"Escritor, licenciado en derecho canónico, biógrafo, necrólogo, sacerdote católico, educador",Escritor educador político periodista Estadista
+José María Echenique y Tristán,tristán_del_pozo,peru,Victoria Tristán de Echenique,echenique,peru,hijo/a,Político,NA
+José Pablo Leyva,leyva,colombia,Lisandro Leyva Mazuera,durán_colombia,colombia,hijo/a,médico,Militar
+Grocio Prado,prado,peru,Mariano Ignacio Prado,málaga,peru,hijo/a,Oficial militar,Militar
+Juan Fermín de San Martín,san_martín,argentina,Gregoria Matorras,balcarce,argentina,hijo/a,Militar,Activista
+Juan Fermín de San Martín,san_martín,argentina,Juan de San Martín,balcarce,argentina,hijo/a,Militar,"Militar , funcionario y gobernante colonial"
+Juan Manuel de Rosas,ortiz_de_rozas,argentina,Agustina López de Osornio,garcía-mansilla,argentina,hijo/a,"Estanciero , militar y político",Estanciera
+Juan Manuel de Rosas,ortiz_de_rozas,argentina,León Ortiz de Rozas,garcía-mansilla,argentina,hijo/a,"Estanciero , militar y político",Militar y político
+Juan Martín Echenique,tristán_del_pozo,peru,Victoria Tristán de Echenique,echenique,peru,hijo/a,Político,NA
+Juan Vicente Bolívar Palacios,toro_venezuela,venezuela,Juan Vicente Bolívar y Ponte,palacios_venezuela,venezuela,hijo/a,NA,NA
+Juan Vicente Bolívar Palacios,toro_venezuela,venezuela,María de la Concepción Palacios y Blanco,palacios_venezuela,venezuela,hijo/a,NA,NA
+Juana Bolívar Palacios,toro_venezuela,venezuela,Juan Vicente Bolívar y Ponte,palacios_venezuela,venezuela,hijo/a,NA,NA
+Juana Bolívar Palacios,toro_venezuela,venezuela,María de la Concepción Palacios y Blanco,palacios_venezuela,venezuela,hijo/a,NA,NA
+Juana Uribe,pachón,colombia,Maruja Pachón,galán,colombia,hijo/a,"Guionista , productora de televisión",Periodista
+Julio Caro,caicedo,colombia,Miguel Antonio Caro,azuola,colombia,hijo/a,"Economista , Banquero","Estadista , humanista ."
+Julio Portocarrero O'Leary,caicedo,colombia,Ricardo Portocarrero Caicedo,soublette,colombia,hijo/a,NA,Comerciante
+Leoncio Prado,prado,peru,Mariano Ignacio Prado,málaga,peru,hijo/a,Oficial naval,Militar
+Leonor Cortés Moctezuma,pizarro,chile,Hernán Cortés,moctezuma,colombia,hijo/a,NA,"Conquistador , explorador y marqués"
+Lisandro Leyva Pereira,leyva,colombia,Lisandro Leyva Mazuera,durán_colombia,colombia,hijo/a,"Médico traumatólogo, escritor, ortopedista, educador",Militar
+Lorenzo Marroquín,ricaurte,colombia,José Manuel Marroquín,nariño,colombia,hijo/a,"Escritor, político y diplomático",Escritor educador político periodista Estadista
+Luciano Urdaneta Vargas,parís,venezuela,Dolores Vargas París,urdaneta,venezuela,hijo/a,Arquitecto e ingeniero,NA
+Luis Batlle Ibáñez,saavedra,uruguay,Matilde Ibáñez Tálice,batlle,argentina,hijo/a,Pianista,Política
+Luis Miró Quesada Garland,miró_quesada,peru,Luis Miró Quesada de la Guerra,cisneros,peru,hijo/a,"arquitecto, periodista","Periodista, político"
+Luis Villaveces Santamaría,villaveces,colombia,León Villaveces Ibáñez,urdaneta,colombia,hijo/a,"Empresario, contador público y juguetero",Litógrafo e impresor
+Manuel Escalada,san_martín,argentina,Antonio José de Escalada,balcarce,argentina,hijo/a,Militar,Político y Comerciante
+Manuel Escalada,san_martín,argentina,Tomasa de la Quintana,balcarce,argentina,hijo/a,Militar,Dama patricia
+Manuel Velarde Dellepiane,diez_canseco,peru,Manuel Velarde Aspíllaga,paz,peru,hijo/a,Político y abogado,"Abogado , político"
+María Antonia Bolívar Palacios,toro_venezuela,venezuela,Juan Vicente Bolívar y Ponte,palacios_venezuela,venezuela,hijo/a,Propietaria,NA
+María Antonia Bolívar Palacios,toro_venezuela,venezuela,María de la Concepción Palacios y Blanco,palacios_venezuela,venezuela,hijo/a,Propietaria,NA
+María Eugenia de Escalada,san_martín,argentina,Antonio José de Escalada,balcarce,argentina,hijo/a,Ejércitos patriotas,Político y Comerciante
+María José Zaldívar,zaldívar,chile,Adolfo Zaldívar,vicuña,chile,hijo/a,Abogada y política,Abogado y político
+María de la Concepción Palacios y Blanco,palacios_venezuela,venezuela,Feliciano Palacios y Sojo,toro_venezuela,venezuela,hijo/a,NA,Militar
+María de las Nieves de Escalada,san_martín,argentina,Antonio José de Escalada,balcarce,argentina,hijo/a,Ejércitos patriotas,Político y Comerciante
+María de las Nieves de Escalada,san_martín,argentina,Tomasa de la Quintana,balcarce,argentina,hijo/a,Ejércitos patriotas,Dama patricia
+Marcelino Uribe Arango,restrepo,colombia,Marcelino Uribe Botero,urdaneta,colombia,hijo/a,"Político , abogado","Político , militar , abogado"
+Margarita Caro de Holguín,caro,colombia,José Eusebio Caro,azuola,colombia,hijo/a,NA,"Filósofo, poeta, escritor, ideólogo"
+Mariano Escalada,san_martín,argentina,Antonio José de Escalada,balcarce,argentina,hijo/a,Militar,Político y Comerciante
+Mariano Escalada,san_martín,argentina,Tomasa de la Quintana,balcarce,argentina,hijo/a,Militar,Dama patricia
+Mariano Prado Ugarteche,prado,peru,Mariano Ignacio Prado,málaga,peru,hijo/a,"Empresario , banquero , catedrático universitario , político",Militar
+Martín José Warnes,garcía_de_zúñiga,argentina,Ana Jacoba García de Zúñiga,warnes,argentina,hijo/a,Militar,Ejército Patriota
+Maximiano Errázuriz Valdivieso,errázuriz,chile,Francisco Javier Errázuriz Aldunate,echaurren,chile,hijo/a,Agrimensor,"Militar , político , comerciante y agricultor"
+Mercedes Ortiz de Rozas,ortiz_de_rozas,argentina,Agustina López de Osornio,garcía-mansilla,argentina,hijo/a,Escritora,Estanciera
+Mercedes Ortiz de Rozas,ortiz_de_rozas,argentina,León Ortiz de Rozas,garcía-mansilla,argentina,hijo/a,Escritora,Militar y político
+Nicanor Restrepo Santamaría,restrepo,colombia,Juan Guillermo Restrepo,jaramillo_colombia,colombia,hijo/a,"Empresario, profesor y líder",Político
+Prudencio Rosas,ortiz_de_rozas,argentina,Agustina López de Osornio,garcía-mansilla,argentina,hijo/a,Militar,Estanciera
+Prudencio Rosas,ortiz_de_rozas,argentina,León Ortiz de Rozas,garcía-mansilla,argentina,hijo/a,Militar,Militar y político
+Rafael Urdaneta Vargas,parís,venezuela,Dolores Vargas París,urdaneta,venezuela,hijo/a,Político y militar,NA
+Ricardo Matte Pérez,matte,chile,Domingo Matte Mesías,bello,chile,hijo/a,Abogado,Político y abogado
+Rodrigo Lloreda Caicedo,caicedo,colombia,Álvaro Lloreda,cabal,colombia,hijo/a,"Abogado, periodista, empresario",Político y diplomático
+Simón Bolívar,bolívar,colombia,Juan Vicente Bolívar y Ponte,palacios_venezuela,venezuela,hijo/a,Militar y político,NA
+Tadea Lozano e Isasi,lozano,colombia,José María Lozano de Peralta,álvarez_del_casal,colombia,hijo/a,NA,Empresario
+Teresa Carreño,carreño,venezuela,Manuel Antonio Carreño,toro_venezuela,venezuela,hijo/a,"Pianista , cantante y compositora","Diplomático , Músico y Pedagogo"
+Teresa Tanco de Herrera,cordovéz,colombia,Mariano Tanco,argáez,colombia,hijo/a,Pianista y compositora,Diplomático
+Victoria Subercaseaux Vicuña,subercaseaux,chile,Ramón Subercaseaux Mercado,errázuriz,chile,hijo/a,NA,"Comerciante , Pintura"
+Alonso García de Zúñiga,warnes,argentina,Juan Francisco García de Zúñiga,garcía_de_zúñiga,argentina,hijo/a,Militar y comerciante,Militar
+Ana Carolina Gaillard,rodríguez_saá,argentina,Felipe Saá,saá,argentina,hijo/a,Política,Militar
+Ana Faustina Sarmiento,sarsfield,argentina,Augusto Belín Sarmiento,sarmiento,argentina,hijo/a,Profesora,"Periodista , diplomático y bibliotecario"
+Ana Faustina Sarmiento,sarsfield,argentina,Eugenia Belín Sarmiento,sarmiento,argentina,hijo/a,Profesora,Pintora
+Ana de Narváez de Caro,caicedo,colombia,Victor Caro,azuola,colombia,hijo/a,NA,"Escritor, poeta, científico, catedrático, filántropo, periodista"
+Andrónico Lukšić Abaroa,luksic,chile,Andrónico Lukšić Craig,fontbona,chile,hijo/a,Empresario,Empresario
+Andrónico Lukšić Abaroa,luksic,chile,Guillermo Lukšić,fontbona,chile,hijo/a,Empresario,Empresario
+Andrónico Lukšić Abaroa,luksic,chile,Jean-Paul Luksić,fontbona,chile,hijo/a,Empresario,"Administrador de empresas , empresario y dirigente gremial"
+Andrónico Lukšić Abaroa,luksic,chile,Familia Lukšić,fontbona,chile,hijo/a,Empresario,NA
+Andrea Llosa,llosa,peru,Cristóbal Quintero,quintero,colombia,hijo/a,Periodista,Navegante y explorador
+Antonio Vodanovic,vodanovic,chile,Carolina Marzán,pinto_chile,chile,hijo/a,"Presentador de televisión , productor de televisión , personalidad de radio y periodista",Actriz y política
+Antonio de Vergara Azcárate,vergara-azcárate,colombia,Francisco Vergara Mayorga,olmos,colombia,hijo/a,"Militar , Político , Caballero y Tesorero",Contador
+Arturo Alessandri,velasco_chile,chile,Hernán Alessandri,morandé,chile,hijo/a,Abogado y político,Médico
+Augusto Leguía,leguía,peru,Juan Leguía Swayne,diez_canseco,peru,hijo/a,"Político , negociante y empresario",Piloto de aviación
+Augusto Leguía,leguía,peru,Enriqueta Leguía,diez_canseco,peru,hijo/a,"Político , negociante y empresario",Poetisa y escritora
+Augusto Leguía,leguía,peru,Joaquín Leguía Gálvez,diez_canseco,peru,hijo/a,"Político , negociante y empresario","Abogado , docente universitario"
+Begoña Basauri,di_girolamo,chile,Paz Undurraga,undurraga,chile,hijo/a,Actriz,Cantante
+Benita Martínez Pastoriza de Sarmiento,sarmiento,argentina,Dominguito Fidel Sarmiento,sarsfield,argentina,hijo/a,NA,Militar
+Bernardo Larraín Vial,vial,chile,María Soledad Tohá,tohá,chile,hijo/a,Abogado y político,Política y profesora
+Blanca Guerra,pinal_hidalgo,mexico,Emiliano Figueroa,vicuña,chile,hijo/a,actriz,Abogado y político
+Carlos Cano (actor),frayssinet,peru,Carolina Cano,cano,peru,hijo/a,Actor y Productor de teatro,Actriz modelo
+Carolina Vásquez de Ospina,lleras,colombia,Manuel Ospina Vásquez,ospina,colombia,hijo/a,Empresaria,"Político , terrateniente"
+Casimiro Ulloa,ulloa,peru,Alberto Ulloa Cisneros,cisneros,peru,hijo/a,"médico , docente , escritor , periodista , político","Periodista , diplomático y político"
+Casimiro Ulloa,ulloa,peru,Luis Ulloa,cisneros,peru,hijo/a,"médico , docente , escritor , periodista , político",Historiador
+Clemente López de Osornio,ortiz_de_rozas,argentina,Agustina López de Osornio,garcía-mansilla,argentina,hijo/a,Militar,Estanciera
+Consuelo Lleras Puga,carrizosa,colombia,Felipe Zuleta Lleras,camargo,colombia,hijo/a,Política,Periodista
+Cristóbal de Mosquera y Silva,mosquera,colombia,José de Mosquera y Prieto,arboleda,colombia,hijo/a,NA,NA
+David Char,char,colombia,Antonio Cafiero,cafiero,argentina,hijo/a,Administrador de empresas,"Contador público , político"
+Delfina de la Cruz,vial,chile,Francisco Antonio Pinto Cruz,cruz_chile,chile,hijo/a,"Primera dama , pianista y compositora","Abogado , político , diplomático"
+Diana Turbay,turbay,colombia,Miguel Uribe Turbay,quintero,colombia,hijo/a,Periodista,Abogado y político
+Domingo Matte Mesías,bello,chile,Claudio Matte,matte,chile,hijo/a,Político y abogado,"Abogado , educador , político y filántropo"
+Domingo Matte Mesías,bello,chile,Delia Matte Pérez,matte,chile,hijo/a,Político y abogado,Suffragette
+Eduardo Vásquez Jaramillo,ospina,colombia,Carolina Vásquez de Ospina,lleras,colombia,hijo/a,"Político , Terrateniente , Banquero",Empresaria
+Eliodoro Matte Ossa,bunster,chile,Eliodoro Matte Larraín,matte,chile,hijo/a,Empresario,Empresario
+Eliodoro Matte Ossa,bunster,chile,Bernardo Matte,matte,chile,hijo/a,Empresario,Ingeniero comercial y empresario
+Emilio Edwards,edwards,chile,Santiago Eder,eder,colombia,hijo/a,"Actor , bailarín",Abogado y empresario
+Encarnación Ezcurra,ortiz_de_rozas,argentina,Pedro Rosas y Belgrano,belgrano,argentina,hijo/a,Política,Militar
+Ernesto Samper,samper,colombia,Miguel Samper Strouss,gnecco,colombia,hijo/a,"Diplomático , abogado , economista y político","Abogado , político"
+Estanislao Vergara,tenorio,colombia,José María Vergara Tenorio,caicedo,colombia,hijo/a,"abogado , diplomático , político","Escritor, Periodista y Diplomático"
+Eustoquio Díaz Vélez,díaz_vélez,argentina,Eustoquio Gómez,gómez_venezuela,venezuela,hijo/a,"militar , estadista y estanciero",Militar
+Eustoquio Díaz Vélez (hijo),díaz_vélez,argentina,Carlos Díaz Vélez,álvarez_de_toledo_argentina,argentina,hijo/a,"estanciero, político",estanciero
+Fabio Lozano y Lozano,torrijos,colombia,Alberto Lozano Simonelli,lozano,colombia,hijo/a,"Abogado, escritor, historiador, diplomático","abogado , historiador, político, rector, escritor, embajador"
+Federico Pinedo (hijo),pinedo,argentina,Enriqueta Pinto,bulnes,chile,hijo/a,"Abogado, economista",Ama de casa
+Felipe Santiago Ignacio de Otálora y del Ribero,otálora,argentina,Felipe Kast,kast,chile,hijo/a,Hacendado,"Economista , político y consultor"
+Fernando Castillo Velasco,velasco_chile,chile,Carmen Calisto,borja,ecuador,hijo/a,Arquitecto y político,Política
+Flor Silvestre,aguilar,mexico,Marcela Robles,robles,peru,hijo/a,Cantante y actriz,Escritora Poeta Cineasta Periodista
+Flora Azcuénaga,azcuénaga,argentina,Francisco Melo,portales,chile,hijo/a,filántropa,Actor y productor
+Francisco Antonio Pinto,cruz_chile,chile,Enriqueta Pinto,bulnes,chile,hijo/a,"Militar , abogado y político",Ama de casa
+Francisco Javier Errázuriz Aldunate,echaurren,chile,Crescente Errázuriz,errázuriz,chile,hijo/a,"Militar , político , comerciante y agricultor",NA
+Francisco Javier Errázuriz Aldunate,errázuriz,chile,Federico Errázuriz Zañartu,echaurren,chile,hijo/a,"Militar , político , comerciante y agricultor",Político y abogado
+Francisco Ramón Vicuña Larraín,mackenna,chile,Magdalena Vicuña Aguirre,errázuriz,chile,hijo/a,"Militar , Político",Socialité y filántropa
+Francisco Subercaseaux Breton,subercaseaux,chile,Ramón Subercaseaux Mercado,errázuriz,chile,hijo/a,Empresario,"Comerciante , Pintura"
+Francisco Vergara Mayorga,olmos,colombia,José de Vergara Azcárate,caicedo,colombia,hijo/a,Contador,"Sacerdote , Filósofo"
+Francisco de Alvear y Gómez de la Cortina,alvear,argentina,José María del Carril,del_carril,argentina,hijo/a,"Empresario , bodeguero y político",Abogado
+Francisco Vergara Mayorga,olmos,colombia,José de Vergara Azcárate,caicedo,colombia,hijo/a,Contador,"Sacerdote , Filósofo"
+Francisco de Vergara y Azcárate,olmos,colombia,Antonio de Vergara Azcárate,vergara-azcárate,colombia,hijo/a,Militar,"Militar , Político , Caballero y Tesorero"
+Guillermo Valencia,valencia,colombia,Guillermo León Valencia,laserna,colombia,hijo/a,"Escritor, político, diplomático","Abogado , político , diplomático"
+Guillermo Valencia,laserna,colombia,Josefina Valencia,valencia,colombia,hijo/a,"Escritor, político, diplomático","Diplomática, política y divulgadora cultural."
+Guillermo Valencia,laserna,colombia,Álvaro Pío Valencia,valencia,colombia,hijo/a,"Escritor, político, diplomático","Abogado, escritor, activista, educador"
+Hernán Cubillos,allamand,chile,Felipe Saá,saá,argentina,hijo/a,"Oficial naval , diplomático y empresario",Militar
+Huayna Cápac,pizarro,chile,Huáscar,tito,peru,hijo/a,NA,NA
+Ignacio Escudero y Valdivieso,eguiguren,peru,Gabriel Soto,díaz_lombardo,mexico,hijo/a,Político,Actor
+Ignacio Ortiz de Zevallos,ortiz_de_zevallos,peru,Manuel Ortiz de Zevallos,del_solar,peru,hijo/a,NA,"Abogado , diplomático y político"
+Ignacio Sanz de Santamaría,sanz_de_santamaría,colombia,José Sanz de Santamaría,galeano,colombia,hijo/a,Empresario,Político y militar
+Ignacio Vargas,parís,colombia,Dolores Vargas París,urdaneta,venezuela,hijo/a,Político,NA
+Ignacio de la Carrera y de las Cuevas,valdivieso,chile,Juan José Neira,acevedo_colombia,colombia,hijo/a,Militar y político,Militar y político
+Ignacio de la Carrera y de las Cuevas,valdivieso,chile,Javiera Carrera,valdés_chile,chile,hijo/a,Militar y político,NA
+Ignacio de la Carrera y de las Cuevas,valdés_chile,chile,Juan José Neira,acevedo_colombia,colombia,hijo/a,Militar y político,Militar y político
+Ignacio de la Carrera y de las Cuevas,valdés_chile,chile,José Miguel Carrera,valdivieso,chile,hijo/a,Militar y político,Político y militar
+Isaac León Frías,tamayo_perú,peru,Matilde León,alarco,peru,hijo/a,"Periodista , Escritor , crítico de cine y profesor universitario",Actriz y guionista
+Jaime Tohá,tohá,chile,Juan José Neira,acevedo_colombia,colombia,hijo/a,Ingeniero forestal y político,Militar y político
+Joaquín Prieto,warnes,chile,Joaquín Prieto Warnes,garcía_de_zúñiga,chile,hijo/a,Militar y político,diputado y empresario
+Joaquín Prieto Concha,warnes,chile,José Joaquín Casas,casas,colombia,hijo/a,"Abogado , empresario y político",Abogado
+José Antonio Íñiguez,vicuña,chile,Pedro Íñiguez Larraín,bello,chile,hijo/a,"Político , escritor , historiador","Político , ingeniero civil"
+José Bernardo Sáenz de Santamaría,galeano,colombia,Nicolás Sanz de Santamaría,prieto,chile,hijo/a,"Militar , Político , Caballero",alcalde capitán
+José Cayetano Carreño,carreño,venezuela,Manuel Antonio Carreño,toro_venezuela,venezuela,hijo/a,Compositor,"Diplomático , Músico y Pedagogo"
+José Elías Moreno,gonzález_de_cosío,mexico,José Elías Ávalos,elías,peru,hijo/a,Actor,Abogado
+José de San Martín,san_martín,argentina,Mercedes Tomasa San Martín y Escalada,balcarce,argentina,hijo/a,Militar y político,Activista
+José Gregorio Gutiérrez,gutiérrez_díaz,colombia,Ignacio Gutiérrez Vergara,caicedo,colombia,hijo/a,Abogado Fiscal y Civil,"Político , periodista , militar"
+Joaquín Prieto,warnes,chile,Joaquín Prieto Warnes,garcía_de_zúñiga,chile,hijo/a,Militar y político,diputado y empresario
+José Joaquín Vicuña,vicuña,chile,Benjamín Vicuña,aylwin,chile,hijo/a,Político,Actor y empresario
+José María Lozano de Peralta,álvarez_del_casal,colombia,Teresa Lozano e Isasi,ayala,colombia,hijo/a,Empresario,NA
+José Miguel Carrera,valdivieso,chile,José Miguel Carrera Fontecilla,pinto_chile,chile,hijo/a,Político y militar,Político y militar
+José Miguel Irarrázaval Alcalde,mackenna,chile,Manuel José Yrarrázaval,concha_chile,chile,hijo/a,Abogado y político,Abogado y político
+José Sanz de Santamaría,galeano,colombia,Mariano Sanz de Santamaría,sanz_de_santamaría,colombia,hijo/a,Político y militar,Arquitecto
+José Vicente Ortega y Mesa,nariño,colombia,José María Ortega y Nariño,álvarez_del_casal,colombia,hijo/a,Político y militar,Político y militar
+José de Mosquera y Prieto,mosquera,colombia,Joaquín de Mosquera,arboleda,colombia,hijo/a,NA,Político
+José de Mosquera y Prieto,mosquera,colombia,Marcelino de Mosquera,arboleda,colombia,hijo/a,NA,Empresario
+José de Vergara Azcárate,vergara-azcárate,colombia,Francisco Vergara Azcárate,caicedo,colombia,hijo/a,"Sacerdote , Filósofo",Abogado
+Juan Manuel Abal Medina,abal_medina,argentina,Juan Manuel Galán,galán,colombia,hijo/a,"Periodista , político y abogado",Internacionalista Politólogo
+Juan Manuel de Rosas,ortiz_de_rozas,argentina,Pedro Rosas y Belgrano,belgrano,argentina,hijo/a,"Estanciero , militar y político",Militar
+Juan de Bolívar y Martínez de Villegas,bolívar,venezuela,Juan Vicente Bolívar y Ponte,palacios_venezuela,venezuela,hijo/a,Político,NA
+Juan de Dios Rawson,rojo,argentina,Elvira Rawson,rawson,argentina,hijo/a,Militar,"Médica, política, profesora, sufragista"
+Julita Astaburuaga,claro_chile,chile,Cristián Maquieira,vicuña,chile,hijo/a,Socialité,Diplomático
+Julita Astaburuaga,claro_chile,chile,Diego Mazuera,mazuera,colombia,hijo/a,Socialité,Pintor
+Justa Masías y Llosa,llosa,peru,Francisco Morales Bermúdez,morales_bermúdez,peru,hijo/a,NA,Político y oficial militar
+Ladislao Errázuriz Pereira,echaurren,chile,Francisco Javier Errázuriz Talavera,errázuriz,chile,hijo/a,"Abogado , político","Ingeniero , empresario y político"
+Leonidas Yerovi (hijo),yerovi,peru,Nicolás Yerovi,cano,peru,hijo/a,Escritor y periodista,"Escritor, periodista, poeta, dramaturgo, humorista"
+Luisa Garmendia,cruz_chile,argentina,Enriqueta Pinto,bulnes,chile,hijo/a,Ama de casa,Ama de casa
+Luisa Garmendia,pinto_chile,argentina,Enriqueta Pinto,bulnes,chile,hijo/a,Ama de casa,Ama de casa
+Luisa Garmendia,pinto_chile,argentina,Aníbal Pinto,cruz_chile,chile,hijo/a,Ama de casa,Abogado y político
+Magdalena Vicuña Aguirre,errázuriz,chile,Victoria Subercaseaux Vicuña,subercaseaux,chile,hijo/a,Socialité y filántropa,NA
+Magdalena Vicuña Aguirre,errázuriz,chile,Antonio Subercaseaux,subercaseaux,chile,hijo/a,Socialité y filántropa,Comerciante
+Manuel Antonio José Warnes,garcía_de_zúñiga,colombia,Manuela Warnes,warnes,chile,hijo/a,Alcalde de primer voto del Cabildo de Buenos Aires,Primera Dama
+Manuel Antonio José Warnes,garcía_de_zúñiga,colombia,Martina Warnes,warnes,argentina,hijo/a,Alcalde de primer voto del Cabildo de Buenos Aires,NA
+Manuel José Yrarrázaval,concha_chile,chile,Fernando Irarrázaval Mackenna,mackenna,chile,hijo/a,Abogado y político,abogado y político
+Manuel José Yrarrázaval,concha_chile,chile,Arturo Yrarrázaval Correa,mackenna,chile,hijo/a,Abogado y político,Abogado y político
+Manuel José Yrarrázaval,mackenna,chile,Manuel Yrarrázaval,concha_chile,chile,hijo/a,Abogado y político,Político
+Manuel Pardo Ribadeneira,pardo,peru,Felipe Pardo y Aliaga,lavalle,peru,hijo/a,"Magistrado, funcionario público",Poeta dramaturgo periodista abogado político
+Manuel de Tezanos Pinto (político),pinto_chile,argentina,Manuelita,eder,colombia,hijo/a,Comerciante y político,NA
+Manuela Warnes,warnes,chile,Joaquín Prieto Warnes,garcía_de_zúñiga,chile,hijo/a,Primera Dama,diputado y empresario
+María de la Concepción Palacios y Blanco,palacios_venezuela,venezuela,Simón Bolívar,bolívar,colombia,hijo/a,NA,Militar y político
+Mariano Escalada,san_martín,argentina,Daniel Domingo de Escalada,escalada,argentina,hijo/a,Militar,Militar
+Mariano Ignacio Prado,prado,peru,Manuel Prado Ugarteche,málaga,peru,hijo/a,Militar,Ingeniero civil y político
+Mariano de la Llosa y Vizcarra,llosa,peru,María Mercedes Vial,vial,chile,hijo/a,"abogado , magistrado , político",Escritora
+Matías Ramos Mejía,segurola,argentina,Francisco Melo,portales,chile,hijo/a,Militar,Actor y productor
+Matilde Ladrón de Guevara,mendoza_ladrón_de_guevara,chile,Sybila Arredondo,bustamante,chile,hijo/a,"Escritora , periodista , poetisa y novelista",Historiadora
+Melitón Pedraza,pedraza,argentina,Andrés Pedraza,billinghurst,argentina,hijo/a,Empresario,piloto
+Nicolás Yerovi,cano,peru,Paloma Yerovi Cisneros,yerovi,peru,hijo/a,"Escritor, periodista, poeta, dramaturgo, humorista",Actriz y Dramaturga
+Pío Tristán,tristán_del_pozo,peru,Victoria Tristán de Echenique,echenique,peru,hijo/a,Político y militar,NA
+Pablo Mackenna,mackenna,chile,Rosa Markmann,videla,chile,hijo/a,Presentador de televisión y escritor,Política y suffragette
+Paco Malgesto,aguilar,mexico,Marcela Robles,robles,peru,hijo/a,Locutor y animador de televisión,Escritora Poeta Cineasta Periodista
+Patricia Bullrich,bullrich,argentina,Francisco Leiva,leyva,colombia,hijo/a,Política,Dramaturgo y escritor
+Pedro Andrés García,garcía_de_sobrecasa,argentina,Manuel José García,garcía-mansilla,argentina,hijo/a,"Militar , ingeniero y geógrafo","Diplomático , político y militar"
+Pedro Nel Ospina,lleras,colombia,Manuel Ospina Vásquez,ospina,colombia,hijo/a,"Militar , político , ingeniero de minas","Político , terrateniente"
+Pedro Nel Ospina,ospina,colombia,Luis Ospina Vásquez,lleras,colombia,hijo/a,"Militar , político , ingeniero de minas",Historiador
+Rafael Bielsa (jurista),bielsa,argentina,Rafael Pardo,pardo,colombia,hijo/a,Abogado Jurista,Economista
+Rafael Bielsa (jurista),bielsa,argentina,Ana María Groot,groot,colombia,hijo/a,Abogado Jurista,NA
+Rafael Santa Cruz (torero),santa_cruz,peru,Rafael Zea,zea,colombia,hijo/a,torero,Actor
+Remigio Morales Bermúdez Sánchez,llosa,peru,Francisco Morales Bermúdez,morales_bermúdez,peru,hijo/a,Militar,Político y oficial militar
+Rodrigo Lloreda Caicedo,caicedo,colombia,Francisco José Lloreda,cabal,colombia,hijo/a,"Abogado, periodista, empresario","Escritor , diplomático , político y abogado"
+Rosa Rodríguez (primera dama),morandé,chile,Arturo Alessandri Rodríguez,velasco_chile,chile,hijo/a,Primera dama,Abogado
+Rosa Rodríguez (primera dama),morandé,chile,Jorge Alessandri,velasco_chile,chile,hijo/a,Primera dama,"Ingeniero civil , emprendedor , político e ingeniero"
+Rosa Rodríguez (primera dama),morandé,chile,Fernando Alessandri,velasco_chile,chile,hijo/a,Primera dama,Abogado
+Rosa Rodríguez (primera dama),morandé,chile,Eduardo Alessandri,velasco_chile,chile,hijo/a,Primera dama,Político y abogado
+Rosa Rodríguez (primera dama),velasco_chile,chile,Hernán Alessandri,morandé,chile,hijo/a,Primera dama,Médico
+Segundo Roca,paz,argentina,Alejandro Roca Rey,roca_y_rodríguez,peru,hijo/a,Militar,"Actor , director de cine y músico"
+Tomasa de la Quintana,escalada,argentina,Manuel Escalada,san_martín,argentina,hijo/a,Dama patricia,Militar
+Tomasa de la Quintana,escalada,argentina,María de las Nieves de Escalada,san_martín,argentina,hijo/a,Dama patricia,Ejércitos patriotas
+Tomasa de la Quintana,escalada,argentina,María de los Remedios de Escalada,balcarce,argentina,hijo/a,Dama patricia,Ejército Patriota
+Tomasa de la Quintana,escalada,argentina,Mariano Escalada,san_martín,argentina,hijo/a,Dama patricia,Militar
+Tomasa de la Quintana,san_martín,argentina,María de los Remedios de Escalada,balcarce,argentina,hijo/a,Dama patricia,Ejército Patriota
+Vicente Holguín,arboleda,colombia,Carlos Holguín Mallarino,caro,colombia,hijo/a,Empresario,"Político, abogado, militar, escritor, periodista y diplomático"
+Alberto Villamizar,pachón,colombia,Maruja Pachón,galán,colombia,conyuge,Diplomático y Pana,Periodista
+Ana de Narváez de Caro,caicedo,colombia,Miguel Antonio Caro,azuola,colombia,conyuge,NA,"Estadista , humanista ."
+Andrea Casiraghi,santo_domingo,colombia,Tatiana Santo Domingo,pumarejo,colombia,conyuge,NA,Empresaria
+Augusto Leguía,leguía,peru,Julia Swayne y Mariátegui,diez_canseco,peru,conyuge,"Político , negociante y empresario",Política
+Baltasar Unquera,garcía_de_zúñiga,uruguay,Martina Warnes,warnes,argentina,conyuge,Militar,NA
+Carlos Cano (actor),frayssinet,peru,Patricia Frayssinet,cano,peru,conyuge,Actor y Productor de teatro,"Actriz , directora de teatro y profesora de actuación"
+Cecilia Morel,piñera,chile,Sebastián Piñera,echenique,chile,conyuge,Política y orientadora familiar,"Político , empresario , economista , inversor, consultor , ingeniero , dirigente deportivo y emprendedor"
+Diana Turbay,turbay,colombia,Miguel Uribe Londoño,quintero,colombia,conyuge,Periodista,"Abogado , economista , periodista , empresario y político"
+Diego José Benavente,valdivieso,chile,Mercedes Fontecilla,pinto_chile,chile,conyuge,Político,Política
+Dolores Vargas París,urdaneta,venezuela,Rafael Urdaneta,parís,venezuela,conyuge,NA,"Militar , político"
+Isabel de Yugoslavia,ulloa,peru,Manuel Ulloa Elías,cisneros,peru,conyuge,NA,Abogado
+Jaime Bayly,orbegoso,peru,Silvia Núñez del Arco,santiago_concha,peru,conyuge,"Escritor , presentador , periodista y youtuber",Escritora
+Jorge Teillier,mendoza_ladrón_de_guevara,chile,Sybila Arredondo,bustamante,chile,conyuge,Poeta,Historiadora
+José Miguel Carrera,valdivieso,chile,Mercedes Fontecilla,pinto_chile,chile,conyuge,Político y militar,Política
+José Rufino Echenique,tristán_del_pozo,peru,Victoria Tristán de Echenique,echenique,peru,conyuge,Militar y político,NA
+Juan de Tolosa,moctezuma,mexico,Leonor Cortés Moctezuma,pizarro,chile,conyuge,Explorador,NA
+Luis Batlle Berres,saavedra,uruguay,Matilde Ibáñez Tálice,batlle,argentina,conyuge,"Periodista , político",Política
+Luisa Garmendia,pinto_chile,argentina,Francisco Antonio Pinto,cruz_chile,chile,conyuge,Ama de casa,"Militar , abogado y político"
+Magdalena de Guzmán,pizarro,chile,Martín Cortés Zúñiga,moctezuma,mexico,conyuge,NA,Explorador
+Manuel Antonio José Warnes,garcía_de_zúñiga,colombia,Ana Jacoba García de Zúñiga,warnes,argentina,conyuge,Alcalde de primer voto del Cabildo de Buenos Aires,Ejército Patriota
+María Teresa del Toro,palacios_venezuela,venezuela,Simón Bolívar,bolívar,colombia,conyuge,NA,Militar y político
+Mariah Carey,sodi,mexico,Tommy Mottola,díaz_ordaz,mexico,conyuge,Cantante Compositora Productora discográfica Actriz,"Empresario , productor discográfico , productor de televisión"
+Raquel Señoret,garcía-huidobro,chile,Vicente Huidobro,concha_chile,chile,conyuge,Escritora y poetisa,"Poeta , escritor , periodista y dramaturgo"
+Tadea Lozano e Isasi,lozano,colombia,Jorge Tadeo Lozano,álvarez_del_casal,colombia,conyuge,NA,"Escritor, político, periodista, científico"
+Tomasa de la Quintana,san_martín,argentina,Antonio José de Escalada,balcarce,argentina,conyuge,Dama patricia,Político y Comerciante
+Ángel Prieto Vial,vial,chile,José María de la Cruz Prieto,cruz_chile,chile,conyuge,Militar,NA
+Adolfo Zaldívar,zaldívar,chile,Ana María Palma,vicuña,chile,conyuge,Abogado y político,Actriz
+Adriana Arboleda,arboleda,colombia,Harold Eder,caicedo,colombia,conyuge,"Presentadora de televisión , Modelo",Empresario
+Agustín Edwards Eastman,edwards,chile,María Luisa Fernández,concha_chile,chile,conyuge,"Periodista , editor y empresario",escritora
+Agustina Paz de Roca,roca,argentina,Segundo Roca,paz,argentina,conyuge,Comerciante,Militar
+Alberto Baillères González,baillères,mexico,Teresa Hales,hales,chile,conyuge,"empresario, economista y ganadero",Actriz
+Alberto Benegas Lynch (padre),benegas,argentina,Sara del Campo,montt,chile,conyuge,Economista e intelectual,Ama de casa
+Alejandro Eder,eder,colombia,Taliana Vargas,caicedo,colombia,conyuge,Político,"Modelo , actriz , presentadora de televisión y activista ."
+Alejandro García-Huidobro,garcía-huidobro,chile,María Eugenia Rojas,rojas,colombia,conyuge,Político,"Político, militar, líder social"
+Alejandro Miró Quesada Garland,cisneros,peru,Adriana Cisneros,cisneros_venezuela,venezuela,conyuge,Periodista,Empresario Inversionista CEO en Organización Cisneros
+Alfredo del Mazo González,del_mazo,mexico,María del Carmen Ureta,ureta,peru,conyuge,Político y diplomático,actriz
+Alonso Hernández Portocarrero,pizarro,colombia,La Malinche,moctezuma,mexico,conyuge,Militar y Regidor,"Intérprete , traductora y asesora"
+Amelia Solar de Claro,claro_chile,chile,José Luis Cantilo,ortiz_basualdo,argentina,conyuge,"Poetisa , dramaturga y ensayista",Abogado
+Aníbal Fernández de Soto,camacho,colombia,Juan Saá,saá,argentina,conyuge,político y abogado,Militar
+Andrónico Lukšić Abaroa,luksic,chile,Familia Lukšić,fontbona,chile,conyuge,Empresario,NA
+Antonio Aguilar hijo,aguilar,mexico,Susana Correa,borrero,colombia,conyuge,"Cantante , actor",Ingeniera Industrial y Política
+Arturo Alessandri,velasco_chile,chile,Rosa Rodríguez (primera dama),morandé,chile,conyuge,Abogado y político,Primera dama
+Benita Martínez Pastoriza de Sarmiento,sarmiento,argentina,Domingo Faustino Sarmiento,sarsfield,argentina,conyuge,NA,"Docente , político , escritor"
+Benjamín Vicuña Mackenna,mackenna,chile,Victoria Subercaseaux Vicuña,subercaseaux,chile,conyuge,"Abogado , escritor y político",NA
+Carlos Concha Subercaseaux,concha_chile,chile,Mercedes Hurtado de Álvarez,álvarez_del_casal,colombia,conyuge,Abogado y político,Escritora y poetisa
+Carlos Eugenio Lavín,garcía-huidobro,chile,Familia Chadwick,chadwick,chile,conyuge,Ingeniero comercial y empresario,NA
+Carlos Malpica,silva_santisteban,peru,Teresa Marinovic,vial,chile,conyuge,Ingeniero agrónomo y Político,Columnista y docente universitario
+Carlos Miró-Quesada Laos,miró_quesada,peru,Carlos Moreyra y Paz Soldán,moreyra,peru,conyuge,Periodista y Diplomático,"Ingeniero agrónomo , empresario y político"
+Carlos Ortiz de Rozas,ortiz_de_rozas,argentina,María del Carmen Ureta,ureta,peru,conyuge,Abogado y diplomático,actriz
+Carlos Pellegrini,pellegrini,argentina,Carolina Cano,cano,peru,conyuge,Abogado,Actriz modelo
+Carmela Mackenna,mackenna,chile,Enrique Cueto,cueto,chile,conyuge,"Compositora , profesora de música y pianista",Ingeniero comercial y Empresario
+Carolina Vásquez de Ospina,ospina,colombia,Pedro Nel Ospina,lleras,colombia,conyuge,Empresaria,"Militar , político , ingeniero de minas"
+Catalina Edwards,edwards,chile,Juan Pablo Llinás,llinás,colombia,conyuge,Periodista,"Médico , científico y político"
+Cristina Girardi,lavín,chile,Francisco Javier Vergara,vergara-azcárate,colombia,conyuge,Antropóloga y política,Geógrafo e historiador
+Cristina Girardi,lavín,chile,Francisco Javier Vergara,vergara-azcárate,colombia,conyuge,Antropóloga y política,Geógrafo e historiador
+Daniel García-Mansilla,garcía-mansilla,argentina,Matilde Rodríguez Larreta,rodríguez_larreta,uruguay,conyuge,"Doctor en Leyes, diplomático, poeta, escritor",Política
+Delfina de la Cruz,vial,chile,Aníbal Pinto,cruz_chile,chile,conyuge,"Primera dama , pianista y compositora",Abogado y político
+Denisse Dibós,alarco,peru,Javier Ortiz de Zevallos,del_solar,peru,conyuge,"Actriz , productora , directora , bailarina",Abogado
+Eduardo López Rivas,urdaneta,venezuela,Celia Bustamante,bustamante,peru,conyuge,"Editor , periodista , escritor",Gestora cultural
+Eduardo Umaña Mendoza,umaña,colombia,Patricio Fernández,chadwick,chile,conyuge,"Intelectual , profesor universitario y abogado","Periodista , analista político y escritor"
+Elena Largacha Ortiz,holguín,colombia,Julián Trujillo Largacha,largacha,colombia,conyuge,"pintora, dibujante, retratista","Abogado , militar , político"
+Ernesto Alayza Grundy,alayza,peru,Nicanor Mujica Álvarez-Calderón,álvarez_calderón,peru,conyuge,Abogado,Político
+Ernesto Fontaine,fontaine,chile,María Eugenia Cordovez,febres-cordero,ecuador,conyuge,"Economista , académico, investigador y consultor",Política
+Ernesto Samper,samper,colombia,Jacquin Strouss Lucena,gnecco,colombia,conyuge,"Diplomático , abogado , economista y político",Economista e historiadora
+Esteban Bullrich,alvear,argentina,María Eugenia Hirmas,bitar,chile,conyuge,Político,Socióloga y política
+Francisco Graña Reyes,graña,peru,Enriqueta Garland Higginson,málaga,peru,conyuge,"Médico , catedrático universitario , empresario y político",NA
+Francisco José Madero González,madero,mexico,María Luisa Fernández,concha_chile,chile,conyuge,Político,escritora
+Francisco Xavier Vergara,caicedo,colombia,Mariano Sanz de Santamaría,sanz_de_santamaría,colombia,conyuge,Abogado Fiscal y Civil,Arquitecto
+Francisco Xavier Vergara,caicedo,colombia,Mariano Sanz de Santamaría,sanz_de_santamaría,colombia,conyuge,Abogado Fiscal y Civil,Arquitecto
+Francisco Xavier Vergara,caicedo,colombia,Mariano Sanz de Santamaría,sanz_de_santamaría,colombia,conyuge,Abogado Fiscal y Civil,Arquitecto
+Guadalupe Pineda,aguilar,mexico,Dardo Rocha,rocha,argentina,conyuge,Cantante,Abogado Militar Periodista
+Gustavo Madero Muñoz,madero,mexico,María Eugenia Hirmas,bitar,chile,conyuge,Empresario,Socióloga y política
+Harold Bedoya,pizarro_colombia,colombia,María Cristina Arango,borrero,colombia,conyuge,"Militar , Político",Política
+Helena Groot de Restrepo,groot,colombia,José Manuel Restrepo Vélez,restrepo,colombia,conyuge,NA,"Biólogo , político , abogado y botánico"
+Hugo Vaca Narvaja,vaca_narvaja,argentina,Susana Correa,borrero,colombia,conyuge,Abogado,Ingeniera Industrial y Política
+Isaac Garza Garza,garza_sada,mexico,Consuelo Saavedra,velasco_chile,chile,conyuge,empresario,Periodista
+Jorge Astaburuaga Lyon,claro_chile,chile,Elena Larraín Valdés,valdés_chile,chile,conyuge,"político, corredor de bolsa",Activista política
+Jorge Batlle,batlle,uruguay,Mercedes Menafra,saavedra,uruguay,conyuge,Abogado periodista político,Industrial textil y empresaria
+Jorge Pinto Rodríguez,pinto_chile,chile,Julio Caro,caicedo,colombia,conyuge,"Historiador , escritor de no ficción y profesor universitario","Economista , Banquero"
+José Ballivián,ballivián,bolivia,Mercedes Fontecilla,pinto_chile,chile,conyuge,Militar y político,Política
+José de San Martín,san_martín,argentina,María de los Remedios de Escalada,balcarce,argentina,conyuge,Militar y político,Ejército Patriota
+José Gregorio Gutiérrez,gutiérrez_díaz,colombia,Antonia Vergara y Sanz de Santamaría,caicedo,colombia,conyuge,Abogado Fiscal y Civil,NA
+José Manuel Astigueta (padre),astigueta,argentina,María Luisa Dehesa,gómez_farías,mexico,conyuge,Abogado,Arquitecta
+José Pardo y Aliaga,pardo,peru,María Teresa Londoño,herrera,colombia,conyuge,"Diplomático , poeta",NA
+Juan Carlos Alsogaray,alsogaray,argentina,Cecilia Navia,navia,colombia,conyuge,Sociólogo y activista político,Actriz
+Juan Gómez Martínez,gómez_martínez,colombia,María Teresa Campos,velasco_chile,chile,conyuge,Político y Diplomático,"Presentadora de televisión , periodista , escritora , locutora , política y directora de televisión"
+Juan Gonzalo Restrepo Londoño,jaramillo_colombia,colombia,María Victoria Ovalle,errázuriz,chile,conyuge,"Abogado , empresario , político",Empresaria y política
+Juan de San Martín,san_martín,argentina,Gregoria Matorras,balcarce,argentina,conyuge,"Militar , funcionario y gobernante colonial",Activista
+Julián de Leyva,leyva,argentina,Tomasa de la Quintana,escalada,argentina,conyuge,Síndico procurador general del Cabildo de Buenos Aires.,Dama patricia
+Luis Calderón Vega,calderón_hinojosa,mexico,María del Carmen Sotomayor,errázuriz,chile,conyuge,"político , escritor , profesor",Política y primera dama
+Luis Caycedo y Flórez,caicedo,peru,María Josefa Sanz de Santamaría,sanz_de_santamaría,colombia,conyuge,"Militar, hacendado y político",NA
+Luis Solari,solari,peru,María del Carmen Sotomayor,errázuriz,chile,conyuge,Médico,Política y primera dama
+Magdalena de Guzmán,pizarro,chile,Marquesado del Valle de Oaxaca,cortés_de_monroy,chile,conyuge,NA,NA
+Manuel Carvajal Sinisterra,borrero,colombia,María Teresa del Toro,toro_venezuela,venezuela,conyuge,Empresario,NA
+Manuel González Olaechea,gonzález-olaechea,peru,María Eugenia Rojas,rojas,colombia,conyuge,"Abogado , docente universitario y periodista","Político, militar, líder social"
+Manuel Odriozola Romero,odriozola,peru,Óscar Benavides,benavides_perú,peru,conyuge,"Médico , catedrático universitario y político",Militar y político
+Manuel de Tezanos Pinto (político),pinto_chile,argentina,Teófilo Sánchez de Bustamante,sánchez_de_bustamante,argentina,conyuge,Comerciante y político,Político
+María José Bello,walker_chile,chile,Mauricio Macri,awada,argentina,conyuge,Actriz y Locutora,"Empresario , político e ingeniero civil"
+María Teresa del Toro,toro_venezuela,venezuela,Simón Bolívar,bolívar,colombia,conyuge,NA,Militar y político
+Mario Ruiz Massieu,ruiz-massieu,mexico,María Eugenia Bielsa,bielsa,argentina,conyuge,Abogado,"Arquitecta , docente"
+Marta Cruz-Coke,cruz-coke,chile,Gustavo Lagos Matus,cruz_chile,chile,conyuge,"filósofa, profesora, gestora cultural","Abogado , politólogo , académico y político"
+Mercedes Marín del Solar,claro_chile,chile,José María del Carril,del_carril,argentina,conyuge,"Educadora, poetisa, profesora",Abogado
+Mercedes Ortiz de Rozas,ortiz_de_rozas,argentina,Miguel Piñera,echenique,chile,conyuge,Escritora,"Cantante , emprendedor , compositor de canciones y guitarrista"
+Miguel Allamand,allamand,chile,Margarita Zavala,calderón_hinojosa,mexico,conyuge,"Ingeniero civil , empresario y político","Abogada , profesora , política"
+Misi,samper,colombia,Arturo Char,char,colombia,conyuge,"Directora de teatro, Directora de escuela, Profesora de música y Compositora.","Administrador de empresas , político, cantante"
+Pamela Vértiz,vértiz,peru,Alfredo Salazar Southwell,salazar_y_meléndez,peru,conyuge,Periodista y presentadora de televisión,Piloto de aviación
+Pedro Bordaberry,bordaberry,uruguay,María José Prieto,di_girolamo,chile,conyuge,"Abogado , profesor , político",Actriz
+Pedro Nel Ospina,ospina,colombia,Carolina Vásquez de Ospina,lleras,colombia,conyuge,"Militar , político , ingeniero de minas",Empresaria
+Pedro Nolasco Cruz Vergara,cruz_chile,chile,Susana Correa,borrero,colombia,conyuge,"Político , escritor , abogado y crítico literario",Ingeniera Industrial y Política
+Roberto Álvarez Calderón Rey,álvarez_calderón,peru,Óscar Benavides,benavides_perú,peru,conyuge,periodista,Militar y político
+Roberto Angelini,angelini,chile,Ana María Gazmuri,vicuña,chile,conyuge,Ingeniero civil y empresario,Actriz y política
+Roberto Urdaneta,urdaneta,colombia,Clemencia Holguín de Urdaneta,caro,colombia,conyuge,"Periodista, político, diplomático",Socialité
+Rodrigo Lloreda Caicedo,caicedo,colombia,María Eugenia Piedrahíta,cabal,colombia,conyuge,"Abogado, periodista, empresario",Cantante
+Rosa Rodríguez (primera dama),velasco_chile,chile,Arturo Alessandri,morandé,chile,conyuge,Primera dama,Abogado y político
+Salvador Camacho Roldán,camacho,colombia,María del Carmen Ureta,ureta,peru,conyuge,Abogado,actriz
+Tadea Lozano e Isasi,lozano,colombia,Jorge Tadeo Lozano,álvarez_del_casal,colombia,conyuge,NA,"Escritor, político, periodista, científico"
+Tomasa de la Quintana,escalada,argentina,Antonio José de Escalada,balcarce,argentina,conyuge,Dama patricia,Político y Comerciante
+Vanessa Ciangherotti,soler,mexico,Roberto Rocca,rocca,argentina,conyuge,"Actriz , actriz de televisión, modelo","Empresario , filántropo"
+Vicente Augier,augier,argentina,Francisco de Acuña,acuña_argentina,argentina,conyuge,militar,escultor
+Vicente Saadi,saadi,argentina,Alicia Cañas,zañartu,chile,conyuge,"Abogado, periodista y político","Política , suffragette y alcaldesa"
+Alonso Hernández Portocarrero,pizarro,colombia,La Malinche,moctezuma,mexico,pareja,Militar y Regidor,"Intérprete , traductora y asesora"
+Joaquín de Orbegoso,frayssinet,peru,Carolina Cano,cano,peru,pareja,Actor y actor de televisión,Actriz modelo
+Juan de San Martín,san_martín,argentina,Gregoria Matorras,balcarce,argentina,pareja,"Militar , funcionario y gobernante colonial",Activista
+Manuela Sáenz,palacios_venezuela,ecuador,Simón Bolívar,bolívar,colombia,pareja,Militar,Militar y político
+Nicolás Cabré,vicuña,argentina,China Suárez,aylwin,argentina,pareja,Actor,Actriz cantante
+Nicole Faverón,cayo,peru,Miguel Arce,acuña,peru,pareja,"Modelo, psicóloga clínica y exreina de belleza","Actor , modelo y personalidad televisiva"
+Adriana Zubiate,neyra,peru,Gonzalo Revoredo,elías,peru,pareja,"Modelo , presentadora de televisión y baloncestista",Actor
+Agustina Paz de Roca,roca,argentina,Segundo Roca,paz,argentina,pareja,Comerciante,Militar
+Andrés Velasco (actor),velasco_chile,chile,Sigrid Alegría,portales,chile,pareja,Actor,"Actriz , cantante , folclorista"
+Antonia Zegers,matte,chile,Patricio Fernández,chadwick,chile,pareja,Actriz,"Periodista , analista político y escritor"
+Camila Hirane,vicuña,chile,Patricio Fernández,chadwick,chile,pareja,Actriz,"Periodista , analista político y escritor"
+Feliza Bursztyn,leyva,colombia,Jorge Gaitán Durán,durán_colombia,colombia,pareja,Escultora y pintora,"Poeta, escritor y crítico literario"
+Fiorella Cayo,cayo,peru,Miguel Arce,acuña,peru,pareja,"Actriz , cantante , bailarina , cantautora y empresaria","Actor , modelo y personalidad televisiva"
+Gonzalo Revoredo,elías,peru,Beatriz Caballero,caballero,colombia,pareja,Actor,"Escritora, guionista, titiritera"
+Gustavo Díaz Ordaz,díaz_ordaz,mexico,Irma Serrano,díaz_ceballos,mexico,pareja,"Abogado , político y diplomático",Cantante actriz política
+Héctor de Elía,álzaga,argentina,Juana Uribe,pachón,colombia,pareja,NA,"Guionista , productora de televisión"
+Javiera Parra,parra_chile,chile,Manuel Llosa,llosa,peru,pareja,Cantante,"Ingeniero , político"
+Juan Pablo Obregón,obregón,colombia,Ana María Palma,vicuña,chile,pareja,Actor,Actriz
+Katja Alemann,alemann,argentina,Diego Luna,sodi,mexico,pareja,Actriz y modelo,actor director de cine productor de cine actor de voz presentador guionista
+Maite Orsini,tohá,chile,Jorge Valdivieso Blanco,valdivieso,chile,pareja,"Abogada , política",Abogado y político
+María Luisa Godoy,matte,chile,José Miguel Vicuña,vicuña,chile,pareja,"Periodista , presentadora","Escritor , bibliotecario y poeta"
+Marlene Dietrich,díaz_ceballos,mexico,John F. Kennedy,onassis,argentina,pareja,Actriz y cantante,Político [ 1 ] ​
+Sandra O'Ryan,di_girolamo,chile,Sebastián Dávalos,bachelet,chile,pareja,Actriz,Politólogo y político
+Sigrid Alegría,portales,chile,Andrés Velasco Brañes,velasco_chile,chile,pareja,"Actriz , cantante , folclorista","Economista , académico , investigador , consultor y político"
+Sofía García,di_girolamo,chile,Tiago Correa,allamand,chile,pareja,Actriz y actriz de cine,Actor
+Sully Sáenz,vértiz,peru,Renzo Costa,acuña,peru,pareja,"Modelo , presentadora de televisión y arquitecta",NA
+Tilsa Lozano,vértiz,argentina,Juan Manuel Polar Vargas,polar,peru,pareja,Modelo y empresaria,"Escritor , educador"

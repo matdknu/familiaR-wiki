@@ -1,0 +1,435 @@
+persona_id,nombre,pais_persona,pais_vinculo,campo,texto
+25,Álvaro de Galleguillos y Riberos de Castilla,chile,peru,lugar_fallecimiento_parseado,"Hacienda Pachingo - Valle de Limarí , La Serena o Coquimbo , Reino de Chile Imperio español"
+27,Álvaro de Soto,peru,argentina,lugar_nacimiento_parseado,"Buenos Aires , Argentina"
+39,Ángel Vázquez Mellado,mexico,chile,lugar_nacimiento_parseado,"Santiago de Querétaro , Querétaro , México"
+41,Ángel de Iturbide y Huarte,chile,mexico,lugar_fallecimiento_parseado,"Ciudad de México , México"
+69,Óscar Ugarteche,peru,mexico,residencia,"Ciudad de México , México"
+73,Aarón de Anchorena,argentina,uruguay,lugar_fallecimiento_parseado,"Estancia Anchorena , Colonia , Uruguay Uruguay"
+126,Agustín Edwards Ossandón,chile,peru,lugar_fallecimiento_parseado,"Limache , Chile"
+136,Agustín Pedro Justo,argentina,uruguay,lugar_nacimiento_parseado,"Concepción del Uruguay , Entre Ríos , Argentina"
+194,Alberto Montt,chile,ecuador,lugar_nacimiento_parseado,"Quito , Ecuador"
+197,Alberto Otárola,peru,chile,residencia,"Santiago de Surco , Lima , Perú"
+234,Alejandra Botero Barco,colombia,venezuela,lugar_nacimiento_parseado,"Caracas , Venezuela"
+273,Alejandro Lyons,colombia,argentina,lugar_nacimiento_parseado,"Sahagún , Córdoba , Colombia"
+299,Alessia Injoque,chile,peru,lugar_nacimiento_parseado,Lima ( Perú )
+300,Alessia Rovegno,peru,chile,lugar_nacimiento_parseado,"Santiago de Surco , Lima ( Perú )"
+320,Alfonso Reyes Echandía,colombia,peru,lugar_nacimiento_parseado,"Chaparral , Tolima , Colombia"
+355,Alfredo Vásquez Cobo,colombia,chile,lugar_nacimiento_parseado,"Santiago de Cali , Estado Soberano del Cauca , Estados Unidos de Colombia ."
+366,Alicia Puyana Mutis,colombia,mexico,residencia,México
+385,Alonso II de Fonseca,peru,chile,lugar_fallecimiento_parseado,Santiago de Compostela (España)
+388,Alonso Martín de Don Benito,chile,peru,lugar_fallecimiento_parseado,Lima (capital del Virreinato del Perú ) Imperio español
+411,Ambrosio O'Higgins,chile,peru,lugar_fallecimiento_parseado,"(80-81 años) Lima , Virreinato del Perú , Imperio español"
+415,Amenodoro Urdaneta,colombia,venezuela,lugar_fallecimiento_parseado,"Caracas , Venezuela"
+436,Ana Faustina Sarmiento,argentina,chile,lugar_nacimiento_parseado,Chile
+446,Ana María Orozco,colombia,argentina,residencia,Buenos Aires
+453,Ana Monterroso de Lavalleja,uruguay,argentina,lugar_fallecimiento_parseado,Buenos Aires ( Argentina )
+454,Ana Monterroso de Lavalleja,uruguay,argentina,lugar_fallecimiento_parseado,Buenos Aires ( Argentina )
+459,Anacarsis Lanús,argentina,uruguay,lugar_nacimiento_parseado,Concepción del Uruguay ( Argentina )
+466,Andrés Aramburú Salinas,peru,chile,lugar_fallecimiento_parseado,"Santiago de Chile , Chile Chile"
+468,Andrés Aramburú Salinas,peru,chile,lugar_fallecimiento_parseado,"Santiago de Chile , Chile Chile"
+471,Andrés Balanta,colombia,argentina,lugar_fallecimiento_parseado,San Miguel de Tucumán Argentina
+472,Andrés Bello,chile,venezuela,lugar_nacimiento_parseado,"Caracas , Capitanía General de Venezuela , Imperio español"
+507,Andrés de Santa Cruz,peru,bolivia,lugar_nacimiento_parseado,"Huarina , intendencia de La Paz , virreinato del Río de la Plata , Imperio Español"
+520,Anel Townsend,peru,chile,residencia,"Santiago de Surco , Lima , Perú"
+548,Antonino Taboada,argentina,chile,lugar_nacimiento_parseado,"Villa Matará , provincia de Santiago del Estero , 1814"
+563,Antonio Calzada Urquíza,mexico,chile,lugar_fallecimiento_parseado,Santiago de Querétaro (México)
+563,Antonio Calzada Urquíza,mexico,chile,lugar_nacimiento_parseado,Santiago de Querétaro ( México )
+572,Antonio Gómez de Galleguillos,chile,peru,lugar_fallecimiento_parseado,"Hacienda Pachingo - Valle de Limarí , La Serena o Coquimbo , Reino de Chile Imperio español"
+576,Antonio González Balcarce,argentina,peru,lugar_nacimiento_parseado,"Buenos Aires , Virreinato del Perú"
+579,Antonio Guízar y Valencia,mexico,bolivia,lugar_nacimiento_parseado,"Cotija de la Paz , Michoacán , México"
+582,Antonio Guzmán Blanco,colombia,venezuela,lugar_nacimiento_parseado,"Caracas , Departamento de Venezuela , Distrito de Venezuela , Gran Colombia"
+587,Antonio José Sucre Alcalá,venezuela,ecuador,lugar_fallecimiento_parseado,Babahoyo ( Ecuador )
+589,Antonio José de Sucre,colombia,venezuela,lugar_nacimiento_parseado,"Cumaná , Intendencia de Caracas , Capitanía General de Venezuela , Imperio español"
+608,Antonio Podestá,argentina,uruguay,lugar_nacimiento_parseado,Uruguay Uruguay Montevideo
+609,Antonio Ricaurte,colombia,venezuela,lugar_fallecimiento_parseado,"San Mateo (Venezuela) , Estado Aragua , Provincia de Caracas , Segunda República de Venezuela"
+621,Antonio de Berrío,colombia,venezuela,lugar_fallecimiento_parseado,Ciudad Bolívar ( Venezuela )
+622,Antonio de Boza y Garcés,chile,peru,lugar_fallecimiento_parseado,Lima ( Perú )
+630,Antonio de la Rúa (político),argentina,chile,lugar_nacimiento_parseado,Choya (Santiago del Estero) ( Argentina )
+635,Aquiles Vergara,chile,bolivia,lugar_fallecimiento_parseado,"La Paz , Bolivia"
+670,Arturo Edwards Ross,chile,bolivia,lugar_fallecimiento_parseado,"La Paz , Bolivia"
+683,Arturo Podestá,argentina,uruguay,lugar_nacimiento_parseado,Montevideo Uruguay
+687,Arturo Rawson,argentina,chile,lugar_nacimiento_parseado,"Santiago del Estero , Argentina"
+705,Augusto Belín Sarmiento,argentina,chile,lugar_nacimiento_parseado,Chile
+766,Baltasar Unquera,uruguay,argentina,lugar_fallecimiento_parseado,Buenos Aires
+772,Bartolomé Mitre Vedia,argentina,uruguay,lugar_nacimiento_parseado,"Montevideo , Uruguay"
+807,Benjamín Subercaseaux,chile,peru,lugar_fallecimiento_parseado,"Tacna , Perú"
+808,Benjamín Vicuña,chile,argentina,residencia,Argentina
+826,Bernardo Joaquín de Anzoátegui,argentina,uruguay,lugar_fallecimiento_parseado,"Montevideo , Uruguay"
+831,Bernardo O'Higgins,chile,peru,residencia,"Lima ( Casa O'Higgins ), Perú (1823-1842)"
+831,Bernardo O'Higgins,chile,peru,lugar_nacimiento_parseado,"San Bartolomé de Chillán y Gamboa , provincia de Chillán , reino de Chile , virreinato del Perú ,..."
+837,Bertha Puga,chile,colombia,lugar_fallecimiento_parseado,"Bogotá , Colombia"
+858,Braulio Guerra Malo,mexico,chile,lugar_fallecimiento_parseado,"Santiago de Querétaro , Querétaro , México"
+858,Braulio Guerra Malo,mexico,chile,lugar_nacimiento_parseado,"Santiago de Querétaro , Querétaro , México"
+912,Carlos Antonio López,paraguay,argentina,residencia,"Ybyray, Casa Alta y Villa del Rosario"
+913,Carlos Antonio Lis,colombia,peru,lugar_fallecimiento_parseado,"Prado (Tolima) , Colombia"
+913,Carlos Antonio Lis,colombia,peru,lugar_nacimiento_parseado,"Natagaima , Tolima , Colombia"
+921,Carlos Basadre Forero,peru,chile,lugar_fallecimiento_parseado,"Tacna , Chile Chile"
+939,Carlos Cuervo Márquez,colombia,mexico,lugar_fallecimiento_parseado,"Ciudad de México , México"
+954,Carlos Ferrero Costa,peru,chile,residencia,"Santiago de Surco , Lima , Perú"
+966,Carlos Holguín Sardi,colombia,chile,lugar_nacimiento_parseado,"Santiago de Cali , Colombia ."
+1055,Carlos Vial Espantoso,chile,peru,lugar_nacimiento_parseado,"Lima , Perú"
+1100,Carolina Mestrovic,argentina,chile,lugar_nacimiento_parseado,Arica ( Chile )
+1152,Cecilia Alegría Varona,peru,chile,lugar_nacimiento_parseado,"Santiago , Cuba Cuba"
+1153,Cecilia Alegría Varona,peru,chile,lugar_nacimiento_parseado,"Santiago , Cuba Cuba"
+1172,Celia Podestá,uruguay,chile,lugar_fallecimiento_parseado,Chile
+1182,Che Guevara,argentina,mexico,residencia,Argentina (1928-1953) Guatemala (1954) México (1954-1956) Cuba (1956-1965) República Democrática ...
+1182,Che Guevara,argentina,bolivia,residencia,Argentina (1928-1953) Guatemala (1954) México (1954-1956) Cuba (1956-1965) República Democrática ...
+1194,Cipriano de Urquiza,argentina,uruguay,lugar_nacimiento_parseado,Concepción del Uruguay ( Argentina )
+1195,Ciriaco Díaz Vélez,argentina,uruguay,lugar_fallecimiento_parseado,"Concepción del Uruguay , Argentina"
+1219,Claudia de Francisco,colombia,chile,lugar_nacimiento_parseado,"Santiago de Cali , Valle del Cauca , Colombia [ 1 ] ​"
+1237,Clemente López de Osornio,argentina,peru,lugar_nacimiento_parseado,"Buenos Aires , Virreinato del Perú"
+1242,Clodomiro Bustamante,peru,chile,lugar_fallecimiento_parseado,Arica ( Chile )
+1246,Clotilde García Borrero,colombia,peru,lugar_nacimiento_parseado,"Neiva , Tolima Grande , Colombia"
+1269,Conrado Villegas,argentina,uruguay,lugar_nacimiento_parseado,"Estancia El Tala , Canelones , Uruguay"
+1272,Constanza Nordenflycht,peru,chile,lugar_fallecimiento_parseado,"Santiago , República de Chile"
+1274,Constanza Nordenflycht,peru,chile,lugar_fallecimiento_parseado,"Santiago , República de Chile"
+1284,Cornelio Saavedra,argentina,peru,lugar_nacimiento_parseado,"Otuyo , corregimiento de Potosí , provincia de Charcas , virreinato del Perú , Imperio español"
+1297,Cristóbal de Mosquera y Silva,colombia,peru,lugar_nacimiento_parseado,"Popayán , Virreinato del Perú"
+1298,Cristóbal de Mosquera y Silva,colombia,peru,lugar_nacimiento_parseado,"Popayán , Virreinato del Perú"
+1314,Cristian Castro,mexico,argentina,residencia,"Buenos Aires , Argentina"
+1316,Cristian Leiva,argentina,chile,lugar_nacimiento_parseado,"Chilecito , La Rioja , Argentina"
+1331,Dalia Inés,mexico,argentina,lugar_nacimiento_parseado,"Santa Fe , Argentina Santa Fe ( Argentina )"
+1361,Daphne Dougall,argentina,peru,lugar_fallecimiento_parseado,"Lima , Perú Perú"
+1363,Darío Echandía,colombia,peru,lugar_fallecimiento_parseado,"Ibagué , Tolima , Colombia"
+1363,Darío Echandía,colombia,peru,lugar_nacimiento_parseado,"Chaparral , Tolima , Colombia"
+1379,David Solari (futbolista),argentina,colombia,lugar_nacimiento_parseado,"Barranquilla , Colombia"
+1381,David de Tezanos Pinto,chile,argentina,lugar_fallecimiento_parseado,"Buenos Aires , Argentina"
+1411,Diego Aráoz,argentina,peru,lugar_nacimiento_parseado,"San Miguel de Tucumán , Virreinato del Perú"
+1427,Diego José de Pueyrredón,argentina,peru,lugar_nacimiento_parseado,"Buenos Aires , Virreinato del Perú"
+1434,Diego Montero del Águila,chile,peru,lugar_fallecimiento_parseado,"Saña , Virreinato del Perú"
+1436,Diego Noboa,ecuador,chile,lugar_nacimiento_parseado,"Santiago de Guayaquil , Imperio Español ."
+1440,Diego Portales y Salas,chile,peru,lugar_fallecimiento_parseado,"Lima , Virreinato del Perú , Imperio Español"
+1454,Dionisia Pérez Manrique y Camberos,colombia,paraguay,lugar_fallecimiento_parseado,". Asunción de Popayán , Provincia de Popayán , Virreinato de Nueva Granada"
+1454,Dionisia Pérez Manrique y Camberos,colombia,peru,lugar_nacimiento_parseado,". Santafé de Bogotá , Reino de la Nueva Granada , Virreinato del Perú"
+1474,Domingo Esguerra Plata,colombia,peru,lugar_nacimiento_parseado,"Falan , Tolima , Estados Unidos de Colombia"
+1484,Domingo Ortiz de Rozas,argentina,peru,lugar_fallecimiento_parseado,"Mar de Hoces (cerca del cabo de Hornos , Virreinato del Perú ) , Reino de España"
+1498,Dominguito Fidel Sarmiento,argentina,chile,lugar_nacimiento_parseado,"Santiago , Chile [ 1 ] ​"
+1528,Eduardo Braun Menéndez,argentina,chile,lugar_nacimiento_parseado,"Punta Arenas , Chile"
+1696,Enrique Chirinos Soto,peru,chile,residencia,"Santiago de Surco , Lima , Perú"
+1718,Enrique López Bustamante,venezuela,argentina,lugar_fallecimiento_parseado,"Buenos Aires , Argentina"
+1779,Che Guevara,argentina,mexico,residencia,Argentina (1928-1953) Guatemala (1954) México (1954-1956) Cuba (1956-1965) República Democrática ...
+1779,Che Guevara,argentina,bolivia,residencia,Argentina (1928-1953) Guatemala (1954) México (1954-1956) Cuba (1956-1965) República Democrática ...
+1783,Ernesto Durán Cordovez,colombia,peru,lugar_nacimiento_parseado,"Neiva , Tolima Grande , Colombia"
+1821,Esther Boggini,argentina,uruguay,lugar_nacimiento_parseado,"Montevideo , Uruguay"
+1844,Eugenio de Matta Vargas,chile,peru,lugar_nacimiento_parseado,"Castro , Virreinato del Perú"
+1872,Félix Denegri Luna,peru,ecuador,lugar_fallecimiento_parseado,", 79 años Quito , Ecuador"
+1882,Fabio Lozano y Lozano,colombia,peru,lugar_nacimiento_parseado,"Ibagué , Tolima Grande , Colombia"
+1884,Fabio Lozano y Lozano,colombia,peru,lugar_nacimiento_parseado,"Ibagué , Tolima Grande , Colombia"
+2005,Felipe Barreda y Laos,peru,argentina,lugar_fallecimiento_parseado,"Buenos Aires , Argentina"
+2008,Felipe Braun,chile,mexico,lugar_nacimiento_parseado,Ciudad de México ( México )
+2038,Felipe Taboada,argentina,chile,lugar_fallecimiento_parseado,"Santiago del Estero , Argentina"
+2065,Fernando Botero Zea,colombia,mexico,residencia,Ciudad de México
+2065,Fernando Botero Zea,colombia,mexico,lugar_nacimiento_parseado,"Ciudad de México , México"
+2081,Fernando Errázuriz Sotomayor,chile,peru,lugar_nacimiento_parseado,"Rancagua , Reino de Chile , Virreinato del Perú , Imperio español"
+2092,Fernando Loyola,mexico,chile,lugar_fallecimiento_parseado,Querétaro Santiago de Querétaro (México)
+2094,Fernando Luján,mexico,colombia,lugar_nacimiento_parseado,Bogotá ( Colombia )
+2095,Fernando Márquez de la Plata Encalada,chile,peru,lugar_nacimiento_parseado,"Lima , Virreinato del Perú , ( Imperio español )"
+2096,Fernando María Campero Barragán,bolivia,argentina,lugar_fallecimiento_parseado,"Salta , República Argentina"
+2125,Fernando Tola Mendoza,peru,argentina,lugar_fallecimiento_parseado,Buenos Aires ( Argentina )
+2139,Fernando de la Fuente y Rojas,chile,peru,lugar_fallecimiento_parseado,"Lima , Virreinato del Perú"
+2139,Fernando de la Fuente y Rojas,chile,peru,lugar_nacimiento_parseado,"Pisco , Virreinato del Perú"
+2158,Florentino González,colombia,argentina,lugar_fallecimiento_parseado,Buenos Aires ( Argentina )
+2178,Francisco Antonio Pinto,chile,argentina,residencia,Buenos Aires ( Argentina ) Santiago ( Chile )
+2183,Francisco Aráoz de Lamadrid,argentina,peru,lugar_fallecimiento_parseado,"Chacas , Áncash , Perú"
+2195,Francisco Borges,argentina,uruguay,lugar_nacimiento_parseado,"Montevideo , Uruguay"
+2201,Francisco Candioti,argentina,peru,lugar_nacimiento_parseado,"Santa Fe , Virreinato del Perú"
+2209,Francisco Díez Marina,mexico,chile,lugar_fallecimiento_parseado,Santiago de Querétaro (México)
+2209,Francisco Díez Marina,mexico,chile,lugar_nacimiento_parseado,Santiago de Querétaro ( México )
+2211,Francisco Diez Canseco Távara,peru,chile,residencia,"Santiago de Surco , Lima"
+2222,Francisco García-Calderón Rey,peru,chile,lugar_nacimiento_parseado,Valparaíso ( Chile )
+2224,Francisco García-Calderón Rey,peru,chile,lugar_nacimiento_parseado,Valparaíso ( Chile )
+2229,Francisco González de Cosío y Arauz,mexico,chile,lugar_fallecimiento_parseado,Santiago de Querétaro (México)
+2229,Francisco González de Cosío y Arauz,mexico,chile,lugar_nacimiento_parseado,Santiago de Querétaro ( México )
+2230,Francisco González de Cossío Martínez,mexico,chile,lugar_nacimiento_parseado,Santiago de Querétaro
+2231,Francisco González de Cossío y Rivera,mexico,chile,lugar_fallecimiento_parseado,Santiago de Querétaro (México)
+2231,Francisco González de Cossío y Rivera,mexico,chile,lugar_nacimiento_parseado,Santiago de Querétaro ( México )
+2236,Francisco Hermógenes Ramos Mejía,argentina,peru,lugar_nacimiento_parseado,"Buenos Aires , Virreinato del Perú (hoy, Argentina )"
+2239,Francisco Jattin,colombia,argentina,lugar_nacimiento_parseado,"Santa Cruz de Lorica , Córdoba , Colombia"
+2240,Francisco Jattin,colombia,argentina,lugar_nacimiento_parseado,"Santa Cruz de Lorica , Córdoba , Colombia"
+2241,Francisco José Jattin Safar,colombia,argentina,lugar_fallecimiento_parseado,"Lorica, Córdoba, Colombia"
+2241,Francisco José Jattin Safar,colombia,argentina,lugar_nacimiento_parseado,"[ cita requerida ] Lorica , Córdoba , Colombia [ cita requerida ]"
+2260,Francisco José Jattin Safar,colombia,argentina,lugar_fallecimiento_parseado,"Lorica, Córdoba, Colombia"
+2260,Francisco José Jattin Safar,colombia,argentina,lugar_nacimiento_parseado,"[ cita requerida ] Lorica , Córdoba , Colombia [ cita requerida ]"
+2266,Francisco Urrutia Holguín,colombia,ecuador,lugar_nacimiento_parseado,"Quito , Provincia de Pichincha , Ecuador"
+2277,Francisco María González Balcarce,argentina,peru,lugar_fallecimiento_parseado,"Nazareno, Departamento de Potosí , Virreinato del Perú"
+2278,Francisco María Roca,ecuador,peru,lugar_fallecimiento_parseado,"Lima , Perú"
+2279,Francisco Marambio,chile,argentina,lugar_nacimiento_parseado,Buenos Aires ( Argentina )
+2286,Francisco Miró-Quesada Rada,peru,chile,residencia,"Santiago de Surco , Lima"
+2292,Francisco Niño Bueno,colombia,venezuela,lugar_fallecimiento_parseado,Venezuela
+2305,Francisco Rafael Augier,argentina,chile,ocupacion,"Alférez Real de Santiago del Estero, subdelegado de Real Hacienda de Catamarca regidor del Cabild..."
+2306,Francisco Ramírez Luque,mexico,chile,lugar_nacimiento_parseado,"Santiago de Querétaro , Querétaro , México"
+2335,Francisco Urrutia Holguín,colombia,ecuador,lugar_nacimiento_parseado,"Quito , Provincia de Pichincha , Ecuador"
+2337,Francisco Urrutia Ordóñez,colombia,ecuador,lugar_fallecimiento_parseado,"Quito , Ecuador"
+2347,Francisco Xavier de Echagüe,argentina,peru,lugar_fallecimiento_parseado,Lima ( Perú )
+2359,Francisco de Borja y Miguel,colombia,peru,lugar_fallecimiento_parseado,"Trujillo , Virreinato del Perú"
+2359,Francisco de Borja y Miguel,colombia,peru,lugar_nacimiento_parseado,"Santafé de Bogotá , Virreinato del Perú"
+2376,Frank Pérez-Garland,peru,mexico,residencia,México
+2382,Fuad Char,colombia,argentina,lugar_nacimiento_parseado,"Lorica , Córdoba , Colombia"
+2383,Fuad Char,colombia,argentina,lugar_nacimiento_parseado,"Lorica , Córdoba , Colombia"
+2427,Genaro Delgado Parker,peru,bolivia,lugar_fallecimiento_parseado,Cementerio Jardines de la Paz de La Molina
+2454,Germán Santamaría,colombia,peru,lugar_nacimiento_parseado,"Líbano , Tolima , Colombia"
+2492,Godofredo Iommi,argentina,chile,lugar_fallecimiento_parseado,"Viña del Mar , Chile"
+2494,Gonzalo Alegría,peru,chile,residencia,"Santiago de Surco , Lima"
+2512,Gonzalo Romero Álvarez,bolivia,uruguay,ocupacion,"Escritor , historiador , político , Ministro de Relaciones Exteriores de Uruguay y crítico de arte"
+2550,Guillermo Billinghurst,peru,chile,lugar_fallecimiento_parseado,"Iquique , Chile"
+2550,Guillermo Billinghurst,peru,chile,lugar_nacimiento_parseado,"Arica , Perú (actual Chile )"
+2552,Guillermo Brown y Blanco,argentina,uruguay,lugar_fallecimiento_parseado,"Montevideo , Uruguay"
+2552,Guillermo Brown y Blanco,argentina,uruguay,lugar_nacimiento_parseado,"Montevideo , Uruguay"
+2553,Guillermo Brown y Chitty,argentina,uruguay,lugar_fallecimiento_parseado,"Montevideo , Uruguay"
+2583,Guillermo Quintero Calderón,colombia,chile,lugar_fallecimiento_parseado,"Quintero , Región de Valparaíso , Chile"
+2604,Gustavo Alatriste,mexico,bolivia,residencia,"Monterrey , Mérida y La Paz"
+2622,Gustavo Petro,colombia,argentina,lugar_nacimiento_parseado,"Ciénaga de Oro , Córdoba , Colombia"
+2636,Héctor Florencio Varela,argentina,uruguay,lugar_nacimiento_parseado,Montevideo ( Uruguay )
+2658,Hebe Podestá,argentina,uruguay,lugar_nacimiento_parseado,"Montevideo , Uruguay"
+2662,Henrique Arboleda Cortés,colombia,peru,lugar_fallecimiento_parseado,"Flandes , Tolima , Colombia"
+2699,Hernando Devis Echandía,colombia,peru,lugar_nacimiento_parseado,"Chaparral, Tolima, Colombia"
+2703,Hernando Márquez Arbeláez,colombia,peru,lugar_nacimiento_parseado,"Ibagué , Tolima , Colombia"
+2704,Hernando Pastrana,argentina,colombia,lugar_nacimiento_parseado,"Neiva , Colombia"
+2712,Hernando de Soto (economista),peru,chile,residencia,"Santiago de Surco , Lima"
+2719,Hipólito Francisco de Villegas,argentina,chile,lugar_fallecimiento_parseado,Santiago República de Chile
+2719,Hipólito Francisco de Villegas,argentina,peru,lugar_nacimiento_parseado,"Buenos Aires , gobernación del Río de la Plata del Virreinato del Perú Imperio español"
+2771,Ignacio José de Lizarzaburu,colombia,ecuador,residencia,"Riobamba , Ecuador"
+2771,Ignacio José de Lizarzaburu,colombia,peru,lugar_nacimiento_parseado,"Riobamba , Virreinato del Perú"
+2793,Ignacio Warnes,argentina,peru,lugar_nacimiento_parseado,"Buenos Aires , virreinato del Perú"
+2800,Ildefonso Ramos Mexía,argentina,peru,lugar_nacimiento_parseado,"Buenos Aires ( Gobernación del Río de la Plata , Virreinato del Perú , Imperio español )"
+2808,Ina Andrade,peru,chile,residencia,"Santiago de Surco , Lima , Lima , Perú"
+2812,Inti Briones,chile,peru,lugar_nacimiento_parseado,Lima ( Perú )
+2827,Isabel Allende,chile,peru,lugar_nacimiento_parseado,Lima ( Perú )
+2841,Isabel Riquelme,chile,peru,residencia,Santiago (Chile) y Lima (Perú)
+2841,Isabel Riquelme,chile,peru,lugar_nacimiento_parseado,"San Bartolomé de Chillán y Gamboa , corregimiento de Chillán , reino de Chile , virreinato del Pe..."
+2876,Ivana Yturbe,peru,chile,lugar_nacimiento_parseado,"Santiago de Surco , Lima , Perú"
+2878,Jacinto Mariano de Villegas,argentina,uruguay,lugar_fallecimiento_parseado,Montevideo Uruguay Uruguay
+3008,Joaquín Maciel y Lacoizqueta,argentina,peru,lugar_nacimiento_parseado,"Santa Fe (capital de la tenencia de gobierno homónima de la gobernación del Río de la Plata , Vir..."
+3014,Joaquín París Ricaurte,colombia,peru,lugar_fallecimiento_parseado,"San Sebastián de Mariquita , Estado Soberano del Tolima , Estados Unidos de Colombia"
+3048,Jorge Alberto Sabato,argentina,chile,residencia,"Argentina , Brasil , Canadá , Chile , Estados Unidos , Francia , Inglaterra , México , Venezuela ."
+3048,Jorge Alberto Sabato,argentina,mexico,residencia,"Argentina , Brasil , Canadá , Chile , Estados Unidos , Francia , Inglaterra , México , Venezuela ."
+3048,Jorge Alberto Sabato,argentina,venezuela,residencia,"Argentina , Brasil , Canadá , Chile , Estados Unidos , Francia , Inglaterra , México , Venezuela ."
+3059,Jorge Basadre,peru,chile,lugar_nacimiento_parseado,"Tacna , Chile [ n 1 ] ​"
+3071,Jorge Enrique Velarde,peru,chile,lugar_fallecimiento_parseado,"Iquique , Perú Chile ,1883 en adelante"
+3094,Jorge Holguín Mallarino,colombia,chile,lugar_nacimiento_parseado,"Santiago de Cali , Provincia de Buenaventura , República de la Nueva Granada ."
+3095,Jorge Holguín Mallarino,colombia,chile,lugar_nacimiento_parseado,"Santiago de Cali , Provincia de Buenaventura , República de la Nueva Granada ."
+3100,Jorge López Portillo Tostado,mexico,chile,lugar_nacimiento_parseado,"Santiago de Querétaro , Querétaro , México"
+3137,Jorge Yarur Banna,chile,peru,lugar_nacimiento_parseado,Arequipa ( Perú )
+3138,Jorge Yoma,argentina,chile,lugar_nacimiento_parseado,"Chilecito , Provincia de La Rioja , Argentina"
+3140,Jorge de Tezanos Pinto,argentina,peru,lugar_fallecimiento_parseado,"Lima , Perú Perú"
+3159,José Antonio Fernández Cornejo,argentina,peru,lugar_nacimiento_parseado,"Salta , Virreinato del Perú"
+3172,José Antonio Manso de Velasco,chile,argentina,lugar_fallecimiento_parseado,"Priego de Córdoba , Imperio español"
+3178,José Antonio Urquiza,mexico,chile,lugar_nacimiento_parseado,"Santiago de Querétaro , Querétaro , México"
+3186,José Antonio de Lavalle y Cortés,argentina,peru,lugar_fallecimiento_parseado,"Lima , Virreinato del Perú"
+3186,José Antonio de Lavalle y Cortés,argentina,peru,lugar_nacimiento_parseado,"Trujillo , Virreinato del Perú"
+3207,José Calixto de Orihuela,bolivia,peru,lugar_fallecimiento_parseado,"Lima , Perú Perú"
+3207,José Calixto de Orihuela,bolivia,peru,lugar_nacimiento_parseado,"Villa de Oropesa , Alto Perú , Virreinato del Perú"
+3208,José Calzada Rovirosa,mexico,chile,lugar_nacimiento_parseado,"Santiago de Querétaro , Querétaro , México"
+3221,José Cortés de Madariaga,chile,colombia,lugar_fallecimiento_parseado,"Riohacha , Gran Colombia (actual Colombia)"
+3224,José Dammert Chávarri,peru,ecuador,lugar_nacimiento_parseado,Quito ( Ecuador )
+3227,José Diez Canseco Pereyra,chile,peru,lugar_fallecimiento_parseado,Lima (Perú)
+3227,José Diez Canseco Pereyra,chile,peru,lugar_nacimiento_parseado,Lima ( Perú )
+3244,José Esteban de Montt Cabrera,peru,chile,lugar_fallecimiento_parseado,Santiago de Chile ( Capitanía General de Chile )
+3244,José Esteban de Montt Cabrera,peru,chile,residencia,Chile
+3245,José Estenssoro,argentina,bolivia,lugar_nacimiento_parseado,"La Paz , Bolivia"
+3250,José Evaristo Uriburu Tezanos Pinto,argentina,peru,lugar_nacimiento_parseado,"Lima , Perú"
+3265,José de San Martín,argentina,chile,residencia,España (1781-1811) Reino Unido (1811-1812) Argentina (1812-1817) Chile (1817-1820) Perú (1820-182...
+3265,José de San Martín,argentina,peru,residencia,España (1781-1811) Reino Unido (1811-1812) Argentina (1812-1817) Chile (1817-1820) Perú (1820-182...
+3265,José de San Martín,argentina,uruguay,residencia,España (1781-1811) Reino Unido (1811-1812) Argentina (1812-1817) Chile (1817-1820) Perú (1820-182...
+3271,José Gabriel Concha,argentina,colombia,lugar_nacimiento_parseado,"Villa del Rosario , Virreinato de la Nueva Granada (hoy Colombia )"
+3272,José Gabriel Ortiz,colombia,mexico,residencia,Ciudad de México
+3293,José Ignacio de Gorriti,argentina,bolivia,lugar_fallecimiento_parseado,"La Plata , Chuquisaca , Bolivia"
+3293,José Ignacio de Gorriti,argentina,peru,lugar_nacimiento_parseado,"San Salvador de Jujuy , Gobernación del Tucumán , Virreinato del Perú"
+3300,José Ignacio de Gorriti,argentina,bolivia,lugar_fallecimiento_parseado,"La Plata , Chuquisaca , Bolivia"
+3300,José Ignacio de Gorriti,argentina,peru,lugar_nacimiento_parseado,"San Salvador de Jujuy , Gobernación del Tucumán , Virreinato del Perú"
+3302,José Javier Eguiguren,ecuador,colombia,lugar_nacimiento_parseado,"Loja , Gran Colombia"
+3330,José Manuel Estrada,argentina,paraguay,lugar_fallecimiento_parseado,"Asunción , Paraguay"
+3388,José María del Carril,argentina,uruguay,lugar_nacimiento_parseado,"Mercedes , Uruguay"
+3396,José Miguel Carrera,chile,argentina,residencia,"Santiago , Capitanía general de Chile Madrid , España peninsular Mendoza y Buenos Aires , Provinc..."
+3396,José Miguel Carrera,chile,uruguay,residencia,"Santiago , Capitanía general de Chile Madrid , España peninsular Mendoza y Buenos Aires , Provinc..."
+3396,José Miguel Carrera,chile,peru,lugar_nacimiento_parseado,"Santiago de Chile , Reino de Chile , Virreinato del Perú , Imperio español"
+3397,José Miguel Carrera Fontecilla,chile,peru,residencia,"Santiago , La Serena y Lima"
+3397,José Miguel Carrera Fontecilla,chile,argentina,lugar_nacimiento_parseado,"Paraná , Entre Ríos , Argentina"
+3398,José Miguel Carrera,chile,argentina,residencia,"Santiago , Capitanía general de Chile Madrid , España peninsular Mendoza y Buenos Aires , Provinc..."
+3398,José Miguel Carrera,chile,uruguay,residencia,"Santiago , Capitanía general de Chile Madrid , España peninsular Mendoza y Buenos Aires , Provinc..."
+3398,José Miguel Carrera,chile,peru,lugar_nacimiento_parseado,"Santiago de Chile , Reino de Chile , Virreinato del Perú , Imperio español"
+3400,José Miguel Díaz Vélez,argentina,uruguay,lugar_fallecimiento_parseado,Paysandú ( Uruguay )
+3415,José Olaguer Feliú y Azcuénaga,argentina,uruguay,lugar_nacimiento_parseado,"Montevideo , Virreinato del Río de la Plata , Imperio Español"
+3422,José Patricio González Balcarce,argentina,uruguay,lugar_fallecimiento_parseado,Montevideo
+3428,José Podestá,uruguay,argentina,lugar_fallecimiento_parseado,"La Plata , Argentina"
+3441,José Revueltas,mexico,chile,lugar_nacimiento_parseado,Santiago Papasquiaro ( México )
+3443,José Rodríguez del Toro,venezuela,mexico,lugar_fallecimiento_parseado,Ciudad de México ( México )
+3448,José Ruperto Monagas,venezuela,colombia,lugar_nacimiento_parseado,"Aragua de Barcelona , Provincia de Barcelona (Venezuela) , Gran Colombia / Estado de Venezuela"
+3452,José Samanez Ocampo,peru,ecuador,ocupacion,"Hacendado y Explorador . Subprefecto de Andahuaylas, Prefecto de Ayacucho y de Iquitos."
+3464,José Tiburcio Benegas,argentina,peru,lugar_nacimiento_parseado,"villa del Rosario , Gobernación del Río de la Plata , VIrreinato del Perú"
+3476,José Vicente Gómez Bello,venezuela,colombia,lugar_nacimiento_parseado,"Cúcuta , Colombia"
+3478,José Videla Castillo,argentina,bolivia,lugar_fallecimiento_parseado,"Chuquisaca , República de Bolivia"
+3481,José de Cuero y Cayzedo,chile,peru,lugar_fallecimiento_parseado,"Lima , Virreinato del Perú , Imperio español"
+3486,José de Piñera y Lombera,peru,chile,lugar_fallecimiento_parseado,"La Serena , Chile"
+3487,José de San Martín,argentina,chile,residencia,España (1781-1811) Reino Unido (1811-1812) Argentina (1812-1817) Chile (1817-1820) Perú (1820-182...
+3487,José de San Martín,argentina,peru,residencia,España (1781-1811) Reino Unido (1811-1812) Argentina (1812-1817) Chile (1817-1820) Perú (1820-182...
+3487,José de San Martín,argentina,uruguay,residencia,España (1781-1811) Reino Unido (1811-1812) Argentina (1812-1817) Chile (1817-1820) Perú (1820-182...
+3526,Juan Agustín Bolívar,chile,venezuela,lugar_nacimiento_parseado,"Santiago de León de Caracas , Imperio Español"
+3538,Juan Antonio Álvarez de Arenales,argentina,bolivia,lugar_fallecimiento_parseado,Villazón ( Bolivia )
+3538,Juan Antonio Álvarez de Arenales,argentina,peru,lugar_nacimiento_parseado,"Reinoso ( España ) o Salta ( Virreinato del Perú , España)"
+3540,Juan Antonio Lavalleja,uruguay,argentina,lugar_nacimiento_parseado,"Minas (en la gobernación de Montevideo de la Intendencia de Buenos Aires , Virreinato del Río de ..."
+3547,Juan Antonio Ugarteche,argentina,chile,lugar_fallecimiento_parseado,"Valparaíso , Chile"
+3548,Juan Antonio de Galleguillos y Corbalán-Castilla,peru,chile,lugar_fallecimiento_parseado,"La Serena (Chile) , Corregimiento de Coquimbo , Chile"
+3548,Juan Antonio de Galleguillos y Corbalán-Castilla,peru,chile,lugar_nacimiento_parseado,"San Antonio de Barraza - Valle de Limarí , Corregimiento de Coquimbo , Reino de Chile Imperio esp..."
+3549,Juan Antonio de Galleguillos y Godoy,chile,peru,lugar_fallecimiento_parseado,"San Antonio de Barraza - Valle de Limarí , La Serena o Coquimbo , Reino de Chile Imperio español"
+3549,Juan Antonio de Galleguillos y Godoy,chile,peru,lugar_nacimiento_parseado,"Hacienda Pachingo - Valle de Limarí , La Serena o Coquimbo , Reino de Chile Imperio español"
+3550,Juan Antonio de Galleguillos y Riberos de Castilla,chile,peru,lugar_fallecimiento_parseado,"Hacienda Pachingo - Valle de Limarí , La Serena o Coquimbo , Reino de Chile Imperio español"
+3554,Juan Baltasar Maciel,argentina,uruguay,lugar_fallecimiento_parseado,"Montevideo , Virreinato del Río de la Plata , Imperio español"
+3554,Juan Baltasar Maciel,argentina,peru,lugar_nacimiento_parseado,"Santa Fe , Virreinato del Perú , Imperio español"
+3565,Juan Borja Mata,ecuador,chile,lugar_fallecimiento_parseado,"Viña del Mar , Valparaíso , Chile"
+3594,Juan Cruz Varela,argentina,uruguay,lugar_fallecimiento_parseado,Montevideo
+3598,Juan Damonte,argentina,mexico,lugar_fallecimiento_parseado,"México México , Estado de México , Netzahualcóyotl"
+3612,Juan Fermín de San Martín,argentina,peru,lugar_nacimiento_parseado,"Gobernación del Río de la Plata , Virreinato del Perú (en el actual departamento de Colonia , Uru..."
+3612,Juan Fermín de San Martín,argentina,uruguay,lugar_nacimiento_parseado,"Gobernación del Río de la Plata , Virreinato del Perú (en el actual departamento de Colonia , Uru..."
+3615,Juan Francisco García de Zúñiga,argentina,uruguay,lugar_fallecimiento_parseado,Montevideo
+3616,Juan Francisco López,paraguay,argentina,lugar_nacimiento_parseado,"Buenos Aires , Confederación Argentina"
+3621,Juan Francisco de la Bodega y Quadra,peru,mexico,lugar_fallecimiento_parseado,Ciudad de México ( México )
+3631,Juan Ignacio Gorriti,argentina,bolivia,lugar_fallecimiento_parseado,"Sucre , Bolivia"
+3631,Juan Ignacio Gorriti,argentina,peru,lugar_nacimiento_parseado,"Horcones , Virreinato del Perú"
+3637,Juan José Castelli,argentina,peru,lugar_nacimiento_parseado,"Buenos Aires , Gobernación del Río de la Plata , Virreinato del Perú"
+3655,Juan José Quesada,argentina,uruguay,lugar_fallecimiento_parseado,"Montevideo , Uruguay , 1832"
+3658,Juan José Romualdo Rocha,argentina,peru,lugar_nacimiento_parseado,"Buenos Aires (capital de la gobernación del Río de la Plata , Virreinato del Perú ) Imperio español"
+3659,Juan José Romualdo Rocha,argentina,peru,lugar_nacimiento_parseado,"Buenos Aires (capital de la gobernación del Río de la Plata , Virreinato del Perú ) Imperio español"
+3671,Juan Lozano y Lozano,colombia,peru,lugar_nacimiento_parseado,"Ibagué , Tolima , Colombia"
+3677,Juan Manuel Abal Medina,argentina,mexico,residencia,"Ciudad de México , México"
+3684,Juan Manuel Fernández de Jáuregui,mexico,chile,lugar_nacimiento_parseado,"Santiago de Querétaro , México"
+3689,Juan Manuel Grau y Berrío,colombia,chile,lugar_fallecimiento_parseado,"Valparaíso , Chile Chile"
+3707,Juan Mariano Cossío,mexico,peru,lugar_fallecimiento_parseado,"Lima , Perú"
+3707,Juan Mariano Cossío,mexico,peru,lugar_nacimiento_parseado,"Tarapacá , Virreinato del Perú"
+3721,Juan Pablo Escobar,colombia,argentina,residencia,"Buenos Aires , Argentina"
+3730,Juan Pizarro,chile,peru,lugar_fallecimiento_parseado,"Cuzco , Nueva Castilla ( Perú )"
+3732,Juan Ramón Balcarce,argentina,uruguay,lugar_fallecimiento_parseado,"Concepción del Uruguay , Entre Ríos , Confederación Argentina"
+3732,Juan Ramón Balcarce,argentina,peru,lugar_nacimiento_parseado,"Buenos Aires , Virreinato del Perú , Imperio español"
+3737,Juan Samper Sordo,argentina,colombia,lugar_fallecimiento_parseado,"Bogotá , Colombia"
+3752,Juan Vicente Podestá,argentina,uruguay,lugar_nacimiento_parseado,Montevideo ( Uruguay )
+3758,Juan de Betanzos,chile,peru,lugar_fallecimiento_parseado,Cusco ( Perú )
+3802,Juana del Pino,argentina,uruguay,lugar_nacimiento_parseado,"Montevideo , Virreinato del Río de la Plata , Imperio Español"
+3810,Julián Malo Juvera,mexico,chile,lugar_nacimiento_parseado,"Santiago de Querétaro , Querétaro México México"
+3825,Juliana Oxenford,argentina,peru,residencia,"Lima , Perú"
+3835,Julio Arboleda Valencia,ecuador,colombia,lugar_fallecimiento_parseado,"Popayán , Cauca (Colombia) ."
+3868,Julio Jung Duvauchelle,chile,venezuela,lugar_nacimiento_parseado,"Caracas , Venezuela"
+3903,Justo José de Urquiza,argentina,uruguay,lugar_nacimiento_parseado,"Estancia Talar de Arroyo Largo , cerca de Concepción del Uruguay , Virreinato del Río de la Plata"
+3904,Justo Santa María de Oro,argentina,chile,lugar_nacimiento_parseado,"San Juan , Capitanía General de Chile"
+3955,León Ortiz de Rozas,argentina,peru,lugar_nacimiento_parseado,"Buenos Aires , Gobernación del Río de la Plata , Virreinato del Perú , Imperio español"
+3979,Leopoldo Berdella de la Espriella,colombia,argentina,lugar_nacimiento_parseado,"Cereté , Córdoba , Colombia"
+3984,Leopoldo Sucre Figarella,argentina,venezuela,lugar_fallecimiento_parseado,"Caracas , Venezuela"
+3984,Leopoldo Sucre Figarella,argentina,venezuela,lugar_nacimiento_parseado,"Tumeremo , Bolívar , Venezuela"
+3993,Liliana García,uruguay,chile,residencia,Chile e Italia
+4008,Liz Solari,argentina,colombia,lugar_nacimiento_parseado,"Barranquilla , Atlántico ( Colombia )"
+4026,Lorenzo Lugones,argentina,chile,lugar_nacimiento_parseado,"Pampayasta , Santiago del Estero , Virreinato del Río de la Plata"
+4037,Lucía Dammert,chile,peru,lugar_nacimiento_parseado,Lima ( Perú )
+4048,Lucas González Balcarce,argentina,peru,lugar_fallecimiento_parseado,"Nazareno, Departamento de Potosí , Virreinato del Perú"
+4065,Luis Ángel Pinasco,peru,ecuador,lugar_nacimiento_parseado,"Iquitos , Perú Perú"
+4098,Luis Cisneros Vizquerra,peru,argentina,lugar_nacimiento_parseado,"Buenos Aires , Argentina"
+4101,Luis Cousiño,chile,peru,lugar_fallecimiento_parseado,"Chorrillos , Perú"
+4192,Luis Solari,peru,chile,residencia,"Santiago de Surco , Lima , Perú"
+4207,Luis Vicente Varela,argentina,uruguay,lugar_nacimiento_parseado,Montevideo ( Uruguay )
+4217,Luisa Garmendia,argentina,chile,lugar_fallecimiento_parseado,"(59-60 años) Santiago , Chile Chile"
+4218,Luisa Garmendia,argentina,chile,lugar_fallecimiento_parseado,"(59-60 años) Santiago , Chile Chile"
+4221,Luisa Vehil,argentina,uruguay,lugar_nacimiento_parseado,"[ 1 ] ​ Montevideo , Uruguay"
+4242,Macarena Santelices,chile,peru,residencia,"Limache , Chile"
+4259,Maki Miró Quesada,peru,argentina,residencia,"San Martín de los Andes , Argentina"
+4268,Manuel Amador Terreros,colombia,chile,lugar_nacimiento_parseado,Santiago de Veraguas ( Panamá ) o Estados Unidos de Colombia
+4276,Manuel Antonio José Warnes,colombia,argentina,lugar_fallecimiento_parseado,"Buenos Aires, Virreinato del Río de la Plata"
+4276,Manuel Antonio José Warnes,colombia,argentina,ocupacion,Alcalde de primer voto del Cabildo de Buenos Aires
+4291,Manuel Belgrano,argentina,peru,lugar_nacimiento_parseado,"Buenos Aires , Virreinato del Perú , Imperio español"
+4292,Manuel Belgrano Cabral,argentina,uruguay,lugar_fallecimiento_parseado,Montevideo
+4299,Manuel Bulnes Quevedo,chile,peru,lugar_fallecimiento_parseado,Perú
+4319,Manuel Domingo Sánchez de Bustamante,argentina,peru,lugar_fallecimiento_parseado,"San Salvador de Jujuy , Virreinato del Perú Imperio Español"
+4320,Manuel Amador Terreros,colombia,chile,lugar_nacimiento_parseado,Santiago de Veraguas ( Panamá ) o Estados Unidos de Colombia
+4334,Manuel González Cosío y Rivera,mexico,chile,lugar_nacimiento_parseado,Santiago de Querétaro ( México )
+4357,Manuel Maciel y Cabral de Alpoin,argentina,peru,lugar_fallecimiento_parseado,"Santa Fe (de la tenencia de gobierno homónima , gobernación del Río de la Plata del Virreinato de..."
+4357,Manuel Maciel y Cabral de Alpoin,argentina,peru,lugar_nacimiento_parseado,"Corrientes (de la tenencia de gobierno homónima , gobernación del Río de la Plata del Virreinato ..."
+4358,Manuel Maciel y Cabral de Alpoin,argentina,peru,lugar_fallecimiento_parseado,"Santa Fe (de la tenencia de gobierno homónima , gobernación del Río de la Plata del Virreinato de..."
+4358,Manuel Maciel y Cabral de Alpoin,argentina,peru,lugar_nacimiento_parseado,"Corrientes (de la tenencia de gobierno homónima , gobernación del Río de la Plata del Virreinato ..."
+4361,Manuel María Mallarino,colombia,chile,lugar_nacimiento_parseado,"Santiago de Cali , Virreinato de Nueva Granada , Imperio español"
+4376,Manuel Muñoz Borrero,ecuador,mexico,lugar_fallecimiento_parseado,México México
+4383,Manuel Ocampo Samanés,peru,argentina,lugar_fallecimiento_parseado,"Buenos Aires , Argentina"
+4387,Manuel Ortiz de Zevallos,peru,ecuador,lugar_nacimiento_parseado,"Quito , Presidencia de Quito , Imperio español"
+4400,Manuel Quijano Ordóñez,colombia,ecuador,lugar_nacimiento_parseado,"Latacunga , Presidencia de Quito , Imperio Español"
+4401,Manuel Quijano Ordóñez,colombia,ecuador,lugar_nacimiento_parseado,"Latacunga , Presidencia de Quito , Imperio Español"
+4416,Manuel Taboada,argentina,chile,lugar_fallecimiento_parseado,"Santiago del Estero , Argentina"
+4452,Manuel de Tezanos Pinto (constituyente),argentina,chile,lugar_fallecimiento_parseado,"Quillota , Chile Chile"
+4463,Manuela Warnes,chile,argentina,lugar_nacimiento_parseado,"Buenos Aires , Virreinato del Río de la Plata , Reino de España"
+4464,Manuela Warnes,chile,argentina,lugar_nacimiento_parseado,"Buenos Aires , Virreinato del Río de la Plata , Reino de España"
+4501,María Eugenia Cordovez,ecuador,peru,lugar_nacimiento_parseado,"Lima , Perú"
+4502,María Eugenia Estenssoro,argentina,bolivia,lugar_nacimiento_parseado,"La Paz , Bolivia"
+4526,María Luisa Álvarez de Toledo y Carreto,colombia,mexico,residencia,México
+4539,María Mercedes Pino Chávez,chile,argentina,residencia,"Junin de los Andes, Neuquen, Argentina."
+4554,María Podestá,argentina,uruguay,lugar_nacimiento_parseado,Montevideo ( Uruguay )
+4570,María Teresa Torterolo,uruguay,argentina,lugar_fallecimiento_parseado,Buenos Aires ( Argentina )
+4595,Marcelino Escalada Baldez,uruguay,argentina,lugar_fallecimiento_parseado,Ciudad de Buenos Aires
+4611,Marcial Maciel,mexico,bolivia,lugar_nacimiento_parseado,"Cotija de la Paz , México"
+4656,Mariano Adrián Varela,argentina,uruguay,lugar_nacimiento_parseado,"Montevideo , Estado Oriental del Uruguay"
+4659,Mariano Bustamante,peru,chile,lugar_fallecimiento_parseado,"Morro de Arica, Arica , Perú (hoy en Chile )"
+4674,Mariano Maza,argentina,uruguay,lugar_fallecimiento_parseado,Montevideo ( Uruguay )
+4699,Mariano de Vedia y Mitre,argentina,uruguay,lugar_fallecimiento_parseado,"Montevideo , Uruguay"
+4701,Mariantonia Palacios,venezuela,colombia,residencia,"Medellín , Colombia"
+4772,Martín José Warnes,argentina,chile,lugar_fallecimiento_parseado,"Valparaíso , Chile"
+4805,Mateo García de Zúñiga,argentina,uruguay,lugar_fallecimiento_parseado,Montevideo ( Uruguay )
+4814,Matilde Ibáñez Tálice,argentina,uruguay,lugar_fallecimiento_parseado,"Montevideo , Uruguay"
+4815,Matilde Ibáñez Tálice,argentina,uruguay,lugar_fallecimiento_parseado,"Montevideo , Uruguay"
+4868,Mercedes Delgado Mallarino,colombia,paraguay,lugar_nacimiento_parseado,"Asunción de Popayán , Colombia"
+4901,Miguel Alfonso de la Espriella,colombia,argentina,lugar_nacimiento_parseado,"Sahagún , Córdoba , Colombia"
+4905,Miguel Antonio Checa Eguiguren,peru,chile,lugar_fallecimiento_parseado,"Viña del Mar , Chile"
+4906,Miguel Aráoz y Arce,peru,bolivia,lugar_nacimiento_parseado,"Chuquisaca , Alto Perú ( Bolivia )"
+4907,Miguel Arce,peru,mexico,residencia,Ciudad de México
+4942,Miguel López Pumarejo,colombia,peru,lugar_nacimiento_parseado,"Honda (Tolima) , Colombia"
+4951,Miguel Mariano de Villegas,argentina,peru,lugar_nacimiento_parseado,"Buenos Aires (capital de la gobernación del Río de la Plata , Virreinato del Perú ) Imperio español"
+4952,Miguel Mariano de Villegas,argentina,peru,lugar_nacimiento_parseado,"Buenos Aires (capital de la gobernación del Río de la Plata , Virreinato del Perú ) Imperio español"
+4954,Miguel Martínez de Hoz,argentina,paraguay,lugar_fallecimiento_parseado,"Acayuazá , Paraguay"
+4974,Miguel de Azcuénaga,argentina,peru,lugar_nacimiento_parseado,"Buenos Aires , Virreinato del Perú"
+5012,Natalio Félix Botana,argentina,uruguay,lugar_nacimiento_parseado,"Sarandí del Yí , Durazno , Uruguay"
+5054,Nicolás Petro,colombia,argentina,lugar_nacimiento_parseado,"Ciénaga de Oro , Córdoba , Colombia"
+5058,Nicolás Tanco,colombia,peru,lugar_fallecimiento_parseado,"Lima , Perú"
+5060,Nicolás Videla del Pino,argentina,peru,lugar_nacimiento_parseado,"en Córdoba , Virreinato del Perú"
+5065,Nicolás de la Cruz Bahamonde,chile,peru,lugar_nacimiento_parseado,"San Agustín de Talca , Capitanía General de Chile , Virreinato del Perú"
+5072,Noel Petro,colombia,argentina,lugar_nacimiento_parseado,"Cereté , Córdoba"
+5100,Ollanta Humala,peru,chile,residencia,"Santiago de Surco , Lima"
+5101,Ollanta Humala,peru,chile,residencia,"Santiago de Surco , Lima"
+5124,Pánfilo Barasorda,mexico,chile,lugar_fallecimiento_parseado,Santiago de Querétaro (México)
+5124,Pánfilo Barasorda,mexico,chile,lugar_nacimiento_parseado,Santiago de Querétaro ( México )
+5147,Pablo Podestá (actor),argentina,uruguay,lugar_nacimiento_parseado,Montevideo ( Uruguay )
+5152,Pablo Vicuña,argentina,chile,lugar_nacimiento_parseado,"Santiago , Chile"
+5183,Paquita Vehil,uruguay,argentina,lugar_fallecimiento_parseado,"Buenos Aires , Argentina"
+5239,Pedro Agustín de Valencia,colombia,peru,lugar_nacimiento_parseado,"Popayán , Virreinato del Perú , Imperio español ."
+5256,Pedro Cafferata,argentina,peru,lugar_fallecimiento_parseado,"(?) Huaraz , Perú Perú"
+5266,Pedro Demetrio O'Higgins,chile,peru,lugar_fallecimiento_parseado,"Lima , Perú"
+5293,Pedro Miguel Aráoz,argentina,peru,lugar_nacimiento_parseado,San Miguel de Tucumán Gobernación del Tucumán Virreinato del Perú
+5318,Pedro Vásquez de Velasco y Esparza,peru,ecuador,ocupacion,"Presidente de la Real Audiencia de Quito, Lima y Charcas"
+5328,Pedro de la Fuente y Rojas,chile,peru,lugar_fallecimiento_parseado,"Lima , Virreinato del Perú"
+5328,Pedro de la Fuente y Rojas,chile,peru,lugar_nacimiento_parseado,"San Clemente de Mancera , Virreinato del Perú"
+5368,Prócoro Crespo,argentina,bolivia,lugar_nacimiento_parseado,"La Paz (Entre Ríos) , Argentina"
+5380,Quispe Sisa,chile,peru,lugar_fallecimiento_parseado,"[ 1 ] ​ Lima [ 1 ] ​ ( corregimiento homónimo , Virreinato del Perú ) Imperio español"
+5443,Rafael Guízar y Valencia,bolivia,mexico,lugar_fallecimiento_parseado,Ciudad de México
+5492,Ramón García de León y Pizarro,mexico,peru,lugar_fallecimiento_parseado,"La Plata , Intendencia de Chuquisaca (o Charcas), Virreinato del Perú , Imperio español"
+5553,Ricardo Lleras Codazzi,colombia,peru,lugar_fallecimiento_parseado,"Flandes , Tolima , Colombia"
+5556,Ricardo Melgar Bao,peru,mexico,lugar_fallecimiento_parseado,"Cuernavaca , México"
+5556,Ricardo Melgar Bao,peru,mexico,residencia,"Cuernavaca , México"
+5569,Ricardo Valdés Bustamante,chile,colombia,lugar_nacimiento_parseado,"Bogotá , Colombia"
+5635,Rodrigo Obregón,colombia,peru,lugar_nacimiento_parseado,"Montélimar , Francia"
+5667,Rosa Bozán,uruguay,argentina,residencia,Argentina
+5699,Rufino Blanco Fombona,venezuela,argentina,lugar_fallecimiento_parseado,Buenos Aires ( Argentina )
+5808,Sebastián de Segurola,argentina,bolivia,residencia,"La Paz, Virreinato del Río de la Plata"
+5811,Segundo Pomar,argentina,uruguay,lugar_nacimiento_parseado,Montevideo ( Uruguay )
+5840,Silvestre Revueltas,mexico,chile,lugar_nacimiento_parseado,"Ciudad de Santiago Papasquiaro , Estado de Durango , México"
+5854,Simón Bolívar,colombia,venezuela,lugar_nacimiento_parseado,"[ nota 4 ] ​ [ nota 5 ] ​ Caracas , Capitanía General de Venezuela , Imperio español"
+5927,Teófilo Sánchez de Bustamante,argentina,chile,lugar_nacimiento_parseado,"Santiago , Chile"
+5934,Teodoro Sánchez de Bustamante,argentina,bolivia,lugar_fallecimiento_parseado,"Santa Cruz de la Sierra , Bolivia"
+5954,Tiago Correa,chile,mexico,residencia,"Ciudad de México , México"
+5955,Tiburcia Haedo,argentina,peru,lugar_nacimiento_parseado,"Córdoba , Virreinato del Perú , Argentina"
+5957,Tilsa Lozano,argentina,peru,lugar_nacimiento_parseado,Lima ( Perú )
+5995,Torcuato Alfredo Sozio Di Tella,argentina,uruguay,lugar_fallecimiento_parseado,Punta del Este ( Uruguay )
+5998,Torcuato de Alvear,argentina,uruguay,lugar_nacimiento_parseado,"Montevideo , Provincia Cisplatina , Brasil"
+6001,Totón Podestá,argentina,uruguay,lugar_nacimiento_parseado,"Montevideo , Uruguay"
+6015,Usuario:Lamder/Taller,peru,chile,residencia,"Santiago de Surco , Lima"
+6035,Víctor Larco Herrera,peru,chile,lugar_fallecimiento_parseado,",  Santiago , Chile Chile"
+6075,Vicente Eguiguren Riofrío,peru,colombia,lugar_nacimiento_parseado,"Loja , Gran Colombia"
+6077,Vicente Holguín,colombia,ecuador,lugar_fallecimiento_parseado,"Ambato , Tungurahua , Ecuador"
+6107,Victoriano de Rocha,argentina,peru,lugar_fallecimiento_parseado,"Villa de Nuestra Señora de Luján ( gobernación del Río de la Plata , Virreinato del Perú ) Imperi..."
+6107,Victoriano de Rocha,argentina,peru,lugar_nacimiento_parseado,"Estancia del Pago de Luján ( gobernación del Río de la Plata y del Paraguay , Virreinato del Perú..."
+6107,Victoriano de Rocha,argentina,paraguay,lugar_nacimiento_parseado,"Estancia del Pago de Luján ( gobernación del Río de la Plata y del Paraguay , Virreinato del Perú..."
+6150,Ximena Restrepo,chile,colombia,lugar_nacimiento_parseado,"Medellín , Colombia"
+6164,Zoilo Canavery,argentina,uruguay,lugar_nacimiento_parseado,"Montevideo , Uruguay"
+6166,Zulema Jattin Corrales,colombia,argentina,lugar_nacimiento_parseado,"Santa Cruz de Lorica , Córdoba , Colombia"
+6167,Zulema Jattin Corrales,colombia,argentina,lugar_nacimiento_parseado,"Santa Cruz de Lorica , Córdoba , Colombia"

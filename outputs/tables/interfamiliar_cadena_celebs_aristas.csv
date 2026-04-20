@@ -1,0 +1,59 @@
+from_label,to_label,tipo_label,from_fam,to_fam
+Carlos Menem,Carlos Menem Jr.,padre/madre,yoma,yoma
+Carlos Menem,Carlos Menem Jr.,padre/madre,yoma,yoma
+Carlos Menem,Cecilia Bolocco,cónyuge,yoma,yoma
+Benjamín Vicuña,China Suárez,pareja,aylwin,aylwin
+Benjamín Vicuña,José Joaquín Vicuña,hijo/a,aylwin,vicuña
+Benjamín Vicuña,Julio Vicuña Cifuentes,padre/madre,aylwin,vicuña
+Benjamín Vicuña,Luis Vicuña Cifuentes,padre/madre,aylwin,vicuña
+Leonor Oyarzún,Mariana Aylwin,padre/madre,aylwin,aylwin
+Leonor Oyarzún,Mariana Aylwin,padre/madre,aylwin,aylwin
+Carlos Menem,Martha Meza,pareja,yoma,yoma
+Andrés Aylwin,Miguel Aylwin,padre/madre,aylwin,aylwin
+Arturo Aylwin,Miguel Aylwin,padre/madre,aylwin,aylwin
+Andrés Aylwin,Miguel Aylwin,hijo/a,aylwin,aylwin
+Arturo Aylwin,Miguel Aylwin,hijo/a,aylwin,aylwin
+China Suárez,Nicolás Cabré,pareja,aylwin,vicuña
+Benjamín Vicuña,Pampita,pareja,aylwin,aylwin
+Leonor Oyarzún,Patricio Aylwin,cónyuge,aylwin,aylwin
+Mariana Aylwin,Patricio Aylwin,padre/madre,aylwin,aylwin
+Mariana Aylwin,Patricio Aylwin,padre/madre,aylwin,aylwin
+Miguel Aylwin,Patricio Aylwin,hijo/a,aylwin,aylwin
+Miguel Aylwin,Patricio Aylwin,padre/madre,aylwin,aylwin
+Benjamín Vicuña,Paz Bascuñán,pareja,aylwin,aylwin
+Mariana Aylwin,Paz Bascuñán,hijo/a,aylwin,aylwin
+Mariana Aylwin,Paz Bascuñán,padre/madre,aylwin,aylwin
+Carlos Menem,Zulema Fátima Yoma,cónyuge,yoma,yoma
+Carlos Menem Jr.,Zulema Fátima Yoma,padre/madre,yoma,yoma
+Carlos Menem Jr.,Zulema Fátima Yoma,padre/madre,yoma,yoma
+Carlos Menem,Zulema Menem,padre/madre,yoma,yoma
+Rodolfo D'Onofrio,Zulema Menem,pareja,yoma,yoma
+Zulema Fátima Yoma,Zulema Menem,padre/madre,yoma,yoma
+Carlos Menem,Zulema Menem,padre/madre,yoma,yoma
+Rodolfo D'Onofrio,Zulema Menem,pareja,yoma,yoma
+Zulema Fátima Yoma,Zulema Menem,padre/madre,yoma,yoma
+Carlos Menem,Saúl Menehem y Mohibe Akil,padre/madre,yoma,NA
+Cecilia Bolocco,Enzo Bolocco Cintolesi Rose Marie Fonck Assler,padre/madre,yoma,NA
+Leonor Oyarzún,Manuel Oyarzún Lorca Ana Ivanovic Roccatagliata,padre/madre,aylwin,NA
+Miguel Aylwin,Ricardo Camilo Aylwin Fernández Domitila Gajardo Valenzuela,padre/madre,aylwin,NA
+Miguel Aylwin,Ricardo Camilo Aylwin Fernández Domitila Gajardo Valenzuela,padre/madre,aylwin,NA
+Zulema Fátima Yoma,Amín Yoma Chaha Gazal,padre/madre,yoma,NA
+Carlos Menem Jr.,Antonella Menem,hijo/a,yoma,NA
+Carlos Menem Jr.,Antonella Menem,hijo/a,yoma,NA
+Cecilia Bolocco,Máximo Menem Bolocco,hijo/a,yoma,NA
+Martha Meza,Carlos Nair Menem,hijo/a,yoma,NA
+Zulema Menem,Luca Bertoldi y Malek Pocoví,hijo/a,yoma,NA
+Zulema Menem,Luca Bertoldi y Malek Pocoví,hijo/a,yoma,NA
+Mariana Aylwin,Carlos Bascuñán Edwards,cónyuge,aylwin,NA
+Mariana Aylwin,Carlos Bascuñán Edwards,cónyuge,aylwin,NA
+Martha Meza,Antonio Dorrego,cónyuge,yoma,NA
+Miguel Aylwin,Laura Azócar Álvarez,cónyuge,aylwin,NA
+Miguel Aylwin,Laura Azócar Álvarez,cónyuge,aylwin,NA
+Nicolás Cabré,Eugenia Tobal,cónyuge,vicuña,NA
+Pampita,Roberto García Moritán,cónyuge,aylwin,NA
+Paz Bascuñán,Miguel Asensio,cónyuge,aylwin,NA
+Zulema Menem,Paolo Bertoldi,cónyuge,yoma,NA
+Zulema Menem,Paolo Bertoldi,cónyuge,yoma,NA
+Carlos Menem Jr.,Amalia Pinetta,pareja,yoma,NA
+Carlos Menem Jr.,Amalia Pinetta,pareja,yoma,NA
+Nicolás Cabré,Rocio Pardo,pareja,vicuña,NA

@@ -1,0 +1,11 @@
+pais_base,total_miembros,n_partidos,top3_partidos,share_top3
+paraguay,5,3,Independiente | Partido Colorado | Partido Liberal,1
+uruguay,53,8,Partido Colorado | Partido Nacional | Frente Amplio,0.9056603773584906
+mexico,233,36,Partido Revolucionario Institucional | Partido Acción Nacional | Partido de la Revolución Democrática,0.6223175965665236
+colombia,546,59,Partido Conservador Colombiano | Partido Liberal Colombiano | Partido Conservador,0.608058608058608
+ecuador,25,12,Partido Liberal Radical Ecuatoriano | Izquierda Democrática | Partido Liberal del Ecuador,0.48
+venezuela,71,24,Partido Socialista Unido de Venezuela | PSUV | MVR,0.39436619718309857
+bolivia,14,13,Movimiento al Socialismo | FPN | Falange Socialista Boliviana,0.2857142857142857
+peru,403,106,Partido Civil | Acción Popular | Fuerza Popular,0.2679900744416873
+argentina,588,108,Partido Justicialista | Unión Cívica Radical | Partido Autonomista Nacional,0.2585034013605442
+chile,962,160,Partido Liberal | Independiente | Partido Demócrata Cristiano,0.24740124740124741

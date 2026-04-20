@@ -1,0 +1,297 @@
+persona_id,nombre,familia,pais,n_conexiones,n_matched,n_unmatched,n_conyuges,n_parejas,n_padres,n_hijos,n_cross_family,n_cross_country,familias_conectadas,paises_conectados
+4570,María Teresa Torterolo,podestá,uruguay,11,11,0,1,0,5,5,0,9,,argentina
+4276,Manuel Antonio José Warnes,garcía_de_zúñiga,colombia,9,9,0,1,0,4,4,5,9,warnes,"argentina, chile"
+2677,Hernán Cortés,moctezuma,colombia,8,6,2,1,2,3,2,2,6,pizarro,"chile, mexico"
+1499,Dora Varona,alegría,chile,6,5,1,1,0,3,2,0,5,,peru
+5854,Simón Bolívar,bolívar,colombia,5,5,0,1,1,2,1,5,5,palacios_venezuela,"ecuador, venezuela"
+437,Ana Jacoba García de Zúñiga,warnes,argentina,11,11,0,1,0,6,4,5,4,garcía_de_zúñiga,"chile, colombia"
+4217,Luisa Garmendia,cruz_chile,argentina,6,4,2,1,0,3,2,1,4,bulnes,chile
+4814,Matilde Ibáñez Tálice,saavedra,argentina,5,4,1,1,0,2,2,0,4,,uruguay
+415,Amenodoro Urdaneta,parís,colombia,4,4,0,0,0,2,2,2,4,urdaneta,venezuela
+3968,Leonor Cortés Moctezuma,pizarro,chile,4,4,0,1,0,2,1,4,4,moctezuma,"colombia, mexico"
+3750,Juan Vicente Bolívar y Ponte,palacios_venezuela,venezuela,12,10,2,1,0,6,5,8,3,"bolívar, toro_venezuela","chile, colombia"
+5311,Pedro Podestá,podestá,argentina,11,11,0,1,0,5,5,0,3,,uruguay
+1467,Dolores Vargas París,urdaneta,venezuela,8,8,0,1,0,4,3,7,3,parís,colombia
+589,Antonio José de Sucre,sucre,colombia,6,3,3,2,1,2,1,0,3,,"ecuador, venezuela"
+1609,Elisa Alicia Lynch,lópez_carrillo,argentina,6,3,3,1,1,3,1,0,3,,paraguay
+848,Blanca Luz Brum,miró_quesada,uruguay,5,3,2,3,0,1,1,0,3,,"mexico, peru"
+1100,Carolina Mestrovic,velasco_chile,argentina,5,3,2,2,1,1,1,0,3,,"chile, venezuela"
+4097,Luis Caycedo y Flórez,caicedo,peru,5,3,2,1,0,2,2,1,3,sanz_de_santamaría,colombia
+4218,Luisa Garmendia,pinto_chile,argentina,5,3,2,1,0,2,2,3,3,"bulnes, cruz_chile",chile
+4605,Marcelo Oxenford,frayssinet,argentina,5,4,1,1,0,2,2,0,3,,peru
+837,Bertha Puga,camargo,chile,4,4,0,1,0,1,2,0,3,,colombia
+1439,Diego Portales y Meneses,portales,peru,4,3,1,2,0,2,0,0,3,,chile
+2096,Fernando María Campero Barragán,campero,bolivia,4,3,1,1,0,1,2,0,3,,argentina
+2771,Ignacio José de Lizarzaburu,borja,colombia,4,3,1,1,0,2,1,0,3,,ecuador
+4765,Martín Cortés Zúñiga,moctezuma,mexico,4,3,1,1,0,1,2,1,3,pizarro,"chile, colombia"
+4815,Matilde Ibáñez Tálice,batlle,argentina,4,3,1,1,0,1,2,3,3,saavedra,uruguay
+5057,Nicolás Sanz de Santamaría,prieto,chile,4,3,1,1,0,2,1,3,3,galeano,colombia
+3689,Juan Manuel Grau y Berrío,grau,colombia,3,3,0,0,0,1,2,0,3,,peru
+4580,María de la Concepción Palacios y Blanco,palacios_venezuela,venezuela,11,11,0,1,0,5,5,10,2,"bolívar, toro_venezuela",colombia
+2094,Fernando Luján,soler,mexico,8,8,0,1,0,2,5,0,2,,argentina
+1276,Consuelo Lleras Puga,camargo,colombia,6,5,1,1,0,2,3,0,2,,chile
+4464,Manuela Warnes,warnes,chile,6,6,0,3,0,2,1,2,2,garcía_de_zúñiga,"argentina, colombia"
+5425,Rafael Bielsa (jurista),bielsa,argentina,6,3,3,1,0,2,3,2,2,"groot, pardo",colombia
+187,Alberto Lleras Puga,camargo,colombia,5,5,0,1,0,2,2,0,2,,chile
+1343,Daniel Florencio O'Leary,ospina,colombia,5,2,3,1,0,3,1,0,2,,venezuela
+2321,Francisco Sanz de Santamaría,galeano,colombia,5,4,1,1,0,1,3,2,2,prieto,chile
+3060,Jorge Batlle,saavedra,uruguay,5,5,0,1,0,2,2,1,2,batlle,argentina
+3189,José Antonio de Lizarzaburu,borja,ecuador,5,2,3,1,0,3,1,0,2,,colombia
+3428,José Podestá,podestá,uruguay,5,3,2,1,0,3,1,0,2,,argentina
+4079,Luis Batlle Ibáñez,saavedra,uruguay,5,5,0,0,0,2,3,2,2,batlle,argentina
+4463,Manuela Warnes,warnes,chile,5,5,0,1,0,3,1,3,2,garcía_de_zúñiga,"argentina, colombia"
+4872,Mercedes Marín del Solar,claro_chile,chile,5,3,2,1,0,3,1,2,2,"del_carril, manrique","argentina, colombia"
+4984,Misael Pastrana Pastrana,borrero,colombia,5,3,2,1,0,2,2,0,2,,argentina
+5143,Pablo Neruda,del_carril,chile,5,3,2,3,0,1,1,0,2,,argentina
+255,Alejandro Ciangherotti II,soler,argentina,4,4,0,0,0,2,2,0,2,,mexico
+593,Antonio Leocadio Guzmán,blanco_venezuela,venezuela,4,2,2,1,0,2,1,0,2,,colombia
+1152,Cecilia Alegría Varona,alegría,peru,4,4,0,0,0,2,2,0,2,,chile
+1186,Christian Bach,pinal_hidalgo,argentina,4,2,2,1,1,1,1,0,2,,mexico
+1471,Domingo Caycedo,caicedo,colombia,4,3,1,1,0,1,2,0,2,,peru
+2073,Fernando Caycedo,caicedo,colombia,4,3,1,1,0,1,2,0,2,,peru
+3186,José Antonio de Lavalle y Cortés,lavalle,argentina,4,2,2,0,0,3,1,0,2,,peru
+3791,Juana Manuela Gorriti,zuviría,argentina,4,4,0,1,0,1,2,0,2,,bolivia
+5957,Tilsa Lozano,vértiz,argentina,4,2,2,1,2,0,1,1,2,polar,peru
+41,Ángel de Iturbide y Huarte,iturbide,chile,3,2,1,1,0,1,1,0,2,,mexico
+254,Alejandro Ciangherotti,soler,argentina,3,3,0,1,0,0,2,0,2,,mexico
+582,Antonio Guzmán Blanco,blanco_venezuela,colombia,3,2,1,1,0,1,1,0,2,,venezuela
+808,Benjamín Vicuña,aylwin,chile,3,3,0,0,3,0,0,0,2,,argentina
+845,Bigote Arrocet,velasco_chile,argentina,3,2,1,1,1,0,1,0,2,,chile
+1153,Cecilia Alegría Varona,alegría,peru,3,3,0,0,0,2,1,0,2,,chile
+2790,Ignacio Vargas,parís,colombia,3,2,1,1,0,1,1,2,2,urdaneta,venezuela
+3201,José Bernardo Sáenz de Santamaría,galeano,colombia,3,2,1,1,0,1,1,2,2,prieto,chile
+3526,Juan Agustín Bolívar,palacios_venezuela,chile,3,2,1,1,0,1,1,0,2,,venezuela
+3683,Juan Manuel Fernández Campero,campero,argentina,3,2,1,1,0,1,1,0,2,,peru
+3929,La Malinche,moctezuma,mexico,3,3,0,0,2,0,1,1,2,pizarro,colombia
+4452,Manuel de Tezanos Pinto (constituyente),pinto_chile,argentina,3,2,1,1,0,1,1,1,2,garcía-huidobro,chile
+4729,Mario Velasco,velasco_chile,chile,3,2,1,1,1,0,1,0,2,,argentina
+4794,Martina Warnes,warnes,argentina,3,3,0,1,0,2,0,2,2,garcía_de_zúñiga,"colombia, uruguay"
+4864,Mercedes Belzu,zuviría,bolivia,3,3,0,0,0,2,1,0,2,,argentina
+4877,Mercedes Soler (actriz),soler,mexico,3,3,0,1,0,0,2,0,2,,argentina
+4937,Miguel Grau,grau,peru,3,2,1,1,0,1,1,0,2,,colombia
+5183,Paquita Vehil,bullrich,uruguay,3,2,1,0,0,1,2,0,2,,argentina
+5832,Shakira,de_la_rúa,colombia,3,2,1,0,2,1,0,0,2,,argentina
+299,Alessia Injoque,alegría,chile,2,2,0,0,0,1,1,0,2,,peru
+383,Alonso Hernández Portocarrero,pizarro,colombia,2,2,0,1,1,0,0,2,2,moctezuma,mexico
+384,Alonso III de Fonseca,ulloa,chile,2,2,0,0,0,1,1,0,2,,peru
+881,César Zumeta,blanco_venezuela,venezuela,2,2,0,0,0,1,1,0,2,,colombia
+2362,Francisco de Paula Andrade Troconis,troconis,venezuela,2,2,0,0,0,1,1,0,2,,colombia
+4037,Lucía Dammert,alarco,chile,2,2,0,0,0,1,1,0,2,,peru
+5863,Simona de Sucre Bravo,sucre,ecuador,2,2,0,0,0,1,1,0,2,,colombia
+6139,Waldemar Méndez,subercaseaux,argentina,2,2,0,1,1,0,0,0,2,,chile
+999,Carlos Menem,yoma,argentina,9,7,2,2,1,4,2,0,1,,chile
+1551,Eduardo López Rivas,urdaneta,venezuela,9,7,2,1,0,4,4,1,1,bustamante,peru
+2323,Francisco Solano López,lópez_carrillo,paraguay,9,9,0,0,3,2,4,0,1,,argentina
+3752,Juan Vicente Podestá,podestá,argentina,9,9,0,1,0,4,4,0,1,,uruguay
+1182,Che Guevara,guevara,argentina,8,7,1,2,1,2,3,0,1,,peru
+2149,Flor Silvestre,aguilar,mexico,8,8,0,2,0,2,4,1,1,robles,peru
+5812,Segundo Roca,paz,argentina,8,7,1,1,1,2,4,1,1,roca_y_rodríguez,peru
+1196,Ciro Alegría,alegría,peru,7,6,1,1,0,3,3,0,1,,chile
+1779,Che Guevara,guevara,argentina,7,6,1,2,1,3,1,0,1,,peru
+2433,Gerónimo Podestá,podestá,argentina,7,7,0,0,0,4,3,0,1,,uruguay
+2738,Huayna Cápac,pizarro,chile,7,5,2,1,0,1,5,1,1,tito,peru
+2769,Ignacio Escudero y Valdivieso,eguiguren,peru,7,3,4,1,0,4,2,1,1,díaz_lombardo,mexico
+2797,Ignacio de la Carrera y de las Cuevas,valdés_chile,chile,7,5,2,1,0,2,4,3,1,"acevedo_colombia, valdivieso",colombia
+2178,Francisco Antonio Pinto,cruz_chile,chile,6,4,2,1,0,3,2,2,1,"bulnes, pinto_chile",argentina
+2796,Ignacio de la Carrera y de las Cuevas,valdivieso,chile,6,4,2,1,0,1,4,2,1,"acevedo_colombia, valdés_chile",colombia
+3799,Juana Tressols,bullrich,argentina,6,6,0,0,1,2,3,0,1,,uruguay
+3912,Katja Alemann,alemann,argentina,6,5,1,1,1,2,2,1,1,sodi,mexico
+4728,Mario Vargas Llosa,vargas_llosa,peru,6,5,1,1,1,2,2,0,1,,bolivia
+4733,Marlene Dietrich,díaz_ceballos,mexico,6,2,4,1,3,1,1,1,1,onassis,argentina
+4801,Matías Ramos Mejía,segurola,argentina,6,5,1,1,0,2,3,1,1,portales,chile
+4875,Mercedes Ortiz de Rozas,ortiz_de_rozas,argentina,6,5,1,1,0,2,3,5,1,"echenique, garcía-mansilla",chile
+5253,Pedro Bordaberry,bordaberry,uruguay,6,5,1,1,0,2,3,1,1,di_girolamo,chile
+156,Alberto Baillères González,baillères,mexico,5,3,2,1,0,2,2,1,1,hales,chile
+428,Aníbal Pinto,cruz_chile,chile,5,5,0,1,0,3,1,0,1,,argentina
+551,Antonio Aguilar hijo,aguilar,mexico,5,5,0,1,0,2,2,1,1,borrero,colombia
+1275,Consuelo Lleras Puga,carrizosa,colombia,5,4,1,1,0,3,1,4,1,camargo,chile
+2125,Fernando Tola Mendoza,de_habich,peru,5,5,0,1,0,2,2,0,1,,argentina
+2511,Gonzalo Revoredo,elías,peru,5,3,2,1,2,1,1,2,1,"caballero, neyra",colombia
+2678,Hernán Cubillos,allamand,chile,5,4,1,1,0,2,2,1,1,saá,argentina
+3191,José Ballivián,ballivián,bolivia,5,5,0,1,0,2,2,1,1,pinto_chile,chile
+3239,José Elías Moreno,gonzález_de_cosío,mexico,5,4,1,1,0,2,2,1,1,elías,peru
+3619,Juan Francisco Larraín Rojas,gandarillas,chile,5,4,1,1,0,2,2,1,1,borja,colombia
+3816,Julita Astaburuaga,claro_chile,chile,5,4,1,1,0,1,3,2,1,"mazuera, vicuña",colombia
+4078,Luis Batlle Berres,saavedra,uruguay,5,3,2,1,0,2,2,1,1,batlle,argentina
+4453,Manuel de Tezanos Pinto (político),pinto_chile,argentina,5,4,1,1,0,1,3,2,1,"eder, sánchez_de_bustamante",colombia
+4700,Mariano de la Llosa y Vizcarra,llosa,peru,5,1,4,1,0,2,2,1,1,vial,chile
+4927,Miguel Escalada,escalada_(de_burgos),argentina,5,2,3,1,0,2,2,0,1,,uruguay
+5097,Olinda Bozán,podestá,argentina,5,5,0,2,2,1,0,0,1,,uruguay
+5192,Patricia Frayssinet,cano,peru,5,5,0,1,1,1,2,1,1,frayssinet,colombia
+5472,Rafael Urdaneta,parís,venezuela,5,4,1,1,0,1,3,1,1,urdaneta,colombia
+5974,Tomás José Sanabria y Meleán,toro_venezuela,venezuela,5,3,2,1,0,3,1,1,1,pueyrredón,argentina
+6084,Vicente Saadi,saadi,argentina,5,5,0,1,0,2,2,1,1,zañartu,chile
+186,Alberto Lleras Camargo,camargo,colombia,4,3,1,1,0,1,2,0,1,,chile
+275,Alejandro Miró Quesada Garland,cisneros,peru,4,4,0,1,0,2,1,1,1,cisneros_venezuela,venezuela
+414,Amelia Solar de Claro,claro_chile,chile,4,4,0,2,0,1,1,1,1,ortiz_basualdo,argentina
+426,Aníbal Pinto,cruz_chile,chile,4,4,0,1,0,2,1,0,1,,argentina
+534,Anselmo Sáenz Valiente,pueyrredón,argentina,4,2,2,1,0,2,1,1,1,borja,colombia
+608,Antonio Podestá,podestá,argentina,4,4,0,1,1,2,0,0,1,,uruguay
+1272,Constanza Nordenflycht,portales,peru,4,1,3,0,1,2,1,0,1,,chile
+1274,Constanza Nordenflycht,portales,peru,4,1,3,0,1,2,1,0,1,,chile
+1438,Diego Portales,portales,chile,4,2,2,1,1,1,1,0,1,,peru
+1572,Eduardo Umaña Mendoza,umaña,colombia,4,3,1,1,0,1,2,1,1,chadwick,chile
+1742,Enrique Solano López,lópez_carrillo,paraguay,4,3,1,1,0,2,1,0,1,,argentina
+2467,Gianella Neyra,neyra,peru,4,3,1,1,1,1,1,0,1,,argentina
+2746,Hugo Vaca Narvaja,vaca_narvaja,argentina,4,4,0,1,0,1,2,1,1,borrero,colombia
+2754,Humberto Zurita,pinal_hidalgo,mexico,4,4,0,1,1,0,2,0,1,,argentina
+2793,Ignacio Warnes,garcía_de_zúñiga,argentina,4,3,1,1,0,2,1,2,1,warnes,colombia
+2820,Isaac Garza Garza,garza_sada,mexico,4,4,0,1,0,0,3,1,1,velasco_chile,chile
+2946,Javiera Parra,parra_chile,chile,4,3,1,0,1,1,2,1,1,llosa,peru
+3017,Joaquín Prieto Concha,warnes,chile,4,3,1,1,0,1,2,1,1,casas,colombia
+3061,Jorge Batlle,batlle,uruguay,4,4,0,1,0,3,0,3,1,saavedra,argentina
+3560,Juan Bautista de Lavalle,lavalle,peru,4,3,1,1,0,2,1,0,1,,argentina
+3570,Juan Carlos Alsogaray,alsogaray,argentina,4,4,0,1,1,1,1,1,1,navia,colombia
+3622,Juan Gómez Martínez,gómez_martínez,colombia,4,3,1,1,0,1,2,1,1,velasco_chile,chile
+3677,Juan Manuel Abal Medina,abal_medina,argentina,4,2,2,1,0,2,1,1,1,galán,colombia
+3737,Juan Samper Sordo,samper,argentina,4,1,3,1,0,1,2,0,1,,colombia
+4085,Luis Calderón Vega,calderón_hinojosa,mexico,4,4,0,1,0,1,2,1,1,errázuriz,chile
+4335,Manuel González Olaechea,gonzález-olaechea,peru,4,2,2,1,0,2,1,1,1,rojas,colombia
+4515,María José Bello,walker_chile,chile,4,2,2,1,1,1,1,1,1,awada,argentina
+4595,Marcelino Escalada Baldez,escalada_(de_burgos),uruguay,4,1,3,1,0,2,1,0,1,,argentina
+4646,Mariana Carcelén,sucre,ecuador,4,1,3,1,0,2,1,0,1,,colombia
+4820,Matilde Rodríguez Larreta,rodríguez_larreta,uruguay,4,2,2,1,0,2,1,0,1,,argentina
+4902,Miguel Allamand,allamand,chile,4,3,1,1,0,2,1,1,1,calderón_hinojosa,mexico
+5084,Numa Pompilio Llona,llona,ecuador,4,3,1,1,0,1,2,0,1,,peru
+5722,Salvador Camacho Roldán,camacho,colombia,4,1,3,1,0,2,1,1,1,ureta,peru
+5749,Santiago Antúnez de Mayolo,antúnez,peru,4,4,0,2,0,1,1,0,1,,chile
+5805,Sebastián Salazar Bondy,salazar_y_meléndez,peru,4,1,3,1,0,2,1,0,1,,argentina
+5814,Serapio de Tezanos Pinto,pinto_chile,argentina,4,2,2,1,0,1,2,1,1,garcía-huidobro,chile
+5904,Sybila Arredondo,bustamante,chile,4,4,0,2,0,1,1,3,1,mendoza_ladrón_de_guevara,peru
+5938,Teresa Carreño,carreño,venezuela,4,3,1,1,0,1,2,2,1,toro_venezuela,colombia
+6102,Victoria Saravia,saravia,uruguay,4,4,0,0,3,1,0,0,1,,argentina
+163,Alberto Benegas Lynch (padre),benegas,argentina,3,2,1,1,0,1,1,1,1,montt,chile
+322,Alfonso Valdivieso,galán,colombia,3,1,2,1,0,1,1,1,1,valdivieso,chile
+357,Alfredo del Mazo González,del_mazo,mexico,3,3,0,1,0,1,1,1,1,ureta,peru
+385,Alonso II de Fonseca,ulloa,peru,3,3,0,0,0,1,2,0,1,,chile
+446,Ana María Orozco,del_solar,colombia,3,2,1,1,1,1,0,0,1,,peru
+612,Antonio Samper Uribe,samper,colombia,3,1,2,1,0,1,1,0,1,,argentina
+629,Antonio de la Rúa,de_la_rúa,argentina,3,3,0,0,1,2,0,0,1,,colombia
+882,César de Tezanos Pinto,pinto_chile,argentina,3,1,2,1,0,1,1,0,1,,chile
+934,Carlos Concha Subercaseaux,concha_chile,chile,3,2,1,1,0,1,1,1,1,álvarez_del_casal,colombia
+1156,Cecilia Bolocco,yoma,chile,3,1,2,1,0,1,1,0,1,,argentina
+1314,Cristian Castro,valdés,mexico,3,2,1,1,0,2,0,1,1,vial,chile
+1320,Cristina Girardi,lavín,chile,3,3,0,1,0,1,1,1,1,vergara-azcárate,colombia
+1344,Daniel García-Mansilla,garcía-mansilla,argentina,3,3,0,1,0,2,0,1,1,rodríguez_larreta,uruguay
+1381,David de Tezanos Pinto,pinto_chile,chile,3,2,1,1,0,1,1,1,1,garcía-huidobro,argentina
+1392,Delia del Carril,del_carril,argentina,3,1,2,1,0,2,0,0,1,,chile
+1643,Emiliano Zurita,pinal_hidalgo,mexico,3,3,0,0,0,2,1,0,1,,argentina
+1753,Enrique Zileri,gibson,peru,3,3,0,1,0,1,1,0,1,,argentina
+1768,Ercilia López de Blomberg,lópez_carrillo,paraguay,3,2,1,1,0,1,1,0,1,,argentina
+1784,Ernesto Fontaine,fontaine,chile,3,1,2,1,0,1,1,1,1,febres-cordero,ecuador
+2034,Felipe Santiago Ignacio de Otálora y del Ribero,otálora,argentina,3,2,1,1,0,1,1,1,1,kast,chile
+2072,Fernando Caycedo,caicedo,colombia,3,2,1,1,0,1,1,0,1,,peru
+2150,Flora Azcuénaga,azcuénaga,argentina,3,2,1,1,0,1,1,1,1,portales,chile
+2332,Francisco Urdaneta,urdaneta,uruguay,3,1,2,1,0,1,1,1,1,caro,colombia
+2414,Gabriela Velasco,velasco_chile,chile,3,2,1,2,0,1,0,0,1,,argentina
+2494,Gonzalo Alegría,alegría,peru,3,3,0,0,0,2,1,0,1,,chile
+2540,Guadalupe Pineda,aguilar,mexico,3,2,1,2,0,0,1,1,1,rocha,argentina
+2651,Héctor de Elía,álzaga,argentina,3,1,2,1,1,1,0,1,1,pachón,colombia
+2704,Hernando Pastrana,borrero,argentina,3,1,2,1,0,1,1,0,1,,colombia
+2809,Inda Ledesma,salazar_y_meléndez,argentina,3,2,1,2,0,0,1,0,1,,peru
+2836,Isabel Moctezuma Tecuichpo Ixcaxochitzin,moctezuma,mexico,3,2,1,0,0,2,1,1,1,pizarro,chile
+2909,Jaime Tohá,tohá,chile,3,1,2,1,0,1,1,1,1,acevedo_colombia,colombia
+3109,Jorge Mario Eastman Vélez,eastman,colombia,3,2,1,1,0,1,1,1,1,álvarez_calderón,peru
+3140,Jorge de Tezanos Pinto,pinto_chile,argentina,3,1,2,1,0,1,1,1,1,garcía-huidobro,chile
+3327,José Manuel Astigueta (padre),astigueta,argentina,3,2,1,1,0,1,1,1,1,gómez_farías,mexico
+3616,Juan Francisco López,lópez_carrillo,paraguay,3,3,0,0,0,2,1,0,1,,argentina
+3625,Juan Gonzalo Restrepo Londoño,jaramillo_colombia,colombia,3,3,0,1,0,1,1,1,1,errázuriz,chile
+3728,Juan Parra del Riego,miró_quesada,peru,3,1,2,1,0,1,1,0,1,,uruguay
+3793,Juana María Pueyrredón,pueyrredón,argentina,3,2,1,1,0,1,1,1,1,borja,colombia
+3993,Liliana García,pinto_chile,uruguay,3,1,2,2,0,0,1,0,1,,chile
+4253,Magdalena de Guzmán,pizarro,chile,3,2,1,2,0,1,0,2,1,"cortés_de_monroy, moctezuma",mexico
+4307,Manuel Carvajal Sinisterra,borrero,colombia,3,1,2,1,0,1,1,1,1,toro_venezuela,venezuela
+4315,Manuel Dammert Ego-Aguirre,alarco,peru,3,1,2,1,0,1,1,0,1,,chile
+4342,Manuel Isidoro Belzu,zuviría,bolivia,3,2,1,1,0,1,1,0,1,,argentina
+4460,Manuela Sáenz,palacios_venezuela,ecuador,3,1,2,1,1,1,0,1,1,bolívar,colombia
+4563,María Teresa Campos,velasco_chile,chile,3,1,2,1,1,0,1,0,1,,argentina
+4772,Martín José Warnes,garcía_de_zúñiga,argentina,3,3,0,0,0,2,1,2,1,warnes,colombia
+4785,Marta Fernández Miranda de Batista,zaldívar,chile,3,2,1,1,0,1,1,1,1,malo,mexico
+4833,Mauricio Pešutić,pinto_chile,chile,3,3,0,1,1,0,1,0,1,,uruguay
+4863,Mercedes Belzu,zuviría,bolivia,3,3,0,0,0,2,1,0,1,,argentina
+5015,Nelly Meruane,meruane,chile,3,1,2,1,0,2,0,0,1,,argentina
+5147,Pablo Podestá (actor),podestá,argentina,3,3,0,1,0,2,0,0,1,,uruguay
+5189,Patricia Bullrich,bullrich,argentina,3,1,2,1,0,1,1,1,1,leyva,colombia
+5667,Rosa Bozán,podestá,uruguay,3,1,2,1,0,1,1,0,1,,argentina
+5806,Sebastián Zurita,pinal_hidalgo,mexico,3,3,0,0,0,2,1,0,1,,argentina
+6048,Vanessa Ciangherotti,soler,mexico,3,3,0,1,0,1,1,1,1,rocca,argentina
+6152,Yaco Eskenazi,vértiz,peru,3,3,0,1,2,0,0,0,1,,argentina
+6158,Yvonne Frayssinet,frayssinet,peru,3,3,0,1,0,1,1,0,1,,argentina
+265,Alejandro García-Huidobro,garcía-huidobro,chile,2,1,1,1,0,0,1,1,1,rojas,colombia
+424,Aníbal Fernández de Soto,camacho,colombia,2,2,0,1,0,1,0,1,1,saá,argentina
+516,Andrea Llosa,llosa,peru,2,1,1,1,0,0,1,1,1,quintero,colombia
+683,Arturo Podestá,podestá,argentina,2,2,0,1,0,1,0,0,1,,uruguay
+847,Blanca Guerra,pinal_hidalgo,mexico,2,2,0,0,1,0,1,1,1,vicuña,chile
+988,Carlos Loret de Mola Mediz,loret_de_mola,mexico,2,1,1,1,0,0,1,0,1,,peru
+992,Carlos Malpica,silva_santisteban,peru,2,2,0,1,0,1,0,1,1,vial,chile
+1019,Carlos Pellegrini,pellegrini,argentina,2,2,0,1,0,1,0,1,1,cano,peru
+1141,Catalina Edwards,edwards,chile,2,1,1,1,0,0,1,1,1,llinás,colombia
+1184,China Suárez,aylwin,argentina,2,2,0,0,2,0,0,1,1,vicuña,chile
+1285,Cornelio Saavedra Montt,saavedra,chile,2,1,1,1,0,1,0,1,1,otálora,argentina
+1319,Cristina Girardi,lavín,chile,2,2,0,1,0,1,0,1,1,vergara-azcárate,colombia
+1371,David Alfaro Siqueiros,miró_quesada,mexico,2,1,1,1,0,0,1,0,1,,uruguay
+1372,David Char,char,colombia,2,1,1,1,0,0,1,1,1,cafiero,argentina
+1658,Emilio Edwards,edwards,chile,2,1,1,0,1,0,1,1,1,eder,colombia
+1812,Esteban Bullrich,alvear,argentina,2,2,0,1,0,1,0,1,1,bitar,chile
+1825,Eugen d'Albert,carreño,colombia,2,1,1,1,0,1,0,0,1,,venezuela
+1852,Eustoquio Díaz Vélez,díaz_vélez,argentina,2,1,1,1,0,0,1,1,1,gómez_venezuela,venezuela
+2071,Fernando Castillo Velasco,velasco_chile,chile,2,2,0,1,0,0,1,1,1,borja,ecuador
+2192,Francisco Beltrán de Caycedo,caicedo,colombia,2,1,1,1,0,1,0,1,1,antúnez,chile
+2715,Hilda Gadea,guevara,peru,2,1,1,1,0,0,1,0,1,,argentina
+2785,Ignacio Sanz de Santamaría y Gómez de Salazar,sanz_de_santamaría,colombia,2,1,1,1,0,1,0,1,1,prieto,chile
+3117,Jorge Pinto Rodríguez,pinto_chile,chile,2,1,1,1,0,0,1,1,1,caicedo,colombia
+3346,José María Arguedas,bustamante,peru,2,2,0,2,0,0,0,0,1,,chile
+3420,José Pardo y Aliaga,pardo,peru,2,2,0,1,0,1,0,1,1,herrera,colombia
+3641,Juan José Feliciano Fernández Campero,campero,argentina,2,2,0,0,0,1,1,0,1,,bolivia
+3941,Lastenia Larriva,llona,peru,2,1,1,1,0,1,0,0,1,,ecuador
+4041,Lucía Oxenford,frayssinet,peru,2,2,0,0,0,2,0,0,1,,argentina
+4192,Luis Solari,solari,peru,2,2,0,1,0,1,0,1,1,errázuriz,chile
+4471,Maria Antonia Hagenaar,del_carril,argentina,2,1,1,1,0,0,1,0,1,,chile
+4512,María Gracia Subercaseaux,subercaseaux,chile,2,1,1,1,0,0,1,0,1,,argentina
+4572,María Teresa del Toro,toro_venezuela,venezuela,2,1,1,1,0,1,0,1,1,bolívar,colombia
+4573,María Teresa del Toro,palacios_venezuela,venezuela,2,1,1,1,0,1,0,1,1,bolívar,colombia
+4647,Mariana Echevarría de Santiago y Ulloa,del_solar,peru,2,2,0,1,0,0,1,1,1,valdés_chile,chile
+4865,Mercedes Belzu,gorriti,bolivia,2,2,0,0,0,2,0,2,1,zuviría,argentina
+5009,Natalia Toledo Paz,pinal_hidalgo,mexico,2,2,0,1,0,1,0,1,1,osma,peru
+5037,Nicolás Caputo,caputo,argentina,2,1,1,1,0,1,0,1,1,claro_chile,chile
+5156,Paco Malgesto,aguilar,mexico,2,2,0,1,0,0,1,1,1,robles,peru
+5174,Pampita,aylwin,argentina,2,1,1,1,1,0,0,0,1,,chile
+5279,Pedro Ignacio Lizarzaburu,borja,ecuador,2,1,1,1,0,1,0,0,1,,colombia
+5321,Pedro de Cisternas,cortés_de_monroy,chile,2,2,0,1,0,1,0,1,1,malo,mexico
+5729,Salvador del Solar,del_solar,peru,2,2,0,0,1,1,0,0,1,,colombia
+5857,Simón O'Leary Soublette,ospina,venezuela,2,1,1,1,0,1,0,0,1,,colombia
+646,Argentino Podestá,podestá,argentina,1,1,0,0,0,1,0,0,1,,uruguay
+766,Baltasar Unquera,garcía_de_zúñiga,uruguay,1,1,0,1,0,0,0,1,1,warnes,argentina
+825,Bernardo Herrera Restrepo,restrepo,colombia,1,1,0,0,0,1,0,1,1,toro_venezuela,venezuela
+878,César Miró,miró_quesada,peru,1,1,0,1,0,0,0,0,1,,uruguay
+1013,Carlos Ortiz de Rozas,ortiz_de_rozas,argentina,1,1,0,1,0,0,0,1,1,ureta,peru
+1077,Carmen Dragonetti,de_habich,argentina,1,1,0,1,0,0,0,0,1,,peru
+1144,Catalina Suárez Marcayda,moctezuma,mexico,1,1,0,1,0,0,0,0,1,,colombia
+1172,Celia Podestá,podestá,uruguay,1,1,0,1,0,0,0,0,1,,argentina
+1264,Condado de Villaminaya,portales,chile,1,1,0,1,0,0,0,0,1,,peru
+1336,Daniel Aráoz (gobernador),aráoz,argentina,1,1,0,0,0,1,0,0,1,,peru
+1361,Daphne Dougall,gibson,argentina,1,1,0,1,0,0,0,0,1,,peru
+1713,Enrique Grau Seminario,grau,peru,1,1,0,0,0,1,0,0,1,,colombia
+1988,Federico Pinedo (hijo),pinedo,argentina,1,1,0,0,0,0,1,1,1,bulnes,chile
+2262,Francisco José Madero González,madero,mexico,1,1,0,1,0,0,0,1,1,concha_chile,chile
+2435,Gerard Piqué,de_la_rúa,argentina,1,1,0,0,1,0,0,0,1,,colombia
+2615,Gustavo Madero Muñoz,madero,mexico,1,1,0,1,0,0,0,1,1,bitar,chile
+3046,Jonathan Freudman,velasco_chile,venezuela,1,1,0,1,0,0,0,0,1,,argentina
+3216,José Casimiro de Lavalle y Zugasti,lavalle,peru,1,1,0,0,0,1,0,0,1,,argentina
+3504,Josefa Andrade Berti,troconis,colombia,1,1,0,0,0,1,0,0,1,,venezuela
+3573,Juan Carlos Bistoto,meruane,argentina,1,1,0,1,0,0,0,0,1,,chile
+3724,Juan Pablo Obregón,obregón,colombia,1,1,0,0,1,0,0,1,1,vicuña,chile
+3781,Juan de Tolosa,moctezuma,mexico,1,1,0,1,0,0,0,1,1,pizarro,chile
+3822,Julia Urquidi Illanes,vargas_llosa,bolivia,1,1,0,1,0,0,0,0,1,,peru
+3851,Julio Campero y Aráoz,campero,argentina,1,1,0,0,0,0,1,0,1,,bolivia
+4129,Luis Fermín de Carvajal,carvajal_y_vargas,peru,1,1,0,0,0,1,0,0,1,,chile
+4555,María Ramírez,antúnez,chile,1,1,0,1,0,0,0,0,1,,peru
+4661,Mariano Campero y Ugarte,campero,peru,1,1,0,0,0,1,0,0,1,,argentina
+4724,Mario Ruiz Massieu,ruiz-massieu,mexico,1,1,0,1,0,0,0,1,1,bielsa,argentina
+4750,Marquesado de Solanda,sucre,venezuela,1,1,0,1,0,0,0,0,1,,colombia
+4751,Marquesado de Tejares,portales,chile,1,1,0,1,0,0,0,0,1,,peru
+4906,Miguel Aráoz y Arce,aráoz,peru,1,1,0,0,0,0,1,0,1,,argentina
+5142,Pablo Mouche,saravia,argentina,1,1,0,0,1,0,0,0,1,,uruguay
+5300,Pedro Nolasco Cruz Vergara,cruz_chile,chile,1,1,0,1,0,0,0,1,1,borrero,colombia
+5469,Rafael Santa Cruz (torero),santa_cruz,peru,1,1,0,0,0,0,1,1,1,zea,colombia
+5810,Segundo Cernadas,neyra,argentina,1,1,0,1,0,0,0,0,1,,peru

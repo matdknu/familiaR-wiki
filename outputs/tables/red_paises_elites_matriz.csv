@@ -1,0 +1,8 @@
+from_pais,Chile,Argentina,Colombia,Perú,Ecuador
+Argentina,5,0,0,1,0
+Chile,0,5,1,1,0
+Colombia,3,0,0,1,1
+Uruguay,0,3,0,0,0
+Ecuador,0,0,2,0,0
+Perú,0,2,1,0,0
+México,1,1,0,0,0

@@ -1,0 +1,44 @@
+name,label,familia,pais,ocu,is_virtual,is_seed
+470,Andrés Aylwin,aylwin,chile,Abogado/a,FALSE,FALSE
+664,Arturo Aylwin,aylwin,chile,Abogado/a,FALSE,FALSE
+808,Benjamín Vicuña,aylwin,chile,Empresario/a,FALSE,TRUE
+999,Carlos Menem,yoma,argentina,Abogado/a,FALSE,TRUE
+1000,Carlos Menem Jr.,yoma,argentina,Otro,FALSE,FALSE
+1037,Carlos Menem Jr.,yoma,argentina,Otro,FALSE,FALSE
+1156,Cecilia Bolocco,yoma,chile,Espectáculo/Media,FALSE,TRUE
+1184,China Suárez,aylwin,argentina,Espectáculo/Media,FALSE,TRUE
+3310,José Joaquín Vicuña,vicuña,chile,Otro,FALSE,FALSE
+3897,Julio Vicuña Cifuentes,vicuña,chile,Escritor/a,FALSE,FALSE
+3971,Leonor Oyarzún,aylwin,chile,Otro,FALSE,FALSE
+4208,Luis Vicuña Cifuentes,vicuña,chile,Abogado/a,FALSE,FALSE
+4644,Mariana Aylwin,aylwin,chile,Académico/a,FALSE,FALSE
+4645,Mariana Aylwin,aylwin,chile,Académico/a,FALSE,FALSE
+4791,Martha Meza,yoma,argentina,Académico/a,FALSE,FALSE
+4911,Miguel Aylwin,aylwin,chile,Abogado/a,FALSE,FALSE
+4912,Miguel Aylwin,aylwin,chile,Abogado/a,FALSE,FALSE
+5036,Nicolás Cabré,vicuña,argentina,Espectáculo/Media,FALSE,TRUE
+5174,Pampita,aylwin,argentina,Espectáculo/Media,FALSE,TRUE
+5201,Patricio Aylwin,aylwin,chile,Abogado/a,FALSE,TRUE
+5231,Paz Bascuñán,aylwin,chile,Espectáculo/Media,FALSE,TRUE
+5618,Rodolfo D'Onofrio,yoma,argentina,Empresario/a,FALSE,FALSE
+6165,Zulema Fátima Yoma,yoma,argentina,Otro,FALSE,FALSE
+6168,Zulema Menem,yoma,argentina,Empresario/a,FALSE,FALSE
+6169,Zulema Menem,yoma,argentina,Empresario/a,FALSE,FALSE
+-294,Saúl Menehem y Mohibe Akil,NA,NA,NA,TRUE,FALSE
+-336,Enzo Bolocco Cintolesi Rose Marie Fonck Assler,NA,NA,NA,TRUE,FALSE
+-1114,Manuel Oyarzún Lorca Ana Ivanovic Roccatagliata,NA,NA,NA,TRUE,FALSE
+-1359,Ricardo Camilo Aylwin Fernández Domitila Gajardo Valenzuela,NA,NA,NA,TRUE,FALSE
+-1669,Amín Yoma Chaha Gazal,NA,NA,NA,TRUE,FALSE
+-1832,Antonella Menem,NA,NA,NA,TRUE,FALSE
+-1858,Máximo Menem Bolocco,NA,NA,NA,TRUE,FALSE
+-2433,Carlos Nair Menem,NA,NA,NA,TRUE,FALSE
+-2661,Luca Bertoldi y Malek Pocoví,NA,NA,NA,TRUE,FALSE
+-4372,Carlos Bascuñán Edwards,NA,NA,NA,TRUE,FALSE
+-4417,Antonio Dorrego,NA,NA,NA,TRUE,FALSE
+-4455,Laura Azócar Álvarez,NA,NA,NA,TRUE,FALSE
+-4502,Eugenia Tobal,NA,NA,NA,TRUE,FALSE
+-4551,Roberto García Moritán,NA,NA,NA,TRUE,FALSE
+-4575,Miguel Asensio,NA,NA,NA,TRUE,FALSE
+-4897,Paolo Bertoldi,NA,NA,NA,TRUE,FALSE
+-4910,Amalia Pinetta,NA,NA,NA,TRUE,FALSE
+-4983,Rocio Pardo,NA,NA,NA,TRUE,FALSE

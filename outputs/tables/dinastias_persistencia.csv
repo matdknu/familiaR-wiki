@@ -1,0 +1,737 @@
+familia_norm,primer_miembro,ultimo_miembro,rango_temporal,n_miembros,n_siglos,siglos,paises,n_paises
+borja,1378,1942,564,53,7,"14, 15, 16, 17, 18, 19, 20","colombia, ecuador",2
+ulloa,1415,1961,546,10,3,"15, 19, 20","chile, peru",2
+quintero,1445,1986,541,14,3,"15, 19, 20","colombia, venezuela",2
+leyva,1480,1987,507,19,6,"15, 16, 17, 18, 19, 20","argentina, colombia",2
+o'donnell,1515,1970,455,20,4,"16, 18, 19, 20","argentina, colombia, mexico",3
+olmos,1512,1958,446,11,3,"16, 17, 20",colombia,1
+caicedo,1544,1987,443,40,5,"16, 17, 18, 19, 20","chile, colombia, peru",3
+aliaga,1508,1947,439,5,3,"16, 18, 20",peru,1
+díaz_del_castillo,1495,1923,428,2,2,"15, 20",colombia,1
+niño,1378,1769,391,7,4,"14, 15, 16, 18",colombia,1
+berrío,1527,1913,386,7,3,"16, 19, 20",colombia,1
+arboleda,1597,1978,381,54,5,"16, 17, 18, 19, 20","colombia, ecuador",2
+vergara-azcárate,1612,1992,380,15,4,"17, 18, 19, 20","chile, colombia",2
+portales,1615,1983,368,28,4,"17, 18, 19, 20","chile, peru",2
+campero,1645,1983,338,22,4,"17, 18, 19, 20","argentina, bolivia, chile, peru",4
+pizarro,1446,1780,334,26,4,"15, 16, 17, 18","chile, colombia, peru",3
+galleguillos,1629,1962,333,10,3,"17, 18, 20","chile, peru",2
+vicuña,1666,1989,323,60,4,"17, 18, 19, 20","argentina, chile",2
+cortés_de_monroy,1505,1826,321,8,3,"16, 17, 19",chile,1
+santiago_concha,1667,1988,321,4,3,"17, 18, 20",peru,1
+llosa,1665,1976,311,14,4,"17, 18, 19, 20",peru,1
+garcía-huidobro,1697,2001,304,28,4,"17, 19, 20, 21",chile,1
+carvajal_y_vargas,1611,1914,303,18,4,"17, 18, 19, 20","chile, peru",2
+velasco_chile,1688,1991,303,42,4,"17, 18, 19, 20","argentina, chile, venezuela",3
+montero,1588,1888,300,6,3,"16, 17, 19","chile, peru",2
+mosquera,1661,1960,299,13,4,"17, 18, 19, 20",colombia,1
+sancho_dávila,1523,1818,295,2,2,"16, 19",peru,1
+martín_del_campo,1698,1992,294,9,3,"17, 19, 20",mexico,1
+ortiz_de_rozas,1683,1974,291,16,4,"17, 18, 19, 20",argentina,1
+carrillo_de_albornoz,1671,1959,288,4,3,"17, 18, 20",peru,1
+montt,1709,1996,287,47,3,"18, 19, 20","chile, peru",2
+camacho,1704,1978,274,22,3,"18, 19, 20",colombia,1
+errázuriz,1711,1978,267,66,3,"18, 19, 20",chile,1
+valdés_chile,1727,1992,265,41,3,"18, 19, 20",chile,1
+boza_de_lima,1717,1980,263,6,3,"18, 19, 20","chile, peru",2
+galeano,1505,1767,262,3,2,"16, 18",colombia,1
+lavalle,1734,1994,260,37,3,"18, 19, 20","argentina, peru",2
+torrijos,1704,1962,258,3,3,"18, 19, 20",colombia,1
+belaúnde,1729,1986,257,36,3,"18, 19, 20",peru,1
+valencia,1710,1966,256,18,3,"18, 19, 20",colombia,1
+subercaseaux,1730,1984,254,23,3,"18, 19, 20","argentina, chile",2
+althaus,1723,1974,251,12,3,"18, 19, 20",peru,1
+ponce_de_león,1749,1995,246,12,2,"18, 20","argentina, mexico, peru, uruguay",4
+lozano,1695,1937,242,11,4,"17, 18, 19, 20",colombia,1
+galán,1741,1980,239,17,2,"18, 20",colombia,1
+toro_venezuela,1713,1950,237,28,3,"18, 19, 20",venezuela,1
+candioti,1701,1936,235,11,3,"18, 19, 20",argentina,1
+concha_chile,1760,1995,235,43,3,"18, 19, 20",chile,1
+palacios_venezuela,1726,1960,234,12,3,"18, 19, 20","chile, ecuador, venezuela",3
+madariaga,1724,1957,233,5,2,"18, 20","chile, colombia",2
+pinto_chile,1760,1993,233,48,3,"18, 19, 20","argentina, chile, uruguay",3
+garretón,1714,1943,229,8,3,"18, 19, 20",chile,1
+valdivieso,1747,1975,228,10,3,"18, 19, 20",chile,1
+pueyrredón,1755,1982,227,18,3,"18, 19, 20",argentina,1
+groot,1726,1952,226,10,3,"18, 19, 20",colombia,1
+godoy,1728,1953,225,7,3,"18, 19, 20",argentina,1
+garcía_de_león,1745,1969,224,5,2,"18, 20",mexico,1
+del_solar,1779,2001,222,20,4,"18, 19, 20, 21","colombia, peru",2
+zea,1766,1988,222,10,2,"18, 20",colombia,1
+marcó_del_pont,1738,1959,221,7,2,"18, 20",argentina,1
+videla,1741,1961,220,15,3,"18, 19, 20","argentina, chile",2
+luna,1775,1993,218,18,3,"18, 19, 20",peru,1
+tenorio,1758,1976,218,4,2,"18, 20","colombia, ecuador",2
+bedoya,1763,1980,217,11,3,"18, 19, 20",peru,1
+segurola,1735,1952,217,9,3,"18, 19, 20","argentina, peru",2
+acevedo_colombia,1773,1988,215,14,3,"18, 19, 20",colombia,1
+mackenna,1775,1990,215,23,3,"18, 19, 20",chile,1
+orihuela,1767,1982,215,12,3,"18, 19, 20","argentina, bolivia, peru",3
+bolívar,1569,1783,214,6,3,"16, 17, 18","colombia, venezuela",2
+bulnes,1767,1981,214,21,3,"18, 19, 20",chile,1
+de_la_puente,1724,1938,214,11,3,"18, 19, 20",peru,1
+álvarez_del_casal,1698,1911,213,19,4,"17, 18, 19, 20",colombia,1
+de_valverde,1498,1710,212,4,3,"15, 17, 18",peru,1
+garcía-mansilla,1760,1970,210,17,3,"18, 19, 20",argentina,1
+restrepo,1760,1970,210,29,3,"18, 19, 20","chile, colombia",2
+noboa,1789,1998,209,9,3,"18, 19, 20",ecuador,1
+roca_y_rodríguez,1786,1995,209,8,3,"18, 19, 20","ecuador, peru",2
+vial,1768,1977,209,36,3,"18, 19, 20",chile,1
+ortiz_de_zevallos,1777,1985,208,6,2,"18, 20",peru,1
+pardo,1759,1967,208,8,3,"18, 19, 20","colombia, peru",2
+cruz_chile,1720,1927,207,28,3,"18, 19, 20","argentina, chile",2
+elías-calles,1774,1979,205,9,3,"18, 19, 20",mexico,1
+aráoz,1757,1961,204,15,3,"18, 19, 20","argentina, peru",2
+edwards,1780,1984,204,34,3,"18, 19, 20",chile,1
+gonzález_vigil,1792,1996,204,5,3,"18, 19, 20",peru,1
+ricaurte,1670,1874,204,10,3,"17, 18, 19",colombia,1
+sanz_de_santamaría,1762,1966,204,7,3,"18, 19, 20",colombia,1
+ugarte,1786,1990,204,16,3,"18, 19, 20",peru,1
+azuola,1754,1957,203,7,3,"18, 19, 20",colombia,1
+alarco,1798,2000,202,27,4,"18, 19, 20, 21","chile, peru",2
+warnes,1690,1892,202,10,3,"17, 18, 19","argentina, chile",2
+lander,1787,1988,201,10,3,"18, 19, 20",venezuela,1
+benegas,1775,1975,200,8,3,"18, 19, 20",argentina,1
+rovirosa,1782,1981,199,6,3,"18, 19, 20",mexico,1
+uribe,1782,1981,199,8,3,"18, 19, 20","colombia, peru",2
+cabal,1769,1966,197,15,3,"18, 19, 20","colombia, mexico",2
+cornejo_argentina,1748,1945,197,8,3,"18, 19, 20",argentina,1
+zañartu,1723,1918,195,15,3,"18, 19, 20",chile,1
+freire,1787,1980,193,16,3,"18, 19, 20","chile, peru",2
+sucre,1795,1988,193,10,3,"18, 19, 20","argentina, colombia, ecuador, venezuela",4
+pumarejo,1793,1983,190,9,3,"18, 19, 20",colombia,1
+sarsfield,1655,1845,190,7,2,"17, 19",argentina,1
+balmaceda,1803,1992,189,24,2,"19, 20",chile,1
+barrientos,1794,1983,189,11,3,"18, 19, 20",colombia,1
+obregón,1801,1990,189,8,2,"19, 20",colombia,1
+parís,1746,1935,189,20,3,"18, 19, 20","colombia, venezuela",2
+santos,1782,1971,189,9,3,"18, 19, 20","colombia, ecuador",2
+carreño,1774,1962,188,8,3,"18, 19, 20","colombia, venezuela",2
+gorriti,1766,1953,187,5,3,"18, 19, 20","argentina, bolivia, peru",3
+gálvez,1792,1979,187,10,3,"18, 19, 20",peru,1
+mier_y_terán,1789,1976,187,5,3,"18, 19, 20",mexico,1
+urdaneta,1768,1955,187,17,3,"18, 19, 20","colombia, uruguay, venezuela",3
+ballivián,1774,1960,186,7,3,"18, 19, 20",bolivia,1
+samper,1800,1985,185,27,2,"19, 20","argentina, colombia",2
+elías,1805,1989,184,8,2,"19, 20",peru,1
+llona,1797,1981,184,9,3,"18, 19, 20","ecuador, peru",2
+belgrano,1761,1943,182,14,3,"18, 19, 20","argentina, uruguay",2
+choquehuanca,1792,1974,182,6,2,"18, 20","bolivia, peru",2
+batlle,1773,1954,181,13,3,"18, 19, 20","argentina, uruguay",2
+alvear,1789,1969,180,15,3,"18, 19, 20",argentina,1
+orbegoso,1795,1975,180,6,3,"18, 19, 20",peru,1
+diez_canseco,1789,1968,179,33,3,"18, 19, 20","chile, ecuador, peru",3
+echaurren,1773,1951,178,39,3,"18, 19, 20",chile,1
+mutis,1773,1951,178,7,3,"18, 19, 20",colombia,1
+borrero,1790,1967,177,35,3,"18, 19, 20","argentina, chile, colombia, ecuador",4
+arroyo,1764,1939,175,8,3,"18, 19, 20",colombia,1
+calderón_colombia,1815,1990,175,22,2,"19, 20",colombia,1
+mendoza_ladrón_de_guevara,1797,1971,174,5,2,"18, 20","chile, peru",2
+cisneros,1803,1976,173,20,2,"19, 20",peru,1
+garcía_granados,1796,1969,173,8,3,"18, 19, 20",mexico,1
+pombo,1779,1952,173,3,2,"18, 20",colombia,1
+riva_palacio,1803,1975,172,8,2,"19, 20",mexico,1
+mariátegui,1793,1964,171,13,3,"18, 19, 20",peru,1
+melgar,1802,1973,171,6,2,"19, 20",peru,1
+ferreyros,1793,1963,170,13,3,"18, 19, 20",peru,1
+sanfuentes,1817,1987,170,16,2,"19, 20",chile,1
+echenique,1823,1992,169,13,2,"19, 20","chile, peru",2
+galvis_galavís,1784,1953,169,6,3,"18, 19, 20",colombia,1
+rincón,1782,1951,169,4,3,"18, 19, 20",peru,1
+claro_chile,1804,1972,168,13,2,"19, 20",chile,1
+osma,1820,1988,168,14,2,"19, 20",peru,1
+piñera,1786,1954,168,3,2,"18, 20","chile, peru",2
+santa_cruz,1792,1960,168,5,2,"18, 20",peru,1
+fernandini,1799,1966,167,3,3,"18, 19, 20",peru,1
+moreyra,1768,1935,167,4,3,"18, 19, 20",peru,1
+puch,1785,1952,167,8,3,"18, 19, 20",argentina,1
+pinedo,1789,1955,166,5,3,"18, 19, 20",argentina,1
+salaverry,1806,1972,166,4,2,"19, 20",peru,1
+álvarez_calderón,1811,1977,166,22,2,"19, 20",peru,1
+güemes,1779,1944,165,11,3,"18, 19, 20",argentina,1
+málaga,1825,1990,165,16,2,"19, 20",peru,1
+sanclemente,1813,1978,165,4,2,"19, 20",colombia,1
+de_greiff,1793,1956,163,6,3,"18, 19, 20",colombia,1
+paz,1767,1930,163,20,3,"18, 19, 20","argentina, peru",2
+ureta,1813,1976,163,5,2,"19, 20",peru,1
+billinghurst,1810,1972,162,7,2,"19, 20","argentina, peru",2
+ortiz_basualdo,1769,1931,162,10,3,"18, 19, 20",argentina,1
+caro,1806,1966,160,15,2,"19, 20",colombia,1
+peralta_ramos,1814,1974,160,4,2,"19, 20",argentina,1
+ospina,1801,1959,158,32,2,"19, 20","colombia, venezuela",2
+paz_soldán,1809,1967,158,10,2,"19, 20","bolivia, peru",2
+zegers_chile,1800,1958,158,13,2,"19, 20",chile,1
+gonzález_de_cosío,1799,1956,157,11,3,"18, 19, 20",mexico,1
+sarmiento,1777,1934,157,6,3,"18, 19, 20",argentina,1
+de_los_heros,1783,1939,156,5,3,"18, 19, 20",peru,1
+díaz_granados,1830,1986,156,4,2,"19, 20","colombia, ecuador",2
+lópez-portillo,1818,1974,156,9,2,"19, 20",mexico,1
+álvarez_de_toledo_argentina,1826,1982,156,7,2,"19, 20",argentina,1
+arenas,1790,1944,154,8,3,"18, 19, 20",peru,1
+farías,1807,1961,154,7,2,"19, 20",mexico,1
+lerdo_de_tejada,1812,1966,154,7,2,"19, 20",mexico,1
+tovar,1813,1967,154,5,2,"19, 20",venezuela,1
+valcárcel,1850,2004,154,10,3,"19, 20, 21",peru,1
+argáez,1774,1927,153,8,3,"18, 19, 20",colombia,1
+arrubla,1800,1953,153,4,2,"19, 20",colombia,1
+holmberg,1778,1931,153,5,3,"18, 19, 20",argentina,1
+ibáñez_colombia,1805,1958,153,4,2,"19, 20",colombia,1
+matta,1802,1955,153,10,2,"19, 20",chile,1
+rebagliati,1843,1996,153,4,2,"19, 20",peru,1
+cruzat,1845,1997,152,8,2,"19, 20",chile,1
+hidalgo_y_costilla,1753,1904,151,4,3,"18, 19, 20",mexico,1
+lleras,1811,1962,151,20,2,"19, 20",colombia,1
+zaldívar,1824,1975,151,10,2,"19, 20",chile,1
+anchorena,1783,1933,150,10,3,"18, 19, 20",argentina,1
+herrán,1797,1947,150,5,2,"18, 20",colombia,1
+montes_de_oca,1794,1944,150,8,3,"18, 19, 20",argentina,1
+zuviría,1770,1920,150,13,3,"18, 19, 20","argentina, bolivia",2
+díaz_ordaz,1822,1971,149,6,2,"19, 20",mexico,1
+lópez,1809,1958,149,21,2,"19, 20",colombia,1
+ramos_mejía,1769,1918,149,4,3,"18, 19, 20",argentina,1
+seoane_heredia,1808,1957,149,9,2,"19, 20",peru,1
+benavides_perú,1822,1970,148,17,2,"19, 20",peru,1
+manrique,1547,1695,148,4,2,"16, 17",colombia,1
+sodi,1838,1986,148,13,2,"19, 20",mexico,1
+villa_michel,1786,1933,147,9,3,"18, 19, 20",mexico,1
+cordovéz,1783,1929,146,5,3,"18, 19, 20","chile, colombia",2
+denegri,1840,1986,146,5,2,"19, 20",peru,1
+escalada_(de_burgos),1762,1908,146,4,3,"18, 19, 20","argentina, uruguay",2
+pinochet,1831,1977,146,20,2,"19, 20",chile,1
+walker_chile,1841,1987,146,13,2,"19, 20",chile,1
+álzaga,1755,1901,146,12,3,"18, 19, 20",argentina,1
+canaveris,1748,1893,145,8,2,"18, 19",argentina,1
+lanusse,1820,1965,145,7,2,"19, 20",argentina,1
+ugarteche,1804,1949,145,4,2,"19, 20","argentina, peru",2
+durán_colombia,1798,1942,144,8,3,"18, 19, 20",colombia,1
+maciel,1690,1834,144,8,3,"17, 18, 19","argentina, chile",2
+schmidt,1834,1978,144,11,2,"19, 20",chile,1
+uriburu,1805,1949,144,13,2,"19, 20",argentina,1
+villarán,1840,1984,144,10,2,"19, 20",peru,1
+alsogaray,1809,1952,143,6,2,"19, 20",argentina,1
+monckeberg,1839,1982,143,10,2,"19, 20",chile,1
+bello,1781,1923,142,13,3,"18, 19, 20",chile,1
+rincón-gallardo,1834,1976,142,4,2,"19, 20",mexico,1
+cavada,1826,1967,141,8,2,"19, 20",chile,1
+eléspuru,1783,1924,141,6,3,"18, 19, 20",peru,1
+wiesner,1763,1904,141,4,2,"18, 20",colombia,1
+cuervo,1801,1941,140,11,2,"19, 20",colombia,1
+garcía_de_zúñiga,1727,1867,140,11,2,"18, 19","argentina, chile, colombia, uruguay",4
+holguín,1823,1963,140,20,2,"19, 20",colombia,1
+mujica,1826,1966,140,12,2,"19, 20",peru,1
+amez,1837,1976,139,8,2,"19, 20",peru,1
+mateos,1818,1957,139,8,2,"19, 20",mexico,1
+ribeyro,1810,1949,139,5,2,"19, 20",peru,1
+alzamora,1847,1985,138,11,2,"19, 20",peru,1
+eguiguren,1815,1953,138,13,2,"19, 20","ecuador, peru",2
+roca,1810,1948,138,4,2,"19, 20",argentina,1
+álvarez_de_arenales,1770,1908,138,12,3,"18, 19, 20",argentina,1
+eder,1838,1975,137,2,2,"19, 20",colombia,1
+febres-cordero,1797,1934,137,8,3,"18, 19, 20","ecuador, venezuela",2
+carranza,1813,1949,136,18,2,"19, 20",mexico,1
+lópez_carrillo,1792,1928,136,15,3,"18, 19, 20","argentina, paraguay",2
+ocampo,1827,1963,136,10,2,"19, 20","argentina, peru",2
+philippi,1808,1944,136,6,2,"19, 20",chile,1
+rospigliosi,1829,1965,136,5,2,"19, 20",peru,1
+santamarina,1827,1963,136,7,2,"19, 20",argentina,1
+troconis,1840,1976,136,5,2,"19, 20","colombia, venezuela",2
+grau,1799,1934,135,6,3,"18, 19, 20","colombia, peru",2
+saravia,1852,1987,135,12,2,"19, 20","argentina, uruguay",2
+urtubey,1840,1975,135,5,2,"19, 20",argentina,1
+matte,1847,1981,134,42,2,"19, 20",chile,1
+polar,1809,1943,134,10,2,"19, 20",peru,1
+díaz_de_león,1851,1984,133,6,2,"19, 20",mexico,1
+larrabure,1844,1976,132,3,2,"19, 20",peru,1
+obligado,1818,1950,132,7,2,"19, 20",argentina,1
+varela,1794,1926,132,16,3,"18, 19, 20","argentina, peru, uruguay",3
+villegas,1761,1893,132,9,2,"18, 19",argentina,1
+cano,1854,1985,131,13,2,"19, 20","colombia, peru",2
+estenssoro,1827,1958,131,5,2,"19, 20","argentina, bolivia",2
+guillermoprieto,1818,1949,131,2,2,"19, 20",mexico,1
+gómez_farías,1781,1912,131,3,3,"18, 19, 20",mexico,1
+cousiño,1808,1938,130,10,2,"19, 20",chile,1
+rocha,1708,1838,130,8,2,"18, 19",argentina,1
+bustamante,1831,1960,129,10,2,"19, 20","chile, peru",2
+de_la_espriella,1852,1981,129,10,2,"19, 20",colombia,1
+lugones,1796,1925,129,5,3,"18, 19, 20",argentina,1
+saguier,1832,1960,128,4,2,"19, 20","argentina, paraguay",2
+barrenechea_chile,1857,1984,127,5,2,"19, 20",chile,1
+allende,1845,1971,126,20,2,"19, 20",chile,1
+balcarce,1728,1854,126,23,2,"18, 19",argentina,1
+creel-terrazas,1829,1954,125,6,2,"19, 20",mexico,1
+díaz_lombardo,1867,1992,125,6,2,"19, 20",mexico,1
+morales_bermúdez,1822,1947,125,4,2,"19, 20",peru,1
+nariño,1766,1891,125,8,2,"18, 19",colombia,1
+schreiber,1825,1949,124,5,2,"19, 20",peru,1
+acuña_argentina,1778,1901,123,9,3,"18, 19, 20",argentina,1
+del_carril,1798,1921,123,8,3,"18, 19, 20","argentina, chile",2
+guarello,1866,1989,123,6,2,"19, 20",chile,1
+trelles,1830,1953,123,4,2,"19, 20",peru,1
+alpoim,1568,1690,122,3,2,"16, 17",argentina,1
+garcía_y_garcía,1832,1954,122,12,2,"19, 20",peru,1
+miró_quesada,1875,1997,122,22,2,"19, 20","mexico, peru, uruguay",3
+saavedra,1821,1943,122,8,2,"19, 20","argentina, chile, uruguay",3
+sáenz_peña,1822,1944,122,3,2,"19, 20",argentina,1
+astete,1832,1952,120,5,2,"19, 20",peru,1
+barco,1858,1978,120,6,2,"19, 20",colombia,1
+barraquer,1834,1954,120,12,2,"19, 20",colombia,1
+de_habich,1835,1955,120,7,2,"19, 20","argentina, peru",2
+reyes_spíndola,1860,1980,120,4,2,"19, 20",mexico,1
+ortiz_monasterio,1849,1968,119,5,2,"19, 20",mexico,1
+zavala,1853,1971,118,4,2,"19, 20",peru,1
+amunátegui,1828,1945,117,11,2,"19, 20",chile,1
+bolognesi,1775,1892,117,7,2,"18, 19",peru,1
+gandarillas,1788,1905,117,10,3,"18, 19, 20",chile,1
+dávila,1857,1973,116,8,2,"19, 20",colombia,1
+malo,1881,1996,115,3,2,"19, 20",mexico,1
+prado,1825,1940,115,10,2,"19, 20",peru,1
+de_la_torre,1834,1948,114,6,2,"19, 20",peru,1
+casas,1840,1953,113,5,2,"19, 20",colombia,1
+esguerra,1838,1951,113,7,2,"19, 20",colombia,1
+pérez_gavilán,1856,1969,113,3,2,"19, 20",mexico,1
+aramburú,1845,1956,111,10,2,"19, 20",peru,1
+camargo,1865,1976,111,11,2,"19, 20","chile, colombia",2
+avellaneda,1786,1896,110,8,2,"18, 19",argentina,1
+gonzález_del_valle,1852,1962,110,3,2,"19, 20",mexico,1
+angulo,1813,1922,109,4,2,"19, 20",colombia,1
+illia,1861,1970,109,5,2,"19, 20",argentina,1
+lópez-dóriga,1854,1963,109,11,2,"19, 20",mexico,1
+rodríguez_saá,1876,1984,108,6,2,"19, 20",argentina,1
+salazar_y_muñatones,1669,1777,108,6,2,"17, 18",peru,1
+jaramillo_colombia,1815,1922,107,9,2,"19, 20",colombia,1
+llaca,1880,1987,107,5,2,"19, 20",mexico,1
+monagas,1747,1854,107,6,2,"18, 19",venezuela,1
+concha,1785,1891,106,4,2,"18, 19","argentina, colombia",2
+echagüe,1753,1859,106,2,2,"18, 19",argentina,1
+madero,1849,1955,106,10,2,"19, 20",mexico,1
+soler,1881,1987,106,14,2,"19, 20","argentina, mexico",2
+laserna,1873,1978,105,11,2,"19, 20",colombia,1
+onassis,1888,1993,105,23,2,"19, 20",argentina,1
+remírez_de_laredo,1682,1787,105,5,2,"17, 18",peru,1
+gutiérrez_zamora,1813,1917,104,2,2,"19, 20",mexico,1
+lafinur,1797,1901,104,8,3,"18, 19, 20","argentina, uruguay",2
+león-velarde,1852,1956,104,5,2,"19, 20",peru,1
+aylwin,1889,1992,103,12,2,"19, 20","argentina, chile",2
+garcía_calderón,1834,1937,103,5,2,"19, 20",peru,1
+larco,1830,1933,103,9,2,"19, 20",peru,1
+leguía,1859,1962,103,6,2,"19, 20",peru,1
+lezica,1709,1812,103,3,2,"18, 19",argentina,1
+seminario,1765,1868,103,8,2,"18, 19",peru,1
+martínez_de_hoz,1823,1925,102,5,2,"19, 20",argentina,1
+bunge,1837,1938,101,15,2,"19, 20",argentina,1
+salgar,1827,1928,101,3,2,"19, 20",colombia,1
+vázquez-mellado,1881,1982,101,3,2,"19, 20",mexico,1
+garcía_icazbalceta,1810,1910,100,6,2,"19, 20",mexico,1
+yerovi,1881,1980,99,4,2,"19, 20","ecuador, peru",2
+graña,1878,1976,98,6,2,"19, 20",peru,1
+orbegozo,1811,1909,98,2,2,"19, 20",colombia,1
+portocarrero_perú,1859,1957,98,10,2,"19, 20",peru,1
+samanez,1838,1936,98,3,2,"19, 20",peru,1
+rodríguez_larreta,1868,1965,97,9,2,"19, 20","argentina, uruguay",2
+wills,1887,1984,97,4,2,"19, 20",colombia,1
+cházaro,1878,1974,96,4,2,"19, 20",mexico,1
+lavín,1883,1979,96,16,2,"19, 20",chile,1
+cafferata,1834,1929,95,5,2,"19, 20","argentina, peru",2
+estrada,1840,1935,95,5,2,"19, 20",argentina,1
+león_barandiarán,1866,1961,95,10,2,"19, 20",peru,1
+mallarino,1868,1963,95,5,2,"19, 20",colombia,1
+estrada_ecuador,1855,1949,94,7,2,"19, 20",ecuador,1
+fortabat,1882,1976,94,7,2,"19, 20",argentina,1
+lebaron,1886,1980,94,5,2,"19, 20",mexico,1
+lemos,1901,1995,94,6,1,20,colombia,1
+llinás,1903,1997,94,4,1,20,colombia,1
+portugal,1858,1952,94,4,2,"19, 20",peru,1
+olaechea,1839,1932,93,7,2,"19, 20",peru,1
+chaux,1899,1991,92,5,2,"19, 20","chile, colombia",2
+perón,1839,1931,92,6,2,"19, 20",argentina,1
+azcuénaga,1717,1808,91,10,2,"18, 19",argentina,1
+bolaños_cacho,1897,1988,91,12,2,"19, 20",mexico,1
+bullrich,1865,1956,91,11,2,"19, 20","argentina, uruguay",2
+gonzález-olaechea,1867,1958,91,5,2,"19, 20",peru,1
+pinal_hidalgo,1906,1997,91,26,1,20,"argentina, mexico",2
+freundt,1895,1985,90,4,2,"19, 20",peru,1
+morandé,1868,1958,90,11,2,"19, 20",chile,1
+podestá,1825,1915,90,23,2,"19, 20","argentina, uruguay",2
+yankelevich,1894,1984,90,7,2,"19, 20",argentina,1
+aguilar,1914,2003,89,16,2,"20, 21",mexico,1
+iturbide,1774,1863,89,12,2,"18, 19","chile, mexico",2
+jiménez_de_lobatón,1634,1723,89,3,2,"17, 18",peru,1
+chadwick,1887,1975,88,14,2,"19, 20",chile,1
+gnecco,1895,1983,88,17,2,"19, 20",colombia,1
+gutiérrez_díaz,1756,1844,88,4,2,"18, 19",colombia,1
+taboada,1733,1821,88,4,2,"18, 19",argentina,1
+yábar,1840,1928,88,7,2,"19, 20",peru,1
+basadre,1816,1903,87,6,2,"19, 20",peru,1
+blanco,1847,1934,87,6,2,"19, 20",uruguay,1
+rojas,1900,1987,87,8,1,20,colombia,1
+garcés,1891,1977,86,14,2,"19, 20",colombia,1
+elmore,1805,1890,85,5,1,19,peru,1
+heber,1872,1957,85,6,2,"19, 20",uruguay,1
+durand,1870,1954,84,6,2,"19, 20",peru,1
+mansilla,1831,1915,84,2,2,"19, 20",argentina,1
+alayza,1876,1958,82,8,2,"19, 20",peru,1
+alemán,1884,1966,82,8,2,"19, 20",mexico,1
+capriles,1907,1989,82,7,1,20,venezuela,1
+de_la_rúa,1905,1987,82,7,1,20,"argentina, colombia",2
+gómez,1886,1968,82,11,2,"19, 20",colombia,1
+robles_arnao,1794,1876,82,4,2,"18, 19",peru,1
+cámpora,1909,1990,81,3,1,20,argentina,1
+garza_sada,1853,1934,81,8,2,"19, 20",mexico,1
+gómez-robledo,1908,1989,81,3,1,20,mexico,1
+otálora,1729,1810,81,15,2,"18, 19",argentina,1
+quintana,1810,1891,81,4,1,19,argentina,1
+robles,1871,1952,81,3,2,"19, 20",peru,1
+echavarría,1859,1939,80,9,2,"19, 20",colombia,1
+mitre,1821,1901,80,7,2,"19, 20",argentina,1
+pavlovsky,1853,1933,80,7,2,"19, 20",argentina,1
+piérola,1788,1868,80,6,2,"18, 19",peru,1
+caballero,1869,1948,79,10,2,"19, 20",colombia,1
+lópez_negrete,1892,1971,79,8,2,"19, 20",mexico,1
+torres_landa,1911,1990,79,3,1,20,mexico,1
+brigard,1848,1926,78,6,2,"19, 20",colombia,1
+gutiérrez_nájera,1816,1894,78,3,1,19,mexico,1
+tamayo_perú,1875,1953,78,5,2,"19, 20",peru,1
+azcárraga,1895,1972,77,7,2,"19, 20",mexico,1
+o'gorman,1749,1825,76,7,2,"18, 19",argentina,1
+roca_rey,1920,1996,76,3,1,20,peru,1
+"rodríguez_(san_luis,_argentina)",1831,1907,76,5,2,"19, 20",argentina,1
+valdés,1915,1991,76,11,1,20,mexico,1
+berckemeyer,1904,1978,74,2,1,20,peru,1
+braun,1903,1977,74,6,1,20,argentina,1
+de_rosenzweig_díaz,1812,1886,74,2,1,19,mexico,1
+ibáñez,1880,1954,74,7,2,"19, 20",chile,1
+pellegrini,1800,1874,74,3,1,19,argentina,1
+riva_agüero,1783,1857,74,6,2,"18, 19",peru,1
+thorne,1881,1955,74,4,2,"19, 20",peru,1
+vodanovic,1916,1990,74,6,1,20,chile,1
+alegría,1909,1982,73,7,1,20,"chile, peru",2
+frigerio,1914,1987,73,4,1,20,argentina,1
+panizo,1804,1877,73,3,1,19,peru,1
+tristán_del_pozo,1768,1841,73,7,2,"18, 19",peru,1
+astigueta,1850,1922,72,4,2,"19, 20",argentina,1
+cullen,1791,1863,72,4,2,"18, 19",argentina,1
+silva_herzog,1893,1965,72,3,2,"19, 20",mexico,1
+thorndike,1903,1975,72,4,1,20,peru,1
+bordaberry,1889,1960,71,5,2,"19, 20",uruguay,1
+cantilo,1816,1887,71,3,1,19,argentina,1
+del_mazo,1904,1975,71,4,1,20,mexico,1
+di_tella,1892,1963,71,6,2,"19, 20",argentina,1
+porras,1826,1897,71,5,1,19,peru,1
+químper,1757,1828,71,2,2,"18, 19",peru,1
+san_martín,1728,1799,71,8,1,18,argentina,1
+allamand,1911,1981,70,7,1,20,chile,1
+cantoni-bravo,1890,1960,70,5,2,"19, 20",argentina,1
+escalada,1749,1819,70,4,2,"18, 19",argentina,1
+rojo,1780,1850,70,9,2,"18, 19",argentina,1
+bielsa,1889,1958,69,4,2,"19, 20",argentina,1
+cambaceres,1828,1897,69,8,1,19,argentina,1
+cárdenas,1895,1964,69,7,2,"19, 20",mexico,1
+guerrero,1921,1990,69,8,1,20,mexico,1
+kast,1924,1993,69,14,1,20,chile,1
+ortiz_mena,1900,1969,69,5,1,20,mexico,1
+petro,1933,2002,69,5,2,"20, 21",colombia,1
+araníbar,1767,1835,68,2,2,"18, 19",peru,1
+augier,1758,1826,68,4,2,"18, 19",argentina,1
+cisneros_venezuela,1911,1979,68,4,1,20,venezuela,1
+díaz_ceballos,1901,1968,67,7,1,20,mexico,1
+gómez-mont,1916,1983,67,5,1,20,mexico,1
+boulton_venezuela,1908,1974,66,4,1,20,venezuela,1
+carrizosa,1869,1935,66,6,2,"19, 20",colombia,1
+garrido-lecca,1926,1992,66,4,1,20,peru,1
+moctezuma,1466,1532,66,6,2,"15, 16","colombia, mexico",2
+alva,1927,1992,65,6,1,20,peru,1
+baillères,1895,1960,65,3,2,"19, 20",mexico,1
+drago,1923,1988,65,8,1,20,peru,1
+pinasco,1921,1986,65,6,1,20,peru,1
+van_rysselberghe,1911,1976,65,4,1,20,chile,1
+alemann,1893,1957,64,6,2,"19, 20",argentina,1
+chávez,1933,1997,64,16,1,20,venezuela,1
+mendiburu,1805,1869,64,3,1,19,peru,1
+reyes,1785,1849,64,3,2,"18, 19",colombia,1
+ross_argentina,1733,1797,64,2,1,18,argentina,1
+roel,1921,1984,63,3,1,20,peru,1
+blanco_venezuela,1801,1863,62,3,1,19,"colombia, venezuela",2
+carvajal,1851,1913,62,2,2,"19, 20",colombia,1
+derbez,1930,1992,62,14,1,20,mexico,1
+di_girolamo,1928,1990,62,16,1,20,chile,1
+duque,1916,1978,62,6,1,20,colombia,1
+santa_maría,1792,1854,62,6,2,"18, 19",chile,1
+solari_argentina,1941,2003,62,9,2,"20, 21",argentina,1
+villegas_colombia,1818,1880,62,4,1,19,colombia,1
+baldrich,1865,1926,61,4,2,"19, 20",argentina,1
+beingolea,1820,1881,61,3,1,19,peru,1
+brown,1777,1838,61,5,2,"18, 19",argentina,1
+bunster,1905,1966,61,6,1,20,chile,1
+echandía,1897,1958,61,4,2,"19, 20",colombia,1
+feliú,1932,1993,61,3,1,20,chile,1
+justo,1841,1902,61,6,2,"19, 20",argentina,1
+luksic,1926,1987,61,6,1,20,chile,1
+sapag,1911,1972,61,11,1,20,argentina,1
+snopek,1914,1975,61,6,1,20,argentina,1
+tohá,1927,1988,61,9,1,20,chile,1
+tola,1914,1975,61,4,1,20,peru,1
+yarur,1894,1955,61,4,2,"19, 20",chile,1
+balta,1806,1866,60,5,1,19,peru,1
+durand_argentina,1916,1976,60,4,1,20,argentina,1
+frei,1911,1971,60,9,1,20,chile,1
+guevara,1900,1960,60,8,1,20,"argentina, peru",2
+saadi,1913,1973,60,6,1,20,argentina,1
+vaca_narvaja,1915,1975,60,4,1,20,argentina,1
+amador,1810,1869,59,6,1,19,colombia,1
+blaquier,1927,1986,59,5,1,20,argentina,1
+fernández_de_jáuregui,1814,1873,59,2,1,19,mexico,1
+galilea,1921,1980,59,6,1,20,chile,1
+rodríguez_pastor,1900,1959,59,5,1,20,peru,1
+salinas,1917,1976,59,6,1,20,mexico,1
+vásquez,1902,1961,59,3,1,20,peru,1
+char,1935,1993,58,10,1,20,colombia,1
+fernández_veraud,1908,1966,58,5,1,20,mexico,1
+odriozola,1804,1862,58,3,1,19,peru,1
+ayerbe,1864,1921,57,4,2,"19, 20",colombia,1
+botana,1888,1945,57,6,2,"19, 20",argentina,1
+cafiero,1922,1979,57,4,1,20,argentina,1
+gonzález_rojo,1871,1928,57,3,2,"19, 20",mexico,1
+rocca,1895,1952,57,3,2,"19, 20",argentina,1
+calderón_hinojosa,1911,1967,56,5,1,20,mexico,1
+etcheberry,1931,1987,56,5,1,20,chile,1
+moreno_valle,1917,1973,56,3,1,20,mexico,1
+noble,1896,1952,56,4,2,"19, 20",argentina,1
+parra_chile,1914,1970,56,18,1,20,chile,1
+veloso,1927,1983,56,4,1,20,chile,1
+werthein,1911,1967,56,3,1,20,argentina,1
+bachelet,1923,1978,55,5,1,20,chile,1
+daract,1807,1862,55,5,1,19,argentina,1
+fernández-maldonado,1922,1977,55,2,1,20,peru,1
+guízar,1878,1933,55,9,2,"19, 20","bolivia, mexico",2
+hales,1923,1978,55,3,1,20,chile,1
+loret_de_mola,1921,1976,55,5,1,20,"mexico, peru",2
+muñoz_ledo,1928,1983,55,4,1,20,mexico,1
+salazar_y_meléndez,1913,1968,55,8,1,20,"argentina, peru",2
+silva_santisteban,1908,1963,55,6,1,20,peru,1
+vargas_llosa,1926,1981,55,12,1,20,"bolivia, peru",2
+flores_magón,1823,1877,54,5,1,19,mexico,1
+posse,1785,1839,54,4,2,"18, 19",argentina,1
+prieto,1889,1943,54,3,2,"19, 20",chile,1
+sierra_méndez,1798,1852,54,5,2,"18, 19",mexico,1
+umaña,1899,1953,54,6,2,"19, 20",colombia,1
+more,1836,1889,53,2,1,19,peru,1
+bracho,1898,1950,52,7,2,"19, 20",mexico,1
+revueltas_sánchez,1899,1951,52,7,2,"19, 20",mexico,1
+di_palma,1944,1995,51,7,1,20,argentina,1
+fernández_chicarro,1865,1916,51,3,2,"19, 20",mexico,1
+gibson,1885,1936,51,6,2,"19, 20","argentina, peru",2
+gómez_venezuela,1857,1908,51,5,2,"19, 20",venezuela,1
+reátegui,1944,1995,51,5,1,20,peru,1
+corcuera,1917,1967,50,3,1,20,peru,1
+cruz-coke,1923,1973,50,7,1,20,chile,1
+maza,1779,1829,50,7,2,"18, 19",argentina,1
+sabattini,1892,1942,50,6,2,"19, 20",argentina,1
+sánchez_de_bustamante,1778,1828,50,4,2,"18, 19",argentina,1
+vértiz,1941,1991,50,6,1,20,"argentina, peru",2
+frayssinet,1947,1995,48,7,1,20,"argentina, peru",2
+oneto,1929,1977,48,3,1,20,peru,1
+acuña,1950,1997,47,9,1,20,peru,1
+bichir,1926,1973,47,8,1,20,mexico,1
+cayo,1951,1998,47,7,1,20,peru,1
+cueto_caballero,1913,1960,47,5,1,20,peru,1
+acosta,1818,1864,46,2,1,19,venezuela,1
+allende_argentina,1742,1788,46,5,1,18,argentina,1
+borensztein,1925,1971,46,7,1,20,argentina,1
+capetillo,1926,1972,46,6,1,20,mexico,1
+díaz_vélez,1773,1819,46,6,2,"18, 19",argentina,1
+ochagavía,1928,1974,46,2,1,20,chile,1
+yoma,1930,1976,46,13,1,20,"argentina, chile",2
+benavides_chile,1912,1957,45,4,1,20,chile,1
+chirinos,1930,1975,45,4,1,20,peru,1
+díaz,1828,1873,45,9,1,19,mexico,1
+gonzález_torres,1942,1987,45,6,1,20,mexico,1
+humala,1931,1976,45,8,1,20,peru,1
+awada,1930,1974,44,5,1,20,argentina,1
+prebisch,1886,1930,44,4,2,"19, 20",argentina,1
+wiesse,1954,1998,44,2,1,20,peru,1
+menem,1932,1975,43,4,1,20,argentina,1
+meruane,1927,1970,43,4,1,20,"argentina, chile",2
+sabato,1904,1947,43,7,1,20,argentina,1
+undurraga,1911,1954,43,5,1,20,chile,1
+caputo,1943,1985,42,4,1,20,argentina,1
+fujimori,1938,1980,42,5,1,20,peru,1
+saá,1818,1860,42,3,1,19,argentina,1
+tito,1491,1532,41,2,2,"15, 16",peru,1
+trivelli,1913,1954,41,3,1,20,chile,1
+turbay,1930,1971,41,7,1,20,colombia,1
+gastañeta,1872,1912,40,3,2,"19, 20",peru,1
+mantilla,1944,1984,40,2,1,20,peru,1
+neyra,1950,1990,40,11,1,20,"argentina, peru",2
+puyana,1904,1944,40,3,1,20,colombia,1
+pérez_treviño,1890,1930,40,3,2,"19, 20","mexico, peru",2
+uricoechea,1794,1834,40,3,2,"18, 19",colombia,1
+barreda,1847,1886,39,3,1,19,peru,1
+ferrero,1907,1946,39,6,1,20,peru,1
+fontbona,1926,1965,39,5,1,20,chile,1
+romero_feris,1914,1953,39,8,1,20,argentina,1
+velarde,1817,1856,39,2,1,19,peru,1
+acurio,1930,1968,38,5,1,20,peru,1
+pérez_companc,1934,1972,38,2,1,20,argentina,1
+castro_taboada,1828,1865,37,3,1,19,peru,1
+garcía_godos,1844,1881,37,2,1,19,peru,1
+gómez_martínez,1897,1934,37,2,2,"19, 20",colombia,1
+moure,1931,1968,37,3,1,20,colombia,1
+ayala,1761,1797,36,4,1,18,colombia,1
+coronel_méxico,1954,1990,36,8,1,20,mexico,1
+scheck,1893,1929,36,4,2,"19, 20",uruguay,1
+soria,1949,1985,36,4,1,20,argentina,1
+cerrón,1937,1972,35,6,1,20,peru,1
+cock,1871,1906,35,4,2,"19, 20",colombia,1
+cueto,1929,1964,35,3,1,20,chile,1
+escobar_gaviria,1942,1977,35,7,1,20,colombia,1
+gómez_maganda,1910,1945,35,2,1,20,mexico,1
+jara_saguier,1930,1965,35,7,1,20,paraguay,1
+jattin,1938,1973,35,8,1,20,colombia,1
+piraquive,1934,1969,35,4,1,20,colombia,1
+urteaga,1875,1910,35,3,2,"19, 20",peru,1
+zuleta_colombia,1864,1899,35,2,1,19,colombia,1
+angelini,1914,1948,34,3,1,20,chile,1
+maduro,1956,1990,34,4,1,20,venezuela,1
+pachón,1944,1978,34,4,1,20,colombia,1
+romero,1936,1970,34,3,1,20,peru,1
+solari,1914,1948,34,4,1,20,peru,1
+baduel,1955,1988,33,3,1,20,venezuela,1
+cabello,1959,1992,33,8,1,20,venezuela,1
+fontaine,1921,1954,33,6,1,20,chile,1
+ruiz-tagle,1920,1953,33,4,1,20,chile,1
+castelli,1764,1796,32,3,1,18,argentina,1
+cáceres_velásquez,1929,1961,32,4,1,20,peru,1
+dibós,1946,1978,32,4,1,20,peru,1
+nazar,1784,1816,32,3,2,"18, 19",argentina,1
+sieburger,1892,1924,32,4,2,"19, 20",argentina,1
+simeone,1970,2002,32,4,2,"20, 21",argentina,1
+álvarez_del_castillo,1891,1923,32,2,2,"19, 20",mexico,1
+coni,1855,1886,31,3,1,19,argentina,1
+eastman,1936,1967,31,2,1,20,colombia,1
+fontaina,1900,1931,31,4,1,20,uruguay,1
+kirchner,1946,1977,31,4,1,20,argentina,1
+pérez-jácome,1936,1967,31,2,1,20,mexico,1
+reyes_heroles,1921,1952,31,2,1,20,mexico,1
+slim,1940,1971,31,3,1,20,mexico,1
+tobar,1772,1803,31,2,2,"18, 19",venezuela,1
+del_río,1812,1842,30,2,1,19,peru,1
+mac_allister,1968,1998,30,4,1,20,argentina,1
+mera_figueroa,1940,1970,30,2,1,20,argentina,1
+tagle_bracho,1684,1714,30,3,2,"17, 18",peru,1
+virasoro,1812,1842,30,3,1,19,argentina,1
+yunes,1952,1982,30,6,1,20,mexico,1
+bulgheroni,1943,1972,29,3,1,20,argentina,1
+güiraldes,1857,1886,29,3,1,19,argentina,1
+medina_mora,1951,1980,29,3,1,20,mexico,1
+noriega,1956,1985,29,2,1,20,peru,1
+pérez_manosalva,1828,1857,29,4,1,19,colombia,1
+torrico,1804,1833,29,4,1,19,peru,1
+abal_medina,1940,1968,28,5,1,20,argentina,1
+falú,1923,1951,28,4,1,20,argentina,1
+herrera_salcedo,1870,1898,28,2,1,19,mexico,1
+lópez-rayón,1754,1782,28,6,1,18,mexico,1
+macri,1958,1986,28,4,1,20,argentina,1
+maradona,1960,1988,28,7,1,20,argentina,1
+rawson,1857,1885,28,3,1,19,argentina,1
+reyes_larios,1918,1946,28,3,1,20,mexico,1
+fuentes_berain,1950,1977,27,5,1,20,mexico,1
+santo_domingo,1957,1984,27,3,1,20,colombia,1
+antúnez,1887,1913,26,3,2,"19, 20",peru,1
+hoke,1891,1917,26,3,2,"19, 20",peru,1
+ruiz-massieu,1946,1972,26,3,1,20,mexico,1
+bitar,1940,1965,25,3,1,20,chile,1
+díaz_infante,1936,1961,25,2,1,20,mexico,1
+farfán,1973,1998,25,8,1,20,peru,1
+barrantes,1903,1927,24,2,1,20,peru,1
+dosamantes_rul,1948,1971,23,2,1,20,mexico,1
+gilinski,1934,1957,23,2,1,20,colombia,1
+lópez-moctezuma,1909,1932,23,3,1,20,mexico,1
+pizarro_colombia,1915,1938,23,2,1,20,colombia,1
+rivera-torres,1925,1948,23,2,1,20,mexico,1
+vega,1931,1954,23,4,1,20,colombia,1
+martínez-silva,1825,1847,22,3,1,19,colombia,1
+massú,1957,1979,22,2,1,20,chile,1
+ramírez,1970,1991,21,3,1,20,peru,1
+quispe_palomino,1960,1980,20,3,1,20,peru,1
+zavala_de_la_maza,1670,1690,20,2,1,17,peru,1
+villaveces,1871,1890,19,2,1,19,colombia,1
+ameghino,1853,1871,18,3,1,19,argentina,1
+galeana,1762,1780,18,4,1,18,mexico,1
+monreal,1959,1977,18,4,1,20,mexico,1
+precht,1940,1957,17,3,1,20,chile,1
+casares,1830,1844,14,2,1,19,argentina,1
+castaño_gil,1951,1965,14,3,1,20,colombia,1
+durán_reveles,1958,1972,14,3,1,20,mexico,1
+bodega_y_quadra,1731,1744,13,2,1,18,peru,1
+gallardo,1923,1936,13,6,1,20,argentina,1
+largacha,1828,1841,13,2,1,19,colombia,1
+lavalleja,1784,1797,13,4,1,18,uruguay,1
+ávila_camacho,1891,1904,13,4,2,"19, 20",mexico,1
+balanta,1988,2000,12,12,2,"20, 21",colombia,1
+quesada,1790,1802,12,4,2,"18, 19",argentina,1
+villegas_venezuela,1959,1970,11,3,1,20,venezuela,1
+guilisasti,1953,1963,10,3,1,20,chile,1
+mariño,1770,1780,10,2,1,18,colombia,1
+brescia,1948,1957,9,5,1,20,peru,1
+díez_marina,1807,1816,9,2,1,19,mexico,1
+anzoátegui,1775,1782,7,4,1,18,argentina,1
+awad,1945,1952,7,2,1,20,chile,1
+reyes_retana,1948,1955,7,2,1,20,mexico,1
+von_mühlenbrock,1947,1954,7,2,1,20,chile,1
+delgado_parker,1929,1935,6,2,1,20,peru,1
+montesinos,1945,1951,6,2,1,20,peru,1
+otárola,1961,1967,6,2,1,20,peru,1
+urquíza,1904,1910,6,2,1,20,mexico,1
+uñac,1964,1970,6,2,1,20,argentina,1
+acosta_del_castillo,1827,1832,5,2,1,19,colombia,1
+gonzález_guevara,1913,1918,5,3,1,20,mexico,1
+heiremans,1923,1928,5,3,1,20,chile,1
+heraud,1939,1944,5,3,1,20,peru,1
+kaiser,1976,1981,5,3,1,20,chile,1
+yrigoyen,1939,1944,5,3,1,20,peru,1
+copello,1977,1981,4,2,1,20,peru,1
+gildemeister,1956,1960,4,2,1,20,peru,1
+lindley,1904,1908,4,2,1,20,peru,1
+mazuera,1946,1950,4,2,1,20,colombia,1
+de_solminihac,1955,1958,3,2,1,20,chile,1
+herrera,1880,1882,2,2,1,19,colombia,1
+quijano,1909,1911,2,2,1,20,colombia,1
+quispe,1999,2001,2,2,2,"20, 21",peru,1
+boric,1906,1907,1,2,1,20,chile,1
+navia,1979,1980,1,3,1,20,colombia,1
+albarracín,1772,1772,0,1,1,18,argentina,1
+bemberg,1922,1922,0,1,1,20,argentina,1
+castillo_guevara,1707,1707,0,1,1,18,colombia,1
+checa,1835,1835,0,1,1,19,peru,1
+del_río_chile,1900,1900,0,1,1,20,chile,1
+elías-gonzález,1772,1772,0,1,1,18,mexico,1
+fernández_cornejo,1823,1823,0,1,1,19,peru,1
+fernández_de_soto,1891,1891,0,1,1,19,colombia,1
+garcía_de_sobrecasa,1758,1758,0,1,1,18,argentina,1
+guzmán,1946,1946,0,1,1,20,mexico,1
+gómez-urquíza,1905,1905,0,1,1,20,mexico,1
+hurtado,1825,1825,0,2,1,19,colombia,1
+iommi,1917,1917,0,1,1,20,argentina,1
+isaías,1944,1944,0,1,1,20,ecuador,1
+lacroze,1835,1835,0,1,1,19,argentina,1
+luna_parra,1946,1946,0,1,1,20,mexico,1
+lópez_venezuela,1944,1944,0,1,1,20,venezuela,1
+medina,1915,1915,0,1,1,20,colombia,1
+mediz_bolio,1884,1884,0,1,1,19,mexico,1
+michelsen,1931,1931,0,1,1,20,colombia,1
+mier_y_noriega,1763,1763,0,1,1,18,mexico,1
+ocaña,1893,1893,0,1,1,19,peru,1
+olaya,1875,1875,0,1,1,19,colombia,1
+pedraza,1886,1886,0,1,1,19,argentina,1
+rivadavia,1852,1852,0,1,1,19,argentina,1
+ross_chile,1879,1879,0,1,1,19,chile,1
+sabogal,1958,1958,0,1,1,20,peru,1
+santamaría,1939,1939,0,1,1,20,colombia,1
+sarmiento_negocios,1933,1933,0,1,1,20,colombia,1
+sordo_madaleno,1917,1917,0,1,1,20,mexico,1
+soublette,1840,1840,0,1,1,19,colombia,1
+sánchez-concha,1885,1885,0,1,1,19,peru,1
+tellería,1789,1789,0,1,1,18,peru,1
+tudela,1774,1774,0,1,1,18,peru,1
+ucrós,1908,1908,0,1,1,20,colombia,1
+urrutia,1949,1949,0,1,1,20,colombia,1

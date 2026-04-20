@@ -1,0 +1,111 @@
+from,to,motivo,n
+argentina,bolivia,Filiación,10
+argentina,bolivia,Matrimonio/Pareja,2
+argentina,bolivia,Murió allí,7
+argentina,bolivia,Nació allí,3
+argentina,bolivia,Residió allí,3
+argentina,chile,Filiación,23
+argentina,chile,Matrimonio/Pareja,33
+argentina,chile,Murió allí,11
+argentina,chile,Nació allí,18
+argentina,chile,Residió allí,8
+argentina,chile,Trabajó allí,1
+argentina,colombia,Filiación,20
+argentina,colombia,Matrimonio/Pareja,10
+argentina,colombia,Murió allí,6
+argentina,colombia,Nació allí,18
+argentina,colombia,Residió allí,2
+argentina,colombia,Trabajó allí,1
+argentina,mexico,Filiación,9
+argentina,mexico,Matrimonio/Pareja,10
+argentina,mexico,Murió allí,1
+argentina,mexico,Nació allí,1
+argentina,mexico,Residió allí,5
+argentina,paraguay,Filiación,5
+argentina,paraguay,Matrimonio/Pareja,2
+argentina,paraguay,Murió allí,2
+argentina,paraguay,Nació allí,2
+argentina,paraguay,Residió allí,1
+argentina,peru,Filiación,13
+argentina,peru,Matrimonio/Pareja,18
+argentina,peru,Murió allí,16
+argentina,peru,Nació allí,39
+argentina,peru,Residió allí,4
+argentina,uruguay,Filiación,34
+argentina,uruguay,Matrimonio/Pareja,12
+argentina,uruguay,Murió allí,27
+argentina,uruguay,Nació allí,29
+argentina,uruguay,Residió allí,3
+argentina,venezuela,Filiación,1
+argentina,venezuela,Matrimonio/Pareja,2
+argentina,venezuela,Murió allí,3
+argentina,venezuela,Nació allí,1
+argentina,venezuela,Residió allí,1
+bolivia,chile,Matrimonio/Pareja,1
+bolivia,chile,Murió allí,2
+bolivia,mexico,Murió allí,1
+bolivia,mexico,Nació allí,2
+bolivia,mexico,Residió allí,1
+bolivia,peru,Matrimonio/Pareja,2
+bolivia,peru,Murió allí,2
+bolivia,peru,Nació allí,3
+bolivia,uruguay,Trabajó allí,1
+chile,colombia,Filiación,30
+chile,colombia,Matrimonio/Pareja,13
+chile,colombia,Murió allí,4
+chile,colombia,Nació allí,10
+chile,ecuador,Filiación,1
+chile,ecuador,Matrimonio/Pareja,1
+chile,ecuador,Murió allí,1
+chile,ecuador,Nació allí,2
+chile,mexico,Filiación,7
+chile,mexico,Matrimonio/Pareja,10
+chile,mexico,Murió allí,8
+chile,mexico,Nació allí,18
+chile,mexico,Residió allí,1
+chile,peru,Filiación,20
+chile,peru,Matrimonio/Pareja,16
+chile,peru,Murió allí,36
+chile,peru,Nació allí,27
+chile,peru,Residió allí,18
+chile,uruguay,Matrimonio/Pareja,3
+chile,uruguay,Murió allí,1
+chile,uruguay,Residió allí,3
+chile,venezuela,Filiación,3
+chile,venezuela,Nació allí,3
+colombia,ecuador,Filiación,9
+colombia,ecuador,Matrimonio/Pareja,4
+colombia,ecuador,Murió allí,3
+colombia,ecuador,Nació allí,5
+colombia,ecuador,Residió allí,1
+colombia,mexico,Filiación,3
+colombia,mexico,Matrimonio/Pareja,9
+colombia,mexico,Murió allí,1
+colombia,mexico,Nació allí,2
+colombia,mexico,Residió allí,4
+colombia,paraguay,Murió allí,1
+colombia,paraguay,Nació allí,1
+colombia,peru,Filiación,16
+colombia,peru,Matrimonio/Pareja,7
+colombia,peru,Murió allí,7
+colombia,peru,Nació allí,21
+colombia,venezuela,Filiación,29
+colombia,venezuela,Matrimonio/Pareja,8
+colombia,venezuela,Murió allí,4
+colombia,venezuela,Nació allí,6
+colombia,venezuela,Residió allí,1
+ecuador,mexico,Murió allí,1
+ecuador,peru,Matrimonio/Pareja,2
+ecuador,peru,Murió allí,2
+ecuador,peru,Nació allí,4
+ecuador,peru,Trabajó allí,2
+ecuador,venezuela,Murió allí,1
+mexico,peru,Filiación,5
+mexico,peru,Matrimonio/Pareja,1
+mexico,peru,Murió allí,4
+mexico,peru,Nació allí,1
+mexico,peru,Residió allí,4
+mexico,uruguay,Matrimonio/Pareja,2
+mexico,venezuela,Murió allí,1
+peru,uruguay,Matrimonio/Pareja,4
+peru,venezuela,Matrimonio/Pareja,2

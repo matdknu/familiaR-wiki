@@ -1,0 +1,15 @@
+from_name,to_name,from_pais,to_pais,relation_type
+Manuel Antonio José Warnes,Ignacio Warnes,Chile,Argentina,hijos
+Manuel Antonio José Warnes,Martín José Warnes,Chile,Argentina,hijos
+Manuel Antonio José Warnes,Martina Warnes,Chile,Argentina,hijos
+Ana Jacoba García de Zúñiga,Alonso García de Zúñiga,Chile,Argentina,padres
+Ana Jacoba García de Zúñiga,Ignacio Warnes,Chile,Argentina,hijos
+Ana Jacoba García de Zúñiga,Martina Warnes,Chile,Argentina,hijos
+Ana Jacoba García de Zúñiga,Martín José Warnes,Chile,Argentina,hijos
+Ignacio Warnes,Manuel Antonio José Warnes,Argentina,Chile,padres
+Ignacio Warnes,Ana Jacoba García de Zúñiga,Argentina,Chile,padres
+Martín José Warnes,Manuel Antonio José Warnes,Argentina,Chile,padres
+Martín José Warnes,Ana Jacoba García de Zúñiga,Argentina,Chile,padres
+Martina Warnes,Manuel Antonio José Warnes,Argentina,Chile,padres
+Martina Warnes,Ana Jacoba García de Zúñiga,Argentina,Chile,padres
+Alonso García de Zúñiga,Ana Jacoba García de Zúñiga,Argentina,Chile,hijos

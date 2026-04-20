@@ -1,0 +1,744 @@
+pais,familia_nombre,n_miembros,intra_ties,inter_ties,intra_marriages,inter_marriages,total_ties,closure_index,ei_index,total_marriages,marital_endogamy,degree_interfamily,betweenness_interfamily,strength_interfamily,dominant_party,dominant_party_share,n_parties,n_miembros_con_partido,dominant_cargo_block,dominant_cargo_share,n_cargo_blocks,n_miembros_con_cargo,h1_delta_family_vs_party,h1_delta_family_vs_cargo,h4_central_closed_score
+Argentina,García-Mansilla,17,50,22,9,0,72,0.6944444444444444,-0.3888888888888889,9,1,3,0.014245014245014245,22,Partido Federal,0.5,2,2,Diplomatico,0.29411764705882354,5,17,0.19444444444444442,0.4003267973856209,1.1944444444444444
+Argentina,Alvear,16,19,1,4,0,20,0.95,-0.9,4,1,1,0,1,Partido Autonomista Nacional,0.5,4,6,Otro,0.375,4,16,0.44999999999999996,0.575,1.1166666666666667
+Argentina,Puch,9,15,1,3,0,16,0.9375,-0.875,3,1,1,0,1,Patriota,0.5,3,4,Militar,0.6666666666666666,2,9,0.4375,0.27083333333333337,1.1041666666666667
+Argentina,Paz,23,29,3,7,1,32,0.90625,-0.8125,8,0.875,1,0,3,Partido Autonomista Nacional,0.3333333333333333,7,9,Otro,0.30434782608695654,6,23,0.5729166666666667,0.6019021739130435,1.0729166666666667
+Argentina,Warnes,15,38,4,8,0,42,0.9047619047619048,-0.8095238095238095,8,1,1,0,4,Pelucón,0.42857142857142855,4,7,Ejecutivo,0.4666666666666667,5,15,0.4761904761904762,0.4380952380952381,1.0714285714285714
+Argentina,Billinghurst,7,7,1,4,0,8,0.875,-0.75,4,1,1,0,1,Partido Demócrata,0.5,2,2,Economico,0.7142857142857143,2,7,0.375,0.1607142857142857,1.0416666666666667
+Argentina,Ponce de León,12,6,1,4,0,7,0.8571428571428571,-0.7142857142857143,4,1,1,0,1,Partido Nacional,0.75,2,4,Otro,0.5833333333333334,4,12,0.1071428571428571,0.2738095238095237,1.0238095238095237
+Argentina,Zuviría,13,12,2,2,0,14,0.8571428571428571,-0.7142857142857143,2,1,1,0,2,Unitario,0.4,4,5,Profesional,0.3076923076923077,6,13,0.4571428571428571,0.5494505494505494,1.0238095238095237
+Argentina,Abal Medina,5,5,0,4,0,5,1,-1,4,1,0,0,0,Frente Grande Partido Justicialista,0.25,4,4,Profesional,0.6,3,5,0.75,0.4,1
+Argentina,Acuña (Argentina),10,3,0,0,0,3,1,-1,0,NA,0,0,0,Federal,0.25,4,4,Otro,0.4,4,10,0.75,0.6,1
+Argentina,Alemann,7,10,0,4,0,10,1,-1,4,1,0,0,0,NA,NA,NA,NA,Otro,0.42857142857142855,3,7,NA,0.5714285714285714,1
+Argentina,Allende (Argentina),5,2,0,0,0,2,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Militar,0.6,3,5,NA,0.4,1
+Argentina,Alsogaray,6,6,0,2,0,6,1,-1,2,1,0,0,0,Nueva Fuerza,0.3333333333333333,3,3,Militar,0.5,3,6,0.6666666666666667,0.5,1
+Argentina,Anchorena,12,2,0,0,0,2,1,-1,0,NA,0,0,0,Partido Demócrata de la Capital Federal,0.3333333333333333,3,3,Otro,0.4166666666666667,5,12,0.6666666666666667,0.5833333333333333,1
+Argentina,Anzoátegui,5,2,0,0,0,2,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Militar,1,1,5,NA,0,1
+Argentina,Aráoz,15,2,0,0,0,2,1,-1,0,NA,0,0,0,Autonomista,0.2,5,5,Militar,0.4,5,15,0.8,0.6,1
+Argentina,Avellaneda,9,10,0,2,0,10,1,-1,2,1,0,0,0,Partido Autonomista Nacional,0.5,2,2,Militar,0.3333333333333333,4,9,0.5,0.6666666666666667,1
+Argentina,Awada,5,5,0,3,0,5,1,-1,3,1,0,0,0,Frente del Hombre Común,0.5,2,2,Economico,0.6,3,5,0.5,0.4,1
+Argentina,Azcuénaga,10,20,0,4,0,20,1,-1,4,1,0,0,0,Ejércitos patriotas,0.3333333333333333,3,3,Militar,0.5,4,10,0.6666666666666667,0.5,1
+Argentina,Belgrano,15,10,2,2,0,12,0.8333333333333334,-0.6666666666666666,2,1,1,0,2,Carlotismo,0.25,4,4,Militar,0.3333333333333333,7,15,0.5833333333333334,0.5,1
+Argentina,Benegas,8,1,0,0,0,1,1,-1,0,NA,0,0,0,La Libertad Avanza (desde 2024),0.2,5,5,Profesional,0.375,4,8,0.8,0.625,1
+Argentina,Bielsa,5,1,0,0,0,1,1,-1,0,NA,0,0,0,Frente de Todos (desde 2019) Frente para la Victoria (2003-2019) Frente País Solidario (1997-2001) Juventud Universitaria Peronista (1971-1974),0.5,2,2,Otro,0.4,3,5,0.5,0.6,1
+Argentina,Borensztein,7,11,0,7,0,11,1,-1,7,1,0,0,0,NA,NA,NA,NA,Economico,0.42857142857142855,3,7,NA,0.5714285714285714,1
+Argentina,Botana,6,5,0,2,0,5,1,-1,2,1,0,0,0,"Unión Cívica Radical (hasta 1958) , Unión Cívica Radical Intransigente (1958-1961) , Resistencia Popular (1961)",1,1,1,Profesional,0.8333333333333334,2,6,0,0.16666666666666663,1
+Argentina,Braun,8,1,0,0,0,1,1,-1,0,NA,0,0,0,Propuesta Republicana,1,1,2,Otro,0.75,2,8,0,0.25,1
+Argentina,Brown,6,7,0,0,0,7,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Militar,0.6666666666666666,3,6,NA,0.33333333333333337,1
+Argentina,Bulgheroni,4,2,0,0,0,2,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Economico,0.5,2,4,NA,0.5,1
+Argentina,Bullrich,12,12,0,4,0,12,1,-1,4,1,0,0,0,La Libertad Avanza (desde 2025) Propuesta Republicana (2018-2025) Unión por la Libertad (1997-2018) Nueva Dirigencia (1996-1997) Partido Justicialista (1972-1996),1,1,1,Otro,0.8333333333333334,3,12,0,0.16666666666666663,1
+Argentina,Bunge,15,20,0,6,0,20,1,-1,6,1,0,0,0,Partido Socialista (1897-1927) Partido Socialista Independiente (1927-1934) Partido Acción Socialista (1934-1937) Partido Socialista Obrero (1937-1939),1,1,1,Otro,0.4,5,15,0,0.6,1
+Argentina,Cafiero,4,6,0,0,0,6,1,-1,0,NA,0,0,0,Partido Justicialista,0.5,3,4,Otro,0.5,3,4,0.5,0.5,1
+Argentina,Cambaceres,8,12,0,4,0,12,1,-1,4,1,0,0,0,Partido Autonomista (1869-1874) Partido Autonomista Nacional (1874-1877/1878-1882) Partido Republicano (1877-1878) Unión Cívica (1890-1891) Unión Cívica Radical (1891-1933),0.5,2,2,Otro,0.375,6,8,0.5,0.625,1
+Argentina,Campero,24,15,0,2,0,15,1,-1,2,1,0,0,0,Unión Cívica Radical,0.5,5,8,Otro,0.5,5,24,0.5,0.5,1
+Argentina,Candioti,11,6,0,0,0,6,1,-1,0,NA,0,0,0,Unión Cívica Radical,0.2857142857142857,6,7,Otro,0.36363636363636365,5,11,0.7142857142857143,0.6363636363636364,1
+Argentina,Cantoni-Bravo,5,1,0,0,0,1,1,-1,0,NA,0,0,0,Partido Bloquista,0.6,3,5,Diplomatico,0.4,4,5,0.4,0.6,1
+Argentina,Castelli,3,2,0,0,0,2,1,-1,0,NA,0,0,0,Carlotismo,0.5,2,2,Militar,0.6666666666666666,2,3,0.5,0.33333333333333337,1
+Argentina,Cornejo (Argentina),8,7,0,0,0,7,1,-1,0,NA,0,0,0,Partido Justicialista,0.16666666666666666,6,6,Profesional,0.5,4,8,0.8333333333333334,0.5,1
+Argentina,Daract,5,4,0,0,0,4,1,-1,0,NA,0,0,0,Partido Federal,1,1,1,Ejecutivo,1,1,5,0,0,1
+Argentina,Di Tella,8,5,0,2,0,5,1,-1,2,1,0,0,0,Partido Justicialista (1972-2001) Partido Demócrata Cristiano (1954-1966),0.3333333333333333,3,3,Otro,0.5,4,8,0.6666666666666667,0.5,1
+Argentina,Escalada (de Burgos),4,2,0,0,0,2,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Diplomatico,0.25,4,4,NA,0.75,1
+Argentina,Estrada,5,2,0,0,0,2,1,-1,0,NA,0,0,0,Propuesta Republicana,1,1,1,Diplomatico,0.4,4,5,0,0.6,1
+Argentina,Fortabat,9,13,0,5,0,13,1,-1,5,1,0,0,0,Partido Conservador Popular,0.6666666666666666,2,3,Economico,0.3333333333333333,4,9,0.33333333333333337,0.6666666666666667,1
+Argentina,Frigerio,4,3,0,0,0,3,1,-1,0,NA,0,0,0,Movimiento de Integración y Desarrollo,0.25,4,4,Otro,0.5,3,4,0.75,0.5,1
+Argentina,Gallardo,6,3,0,3,0,3,1,-1,3,1,0,0,0,NA,NA,NA,NA,Profesional,0.6666666666666666,3,6,NA,0.33333333333333337,1
+Argentina,Guevara,8,21,0,8,0,21,1,-1,8,1,0,0,0,Partido Comunista de Cuba,0.8333333333333334,2,6,Otro,1,1,8,0.16666666666666663,0,1
+Argentina,Güiraldes,3,2,0,0,0,2,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Diplomatico,0.3333333333333333,3,3,NA,0.6666666666666667,1
+Argentina,Holmberg,5,3,0,0,0,3,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Militar,0.4,4,5,NA,0.6,1
+Argentina,Illia,5,3,0,2,0,3,1,-1,2,1,0,0,0,Compromiso para el Cambio (2005-2008) Propuesta Republicana (desde 2008),0.3333333333333333,3,3,Otro,1,1,5,0.6666666666666667,0,1
+Argentina,Justo,6,5,0,2,0,5,1,-1,2,1,0,0,0,Partido Liberal de Corrientes Unión Cívica Unión Cívica Nacional,0.2,5,5,Otro,0.5,3,6,0.8,0.5,1
+Argentina,Kirchner,4,6,0,2,0,6,1,-1,2,1,0,0,0,Partido Justicialista,0.5,3,4,Otro,0.75,2,4,0.5,0.25,1
+Argentina,Lafinur,8,12,0,2,0,12,1,-1,2,1,0,0,0,NA,NA,NA,NA,Profesional,0.375,5,8,NA,0.625,1
+Argentina,Lanusse,8,1,0,0,0,1,1,-1,0,NA,0,0,0,Partido Justicialista,0.3333333333333333,3,3,Otro,0.625,4,8,0.6666666666666667,0.375,1
+Argentina,Lavalle,37,45,0,10,0,45,1,-1,10,1,0,0,0,Partido Civil,0.5,4,8,Otro,0.40540540540540543,6,37,0.5,0.5945945945945945,1
+Argentina,Lugones,5,5,0,0,0,5,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Profesional,0.6,3,5,NA,0.4,1
+Argentina,López Carrillo,15,28,0,10,0,28,1,-1,10,1,0,0,0,Independiente,0.5,2,4,Otro,0.4,5,15,0.5,0.6,1
+Argentina,Mac Allister,4,3,0,0,0,3,1,-1,0,NA,0,0,0,Propuesta Republicana,1,1,1,Otro,1,1,4,0,0,1
+Argentina,Macri,4,2,0,2,0,2,1,-1,2,1,0,0,0,Compromiso para el Cambio (2005-2008) Propuesta Republicana (desde 2008),0.5,2,2,Economico,0.5,2,4,0.5,0.5,1
+Argentina,Maradona,8,4,0,1,0,4,1,-1,1,1,0,0,0,NA,NA,NA,NA,Otro,0.875,2,8,NA,0.125,1
+Argentina,Marcó del Pont,7,4,0,0,0,4,1,-1,0,NA,0,0,0,Movimiento de Integración y Desarrollo,0.5,2,2,Otro,0.42857142857142855,3,7,0.5,0.5714285714285714,1
+Argentina,Martínez de Hoz,6,1,0,0,0,1,1,-1,0,NA,0,0,0,Partido Demócrata Cristiano,0.5,2,2,Otro,0.5,3,6,0.5,0.5,1
+Argentina,Maza,7,13,0,3,0,13,1,-1,3,1,0,0,0,Federal,0.3333333333333333,3,3,Militar,0.42857142857142855,3,7,0.6666666666666667,0.5714285714285714,1
+Argentina,Menem,4,2,0,0,0,2,1,-1,0,NA,0,0,0,Partido Justicialista,0.6666666666666666,2,3,Profesional,0.5,3,4,0.33333333333333337,0.5,1
+Argentina,Mitre,7,3,0,0,0,3,1,-1,0,NA,0,0,0,Partido Colorado (en Uruguay) Partido Liberal (1852-1863) Partido Nacionalista (1863-1880) Partido Liberal (1880-1890) Unión Cívica (1890-1891) Unión Cívica Nacional (1891-1902),0.5,2,2,Militar,0.42857142857142855,3,7,0.5,0.5714285714285714,1
+Argentina,Montes de Oca,8,2,0,0,0,2,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.375,5,8,NA,0.625,1
+Argentina,Noble,4,2,0,2,0,2,1,-1,2,1,0,0,0,Partido Demócrata Progresista,0.5,2,2,Economico,0.5,3,4,0.5,0.5,1
+Argentina,O'Gorman,7,5,0,5,0,5,1,-1,5,1,0,0,0,NA,NA,NA,NA,Otro,0.7142857142857143,3,7,NA,0.2857142857142857,1
+Argentina,Obligado,7,2,0,0,0,2,1,-1,0,NA,0,0,0,Partido Federal Partido Liberal Partido Autonomista,1,1,1,Militar,0.42857142857142855,3,7,0,0.5714285714285714,1
+Argentina,Ocampo,12,8,0,4,0,8,1,-1,4,1,0,0,0,Unión Nacional Partido Demócrata,1,1,1,Profesional,0.5,3,12,0,0.5,1
+Argentina,Onassis,24,55,0,26,0,55,1,-1,26,1,0,0,0,Partido Demócrata,1,1,9,Otro,0.5,4,24,0,0.5,1
+Argentina,Ortiz Basualdo,12,2,0,0,0,2,1,-1,0,NA,0,0,0,Unión Cívica Radical,0.6666666666666666,2,3,Otro,0.5833333333333334,4,12,0.33333333333333337,0.41666666666666663,1
+Argentina,Otálora,15,28,0,5,0,28,1,-1,5,1,0,0,0,Ejércitos patriotas,0.3333333333333333,3,3,Militar,0.4,4,15,0.6666666666666667,0.6,1
+Argentina,Pavlovsky,7,4,0,0,0,4,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.42857142857142855,3,7,NA,0.5714285714285714,1
+Argentina,Pellegrini,3,2,0,0,0,2,1,-1,0,NA,0,0,0,Partido Autonomista Nacional Partido Autonomista,0.5,2,2,Profesional,0.6666666666666666,2,3,0.5,0.33333333333333337,1
+Argentina,Peralta Ramos,4,1,0,0,0,1,1,-1,0,NA,0,0,0,Partido Popular,1,1,1,Economico,0.5,3,4,0,0.5,1
+Argentina,Perón,6,7,0,7,0,7,1,-1,7,1,0,0,0,Partido Justicialista,0.5,3,4,Otro,0.5,3,6,0.5,0.5,1
+Argentina,Prebisch,4,2,0,0,0,2,1,-1,0,NA,0,0,0,Político independiente,1,1,1,Otro,0.75,2,4,0,0.25,1
+Argentina,Pueyrredón,18,11,0,9,0,11,1,-1,9,1,0,0,0,Patriota,0.25,7,8,Otro,0.3333333333333333,5,18,0.75,0.6666666666666667,1
+Argentina,Quintana,6,3,0,2,0,3,1,-1,2,1,0,0,0,Federal,0.3333333333333333,3,3,Otro,0.5,2,6,0.6666666666666667,0.5,1
+Argentina,Rocca,3,3,0,0,0,3,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Economico,0.6666666666666666,2,3,NA,0.33333333333333337,1
+Argentina,Rocha,8,10,0,0,0,10,1,-1,0,NA,0,0,0,Partido Autonomista Nacional,0.3333333333333333,3,3,Militar,0.75,3,8,0.6666666666666667,0.25,1
+Argentina,"Rodríguez (San Luis, Argentina)",5,5,0,0,0,5,1,-1,0,NA,0,0,0,Federal,0.25,4,4,Profesional,0.6,3,5,0.75,0.4,1
+Argentina,Rodríguez Larreta,9,2,0,2,0,2,1,-1,2,1,0,0,0,Partido Nacional,0.6,3,5,Otro,0.4444444444444444,4,9,0.4,0.5555555555555556,1
+Argentina,Rodríguez Saá,8,2,0,2,0,2,1,-1,2,1,0,0,0,Partido Demócrata Liberal,0.42857142857142855,3,7,Otro,0.5,3,8,0.5714285714285714,0.5,1
+Argentina,Rojo,9,10,2,0,0,12,0.8333333333333334,-0.6666666666666666,0,NA,1,0,2,Partido Unitario,0.6,3,5,Militar,0.4444444444444444,5,9,0.2333333333333334,0.38888888888888895,1
+Argentina,Romero Feris,10,4,0,4,0,4,1,-1,4,1,0,0,0,Partido Autonomista de Corrientes (hasta 1997) Partido Nuevo (desde 1997),0.25,6,8,Otro,0.9,2,10,0.75,0.09999999999999998,1
+Argentina,Saadi,7,5,0,0,0,5,1,-1,0,NA,0,0,0,Partido Justicialista,0.7142857142857143,3,7,Profesional,0.7142857142857143,3,7,0.2857142857142857,0.2857142857142857,1
+Argentina,Saavedra,9,15,0,5,0,15,1,-1,5,1,0,0,0,Partido Colorado,0.5,3,6,Otro,0.3333333333333333,5,9,0.5,0.6666666666666667,1
+Argentina,Sabato,7,5,0,0,0,5,1,-1,0,NA,0,0,0,Unión Cívica Radical,0.5,3,4,Otro,0.7142857142857143,3,7,0.5,0.2857142857142857,1
+Argentina,Sabattini,6,13,0,6,0,13,1,-1,6,1,0,0,0,Unión Cívica Radical,0.5,3,4,Profesional,0.6666666666666666,2,6,0.5,0.33333333333333337,1
+Argentina,Santamarina,8,7,0,0,0,7,1,-1,0,NA,0,0,0,Partido Conservador Partido Demócrata Nacional Partido Demócrata de Buenos Aires,1,1,1,Otro,0.875,2,8,0,0.125,1
+Argentina,Sapag,11,16,0,0,0,16,1,-1,0,NA,0,0,0,Movimiento Popular Neuquino,0.7,3,10,Economico,0.45454545454545453,4,11,0.30000000000000004,0.5454545454545454,1
+Argentina,Saá,3,2,0,0,0,2,1,-1,0,NA,0,0,0,Federal,0.5,2,2,Militar,0.6666666666666666,2,3,0.5,0.33333333333333337,1
+Argentina,Segurola,9,5,0,0,0,5,1,-1,0,NA,0,0,0,APRA (1980-1987) Movimiento Libertad (1988-1990) [ 1 ] ​ Acción Popular (Desde 2013),0.25,4,4,Profesional,0.3333333333333333,5,9,0.75,0.6666666666666667,1
+Argentina,Snopek,6,3,0,0,0,3,1,-1,0,NA,0,0,0,Partido Justicialista,0.5,4,6,Otro,0.5,3,6,0.5,0.5,1
+Argentina,Solari (Argentina),9,1,0,0,0,1,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,9,NA,0,1
+Argentina,Soria,4,10,0,2,0,10,1,-1,2,1,0,0,0,Partido Justicialista,1,1,3,Profesional,0.75,2,4,0,0.25,1
+Argentina,Sáenz Peña,3,2,0,0,0,2,1,-1,0,NA,0,0,0,Partido Autonomista (1862-1874) Partido Autonomista Nacional (1874-1877/1878-1891) Partido Republicano (1877-1878) Partido Modernista (1891-1892) Partido Autonomista Nacional (línea modernista) (1892-1902) Partido Demócrata (1902-1903) Partido Autonomista (1903-1909) Unión Nacional (1909-1912),0.5,2,2,Diplomatico,0.6666666666666666,2,3,0.5,0.33333333333333337,1
+Argentina,Uriburu,14,4,0,0,0,4,1,-1,0,NA,0,0,0,"Partido Autonomista Nacional , Partido Conservador , Partido Demócrata Nacional",0.25,4,4,Otro,0.42857142857142855,5,14,0.75,0.5714285714285714,1
+Argentina,Urtubey,5,2,0,2,0,2,1,-1,2,1,0,0,0,Partido Justicialista,1,1,2,Economico,0.4,4,5,0,0.6,1
+Argentina,Vaca Narvaja,4,6,0,0,0,6,1,-1,0,NA,0,0,0,Partido Justicialista Frente para la Victoria,0.3333333333333333,3,3,Diplomatico,0.5,3,4,0.6666666666666667,0.5,1
+Argentina,Varela,17,7,0,2,0,7,1,-1,2,1,0,0,0,Partido Autonomista P. Autonomista Nacional,0.2,5,5,Profesional,0.4117647058823529,7,17,0.8,0.5882352941176471,1
+Argentina,Villegas,9,9,0,0,0,9,1,-1,0,NA,0,0,0,Unitarismo / liberalismo,0.42857142857142855,4,7,Diplomatico,0.5555555555555556,4,9,0.5714285714285714,0.4444444444444444,1
+Argentina,Werthein,5,2,0,0,0,2,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.6,2,5,NA,0.4,1
+Argentina,Yankelevich,7,16,0,4,0,16,1,-1,4,1,0,0,0,NA,NA,NA,NA,Economico,0.7142857142857143,2,7,NA,0.2857142857142857,1
+Argentina,Yoma,13,21,0,9,0,21,1,-1,9,1,0,0,0,Encuentro Republicano Federal (desde 2021) Partido Justicialista (hasta 2021),0.3333333333333333,3,3,Otro,0.46153846153846156,3,13,0.6666666666666667,0.5384615384615384,1
+Argentina,de la Rúa,7,12,0,6,0,12,1,-1,6,1,0,0,0,Unión Cívica Radical,0.5,3,4,Profesional,0.5714285714285714,3,7,0.5,0.4285714285714286,1
+Argentina,del Carril,8,8,0,6,0,8,1,-1,6,1,0,0,0,Partido Comunista de Chile,0.5,3,4,Otro,0.5,3,8,0.5,0.5,1
+Argentina,Álvarez de Arenales,12,23,0,3,0,23,1,-1,3,1,0,0,0,Federal,0.16666666666666666,6,6,Militar,0.5,5,12,0.8333333333333334,0.5,1
+Argentina,Álzaga,12,8,0,2,0,8,1,-1,2,1,0,0,0,Partido Federal,0.5,3,4,Economico,0.25,6,12,0.5,0.75,1
+Argentina,Balcarce,23,35,25,10,6,60,0.5833333333333334,-0.16666666666666666,16,0.625,2,0,25,Patriota,0.5,3,4,Militar,0.4782608695652174,4,23,0.08333333333333337,0.10507246376811596,0.9166666666666667
+Argentina,Díaz Vélez,7,3,1,0,0,4,0.75,-0.5,0,NA,1,0,1,Ejércitos patriotas,0.5,2,2,Militar,0.5714285714285714,3,7,0.25,0.1785714285714286,0.9166666666666666
+Argentina,Güemes,11,3,1,0,0,4,0.75,-0.5,0,NA,1,0,1,Partido Autonomista Nacional Unión Nacional,0.16666666666666666,6,6,Otro,0.5454545454545454,4,11,0.5833333333333334,0.20454545454545459,0.9166666666666666
+Argentina,Maciel,8,3,1,0,0,4,0.75,-0.5,0,NA,1,0,1,Unitario y liberal,1,1,1,Militar,0.5,4,8,-0.25,0.25,0.9166666666666666
+Argentina,Álvarez de Toledo (Argentina),7,3,1,1,0,4,0.75,-0.5,1,1,1,0,1,Republicanos Unidos (2019-) Unión Cívica Radical (hasta 2019),0.5,2,2,Otro,0.42857142857142855,4,7,0.25,0.32142857142857145,0.9166666666666666
+Argentina,Sarsfield,7,10,4,3,1,14,0.7142857142857143,-0.42857142857142855,4,0.75,1,0,4,Partido Unitario Partido Liberal,1,1,2,Profesional,0.5714285714285714,3,7,-0.2857142857142857,0.1428571428571429,0.8809523809523809
+Argentina,García de Zúñiga,6,6,4,0,0,10,0.6,-0.2,0,NA,1,0,4,NA,NA,NA,NA,Militar,0.6666666666666666,2,6,NA,-0.06666666666666665,0.7666666666666666
+Argentina,Alpoim,3,1,1,0,0,2,0.5,0,0,NA,1,0,1,NA,NA,NA,NA,Ejecutivo,0.3333333333333333,3,3,NA,0.16666666666666669,0.6666666666666666
+Argentina,Roca,4,2,3,2,1,5,0.4,0.2,3,0.6666666666666666,1,0,3,Unión Cívica Radical,1,1,1,Diplomatico,0.25,4,4,-0.6,0.15000000000000002,0.5666666666666667
+Argentina,Ortiz de Rozas,16,6,21,2,0,27,0.2222222222222222,0.5555555555555556,2,1,2,0.008547008547008548,21,Partido Federal,0.8333333333333334,2,6,Militar,0.5,4,16,-0.6111111111111112,-0.2777777777777778,0.5555555555555556
+Argentina,San Martín,8,7,29,0,5,36,0.19444444444444445,0.6111111111111112,5,0,2,0,29,Patriota,0.6666666666666666,2,3,Militar,0.875,2,8,-0.4722222222222222,-0.6805555555555556,0.5277777777777778
+Argentina,Rawson,3,1,2,0,0,3,0.3333333333333333,0.3333333333333333,0,NA,1,0,2,Unión Cívica Radical,1,1,1,Militar,0.6666666666666666,2,3,-0.6666666666666667,-0.3333333333333333,0.5
+Argentina,Escalada,4,1,8,0,1,9,0.1111111111111111,0.7777777777777778,1,0,2,0.002849002849002849,8,Federal,0.5,2,2,Otro,0.5,3,4,-0.3888888888888889,-0.3888888888888889,0.4444444444444444
+Argentina,García de Sobrecasa,1,0,1,0,0,1,0,1,0,NA,1,0,1,NA,NA,NA,NA,Militar,1,1,1,NA,-1,0.16666666666666666
+Argentina,Gorriti,5,0,2,0,0,2,0,1,0,NA,1,0,2,Partido Comunista Peruano,0.5,2,2,Otro,0.6,3,5,-0.5,-0.6,0.16666666666666666
+Argentina,Mansilla,2,0,2,0,0,2,0,1,0,NA,1,0,2,NA,NA,NA,NA,Diplomatico,0.5,2,2,NA,-0.5,0.16666666666666666
+Argentina,Pedraza,1,0,1,0,0,1,0,1,0,NA,1,0,1,NA,NA,NA,NA,Economico,1,1,1,NA,-1,0.16666666666666666
+Argentina,Sarmiento,6,0,4,0,1,4,0,1,1,0,1,0,4,NA,NA,NA,NA,Otro,0.6666666666666666,2,6,NA,-0.6666666666666666,0.16666666666666666
+Argentina,Albarracín,1,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,1,NA,NA,NA
+Argentina,Ameghino,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Economico,0.5,3,4,NA,NA,NA
+Argentina,Astigueta,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Autonomista Nacional,1,1,1,Ejecutivo,0.75,2,4,NA,NA,NA
+Argentina,Augier,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Unitario,1,1,2,Militar,0.5,3,4,NA,NA,NA
+Argentina,Baldrich,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Militar,0.75,2,4,NA,NA,NA
+Argentina,Bemberg,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Economico,0.5,2,2,NA,NA,NA
+Argentina,Blaquier,6,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.5,3,6,NA,NA,NA
+Argentina,Cafferata (familia),5,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Economico,0.6,3,5,NA,NA,NA
+Argentina,Canaveris,8,0,0,0,0,0,NA,NA,0,NA,0,0,0,Unión Cívica Liga del Sur,0.5,2,2,Otro,0.625,2,8,NA,NA,NA
+Argentina,Cantilo,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Unión Cívica Radical Antipersonalista,1,1,1,Diplomatico,0.3333333333333333,3,3,NA,NA,NA
+Argentina,Caputo,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,La Libertad Avanza (desde 2025) [ 2 ] ​,0.25,4,4,Diplomatico,0.5,3,4,NA,NA,NA
+Argentina,Casares,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Autonomista Nacional Partido Autonomista,0.5,2,2,Otro,1,1,3,NA,NA,NA
+Argentina,Coni,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Socialista,1,1,1,Otro,0.6666666666666666,2,3,NA,NA,NA
+Argentina,Cullen,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,Federal,0.25,4,4,Profesional,0.5,3,4,NA,NA,NA
+Argentina,Cámpora,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Demócrata Nacional (hasta 1945) Partido Justicialista (desde 1945),0.5,2,2,Otro,0.6666666666666666,2,3,NA,NA,NA
+Argentina,Di Palma,8,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Justicialista,1,1,1,Otro,1,1,8,NA,NA,NA
+Argentina,Durand (Argentina),4,0,0,0,0,0,NA,NA,0,NA,0,0,0,Avancemos,0.3333333333333333,3,3,Profesional,0.75,2,4,NA,NA,NA
+Argentina,Echagüe,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Autonomista Nacional,1,1,1,Otro,0.5,2,2,NA,NA,NA
+Argentina,Falú,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,Juventud Peronista,1,1,1,Otro,1,1,4,NA,NA,NA
+Argentina,Fernández Cornejo,1,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Militar,1,1,1,NA,NA,NA
+Argentina,Godoy,7,0,0,0,0,0,NA,NA,0,NA,0,0,0,Demócrata Progresista Peronista,0.2,5,5,Otro,0.5714285714285714,4,7,NA,NA,NA
+Argentina,Lacroze,1,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Economico,1,1,1,NA,NA,NA
+Argentina,Lezica,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Economico,0.3333333333333333,3,3,NA,NA,NA
+Argentina,Mera Figueroa,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,Justicialista,0.5,2,2,Otro,1,1,2,NA,NA,NA
+Argentina,Nazar,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Federal,1,1,1,Militar,1,1,3,NA,NA,NA
+Argentina,Pinedo,6,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Autonomista Nacional Partido Autonomista Unión Nacional Partido Conservador,0.3333333333333333,3,3,Militar,0.5,2,6,NA,NA,NA
+Argentina,Posse,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,Unitario,1,1,3,Economico,0.5,3,4,NA,NA,NA
+Argentina,Pérez Companc,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Economico,0.5,2,2,NA,NA,NA
+Argentina,Quesada,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Militar,1,1,4,NA,NA,NA
+Argentina,Ramos Mejía,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Autonomista Nacional Partido Autonomista,0.5,2,2,Otro,0.75,2,4,NA,NA,NA
+Argentina,Rivadavia,1,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Militar,1,1,1,NA,NA,NA
+Argentina,Ross (Argentina),2,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Unitario,1,1,1,Ejecutivo,0.5,2,2,NA,NA,NA
+Argentina,Saguier,5,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Liberal,0.3333333333333333,3,3,Profesional,0.4,4,5,NA,NA,NA
+Argentina,Sieburger,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,4,NA,NA,NA
+Argentina,Simeone,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,4,NA,NA,NA
+Argentina,Sánchez de Bustamante,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Unitario,0.6666666666666666,2,3,Judicial,0.25,4,4,NA,NA,NA
+Argentina,Taboada,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,Liberal,1,1,1,Militar,0.75,2,4,NA,NA,NA
+Argentina,Uñac,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Justicialista,1,1,2,Otro,0.5,2,2,NA,NA,NA
+Argentina,Virasoro,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Federal,0.5,2,2,Militar,0.6666666666666666,2,3,NA,NA,NA
+Bolivia,Ballivián,8,8,0,0,0,8,1,-1,0,NA,0,0,0,Partido Rojo (o Septembrista),1,1,1,Militar,0.5,3,8,0,0.5,1
+Bolivia,Estenssoro,5,2,0,0,0,2,1,-1,0,NA,0,0,0,Coalición Cívica ARI Acción por la República,0.5,2,2,Profesional,0.6,3,5,0.5,0.4,1
+Bolivia,Orihuela,13,7,0,0,0,7,1,-1,0,NA,0,0,0,Acción Popular,0.3333333333333333,3,3,Otro,0.7692307692307693,3,13,0.6666666666666667,0.23076923076923073,1
+Bolivia,Choquehuanca,6,0,0,0,0,0,NA,NA,0,NA,0,0,0,Movimiento Indígena Pachakuti (2002-2005) Movimiento al Socialismo (2007-2020) Frente Patriótico (2017-2020),0.25,4,4,Diplomatico,0.3333333333333333,3,6,NA,NA,NA
+Chile,Vicuña,64,65,5,21,2,70,0.9285714285714286,-0.8571428571428571,23,0.9130434782608695,4,0.0213903743315508,5,Partido Demócrata Cristiano,0.16,18,25,Otro,0.5625,7,64,0.7685714285714286,0.3660714285714286,1.5952380952380953
+Chile,Cruz (Chile),28,34,13,8,5,47,0.723404255319149,-0.44680851063829785,13,0.6153846153846154,4,0.024955436720142603,13,Independista,0.16666666666666666,10,12,Militar,0.32142857142857145,7,28,0.5567375886524824,0.40197568389057753,1.3900709219858156
+Chile,Pinto (Chile),50,36,9,11,5,45,0.8,-0.6,16,0.6875,3,0.017825311942959002,9,Independiente,0.125,15,16,Otro,0.52,6,50,0.675,0.28,1.3
+Chile,Bulnes,22,33,3,8,0,36,0.9166666666666666,-0.8333333333333334,8,1,2,0.0106951871657754,3,Partido Conservador,0.23076923076923078,8,13,Profesional,0.36363636363636365,5,22,0.6858974358974359,0.553030303030303,1.25
+Chile,García-Huidobro,31,22,2,15,2,24,0.9166666666666666,-0.8333333333333334,17,0.8823529411764706,2,0.0106951871657754,2,Partido Conservador,0.3,8,10,Otro,0.6129032258064516,5,31,0.6166666666666667,0.303763440860215,1.25
+Chile,Errázuriz,70,60,21,13,0,81,0.7407407407407407,-0.48148148148148145,13,1,3,0.017825311942959002,21,Partido Conservador,0.17073170731707318,24,41,Otro,0.44285714285714284,8,70,0.5700090334236675,0.29788359788359786,1.2407407407407407
+Chile,Echaurren,40,75,10,10,0,85,0.8823529411764706,-0.7647058823529411,10,1,2,0.0106951871657754,10,Partido Liberal,0.4166666666666667,13,24,Otro,0.425,7,40,0.4656862745098039,0.4573529411764706,1.2156862745098038
+Chile,Concha (Chile),43,31,6,8,1,37,0.8378378378378378,-0.6756756756756757,9,0.8888888888888888,2,0.017825311942959002,6,Partido Conservador,0.18181818181818182,18,22,Otro,0.4418604651162791,8,43,0.6560196560196561,0.39597737272155875,1.1711711711711712
+Chile,Velasco (Chile),44,34,18,17,3,52,0.6538461538461539,-0.3076923076923077,20,0.85,3,0.0053475935828877,18,Conservador,0.11538461538461539,19,26,Otro,0.45454545454545453,6,44,0.5384615384615384,0.19930069930069932,1.1538461538461537
+Chile,Pizarro,41,45,1,22,1,46,0.9782608695652174,-0.9565217391304348,23,0.9565217391304348,1,0,1,NA,NA,NA,NA,Otro,0.7073170731707317,4,41,NA,0.27094379639448574,1.144927536231884
+Chile,Portales,30,31,1,19,1,32,0.96875,-0.9375,20,0.95,1,0,1,Conservador,0.3333333333333333,5,6,Otro,0.5666666666666667,6,30,0.6354166666666667,0.40208333333333335,1.1354166666666667
+Chile,Di Girolamo,16,27,1,14,1,28,0.9642857142857143,-0.9285714285714286,15,0.9333333333333333,1,0,1,Partido Demócrata Cristiano,1,1,1,Otro,0.625,3,16,-0.0357142857142857,0.3392857142857143,1.130952380952381
+Chile,Aylwin,12,25,1,7,1,26,0.9615384615384616,-0.9230769230769231,8,0.875,1,0,1,Partido Demócrata Cristiano,0.3333333333333333,4,6,Profesional,0.4166666666666667,3,12,0.6282051282051282,0.5448717948717949,1.1282051282051282
+Chile,familia_allende,20,35,2,3,0,37,0.9459459459459459,-0.8918918918918919,3,1,1,0,2,Partido Socialista,0.11764705882352941,11,17,Otro,0.8,3,20,0.8282988871224165,0.1459459459459459,1.1126126126126126
+Chile,Echenique,19,33,2,6,2,35,0.9428571428571428,-0.8857142857142857,8,0.75,1,0,2,Partido Demócrata,0.25,7,8,Otro,0.631578947368421,5,19,0.6928571428571428,0.3112781954887218,1.1095238095238096
+Chile,Mackenna,25,15,10,2,2,25,0.6,-0.2,4,0.5,3,0.026737967914438502,10,Partido Conservador,0.2727272727272727,8,11,Profesional,0.28,7,25,0.32727272727272727,0.31999999999999995,1.1
+Chile,Matte,43,48,15,14,0,63,0.7619047619047619,-0.5238095238095238,14,1,2,0.008912655971479501,15,Partido Liberal,0.2857142857142857,20,28,Profesional,0.37209302325581395,4,43,0.47619047619047616,0.3898117386489479,1.0952380952380951
+Chile,Allamand,7,10,1,4,1,11,0.9090909090909091,-0.8181818181818182,5,0.8,1,0,1,Independiente (desde 2010) Unión Demócrata Independiente (2002-2006),0.3333333333333333,3,3,Diplomatico,0.2857142857142857,4,7,0.5757575757575757,0.6233766233766234,1.0757575757575757
+Chile,Claro (Chile),14,10,1,1,0,11,0.9090909090909091,-0.8181818181818182,1,1,1,0,1,Conservador,0.3333333333333333,5,6,Otro,0.35714285714285715,6,14,0.5757575757575757,0.551948051948052,1.0757575757575757
+Chile,Prieto,12,10,1,0,0,11,0.9090909090909091,-0.8181818181818182,0,NA,1,0,1,NA,NA,NA,NA,Otro,0.3333333333333333,4,12,NA,0.5757575757575757,1.0757575757575757
+Chile,Valdés (Chile),42,20,2,9,0,22,0.9090909090909091,-0.8181818181818182,9,1,1,0,2,Liberal,0.19047619047619047,14,21,Otro,0.47619047619047616,8,42,0.7186147186147186,0.4329004329004329,1.0757575757575757
+Chile,Chadwick,18,9,1,2,1,10,0.9,-0.8,3,0.6666666666666666,1,0,1,Unión Demócrata Independiente,0.18181818181818182,10,11,Otro,0.3888888888888889,3,18,0.7181818181818183,0.5111111111111111,1.0666666666666667
+Chile,Matta,10,7,1,0,0,8,0.875,-0.75,0,NA,1,0,1,Partido Liberal,0.3333333333333333,4,6,Profesional,0.4,4,10,0.5416666666666667,0.475,1.0416666666666667
+Chile,Amunátegui,11,10,0,0,0,10,1,-1,0,NA,0,0,0,Partido Liberal,0.375,6,8,Profesional,0.45454545454545453,5,11,0.625,0.5454545454545454,1
+Chile,Angelini,3,2,0,0,0,2,1,-1,0,NA,0,0,0,Independiente cercano a la Centroderecha,0.3333333333333333,3,3,Economico,1,1,3,0.6666666666666667,0,1
+Chile,Bachelet,5,11,0,2,0,11,1,-1,2,1,0,0,0,Partido Socialista,0.4,4,5,Otro,0.8,2,5,0.6,0.19999999999999996,1
+Chile,Balmaceda,25,35,0,4,0,35,1,-1,4,1,0,0,0,Partido Liberal,0.25,7,12,Diplomatico,0.28,5,25,0.75,0.72,1
+Chile,Barrenechea (Chile),6,2,0,2,0,2,1,-1,2,1,0,0,0,Partido Comunista,0.3333333333333333,3,3,Otro,0.6666666666666666,3,6,0.6666666666666667,0.33333333333333337,1
+Chile,Benavides (Chile),4,1,0,0,0,1,1,-1,0,NA,0,0,0,"Independiente , cercano a la derecha [ 2 ] ​",0.5,2,2,Economico,0.5,3,4,0.5,0.5,1
+Chile,Bitar,3,6,0,2,0,6,1,-1,2,1,0,0,0,Partido por la Democracia (1987) Partido Socialista Izquierda Cristiana (1971),1,1,1,Otro,0.6666666666666666,2,3,0,0.33333333333333337,1
+Chile,Carvajal y Vargas,23,27,0,6,0,27,1,-1,6,1,0,0,0,Conservador,0.6666666666666666,2,3,Otro,0.782608695652174,4,23,0.33333333333333337,0.21739130434782605,1
+Chile,Cousiño,10,7,0,2,0,7,1,-1,2,1,0,0,0,Conservador,0.5,3,4,Economico,0.6,4,10,0.5,0.4,1
+Chile,Cueto,3,4,0,0,0,4,1,-1,0,NA,0,0,0,Independiente,0.5,2,2,Economico,1,1,3,0.5,0,1
+Chile,Edwards,36,37,0,6,0,37,1,-1,6,1,0,0,0,Partido Nacional,0.2,15,20,Otro,0.4722222222222222,5,36,0.8,0.5277777777777778,1
+Chile,Etcheberry,5,2,0,0,0,2,1,-1,0,NA,0,0,0,Partido Demócrata Cristiano,0.4,4,5,Profesional,0.6,3,5,0.6,0.4,1
+Chile,Fontaine,6,6,0,2,0,6,1,-1,2,1,0,0,0,"Independiente , cercano a la derecha",0.5,3,4,Diplomatico,0.3333333333333333,4,6,0.5,0.6666666666666667,1
+Chile,Frei,11,14,0,6,0,14,1,-1,6,1,0,0,0,Partido Demócrata Cristiano,0.4444444444444444,6,9,Otro,0.7272727272727273,2,11,0.5555555555555556,0.2727272727272727,1
+Chile,Freire,16,28,0,5,0,28,1,-1,5,1,0,0,0,Partido Conservador,0.375,5,8,Otro,0.5625,3,16,0.625,0.4375,1
+Chile,Galilea,7,6,0,0,0,6,1,-1,0,NA,0,0,0,Renovación Nacional,0.4,4,5,Diplomatico,0.2857142857142857,4,7,0.6,0.7142857142857143,1
+Chile,Gandarillas,11,10,0,0,0,10,1,-1,0,NA,0,0,0,Conservador,0.8,2,5,Otro,0.2727272727272727,7,11,0.19999999999999996,0.7272727272727273,1
+Chile,Garretón,9,2,0,0,0,2,1,-1,0,NA,0,0,0,Amarillos por Chile (desde 2022) [ 1 ] ​ Partido Socialista (1989-2019) Partido por la Democracia (1988-1989) Movimiento de Acción Popular Unitaria (1969-1988) Partido Demócrata Cristiano (1964-1969),0.25,4,4,Otro,0.3333333333333333,4,9,0.75,0.6666666666666667,1
+Chile,Guarello,6,3,0,0,0,3,1,-1,0,NA,0,0,0,Partido Demócrata,0.5,3,4,Profesional,0.8333333333333334,2,6,0.5,0.16666666666666663,1
+Chile,Hales,3,2,0,0,0,2,1,-1,0,NA,0,0,0,PPD (1990-) PCCh (19xx-1990),0.5,2,2,Otro,0.6666666666666666,2,3,0.5,0.33333333333333337,1
+Chile,Ibáñez,8,10,0,0,0,10,1,-1,0,NA,0,0,0,Partido Nacional (1966-1973) Unión Demócrata Independiente (2000-actualidad) [ 1 ] ​,0.4,4,5,Economico,0.625,3,8,0.6,0.375,1
+Chile,Kast,15,29,0,9,0,29,1,-1,9,1,0,0,0,Evolución Política,0.2,7,10,Otro,0.6666666666666666,3,15,0.8,0.33333333333333337,1
+Chile,Lavín,16,11,0,2,0,11,1,-1,2,1,0,0,0,Partido por la Democracia (desde 1987) Partido Socialista de Chile (1986-1987),0.2,7,10,Otro,0.6875,4,16,0.8,0.3125,1
+Chile,Meruane,4,2,0,2,0,2,1,-1,2,1,0,0,0,NA,NA,NA,NA,Otro,0.5,2,4,NA,0.5,1
+Chile,Monckeberg,10,2,0,2,0,2,1,-1,2,1,0,0,0,Independiente cercano a Renovación Nacional,0.16666666666666666,6,6,Profesional,0.6,4,10,0.8333333333333334,0.4,1
+Chile,Montt,48,52,0,7,0,52,1,-1,7,1,0,0,0,Nacional,0.16666666666666666,14,24,Profesional,0.4583333333333333,7,48,0.8333333333333334,0.5416666666666667,1
+Chile,Parra (Chile),19,17,0,4,0,17,1,-1,4,1,0,0,0,Partido Comunista de Chile,0.6666666666666666,2,3,Otro,0.7894736842105263,3,19,0.33333333333333337,0.21052631578947367,1
+Chile,Philippi,6,6,0,0,0,6,1,-1,0,NA,0,0,0,Candidato independiente cercano a la Centroderecha,1,1,1,Diplomatico,0.5,3,6,0,0.5,1
+Chile,Pinochet,21,28,0,6,0,28,1,-1,6,1,0,0,0,Partido Demócrata Cristiano,0.14285714285714285,11,14,Diplomatico,0.23809523809523808,5,21,0.8571428571428572,0.7619047619047619,1
+Chile,Sanfuentes,18,17,0,9,0,17,1,-1,9,1,0,0,0,Partido Liberal Democrático,0.2857142857142857,5,7,Otro,0.4444444444444444,6,18,0.7142857142857143,0.5555555555555556,1
+Chile,Santa María,6,9,0,3,0,9,1,-1,3,1,0,0,0,Partido Liberal,0.75,2,4,Otro,0.3333333333333333,4,6,0.25,0.6666666666666667,1
+Chile,Santiago Concha,9,4,0,2,0,4,1,-1,2,1,0,0,0,NA,NA,NA,NA,Otro,0.6666666666666666,3,9,NA,0.33333333333333337,1
+Chile,Schmidt,11,8,0,2,0,8,1,-1,2,1,0,0,0,Independiente,0.2857142857142857,6,7,Economico,0.36363636363636365,4,11,0.7142857142857143,0.6363636363636364,1
+Chile,Tohá,9,12,0,7,0,12,1,-1,7,1,0,0,0,Amarillos por Chile (2022-2024) Partido Socialista (1984-2016),0.125,8,8,Otro,0.5555555555555556,3,9,0.875,0.4444444444444444,1
+Chile,Trivelli,3,4,0,0,0,4,1,-1,0,NA,0,0,0,Partido Demócrata Cristiano (1957-2005),0.5,2,2,Otro,0.6666666666666666,2,3,0.5,0.33333333333333337,1
+Chile,Undurraga,5,4,0,4,0,4,1,-1,4,1,0,0,0,Nacional (1966-1973),1,1,1,Otro,0.6,2,5,0,0.4,1
+Chile,Van Rysselberghe,4,6,0,0,0,6,1,-1,0,NA,0,0,0,Unión Demócrata Independiente,0.75,2,4,Otro,0.75,2,4,0.25,0.25,1
+Chile,Veloso,4,5,0,0,0,5,1,-1,0,NA,0,0,0,Partido Socialista,0.75,2,4,Profesional,0.75,2,4,0.25,0.25,1
+Chile,Videla,15,6,0,4,0,6,1,-1,4,1,0,0,0,Partido Unitario,0.3333333333333333,5,6,Otro,0.4666666666666667,5,15,0.6666666666666667,0.5333333333333333,1
+Chile,Vodanovic,6,2,0,0,0,2,1,-1,0,NA,0,0,0,Frente Amplio (2024-presente) Revolución Democrática (2017-2024),0.3333333333333333,3,3,Profesional,0.8333333333333334,2,6,0.6666666666666667,0.16666666666666663,1
+Chile,Walker (Chile),13,7,0,5,0,7,1,-1,5,1,0,0,0,Partido Conservador,0.2222222222222222,8,9,Profesional,0.46153846153846156,4,13,0.7777777777777778,0.5384615384615384,1
+Chile,Yarur,5,2,0,0,0,2,1,-1,0,NA,0,0,0,Independiente,0.5,2,2,Economico,0.8,2,5,0.5,0.19999999999999996,1
+Chile,Zañartu,17,3,0,0,0,3,1,-1,0,NA,0,0,0,Partido Liberal Democrático,0.42857142857142855,5,7,Profesional,0.35294117647058826,6,17,0.5714285714285714,0.6470588235294117,1
+Chile,Zegers (Chile),13,3,0,1,0,3,1,-1,1,1,0,0,0,"Partido Conservador Unido (hasta 1966) Independiente, cercano a la derecha (1966-presente)",0.25,4,4,Otro,0.5384615384615384,3,13,0.75,0.46153846153846156,1
+Chile,Subercaseaux,23,25,13,5,2,38,0.6578947368421053,-0.3157894736842105,7,0.7142857142857143,2,0,13,Partido Demócrata Cristiano (1957-2011) Falange Nacional (1938-1957),0.18181818181818182,9,11,Otro,0.4782608695652174,6,23,0.4760765550239235,0.1796338672768879,0.9912280701754386
+Chile,Bello,13,17,10,3,0,27,0.6296296296296297,-0.25925925925925924,3,1,2,0.0142602495543672,10,Partido Liberal Democrático,0.4,4,5,Otro,0.38461538461538464,3,13,0.22962962962962963,0.245014245014245,0.962962962962963
+Chile,Cruz-Coke,7,7,2,5,1,9,0.7777777777777778,-0.5555555555555556,6,0.8333333333333334,1,0,2,Avanzada Nacional (1987-1990),0.3333333333333333,3,3,Economico,0.42857142857142855,3,7,0.4444444444444445,0.34920634920634924,0.9444444444444444
+Chile,Zaldívar,11,6,2,4,1,8,0.75,-0.5,5,0.8,1,0,2,Coalición Socialista-Democrática (1939–1944) Partido Liberal de Cuba (1948–1949) Partido Acción Unitaria (1949–1952) Partido de Acción Progresista (1952–1959),0.125,8,8,Otro,0.2727272727272727,5,11,0.625,0.4772727272727273,0.9166666666666666
+Chile,Vial,38,6,7,0,2,13,0.46153846153846156,0.07692307692307693,2,0,2,0.0106951871657754,7,Conservador,0.15789473684210525,14,19,Profesional,0.2631578947368421,7,38,0.3036437246963563,0.19838056680161947,0.7948717948717949
+Chile,Bunster,6,8,6,2,0,14,0.5714285714285714,-0.14285714285714285,2,1,1,0,6,"Independiente , cercano a la derecha",0.25,4,4,Economico,0.6666666666666666,3,6,0.3214285714285714,-0.09523809523809523,0.738095238095238
+Chile,Cortés de Monroy,11,1,1,1,1,2,0.5,0,2,0.5,1,0,1,Partido Radical,1,1,1,Otro,0.8181818181818182,3,11,-0.5,-0.31818181818181823,0.6666666666666666
+Chile,Fontbona,6,7,7,1,1,14,0.5,0,2,0.5,1,0,7,NA,NA,NA,NA,Economico,0.6666666666666666,3,6,NA,-0.16666666666666663,0.6666666666666666
+Chile,Morandé,11,14,15,6,2,29,0.4827586206896552,0.034482758620689655,8,0.75,1,0,15,"Independiente , cercano al Partido por la Democracia [ 1 ] ​",0.1111111111111111,9,9,Otro,0.45454545454545453,4,11,0.3716475095785441,0.028213166144200663,0.6494252873563219
+Chile,Luksic,7,5,7,2,1,12,0.4166666666666667,0.16666666666666666,3,0.6666666666666666,1,0,7,Amarillos por Chile (desde 2022) Independiente (2018-2022) Partido Demócrata Cristiano (hasta 2018),1,1,1,Economico,0.5714285714285714,3,7,-0.5833333333333333,-0.1547619047619047,0.5833333333333334
+Chile,Valdivieso,11,2,7,0,3,9,0.2222222222222222,0.5555555555555556,3,0,2,0.0106951871657754,7,Bando Patriota Bando Carrerino (Líder),0.16666666666666666,6,6,Otro,0.5454545454545454,3,11,0.05555555555555555,-0.3232323232323232,0.5555555555555556
+Chile,Piñera,5,0,2,0,2,2,0,1,2,0,1,0,2,Renovación Nacional,1,1,1,Otro,1,1,5,-1,-1,0.16666666666666666
+Chile,Awad,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Demócrata Cristiano,1,1,1,Diplomatico,0.5,2,2,NA,NA,NA
+Chile,Boric,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Regionalista de Magallanes,1,1,1,Otro,0.5,2,2,NA,NA,NA
+Chile,Cavada,9,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Liberal,1,1,1,Profesional,0.6666666666666666,4,9,NA,NA,NA
+Chile,Cruzat,8,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Radical,0.5,3,4,Otro,0.5,2,8,NA,NA,NA
+Chile,De Solminihac,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Diplomatico,0.5,2,2,NA,NA,NA
+Chile,Del Río (Chile),1,0,0,0,0,0,NA,NA,0,NA,0,0,0,Independiente cercano al Partido Liberal,1,1,1,Economico,1,1,1,NA,NA,NA
+Chile,Familias fundadoras de Chile,1,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,1,NA,NA,NA
+Chile,Feliú,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Independiente cercana a la Derecha,1,1,1,Economico,0.3333333333333333,3,3,NA,NA,NA
+Chile,Galleguillos,11,0,0,0,0,0,NA,NA,0,NA,0,0,0,Demócrata Cristiano,0.3333333333333333,3,3,Otro,0.7272727272727273,4,11,NA,NA,NA
+Chile,Guilisasti,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Independiente,0.5,2,2,Economico,0.6666666666666666,2,3,NA,NA,NA
+Chile,Heiremans,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,"Independiente, cercano a la derecha",1,1,1,Otro,0.6666666666666666,2,3,NA,NA,NA
+Chile,Iommi,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.5,2,2,NA,NA,NA
+Chile,Kaiser,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Nacional Libertario (desde 2024) Independiente (2021-2024) Partido Republicano (2020-2021),0.5,2,2,Otro,0.6666666666666666,2,3,NA,NA,NA
+Chile,Massú,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Diplomatico,0.5,2,2,NA,NA,NA
+Chile,Ochagavía,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,Unión Demócrata Independiente,1,1,1,Otro,0.75,2,4,NA,NA,NA
+Chile,Precht,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Demócrata Cristiano,1,1,1,Otro,1,1,3,NA,NA,NA
+Chile,Ross (Chile),3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Liberal,1,1,1,Otro,0.6666666666666666,2,3,NA,NA,NA
+Chile,Ruiz-Tagle,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,Independiente,0.5,2,2,Economico,0.5,3,4,NA,NA,NA
+Chile,Von Mühlenbrock,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,Independiente,0.5,2,2,Diplomatico,0.5,2,2,NA,NA,NA
+Colombia,Caicedo,46,55,19,3,4,74,0.7432432432432432,-0.4864864864864865,7,0.42857142857142855,6,0.0153276955602537,19,Partido Conservador Colombiano,0.6153846153846154,5,13,Otro,0.2608695652173913,7,46,0.12785862785862778,0.4823736780258519,1.7432432432432432
+Colombia,Caro,17,30,6,6,1,36,0.8333333333333334,-0.6666666666666666,7,0.8571428571428571,3,0.008456659619450317,6,Partido Conservador Colombiano,0.7142857142857143,3,7,Otro,0.5882352941176471,3,17,0.11904761904761907,0.2450980392156863,1.3333333333333335
+Colombia,Álvarez del Casal,22,33,9,7,3,42,0.7857142857142857,-0.5714285714285714,10,0.7,3,0.008456659619450317,9,Centralista,0.2,5,5,Otro,0.4090909090909091,4,22,0.5857142857142856,0.3766233766233766,1.2857142857142856
+Colombia,Arboleda,56,78,6,7,0,84,0.9285714285714286,-0.8571428571428571,7,1,2,0.004228329809725159,6,Partido Conservador,0.4,4,20,Otro,0.4642857142857143,6,56,0.5285714285714286,0.4642857142857143,1.2619047619047619
+Colombia,París,21,46,2,4,0,48,0.9583333333333334,-0.9166666666666666,4,1,1,0,2,Partido Conservador,0.3333333333333333,4,9,Militar,0.5238095238095238,4,21,0.625,0.43452380952380953,1.125
+Colombia,Urdaneta,18,11,3,0,1,14,0.7857142857142857,-0.5714285714285714,1,0,2,0.004228329809725159,3,Partido Conservador Colombiano,0.5,3,4,Profesional,0.3333333333333333,4,18,0.2857142857142857,0.4523809523809524,1.119047619047619
+Colombia,Carreño,9,12,1,4,0,13,0.9230769230769231,-0.8461538461538461,4,1,1,0,1,Partido Conservador Colombiano,1,1,2,Otro,0.5555555555555556,3,9,-0.07692307692307687,0.36752136752136755,1.0897435897435899
+Colombia,Holguín,22,7,1,2,0,8,0.875,-0.75,2,1,1,0,1,Partido Conservador Colombiano,0.25,6,8,Otro,0.36363636363636365,4,22,0.625,0.5113636363636364,1.0416666666666667
+Colombia,Laserna,12,20,3,3,0,23,0.8695652173913043,-0.7391304347826086,3,1,1,0,3,Partido Conservador Colombiano,0.6,4,10,Otro,0.4166666666666667,4,12,0.26956521739130435,0.45289855072463764,1.036231884057971
+Colombia,Ospina,35,65,10,10,2,75,0.8666666666666667,-0.7333333333333333,12,0.8333333333333334,1,0,10,Partido Conservador Colombiano,0.5789473684210527,5,19,Profesional,0.2857142857142857,5,35,0.28771929824561404,0.580952380952381,1.0333333333333334
+Colombia,Galán,17,37,6,6,2,43,0.8604651162790697,-0.7209302325581395,8,0.75,1,0,6,Partido Liberal (1997-2018) Nuevo Liberalismo (desde 2019),0.2,6,10,Profesional,0.4117647058823529,5,17,0.6604651162790698,0.4487004103967168,1.0271317829457365
+Colombia,Vergara-Azcárate,22,11,5,2,0,16,0.6875,-0.375,2,1,2,0,5,Partido Conservador Colombiano,1,1,2,Otro,0.6363636363636364,4,22,-0.3125,0.051136363636363646,1.0208333333333333
+Colombia,Calderón (Colombia),22,29,5,3,0,34,0.8529411764705882,-0.7058823529411765,3,1,1,0,5,Partido Liberal Colombiano,0.3333333333333333,6,9,Profesional,0.5,6,22,0.5196078431372548,0.3529411764705882,1.0196078431372548
+Colombia,Acevedo (Colombia),15,18,0,4,0,18,1,-1,4,1,0,0,0,Alianza Democrática M-19,0.2,5,5,Otro,0.5333333333333333,3,15,0.8,0.4666666666666667,1
+Colombia,Amador,6,7,0,2,0,7,1,-1,2,1,0,0,0,Partido Liberal Colombiano,0.6666666666666666,2,3,Diplomatico,0.3333333333333333,4,6,0.33333333333333337,0.6666666666666667,1
+Colombia,Arroyo,8,12,0,3,0,12,1,-1,3,1,0,0,0,Partido Conservador Colombiano,1,1,2,Otro,0.875,2,8,0,0.125,1
+Colombia,Barco,9,8,0,2,0,8,1,-1,2,1,0,0,0,Partido Liberal Colombiano,0.6666666666666666,2,3,Otro,0.7777777777777778,3,9,0.33333333333333337,0.2222222222222222,1
+Colombia,Barraquer,12,15,0,0,0,15,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Profesional,0.5,3,12,NA,0.5,1
+Colombia,Barrientos,11,11,0,0,0,11,1,-1,0,NA,0,0,0,Partido Conservador,0.5,2,6,Economico,0.36363636363636365,4,11,0.5,0.6363636363636364,1
+Colombia,Berrío,8,6,0,0,0,6,1,-1,0,NA,0,0,0,Partido Conservador Colombiano,0.6,2,5,Militar,0.75,3,8,0.4,0.25,1
+Colombia,Borja,59,46,0,5,0,46,1,-1,5,1,0,0,0,Izquierda Democrática,0.2857142857142857,5,7,Otro,0.7288135593220338,6,59,0.7142857142857143,0.27118644067796616,1
+Colombia,Borrero,39,44,0,10,0,44,1,-1,10,1,0,0,0,Partido Liberal Colombiano,0.36363636363636365,9,22,Profesional,0.3333333333333333,5,39,0.6363636363636364,0.6666666666666667,1
+Colombia,Brigard,7,2,0,0,0,2,1,-1,0,NA,0,0,0,Partido Conservador Colombiano,1,1,1,Diplomatico,0.5714285714285714,3,7,0,0.4285714285714286,1
+Colombia,Caballero,10,12,0,2,0,12,1,-1,2,1,0,0,0,Partido Liberal Colombiano,0.5,2,2,Profesional,0.4,5,10,0.5,0.6,1
+Colombia,Camacho,24,14,0,2,0,14,1,-1,2,1,0,0,0,Partido Conservador Colombiano,0.4,6,10,Otro,0.3333333333333333,5,24,0.6,0.6666666666666667,1
+Colombia,Cano,14,24,0,5,0,24,1,-1,5,1,0,0,0,Partido Liberal Colombiano,1,1,1,Profesional,0.5714285714285714,4,14,0,0.4285714285714286,1
+Colombia,Casas,5,5,0,2,0,5,1,-1,2,1,0,0,0,Partido Conservador Colombiano,0.75,2,4,Profesional,0.4,4,5,0.25,0.6,1
+Colombia,Char,11,10,0,2,0,10,1,-1,2,1,0,0,0,Partido Liberal Colombiano (1982-2004) Partido Cambio Radical (2004-presente),0.4,4,5,Otro,0.5454545454545454,3,11,0.6,0.4545454545454546,1
+Colombia,Concha,4,4,0,2,0,4,1,-1,2,1,0,0,0,Partido Conservador,1,1,1,Otro,0.5,3,4,0,0.5,1
+Colombia,Cuervo,12,15,0,2,0,15,1,-1,2,1,0,0,0,Partido Conservador,0.5,2,4,Diplomatico,0.25,5,12,0.5,0.75,1
+Colombia,Duque,7,9,0,5,0,9,1,-1,5,1,0,0,0,Centro Democrático (desde 2014),0.3333333333333333,3,3,Profesional,0.7142857142857143,2,7,0.6666666666666667,0.2857142857142857,1
+Colombia,Dávila,8,4,0,0,0,4,1,-1,0,NA,0,0,0,Partido Conservador Colombiano,0.5,2,2,Otro,0.5,4,8,0.5,0.5,1
+Colombia,Eastman,2,2,0,0,0,2,1,-1,0,NA,0,0,0,Partido Liberal Colombiano,1,1,1,Diplomatico,1,1,2,0,0,1
+Colombia,Echandía,4,2,0,0,0,2,1,-1,0,NA,0,0,0,Liberal,1,1,1,Profesional,0.75,2,4,0,0.25,1
+Colombia,Echavarría,9,11,0,0,0,11,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Economico,0.5555555555555556,3,9,NA,0.4444444444444444,1
+Colombia,Escobar Gaviria,8,3,0,0,0,3,1,-1,0,NA,0,0,0,Partido Liberal Colombiano,0.6666666666666666,2,3,Otro,0.75,3,8,0.33333333333333337,0.25,1
+Colombia,Galeano,6,5,0,0,0,5,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Local,0.5,3,6,NA,0.5,1
+Colombia,Galvis (Galavís),6,6,0,1,0,6,1,-1,1,1,0,0,0,Partido Liberal Colombiano,1,1,1,Profesional,0.5,4,6,0,0.5,1
+Colombia,Garcés,16,5,0,0,0,5,1,-1,0,NA,0,0,0,Alianza Democrática M-19,0.3333333333333333,4,6,Otro,0.5,5,16,0.6666666666666667,0.5,1
+Colombia,Gilinski,3,2,0,0,0,2,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Diplomatico,0.3333333333333333,3,3,NA,0.6666666666666667,1
+Colombia,Groot,11,14,0,0,0,14,1,-1,0,NA,0,0,0,Partido Conservador Colombiano,0.5,2,2,Otro,0.6363636363636364,3,11,0.5,0.36363636363636365,1
+Colombia,Gómez,13,23,0,5,0,23,1,-1,5,1,0,0,0,Partido Conservador Colombiano,0.5555555555555556,5,9,Profesional,0.6923076923076923,2,13,0.4444444444444444,0.3076923076923077,1
+Colombia,Gómez Martínez,3,4,0,0,0,4,1,-1,0,NA,0,0,0,Centro Democrático,0.3333333333333333,3,3,Diplomatico,0.6666666666666666,2,3,0.6666666666666667,0.33333333333333337,1
+Colombia,Herrera,2,2,0,2,0,2,1,-1,2,1,0,0,0,Partido Liberal Colombiano,1,1,1,Diplomatico,0.5,2,2,0,0.5,1
+Colombia,Herrán,5,2,0,2,0,2,1,-1,2,1,0,0,0,Partido Conservador,1,1,1,Otro,0.6,2,5,0,0.4,1
+Colombia,Jattin,8,8,0,0,0,8,1,-1,0,NA,0,0,0,Partido Liberal,0.3333333333333333,3,6,Otro,0.75,2,8,0.6666666666666667,0.25,1
+Colombia,Lemos,6,3,0,0,0,3,1,-1,0,NA,0,0,0,Partido Liberal Colombiano,0.5,2,2,Otro,0.6666666666666666,3,6,0.5,0.33333333333333337,1
+Colombia,López,24,52,0,15,0,52,1,-1,15,1,0,0,0,Partido Liberal Colombiano,0.7692307692307693,4,13,Otro,0.4166666666666667,6,24,0.23076923076923073,0.5833333333333333,1
+Colombia,Mallarino,5,4,0,0,0,4,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.6,3,5,NA,0.4,1
+Colombia,Manrique,8,4,0,1,0,4,1,-1,1,1,0,0,0,NA,NA,NA,NA,Otro,0.75,3,8,NA,0.25,1
+Colombia,Martínez-Silva,3,3,0,0,0,3,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Judicial,0.6666666666666666,2,3,NA,0.33333333333333337,1
+Colombia,Mutis,7,2,0,0,0,2,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.5714285714285714,2,7,NA,0.4285714285714286,1
+Colombia,Navia,3,2,0,2,0,2,1,-1,2,1,0,0,0,NA,NA,NA,NA,Otro,1,1,3,NA,0,1
+Colombia,Niño,17,5,0,0,0,5,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.8823529411764706,2,17,NA,0.11764705882352944,1
+Colombia,O'Donnell,22,23,0,0,0,23,1,-1,0,NA,0,0,0,Partido Conservador Colombiano,0.25,4,4,Otro,0.36363636363636365,5,22,0.75,0.6363636363636364,1
+Colombia,Obregón,9,8,0,2,0,8,1,-1,2,1,0,0,0,Colombia Renaciente,0.5,2,2,Otro,0.6666666666666666,3,9,0.5,0.33333333333333337,1
+Colombia,Pardo,5,6,0,6,0,6,1,-1,6,1,0,0,0,Partido Liberal Colombiano,1,1,2,Otro,0.6,3,5,0,0.4,1
+Colombia,Petro,5,6,0,2,0,6,1,-1,2,1,0,0,0,Alianza Democrática M-19 (1990-1997) Movimiento Vía Alterna (1997-2005) Polo Democrático (2006-2010) Colombia Humana (2011-2025) Pacto Histórico (2025-),1,1,1,Otro,0.6,2,5,0,0.4,1
+Colombia,Piraquive,4,6,0,2,0,6,1,-1,2,1,0,0,0,MIRA (desde 2000) Republicano (desde 2017) [ 2 ] ​,0.3333333333333333,3,3,Otro,0.5,3,4,0.6666666666666667,0.5,1
+Colombia,Reyes,8,4,0,0,0,4,1,-1,0,NA,0,0,0,Partido Liberal Colombiano,0.6666666666666666,2,3,Militar,0.625,3,8,0.33333333333333337,0.375,1
+Colombia,Rojas,8,18,0,4,0,18,1,-1,4,1,0,0,0,ANAPO,0.2857142857142857,5,7,Otro,0.375,3,8,0.7142857142857143,0.625,1
+Colombia,Sanclemente,6,2,0,0,0,2,1,-1,0,NA,0,0,0,Partido Conservador Colombiano,0.6666666666666666,2,3,Diplomatico,0.3333333333333333,3,6,0.33333333333333337,0.6666666666666667,1
+Colombia,Umaña,6,7,0,0,0,7,1,-1,0,NA,0,0,0,Unión Patriótica,0.5,3,4,Profesional,0.5,3,6,0.5,0.5,1
+Colombia,Uribe,8,9,0,2,0,9,1,-1,2,1,0,0,0,Centro Democrático,0.3333333333333333,4,6,Economico,0.375,3,8,0.6666666666666667,0.625,1
+Colombia,Uricoechea,3,2,0,0,0,2,1,-1,0,NA,0,0,0,Partido Liberal,1,1,1,Profesional,0.6666666666666666,2,3,0,0.33333333333333337,1
+Colombia,Valencia,19,15,3,2,0,18,0.8333333333333334,-0.6666666666666666,2,1,1,0,3,Alianza Nacional Popular,0.3333333333333333,5,6,Otro,0.42105263157894735,4,19,0.5,0.412280701754386,1
+Colombia,Vega,4,5,0,3,0,5,1,-1,3,1,0,0,0,Centro Democrático,1,1,3,Militar,0.75,2,4,0,0.25,1
+Colombia,Villaveces,3,4,0,0,0,4,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.6666666666666666,2,3,NA,0.33333333333333337,1
+Colombia,Villegas (Colombia),4,4,0,0,0,4,1,-1,0,NA,0,0,0,Partido Conservador Colombiano,0.6666666666666666,2,3,Economico,0.5,2,4,0.33333333333333337,0.5,1
+Colombia,Zea,11,11,0,4,0,11,1,-1,4,1,0,0,0,Partido Liberal Colombiano,0.6666666666666666,2,3,Otro,0.7272727272727273,3,11,0.33333333333333337,0.2727272727272727,1
+Colombia,Zuleta (Colombia),2,2,0,0,0,2,1,-1,0,NA,0,0,0,Partido Conservador Colombiano,1,1,1,Diplomatico,1,1,2,0,0,1
+Colombia,de Greiff,6,4,0,0,0,4,1,-1,0,NA,0,0,0,Partido Liberal Colombiano,1,1,2,Profesional,0.5,3,6,0,0.5,1
+Colombia,Azuola,9,14,3,2,0,17,0.8235294117647058,-0.6470588235294118,2,1,1,0,3,Partido Conservador Colombiano,0.6,3,5,Profesional,0.5555555555555556,4,9,0.22352941176470587,0.26797385620915026,0.9901960784313725
+Colombia,Quintero,14,21,5,5,2,26,0.8076923076923077,-0.6153846153846154,7,0.7142857142857143,1,0,5,Partido Liberal Colombiano,0.4,5,10,Otro,0.5,5,14,0.4076923076923077,0.3076923076923077,0.9743589743589743
+Colombia,Ayala,5,8,2,2,0,10,0.8,-0.6,2,1,1,0,2,NA,NA,NA,NA,Otro,0.4,4,5,NA,0.4,0.9666666666666667
+Colombia,Camargo,11,15,4,4,0,19,0.7894736842105263,-0.5789473684210527,4,1,1,0,4,Partido Liberal Colombiano,0.6666666666666666,3,6,Profesional,0.5454545454545454,4,11,0.1228070175438597,0.2440191387559809,0.956140350877193
+Colombia,Pumarejo,11,7,2,0,2,9,0.7777777777777778,-0.5555555555555556,2,0,1,0,2,Partido Conservador Colombiano,0.5,3,4,Economico,0.45454545454545453,4,11,0.2777777777777778,0.32323232323232326,0.9444444444444444
+Colombia,Lozano,13,12,8,0,3,20,0.6,-0.2,3,0,2,0.004228329809725159,8,Partido Liberal Colombiano,0.75,2,4,Otro,0.46153846153846156,3,13,-0.15000000000000002,0.1384615384615384,0.9333333333333333
+Colombia,Gnecco,20,21,7,1,2,28,0.75,-0.5,3,0.3333333333333333,1,0,7,Partido Liberal,0.18181818181818182,7,11,Otro,0.7,3,20,0.5681818181818181,0.050000000000000044,0.9166666666666666
+Colombia,Lleras,21,28,10,8,2,38,0.7368421052631579,-0.47368421052631576,10,0.8,1,0,10,Partido Liberal Colombiano,0.6153846153846154,5,13,Profesional,0.42857142857142855,5,21,0.12145748987854244,0.3082706766917293,0.9035087719298245
+Colombia,Cabal,16,11,4,6,1,15,0.7333333333333333,-0.4666666666666667,7,0.8571428571428571,1,0,4,Partido Conservador Colombiano,0.6666666666666666,3,12,Otro,0.375,5,16,0.06666666666666665,0.3583333333333333,0.8999999999999999
+Colombia,Restrepo,31,10,4,0,0,14,0.7142857142857143,-0.42857142857142855,0,NA,1,0,4,Partido Conservador Colombiano,0.38461538461538464,7,13,Profesional,0.45161290322580644,6,31,0.32967032967032966,0.26267281105990786,0.8809523809523809
+Colombia,Samper,28,17,7,4,2,24,0.7083333333333334,-0.4166666666666667,6,0.6666666666666666,1,0,7,Partido Liberal Colombiano,0.42857142857142855,5,7,Otro,0.35714285714285715,5,28,0.2797619047619048,0.3511904761904762,0.875
+Colombia,Olmos,11,8,7,0,0,15,0.5333333333333333,-0.06666666666666667,0,NA,2,0,7,Centro Democrático,1,1,1,Local,0.36363636363636365,3,11,-0.4666666666666667,0.16969696969696968,0.8666666666666667
+Colombia,Jaramillo (Colombia),10,9,4,0,0,13,0.6923076923076923,-0.38461538461538464,0,NA,1,0,4,Partido Conservador Colombiano,0.8,2,5,Economico,0.5,3,10,-0.10769230769230775,0.1923076923076923,0.8589743589743589
+Colombia,Angulo,4,2,1,0,0,3,0.6666666666666666,-0.3333333333333333,0,NA,1,0,1,Partido Conservador,1,1,1,Profesional,0.5,3,4,-0.33333333333333337,0.16666666666666663,0.8333333333333333
+Colombia,Argáez,8,6,3,0,0,9,0.6666666666666666,-0.3333333333333333,0,NA,1,0,3,NA,NA,NA,NA,Diplomatico,0.5,3,8,NA,0.16666666666666663,0.8333333333333333
+Colombia,Nariño,9,10,10,4,0,20,0.5,0,4,1,2,0.004228329809725159,10,Partido Conservador,0.5,2,2,Otro,0.5555555555555556,3,9,0,-0.05555555555555558,0.8333333333333333
+Colombia,Mosquera,16,7,4,0,0,11,0.6363636363636364,-0.2727272727272727,0,NA,1,0,4,Partido Liberal Colombiano,1,1,4,Otro,0.5,4,16,-0.36363636363636365,0.13636363636363635,0.803030303030303
+Colombia,Leyva,23,10,6,1,1,16,0.625,-0.25,2,0.5,1,0,6,NA,NA,NA,NA,Otro,0.6086956521739131,4,23,NA,0.016304347826086918,0.7916666666666666
+Colombia,Durán (Colombia),9,7,6,0,1,13,0.5384615384615384,-0.07692307692307693,1,0,1,0,6,Partido Conservador (1970-1990) (Nuevamente desde 2007) [ 1 ] ​ Alianza Democrática M-19 (1991-1992),0.3333333333333333,4,6,Diplomatico,0.3333333333333333,5,9,0.20512820512820512,0.20512820512820512,0.7051282051282051
+Colombia,Carrizosa,6,4,4,0,0,8,0.5,0,0,NA,1,0,4,Partido Conservador,0.6666666666666666,2,3,Otro,0.6666666666666666,3,6,-0.16666666666666663,-0.16666666666666663,0.6666666666666666
+Colombia,Santo Domingo,3,2,2,0,2,4,0.5,0,2,0,1,0,2,NA,NA,NA,NA,Otro,0.6666666666666666,2,3,NA,-0.16666666666666663,0.6666666666666666
+Colombia,Gutiérrez Díaz,3,3,4,0,1,7,0.42857142857142855,0.14285714285714285,1,0,1,0,4,NA,NA,NA,NA,Economico,0.6666666666666666,2,3,NA,-0.23809523809523808,0.5952380952380952
+Colombia,Pachón,4,4,6,2,2,10,0.4,0.2,4,0.5,1,0,6,Cambio Radical,0.5,2,2,Otro,0.5,3,4,-0.09999999999999998,-0.09999999999999998,0.5666666666666667
+Colombia,Santos,10,3,5,3,0,8,0.375,0.25,3,1,1,0,5,Partido Liberal Colombiano,1,1,4,Otro,0.4,5,10,-0.625,-0.025000000000000022,0.5416666666666666
+Colombia,Turbay,10,2,5,0,2,7,0.2857142857142857,0.42857142857142855,2,0,1,0,5,Partido Liberal Colombiano,0.5,3,4,Otro,0.8,2,10,-0.2142857142857143,-0.5142857142857143,0.45238095238095233
+Colombia,Sanz de Santamaría,12,1,4,0,0,5,0.2,0.6,0,NA,1,0,4,Partido Conservador Colombiano,0.5,2,4,Otro,0.4166666666666667,6,12,-0.3,-0.21666666666666667,0.3666666666666667
+Colombia,Ricaurte,11,2,9,0,0,11,0.18181818181818182,0.6363636363636364,0,NA,1,0,9,Partido Conservador Colombiano,1,1,2,Militar,0.36363636363636365,5,11,-0.8181818181818181,-0.18181818181818182,0.3484848484848485
+Colombia,Cordovéz,5,0,3,0,0,3,0,1,0,NA,1,0,3,NA,NA,NA,NA,Otro,0.8,2,5,NA,-0.8,0.16666666666666666
+Colombia,Eder,4,0,3,0,2,3,0,1,2,0,1,0,3,Compromiso Ciudadano (2019-2023) Independiente (2023-presente),1,1,1,Otro,0.75,2,4,-1,-0.75,0.16666666666666666
+Colombia,Largacha,2,0,1,0,0,1,0,1,0,NA,1,0,1,Partido Conservador,0.5,2,2,Militar,1,1,2,-0.5,-1,0.16666666666666666
+Colombia,Torrijos,3,0,2,0,0,2,0,1,0,NA,1,0,2,Centro Derecha (ideología),0.5,2,2,Diplomatico,0.3333333333333333,3,3,-0.5,-0.3333333333333333,0.16666666666666666
+Colombia,Acosta,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.5,2,2,NA,NA,NA
+Colombia,Acosta del Castillo,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Liberal Colombiano,1,1,2,Diplomatico,0.5,2,2,NA,NA,NA
+Colombia,Anexos:Familias de Colombia,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,4,NA,NA,NA
+Colombia,Arrubla,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Conservador Colombiano,1,1,2,Profesional,0.75,2,4,NA,NA,NA
+Colombia,Ayerbe,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Conservador,1,1,2,Diplomatico,0.5,2,4,NA,NA,NA
+Colombia,Balanta,13,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,13,NA,NA,NA
+Colombia,Carvajal,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Conservador Colombiano,1,1,1,Otro,0.6666666666666666,2,3,NA,NA,NA
+Colombia,Castaño Gil,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Autodefensas Unidas de Colombia,1,1,2,Militar,0.6666666666666666,2,3,NA,NA,NA
+Colombia,Castillo Guevara,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,4,NA,NA,NA
+Colombia,Chaux,5,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Liberal Colombiano,1,1,3,Otro,0.6,2,5,NA,NA,NA
+Colombia,Cock,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Conservador Colombiano,1,1,3,Economico,0.5,2,4,NA,NA,NA
+Colombia,Díaz Granados,5,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Liberal (1994-2006) Partido de la U,1,1,1,Otro,0.4,4,5,NA,NA,NA
+Colombia,Díaz del Castillo,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Liberal,1,1,1,Diplomatico,0.3333333333333333,3,3,NA,NA,NA
+Colombia,Esguerra,8,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Liberal Colombiano,0.8,2,5,Profesional,0.5,4,8,NA,NA,NA
+Colombia,Fernández de Soto,1,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Liberal Colombiano,1,1,1,Otro,1,1,1,NA,NA,NA
+Colombia,Hurtado,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Liberal Colombiano,0.5,2,2,Militar,0.6666666666666666,2,3,NA,NA,NA
+Colombia,Ibáñez (Colombia),5,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Conservador Colombiano,0.5,2,2,Profesional,0.4,4,5,NA,NA,NA
+Colombia,Llinás,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,4,NA,NA,NA
+Colombia,Lloreda,1,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,1,NA,NA,NA
+Colombia,Madariaga,5,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.4,3,5,NA,NA,NA
+Colombia,Mariño,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Militar,0.6666666666666666,2,3,NA,NA,NA
+Colombia,Mazuera,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Economico,0.5,2,2,NA,NA,NA
+Colombia,Medina,1,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Profesional,1,1,1,NA,NA,NA
+Colombia,Michelsen,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,3,NA,NA,NA
+Colombia,Moure,5,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.6,3,5,NA,NA,NA
+Colombia,Olaya,1,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Conservador Colombiano,1,1,1,Militar,1,1,1,NA,NA,NA
+Colombia,Orbegozo,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Liberal Colombiano,1,1,1,Otro,0.5,2,2,NA,NA,NA
+Colombia,Pastrana,1,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,1,NA,NA,NA
+Colombia,Pizarro (Colombia),2,0,0,0,0,0,NA,NA,0,NA,0,0,0,Conservador,1,1,1,Militar,1,1,2,NA,NA,NA
+Colombia,Pombo,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Conservador Colombiano,1,1,1,Otro,0.6666666666666666,2,3,NA,NA,NA
+Colombia,Puyana,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Centro Democrático,1,1,1,Militar,0.3333333333333333,3,3,NA,NA,NA
+Colombia,Pérez Manosalva,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Liberal Colombiano,1,1,1,Economico,0.5,2,4,NA,NA,NA
+Colombia,Quijano,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.6666666666666666,2,3,NA,NA,NA
+Colombia,Salgar,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Liberal,0.5,2,2,Economico,0.3333333333333333,3,3,NA,NA,NA
+Colombia,Santamaría,1,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,1,NA,NA,NA
+Colombia,Sarmiento (negocios),1,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,1,NA,NA,NA
+Colombia,Tenorio,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.5,2,4,NA,NA,NA
+Colombia,Tobar,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Conservador,1,1,1,Otro,0.6666666666666666,2,3,NA,NA,NA
+Colombia,Ucrós,1,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Conservador Colombiano,1,1,1,Profesional,1,1,1,NA,NA,NA
+Colombia,Urrutia,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Diplomatico,0.5,2,2,NA,NA,NA
+Colombia,Vélez,1,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,1,NA,NA,NA
+Colombia,Wiesner,7,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Liberal Colombiano,1,1,1,Otro,0.8571428571428571,2,7,NA,NA,NA
+Colombia,Wills,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,4,NA,NA,NA
+Colombia,de la Espriella,10,0,0,0,0,0,NA,NA,0,NA,0,0,0,Centro Democrático,0.2,5,5,Otro,0.7,2,10,NA,NA,NA
+Ecuador,Eguiguren,13,16,0,0,0,16,1,-1,0,NA,0,0,0,Partido Civil,0.4,4,5,Otro,0.38461538461538464,5,13,0.6,0.6153846153846154,1
+Ecuador,Estrada (Ecuador),7,11,0,2,0,11,1,-1,2,1,0,0,0,Partido Liberal del Ecuador,1,1,1,Economico,0.5714285714285714,2,7,0,0.4285714285714286,1
+Ecuador,Noboa,9,16,0,8,0,16,1,-1,8,1,0,0,0,Ecuatoriano Unido (2021) Partido SUMA (2021-2022) Acción Democrática Nacional (desde 2022),0.3333333333333333,3,3,Economico,0.4444444444444444,3,9,0.6666666666666667,0.5555555555555556,1
+Ecuador,Roca y Rodríguez,9,6,0,2,0,6,1,-1,2,1,0,0,0,Partido Liberal Radical Ecuatoriano,1,1,2,Otro,0.4444444444444444,3,9,0,0.5555555555555556,1
+Ecuador,Yerovi (familia),4,2,0,0,0,2,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.5,2,4,NA,0.5,1
+Ecuador,Isaías,1,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Economico,1,1,1,NA,NA,NA
+Mexico,Madero,10,13,1,2,0,14,0.9285714285714286,-0.8571428571428571,2,1,1,0,1,Partido Revolucionario Institucional,0.3333333333333333,5,6,Otro,0.5,3,10,0.5952380952380953,0.4285714285714286,1.0952380952380953
+Mexico,Díaz Ordaz,6,8,3,5,3,11,0.7272727272727273,-0.45454545454545453,8,0.625,2,0.16666666666666666,3,Partido Revolucionario Institucional,1,1,1,Economico,0.3333333333333333,4,6,-0.2727272727272727,0.393939393939394,1.0606060606060606
+Mexico,Sodi,14,15,2,5,2,17,0.8823529411764706,-0.7647058823529411,7,0.7142857142857143,1,0,2,Partido Acción Nacional (2005-2017; desde 2023) Partido de la Revolución Democrática (1993-2005) Partido Revolucionario Institucional (1977-1993),0.5,2,2,Otro,0.5714285714285714,3,14,0.38235294117647056,0.31092436974789917,1.0490196078431373
+Mexico,Díaz Ceballos,8,6,1,4,1,7,0.8571428571428571,-0.7142857142857143,5,0.8,1,0,1,Partido Republicano,0.5,2,2,Otro,0.75,3,8,0.3571428571428571,0.1071428571428571,1.0238095238095237
+Mexico,Aguilar,17,30,0,14,0,30,1,-1,14,1,0,0,0,Partido Acción Nacional,1,1,1,Otro,0.8823529411764706,2,17,0,0.11764705882352944,1
+Mexico,Alemán,8,15,0,4,0,15,1,-1,4,1,0,0,0,Partido Revolucionario Institucional,0.75,2,4,Otro,0.5,3,8,0.25,0.5,1
+Mexico,Azcárraga,8,6,0,2,0,6,1,-1,2,1,0,0,0,NA,NA,NA,NA,Economico,0.625,2,8,NA,0.375,1
+Mexico,Baillères,3,3,0,0,0,3,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Economico,1,1,3,NA,0,1
+Mexico,Bichir,10,15,0,7,0,15,1,-1,7,1,0,0,0,NA,NA,NA,NA,Otro,0.9,2,10,NA,0.09999999999999998,1
+Mexico,Bolaños Cacho,12,14,0,6,0,14,1,-1,6,1,0,0,0,Partido Revolucionario Institucional,0.5,4,6,Otro,0.6666666666666666,3,12,0.5,0.33333333333333337,1
+Mexico,Bracho,7,5,0,3,0,5,1,-1,3,1,0,0,0,NA,NA,NA,NA,Otro,0.5714285714285714,3,7,NA,0.4285714285714286,1
+Mexico,Calderón Hinojosa,5,8,0,3,0,8,1,-1,3,1,0,0,0,Partido Acción Nacional (1980-2018),0.4,4,5,Profesional,0.8,2,5,0.6,0.19999999999999996,1
+Mexico,Capetillo,6,8,0,3,0,8,1,-1,3,1,0,0,0,NA,NA,NA,NA,Otro,1,1,6,NA,0,1
+Mexico,Carranza,19,15,0,2,0,15,1,-1,2,1,0,0,0,Partido Acción Nacional,0.3333333333333333,5,6,Militar,0.631578947368421,5,19,0.6666666666666667,0.368421052631579,1
+Mexico,Coronel (México),8,12,0,2,0,12,1,-1,2,1,0,0,0,NA,NA,NA,NA,Otro,1,1,8,NA,0,1
+Mexico,Cárdenas,7,13,0,3,0,13,1,-1,3,1,0,0,0,Independiente (desde 2014) Partido de la Revolución Democrática (1989-2014) Partido Auténtico de la Revolución Mexicana (1987-1989) [ 2 ] ​ [ 3 ] ​ [ 4 ] ​ Partido Revolucionario Institucional (1954-1987),0.3333333333333333,4,6,Otro,0.5714285714285714,2,7,0.6666666666666667,0.4285714285714286,1
+Mexico,Derbez,15,21,0,10,0,21,1,-1,10,1,0,0,0,Partido Acción Nacional,0.3333333333333333,3,3,Otro,0.8666666666666667,3,15,0.6666666666666667,0.1333333333333333,1
+Mexico,Dosamantes Rul,2,2,0,0,0,2,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Economico,0.5,2,2,NA,0.5,1
+Mexico,Díaz,9,16,0,6,0,16,1,-1,6,1,0,0,0,Liberal,0.5,2,2,Militar,0.4444444444444444,4,9,0.5,0.5555555555555556,1
+Mexico,Díaz Lombardo,6,4,0,4,0,4,1,-1,4,1,0,0,0,NA,NA,NA,NA,Otro,1,1,6,NA,0,1
+Mexico,Elías-Calles,9,6,0,2,0,6,1,-1,2,1,0,0,0,Partido Nacional Revolucionario,0.4,3,5,Otro,0.6666666666666666,3,9,0.6,0.33333333333333337,1
+Mexico,Fernández Veraud,5,8,0,4,0,8,1,-1,4,1,0,0,0,Partido Revolucionario Institucional,1,1,1,Diplomatico,0.4,3,5,0,0.6,1
+Mexico,Flores Magón,8,8,0,2,0,8,1,-1,2,1,0,0,0,Partido Liberal Mexicano,1,1,3,Otro,0.5,4,8,0,0.5,1
+Mexico,Fuentes Berain,5,4,0,2,0,4,1,-1,2,1,0,0,0,NA,NA,NA,NA,Otro,0.6,3,5,NA,0.4,1
+Mexico,García Granados,8,2,0,0,0,2,1,-1,0,NA,0,0,0,Liberal,1,1,1,Otro,0.375,5,8,0,0.625,1
+Mexico,García Icazbalceta,6,4,0,0,0,4,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.5,3,6,NA,0.5,1
+Mexico,García de León,4,2,0,0,0,2,1,-1,0,NA,0,0,0,Independiente (ligado al PRI ),0.5,2,2,Profesional,0.75,2,4,0.5,0.25,1
+Mexico,Garza Sada,8,12,0,2,0,12,1,-1,2,1,0,0,0,NA,NA,NA,NA,Economico,0.875,2,8,NA,0.125,1
+Mexico,González Rojo,3,2,0,0,0,2,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Diplomatico,0.3333333333333333,3,3,NA,0.6666666666666667,1
+Mexico,González Torres,6,4,0,0,0,4,1,-1,0,NA,0,0,0,Partido Revolucionario Institucional,0.25,4,4,Economico,0.5,2,6,0.75,0.5,1
+Mexico,González de Cosío,12,6,0,0,0,6,1,-1,0,NA,0,0,0,Partido Revolucionario Institucional,1,1,2,Otro,0.6666666666666666,4,12,0,0.33333333333333337,1
+Mexico,Guerrero,8,10,0,5,0,10,1,-1,5,1,0,0,0,NA,NA,NA,NA,Otro,1,1,8,NA,0,1
+Mexico,Gutiérrez Nájera,3,3,0,0,0,3,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Profesional,0.6666666666666666,2,3,NA,0.33333333333333337,1
+Mexico,Gómez Farías,3,2,0,0,0,2,1,-1,0,NA,0,0,0,Liberal,1,1,1,Otro,1,1,3,0,0,1
+Mexico,Gómez Maganda,2,2,0,0,0,2,1,-1,0,NA,0,0,0,Partido Revolucionario Institucional,1,1,2,Otro,0.5,2,2,0,0.5,1
+Mexico,Gómez-Mont,5,6,0,0,0,6,1,-1,0,NA,0,0,0,Partido Acción Nacional,0.5,3,4,Otro,0.6,2,5,0.5,0.4,1
+Mexico,Herrera Salcedo,2,2,0,0,0,2,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Diplomatico,0.5,2,2,NA,0.5,1
+Mexico,Iturbide,17,10,0,0,0,10,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,17,NA,0,1
+Mexico,LeBaron,5,2,0,0,0,2,1,-1,0,NA,0,0,0,Partido Revolucionario Institucional,1,1,1,Otro,1,1,5,0,0,1
+Mexico,Loret de Mola,5,1,0,0,0,1,1,-1,0,NA,0,0,0,Partido Revolucionario Institucional,0.5,2,2,Profesional,0.8,2,5,0.5,0.19999999999999996,1
+Mexico,López Negrete,8,10,0,8,0,10,1,-1,8,1,0,0,0,NA,NA,NA,NA,Economico,0.5,4,8,NA,0.5,1
+Mexico,López-Dóriga,14,2,0,0,0,2,1,-1,0,NA,0,0,0,FET y de las JONS Alianza Popular,0.5,2,2,Otro,0.5714285714285714,5,14,0.5,0.4285714285714286,1
+Mexico,López-Moctezuma,3,2,0,2,0,2,1,-1,2,1,0,0,0,NA,NA,NA,NA,Otro,0.6666666666666666,2,3,NA,0.33333333333333337,1
+Mexico,López-Portillo,11,11,0,4,0,11,1,-1,4,1,0,0,0,Partido Revolucionario Institucional,1,1,5,Otro,0.36363636363636365,5,11,0,0.6363636363636364,1
+Mexico,López-Rayón,6,10,0,0,0,10,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Militar,0.8333333333333334,2,6,NA,0.16666666666666663,1
+Mexico,Mateos,8,4,0,2,0,4,1,-1,2,1,0,0,0,Partido Liberal,0.3333333333333333,3,3,Profesional,0.5,4,8,0.6666666666666667,0.5,1
+Mexico,Mier y Terán,5,1,0,1,0,1,1,-1,1,1,0,0,0,Partido Revolucionario Institucional,1,1,1,Otro,0.4,4,5,0,0.6,1
+Mexico,Moctezuma,6,3,0,1,0,3,1,-1,1,1,0,0,0,NA,NA,NA,NA,Otro,1,1,6,NA,0,1
+Mexico,Moreno Valle,3,2,0,2,0,2,1,-1,2,1,0,0,0,Partido Acción Nacional (2006-2018) Partido Revolucionario Institucional (1991–2006),0.3333333333333333,3,3,Militar,0.3333333333333333,3,3,0.6666666666666667,0.6666666666666667,1
+Mexico,Muñoz Ledo,4,2,0,0,0,2,1,-1,0,NA,0,0,0,Movimiento Regeneración Nacional (2018-2023) Partido del Trabajo (2006-2018) Partido Auténtico de la Revolución Mexicana (1999-2000) Partido de la Revolución Democrática (1989-1999) Partido Revolucionario Institucional (1954-1987),0.3333333333333333,3,3,Diplomatico,0.75,2,4,0.6666666666666667,0.25,1
+Mexico,Ortiz Mena,5,4,0,0,0,4,1,-1,0,NA,0,0,0,Partido Revolucionario Institucional,0.5,3,4,Otro,0.4,3,5,0.5,0.6,1
+Mexico,Pinal Hidalgo,28,58,0,30,0,58,1,-1,30,1,0,0,0,Movimiento Ciudadano (desde 2022) Partido de la Revolución Democrática (2021-2022),0.25,4,4,Otro,0.7142857142857143,3,28,0.75,0.2857142857142857,1
+Mexico,Pérez Treviño,3,2,0,0,0,2,1,-1,0,NA,0,0,0,Nueva Mayoría (1992-2010) Fuerza Popular (2010-2022),0.3333333333333333,3,3,Diplomatico,0.3333333333333333,3,3,0.6666666666666667,0.6666666666666667,1
+Mexico,Pérez-Jácome,2,2,0,0,0,2,1,-1,0,NA,0,0,0,Partido Acción Nacional,0.5,2,2,Otro,1,1,2,0.5,0,1
+Mexico,Revueltas Sánchez,7,6,0,0,0,6,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.42857142857142855,3,7,NA,0.5714285714285714,1
+Mexico,Reyes Heroles,4,4,0,0,0,4,1,-1,0,NA,0,0,0,Partido Revolucionario Institucional,1,1,2,Profesional,0.5,3,4,0,0.5,1
+Mexico,Reyes Larios,3,4,0,0,0,4,1,-1,0,NA,0,0,0,Partido Revolucionario Institucional,0.5,2,2,Otro,0.6666666666666666,2,3,0.5,0.33333333333333337,1
+Mexico,Riva Palacio,8,6,0,0,0,6,1,-1,0,NA,0,0,0,Partido Revolucionario Institucional,0.75,2,4,Otro,0.375,3,8,0.25,0.625,1
+Mexico,Rovirosa,6,2,0,0,0,2,1,-1,0,NA,0,0,0,Partido Revolucionario Institucional,0.6,3,5,Otro,0.6666666666666666,3,6,0.4,0.33333333333333337,1
+Mexico,Ruiz-Massieu,3,2,0,0,0,2,1,-1,0,NA,0,0,0,Partido Revolucionario Institucional,0.6666666666666666,2,3,Profesional,1,1,3,0.33333333333333337,0,1
+Mexico,Salinas,6,10,0,0,0,10,1,-1,0,NA,0,0,0,Partido Revolucionario Institucional (1946-2004) Partido de la Revolución Mexicana (1940-1946),0.6666666666666666,2,3,Diplomatico,0.3333333333333333,4,6,0.33333333333333337,0.6666666666666667,1
+Mexico,Sierra Méndez,5,6,0,0,0,6,1,-1,0,NA,0,0,0,Partido Reeleccionista,1,1,1,Profesional,0.6,2,5,0,0.4,1
+Mexico,Silva Herzog,3,4,0,0,0,4,1,-1,0,NA,0,0,0,Partido Revolucionario Institucional,1,1,1,Otro,0.6666666666666666,2,3,0,0.33333333333333337,1
+Mexico,Slim,4,2,0,0,0,2,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Economico,0.5,2,4,NA,0.5,1
+Mexico,Soler,14,18,0,5,0,18,1,-1,5,1,0,0,0,NA,NA,NA,NA,Otro,0.8571428571428571,2,14,NA,0.1428571428571429,1
+Mexico,Torres Landa,3,2,0,0,0,2,1,-1,0,NA,0,0,0,Partido Revolucionario Institucional,1,1,2,Otro,0.6666666666666666,2,3,0,0.33333333333333337,1
+Mexico,Valdés,11,11,0,4,0,11,1,-1,4,1,0,0,0,NA,NA,NA,NA,Otro,1,1,11,NA,0,1
+Mexico,Villa Michel,11,4,0,0,0,4,1,-1,0,NA,0,0,0,Partido Liberal,0.3333333333333333,3,3,Militar,0.36363636363636365,4,11,0.6666666666666667,0.6363636363636364,1
+Mexico,Yunes,6,6,0,2,0,6,1,-1,2,1,0,0,0,Partido Acción Nacional,0.3333333333333333,5,6,Otro,0.5,2,6,0.6666666666666667,0.5,1
+Mexico,del Mazo,5,6,0,2,0,6,1,-1,2,1,0,0,0,Partido Revolucionario Institucional,0.8,2,5,Otro,0.4,3,5,0.19999999999999996,0.6,1
+Mexico,Ávila Camacho,4,2,0,2,0,2,1,-1,2,1,0,0,0,Partido Revolucionario Institucional,0.6666666666666666,2,3,Militar,0.75,2,4,0.33333333333333337,0.25,1
+Mexico,Farías,7,1,1,0,0,2,0.5,0,0,NA,1,0,1,Partido Revolucionario Institucional,1,1,1,Otro,0.7142857142857143,3,7,-0.5,-0.2142857142857143,0.6666666666666666
+Mexico,Cházaro,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,Nacional Antirreeleccionista,0.3333333333333333,3,3,Militar,0.5,3,4,NA,NA,NA
+Mexico,Creel-Terrazas,6,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Acción Nacional (desde 1999),1,1,1,Militar,0.3333333333333333,5,6,NA,NA,NA
+Mexico,Durán Reveles,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Morena,0.3333333333333333,3,3,Otro,1,1,3,NA,NA,NA
+Mexico,Díaz Infante,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.5,2,2,NA,NA,NA
+Mexico,Díaz de León,8,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Liberal Mexicano,0.5,2,2,Otro,0.5,3,8,NA,NA,NA
+Mexico,Díez Marina,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.6666666666666666,2,3,NA,NA,NA
+Mexico,Elías-González,1,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Militar,1,1,1,NA,NA,NA
+Mexico,Fernández Chicarro,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Economico,0.3333333333333333,3,3,NA,NA,NA
+Mexico,Fernández de Jáuregui,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,4,NA,NA,NA
+Mexico,Galeana,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Militar,1,1,4,NA,NA,NA
+Mexico,González Guevara,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Revolucionario Institucional,0.5,2,2,Otro,0.6666666666666666,2,3,NA,NA,NA
+Mexico,González del Valle,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,4,NA,NA,NA
+Mexico,Guillermoprieto,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Liberal,1,1,1,Profesional,1,1,2,NA,NA,NA
+Mexico,Gutiérrez Zamora,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Economico,0.5,2,2,NA,NA,NA
+Mexico,Guzmán,1,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,1,NA,NA,NA
+Mexico,Guízar,10,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.9,2,10,NA,NA,NA
+Mexico,Gómez-Robledo,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Diplomatico,0.6666666666666666,2,3,NA,NA,NA
+Mexico,Gómez-Urquíza,1,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Economico,1,1,1,NA,NA,NA
+Mexico,Hidalgo y Costilla,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.5,3,4,NA,NA,NA
+Mexico,Lerdo de Tejada,7,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Revolucionario Institucional,0.4,4,5,Profesional,0.5714285714285714,3,7,NA,NA,NA
+Mexico,Llaca,5,0,0,0,0,0,NA,NA,0,NA,0,0,0,Movimiento Regeneración Nacional (desde 2017) Partido Verde Ecologista de México (2015-2017),1,1,1,Otro,0.6,2,5,NA,NA,NA
+Mexico,Luna Parra,1,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,1,NA,NA,NA
+Mexico,Malo,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Revolucionario Institucional,1,1,1,Militar,0.3333333333333333,3,3,NA,NA,NA
+Mexico,Martín del Campo,9,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Revolucionario Institucional,1,1,1,Otro,0.8888888888888888,2,9,NA,NA,NA
+Mexico,Medina Mora,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Acción Nacional,1,1,1,Economico,0.3333333333333333,3,3,NA,NA,NA
+Mexico,Mediz Bolio,1,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Diplomatico,1,1,1,NA,NA,NA
+Mexico,Mier y Noriega,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Legislativo,0.5,2,2,NA,NA,NA
+Mexico,Monreal,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,Movimiento Regeneración Nacional ( desde 2016 ) Movimiento Ciudadano ( 2013-2015 ) Partido del Trabajo ( 2007-2013 ) Partido de la Revolución Democrática ( 2001-2007; 2015-2016 ),0.25,4,4,Otro,0.75,2,4,NA,NA,NA
+Mexico,Ortiz Monasterio,5,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.4,3,5,NA,NA,NA
+Mexico,Pérez Gavilán,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Acción Nacional,1,1,1,Otro,0.6666666666666666,2,3,NA,NA,NA
+Mexico,Reyes Retana,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Revolucionario Institucional,1,1,2,Otro,1,1,2,NA,NA,NA
+Mexico,Reyes Spíndola,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Profesional,0.5,3,4,NA,NA,NA
+Mexico,Rincón-Gallardo,8,0,0,0,0,0,NA,NA,0,NA,0,0,0,Democracia Social (1999-2000) Partido de la Revolución Democrática (1989-1999) Partido Comunista Mexicano (1978-1981),1,1,1,Otro,0.75,3,8,NA,NA,NA
+Mexico,Rivera-Torres,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,2,NA,NA,NA
+Mexico,Sordo Madaleno,1,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,1,NA,NA,NA
+Mexico,Urquíza,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.5,2,2,NA,NA,NA
+Mexico,Vázquez-Mellado,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Liberal,1,1,1,Otro,0.6666666666666666,2,3,NA,NA,NA
+Mexico,de Rosenzweig Díaz,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Diplomatico,0.5,2,2,NA,NA,NA
+Mexico,Álvarez del Castillo,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Revolucionario Institucional,1,1,1,Diplomatico,0.5,2,2,NA,NA,NA
+Paraguay,Jara Saguier,8,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,8,NA,NA,NA
+Peru,Del Solar (familia),20,19,1,5,0,20,0.95,-0.9,5,1,1,0,1,Movimiento Democrático Peruano,0.25,4,4,Otro,0.45,5,20,0.7,0.49999999999999994,1.1166666666666667
+Peru,Alarco (familia),27,22,2,6,0,24,0.9166666666666666,-0.8333333333333334,6,1,1,0,2,Partido Comunista Revolucionario (1974-1990) Nuevo Perú (2017-2021),0.5,2,2,Otro,0.6666666666666666,4,27,0.41666666666666663,0.25,1.0833333333333333
+Peru,Miró Quesada,22,19,2,7,0,21,0.9047619047619048,-0.8095238095238095,7,1,1,0,2,Acción Popular,0.2857142857142857,6,7,Profesional,0.6363636363636364,5,22,0.6190476190476191,0.2683982683982684,1.0714285714285714
+Peru,Cisneros,20,20,8,0,1,28,0.7142857142857143,-0.42857142857142855,1,0,2,0.0033333333333333335,8,Acción Popular,0.25,4,4,Profesional,0.5,6,20,0.4642857142857143,0.2142857142857143,1.0476190476190477
+Peru,Acuña,10,12,5,6,5,17,0.7058823529411765,-0.4117647058823529,11,0.5454545454545454,2,0.0033333333333333335,5,Alianza para el Progreso,0.4,4,5,Otro,0.7,2,10,0.3058823529411765,0.005882352941176561,1.0392156862745099
+Peru,García y García,12,6,1,2,0,7,0.8571428571428571,-0.7142857142857143,2,1,1,0,1,Partido Civil,0.5,3,4,Diplomatico,0.25,5,12,0.3571428571428571,0.6071428571428571,1.0238095238095237
+Peru,Neyra,11,12,2,9,2,14,0.8571428571428571,-0.7142857142857143,11,0.8181818181818182,1,0,2,Propuesta Republicana (hasta 2025) La Libertad Avanza (desde 2025) [ 1 ] ​,1,1,1,Otro,0.8181818181818182,3,11,-0.1428571428571429,0.03896103896103886,1.0238095238095237
+Peru,Vértiz,6,6,1,6,1,7,0.8571428571428571,-0.7142857142857143,7,0.8571428571428571,1,0,1,NA,NA,NA,NA,Otro,0.5,3,6,NA,0.3571428571428571,1.0238095238095237
+Peru,Acurio,6,3,0,0,0,3,1,-1,0,NA,0,0,0,Acción Popular,0.3333333333333333,3,3,Otro,0.6666666666666666,2,6,0.6666666666666667,0.33333333333333337,1
+Peru,Alayza (familia),8,8,0,0,0,8,1,-1,0,NA,0,0,0,Acción Popular,0.3333333333333333,3,3,Otro,0.625,4,8,0.6666666666666667,0.375,1
+Peru,Alegría (familia),7,17,0,2,0,17,1,-1,2,1,0,0,0,APRA (1931-1948) Acción Popular (1962-1967),0.3333333333333333,3,3,Profesional,0.7142857142857143,3,7,0.6666666666666667,0.2857142857142857,1
+Peru,Aliaga (familia),7,4,0,0,0,4,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,7,NA,0,1
+Peru,Althaus (familia),12,20,0,1,0,20,1,-1,1,1,0,0,0,NA,NA,NA,NA,Otro,0.5,4,12,NA,0.5,1
+Peru,Alva,6,2,0,0,0,2,1,-1,0,NA,0,0,0,Acción Popular,0.5,4,6,Otro,0.5,3,6,0.5,0.5,1
+Peru,Alzamora (familia),11,8,0,0,0,8,1,-1,0,NA,0,0,0,Independiente,0.3333333333333333,3,3,Otro,0.36363636363636365,5,11,0.6666666666666667,0.6363636363636364,1
+Peru,Amez,9,2,0,0,0,2,1,-1,0,NA,0,0,0,Izquierda Unida (1980-1988) Juntos por el Perú (2017-presente),1,1,1,Otro,0.4444444444444444,3,9,0,0.5555555555555556,1
+Peru,Antúnez,4,6,0,3,0,6,1,-1,3,1,0,0,0,Partido Comunista de Chile [ 2 ] ​ [ 3 ] ​,1,1,1,Otro,0.75,2,4,0,0.25,1
+Peru,Aramburú,11,14,0,0,0,14,1,-1,0,NA,0,0,0,Partido Popular Cristiano,1,1,1,Profesional,0.45454545454545453,5,11,0,0.5454545454545454,1
+Peru,Araníbar,2,2,0,0,0,2,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Diplomatico,0.5,2,2,NA,0.5,1
+Peru,Arenas (familia),9,9,0,0,0,9,1,-1,0,NA,0,0,0,Partido Civil,1,1,2,Otro,0.4444444444444444,3,9,0,0.5555555555555556,1
+Peru,Astete,10,6,0,0,0,6,1,-1,0,NA,0,0,0,APRA,0.5,2,2,Otro,0.6,5,10,0.5,0.4,1
+Peru,Balta,6,6,0,0,0,6,1,-1,0,NA,0,0,0,Partido Liberal del Perú,1,1,1,Militar,0.5,2,6,0,0.5,1
+Peru,Barreda (familia),3,4,0,0,0,4,1,-1,0,NA,0,0,0,Partido Civil,1,1,2,Diplomatico,0.3333333333333333,3,3,0,0.6666666666666667,1
+Peru,Basadre (familia),6,7,0,0,0,7,1,-1,0,NA,0,0,0,Partido Democrático Reformista,1,1,1,Otro,0.6666666666666666,3,6,0,0.33333333333333337,1
+Peru,Bedoya,12,8,0,0,0,8,1,-1,0,NA,0,0,0,Partido Popular Cristiano,0.42857142857142855,4,7,Profesional,0.4166666666666667,5,12,0.5714285714285714,0.5833333333333333,1
+Peru,Beingolea,3,4,0,0,0,4,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Militar,0.6666666666666666,2,3,NA,0.33333333333333337,1
+Peru,Belaúnde,36,47,0,2,0,47,1,-1,2,1,0,0,0,Acción Popular,0.52,10,25,Profesional,0.4444444444444444,5,36,0.48,0.5555555555555556,1
+Peru,Benavides (Perú),17,13,0,0,0,13,1,-1,0,NA,0,0,0,Frente Democrático Nacional (desde 1944),0.5,2,2,Otro,0.35294117647058826,6,17,0.5,0.6470588235294117,1
+Peru,Bolognesi (familia),7,8,0,0,0,8,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Militar,0.5714285714285714,4,7,NA,0.4285714285714286,1
+Peru,Boza de Lima,7,4,0,0,0,4,1,-1,0,NA,0,0,0,Partido Demócrata,1,1,1,Otro,0.5714285714285714,3,7,0,0.4285714285714286,1
+Peru,Brescia (familia),6,4,0,4,0,4,1,-1,4,1,0,0,0,Frente Independiente Moralizador (1990-2000),1,1,1,Economico,0.5,3,6,0,0.5,1
+Peru,Carrillo de Albornoz,14,4,0,0,0,4,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.7857142857142857,3,14,NA,0.2142857142857143,1
+Peru,Castro Taboada,4,6,0,0,0,6,1,-1,0,NA,0,0,0,Partido Civil,1,1,1,Diplomatico,0.25,4,4,0,0.75,1
+Peru,Cerrón,6,10,0,2,0,10,1,-1,2,1,0,0,0,Perú Libre,0.75,2,4,Otro,0.6666666666666666,2,6,0.25,0.33333333333333337,1
+Peru,Chirinos,4,3,0,0,0,3,1,-1,0,NA,0,0,0,Renovación Popular (Desde el 2024) Avanza País (2020-2024) Movimiento Chim Pum Callao (2014-2017),0.5,3,4,Otro,0.5,2,4,0.5,0.5,1
+Peru,Corcuera,3,2,0,0,0,2,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Profesional,0.6666666666666666,2,3,NA,0.33333333333333337,1
+Peru,Cueto Caballero,5,11,0,2,0,11,1,-1,2,1,0,0,0,Acción Popular,1,1,1,Otro,0.6,3,5,0,0.4,1
+Peru,Cáceres Velásquez,5,2,0,0,0,2,1,-1,0,NA,0,0,0,Frente Nacional de Trabajadores y Campesinos,0.5,3,4,Otro,0.6,3,5,0.5,0.4,1
+Peru,De la Puente (familia),11,9,0,2,0,9,1,-1,2,1,0,0,0,Partido Progresista,0.5,2,2,Profesional,0.45454545454545453,4,11,0.5,0.5454545454545454,1
+Peru,De la Torre,7,4,0,0,0,4,1,-1,0,NA,0,0,0,Partido Aprista Peruano (1998-2021),0.5,2,2,Otro,0.7142857142857143,2,7,0.5,0.2857142857142857,1
+Peru,Dibós,4,2,0,0,0,2,1,-1,0,NA,0,0,0,Cambio Radical,1,1,1,Otro,1,1,4,0,0,1
+Peru,Drago,8,7,0,2,0,7,1,-1,2,1,0,0,0,NA,NA,NA,NA,Otro,0.625,3,8,NA,0.375,1
+Peru,Elmore (familia),5,8,0,0,0,8,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Diplomatico,0.4,4,5,NA,0.6,1
+Peru,Eléspuru,6,10,0,2,0,10,1,-1,2,1,0,0,0,NA,NA,NA,NA,Diplomatico,0.3333333333333333,4,6,NA,0.6666666666666667,1
+Peru,Farfán,8,8,0,8,0,8,1,-1,8,1,0,0,0,NA,NA,NA,NA,Otro,1,1,8,NA,0,1
+Peru,Ferrero,6,4,0,0,0,4,1,-1,0,NA,0,0,0,Perú Posible,0.5,2,2,Profesional,0.8333333333333334,2,6,0.5,0.16666666666666663,1
+Peru,Ferreyros,13,18,0,0,0,18,1,-1,0,NA,0,0,0,Partido Civil,1,1,2,Economico,0.3076923076923077,5,13,0,0.6923076923076923,1
+Peru,Frayssinet,6,10,0,4,0,10,1,-1,4,1,0,0,0,NA,NA,NA,NA,Otro,0.5,3,6,NA,0.5,1
+Peru,Fujimori,5,10,0,2,0,10,1,-1,2,1,0,0,0,Cambio 90 Nueva Mayoría Vamos Vecino Sí Cumple Alianza por el Futuro Fuerza Popular Perú Patria Segura Nuevo Partido del Pueblo,0.2,5,5,Otro,0.8,2,5,0.8,0.19999999999999996,1
+Peru,García Calderón (familia),5,5,0,0,0,5,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Diplomatico,0.6,2,5,NA,0.4,1
+Peru,García Godos,2,2,0,0,0,2,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Militar,0.5,2,2,NA,0.5,1
+Peru,Gibson (familia),6,8,0,2,0,8,1,-1,2,1,0,0,0,NA,NA,NA,NA,Otro,0.5,3,6,NA,0.5,1
+Peru,González-Olaechea,5,6,0,0,0,6,1,-1,0,NA,0,0,0,Partido Popular Cristiano (2024-2025) Unión por el Perú (1995),1,1,1,Diplomatico,0.4,3,5,0,0.6,1
+Peru,Grau (familia),6,5,0,0,0,5,1,-1,0,NA,0,0,0,Partido Civil,1,1,2,Otro,0.8333333333333334,2,6,0,0.16666666666666663,1
+Peru,Graña,7,4,0,0,0,4,1,-1,0,NA,0,0,0,Partido Democrático Reformista,1,1,1,Economico,0.5714285714285714,2,7,0,0.4285714285714286,1
+Peru,Gálvez,10,8,0,0,0,8,1,-1,0,NA,0,0,0,En Movimiento,0.3333333333333333,3,3,Profesional,0.4,5,10,0.6666666666666667,0.6,1
+Peru,Humala,9,12,0,5,0,12,1,-1,5,1,0,0,0,Partido Nacionalista Peruano,0.2857142857142857,6,7,Otro,0.5555555555555556,3,9,0.7142857142857143,0.4444444444444444,1
+Peru,Jiménez de Lobatón,3,4,0,0,0,4,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,3,NA,0,1
+Peru,Larco (familia),9,4,0,0,0,4,1,-1,0,NA,0,0,0,Partido Aprista Peruano,1,1,1,Otro,0.5555555555555556,4,9,0,0.4444444444444444,1
+Peru,Larrabure,3,1,0,0,0,1,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Diplomatico,0.6666666666666666,2,3,NA,0.33333333333333337,1
+Peru,León Barandiarán,10,2,0,0,0,2,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Profesional,0.5,3,10,NA,0.5,1
+Peru,León-Velarde,5,6,0,2,0,6,1,-1,2,1,0,0,0,Acción Popular y luego independiente,0.5,2,2,Otro,0.6,3,5,0.5,0.4,1
+Peru,Llona,9,6,0,2,0,6,1,-1,2,1,0,0,0,Acción Popular Acción Popular Socialista Izquierda Unida Unión por el Perú Somos Perú,0.5,2,2,Otro,0.4444444444444444,3,9,0.5,0.5555555555555556,1
+Peru,Luna,20,21,0,0,0,21,1,-1,0,NA,0,0,0,Partido Comunista Peruano,0.5,2,2,Otro,0.65,4,20,0.5,0.35,1
+Peru,Mariátegui,13,17,0,5,0,17,1,-1,5,1,0,0,0,Acción Popular,0.4,4,5,Profesional,0.6153846153846154,5,13,0.6,0.3846153846153846,1
+Peru,Montero,6,3,0,2,0,3,1,-1,2,1,0,0,0,Partido Civil,0.3333333333333333,3,3,Otro,0.5,3,6,0.6666666666666667,0.5,1
+Peru,More (familia),3,2,0,0,0,2,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Militar,0.6666666666666666,2,3,NA,0.33333333333333337,1
+Peru,Moreyra,4,2,0,0,0,2,1,-1,0,NA,0,0,0,Movimiento Democrático Peruano,0.5,2,2,Otro,0.5,3,4,0.5,0.5,1
+Peru,Mujica,12,16,0,0,0,16,1,-1,0,NA,0,0,0,Partido Demócrata,1,1,1,Economico,0.4166666666666667,5,12,0,0.5833333333333333,1
+Peru,Odriozola (familia),3,4,0,0,0,4,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.6666666666666666,2,3,NA,0.33333333333333337,1
+Peru,Olaechea (familia),7,4,0,0,0,4,1,-1,0,NA,0,0,0,Partido Demócrata,0.75,2,4,Profesional,0.7142857142857143,2,7,0.25,0.2857142857142857,1
+Peru,Oneto,3,4,0,0,0,4,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.6666666666666666,2,3,NA,0.33333333333333337,1
+Peru,Orbegoso (familia),5,4,0,0,0,4,1,-1,0,NA,0,0,0,Independiente,0.5,2,2,Otro,0.6,3,5,0.5,0.4,1
+Peru,Osma,14,12,0,4,0,12,1,-1,4,1,0,0,0,Partido Civil,0.42857142857142855,5,7,Diplomatico,0.35714285714285715,4,14,0.5714285714285714,0.6428571428571428,1
+Peru,Pardo (familia),4,1,0,0,0,1,1,-1,0,NA,0,0,0,Si Cumple (2005-2007),1,1,1,Diplomatico,0.25,4,4,0,0.75,1
+Peru,Paz Soldán,10,8,0,0,0,8,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Profesional,0.6,4,10,NA,0.4,1
+Peru,Pinasco,6,9,0,2,0,9,1,-1,2,1,0,0,0,NA,NA,NA,NA,Otro,0.6666666666666666,3,6,NA,0.33333333333333337,1
+Peru,Piérola (familia),7,11,0,0,0,11,1,-1,0,NA,0,0,0,Partido Demócrata,1,1,3,Economico,0.42857142857142855,3,7,0,0.5714285714285714,1
+Peru,Polar (familia),10,10,0,0,0,10,1,-1,0,NA,0,0,0,Avanza País (2020-2021) Progresemos (2024-2025),0.3333333333333333,3,3,Diplomatico,0.3,4,10,0.6666666666666667,0.7,1
+Peru,Porras (familia),5,3,0,0,0,3,1,-1,0,NA,0,0,0,Movimiento Democrático Peruano,1,1,1,Diplomatico,0.4,4,5,0,0.6,1
+Peru,Portocarrero (Perú),10,10,2,4,0,12,0.8333333333333334,-0.6666666666666666,4,1,1,0,2,Patria Roja,1,1,1,Profesional,0.5,3,10,-0.16666666666666663,0.33333333333333337,1
+Peru,Químper,2,1,0,0,0,1,1,-1,0,NA,0,0,0,Partido Liberal,1,1,1,Otro,0.5,2,2,0,0.5,1
+Peru,Remírez de Laredo,5,4,0,0,0,4,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Ejecutivo,0.4,4,5,NA,0.6,1
+Peru,Ribeyro,5,5,0,0,0,5,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Judicial,0.4,3,5,NA,0.6,1
+Peru,Rincón,4,2,0,0,0,2,1,-1,0,NA,0,0,0,Junta Patriótica de Huaraz,0.5,2,2,Militar,0.5,3,4,0.5,0.5,1
+Peru,Riva Agüero,6,8,0,0,0,8,1,-1,0,NA,0,0,0,Partido Civil,1,1,4,Diplomatico,0.6666666666666666,2,6,0,0.33333333333333337,1
+Peru,Robles,3,4,0,0,0,4,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Economico,0.3333333333333333,3,3,NA,0.6666666666666667,1
+Peru,Robles Arnao,4,1,0,0,0,1,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Judicial,0.25,4,4,NA,0.75,1
+Peru,Rodríguez Pastor,5,6,0,0,0,6,1,-1,0,NA,0,0,0,Vanguardia Revolucionaria,1,1,1,Profesional,0.6,3,5,0,0.4,1
+Peru,Romero,3,2,0,0,0,2,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Economico,0.6666666666666666,2,3,NA,0.33333333333333337,1
+Peru,Rospigliosi (familia),6,4,0,0,0,4,1,-1,0,NA,0,0,0,Vanguardia Revolucionaria (1968-1980) Perú Posible (2001-2004) Peruanos Por el Kambio (2016-2019) Fuerza Popular (desde 2020) [ 1 ] ​,1,1,1,Profesional,0.6666666666666666,2,6,0,0.33333333333333337,1
+Peru,Salaverry,4,3,0,0,0,3,1,-1,0,NA,0,0,0,Partido Aprista Peruano (2002-2014) Fuerza Popular (2016-2019) Somos Perú (2020-2025),1,1,1,Militar,0.5,3,4,0,0.5,1
+Peru,Salazar y Meléndez,8,8,0,6,0,8,1,-1,6,1,0,0,0,Perú Patria Segura Renovación Nacional,1,1,1,Profesional,0.5,3,8,0,0.5,1
+Peru,Salazar y Muñatones,7,6,0,0,0,6,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.8571428571428571,2,7,NA,0.1428571428571429,1
+Peru,Samanez,3,2,0,0,0,2,1,-1,0,NA,0,0,0,Partido Demócrata,1,1,1,Economico,0.3333333333333333,3,3,0,0.6666666666666667,1
+Peru,Schreiber,5,1,0,0,0,1,1,-1,0,NA,0,0,0,Fuerza Popular (2011-2019),0.5,2,2,Diplomatico,0.4,4,5,0.5,0.6,1
+Peru,Seminario,10,7,0,0,0,7,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.8,3,10,NA,0.19999999999999996,1
+Peru,Seoane Heredia,9,10,0,0,0,10,1,-1,0,NA,0,0,0,Acción Popular (hasta 1968) Acción Popular Socialista (1968-1978),0.4,3,5,Diplomatico,0.4444444444444444,4,9,0.6,0.5555555555555556,1
+Peru,Silva Santisteban,6,4,0,1,0,4,1,-1,1,1,0,0,0,Izquierda Unida (1980-1993) Unidad Democrática Popular Partido Unificado Mariateguista,0.3333333333333333,3,3,Otro,0.8333333333333334,2,6,0.6666666666666667,0.16666666666666663,1
+Peru,Tagle Bracho,4,2,0,0,0,2,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.75,2,4,NA,0.25,1
+Peru,Thorndike,4,5,0,0,0,5,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Profesional,1,1,4,NA,0,1
+Peru,Thorne,5,2,0,0,0,2,1,-1,0,NA,0,0,0,Político independiente,1,1,1,Otro,0.6,3,5,0,0.4,1
+Peru,Tito,3,3,0,0,0,3,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,3,NA,0,1
+Peru,Torrico,4,4,0,0,0,4,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Militar,0.5,3,4,NA,0.5,1
+Peru,Trelles,4,2,0,0,0,2,1,-1,0,NA,0,0,0,Acción Popular,0.5,2,2,Otro,0.5,2,4,0.5,0.5,1
+Peru,Ugarte,16,4,0,0,0,4,1,-1,0,NA,0,0,0,Juntos por el Perú (2017-2021),0.5,2,2,Profesional,0.5625,4,16,0.5,0.4375,1
+Peru,Valcárcel (familia),10,4,0,0,0,4,1,-1,0,NA,0,0,0,Fujimorismo,0.3333333333333333,3,3,Economico,0.4,3,10,0.6666666666666667,0.6,1
+Peru,Vargas Llosa,12,27,0,9,0,27,1,-1,9,1,0,0,0,Movimiento Libertad (1987-1993) Libertad Popular (2023-2025),0.5,2,2,Otro,0.5,4,12,0.5,0.5,1
+Peru,Villarán,11,6,0,3,0,6,1,-1,3,1,0,0,0,Partido Civil,0.5,2,2,Profesional,0.6363636363636364,4,11,0.5,0.36363636363636365,1
+Peru,Vásquez (familia),3,3,0,0,0,3,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,3,NA,0,1
+Peru,Yrigoyen,3,2,0,2,0,2,1,-1,2,1,0,0,0,Izquierda Unida (1980-1992) Unión por el Perú (1995-2000) Perú Posible (2001-2011),0.5,2,2,Profesional,0.6666666666666666,2,3,0.5,0.33333333333333337,1
+Peru,Yábar,9,1,0,0,0,1,1,-1,0,NA,0,0,0,Movimiento Democrático Peruano,1,1,1,Otro,0.7777777777777778,3,9,0,0.2222222222222222,1
+Peru,Zavala de la Maza,2,2,0,0,0,2,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,2,NA,0,1
+Peru,de Valverde,6,2,0,0,0,2,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.8333333333333334,2,6,NA,0.16666666666666663,1
+Peru,Álvarez Calderón (familia),22,12,0,0,0,12,1,-1,0,NA,0,0,0,Partido Civil,0.3333333333333333,5,6,Otro,0.5,4,22,0.6666666666666667,0.5,1
+Peru,De Habich,7,8,2,2,0,10,0.8,-0.6,2,1,1,0,2,NA,NA,NA,NA,Otro,0.7142857142857143,3,7,NA,0.08571428571428574,0.9666666666666667
+Peru,Diez Canseco,32,27,7,1,2,34,0.7941176470588235,-0.5882352941176471,3,0.3333333333333333,1,0,7,Acción Popular,0.25,9,12,Otro,0.28125,6,32,0.5441176470588235,0.5128676470588235,0.9607843137254901
+Peru,Elías (familia),8,7,2,2,2,9,0.7777777777777778,-0.5555555555555556,4,0.5,1,0,2,Partido Constitucional,0.5,3,4,Economico,0.5,3,8,0.2777777777777778,0.2777777777777778,0.9444444444444444
+Peru,Llosa,14,7,2,1,0,9,0.7777777777777778,-0.5555555555555556,1,1,1,0,2,Movimiento Libertad,0.3333333333333333,3,3,Militar,0.42857142857142855,6,14,0.4444444444444445,0.34920634920634924,0.9444444444444444
+Peru,Morales Bermúdez (familia),4,5,2,2,0,7,0.7142857142857143,-0.42857142857142855,2,1,1,0,2,APRA,0.5,2,2,Otro,0.75,2,4,0.2142857142857143,-0.0357142857142857,0.8809523809523809
+Peru,Ortiz de Zevallos,7,2,1,0,0,3,0.6666666666666666,-0.3333333333333333,0,NA,1,0,1,NA,NA,NA,NA,Otro,0.5714285714285714,3,7,NA,0.09523809523809523,0.8333333333333333
+Peru,Tamayo (Perú),5,4,2,0,0,6,0.6666666666666666,-0.3333333333333333,0,NA,1,0,2,NA,NA,NA,NA,Otro,0.6,2,5,NA,0.06666666666666665,0.8333333333333333
+Peru,Ulloa,11,7,6,0,1,13,0.5384615384615384,-0.07692307692307693,1,0,1,0,6,NA,NA,NA,NA,Otro,0.8181818181818182,3,11,NA,-0.2797202797202798,0.7051282051282051
+Peru,Málaga,16,12,11,7,0,23,0.5217391304347826,-0.043478260869565216,7,1,1,0,11,Partido Civil,0.25,4,4,Otro,0.75,3,16,0.2717391304347826,-0.2282608695652174,0.6884057971014492
+Peru,Bustamante (familia),11,6,6,4,2,12,0.5,0,6,0.6666666666666666,1,0,6,Fuerza Popular (desde 2020),0.3333333333333333,3,3,Otro,0.36363636363636365,5,11,0.16666666666666669,0.13636363636363635,0.6666666666666666
+Peru,Prado,11,8,11,0,0,19,0.42105263157894735,0.15789473684210525,0,NA,1,0,11,Partido Civil,0.6,3,5,Otro,0.36363636363636365,5,11,-0.17894736842105263,0.0574162679425837,0.587719298245614
+Peru,Cayo,7,2,4,0,4,6,0.3333333333333333,0.3333333333333333,4,0,1,0,4,NA,NA,NA,NA,Otro,0.7142857142857143,2,7,NA,-0.380952380952381,0.5
+Peru,Leguía,6,2,7,0,2,9,0.2222222222222222,0.5555555555555556,2,0,1,0,7,Partido Civil Partido Democrático Reformista,0.6666666666666666,2,3,Otro,0.5,3,6,-0.4444444444444444,-0.2777777777777778,0.38888888888888884
+Peru,Mendoza Ladrón de Guevara,5,0,6,0,2,6,0,1,2,0,1,0,6,APRA,1,1,1,Otro,0.4,3,5,-1,-0.4,0.16666666666666666
+Peru,Sabogal,1,0,2,0,0,2,0,1,0,NA,1,0,2,NA,NA,NA,NA,Profesional,1,1,1,NA,-1,0.16666666666666666
+Peru,Sánchez-Concha,1,0,1,0,0,1,0,1,0,NA,1,0,1,NA,NA,NA,NA,Otro,1,1,1,NA,-1,0.16666666666666666
+Peru,Tola (familia),4,0,2,0,0,2,0,1,0,NA,1,0,2,NA,NA,NA,NA,Profesional,0.75,2,4,NA,-0.75,0.16666666666666666
+Peru,Barrantes,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Izquierda Unida,1,1,1,Otro,0.6666666666666666,2,3,NA,NA,NA
+Peru,Berckemeyer,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Diplomatico,0.5,2,2,NA,NA,NA
+Peru,Bodega y Quadra,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.6666666666666666,2,3,NA,NA,NA
+Peru,Checa,1,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Profesional,1,1,1,NA,NA,NA
+Peru,Copello,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,2,NA,NA,NA
+Peru,Delgado Parker,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Popular Cristiano,1,1,1,Economico,1,1,2,NA,NA,NA
+Peru,Denegri (familia),5,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.6,3,5,NA,NA,NA
+Peru,Durand,6,0,0,0,0,0,NA,NA,0,NA,0,0,0,San Luis Renace Solidaridad Nacional (2009-2017),0.5,2,2,Otro,0.6666666666666666,3,6,NA,NA,NA
+Peru,Fernandini (familia),3,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Militar,0.3333333333333333,3,3,NA,NA,NA
+Peru,Fernández-Maldonado,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Socialista Revolucionario,1,1,1,Militar,0.5,2,2,NA,NA,NA
+Peru,Freundt,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,Unión Nacional Odriísta,1,1,1,Diplomatico,0.5,3,4,NA,NA,NA
+Peru,Garrido-Lecca,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Aprista Peruano,0.5,2,2,Otro,0.5,2,4,NA,NA,NA
+Peru,Gastañeta,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.75,2,4,NA,NA,NA
+Peru,Gildemeister (familia),2,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,2,NA,NA,NA
+Peru,González Vigil,5,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.4,3,5,NA,NA,NA
+Peru,Heraud,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Ejército de Liberación Nacional [ 2 ] ​ [ 3 ] ​,1,1,1,Profesional,0.6666666666666666,2,3,NA,NA,NA
+Peru,Hoke,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Economico,0.3333333333333333,3,3,NA,NA,NA
+Peru,Lindley,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,Político independiente,1,1,1,Economico,0.5,2,2,NA,NA,NA
+Peru,Mantilla,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Aprista Peruano,1,1,1,Economico,0.5,2,2,NA,NA,NA
+Peru,Melgar,6,0,0,0,0,0,NA,NA,0,NA,0,0,0,Fuerza Popular,0.5,2,2,Otro,0.5,4,6,NA,NA,NA
+Peru,Mendiburu (familia),3,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Ejecutivo,0.3333333333333333,3,3,NA,NA,NA
+Peru,Montesinos,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,Por Amor al Perú [ 2 ] ​,0.5,2,2,Militar,0.5,2,2,NA,NA,NA
+Peru,Noriega,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido político PRIN (2024) [ 1 ] ​ M.R. AGUA (2020-2024) Alianza para el Progreso (2013-2014),1,1,1,Otro,0.5,2,2,NA,NA,NA
+Peru,Ocaña,1,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,1,NA,NA,NA
+Peru,Otárola,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Nacionalista Peruano,0.5,2,2,Profesional,1,1,2,NA,NA,NA
+Peru,Panizo,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Militar,0.3333333333333333,3,3,NA,NA,NA
+Peru,Portugal,5,0,0,0,0,0,NA,NA,0,NA,0,0,0,Democracia Cristiana,0.3333333333333333,3,3,Profesional,0.6,3,5,NA,NA,NA
+Peru,Quispe (familia),3,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,3,NA,NA,NA
+Peru,Quispe Palomino,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Militarizado Partido Comunista del Perú,1,1,3,Otro,1,1,3,NA,NA,NA
+Peru,Ramírez,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Fuerza Popular,0.6666666666666666,2,3,Otro,1,1,3,NA,NA,NA
+Peru,Rebagliati (familia),4,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.75,2,4,NA,NA,NA
+Peru,Reátegui,5,0,0,0,0,0,NA,NA,0,NA,0,0,0,Alianza para el Progreso Perú Posible (2004-2017),0.3333333333333333,3,3,Otro,1,1,5,NA,NA,NA
+Peru,Roca Rey,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.6666666666666666,2,3,NA,NA,NA
+Peru,Roel,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Acción Popular,1,1,1,Profesional,0.6666666666666666,2,3,NA,NA,NA
+Peru,Sancho Dávila,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Local,0.3333333333333333,3,3,NA,NA,NA
+Peru,Santa Cruz,6,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Profesional,0.6666666666666666,3,6,NA,NA,NA
+Peru,Solari,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,Progresemos (2024-presente) Solidaridad Nacional (2019-2020) Perú Posible (1994-2004),1,1,1,Profesional,0.5,3,4,NA,NA,NA
+Peru,Tellería,1,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Judicial,1,1,1,NA,NA,NA
+Peru,Terry (Perú),1,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,1,NA,NA,NA
+Peru,Tristán del Pozo,3,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Legislativo,0.3333333333333333,3,3,NA,NA,NA
+Peru,Tudela (familia),1,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Judicial,1,1,1,NA,NA,NA
+Peru,Ugarteche,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Popular Cristiano,1,1,1,Profesional,0.5,3,4,NA,NA,NA
+Peru,Ureta,5,0,0,0,0,0,NA,NA,0,NA,0,0,0,Unión Revolucionaria,1,1,1,Otro,0.4,4,5,NA,NA,NA
+Peru,Urteaga,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Profesional,0.75,2,4,NA,NA,NA
+Peru,Velarde (familia),2,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Militar,0.5,2,2,NA,NA,NA
+Peru,Vásquez de Velasco,4,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.75,2,4,NA,NA,NA
+Peru,Wiesse,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.5,2,2,NA,NA,NA
+Peru,Zavala (familia),4,0,0,0,0,0,NA,NA,0,NA,0,0,0,Político independiente,1,1,1,Diplomatico,0.25,4,4,NA,NA,NA
+Peru,de los Heros,6,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Militar,0.3333333333333333,4,6,NA,NA,NA
+Peru,del Río,2,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Militar,0.5,2,2,NA,NA,NA
+Uruguay,Batlle,14,24,0,2,0,24,1,-1,2,1,0,0,0,Partido Colorado,1,1,10,Profesional,0.5,4,14,0,0.5,1
+Uruguay,Blanco,6,10,0,0,0,10,1,-1,0,NA,0,0,0,Partido Colorado,0.6666666666666666,3,6,Profesional,0.6666666666666666,3,6,0.33333333333333337,0.33333333333333337,1
+Uruguay,Bordaberry,5,9,0,2,0,9,1,-1,2,1,0,0,0,Partido Colorado,0.5,3,4,Otro,0.6,3,5,0.5,0.4,1
+Uruguay,Fontaina,5,3,0,0,0,3,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Economico,0.6,2,5,NA,0.4,1
+Uruguay,Heber,6,6,0,0,0,6,1,-1,0,NA,0,0,0,Partido Nacional,0.8333333333333334,2,6,Otro,0.6666666666666666,3,6,0.16666666666666663,0.33333333333333337,1
+Uruguay,Lavalleja,5,3,0,3,0,3,1,-1,3,1,0,0,0,Partido Nacional Partido Federal,1,1,1,Otro,0.6,2,5,0,0.4,1
+Uruguay,Podestá,26,58,0,16,0,58,1,-1,16,1,0,0,0,NA,NA,NA,NA,Otro,0.8846153846153846,2,26,NA,0.11538461538461542,1
+Uruguay,Saravia,13,7,0,3,0,7,1,-1,3,1,0,0,0,Partido Nacional,0.5714285714285714,3,7,Otro,0.6153846153846154,4,13,0.4285714285714286,0.3846153846153846,1
+Uruguay,Scheck,4,6,0,0,0,6,1,-1,0,NA,0,0,0,Partido Nacional,1,1,1,Economico,0.75,2,4,0,0.25,1
+Venezuela,Baduel,3,4,0,0,0,4,1,-1,0,NA,0,0,0,Movimiento V República Movimiento Bolivariano Revolucionario - 200,1,1,1,Militar,0.3333333333333333,3,3,0,0.6666666666666667,1
+Venezuela,Cabello,8,8,0,4,0,8,1,-1,4,1,0,0,0,Partido Socialista Unido de Venezuela,0.6,3,5,Otro,0.75,2,8,0.4,0.25,1
+Venezuela,Capriles,7,2,0,2,0,2,1,-1,2,1,0,0,0,COPEI,0.5,2,2,Otro,0.42857142857142855,4,7,0.5,0.5714285714285714,1
+Venezuela,Chávez,16,44,0,9,0,44,1,-1,9,1,0,0,0,Partido Socialista Unido de Venezuela,0.45454545454545453,5,11,Otro,0.625,5,16,0.5454545454545454,0.375,1
+Venezuela,Cisneros (Venezuela),4,8,0,2,0,8,1,-1,2,1,0,0,0,NA,NA,NA,NA,Economico,0.5,3,4,NA,0.5,1
+Venezuela,Febres-Cordero,8,8,0,2,0,8,1,-1,2,1,0,0,0,Partido Liberal Radical Ecuatoriano (hasta 1978) Partido Social Cristiano (1978-2008),1,1,1,Otro,0.625,3,8,0,0.375,1
+Venezuela,Gómez (Venezuela),5,4,0,0,0,4,1,-1,0,NA,0,0,0,Partido Liberal Restaurador,0.5,2,2,Militar,0.6,2,5,0.5,0.4,1
+Venezuela,Lander,10,7,0,7,0,7,1,-1,7,1,0,0,0,Partido Liberal,0.5,2,2,Otro,0.7,3,10,0.5,0.30000000000000004,1
+Venezuela,Maduro,4,6,0,3,0,6,1,-1,3,1,0,0,0,LS (1977 - años 1990) MBR-200 (1994-1997) MVR (1997-2007) PSUV (desde 2007),0.5,3,4,Diplomatico,0.5,3,4,0.5,0.5,1
+Venezuela,Monagas,6,6,0,0,0,6,1,-1,0,NA,0,0,0,Partido Liberal,0.75,2,4,Militar,0.5,2,6,0.25,0.5,1
+Venezuela,Sucre,11,4,0,2,0,4,1,-1,2,1,0,0,0,Acción Democrática,1,1,1,Otro,0.6363636363636364,4,11,0,0.36363636363636365,1
+Venezuela,Troconis,6,2,0,0,0,2,1,-1,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.6666666666666666,2,6,NA,0.33333333333333337,1
+Venezuela,Palacios (Venezuela),17,38,104,8,20,142,0.2676056338028169,0.4647887323943662,28,0.2857142857142857,3,1,104,Partido Liberal (Venezuela),1,1,1,Otro,0.5294117647058824,4,17,-0.7323943661971831,-0.2618061309030655,0.7676056338028169
+Venezuela,Toro (Venezuela),27,4,32,0,7,36,0.1111111111111111,0.7777777777777778,7,0,1,0,32,Partido Liberal (Venezuela),0.8,2,5,Otro,0.5555555555555556,5,27,-0.6888888888888889,-0.4444444444444445,0.2777777777777778
+Venezuela,Blanco (Venezuela),3,4,36,0,6,40,0.1,0.8,6,0,1,0,36,Partido Liberal,0.5,2,2,Profesional,0.6666666666666666,2,3,-0.4,-0.5666666666666667,0.26666666666666666
+Venezuela,Bolívar,8,0,36,0,7,36,0,1,7,0,1,0,36,NA,NA,NA,NA,Otro,0.875,2,8,NA,-0.875,0.16666666666666666
+Venezuela,Boulton (Venezuela),7,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,0.8571428571428571,2,7,NA,NA,NA
+Venezuela,López (Venezuela),2,0,0,0,0,0,NA,NA,0,NA,0,0,0,NA,NA,NA,NA,Otro,1,1,2,NA,NA,NA
+Venezuela,Tovar,5,0,0,0,0,0,NA,NA,0,NA,0,0,0,Partido Liberal,0.5,2,2,Diplomatico,0.2,5,5,NA,NA,NA
+Venezuela,Villegas (Venezuela),3,0,0,0,0,0,NA,NA,0,NA,0,0,0,Avanzada Progresista (actual) Partido Socialista Unido de Venezuela Patria Para Todos La Causa R Juventud Comunista de Venezuela,0.3333333333333333,3,3,Profesional,0.6666666666666666,2,3,NA,NA,NA

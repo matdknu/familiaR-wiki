@@ -1,0 +1,84 @@
+nombre1,nombre2,fam1,fam2,pais1,pais2,rol
+Ambrosio O'Higgins,Francisco Gil de Taboada,cruz_chile,taboada,chile,argentina,predecesor
+Andrés de Santa Cruz,Simón Bolívar,santa_cruz,bolívar,peru,colombia,predecesor
+Antonio Guzmán Blanco,Antonio Leocadio Guzmán,blanco_venezuela,blanco_venezuela,colombia,venezuela,predecesor
+Antonio José de Sucre,José de la Riva-Agüero,sucre,riva_agüero,colombia,peru,predecesor
+Atahualpa,Huáscar,pizarro,tito,chile,peru,predecesor
+Bertha Hernández de Ospina,Bertha Puga,ospina,camargo,colombia,chile,predecesor
+Bertha Puga,María Michelsen de López,camargo,lópez,chile,colombia,predecesor
+Bertha Puga,Carolina Correa Londoño,camargo,rojas,chile,colombia,predecesor
+Bertha Puga,Bertha Hernández de Ospina,camargo,ospina,chile,colombia,sucesor
+Bertha Puga,Susana López de Valencia,camargo,laserna,chile,colombia,sucesor
+Carolina Correa Londoño,Bertha Puga,rojas,camargo,colombia,chile,sucesor
+Cristina Fernández de Kirchner,Nicolás Maduro,kirchner,maduro,argentina,venezuela,predecesor
+Daniel Mazuera,Hernando Pastrana,gómez,borrero,colombia,argentina,predecesor
+Daniel Noboa,Gustavo Petro,noboa,petro,ecuador,colombia,predecesor
+Domingo Caycedo,Rafael Urdaneta,caicedo,parís,colombia,venezuela,predecesor
+Eusebio Borrero,Alejandro Vélez Barrientos,borrero,barrientos,chile,colombia,predecesor
+Eusebio Borrero,Manuel María Mallarino,borrero,cabal,chile,colombia,sucesor
+Francisco Ruiz-Tagle,Casimiro Marcó del Pont,portales,marcó_del_pont,chile,argentina,predecesor
+Gregorio Miguel Valenzuela Fajardo,Nicolás Sanz de Santamaría,caicedo,prieto,colombia,chile,sucesor
+Guillermo Camacho,Juan Samper Sordo,camacho,samper,colombia,argentina,sucesor
+Gustavo Petro,Daniel Noboa,petro,noboa,colombia,ecuador,sucesor
+Hernando Pastrana,Daniel Mazuera,borrero,gómez,argentina,colombia,sucesor
+Huáscar,Huayna Cápac,tito,pizarro,peru,chile,predecesor
+Huáscar,Atahualpa,tito,pizarro,peru,chile,sucesor
+Huayna Cápac,Huáscar,pizarro,tito,chile,peru,sucesor
+Iván Duque,Sebastián Piñera,duque,echenique,colombia,chile,predecesor
+Iván Duque,Sebastián Piñera,duque,echenique,colombia,chile,predecesor
+Joaquín Mosquera,Rafael Urdaneta,arboleda,parís,colombia,venezuela,sucesor
+Joaquín de Cayzedo y Cuero,Antonio Baraya,caicedo,ricaurte,chile,colombia,predecesor
+Joaquín de Cayzedo y Cuero,José María Cabal,caicedo,cabal,chile,mexico,sucesor
+Joaquín del Pino,José de Santiago Concha Jiménez Lobatón,otálora,concha_chile,argentina,chile,sucesor
+José Bernardo de Tagle,Antonio José de Sucre,del_solar,sucre,peru,colombia,predecesor
+José Bernardo de Tagle,José de San Martín,del_solar,balcarce,peru,argentina,predecesor
+José Bernardo de Tagle,Simón Bolívar,del_solar,bolívar,peru,colombia,sucesor
+José Bernardo de Tagle,José de San Martín,del_solar,balcarce,peru,argentina,sucesor
+José de San Martín,José Miguel Carrera,san_martín,valdivieso,argentina,chile,predecesor
+José Miguel Carrera,José de San Martín,valdivieso,balcarce,chile,argentina,sucesor
+José Miguel Carrera,José de San Martín,pinto_chile,balcarce,chile,argentina,sucesor
+José Ruperto Monagas,Antonio Guzmán Blanco,monagas,blanco_venezuela,venezuela,colombia,sucesor
+José de San Martín,José Miguel Carrera,balcarce,valdivieso,argentina,chile,predecesor
+Juan Antonio Ribeyro,Juan Mariano Cossío,ribeyro,gonzález_de_cosío,peru,mexico,sucesor
+Juan Antonio Ribeyro,Juan Mariano Cossío,ribeyro,gonzález_de_cosío,peru,mexico,sucesor
+Juan Antonio Ribeyro,Juan Mariano Cossío,ribeyro,gonzález_de_cosío,peru,mexico,sucesor
+Juan Manuel Santos,Michelle Bachelet,calderón_colombia,bachelet,colombia,chile,predecesor
+Juan Manuel Santos,Sebastián Piñera,calderón_colombia,echenique,colombia,chile,predecesor
+Juan Manuel Santos,Michelle Bachelet,calderón_colombia,bachelet,colombia,chile,predecesor
+Juan Manuel Santos,Sebastián Piñera,calderón_colombia,echenique,colombia,chile,predecesor
+Juan Mariano Cossío,Juan Antonio Ribeyro,gonzález_de_cosío,ribeyro,mexico,peru,predecesor
+Juan Mariano Cossío,Juan Antonio Ribeyro,gonzález_de_cosío,ribeyro,mexico,peru,predecesor
+Juan Mariano Cossío,Juan Antonio Ribeyro,gonzález_de_cosío,ribeyro,mexico,peru,predecesor
+Juan Samper Sordo,Guillermo Camacho,samper,camacho,argentina,colombia,predecesor
+Juana Pabla Carrillo,Elisa Alicia Lynch,lópez_carrillo,lópez_carrillo,paraguay,argentina,sucesor
+Luis Alberto Lacalle,Carlos Menem,ponce_de_león,yoma,uruguay,argentina,sucesor
+Luis Carranza Ugarte,Sergio Díaz-Granados,ugarte,díaz_granados,peru,colombia,sucesor
+Manuel Salazar y Baquíjano,José de San Martín,salazar_y_muñatones,balcarce,peru,argentina,predecesor
+Manuela Caldera,Luisa Garmendia,freire,cruz_chile,chile,argentina,sucesor
+Manuela Caldera,Luisa Garmendia,freire,cruz_chile,chile,argentina,sucesor
+María Emma Mejía,Néstor Kirchner,casas,kirchner,colombia,argentina,predecesor
+María Michelsen de López,Bertha Puga,lópez,camargo,colombia,chile,sucesor
+María Michelsen de López,Bertha Puga,lópez,camargo,colombia,chile,sucesor
+Mauricio Macri,Nicolás Maduro,awada,maduro,argentina,venezuela,predecesor
+Michelle Bachelet,Ollanta Humala,bachelet,humala,chile,peru,predecesor
+Michelle Bachelet,Juan Manuel Santos,bachelet,calderón_colombia,chile,colombia,sucesor
+Michelle Bachelet,Ollanta Humala,bachelet,humala,chile,peru,predecesor
+Michelle Bachelet,Juan Manuel Santos,bachelet,calderón_colombia,chile,colombia,sucesor
+Néstor Kirchner,María Emma Mejía,kirchner,casas,argentina,colombia,sucesor
+Nicolás Maduro,Cristina Fernández de Kirchner,maduro,kirchner,venezuela,argentina,sucesor
+Nicolás Maduro,Mauricio Macri,maduro,awada,venezuela,argentina,sucesor
+Nicolás Maduro,Cristina Fernández de Kirchner,maduro,kirchner,venezuela,argentina,sucesor
+Nicolás Maduro,Mauricio Macri,maduro,awada,venezuela,argentina,sucesor
+Nicolás Sanz de Santamaría,Gregorio Miguel Valenzuela Fajardo,prieto,caicedo,chile,colombia,predecesor
+Ollanta Humala,Michelle Bachelet,humala,bachelet,peru,chile,sucesor
+Ollanta Humala,Michelle Bachelet,humala,bachelet,peru,chile,sucesor
+Rafael Urdaneta,Joaquín Mosquera,parís,arboleda,venezuela,colombia,predecesor
+Rafael Urdaneta,Simón Bolívar,parís,bolívar,venezuela,colombia,predecesor
+Rafael Urdaneta,Domingo Caycedo,parís,caicedo,venezuela,colombia,sucesor
+Rafael Urdaneta,José Hilario López,parís,durán_colombia,venezuela,colombia,sucesor
+Ramón García de León y Pizarro,Joaquín del Pino,garcía_de_león,otálora,mexico,argentina,predecesor
+Sebastián Piñera,Juan Manuel Santos,echenique,calderón_colombia,chile,colombia,sucesor
+Sergio Díaz-Granados,Luis Carranza Ugarte,díaz_granados,ugarte,colombia,peru,predecesor
+Simón Bolívar,José Bernardo de Tagle,bolívar,del_solar,colombia,peru,predecesor
+Simón Bolívar,Andrés de Santa Cruz,bolívar,santa_cruz,colombia,peru,sucesor
+Vicente Ramón Roca,León de Febres Cordero,roca_y_rodríguez,febres-cordero,ecuador,venezuela,sucesor

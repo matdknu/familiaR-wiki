@@ -1,0 +1,15 @@
+from_pais,to_pais,n_aristas,motivo_dominante,n_motivo_dominante
+Argentina,Chile,5,alianza_conyugal,3
+Chile,Argentina,5,alianza_conyugal,3
+Colombia,Chile,3,parentesco,3
+Uruguay,Argentina,3,parentesco,2
+Ecuador,Colombia,2,parentesco,2
+Perú,Argentina,2,parentesco,2
+Argentina,Perú,1,parentesco,1
+Chile,Colombia,1,parentesco,1
+Chile,Perú,1,parentesco,1
+Colombia,Ecuador,1,parentesco,1
+Colombia,Perú,1,alianza_conyugal,1
+México,Argentina,1,alianza_conyugal,1
+México,Chile,1,parentesco,1
+Perú,Colombia,1,alianza_conyugal,1
