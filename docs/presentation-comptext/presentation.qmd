@@ -23,7 +23,7 @@ format:
 
 ## Me
 
-![](image/yo.jpg){fig-align="center" width="55%"}
+![](image/yo.jpg)
 
 ---
 
