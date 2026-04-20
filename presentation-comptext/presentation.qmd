@@ -21,7 +21,7 @@ format:
 
 ## 
 
-## .
+## Me
 
 ![](image/yo.jpg){fig-align="center"}
 
@@ -126,7 +126,7 @@ Wikipedia encodes the stratum of families that successfully *inscribed themselve
 ## Four Hypotheses
 
 |        | Hypothesis                                        | Mechanism                                               |
-|--------------|---------------------------|-------------------------------|
+|-----------------|--------------------------|-----------------------------|
 | **H1** | Family closure ↔ political concentration          | Marriage market as political institution                |
 | **H2** | Network topology ↔ regime type                    | Chain=patrimonial; Star=founding lineage; Web=oligarchy |
 | **H3** | Transnational ties follow Pacific–Andean corridor | Colonial administrative geography                       |
@@ -423,6 +423,10 @@ Women = top-degree nodes in kinship graph — but absent from betweenness rankin
 :::
 
 ------------------------------------------------------------------------
+
+## Package
+
+![](image/package-idea.jpg){fig-align="center"}
 
 ## Summary
 
