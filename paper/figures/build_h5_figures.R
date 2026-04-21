@@ -46,12 +46,16 @@ p1 <- ggplot(d_atk) +
   geom_vline(xintercept = 1, linetype = "dotted", color = paper_colors$gray_mid) +
   geom_vline(xintercept = 10, linetype = "dotted", color = paper_colors$gray_mid) +
   annotate(
-    "text", x = 1, y = max(d_atk$lcc_targeted, na.rm = TRUE) * 0.98,
-    label = "Caicedo removed", hjust = 0, size = 2.8, color = paper_colors$gray_mid
+    "segment", x = 1.8, y = 0.975, xend = 1.0, yend = d_atk$lcc_targeted[d_atk$step == 1][1],
+    color = paper_colors$gray_mid, linewidth = 0.35
   ) +
   annotate(
-    "text", x = 10, y = max(d_atk$lcc_targeted, na.rm = TRUE) * 0.88,
-    label = "1.4% of families", hjust = 0, size = 2.8, color = paper_colors$gray_mid
+    "text", x = 1.85, y = 0.98,
+    label = "Caicedo removed", hjust = 0, vjust = -0.2, size = 2.8, color = paper_colors$gray_mid
+  ) +
+  annotate(
+    "text", x = 44.5, y = 0.98,
+    label = "1.4% of families", hjust = 1, vjust = 1, size = 2.8, color = paper_colors$gray_mid
   ) +
   labs(
     x = "Families removed (ordered by betweenness)",

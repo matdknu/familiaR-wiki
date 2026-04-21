@@ -26,11 +26,7 @@ Lavrin, A. (Ed.). (1990). *Sexuality and Marriage in Colonial Latin America*. Un
 
 Mahoney, J. (2010). *Colonialism and Postcolonial Development: Spanish America in Comparative Perspective*. Cambridge University Press.
 
-Mosca, G. (1939). *The Ruling Class*. McGraw-Hill. (Original work published 1896)
-
 Padgett, J. F., & Ansell, C. K. (1993). Robust action and the rise of the Medici, 1400–1434. *American Journal of Sociology*, *98*(6), 1259–1319.
-
-Pareto, V. (1991). *The Rise and Fall of Elites: An Application of Theoretical Sociology*. Transaction Publishers. (Original work published 1901)
 
 Stabili, M. R. (1996). *El sentimiento aristocrático: Elites chilenas frente al espejo (1860–1960)*. Andrés Bello / DIBAM.
 

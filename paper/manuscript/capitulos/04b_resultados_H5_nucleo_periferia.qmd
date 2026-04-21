@@ -50,7 +50,7 @@ accumulate more connections, suggesting a mild preferential attachment
 process. At the same time, ties are less likely between families with
 very different levels of connectivity, indicating stratification by
 network position. Taken together, these patterns describe a system that
-is both sparse and strongly sorted (@tbl-ergm)
+is both sparse and strongly sorted (@tbl-ergm).
 
 ```{r}
 #| label: tbl-ergm
@@ -104,6 +104,10 @@ same structural and national fields.
 
 ### Latent structure
 
+The SBM operates on the family-level aggregation of the kinship graph
+(n = 743 families across the ten countries), not on the
+individual-level graph used elsewhere.
+
 The SBM, applied without supervision, selects **K = 2** blocks
 (ICL-minimum). The two blocks are radically asymmetric: Block 1
 contains **722** families with an internal tie probability of **0.00066**,
@@ -111,19 +115,21 @@ while Block 2 contains **21** families with an internal tie probability
 of **0.138** — a ratio of roughly **208 to 1** (@tbl-sbm). Between-block
 ties occur at an intermediate rate ($\pi_{12} = 0.0020$) that is **three
 times** higher than within the periphery but **roughly seventy times**
-lower than within the core. The model does not detect two rival
-coalitions; it detects a **core–periphery** structure in which a small,
-densely interconnected group sits above a much larger, sparsely connected
-field.
+lower than within the core. Because the underlying graph is undirected,
+the block-pair probabilities are symmetric ($\pi_{12} = \pi_{21}$); both
+orderings are reported in @tbl-sbm for readability. The model does not
+detect two rival coalitions; it detects a **core–periphery** structure
+in which a small, densely interconnected group sits above a much larger,
+sparsely connected field.
 
 ```{r}
 #| label: tbl-sbm
-#| tbl-cap: "Stochastic block model: inferred block sizes and within/between-block tie probabilities."
+#| tbl-cap: "Stochastic block model: inferred block sizes and within/between-block tie probabilities. The graph is undirected; cross-block rows are symmetric."
 #| tbl-pos: "!ht"
 
 sbm_pi |>
   mutate(
-    `Block pair` = paste0("B", block_from, " -> B", block_to),
+    `Block pair` = paste0("B", block_from, " -- B", block_to),
     `Tie probability` = format(pi, scientific = TRUE, digits = 2)
   ) |>
   dplyr::select(`Block pair`, `Tie probability`) |>
@@ -141,7 +147,9 @@ smaller republics enter the core. This is **striking** given that Peru
 contributes the largest national sub-corpus (**185** families) and
 Argentina the second-largest (**161**). **Sub-corpus size does not
 predict core membership**; structural position in the kinship graph
-does.
+does. We return to the interpretation of this asymmetry — and to its
+potential reading as a sampling artifact of Spanish-language editorial
+practices — in @sec-discusion.
 
 ### Historical trajectory
 
@@ -154,7 +162,9 @@ era (1900–1950), and **5.3%** in the Modern cohort (1950–2000) — a
 **70% decline** across five successive cohorts. The decline is not
 driven by a collapse in edge count: edge volume *increases* from
 **1,658** (Colonial) to **2,366** (Republican) before falling in the
-Modern period.
+Modern period. The reduction in the Modern cohort edge count (**868**)
+partly reflects right-censoring — the twentieth-century end of the
+corpus clips descendants — and should be read with that qualification.
 
 ```{r}
 #| label: tbl-temporal
@@ -216,8 +226,13 @@ collapse the largest connected component.
 
 Families identified as structurally critical in this exercise overlap
 substantially with those in the dense core, indicating convergence
-between latent structure and network robustness. The core is therefore
-not only dense but also functionally central to connectivity.
+between latent structure and network robustness. This convergence is
+partly mechanical — both the SBM and the betweenness-ordered attack
+reward families with high connectivity — but the specific overlap (six
+of the top ten critical families are SBM-core members, out of 21 core
+families in a corpus of 743) exceeds what random block assignment would
+produce. The core is therefore not only dense but also functionally
+central to connectivity.
 
 
 ### A robust core: four Medici-like brokers
@@ -241,14 +256,18 @@ brokering across factions. That dual position generated *robust action*:
 the capacity to act decisively in one domain without compromising
 flexibility in another. Caicedo, Cruz, Pinto, and Vicuña occupy the same
 structural position in the Latin American kinship graph. Their brokerage
-role profile confirms the typological match: across these four families,
-gatekeeper and representative roles (brokerage *across* block boundaries)
-account for roughly **23%** of aggregate brokerage, against roughly
-**11%** for a contrast class of high-brokerage peripheral families
-(García-Mansilla, Echaurren, Ospina, Arboleda, Chávez, Balcarce, Podestá,
-Onassis). Caicedo-type families broker between blocks at approximately
-twice the rate of peripheral brokers, who predominantly coordinate
-*within* the periphery.
+role profile is consistent with the typological match: across these four
+families, gatekeeper and representative roles (brokerage *across* block
+boundaries) account for roughly **23%** of aggregate brokerage, against
+roughly **11%** for a contrast class of high-brokerage peripheral
+families (García-Mansilla, Echaurren, Ospina, Arboleda, Chávez, Balcarce,
+Podestá, Onassis). Because the contrast class is small and purposively
+selected — the highest-brokerage peripheral families by aggregate score —
+the comparison should be read as a structured illustration rather than
+as a hypothesis test; a configuration-model baseline is priority work
+for a follow-up paper. Within that caveat, Caicedo-type families broker
+between blocks at approximately twice the rate of peripheral brokers,
+who predominantly coordinate *within* the periphery.
 
 The contrast class matters substantively. García-Mansilla (Argentina),
 Echaurren (Chile), and Ospina (Colombia) have *higher* absolute
@@ -309,19 +328,25 @@ h5_summary |>
 ```
 
 No single analysis is decisive on its own. The contribution of H5 lies
-in the convergence across approaches. The six analyses do not share a
-common pipeline — they draw on different graph representations
-(family-level kinship graph, multiplex graph with institutional layers,
-cohort-sliced subgraphs), different inference procedures
-(maximum-likelihood ERGM, variational SBM, permutation-based homophily
-tests, betweenness-ordered attack simulation, Gould–Fernandez role
-decomposition), and different null models (edges-only baseline, random
-block assignment, random removal order). Yet they describe the same
-elite architecture: sparse but sorted, historically consolidated,
+in the convergence across **complementary** approaches. The six analyses
+draw on different graph representations (family-level kinship graph,
+multiplex graph with institutional layers, cohort-sliced subgraphs),
+different inference procedures (maximum-likelihood ERGM, variational
+SBM, permutation-based homophily tests, betweenness-ordered attack
+simulation, Gould–Fernandez role decomposition), and different null
+models (edges-only baseline, random block assignment, random removal
+order). These are complementary perspectives on a common underlying
+graph, not statistically independent tests: they share the same raw
+kinship edges and can therefore respond in partially correlated ways
+to the same data features. What distinguishes them is the diversity
+of inferential assumptions each brings to bear — a latent-block view,
+a tie-formation view, a homophily view, a temporal view, a robustness
+view, a brokerage view. The substantive contribution of H5 is that
+these heterogeneous assumptions converge on the same architectural
+description: sparse but sorted, historically consolidated,
 Chilean-dominated at the core, and dependent on a small set of robust
-brokers for connectivity beyond the core. That the results converge
-despite methodological independence is the substantive contribution of
-H5; no single analysis, taken alone, would license this claim.
+brokers for connectivity beyond the core. No single analysis, taken
+alone, would license this claim with comparable confidence.
 
-**H5 receives strong descriptive support** based on the agreement across
-independent indicators.
+**H5 receives strong descriptive support** based on the agreement
+across these complementary indicators.

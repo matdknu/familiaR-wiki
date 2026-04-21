@@ -12,13 +12,13 @@ The pipeline proceeds in four stages that convert Wikipedia's text-plus-structur
 
 ### Stage 1 — Corpus boundary via the family-category taxonomy
 
-The first problem is to define which biographies belong to the corpus. We delegate this decision to Wikipedia's editorial community: the corpus for each country consists of all biographies reachable by recursive descent through the subcategory tree rooted at `Categoría:Familias_de_<País>`. This choice substitutes **editorial sociology** for researcher-curated family lists. Its advantages are scalability, cross-country comparability under a uniform rule, and resistance to selection biases arising from the researcher's prior knowledge of which families "matter"; its principal cost is that Wikipedia's taxonomy reflects the documentary attention of a specific editorial community and will systematically under-represent elites whose public visibility is lower in Spanish-language digital discourse (§3.5). A family, in this paper, is therefore a Wikipedia category — a sociologically constructed grouping of biographies that some community of editors judged cohesive enough to merit a shared categorical label.
+The first problem is to define which biographies belong to the corpus. We delegate this decision to Wikipedia's editorial community: the corpus for each country consists of all biographies reachable by recursive descent through the subcategory tree rooted at `Categoría:Familias_de_<País>`. This choice substitutes **editorial sociology** for researcher-curated family lists. Its advantages are scalability, cross-country comparability under a uniform rule, and resistance to selection biases arising from the researcher's prior knowledge of which families "matter"; its principal cost is that Wikipedia's taxonomy reflects the documentary attention of a specific editorial community and will systematically under-represent elites whose public visibility is lower in Spanish-language digital discourse (@sec-limitaciones). A family, in this paper, is therefore a Wikipedia category — a sociologically constructed grouping of biographies that some community of editors judged cohesive enough to merit a shared categorical label.
 
 ### Stage 2 — Extracting entities from the biographical infobox
 
 Wikipedia biographies contain both unstructured prose and a structured **infobox** panel summarizing the subject's vital statistics, career, and relational attributes. The infobox is a collectively enforced template: Spanish-language biographies of Latin American political figures share a near-standardized field vocabulary that identifies, for each subject, a surname (`familia`), parents, spouse and partner, siblings and children, political offices held, predecessor and successor in each office, and party and educational affiliations. These fields function as pre-annotated named entities: the editorial community has already performed, through template compliance, the entity-recognition task that would otherwise require supervised NLP.
 
-Our extraction targets this structured layer only. This is a deliberate methodological choice. Free-text relation extraction from biographical prose is feasible but introduces substantial recall/precision tradeoffs and language-specific error modes that would complicate cross-country comparison. Restricting to the infobox yields a smaller but cleaner record: an individual enters the corpus with a defined surname, zero or more kin relations, and — when present — political office information including succession chains that will become the institutional layer of the multiplex graph (§3.3).
+Our extraction targets this structured layer only. This is a deliberate methodological choice. Free-text relation extraction from biographical prose is feasible but introduces substantial recall/precision tradeoffs and language-specific error modes that would complicate cross-country comparison. Restricting to the infobox yields a smaller but cleaner record: an individual enters the corpus with a defined surname, zero or more kin relations, and — when present — political office information including succession chains that will become the institutional layer of the multiplex graph (@sec-network).
 
 ### Stage 3 — Resolving names to biographies through the hyperlink graph
 
@@ -30,7 +30,7 @@ The analogous resolution procedure applies to the institutional layers. Politica
 
 ### Stage 4 — Aggregation and the working corpus
 
-Per-individual records are consolidated across all families and countries into a normalized relational schema. Deduplication on canonical Wikipedia URL removes individuals who appear in multiple family categories (e.g., a woman listed under both her birth family and her husband's family), retaining the union of their attributes. The resulting working corpus contains **6,169 individuals** across ten countries, linked by **8,201 kinship edges** and by the additional multiplex layers described above. **92.9%** of individuals carry a parsed birth year, which anchors the cohort analysis in §4.6.4.
+Per-individual records are consolidated across all families and countries into a normalized relational schema. Deduplication on canonical Wikipedia URL removes individuals who appear in multiple family categories (e.g., a woman listed under both her birth family and her husband's family), retaining the union of their attributes. The resulting working corpus contains **6,711 individuals** across ten countries, linked by **8,201 matched kinship edges** and by the additional multiplex layers described above. Of these individuals, **92.9%** carry a parsed birth year, which anchors the cohort analysis in @sec-h5.
 
 ## Family, country, and measurement definitions
 
@@ -38,7 +38,7 @@ Per-individual records are consolidated across all families and countries into a
 
 **Country** is assigned using nationality fields, infobox cues, and text-based inference, complemented by manual verification where ambiguity arises. A kinship edge is classified as **transnational** when the assigned countries of its endpoints differ. Both family and country variables are therefore subject to classification error inherent to the source.
 
-## Network construction and metrics
+## Network construction and metrics {#sec-network}
 
 We construct an undirected graph based on matched kinship relations and augment it with additional relational layers, including within-family ties for small lineages, predecessor–successor links, and affiliations derived from shared party membership and educational institutions. Together, these layers define a **multiplex network** used for centrality estimation and community detection.
 
@@ -59,19 +59,19 @@ Network measures are computed with `igraph`, including degree, betweenness centr
 
 ## Analytical stance and temporal scope
 
-All analyses are **observational**. Network measures describe co-occurrence patterns within a digital corpus shaped by notability and editorial practices. Throughout @sec-resultados, we adopt a **descriptively cautious language** (e.g., “associated with,” “consistent with,” “suggestive”) to avoid causal over-interpretation.
+All analyses are **observational**. Network measures describe co-occurrence patterns within a digital corpus shaped by notability and editorial practices. Throughout @sec-resultados, we adopt a **descriptively cautious language** (e.g., "associated with," "consistent with," "suggestive") to avoid causal over-interpretation.
 
 Biographical dates span approximately **1800–2000**, with some colonial antecedents. Unless explicitly disaggregated, network representations **pool multiple historical periods**, implying that observed structures combine relationships formed under different institutional contexts.
 
 ## Limitations {#sec-limitaciones}
 
-1. **Selection bias:** Wikipedia disproportionately documents literate, urban, and politically visible individuals; indigenous, Afro-descendant, and subnational elites are underrepresented.  
-2. **Kinship incompleteness:** Many familial ties are unrecorded; women may appear primarily as relational nodes (e.g., spouses or mothers).  
-3. **Label uncertainty:** *familia_norm* may merge distinct lineages or split unified ones, particularly across national contexts.  
-4. **Temporal aggregation:** Networks combine ties across historical periods unless explicitly segmented.  
-5. **Edge incompleteness:** A substantial share of kinship relations lack a matched endpoint, limiting full network reconstruction.  
-6. **Country assignment constraints:** Multinational biographies are reduced to a single country label, partially mitigated by biographical cross-referencing.  
-7. **Measurement dependence:** Multiple metrics (e.g., centrality, block structure, robustness) are derived from the same underlying graph and should be interpreted as **complementary rather than independent** evidence.  
+1. **Selection bias:** Wikipedia disproportionately documents literate, urban, and politically visible individuals; indigenous, Afro-descendant, and subnational elites are underrepresented.
+2. **Kinship incompleteness:** Many familial ties are unrecorded; women may appear primarily as relational nodes (e.g., spouses or mothers).
+3. **Label uncertainty:** *familia_norm* may merge distinct lineages or split unified ones, particularly across national contexts.
+4. **Temporal aggregation:** Networks combine ties across historical periods unless explicitly segmented.
+5. **Edge incompleteness:** A substantial share of kinship relations lack a matched endpoint, limiting full network reconstruction.
+6. **Country assignment constraints:** Multinational biographies are reduced to a single country label, partially mitigated by biographical cross-referencing.
+7. **Measurement dependence:** Multiple network-level metrics (e.g., centrality, block structure, robustness) are derived from the same underlying graph. They should be interpreted as **complementary perspectives on a common object**, not as statistically independent tests. The epistemic value of their convergence (@sec-h5) lies in the diversity of inferential assumptions each brings to bear, not in sample independence.
 8. **No causal identification:** Network position measures (e.g., betweenness, endogamy) cannot be interpreted as causal drivers without additional research designs.
 
 These limitations position the analysis as a **structured mapping of a documentary elite field**, rather than a comprehensive representation of Latin American elites. They also motivate the interpretive discipline maintained in @sec-resultados and @sec-discusion.

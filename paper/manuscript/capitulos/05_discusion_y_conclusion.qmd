@@ -52,14 +52,22 @@ Chilean families would appear more densely linked not because they *are*
 more densely linked, but because their links are more completely
 documented. The ratio of matched to total kinship rows (**57.8%**,
 @sec-diseno) is a global figure; country-level variation in this ratio
-would partially test the artifact hypothesis.
+would partially test the artifact hypothesis. A first-order diagnostic
+— comparing per-country edge-matching rates — is feasible within the
+existing pipeline and is a priority for the next iteration of the
+project; until that test is performed, the artifact reading cannot be
+excluded.
 
 The two readings are not mutually exclusive, and both generate testable
-predictions that the next iteration of this project should pursue:
-country-specific edge-matching rates, archival cross-validation of
-core-family genealogies, and comparison against non-Wikipedia elite
-registers (where available) for Chile, Colombia, and one contrast
-country.
+predictions that future work should pursue: country-specific
+edge-matching rates, archival cross-validation of core-family
+genealogies, and comparison against non-Wikipedia elite registers
+(where available) for Chile, Colombia, and one contrast country. The
+characterization of the Chilean-dominated core as a **structural
+pattern in the documentary elite field** should, for now, be read with
+this caveat attached: it is a robust feature of the corpus as
+constructed, and a candidate fact about Latin American elite
+reproduction whose corpus-external validation remains open.
 
 ## The Pacific corridor
 
@@ -143,7 +151,9 @@ Paraguay, star in Chile, web in Argentina — is not reducible to
 differential Wikipedia coverage, since all countries are drawn from the
 same Spanish-language corpus under comparable extraction rules.
 Visibility bias would inflate all graphs equally; it cannot explain
-*differential* topology.
+*differential* topology. It can, however, still explain *which
+families* dominate within each graph — a point that recurs in the
+Chilean-exceptionalism discussion above.
 
 *Demographic structure* offers a second alternative: countries with
 larger populations should produce denser networks simply by having more
@@ -232,19 +242,24 @@ early-twentieth-century cohorts (temporal analysis), and depend on a
 small number of Medici-like families — **Caicedo**, **Cruz**, **Pinto**,
 **Vicuña** — to mediate between the core and the rest of the graph.
 
-The convergence of six methodologically independent analyses on the same
+The convergence of six **complementary** analyses on the same
 structural object is the paper's strongest epistemic claim; see
-@tbl-h5-summary for a consolidated view. Individually, each could be
-contested: an ERGM fit could be unstable, an SBM could over-partition, an
-attack simulation could be noisy, a temporal split could be
-cohort-sensitive, a brokerage decomposition could be sensitive to
-role-coding assumptions, a homophily index could be inflated by attribute
-granularity. Jointly, they tell a single story. The Latin American
-documentary elite, in this corpus, is not a scatter of national networks
-loosely connected by corridors. It is a single architecture with a
-Chilean core, a documented history of consolidation, and an identifiable
-set of robust brokers — Caicedo, Cruz, Pinto, and Vicuña — holding it
-together.
+@tbl-h5-summary for a consolidated view. These analyses are not
+statistically independent — they draw on a common underlying graph —
+but they deploy different inferential assumptions: an ERGM fit could
+be unstable, an SBM could over-partition, an attack simulation could
+be noisy, a temporal split could be cohort-sensitive, a brokerage
+decomposition could be sensitive to role-coding assumptions, a
+homophily index could be inflated by attribute granularity. Jointly,
+they tell a single story. The Latin American documentary elite, in
+this corpus, is not a scatter of national networks loosely connected
+by corridors. It is a single architecture with a Chilean-dominated
+core, a documented history of consolidation, and an identifiable set
+of robust brokers — Caicedo, Cruz, Pinto, and Vicuña — holding it
+together. Whether that architecture reflects the social elite itself,
+or the specific way this elite has been inscribed in Spanish-language
+Wikipedia, is a question our data position us to pose sharply but not
+yet to answer definitively.
 
 We close with two implications that extend beyond Latin American
 historiography. First, *digital genealogies increasingly shape public
@@ -266,3 +281,4 @@ upon but rarely had to defend publicly. Understanding the structure of
 the documentary elite field is therefore not merely an academic exercise:
 it is a prerequisite for assessing the political consequences of open
 genealogical data.
+

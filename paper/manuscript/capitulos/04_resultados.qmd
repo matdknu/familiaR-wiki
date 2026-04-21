@@ -16,12 +16,15 @@ kinship layouts appear in @fig-facet; transnational summaries follow in
 
 ## H1: Family closure and political concentration
 
-Una descripción inicial de los datos es su distribución. Obtuvimos en
-total 6711 individuos, conteniendo en variables claves como la familia
-de pertenencia, país de nacimiento, país de fallecimiento, familia
-(hermana, conyugé, descendencia, ascendencia) y la fecha respectiva. La
-@fig-temporal-by-country muestra la densidad, que se encuentra
-principalmente en medio de 1900.
+We begin with a descriptive overview of the corpus. The working corpus
+comprises **6,711 individuals** across ten countries, each recorded with
+a set of core variables — family of affiliation, country of birth,
+country of death, kinship relations (siblings, spouses, descendants,
+ascendants), and associated dates. @fig-temporal-by-country displays the
+distribution of birth years by country: documentation density peaks
+around the middle of the nineteenth and twentieth centuries, reflecting
+both the expansion of republican political life and the uneven
+biographical coverage of earlier cohorts.
 
 ```{r}
 #| label: fig-temporal-by-country
@@ -42,7 +45,7 @@ both small sample size and corpus boundary effects. @tbl-h1h4 reports
 family counts by country (e.g., **Argentina 165**, **Peru 182**,
 **Mexico 111**, **Chile 98**) together with descriptive correlations
 between family-level closure and two network indicators: genealogical
-degree and multiplex betweenness. Cells marked “—” indicate estimates
+degree and multiplex betweenness. Cells marked "—" indicate estimates
 not reported because of insufficient numbers of families.
 
 ```{r}
@@ -72,7 +75,7 @@ is defined in @tbl-h1h4, and substantively large in several major
 republics: **Mexico −0.797**, **Venezuela −0.764**, **Argentina
 −0.738**, **Peru −0.720**, **Chile −0.536**, and **Colombia −0.478**.
 One observational reading—consistent with competitive-oligarchy
-narratives and with Padgett and Ansell’s (1993) account of robust
+narratives and with Padgett and Ansell's (1993) account of robust
 action—is that families maintaining broad network reach may do so partly
 by forgoing high levels of matrimonial closure. Larger and more
 connected lineages may therefore face a trade-off between preserving
@@ -110,7 +113,7 @@ t02 |>
   )
 ```
 
-Read through Bourdieu’s vocabulary of capital conversion, brokerage
+Read through Bourdieu's vocabulary of capital conversion, brokerage
 across families and institutions and closure within the surname cluster
 appear here not as mechanically complementary dimensions, but as partly
 competing strategies of elite reproduction. The pattern remains
@@ -168,9 +171,12 @@ knitr::include_graphics(path_fig("exploracion_redes_facet.png"))
 
 ## H3: Transnational corridors
 
-La @fig-transnational-net.... demustra la .......
-
-
+@fig-transnational-net maps the aggregate geography of cross-border
+elite linkages: edge widths encode total tie counts between country
+pairs, and node sizes reflect each country's overall transnational flow
+strength. The resulting pattern is strongly structured rather than
+uniform — dense along a Pacific–Andean corridor and across the River
+Plate, markedly thinner elsewhere.
 
 ```{r}
 #| label: tbl-pairs
@@ -202,7 +208,7 @@ Argentina, Bolivia, Chile, Peru), and **Sucre** (**11** members;
 Argentina, Colombia, Ecuador, Venezuela). Their geographic footprints
 are consistent with post-independence elite continuity across Bolivarian
 and Gran-Colombian spaces, though again this should be read as
-interpretive alignment rather than causal proof
+interpretive alignment rather than causal proof.
 
 
 ```{r}
@@ -261,7 +267,6 @@ field. The absence of a strong **Argentina–Brazil** edge—despite the
 scale and proximity of both countries—is consistent with the idea that
 documentary elite ties are shaped more strongly by administrative
 corridors and historical circuits than by proximity alone.
-.
 
 The Pacific-corridor pattern is not self-explanatory. At least three
 mechanisms are compatible with it. At the *colonial* scale, viceregal
@@ -273,12 +278,16 @@ biographical entanglement independently of genealogy. At the
 Paz, and Bogotá may have constituted relatively integrated marriage
 markets among literate notables.
 
-El contenido geógráfico se aprecia acá cuando existe una....
-
+The continental view in @fig-transnational-net makes this geographic
+structure legible: the Pacific–Andean spine (Chile–Peru–Colombia, with
+Argentina as a southern anchor) carries the heaviest edges, while
+Central America and the Atlantic coast appear comparatively thin. The
+figure should be read as a descriptive map of the documentary corpus,
+not as an exhaustive cartography of Latin American elite ties.
 
 ```{r}
 #| label: fig-transnational-net
-#| fig-cap: "Continental view of cross-border elite linkages (aggregated transnational flow map; presentation export)."
+#| fig-cap: "Continental view of cross-border elite linkages (aggregated transnational flow map, pooled across all birth cohorts)."
 #| fig-width: 8
 #| fig-height: 4.5
 #| out-width: "100%"
@@ -286,22 +295,29 @@ knitr::include_graphics("capitulos/images/pres_transnacional_flow_map_continent.
 ```
 
 None of these mechanisms is identified here. Each remains a hypothesis
-for future cohort-level analysis, archival validation, or quasi-
-experimental designs. Even so, **H3 receives descriptive support** for a
-Pacific–Andean and Southern Cone emphasis in this documentary corpus,
-with the crucial caveat that biographical layers inflate some dyads
-relative to kinship and that mechanisms remain open.
+for future cohort-level analysis, archival validation, or
+quasi-experimental designs. Even so, **H3 receives descriptive support**
+for a Pacific–Andean and Southern Cone emphasis in this documentary
+corpus, with the crucial caveat that biographical layers inflate some
+dyads relative to kinship and that mechanisms remain open.
 
 ## H4: Betweenness and brokerage
 
 High betweenness is concentrated among a relatively small set of
 individuals (@tbl-brokers), including **Luis Felipe Villarán** and
 **Walter Humala** in **Peru**, **José Evaristo Uriburu** in
-**Argentina**, and **Cuauhtémoc Cárdenas** in **Mexico**. In that
-limited sense, **H4 is descriptively supported**: brokerage positions
-are clearly identifiable within the augmented graph. We do not equate
-betweenness with real-world political influence outside the documented
-network.
+**Argentina**, and **Cuauhtémoc Cárdenas** in **Mexico**. More
+substantively, the specific figures that occupy these positions align
+with well-documented historical roles: Villarán and Cisneros anchor
+late-nineteenth and twentieth-century Peruvian institutional networks;
+Uriburu, Obligado, and Sáenz Peña are canonical members of the
+Argentine oligarchic "Generation of 1880"; and the continued presence
+of Di Tella and Cárdenas indicates brokerage persistence into
+twentieth-century party politics. In that limited sense, **H4 is
+descriptively supported**: brokerage positions are not only
+identifiable but also map onto historically plausible coordinators. We
+do not equate multiplex betweenness with real-world political influence
+outside the documented network.
 
 ```{r}
 #| label: tbl-brokers
@@ -335,12 +351,12 @@ knitr::kable(mx, booktabs = TRUE, caption = NULL) |>
 ```
 
 The concentration of top betweenness scores among Peruvian and Argentine
-figures invites a structural reading. Peru’s prominence in the ranking
-is consistent with Lima’s historical role as a hub linking Andean,
-coastal, and institutional circuits. Likewise, Argentina’s
+figures invites a structural reading. Peru's prominence in the ranking
+is consistent with Lima's historical role as a hub linking Andean,
+coastal, and institutional circuits. Likewise, Argentina's
 high-betweenness cluster—Uriburu, Obligado, Di Tella, Sáenz Peña—is
 consistent with the dense layering of kinship, party, and educational
-ties often associated with the oligarchic “Generation of 1880.”
+ties often associated with the oligarchic "Generation of 1880."
 
 These interpretations should remain cautious. High betweenness in the
 multiplex graph reflects structural location within the observed
@@ -348,4 +364,3 @@ relational system, not intrinsic influence or historically verified
 brokerage in every case. Still, the distribution is consistent with the
 claim that some individuals occupy positions that bridge otherwise
 separated institutional and genealogical domains.
-
