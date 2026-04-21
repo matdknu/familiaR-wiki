@@ -146,7 +146,7 @@ not merely a nuisance.
 ## Five Hypotheses
 
 |        | Hypothesis                                        | Mechanism                                                     |
-|--------------|--------------------------|--------------------------------|
+|------------------|-------------------------|-----------------------------|
 | **H1** | Family closure ↔ political concentration          | Marriage market as political institution                      |
 | **H2** | Network topology ↔ regime type                    | Chain = patrimonial; Star = founding lineage; Web = oligarchy |
 | **H3** | Transnational ties follow Pacific–Andean corridor | Colonial administrative geography                             |
@@ -444,9 +444,13 @@ coordination.
 
 ------------------------------------------------------------------------
 
-## H4 · Network Fragility
+## H4 · Network changing
 
-![](image/attack_simulation.png){.r-stretch fig-align="center"}
+![](images/elite_latam_red_gradual-01.gif){fig-align="center"}
+
+## H4 · Network changing: Education 
+
+![](images/03_circuit_shares_over_time-01.png){fig-align="center"}
 
 ## H4 · Robust Brokers
 
