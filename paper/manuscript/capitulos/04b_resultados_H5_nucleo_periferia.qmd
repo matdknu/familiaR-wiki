@@ -38,6 +38,20 @@ h5_summary <- tibble::tribble(
 
 ### Tie formation
 
+The network is extremely sparse at baseline, indicating that kinship
+ties are rare relative to the number of possible family pairs. At the
+same time, tie formation is strongly structured. Connections are
+substantially more likely within countries than across them, indicating
+robust national homophily operating alongside the transnational
+corridors documented in H3.
+
+Family size also contributes to tie formation: larger lineages tend to
+accumulate more connections, suggesting a mild preferential attachment
+process. At the same time, ties are less likely between families with
+very different levels of connectivity, indicating stratification by
+network position. Taken together, these patterns describe a system that
+is both sparse and strongly sorted (@tbl-ergm)
+
 ```{r}
 #| label: tbl-ergm
 #| tbl-cap: "Exponential random graph model: tie-formation parameters on the family-level kinship graph."
@@ -55,21 +69,14 @@ ergm |>
   kableExtra::kable_styling(latex_options = c("hold_position"), font_size = 9)
 ```
 
-The network is extremely sparse at baseline, indicating that kinship
-ties are rare relative to the number of possible family pairs. At the
-same time, tie formation is strongly structured. Connections are
-substantially more likely within countries than across them, indicating
-robust national homophily operating alongside the transnational
-corridors documented in H3.
 
-Family size also contributes to tie formation: larger lineages tend to
-accumulate more connections, suggesting a mild preferential attachment
-process. At the same time, ties are less likely between families with
-very different levels of connectivity, indicating stratification by
-network position. Taken together, these patterns describe a system that
-is both sparse and strongly sorted.
 
 ### Homophily
+
+Sorting operates differently across attributes. Structural position
+shows near-perfect homophily: families tend to connect to others with
+similar levels of connectivity. Country exhibits substantial but
+incomplete homophily, while temporal proximity plays a weaker role.
 
 ```{r}
 #| label: tbl-homophily
@@ -88,11 +95,6 @@ hom |>
   kableExtra::kable_styling(latex_options = c("hold_position"), font_size = 9)
 ```
 
-Sorting operates differently across attributes. Structural position
-shows near-perfect homophily: families tend to connect to others with
-similar levels of connectivity. Country exhibits substantial but
-incomplete homophily, while temporal proximity plays a weaker role.
-
 By contrast, political roles display strong heterophily. Families do
 not primarily connect to others occupying the same institutional
 position; instead, ties are more common across roles. This pattern is
@@ -101,6 +103,18 @@ in different institutional domains while remaining embedded within the
 same structural and national fields.
 
 ### Latent structure
+
+The SBM, applied without supervision, selects **K = 2** blocks
+(ICL-minimum). The two blocks are radically asymmetric: Block 1
+contains **722** families with an internal tie probability of **0.00066**,
+while Block 2 contains **21** families with an internal tie probability
+of **0.138** — a ratio of roughly **208 to 1** (@tbl-sbm). Between-block
+ties occur at an intermediate rate ($\pi_{12} = 0.0020$) that is **three
+times** higher than within the periphery but **roughly seventy times**
+lower than within the core. The model does not detect two rival
+coalitions; it detects a **core–periphery** structure in which a small,
+densely interconnected group sits above a much larger, sparsely connected
+field.
 
 ```{r}
 #| label: tbl-sbm
@@ -117,17 +131,7 @@ sbm_pi |>
   kableExtra::kable_styling(latex_options = c("hold_position"), font_size = 9)
 ```
 
-The SBM, applied without supervision, selects **K = 2** blocks
-(ICL-minimum). The two blocks are radically asymmetric: Block 1
-contains **722** families with an internal tie probability of **0.00066**,
-while Block 2 contains **21** families with an internal tie probability
-of **0.138** — a ratio of roughly **208 to 1** (@tbl-sbm). Between-block
-ties occur at an intermediate rate ($\pi_{12} = 0.0020$) that is **three
-times** higher than within the periphery but **roughly seventy times**
-lower than within the core. The model does not detect two rival
-coalitions; it detects a **core–periphery** structure in which a small,
-densely interconnected group sits above a much larger, sparsely connected
-field.
+
 
 The twenty-one families of the core are **geographically concentrated**:
 sixteen are Chilean, four are Colombian (Acevedo, Caicedo, Eder,
@@ -140,6 +144,17 @@ predict core membership**; structural position in the kinship graph
 does.
 
 ### Historical trajectory
+
+The core–periphery architecture is not atemporal. Splitting the graph
+by birth cohort (@tbl-temporal) reveals a monotonic decline in the
+share of ties that cross family boundaries: **17.7%** in the Colonial
+cohort (pre-1800) falls to **9.9%** at Independence (1800–1850),
+**6.7%** in the Oligarchic period (1850–1900), **5.5%** in the Republican
+era (1900–1950), and **5.3%** in the Modern cohort (1950–2000) — a
+**70% decline** across five successive cohorts. The decline is not
+driven by a collapse in edge count: edge volume *increases* from
+**1,658** (Colonial) to **2,366** (Republican) before falling in the
+Modern period.
 
 ```{r}
 #| label: tbl-temporal
@@ -159,16 +174,7 @@ tmp |>
   kableExtra::kable_styling(latex_options = c("hold_position"), font_size = 8)
 ```
 
-The core–periphery architecture is not atemporal. Splitting the graph
-by birth cohort (@tbl-temporal) reveals a monotonic decline in the
-share of ties that cross family boundaries: **17.7%** in the Colonial
-cohort (pre-1800) falls to **9.9%** at Independence (1800–1850),
-**6.7%** in the Oligarchic period (1850–1900), **5.5%** in the Republican
-era (1900–1950), and **5.3%** in the Modern cohort (1950–2000) — a
-**70% decline** across five successive cohorts. The decline is not
-driven by a collapse in edge count: edge volume *increases* from
-**1,658** (Colonial) to **2,366** (Republican) before falling in the
-Modern period.
+
 
 This conjunction — rising edge volume with falling cross-family share —
 is the signature of **oligarchic consolidation**. The network does not
@@ -187,6 +193,12 @@ diplomacy, business, and migration.
 
 ### Fragility
 
+@fig-attack contrasts targeted removal (ordered by betweenness-based
+criticality) with random removal: the targeted trajectory collapses the
+largest connected component after very few deletions, whereas random
+removal produces a nearly linear decline.
+
+
 ```{r}
 #| label: fig-attack
 #| fig-cap: "Largest connected component under targeted versus random family removal."
@@ -196,10 +208,6 @@ diplomacy, business, and migration.
 knitr::include_graphics(path_fig("A10_attack_simulation.png"))
 ```
 
-@fig-attack contrasts targeted removal (ordered by betweenness-based
-criticality) with random removal: the targeted trajectory collapses the
-largest connected component after very few deletions, whereas random
-removal produces a nearly linear decline.
 
 Targeted removal of highly central families produces rapid network
 fragmentation, in contrast to the gradual degradation observed under
@@ -211,67 +219,6 @@ substantially with those in the dense core, indicating convergence
 between latent structure and network robustness. The core is therefore
 not only dense but also functionally central to connectivity.
 
-### Brokerage
-
-```{r}
-#| label: tbl-brokerage-block
-#| tbl-cap: "Aggregate brokerage roles by SBM block membership. Per-family columns normalize by block size to expose per-capita intensity."
-#| tbl-pos: "!ht"
-
-adv_b <- "outputs/tables/advanced"
-brok <- read_tbl("A6_brokerage_roles.csv", subdir = adv_b)
-mem <- read_tbl("A3_sbm_membership.csv", subdir = adv_b)
-
-block_sizes <- mem |> dplyr::count(block, name = "n_families")
-
-tbl_bb <- brok |>
-  dplyr::inner_join(mem |> dplyr::select(familia = family, block), by = "familia") |>
-  dplyr::group_by(block) |>
-  dplyr::summarise(
-    coordinator = sum(coordinator, na.rm = TRUE),
-    consultant = sum(consultant, na.rm = TRUE),
-    gatekeeper = sum(gatekeeper, na.rm = TRUE),
-    representative = sum(representative, na.rm = TRUE),
-    liaison = sum(liaison, na.rm = TRUE),
-    .groups = "drop"
-  ) |>
-  dplyr::inner_join(block_sizes, by = "block") |>
-  dplyr::mutate(
-    total = coordinator + consultant + gatekeeper + representative + liaison,
-    cross_block = gatekeeper + representative,
-    total_per_family = round(total / n_families, 1),
-    cross_block_pct = round(100 * cross_block / dplyr::if_else(total > 0, total, NA_real_), 1),
-    Block = dplyr::if_else(block == 2L, "Core (B2, n=21)", "Periphery (B1, n=722)")
-  ) |>
-  dplyr::select(
-    Block, coordinator, consultant, gatekeeper, representative, liaison,
-    total_per_family, cross_block_pct
-  )
-
-knitr::kable(
-  tbl_bb,
-  booktabs = TRUE,
-  caption = NULL,
-  col.names = c(
-    "Block", "Coord.", "Consult.", "Gatekeep.",
-    "Repr.", "Liaison",
-    "Total / family", "Cross-block %"
-  )
-) |>
-  kableExtra::kable_styling(
-    latex_options = c("hold_position", "scale_down"),
-    font_size = 8
-  )
-```
-
-Brokerage is unevenly distributed. In absolute terms, most brokerage
-occurs in the periphery due to its size. When normalized by group size,
-however, core families exhibit substantially higher brokerage intensity.
-
-This produces a structural tension. The core is internally cohesive but
-relies on connections to the periphery for broader reach, while the
-periphery carries much of the bridging load without equivalent internal
-density. Neither layer alone sustains the system.
 
 ### A robust core: four Medici-like brokers
 

@@ -1,34 +1,36 @@
 # Data and methods {#sec-diseno}
 
-## Source and population
+## Source, pipeline, and corpus construction
 
-We scraped Spanish-language Wikipedia biographical pages for ten Latin American countries (Argentina, Bolivia, Chile, Colombia, Ecuador, Mexico, Paraguay, Peru, Uruguay, and Venezuela), following the project pipeline described in the replication repository. Raw extracts were consolidated and normalized into relational tables (`personas`, `relaciones`, `partidos`, `educacion`, `sucesiones`). @tbl-corpus summarizes the distribution of retained individuals by `pais_base` after deduplication. The working person table contains **6,169** rows; **8,201** kinship relation rows link two identified individuals (`persona_relacionada_id` non-missing) out of **14,190** extracted rows, so **57.8%** of raw kinship statements resolve to another scraped biography. **92.9%** of persons have a parsed birth year (`anio_nacimiento`), which anchors descriptive temporal plots.
+### Methodological framing
 
-```{r}
-#| label: tbl-corpus
-#| tbl-cap: "Corpus coverage: individuals by country (pais_base) in the normalized person table."
-#| tbl-pos: "!ht"
+We treat Spanish-language Wikipedia as a **collectively authored biographical archive** and approach the construction of our corpus as a problem in *computational text analysis* (Grimmer, Roberts, & Stewart, 2022; Edelmann et al., 2020). The analytical object is not Wikipedia itself but the network of elite kinship that can be *recovered* from it by systematic processing. Recovery requires a pipeline that addresses, in sequence, three problems classical to computational social science when working with large text archives: *entity enumeration* (which biographical articles belong to the corpus?), *entity extraction* (what attributes and relations does each article ascribe to its subject?), and *entity resolution* (when does a name mentioned in one article refer to the subject of another article in the same corpus?).
 
-personas <- read_tbl("personas.csv", subdir = "data/processed/02_leer_data")
-stopifnot(nrow(personas) > 0)
+Wikipedia's internal structure — the category system and the infobox convention — substantially pre-solves the first two problems. Editors have, over two decades, partitioned biographies of notable Latin Americans into `Categoría:Familias_de_<País>` taxonomies, and have standardized biographical summaries into infobox panels with consistent field vocabularies. A computational pipeline built on these structural regularities can extract a reliable, if bounded, documentary record. The third problem — resolving mentioned relatives to scraped biographies — is the core *non-trivial* step and is the one that determines the validity of the resulting graph.
 
-corpus_pais <- personas |>
-  count(pais_base, name = "n_personas") |>
-  arrange(desc(n_personas)) |>
-  mutate(pais_base = as.character(pais_base))
+The pipeline proceeds in four stages that convert Wikipedia's text-plus-structure archive into the multiplex network object analyzed in @sec-resultados.
 
-corpus_pais |>
-  knitr::kable(
-    booktabs = TRUE,
-    digits = 0,
-    col.names = c("Country", "Individuals"),
-    caption = NULL
-  ) |>
-  kableExtra::kable_styling(
-    latex_options = c("hold_position", "scale_down"),
-    font_size = 9
-  )
-```
+### Stage 1 — Corpus boundary via the family-category taxonomy
+
+The first problem is to define which biographies belong to the corpus. We delegate this decision to Wikipedia's editorial community: the corpus for each country consists of all biographies reachable by recursive descent through the subcategory tree rooted at `Categoría:Familias_de_<País>`. This choice substitutes **editorial sociology** for researcher-curated family lists. Its advantages are scalability, cross-country comparability under a uniform rule, and resistance to selection biases arising from the researcher's prior knowledge of which families "matter"; its principal cost is that Wikipedia's taxonomy reflects the documentary attention of a specific editorial community and will systematically under-represent elites whose public visibility is lower in Spanish-language digital discourse (§3.5). A family, in this paper, is therefore a Wikipedia category — a sociologically constructed grouping of biographies that some community of editors judged cohesive enough to merit a shared categorical label.
+
+### Stage 2 — Extracting entities from the biographical infobox
+
+Wikipedia biographies contain both unstructured prose and a structured **infobox** panel summarizing the subject's vital statistics, career, and relational attributes. The infobox is a collectively enforced template: Spanish-language biographies of Latin American political figures share a near-standardized field vocabulary that identifies, for each subject, a surname (`familia`), parents, spouse and partner, siblings and children, political offices held, predecessor and successor in each office, and party and educational affiliations. These fields function as pre-annotated named entities: the editorial community has already performed, through template compliance, the entity-recognition task that would otherwise require supervised NLP.
+
+Our extraction targets this structured layer only. This is a deliberate methodological choice. Free-text relation extraction from biographical prose is feasible but introduces substantial recall/precision tradeoffs and language-specific error modes that would complicate cross-country comparison. Restricting to the infobox yields a smaller but cleaner record: an individual enters the corpus with a defined surname, zero or more kin relations, and — when present — political office information including succession chains that will become the institutional layer of the multiplex graph (§3.3).
+
+### Stage 3 — Resolving names to biographies through the hyperlink graph
+
+The step that converts textual kinship mentions into graph edges is entity resolution: when a biography of individual A names "Pedro Aguirre Cerda" as a parent, does that string refer to the subject of another biography in our corpus? The standard computational approach to this problem combines string similarity with disambiguation heuristics (Grimmer et al., 2022, ch. 12); we exploit a simpler and more precise mechanism available in Wikipedia specifically.
+
+**Editors encode disambiguation directly in the markup.** When Wikipedia biography A names B as a relative and B has a dedicated biography, editors routinely render the name as an internal hyperlink to B's URL. This hyperlink — not the string name itself — is what our pipeline uses to resolve relations. An edge `A — B` enters the kinship graph if and only if both A and B are scraped biographies in our corpus and at least one names the other through such a link. String-level mentions without a resolving hyperlink are retained as attributes of the source individual but do not generate edges. This rule trades kinship recall for edge precision: **57.8% (8,201 of 14,190)** of infobox-declared kinship statements resolve to a second scraped biography and become graph edges. The remaining 42.2% name a relative who either has no Wikipedia biography, has one that lies outside the family-category tree for that country, or is named without a hyperlink in the source infobox.
+
+The analogous resolution procedure applies to the institutional layers. Political-succession edges are drawn directly from the `predecesor` and `sucesor` infobox fields, both of which are typically rendered as internal links. Party and educational co-affiliation edges require an additional normalization step — two biographies listing "Partido Liberal" need to be matched as affiliated with the same entity — but the basic logic is unchanged.
+
+### Stage 4 — Aggregation and the working corpus
+
+Per-individual records are consolidated across all families and countries into a normalized relational schema. Deduplication on canonical Wikipedia URL removes individuals who appear in multiple family categories (e.g., a woman listed under both her birth family and her husband's family), retaining the union of their attributes. The resulting working corpus contains **6,169 individuals** across ten countries, linked by **8,201 kinship edges** and by the additional multiplex layers described above. **92.9%** of individuals carry a parsed birth year, which anchors the cohort analysis in §4.6.4.
 
 ## Family, country, and measurement definitions
 

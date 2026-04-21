@@ -66,7 +66,8 @@ library(kableExtra)
 ```
 
 ```{=html}
-<p class="working-paper-banner">Working paper presentado para Conference Computational Text 2026, University of Birmingham.</p>
+<p class="working-paper-banner">Working paper prepared for the Computational Text Analysis and Social Science (COMPTEXT) Conference 2026, University of Birmingham.</p>
+<p class="working-paper-banner">All project materials are publicly available at <a href="https://github.com/matdknu/familiaR-wiki">https://github.com/matdknu/familiaR-wiki</a>.</p>
 ```
 
 {{< include capitulos/01_introduccion.qmd >}}

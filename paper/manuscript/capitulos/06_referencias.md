@@ -2,13 +2,21 @@
 
 Balmori, D., Voss, S., & Wortman, M. (1984). *Notable Family Networks in Latin America*. University of Chicago Press.
 
+Bol, P. K. (2012). GIS, prosopography, and history. *Annals of GIS*, *18*(1), 3–15.
+
 Borgatti, S. P., & Everett, M. G. (2000). Models of core/periphery structures. *Social Networks*, *21*(4), 375–395.
 
 Bourdieu, P. (1996). *The State Nobility: Elite Schools in the Field of Power*. Stanford University Press.
 
+Bühlmann, F., David, T., & Mach, A. (2012). The Swiss business elite (1980–2000): How the changing composition of the elite explains the decline of the Swiss company network. *Economy and Society*, *41*(2), 199–226.
+
 Centeno, M. A. (2002). *Blood and Debt: War and the Nation-State in Latin America*. Pennsylvania State University Press.
 
+Edelmann, A., Wolff, T., Montagne, D., & Bail, C. A. (2020). Computational social science and sociology. *Annual Review of Sociology*, 46, 61–81.
+
 Gould, R. V., & Fernandez, R. M. (1989). Structures of mediation: A formal approach to brokerage in transaction networks. *Sociological Methodology*, *19*, 89–126.
+
+Grimmer, J., Roberts, M. E., & Stewart, B. M. (2022). *Text as Data: A New Framework for Machine Learning and the Social Sciences*. Princeton University Press.
 
 Granovetter, M. S. (1973). The strength of weak ties. *American Journal of Sociology*, *78*(6), 1360–1380.
 
@@ -29,6 +37,8 @@ Stabili, M. R. (1996). *El sentimiento aristocrático: Elites chilenas frente al
 Tilly, C. (1990). *Coercion, Capital, and European States, AD 990–1990*. Blackwell.
 
 Valenzuela, A., & Valenzuela, J. S. (1976). Modernization and dependency: Alternative perspectives in the study of Latin American underdevelopment. *Comparative Politics*, *10*(4), 535–557.
+
+Verboven, K., Carlier, M., & Dumolyn, J. (2007). A short manual to the art of prosopography. In K. S. B. Keats-Rohan (Ed.), *Prosopography approaches and applications: A handbook* (pp. 35–69). Oxford: Prosopographica et Genealogica.
 
 Weber, M. (1978). *Economy and Society* (G. Roth & C. Wittich, Eds.). University of California Press.
 
