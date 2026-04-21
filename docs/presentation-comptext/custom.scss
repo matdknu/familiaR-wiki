@@ -1,0 +1,46 @@
+/*-- scss:rules --*/
+
+.box-primary {
+  background: #f0f4ff;
+  border-left: 4px solid #5431b2;
+  padding: 0.7em 1.1em;
+  border-radius: 4px;
+  margin-bottom: 0.6em;
+}
+
+.box-highlight {
+  background: #fef3e6;
+  border-left: 4px solid #b8651a;
+  padding: 0.7em 1.1em;
+  border-radius: 4px;
+}
+
+.reveal .slides section.question-slide {
+  text-align: center !important;
+}
+
+.question-wrap {
+  margin-top: 16vh;
+  text-align: center;
+}
+
+.question-main {
+  font-size: 1.55em;
+  line-height: 1.18;
+  font-weight: 600;
+}
+
+.question-sub {
+  margin-top: 1.1rem;
+  font-size: 0.78em;
+  color: #4b5d73;
+}
+
+.reveal .slides table {
+  font-size: 0.62em;
+  line-height: 1.2;
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin: 0 auto;
+}

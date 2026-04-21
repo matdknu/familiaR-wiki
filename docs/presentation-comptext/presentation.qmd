@@ -1,11 +1,11 @@
 ---
 title: "Elite Family Networks in Latin America"
-subtitle: "Evidence from Wikipedia Genealogical Data, 19th–21st Centuries"
+subtitle: "Evidence from Wikipedia Genealogical Data, 19th-21st Centuries"
 author: "Matías Deneken"
 date: "April 2026"
 format:
   revealjs:
-    theme: simple
+    theme: [simple, custom.scss]
     fontsize: 28px
     slide-number: true
     transition: fade
@@ -15,8 +15,8 @@ format:
     margin: 0.18
     footer: "8th Annual COMPTEXT Conference 2026 | GitHub: @matdknu"
     css: comptext-theme.css
-editor: 
-  markdown: 
+editor:
+  markdown:
     wrap: 72
 ---
 
@@ -26,75 +26,63 @@ editor:
 
 ## Me
 
-![](image/yo.jpg)
+![](image/yo.jpg){fig-align="center" width="34%"}
+
+**Matías Deneken**\
+Pontificia Universidad Católica de Chile
+
+GitHub: [\@matdknu](https://github.com/matdknu)\
+Email: [m.deneken\@uc.cl](mailto:m.deneken@uc.cl)
 
 ------------------------------------------------------------------------
 
-## The Central Question
+## Main Research Question {.question-slide}
 
-::: columns
-::: {.column width="60%"}
-> **Do elite family networks structure political power reproduction in
-> Latin America — and can we measure this at scale?**
-
--   Classical elite theory: *circulation* vs. *closure*
--   Empirical evidence at scale: scarce
--   Prosopographical reconstruction: labor-intensive, rarely
-    cross-national
-
-**This paper:** Wikipedia genealogical data as a computational social
-science resource
+::: question-wrap
+::: question-main
+Do elite family networks structure political power reproduction in Latin
+America — and can we measure this at scale?
 :::
 
-::: {.column width="40%"}
-![](image/PINERA.png){fig-align="center" width="100%"}
+::: question-sub
+A computational-text analysis of a collectively authored biographical
+archive (Spanish-language Wikipedia).
+:::
+:::
 
-::: {style="font-size:0.45em; color:#60748e; text-align:center;"}
-Piñera family — repeated elite surnames across Chilean politics
-:::
-:::
-:::
+------------------------------------------------------------------------
+
+## Allende–Pascal Hook
 
 ------------------------------------------------------------------------
 
 ## Surnames as Elite Markers?
 
 ::: columns
-::: {.column width="55%"}
-**The sociological claim:**
+::: {.column width="56%"}
+**The sociological claim:** Surnames function as social capital
+certificates — encoding lineage, alliances, and institutional access
+across generations.
 
-In Latin America, surnames function as **social capital certificates** —
-encoding lineage, alliances, and institutional access across generations
-
--   Balmori, Voss & Wortman (1984): *familias notables* as unit of
+-   **Balmori, Voss & Wortman (1984):** *familias notables* as unit of
     analysis
--   Bourdieu (1996): social reproduction through symbolic capital
--   Centeno (2002): elite networks and state formation
-
-**The computational opportunity:**
-
-Wikipedia infoboxes encode kinship ties at scale — and we can extract
-them
+-   **Bourdieu (1996):** social reproduction through symbolic capital
+-   **Centeno (2002):** elite networks and state formation
 :::
 
-::: {.column width="45%"}
-![](image/pinera-milei.png){fig-align="center" width="100%"}
+::: {.column width="44%"}
+**The computational opportunity**
 
-::: {style="font-size:0.45em; color:#60748e; text-align:center;"}
-Cross-national elite connections: Chile–Argentina
+Wikipedia infoboxes encode kinship at scale:
+
+-   **6,711** individuals
+-   **8,201** matched kinship edges
+-   **10** republics, one pipeline
+
+::: {style="margin-top:0.8em; font-size:0.72em; color:#666;"}
+*A documentary elite field — not the social elite itself.*
 :::
 :::
-:::
-
-------------------------------------------------------------------------
-
-## The Extended Network
-
-![](image/pinera-millei-allende.png){fig-align="center" width="75%"}
-
-::: {style="font-size:0.5em; color:#60748e; text-align:center;"}
-Elite kinship extending across political factions and historical periods
-— the same surnames reappear
 :::
 
 ------------------------------------------------------------------------
@@ -102,145 +90,103 @@ Elite kinship extending across political factions and historical periods
 ## Data & Pipeline
 
 ::: columns
-::: {.column width="50%"}
-**Source:** Spanish-language Wikipedia (`es.wikipedia.org`)
+::: {.column width="52%"}
+**Source**
 
-**Extraction:** Infobox fields per person - `cónyuge`, `padres`,
-`hijos`, `pareja`, `hermanos` - `partido_político`, `educación` -
-`predecesor`, `sucesor` - Biographical text (first paragraph)
+Spanish-language Wikipedia (`es.wikipedia.org`) as a collectively
+authored biographical archive.
 
-**Coverage:** - 10 countries: ARG, BOL, CHL, COL, ECU, MEX, PRY, PER,
-URY, VEN - **6,169 individuals** after deduplication - **8,201 matched
-kinship edges** (57.8% resolution rate) - 92.9% have parsed birth year
+**Extraction targets**
+
+-   Kinship: `conyuge`, `pareja`, `padres`, `hijos`, `hermanos`
+-   Institutional: `partido_politico`, `educacion`
+-   Succession: `predecesor`, `sucesor`
+
+**Entity resolution**
+
+Internal hyperlinks — not string matching — resolve mentioned relatives
+to scraped biographies.
 :::
 
-::: {.column width="50%"}
-**Processing pipeline:** Wikipedia scraping ↓ 00_consolidar_familias.R ↓
-\_CONSOLIDADO_familias_latam.csv ↓ 02_leer_data.R → personas.rds
-relaciones.rds partidos.rds educacion.rds sucesiones.rds ↓ Network
-construction (igraph) ↓ Centrality + community detection
+::: {.column width="48%"}
+::: box-primary
+**Corpus (10 republics)**\
+ARG · BOL · CHL · COL · ECU · MEX · PRY · PER · URY · VEN
+
+**6,711** individuals after deduplication\
+**8,201** matched kinship edges\
+**92.9%** with parsed birth year\
+**743** families (SBM unit of analysis)
 :::
 :::
-
-------------------------------------------------------------------------
-
-## Two Key Conceptual Distinctions
-
-::: {style="background:#f0f4ff; border-left:4px solid #5431b2; padding:0.6em 1em; margin-bottom:0.5em; border-radius:4px;"}
-**① Closure–Reach Trade-off**
-
-Families that maximize endogamy (*closure*) sacrifice bridging ties for
-transnational coordination. Families that maximize cross-border reach
-exhibit *lower* endogamy. These are **alternative strategies**, not
-complementary ones.
-:::
-
-::: {style="background:#f0f4ff; border-left:4px solid #315fbe; padding:0.6em 1em; border-radius:4px;"}
-**② Documentary Elite Field**
-
-Wikipedia encodes the stratum of families that successfully *inscribed
-themselves* in public digital archives. This is the object we analyze —
-its boundaries are a sociological datum, not merely a sampling
-limitation.
-
-*We study who gets linked, not who actually ruled.*
 :::
 
 ------------------------------------------------------------------------
 
-## Four Hypotheses
+## Two Conceptual Distinctions
 
-|        | Hypothesis                                        | Mechanism                                               |
-|--------|---------------------------------------------------|---------------------------------------------------------|
-| **H1** | Family closure ↔ political concentration          | Marriage market as political institution                |
-| **H2** | Network topology ↔ regime type                    | Chain=patrimonial; Star=founding lineage; Web=oligarchy |
-| **H3** | Transnational ties follow Pacific–Andean corridor | Colonial administrative geography                       |
-| **H4** | Betweenness centrality = structural brokerage     | Multiplex positioning across kinship + institutions     |
+::: box-primary
+**1) Closure–reach trade-off**
+
+Families that maximize endogamy sacrifice bridging ties. Families that
+maximize transnational reach usually display lower endogamy. These are
+alternative strategies, not complementary ones.
+:::
+
+::: box-primary
+**2) Documentary elite field**
+
+Wikipedia captures the stratum that successfully inscribed itself in
+public digital archives. Its boundaries are analytically substantive,
+not merely a nuisance.
+:::
+
+------------------------------------------------------------------------
+
+## Five Hypotheses
+
+|        | Hypothesis                                        | Mechanism                                                     |
+|--------------|--------------------------|--------------------------------|
+| **H1** | Family closure ↔ political concentration          | Marriage market as political institution                      |
+| **H2** | Network topology ↔ regime type                    | Chain = patrimonial; Star = founding lineage; Web = oligarchy |
+| **H3** | Transnational ties follow Pacific–Andean corridor | Colonial administrative geography                             |
+| **H4** | Betweenness centrality = structural brokerage     | Multiplex positioning across kinship + institutions           |
+| **H5** | Core–periphery architecture with robust brokers   | Convergence across six complementary methods                  |
 
 : {tbl-colwidths="\[8,46,46\]"}
 
 ------------------------------------------------------------------------
 
-## H2: Family Networks by Country
+## Methods at a glance
 
-![](image/exploracion_redes_facet.png){.r-stretch fig-align="center"}
+| Method                  | Question                               | Graph layer        |
+|---------------------|---------------------------------|------------------|
+| ERGM                    | Is tie formation structured or random? | Family–family      |
+| SBM                     | Is there mesoscopic structure?         | Family–family      |
+| Homophily + permutation | How do attributes sort?                | Node attributes    |
+| Cohort analysis         | Did structure change historically?     | Temporal subgraphs |
+| Targeted attack         | Is the graph fragile?                  | Connectivity       |
+| Gould–Fernandez         | What brokerage roles exist?            | Paths over blocks  |
 
-::: {style="font-size:0.48em; color:#60748e; text-align:center;"}
-Node size = degree centrality. Color = family surname cluster. Each
-panel = one national kinship subgraph (Fruchterman-Reingold layout).
+::: box-primary
+Six methods, one graph — convergence is the epistemic claim.
 :::
 
 ------------------------------------------------------------------------
 
-## H2: Chile Interfamily (Animated)
+## Wikipedia: Data source
 
-![](images/red_familias_chile_animada.gif){.r-stretch
+![](image/pizarro.png){fig-align="center" width="78%"}
+
+------------------------------------------------------------------------
+
+## Initial findings
+
+![](images/dinastias_temporal_por_pais-01.png){.r-stretch
 fig-align="center"}
 
-::: {style="font-size:0.48em; color:#60748e; text-align:center;"}
-Animated reveal of Chile interfamily elite ties. Highlighted labels are
-top families by degree centrality.
-:::
-
-------------------------------------------------------------------------
-
-## H2: Argentina Interfamily (Animated)
-
-![](images/red_familias_argentina_animada.gif){.r-stretch
-fig-align="center"}
-
-::: {style="font-size:0.48em; color:#60748e; text-align:center;"}
-Animated reveal of Argentina elite kinship ties (same style as Chile).
-Highlighted labels follow the same degree-centrality rule.
-:::
-
-------------------------------------------------------------------------
-
-## H2: Mexico Interfamily (Animated)
-
-![](images/red_familias_mexico_animada.gif){.r-stretch
-fig-align="center"}
-
-::: {style="font-size:0.48em; color:#60748e; text-align:center;"}
-Animated reveal of Mexico elite kinship ties (same style as Chile).
-Highlighted labels follow the same degree-centrality rule.
-:::
-
-------------------------------------------------------------------------
-
-## H2: Four Topology Types
-
-::: columns
-::: {.column width="50%"}
-
-**Chain** → Paraguay
-
-:   López dynasty. Near-linear structure. Weber's patrimonialism.
-
-**Star** → Chile, Peru
-
-:   One super-hub (Balmaceda, colonial founding ancestor). Legitimacy
-    through genealogy.
-:::
-
-::: {.column width="50%"}
-
-**Dense Web** → Argentina, Colombia, Mexico
-
-:   Multiple high-degree nodes. Competitive oligarchy. Rotation among
-    peer families.
-
-**Fragmented Clusters** → Bolivia, Venezuela, Ecuador
-
-:   Isolated sub-networks. Regional caciquismo. Weak national elite
-    integration.
-:::
-:::
-
-::: {style="background:#f7f0ff; border-left:4px solid #5431b2; padding:0.5em 0.8em; margin-top:0.4em; border-radius:4px; font-size:0.7em;"}
-**Interpretive claim:** Topology is not an artifact of corpus size —
-Paraguay's chain emerges from n=21, the smallest corpus. Bolivia and
-Ecuador fragment despite similar sizes. The pattern is structural.
+::: {style="font-size:0.62em; color:#60748e; text-align:center;"}
+Birth-year distributions by country (kernel density ridges).
 :::
 
 ------------------------------------------------------------------------
@@ -248,7 +194,7 @@ Ecuador fragment despite similar sizes. The pattern is structural.
 ## H1: Endogamy Rates by Country
 
 ::: columns
-::: {.column width="55%"}
+::: {.column width="56%"}
 | Country   | Marriages | Endogamy rate | Transnational rate |
 |-----------|-----------|---------------|--------------------|
 | Paraguay  | 4         | **1.000**     | 0.000              |
@@ -263,165 +209,81 @@ Ecuador fragment despite similar sizes. The pattern is structural.
 | Bolivia   | 3         | 0.667         | 0.667              |
 :::
 
-::: {.column width="45%"}
-**Key findings:**
+::: {.column width="44%"}
+**Reading**
 
--   Large political elites (Chile n=251, Argentina n=177) have *lower*
-    endogamy
--   Uruguay: smallest elite, highest transnational rate (38.9%)
--   Paraguay: maximum closure = maximum political concentration
-
-**The counter-intuitive result:** More connected families are *less*
-endogamous
+-   Endogamy differs sharply across countries.
+-   Larger political fields tend to show lower closure.
+-   Uruguay is an outlier in transnational marriage share.
+-   Paraguay reaches maximum closure in a very small corpus.
 :::
 :::
 
 ------------------------------------------------------------------------
 
-## H1: The Closure–Reach Trade-off
+## H1: National Kinship Layouts (Facets)
 
-![](image/h1_family_closure_vs_political_concentration.png){.r-stretch
-fig-align="center"}
+![](image/exploracion_redes_facet.png){.r-stretch fig-align="center"}
 
-::: {style="font-size:0.48em; color:#60748e; text-align:center;"}
-Corr(degree, closure): MEX −0.797 \| VEN −0.764 \| ARG −0.738 \| PER
-−0.720 \| CHL −0.536 \| COL −0.478. All negative, all large-n countries.
+::: {style="font-size:0.56em; color:#60748e; text-align:center;"}
+Exploratory faceted layouts by country (Fruchterman–Reingold).
 :::
 
 ------------------------------------------------------------------------
 
-## H1: Mechanism
+## H2: Chilean elite
 
-::: {style="font-size:0.78em;"}
-**The structural logic:** In competitive oligarchic settings, access to
-state resources — contracts, appointments, fiscal transfers — required
-coalition partners drawn from *outside* one's own surname cluster.
+![](images/red_familias_chile_animada.gif){fig-align="center"}
 
-Endogamy is a luxury of the **politically marginal**: families secure in
-their economic base (hacienda, mining, Church patronage) can forgo
-brokerage rents. High-degree families in our corpus are
-disproportionately *political* families — presidents, ministers,
-generals — whose positions required permanent negotiation with rival
-lineages.
+## H2: Argentinian elite
 
-This is the Padgett & Ansell (1993) logic applied to marriage markets:
-**"robust action" requires not over-committing to any single faction.**
+![](images/red_familias_argentina_animada.gif){fig-align="center"}
 
-**Critical distinction:**
+## H3: Mexican elite
 
--   `Corr(degree, closure)` strongly negative → marriage strategy drives
-    reach
--   `Corr(betweenness, closure)` much weaker → institutional brokerage
-    is independent of matrimonial closure
+![](images/red_familias_mexico_animada.gif){fig-align="center"}
 
-Two routes to elite power; two different network signatures.
-:::
-
-------------------------------------------------------------------------
-
-## H3: Transnational Corridors
+## H3: Transnational Network + Flow Maps
 
 ::: columns
 ::: {.column width="52%"}
-**Top country pairs (kinship + biographical):**
+![](image/exploracion_union_entre_paises.png){fig-align="center"
+width="100%"}
 
-| Pair                 | Kin | Bio | Total   |
-|----------------------|-----|-----|---------|
-| Chile → Peru         | 36  | 81  | **117** |
-| Argentina → Uruguay  | 46  | 59  | **105** |
-| Argentina → Chile    | 56  | 38  | **94**  |
-| Argentina → Peru     | 31  | 59  | **90**  |
-| Argentina → Colombia | 30  | 27  | 57      |
-| Chile → Colombia     | 43  | 14  | 57      |
-
-**Absent:** Argentina–Brazil (despite geographic scale)
+::: {style="font-size:0.5em; color:#60748e; text-align:center;"}
+Cross-border ties in the pooled transnational network.
+:::
 :::
 
 ::: {.column width="48%"}
-**The decomposition matters:**
+![](images/transnacional_familias_red_bipartita.png){fig-align="center"}
 
--   Chile–Peru: 69% biographical → diplomatic/institutional
--   Argentina–Chile: 60% kinship → genealogical entanglement
--   Argentina–Uruguay: mixed → Rioplatense cultural field
-
-**Not geography — colonial administrative units** structure the corridor
+::: {style="font-size:0.5em; color:#60748e; text-align:center;"}
+Flow map pooled across all birth cohorts.
+:::
 :::
 :::
 
 ------------------------------------------------------------------------
 
-## H3: Transnational Network
+## H3: Flow Map (Schematic) + Bipartite Example
 
-![](image/exploracion_union_entre_paises.png){.r-stretch
-fig-align="center"}
+::: columns
+::: {.column width="52%"}
+![](images/pres_transnacional_flow_map_continent.png){fig-align="center"}
 
-::: {style="font-size:0.48em; color:#60748e; text-align:center;"}
-Edge width = total cross-border ties (kinship + biographical signals).
-Pacific–Andean corridor dominates. Argentina–Brazil absent.
+::: {style="font-size:0.5em; color:#60748e; text-align:center;"}
+Cross-border ties in the pooled transnational network.
+:::
 :::
 
-------------------------------------------------------------------------
+::: {.column width="48%"}
+![](images/pres_transnacional_flow_map.png){fig-align="center"}
 
-## H3: Flow maps — schematic vs. geography
-
-```{=html}
-<div class="flow-map-row" style="display:flex;flex-direction:row;gap:0.6rem;width:100%;align-items:flex-start;justify-content:space-between;">
-  <div style="flex:1 1 49%;min-width:0;max-width:50%;">
-    <img src="image/pres_transnacional_flow_map.png" alt="Schematic flow map" style="width:100%;height:auto;display:block;margin:0 auto;"/>
-    <p style="font-size:0.38em;color:#60748e;text-align:center;margin:0.35em 0 0 0;line-height:1.25;">
-      <strong>Left:</strong> schematic (plain background). Same tie weights; Argentina ≈ Córdoba.
-    </p>
-  </div>
-  <div style="flex:1 1 49%;min-width:0;max-width:50%;">
-    <img src="image/pres_transnacional_flow_map_continent.png" alt="Flow map with continent" style="width:100%;height:auto;display:block;margin:0 auto;"/>
-    <p style="font-size:0.38em;color:#60748e;text-align:center;margin:0.35em 0 0 0;line-height:1.25;">
-      <strong>Right:</strong> same ties on a Latin America basemap (<code>ggplot2::map_data</code>).
-    </p>
-  </div>
-</div>
-```
-
-------------------------------------------------------------------------
-
-## H3: Multinational Families
-
-| Family        | Countries | Members | Geography          |
-|---------------|-----------|---------|--------------------|
-| Borrero       | 4         | 39      | ARG, CHL, COL, ECU |
-| Campero       | 4         | 24      | ARG, BOL, CHL, PER |
-| Ponce de León | 4         | 12      | ARG, MEX, PER, URY |
-| Sucre         | 4         | 11      | ARG, COL, ECU, VEN |
-| Pinto (Chile) | 3         | 50      | ARG, CHL, URY      |
-| Caicedo       | 3         | 48      | CHL, COL, PER      |
-| Pizarro       | 3         | 33      | CHL, COL, PER      |
-
-: {tbl-colwidths="\[22,15,15,48\]"}
-
-::: {style="font-size:0.65em; color:#304866; margin-top:0.4em;"}
-Geographic footprints map onto **Bolivarian and Gran-Colombia political
-geographies** — consistent with post-independence elite continuity tied
-to colonial administrative networks.
+::: {style="font-size:0.5em; color:#60748e; text-align:center;"}
+Flow map pooled across all birth cohorts.
 :::
-
-------------------------------------------------------------------------
-
-## H3: Example — bipartite country–family network
-
-![](image/transnacional_familias_red_bipartita.png){.r-stretch
-fig-align="center"}
-
-::: {style="font-size:0.48em; color:#60748e; text-align:center;"}
-Illustrative bipartite graph: countries and multinational families
-(cross-border elite structure).
 :::
-
-------------------------------------------------------------------------
-
-## H4: Structural Brokers
-
-::: {style="font-size:0.48em; color:#60748e; text-align:center;"}
-Top brokers by betweenness centrality in the multiplex graph (kinship +
-party + university + political succession).
 :::
 
 ------------------------------------------------------------------------
@@ -429,80 +291,250 @@ party + university + political succession).
 ## H4: Who Are the Brokers?
 
 ::: columns
-::: {.column width="55%"}
+::: {.column width="56%"}
 | Name                  | Country   | Betweenness |
 |-----------------------|-----------|-------------|
-| Luis Felipe Villarán  | Peru      | 517,714     |
+| Luis Felipe Villaran  | Peru      | 517,714     |
 | Walter Humala         | Peru      | 473,134     |
 | Luis Jaime Cisneros   | Peru      | 391,641     |
-| José Evaristo Uriburu | Argentina | 328,970     |
+| Jose Evaristo Uriburu | Argentina | 328,970     |
 | Pastor Obligado       | Argentina | 267,974     |
 | Guido Di Tella        | Argentina | 240,510     |
-| Cuauhtémoc Cárdenas   | Mexico    | 198,005     |
-| Roque Sáenz Peña      | Argentina | 168,155     |
+| Cuauhtemoc Cardenas   | Mexico    | 198,005     |
+| Roque Saenz Pena      | Argentina | 168,155     |
 :::
 
-::: {.column width="45%"}
-**Peru dominates** — 3 of top 5. Lima's historical role as Viceregal
-hub: silver routes, revolutionary circuits, post-war documentation.
+::: {.column width="44%"}
+**Interpretation**
 
-**Argentina's Generation of 1880** — Uriburu, Obligado, Sáenz Peña:
-simultaneously built the state, a party system, and a marriage market in
-Buenos Aires.
+-   Peru and Argentina dominate top brokerage positions.
+-   Multiplex brokerage captures institutional pathways, not only
+    kinship proximity.
+-   These are plausible structural coordinators, not causal estimates of
+    influence.
 :::
 :::
 
 ------------------------------------------------------------------------
 
-## Gender Patterns
+## H4: Centrality vs Closure (Multiplex)
+
+![](image/h4_centrality_vs_family_closure.png){.r-stretch
+fig-align="center"}
+
+------------------------------------------------------------------------
+
+## H5.1 SBM — The Hidden Core
+
+::: columns
+::: {.column width="50%"}
+::: box-primary
+-   **K = 2 blocks selected by ICL**
+-   **Block 1: 722 families, pi = 0.00066**
+-   **Block 2: 21 families, pi = 0.138**
+-   **Ratio 208:1 — this is not two rival coalitions**
+-   **This is a core and a periphery**
+:::
+:::
+
+::: {.column width="50%"}
+::: box-primary
+-   **16 of 21 core families are Chilean**
+-   **4 Colombian (Acevedo, Caicedo, Eder, Obregon)**
+-   **1 Mexican (Pinal Hidalgo)**
+-   **Zero from Argentina, Peru, Venezuela, Paraguay**
+:::
+
+::: {style="font-size:0.7em; color:#60748e;"}
+Peru contributes the largest national sub-corpus (185 families).
+Sub-corpus size does not predict core membership — structural position
+does.
+:::
+:::
+:::
+
+::: box-highlight
+The core is not where we expected to find it.
+:::
+
+------------------------------------------------------------------------
+
+## H5.2 · Temporal Consolidation
+
+### Five cohorts, one trajectory
 
 ::: columns
 ::: {.column width="55%"}
-**Exploratory finding** (name-heuristic):
+| Cohort                   | Edges | Cross-family share | Cross-country share |
+|--------------------------|------:|-------------------:|--------------------:|
+| Colonial (pre-1800)      | 1,658 |          **17.7%** |                8.6% |
+| Independence (1800–1850) | 1,714 |               9.9% |                4.2% |
+| Oligarchic (1850–1900)   | 1,556 |               6.7% |                3.0% |
+| Republican (1900–1950)   | 2,366 |               5.5% |                4.3% |
+| Modern (1950–2000)       |   868 |           **5.3%** |                4.7% |
 
--   Women: **high degree** in kinship-only graph
--   Women: **lower betweenness** in multiplex graph
-
-**Lavrin (1990):** marriage as alliance
-
-**Bourdieu (1996):** genealogical visibility ≠ institutional brokerage
+::: {style="font-size:0.7em; color:#60748e; margin-top:0.4em;"}
+Cross-family share = proportion of edges linking distinct surname
+clusters. Cross-country share = proportion of edges crossing national
+borders. Modern cohort edge count partially reflects right-censoring.
+:::
 :::
 
 ::: {.column width="45%"}
-::: {style="background:#fff8f0; border:1px solid #f0c080; border-radius:6px; padding:0.6em; font-size:0.68em;"}
-**Argentina top connectors:**
+**Two numbers tell the story**
 
-Agustina Ortiz de Rozas, Agustina López de Osornio, Ana Jacoba García de
-Z., María de los Remedios...
+::: {style="background:#f7f9fc; padding:0.7em 1em; border-radius:6px; margin-top:0.3em;"}
+Cross-family share:
 
-Women = top-degree nodes in kinship graph — but absent from betweenness
-ranking.
+**17.7% → 5.3%**
 
-**The degree–betweenness split:** genealogical connectors vs.
-institutional brokers.
+A **70% decline** across five successive cohorts
+:::
+
+::: {style="font-size:0.85em; margin-top:0.7em;"}
+Meanwhile, total edge volume *rises* from 1,658 (Colonial) to 2,366
+(Republican) before the censored Modern drop-off.
+:::
+
+::: box-primary
+More ties. Fewer lineages.
+:::
+:::
+:::
+
+::: {style="font-size:0.75em; color:#60748e; margin-top:0.6em; text-align:center;"}
+The network does not shrink. It becomes **self-referential**.
+:::
+
+------------------------------------------------------------------------
+
+## H5.2 · Temporal Consolidation
+
+### The signature of oligarchic consolidation
+
+![](image/temporal_consolidation.png){.r-stretch fig-align="center"}
+
+::: {style="font-size:0.5em; color:#60748e; text-align:center; margin-top:0.3em;"}
+Cross-family tie share (y-axis) plotted across five birth-year cohorts.
+Monotonic decline coincides with the nineteenth-century state-building
+period Centeno (2002) identifies as foundational for Latin American
+republics.
+:::
+
+::: columns
+::: {.column width="50%"}
+::: box-primary
+**The empirical signature**
+
+Kinship intensification *substitutes* for fiscal-military
+institution-building
+:::
+:::
+
+::: {.column width="50%"}
+::: {style="background:#fef3e6; border-left:4px solid #b8651a; padding:0.6em 0.9em; border-radius:4px; font-size:0.85em;"}
+**Centeno (2002):** Latin American states did not fight the mass wars
+that forced fiscal-military transformation in Europe.
+
+They produced **"states without wars"** — sustained by elite network
+coordination.
 :::
 :::
 :::
 
 ------------------------------------------------------------------------
 
+## H5.3 · Network Fragility
+
+![](image/attack_simulation.png){.r-stretch fig-align="center"}
+
+## H5.4 · Robust Brokers
+
+![](image/robust_brokers.png){.r-stretch fig-align="center"}
+
 ## Competing Explanations
 
-::: {style="font-size:0.78em;"}
-**① Wikipedia visibility bias** — *Concern:* High degree = celebrity not
-structure. *Response:* Negative Corr(degree, closure) cannot follow from
-visibility alone. Topology variation across countries uses the same
-corpus.
+::: {style="font-size:0.74em; line-height:1.28;"}
+::: columns
+::: {.column width="56%"}
+::: {style="background:#f4f6ff; border-left:4px solid #5431b2; padding:0.55em 0.9em; border-radius:6px; margin-bottom:0.45em; text-align:left;"}
+**1) Visibility bias:** Are central families merely more famous in
+Wikipedia?
+:::
+:::
 
-**② Demographic structure** — *Concern:* Larger countries = denser
-networks. *Response:* Chile (dense star) has half Mexico's population.
-Paraguay's chain = n=21, smallest corpus. Size ≠ topology.
+::: {.column width="44%"}
+:::
+:::
 
-**③ Random network formation** — *Concern:* Patterns indistinguishable
-from random. *Response:* A random graph with Chile's degree sequence
-would not produce a star. Star formation requires preferential
-attachment or founding-lineage mechanism. Future ERGMs can formalize
-this.
+::: columns
+::: {.column width="22%"}
+:::
+
+::: {.column width="78%"}
+::: {style="display:flex; justify-content:flex-end; width:100%; padding-right:0.15em;"}
+::: {style="background:#fdf8f2; border-right:4px solid #b8651a; padding:0.55em 0.85em 0.55em 1.15em; border-radius:6px; margin-bottom:0.45em; text-align:right; max-width: 92%;"}
+**2) Demography:** Do larger countries mechanically generate denser
+graphs?
+:::
+:::
+:::
+:::
+
+::: columns
+::: {.column width="56%"}
+::: {style="background:#f4f6ff; border-left:4px solid #5431b2; padding:0.55em 0.9em; border-radius:6px; margin-bottom:0.45em; text-align:left;"}
+**3) Random formation:** Could observed structures emerge from sparse
+random baselines?
+:::
+:::
+
+::: {.column width="44%"}
+:::
+:::
+
+::: columns
+::: {.column width="22%"}
+:::
+
+::: {.column width="78%"}
+::: {style="display:flex; justify-content:flex-end; width:100%; padding-right:0.15em;"}
+::: {style="background:#fdf8f2; border-right:4px solid #b8651a; padding:0.55em 0.85em 0.55em 1.15em; border-radius:6px; text-align:right; max-width: 92%;"}
+**4) Detection artifact:** Is core–periphery a byproduct of model
+choice?
+:::
+:::
+:::
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Limitations
+
+::: box-primary
+**1) Visibility bias**: Wikipedia disproportionately documents literate,
+urban, politically visible individuals. Indigenous, Afro-descendant, and
+subnational elites are underrepresented.
+:::
+
+::: box-highlight
+**2) Kinship incompleteness**: 42.2% of infobox-declared ties do not
+resolve to a second scraped biography. Per-country matching rates have
+not yet been diagnosed — priority work for next iteration.
+:::
+
+::: box-primary
+**3) Label uncertainty**: `familia_norm` may merge distinct lineages
+(common surname) or split unified ones (orthographic variation across
+borders).
+:::
+
+::: box-highlight
+**4) No causal identification**: Network position measures covary with
+regime characteristics. They do not establish that kinship architecture
+causes political order — only that the two are structurally entangled in
+the documentary record.
 :::
 
 ------------------------------------------------------------------------
@@ -510,94 +542,49 @@ this.
 ## Toward Causal Identification
 
 ::: {style="font-size:0.76em;"}
-**① Cohort analysis** — 92.9% have birth years. Slicing by birth decade
-tests whether closure–reach trade-off intensified during state
-consolidation (1833 Chilean Constitution) and relaxed during
-revolutionary disruptions (1891 Civil War).
+**1) Cohort designs** with birth-year slicing to test historical timing
+of closure and brokerage.
 
-**② War of the Pacific as natural experiment** — 1879–84 exogenous shock
-to Chilean–Peruvian elite relations. DiD design: Treatment = Chile–Peru
-edges pre/post-1879. Control = Argentina–Uruguay (no equivalent shock).
-Test: is biographical-heavy Chile–Peru a post-war documentary artifact?
+**2) Shock-based comparisons** (e.g., War of the Pacific) for structured
+pre/post contrasts.
 
-**③ Geographic constraints as instruments** — Andes create differential
-travel costs. City pairs at similar distances but separated by different
-geographic barriers should show different kinship edge densities —
-partially identifying the corridor effect.
+**3) Spatial constraints** as quasi-instruments for corridor intensity.
 :::
 
 ------------------------------------------------------------------------
 
 ## Broader Implications
 
-::: {style="background:#f0f4ff; border-left:4px solid #5431b2; padding:0.6em 1em; margin-bottom:0.4em; border-radius:4px; font-size:0.74em;"}
+::: box-primary
 **Democracy:** Where closure and institutional concentration coincide,
-democratic accountability faces a structural obstacle. The same families
-occupy political, judicial, educational, and economic positions
-simultaneously. This is not corruption — it is *architecture*.
+accountability faces a structural obstacle.
 :::
 
-::: {style="background:#f0fff4; border-left:4px solid #1a7a4a; padding:0.6em 1em; margin-bottom:0.4em; border-radius:4px; font-size:0.74em;"}
-**Computational Social Science:** Wikipedia genealogical data is an
-underused resource. 57.8% kinship resolution rate + 92.9% birth year
-coverage = large-scale prosopography without archival heroism.
+::: box-primary
+**Computational social science:** Large-scale computational
+prosopography is feasible with public digital traces.
 :::
 
-::: {style="background:#fff8f0; border-left:4px solid #c07030; padding:0.6em 1em; border-radius:4px; font-size:0.74em;"}
-**Digital Archives:** Elite families most densely inscribed in Wikipedia
-are most vulnerable to network-based accountability journalism. Open
-genealogical data may paradoxically reinforce elite salience by making
-visible what previously required archival access.
+::: box-highlight
+**Public archives:** Open genealogical data can increase both
+transparency and elite salience.
 :::
 
 ------------------------------------------------------------------------
 
 ## Summary
 
-::: columns
-::: {.column width="50%"}
-**What we did:**
+...
 
--   Wikipedia kinship scraping, 10 countries
--   Multiplex network: kinship + party + university + succession
--   6,169 individuals · 8,201 matched edges
--   4 hypotheses: closure, topology, corridors, brokerage
+## Package + Future Implications
 
-**Two new concepts:**
+![](image/package-idea.jpg){fig-align="center" width="76%"}
 
--   *Closure–reach trade-off*
--   *Documentary elite field*
+::: {style="font-size:0.7em; color:#60748e; text-align:center;"}
+-   JSON exports for reproducibility and interoperability\
+-   LLM-assisted annotation for exploratory coding support\
+-   Open-access release for teaching and replication
 :::
-
-::: {.column width="50%"}
-**What we found:**
-
--   [x] H1: Degree–closure **negative** everywhere (−0.53 to −0.80)
--   [x] H2: Topology maps onto stylized regime types
--   [x] H3: **Pacific–Andean corridor** dominates
--   [x] H4: Peru + Argentina dominate brokerage
--   ➕ Gender: degree–betweenness split
-
-**Main claim:**
-
-> *Family network structure is not a byproduct of political order in
-> Latin America — it is a constitutive infrastructure of it.*
-:::
-:::
-
-------------------------------------------------------------------------
-
-## Package
-
-![](image/package-idea.jpg){fig-align="center" width="80%"}
-
-------------------------------------------------------------------------
-
-## Future Implications
-
--   JSON pipeline exports for reproducibility and interoperability
--   LLM-assisted annotation for exploratory coding support
--   Open-access dissemination for teaching and replication use
 
 ------------------------------------------------------------------------
 
@@ -612,9 +599,7 @@ visible what previously required archival access.
 
 **Matías Deneken**
 
-*PhD Computational Social Science (Accepted)*
-
-*London School of Economics*
+*Incoming PhD, LSE*
 
 [m.deneken\@uc.cl](mailto:m.deneken@uc.cl){.email-link}
 
