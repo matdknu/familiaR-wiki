@@ -231,19 +231,19 @@ Exploratory faceted layouts by country (Fruchterman–Reingold).
 
 ------------------------------------------------------------------------
 
-## H2: Chilean elite
+## H1: Chilean elite
 
 ![](images/red_familias_chile_animada.gif){fig-align="center"}
 
-## H2: Argentinian elite
+## H1: Argentinian elite
 
 ![](images/red_familias_argentina_animada.gif){fig-align="center"}
 
-## H3: Mexican elite
+## H1: Mexican elite
 
 ![](images/red_familias_mexico_animada.gif){fig-align="center"}
 
-## H3: Transnational Network + Flow Maps
+## H2: Transnational Network + Flow Maps
 
 ::: columns
 ::: {.column width="52%"}
@@ -266,7 +266,7 @@ Flow map pooled across all birth cohorts.
 
 ------------------------------------------------------------------------
 
-## H3: Flow Map (Schematic) + Bipartite Example
+## H2: Flow Map (Schematic) + Bipartite Example
 
 ::: columns
 ::: {.column width="52%"}
@@ -288,7 +288,7 @@ Flow map pooled across all birth cohorts.
 
 ------------------------------------------------------------------------
 
-## H4: Who Are the Brokers?
+## H3: Who Are the Brokers?
 
 ::: columns
 ::: {.column width="56%"}
@@ -317,14 +317,14 @@ Flow map pooled across all birth cohorts.
 
 ------------------------------------------------------------------------
 
-## H4: Centrality vs Closure (Multiplex)
+## H3: Centrality vs Closure (Multiplex)
 
 ![](image/h4_centrality_vs_family_closure.png){.r-stretch
 fig-align="center"}
 
 ------------------------------------------------------------------------
 
-## H5.1 SBM — The Hidden Core
+## H4 SBM — The Hidden Core
 
 ::: columns
 ::: {.column width="50%"}
@@ -359,7 +359,7 @@ The core is not where we expected to find it.
 
 ------------------------------------------------------------------------
 
-## H5.2 · Temporal Consolidation
+## H4 · Temporal Consolidation
 
 ### Five cohorts, one trajectory
 
@@ -408,7 +408,7 @@ The network does not shrink. It becomes **self-referential**.
 
 ------------------------------------------------------------------------
 
-## H5.2 · Temporal Consolidation
+## H4 · Temporal Consolidation
 
 ### The signature of oligarchic consolidation
 
@@ -444,71 +444,13 @@ coordination.
 
 ------------------------------------------------------------------------
 
-## H5.3 · Network Fragility
+## H4 · Network Fragility
 
 ![](image/attack_simulation.png){.r-stretch fig-align="center"}
 
-## H5.4 · Robust Brokers
+## H4 · Robust Brokers
 
 ![](image/robust_brokers.png){.r-stretch fig-align="center"}
-
-## Competing Explanations
-
-::: {style="font-size:0.74em; line-height:1.28;"}
-::: columns
-::: {.column width="56%"}
-::: {style="background:#f4f6ff; border-left:4px solid #5431b2; padding:0.55em 0.9em; border-radius:6px; margin-bottom:0.45em; text-align:left;"}
-**1) Visibility bias:** Are central families merely more famous in
-Wikipedia?
-:::
-:::
-
-::: {.column width="44%"}
-:::
-:::
-
-::: columns
-::: {.column width="22%"}
-:::
-
-::: {.column width="78%"}
-::: {style="display:flex; justify-content:flex-end; width:100%; padding-right:0.15em;"}
-::: {style="background:#fdf8f2; border-right:4px solid #b8651a; padding:0.55em 0.85em 0.55em 1.15em; border-radius:6px; margin-bottom:0.45em; text-align:right; max-width: 92%;"}
-**2) Demography:** Do larger countries mechanically generate denser
-graphs?
-:::
-:::
-:::
-:::
-
-::: columns
-::: {.column width="56%"}
-::: {style="background:#f4f6ff; border-left:4px solid #5431b2; padding:0.55em 0.9em; border-radius:6px; margin-bottom:0.45em; text-align:left;"}
-**3) Random formation:** Could observed structures emerge from sparse
-random baselines?
-:::
-:::
-
-::: {.column width="44%"}
-:::
-:::
-
-::: columns
-::: {.column width="22%"}
-:::
-
-::: {.column width="78%"}
-::: {style="display:flex; justify-content:flex-end; width:100%; padding-right:0.15em;"}
-::: {style="background:#fdf8f2; border-right:4px solid #b8651a; padding:0.55em 0.85em 0.55em 1.15em; border-radius:6px; text-align:right; max-width: 92%;"}
-**4) Detection artifact:** Is core–periphery a byproduct of model
-choice?
-:::
-:::
-:::
-:::
-:::
-
-------------------------------------------------------------------------
 
 ## Limitations
 
