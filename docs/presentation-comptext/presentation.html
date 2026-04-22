@@ -913,6 +913,160 @@ ARG · BOL · CHL · COL · ECU · MEX · PRY · PER · URY · VEN</p>
 <p><strong>3) Spatial constraints</strong> as quasi-instruments for corridor intensity.</p>
 </div>
 </section>
+<section id="causal-results-did-and-event-study" class="slide level2">
+<h2>Causal Results: DiD and Event Study</h2>
+<p>We estimate the effect of major political shocks on elite composition using a difference-in-differences design with family and year fixed effects. We leverage three historical ruptures—the Mexican Revolution (1910), the Chilean coup (1973), and the Argentine coup (1976)—as quasi-exogenous breaks to identify how regime change reshapes intra-elite dynamics.</p>
+
+<img data-src="images/mexica-revolution.jpg" class="quarto-figure quarto-figure-center r-stretch" width="414"></section>
+<section id="causal-results-did-and-event-study-1" class="slide level2">
+<h2>Causal Results: DiD and Event Study</h2>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 5%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 6%">
+<col style="width: 46%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">term</th>
+<th style="text-align: right;">estimate</th>
+<th style="text-align: right;">std.error</th>
+<th style="text-align: right;">statistic</th>
+<th style="text-align: right;">p.value</th>
+<th style="text-align: right;">conf.low</th>
+<th style="text-align: right;">conf.high</th>
+<th style="text-align: left;">interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">post_shock</td>
+<td style="text-align: right;">0.0154</td>
+<td style="text-align: right;">0.0081</td>
+<td style="text-align: right;">1.8940</td>
+<td style="text-align: right;">0.0694</td>
+<td style="text-align: right;">-0.0013</td>
+<td style="text-align: right;">0.0321</td>
+<td style="text-align: left;">Post-shock effect for market-beneficiary baseline</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">post_shock:treated_state</td>
+<td style="text-align: right;">-0.0690</td>
+<td style="text-align: right;">0.0106</td>
+<td style="text-align: right;">-6.5148</td>
+<td style="text-align: right;">0.0000</td>
+<td style="text-align: right;">-0.0907</td>
+<td style="text-align: right;">-0.0472</td>
+<td style="text-align: left;">Additional post-shock effect for state-dependent vs market-beneficiary</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>Table 1 shows a significant negative effect of shocks on state-dependent elites (β ≈ -0.069, p &lt; 0.001), indicating a decline in their relative participation compared to market-oriented elites. The baseline post-shock effect is small and only marginally significant, suggesting that shocks do not substantially alter the overall size of the elite.</p>
+</section>
+<section id="figure-1-event-study" class="slide level2">
+<h2>Figure 1 — Event Study</h2>
+
+<img data-src="images/figure_1_event_study.png" class="r-stretch quarto-figure quarto-figure-center"><p>Figure 1 presents event study estimates. Pre-treatment coefficients remain close to zero, supporting the parallel trends assumption. After the shock, estimates turn negative and remain persistently below zero, indicating a sustained decline in the position of state-linked elites.</p>
+</section>
+<section id="table-2-country-heterogeneity" class="slide level2">
+<h2>Table 2 — Country Heterogeneity</h2>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 27%">
+<col style="width: 9%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 8%">
+<col style="width: 9%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">country</th>
+<th style="text-align: left;">term</th>
+<th style="text-align: right;">estimate</th>
+<th style="text-align: right;">std.error</th>
+<th style="text-align: right;">statistic</th>
+<th style="text-align: right;">p.value</th>
+<th style="text-align: right;">conf.low</th>
+<th style="text-align: right;">conf.high</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Argentina</td>
+<td style="text-align: left;">post_shock</td>
+<td style="text-align: right;">0.0329</td>
+<td style="text-align: right;">0.0212</td>
+<td style="text-align: right;">1.5539</td>
+<td style="text-align: right;">0.1588</td>
+<td style="text-align: right;">-0.0159</td>
+<td style="text-align: right;">0.0818</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Argentina</td>
+<td style="text-align: left;">post_shock:treated_state</td>
+<td style="text-align: right;">-0.1009</td>
+<td style="text-align: right;">0.0190</td>
+<td style="text-align: right;">-5.3133</td>
+<td style="text-align: right;">0.0007</td>
+<td style="text-align: right;">-0.1447</td>
+<td style="text-align: right;">-0.0571</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Chile</td>
+<td style="text-align: left;">post_shock:treated_state</td>
+<td style="text-align: right;">-0.0275</td>
+<td style="text-align: right;">0.0105</td>
+<td style="text-align: right;">-2.6331</td>
+<td style="text-align: right;">0.0272</td>
+<td style="text-align: right;">-0.0512</td>
+<td style="text-align: right;">-0.0039</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Mexico</td>
+<td style="text-align: left;">post_shock</td>
+<td style="text-align: right;">0.0259</td>
+<td style="text-align: right;">0.0116</td>
+<td style="text-align: right;">2.2403</td>
+<td style="text-align: right;">0.0601</td>
+<td style="text-align: right;">-0.0014</td>
+<td style="text-align: right;">0.0532</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Mexico</td>
+<td style="text-align: left;">post_shock:treated_state</td>
+<td style="text-align: right;">-0.1432</td>
+<td style="text-align: right;">0.0157</td>
+<td style="text-align: right;">-9.1306</td>
+<td style="text-align: right;">0.0000</td>
+<td style="text-align: right;">-0.1803</td>
+<td style="text-align: right;">-0.1061</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>Table 2 reveals strong cross-national heterogeneity. The decline is largest in Mexico (β ≈ -0.143), followed by Argentina (β ≈ -0.101), and substantially smaller in Chile (β ≈ -0.028). This pattern is consistent with distinct regime dynamics: rupture in Mexico, recomposition in Argentina, and continuity in Chile.</p>
+</section>
+<section id="figure-2-probabilities" class="slide level2">
+<h2>Figure 2 — Probabilities</h2>
+
+<img data-src="images/figure_2_probabilities.png" class="r-stretch quarto-figure quarto-figure-center"><p>Figure 2 complements these findings by showing changes in the probability of elite persistence. Across countries, state-dependent elites exhibit a systematic decline after shocks, while market-oriented actors maintain or increase their relative position.</p>
+<p>Taken together, the results indicate that political shocks do not eliminate elites but rather reorganize their internal composition, with heterogeneous effects across national contexts.</p>
+</section>
 <section id="broader-implications" class="slide level2">
 <h2>Broader Implications</h2>
 <div class="box-primary">
@@ -1169,6 +1323,44 @@ ARG · BOL · CHL · COL · ECU · MEX · PRY · PER · URY · VEN</p>
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

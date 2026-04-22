@@ -146,7 +146,7 @@ not merely a nuisance.
 ## Five Hypotheses
 
 |        | Hypothesis                                        | Mechanism                                                     |
-|------------------|-------------------------|-----------------------------|
+|--------------|--------------------------|--------------------------------|
 | **H1** | Family closure ↔ political concentration          | Marriage market as political institution                      |
 | **H2** | Network topology ↔ regime type                    | Chain = patrimonial; Star = founding lineage; Web = oligarchy |
 | **H3** | Transnational ties follow Pacific–Andean corridor | Colonial administrative geography                             |
@@ -448,7 +448,7 @@ coordination.
 
 ![](images/elite_latam_red_gradual-01.gif){fig-align="center"}
 
-## H4 · Network changing: Education 
+## H4 · Network changing: Education
 
 ![](images/03_circuit_shares_over_time-01.png){fig-align="center"}
 
@@ -496,6 +496,79 @@ pre/post contrasts.
 
 **3) Spatial constraints** as quasi-instruments for corridor intensity.
 :::
+
+------------------------------------------------------------------------
+
+## Causal Results: DiD and Event Study
+
+We estimate the effect of major political shocks on elite composition
+using a difference-in-differences design with family and year fixed
+effects. We leverage three historical ruptures—the Mexican Revolution
+(1910), the Chilean coup (1973), and the Argentine coup (1976)—as
+quasi-exogenous breaks to identify how regime change reshapes
+intra-elite dynamics.
+
+![](images/mexica-revolution.jpg){fig-align="center" width="414"}
+
+## Causal Results: DiD and Event Study
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+did_tbl <- readr::read_csv("tables/table_1_did_main.csv", show_col_types = FALSE)
+knitr::kable(did_tbl, digits = 4)
+```
+
+Table 1 shows a significant negative effect of shocks on state-dependent
+elites (β ≈ -0.069, p \< 0.001), indicating a decline in their relative
+participation compared to market-oriented elites. The baseline
+post-shock effect is small and only marginally significant, suggesting
+that shocks do not substantially alter the overall size of the elite.
+
+------------------------------------------------------------------------
+
+## Figure 1 — Event Study
+
+![](images/figure_1_event_study.png){.r-stretch fig-align="center"}
+
+Figure 1 presents event study estimates. Pre-treatment coefficients
+remain close to zero, supporting the parallel trends assumption. After
+the shock, estimates turn negative and remain persistently below zero,
+indicating a sustained decline in the position of state-linked elites.
+
+------------------------------------------------------------------------
+
+## Table 2 — Country Heterogeneity
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+het_tbl <- readr::read_csv("tables/table_2_country_heterogeneity.csv", show_col_types = FALSE)
+knitr::kable(het_tbl, digits = 4)
+```
+
+Table 2 reveals strong cross-national heterogeneity. The decline is
+largest in Mexico (β ≈ -0.143), followed by Argentina (β ≈ -0.101), and
+substantially smaller in Chile (β ≈ -0.028). This pattern is consistent
+with distinct regime dynamics: rupture in Mexico, recomposition in
+Argentina, and continuity in Chile.
+
+------------------------------------------------------------------------
+
+## Figure 2 — Probabilities
+
+![](images/figure_2_probabilities.png){.r-stretch fig-align="center"}
+
+Figure 2 complements these findings by showing changes in the
+probability of elite persistence. Across countries, state-dependent
+elites exhibit a systematic decline after shocks, while market-oriented
+actors maintain or increase their relative position.
+
+Taken together, the results indicate that political shocks do not
+eliminate elites but rather reorganize their internal composition, with
+heterogeneous effects across national contexts.
 
 ------------------------------------------------------------------------
 

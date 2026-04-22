@@ -1,0 +1,6 @@
+country,term,estimate,std.error,statistic,p.value,conf.low,conf.high
+Argentina,post_shock,0.0329,0.0212,1.5539,0.1588,-0.0159,0.0818
+Argentina,post_shock:treated_state,-0.1009,0.019,-5.3133,7e-4,-0.1447,-0.0571
+Chile,post_shock:treated_state,-0.0275,0.0105,-2.6331,0.0272,-0.0512,-0.0039
+Mexico,post_shock,0.0259,0.0116,2.2403,0.0601,-0.0014,0.0532
+Mexico,post_shock:treated_state,-0.1432,0.0157,-9.1306,0,-0.1803,-0.1061

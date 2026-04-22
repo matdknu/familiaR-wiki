@@ -1,0 +1,3 @@
+term,estimate,std.error,statistic,p.value,conf.low,conf.high,interpretation
+post_shock,0.0154,0.0081,1.894,0.0694,-0.0013,0.0321,Post-shock effect for market-beneficiary baseline
+post_shock:treated_state,-0.069,0.0106,-6.5148,0,-0.0907,-0.0472,Additional post-shock effect for state-dependent vs market-beneficiary
