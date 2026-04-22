@@ -72,38 +72,38 @@ order is reproduced. By comparing these structures across countries, we
 show how different configurations of elite networks are associated with
 distinct political trajectories in the region.
 
-------------------------------------------------------------------------
+## Theoretical Framework
 
-## Surnames as Elite Markers?
+::: box-primary
+**Historical baseline**
 
-::: columns
-::: {.column width="56%"}
-**The sociological claim:** Surnames function as social capital
-certificates — encoding lineage, alliances, and institutional access
-across generations.
-
--   **Balmori, Voss & Wortman (1984):** *familias notables* as unit of
-    analysis
--   **Bourdieu (1996):** social reproduction through symbolic capital
--   **Centeno (2002):** elite networks and state formation
+Research on Latin America has long emphasized the role of notable
+families in linking economic resources, marriage strategies, and access
+to political power. Classic work shows that elites reproduce themselves
+not only through institutions, but through kinship networks that
+structure opportunities across generations.
 :::
 
-::: {.column width="44%"}
-**The computational opportunity**
+::: box-primary
+**Social reproduction and elite closure**
 
-Wikipedia infoboxes encode kinship at scale:
-
--   **6,711** individuals
--   **8,201** matched kinship edges
--   **10** republics, one pipeline
-
-::: {style="margin-top:0.8em; font-size:0.72em; color:#666;"}
-*A documentary elite field — not the social elite itself.*
-:::
-:::
+This connects to broader debates on social reproduction and elite
+closure. Drawing on Bourdieu, elites can maintain their position by
+converting economic capital into social ties and institutional access,
+often through endogamy or strategic alliances.
 :::
 
-------------------------------------------------------------------------
+::: box-highlight
+**Network perspective and comparative interpretation**
+
+Network theory highlights a tension between closure and reach: while
+some families consolidate power through dense internal ties, others
+expand influence by bridging across groups. At a larger scale, network
+structures—such as dense cores, fragmented clusters, or brokerage
+positions—can reflect distinct modes of political organization. Rather
+than treating these as deterministic patterns, we use them as
+interpretive tools to understand variation across countries.
+:::
 
 ## Data & Pipeline
 
@@ -139,39 +139,33 @@ ARG · BOL · CHL · COL · ECU · MEX · PRY · PER · URY · VEN
 :::
 :::
 
-------------------------------------------------------------------------
+## Data & Pipeline
 
-## Theoretical Framework
+::: columns
+::: {.column width="56%"}
+**The sociological claim:** Surnames function as social capital
+certificates — encoding lineage, alliances, and institutional access
+across generations.
 
-::: box-primary
-**Historical baseline**
-
-Research on Latin America has long emphasized the role of notable
-families in linking economic resources, marriage strategies, and access
-to political power. Classic work shows that elites reproduce themselves
-not only through institutions, but through kinship networks that
-structure opportunities across generations.
+-   **Balmori, Voss & Wortman (1984):** *familias notables* as unit of
+    analysis
+-   **Bourdieu (1996):** social reproduction through symbolic capital
+-   **Centeno (2002):** elite networks and state formation
 :::
 
-::: box-primary
-**Social reproduction and elite closure**
+::: {.column width="44%"}
+**The computational opportunity**
 
-This connects to broader debates on social reproduction and elite
-closure. Drawing on Bourdieu, elites can maintain their position by
-converting economic capital into social ties and institutional access,
-often through endogamy or strategic alliances.
+Wikipedia infoboxes encode kinship at scale:
+
+-   **6,711** individuals
+-   **8,201** matched kinship edges
+-   **10** republics, one pipeline
+
+::: {style="margin-top:0.8em; font-size:0.72em; color:#666;"}
+*A documentary elite field — not the social elite itself.*
 :::
-
-::: box-highlight
-**Network perspective and comparative interpretation**
-
-Network theory highlights a tension between closure and reach: while
-some families consolidate power through dense internal ties, others
-expand influence by bridging across groups. At a larger scale, network
-structures—such as dense cores, fragmented clusters, or brokerage
-positions—can reflect distinct modes of political organization. Rather
-than treating these as deterministic patterns, we use them as
-interpretive tools to understand variation across countries.
+:::
 :::
 
 ------------------------------------------------------------------------
@@ -180,7 +174,7 @@ interpretive tools to understand variation across countries.
 
 ![](image/pizarro.png){fig-align="center" width="78%"}
 
-------------------------------------------------------------------------
+# Results
 
 ## Initial findings
 
@@ -521,9 +515,24 @@ the documentary record.
 
 ------------------------------------------------------------------------
 
-## Summary
+## Key Takeaways for Computational Text Research
 
-...
+-   **Web scraping as data infrastructure**: Public platforms like
+    Wikipedia enable large-scale prosopography, but require careful
+    handling of bias, coverage, and normalization.
+-   **String methods still matter**: Regular expressions, rule-based
+    parsing, and name disambiguation remain essential for extracting
+    relational data from messy text.
+-   **From text to networks**: The key contribution is not only
+    extracting entities, but transforming text into relational
+    structures (graphs) that allow new types of inference.
+-   **LLMs as next step**: Large Language Models can improve extraction,
+    resolve ambiguities, and identify implicit relationships (e.g.,
+    kinship not explicitly tagged), expanding recall beyond rule-based
+    methods.
+-   **New research agenda**: Combining web-scraped corpora, network
+    analysis, and LLM-assisted annotation opens a path toward scalable,
+    comparative historical sociology.
 
 ## Package + Future Implications
 
