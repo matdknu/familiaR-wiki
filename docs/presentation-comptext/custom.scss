@@ -36,7 +36,9 @@
   color: #4b5d73;
 }
 
-.reveal .slides table {
+/* Wide tables: horizontal scroll. Skip #hypotheses-overview — needs wrapped
+   multi-line cells (see comptext-theme.css .hypotheses-overview-wrap). */
+.reveal .slides section:not(#hypotheses-overview) table {
   font-size: 0.62em;
   line-height: 1.2;
   display: block;

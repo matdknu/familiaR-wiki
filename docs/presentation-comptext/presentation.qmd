@@ -61,7 +61,7 @@ America — and can we measure this at scale?
 :::
 
 ::: question-sub
-A computational-text analysis of a collectively authored biographical
+A computational text analysis of a collectively authored biographical
 archive (Spanish-language Wikipedia).
 :::
 :::
@@ -107,12 +107,13 @@ interpretive tools to understand variation across countries.
 
 ## Data & Pipeline
 
-::: columns
-::: {.column width="52%"}
-**Source**
+::: data-pipeline-slide
+:::: {.columns}
+::: {.column width="50%"}
+#### Pipeline
 
-Spanish-language Wikipedia (`es.wikipedia.org`) as a collectively
-authored biographical archive.
+**Source.** Spanish-language Wikipedia (`es.wikipedia.org`) as a
+collectively authored biographical archive.
 
 **Extraction targets**
 
@@ -120,13 +121,11 @@ authored biographical archive.
 -   Institutional: `partido_politico`, `educacion`
 -   Succession: `predecesor`, `sucesor`
 
-**Entity resolution**
-
-Internal hyperlinks — not string matching — resolve mentioned relatives
-to scraped biographies.
+**Entity resolution.** Internal hyperlinks — not string matching —
+link mentioned relatives to the corresponding scraped biographies.
 :::
 
-::: {.column width="48%"}
+::: {.column width="50%"}
 ::: box-primary
 **Corpus (10 republics)**\
 ARG · BOL · CHL · COL · ECU · MEX · PRY · PER · URY · VEN
@@ -137,42 +136,46 @@ ARG · BOL · CHL · COL · ECU · MEX · PRY · PER · URY · VEN
 **743** families (SBM unit of analysis)
 :::
 :::
-:::
+::::
 
-## Data & Pipeline
-
-::: columns
+:::: {.columns .data-pipeline-bottom}
 ::: {.column width="56%"}
-**The sociological claim:** Surnames function as social capital
-certificates — encoding lineage, alliances, and institutional access
-across generations.
+#### Sociological grounding
 
--   **Balmori, Voss & Wortman (1984):** *familias notables* as unit of
+**The claim:** Surnames function as social capital certificates —
+encoding lineage, alliances, and institutional access across
+generations.
+
+-   **Balmori, Voss & Wortman (1984):** *familias notables* as a unit of
     analysis
 -   **Bourdieu (1996):** social reproduction through symbolic capital
 -   **Centeno (2002):** elite networks and state formation
 :::
 
-::: {.column width="44%"}
-**The computational opportunity**
+::::
 
-Wikipedia infoboxes encode kinship at scale:
-
--   **6,711** individuals
--   **8,201** matched kinship edges
--   **10** republics, one pipeline
-
-::: {style="margin-top:0.8em; font-size:0.72em; color:#666;"}
-*A documentary elite field — not the social elite itself.*
-:::
-:::
 :::
 
 ------------------------------------------------------------------------
 
 ## Wikipedia: Data source
 
+![](image/familias.jpg){fig-align="center" width="78%"}
+
+
+## Wikipedia: Data source
+
 ![](image/pizarro.png){fig-align="center" width="78%"}
+
+## Hypotheses — overview
+
+::: hypotheses-overview-wrap
+| **Hyp.** | Core claim                                                                    | Mechanism                                                                |
+|--------------|------------------------------|----------------------------|
+| **H1**   | Elite persistence is **mediated by social closure** (endogamy).               | Marriage market as a **defensive buffer** against political turnover.    |
+| **H2**   | Elite survival depends on **multidimensional interconnectivity**.             | **Endogamy + transnational ties** jointly buffer shocks.                 |
+| **H3**   | Networks shift from **expansive alliances** to **self-referential clusters**. | Intensive kinship substitutes for **weak state institutions** over time. |
+:::
 
 # Results
 
@@ -183,6 +186,15 @@ fig-align="center"}
 
 ::: {style="font-size:0.62em; color:#60748e; text-align:center;"}
 Birth-year distributions by country (kernel density ridges).
+
+Birth Year Distribution: Continuity vs. Rupture
+
+Elite Persistence (Chile & Mexico): Note the "long-tail" distribution
+starting in the 1500s. This reflects a path-dependent continuity where
+colonial-era lineages remained visible in the power structure for
+centuries. **Modern Concentration:** The significant "bulk" in the 20th
+century across all cases highlights the shift toward modern civil
+registration and the expansion of the professionalized political class.
 :::
 
 ------------------------------------------------------------------------
@@ -231,7 +243,7 @@ Exploratory faceted layouts by country (Fruchterman–Reingold).
 
 ![](images/red_familias_chile_animada.gif){fig-align="center"}
 
-## H1: Argentinian elite
+## H1: Argentine elite
 
 ![](images/red_familias_argentina_animada.gif){fig-align="center"}
 
@@ -239,32 +251,18 @@ Exploratory faceted layouts by country (Fruchterman–Reingold).
 
 ![](images/red_familias_mexico_animada.gif){fig-align="center"}
 
-# H2: Transational elites
+## H2: Transnational Network
 
-## H2: Transnational Network + Flow Maps
-
-::: columns
-::: {.column width="52%"}
 ![](image/exploracion_union_entre_paises.png){fig-align="center"
 width="100%"}
 
-::: {style="font-size:0.5em; color:#60748e; text-align:center;"}
-Cross-border ties in the pooled transnational network.
-:::
-:::
+## H2: Transnational Network
 
-::: {.column width="48%"}
 ![](images/transnacional_familias_red_bipartita.png){fig-align="center"}
-
-::: {style="font-size:0.5em; color:#60748e; text-align:center;"}
-Flow map pooled across all birth cohorts.
-:::
-:::
-:::
 
 ------------------------------------------------------------------------
 
-## H2: Flow Map (Schematic) + Bipartite Example
+## H2: Flow Map
 
 ::: columns
 ::: {.column width="52%"}
@@ -284,7 +282,6 @@ Flow map pooled across all birth cohorts.
 :::
 :::
 
-------------------------------------------------------------------------
 
 # H3: Changes
 
@@ -346,7 +343,7 @@ The network does not shrink. It becomes **self-referential**.
 ::: {style="font-size:0.5em; color:#60748e; text-align:center; margin-top:0.3em;"}
 Cross-family tie share (y-axis) plotted across five birth-year cohorts.
 Monotonic decline coincides with the nineteenth-century state-building
-period Centeno (2002) identifies as foundational for Latin American
+period that Centeno (2002) identifies as foundational for Latin American
 republics.
 :::
 
@@ -356,7 +353,7 @@ republics.
 **The empirical signature**
 
 Kinship intensification *substitutes* for fiscal-military
-institution-building
+institution-building.
 :::
 :::
 
@@ -373,11 +370,11 @@ coordination.
 
 ------------------------------------------------------------------------
 
-## H3 · Network changing
+## H3 · Network change
 
 ![](images/elite_latam_red_gradual-01.gif){fig-align="center"}
 
-## H3 · Network changing: Education
+## H3 · Network change: Education
 
 ![](images/03_circuit_shares_over_time-01.png){fig-align="center"}
 
@@ -402,7 +399,7 @@ effects. We leverage three historical ruptures—the Mexican Revolution
 quasi-exogenous breaks to identify how regime change reshapes
 intra-elite dynamics.
 
-![](images/mexica-revolution.jpg){fig-align="center" width="414"}
+![](images/mexican-revolution.jpg){fig-align="center" width="414"}
 
 ## Causal Results: DiD and Event Study
 
@@ -412,7 +409,7 @@ their relative participation compared to market-oriented elites.
 
 The baseline post-shock effect is small and only marginally significant,
 suggesting that shocks do not substantially alter the overall size of
-the elite
+the elite.
 
 ```{r}
 #| echo: false
@@ -557,7 +554,7 @@ the documentary record.
 
 **Matías Deneken**
 
-*Incoming PhD, LSE*
+*Methodolab*
 
 [m.deneken\@uc.cl](mailto:m.deneken@uc.cl){.email-link}
 

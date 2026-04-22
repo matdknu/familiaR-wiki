@@ -367,7 +367,7 @@ Email: <a href="mailto:m.deneken@uc.cl">m.deneken@uc.cl</a></p>
 <p>Do elite family networks structure political power reproduction in Latin America — and can we measure this at scale?</p>
 </div>
 <div class="question-sub">
-<p>A computational-text analysis of a collectively authored biographical archive (Spanish-language Wikipedia).</p>
+<p>A computational text analysis of a collectively authored biographical archive (Spanish-language Wikipedia).</p>
 </div>
 </div>
 <p>The key argument is that family networks are not just a reflection of political order—they are part of the infrastructure through which that order is reproduced. By comparing these structures across countries, we show how different configurations of elite networks are associated with distinct political trajectories in the region.</p>
@@ -389,19 +389,19 @@ Email: <a href="mailto:m.deneken@uc.cl">m.deneken@uc.cl</a></p>
 </section>
 <section id="data-pipeline" class="slide level2">
 <h2>Data &amp; Pipeline</h2>
+<div class="data-pipeline-slide">
 <div class="columns">
-<div class="column" style="width:52%;">
-<p><strong>Source</strong></p>
-<p>Spanish-language Wikipedia (<code>es.wikipedia.org</code>) as a collectively authored biographical archive.</p>
+<div class="column" style="width:50%;">
+<h4 id="pipeline">Pipeline</h4>
+<p><strong>Source.</strong> Spanish-language Wikipedia (<code>es.wikipedia.org</code>) as a collectively authored biographical archive.</p>
 <p><strong>Extraction targets</strong></p>
 <ul>
 <li>Kinship: <code>conyuge</code>, <code>pareja</code>, <code>padres</code>, <code>hijos</code>, <code>hermanos</code></li>
 <li>Institutional: <code>partido_politico</code>, <code>educacion</code></li>
 <li>Succession: <code>predecesor</code>, <code>sucesor</code></li>
 </ul>
-<p><strong>Entity resolution</strong></p>
-<p>Internal hyperlinks — not string matching — resolve mentioned relatives to scraped biographies.</p>
-</div><div class="column" style="width:48%;">
+<p><strong>Entity resolution.</strong> Internal hyperlinks — not string matching — link mentioned relatives to the corresponding scraped biographies.</p>
+</div><div class="column" style="width:50%;">
 <div class="box-primary">
 <p><strong>Corpus (10 republics)</strong><br>
 ARG · BOL · CHL · COL · ECU · MEX · PRY · PER · URY · VEN</p>
@@ -411,34 +411,62 @@ ARG · BOL · CHL · COL · ECU · MEX · PRY · PER · URY · VEN</p>
 <strong>743</strong> families (SBM unit of analysis)</p>
 </div>
 </div></div>
-</section>
-<section id="data-pipeline-1" class="slide level2">
-<h2>Data &amp; Pipeline</h2>
-<div class="columns">
+<div class="columns data-pipeline-bottom">
 <div class="column" style="width:56%;">
-<p><strong>The sociological claim:</strong> Surnames function as social capital certificates — encoding lineage, alliances, and institutional access across generations.</p>
+<h4 id="sociological-grounding">Sociological grounding</h4>
+<p><strong>The claim:</strong> Surnames function as social capital certificates — encoding lineage, alliances, and institutional access across generations.</p>
 <ul>
-<li><strong>Balmori, Voss &amp; Wortman (1984):</strong> <em>familias notables</em> as unit of analysis</li>
+<li><strong>Balmori, Voss &amp; Wortman (1984):</strong> <em>familias notables</em> as a unit of analysis</li>
 <li><strong>Bourdieu (1996):</strong> social reproduction through symbolic capital</li>
 <li><strong>Centeno (2002):</strong> elite networks and state formation</li>
 </ul>
-</div><div class="column" style="width:44%;">
-<p><strong>The computational opportunity</strong></p>
-<p>Wikipedia infoboxes encode kinship at scale:</p>
-<ul>
-<li><strong>6,711</strong> individuals</li>
-<li><strong>8,201</strong> matched kinship edges</li>
-<li><strong>10</strong> republics, one pipeline</li>
-</ul>
-<div style="margin-top:0.8em; font-size:0.72em; color:#666;">
-<p><em>A documentary elite field — not the social elite itself.</em></p>
-</div>
 </div></div>
+</div>
 </section>
 <section id="wikipedia-data-source" class="slide level2">
 <h2>Wikipedia: Data source</h2>
 
+<img data-src="image/familias.jpg" class="quarto-figure quarto-figure-center r-stretch" style="width:78.0%"></section>
+<section id="wikipedia-data-source-1" class="slide level2">
+<h2>Wikipedia: Data source</h2>
+
 <img data-src="image/pizarro.png" class="quarto-figure quarto-figure-center r-stretch" style="width:78.0%"></section>
+<section id="hypotheses-overview" class="slide level2">
+<h2>Hypotheses — overview</h2>
+<div class="hypotheses-overview-wrap">
+<table class="caption-top">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 41%">
+<col style="width: 38%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Hyp.</strong></th>
+<th>Core claim</th>
+<th>Mechanism</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>H1</strong></td>
+<td>Elite persistence is <strong>mediated by social closure</strong> (endogamy).</td>
+<td>Marriage market as a <strong>defensive buffer</strong> against political turnover.</td>
+</tr>
+<tr class="even">
+<td><strong>H2</strong></td>
+<td>Elite survival depends on <strong>multidimensional interconnectivity</strong>.</td>
+<td><strong>Endogamy + transnational ties</strong> jointly buffer shocks.</td>
+</tr>
+<tr class="odd">
+<td><strong>H3</strong></td>
+<td>Networks shift from <strong>expansive alliances</strong> to <strong>self-referential clusters</strong>.</td>
+<td>Intensive kinship substitutes for <strong>weak state institutions</strong> over time.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
 <section>
 <section id="results" class="title-slide slide level1 center">
 <h1>Results</h1>
@@ -449,6 +477,8 @@ ARG · BOL · CHL · COL · ECU · MEX · PRY · PER · URY · VEN</p>
 
 <img data-src="images/dinastias_temporal_por_pais-01.png" class="r-stretch quarto-figure quarto-figure-center"><div style="font-size:0.62em; color:#60748e; text-align:center;">
 <p>Birth-year distributions by country (kernel density ridges).</p>
+<p>Birth Year Distribution: Continuity vs.&nbsp;Rupture</p>
+<p>Elite Persistence (Chile &amp; Mexico): Note the “long-tail” distribution starting in the 1500s. This reflects a path-dependent continuity where colonial-era lineages remained visible in the power structure for centuries. <strong>Modern Concentration:</strong> The significant “bulk” in the 20th century across all cases highlights the shift toward modern civil registration and the expansion of the professionalized political class.</p>
 </div>
 </section>
 <section id="h1-endogamy-rates-by-country" class="slide level2">
@@ -548,44 +578,24 @@ ARG · BOL · CHL · COL · ECU · MEX · PRY · PER · URY · VEN</p>
 <h2>H1: Chilean elite</h2>
 
 <img data-src="images/red_familias_chile_animada.gif" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="h1-argentinian-elite" class="slide level2">
-<h2>H1: Argentinian elite</h2>
+<section id="h1-argentine-elite" class="slide level2">
+<h2>H1: Argentine elite</h2>
 
 <img data-src="images/red_familias_argentina_animada.gif" class="quarto-figure quarto-figure-center r-stretch"></section>
 <section id="h1-mexican-elite" class="slide level2">
 <h2>H1: Mexican elite</h2>
 
-<img data-src="images/red_familias_mexico_animada.gif" class="quarto-figure quarto-figure-center r-stretch"></section></section>
-<section>
-<section id="h2-transational-elites" class="title-slide slide level1 center">
-<h1>H2: Transational elites</h1>
+<img data-src="images/red_familias_mexico_animada.gif" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="h2-transnational-network" class="slide level2">
+<h2>H2: Transnational Network</h2>
 
-</section>
-<section id="h2-transnational-network-flow-maps" class="slide level2">
-<h2>H2: Transnational Network + Flow Maps</h2>
-<div class="columns">
-<div class="column" style="width:52%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="image/exploracion_union_entre_paises.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
-</figure>
-</div>
-<div style="font-size:0.5em; color:#60748e; text-align:center;">
-<p>Cross-border ties in the pooled transnational network.</p>
-</div>
-</div><div class="column" style="width:48%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/transnacional_familias_red_bipartita.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-<div style="font-size:0.5em; color:#60748e; text-align:center;">
-<p>Flow map pooled across all birth cohorts.</p>
-</div>
-</div></div>
-</section>
-<section id="h2-flow-map-schematic-bipartite-example" class="slide level2">
-<h2>H2: Flow Map (Schematic) + Bipartite Example</h2>
+<img data-src="image/exploracion_union_entre_paises.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section>
+<section id="h2-transnational-network-1" class="slide level2">
+<h2>H2: Transnational Network</h2>
+
+<img data-src="images/transnacional_familias_red_bipartita.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="h2-flow-map" class="slide level2">
+<h2>H2: Flow Map</h2>
 <div class="columns">
 <div class="column" style="width:52%;">
 <div class="quarto-figure quarto-figure-center">
@@ -606,9 +616,6 @@ ARG · BOL · CHL · COL · ECU · MEX · PRY · PER · URY · VEN</p>
 <p>Flow map pooled across all birth cohorts.</p>
 </div>
 </div></div>
-</section>
-<section class="slide level2">
-
 </section></section>
 <section>
 <section id="h3-changes" class="title-slide slide level1 center">
@@ -694,13 +701,13 @@ ARG · BOL · CHL · COL · ECU · MEX · PRY · PER · URY · VEN</p>
 <h3 id="the-signature-of-oligarchic-consolidation">The signature of oligarchic consolidation</h3>
 
 <img data-src="image/temporal_consolidation.png" class="r-stretch quarto-figure quarto-figure-center"><div style="font-size:0.5em; color:#60748e; text-align:center; margin-top:0.3em;">
-<p>Cross-family tie share (y-axis) plotted across five birth-year cohorts. Monotonic decline coincides with the nineteenth-century state-building period Centeno (2002) identifies as foundational for Latin American republics.</p>
+<p>Cross-family tie share (y-axis) plotted across five birth-year cohorts. Monotonic decline coincides with the nineteenth-century state-building period that Centeno (2002) identifies as foundational for Latin American republics.</p>
 </div>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="box-primary">
 <p><strong>The empirical signature</strong></p>
-<p>Kinship intensification <em>substitutes</em> for fiscal-military institution-building</p>
+<p>Kinship intensification <em>substitutes</em> for fiscal-military institution-building.</p>
 </div>
 </div><div class="column" style="width:50%;">
 <div style="background:#fef3e6; border-left:4px solid #b8651a; padding:0.6em 0.9em; border-radius:4px; font-size:0.85em;">
@@ -709,12 +716,12 @@ ARG · BOL · CHL · COL · ECU · MEX · PRY · PER · URY · VEN</p>
 </div>
 </div></div>
 </section>
-<section id="h3-network-changing" class="slide level2">
-<h2>H3 · Network changing</h2>
+<section id="h3-network-change" class="slide level2">
+<h2>H3 · Network change</h2>
 
 <img data-src="images/elite_latam_red_gradual-01.gif" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="h3-network-changing-education" class="slide level2">
-<h2>H3 · Network changing: Education</h2>
+<section id="h3-network-change-education" class="slide level2">
+<h2>H3 · Network change: Education</h2>
 
 <img data-src="images/03_circuit_shares_over_time-01.png" class="quarto-figure quarto-figure-center r-stretch"></section></section>
 <section>
@@ -729,11 +736,11 @@ ARG · BOL · CHL · COL · ECU · MEX · PRY · PER · URY · VEN</p>
 <h2>Causal Results: DiD and Event Study</h2>
 <p>We estimate the effect of major political shocks on elite composition using a difference-in-differences design with family and year fixed effects. We leverage three historical ruptures—the Mexican Revolution (1910), the Chilean coup (1973), and the Argentine coup (1976)—as quasi-exogenous breaks to identify how regime change reshapes intra-elite dynamics.</p>
 
-<img data-src="images/mexica-revolution.jpg" class="quarto-figure quarto-figure-center r-stretch" width="414"></section>
+<img data-src="images/mexican-revolution.jpg" class="quarto-figure quarto-figure-center r-stretch" width="414"></section>
 <section id="causal-results-did-and-event-study-1" class="slide level2">
 <h2>Causal Results: DiD and Event Study</h2>
 <p><strong>Table 1</strong> shows a significant negative effect of shocks on state-dependent elites (β ≈ -0.069, p &lt; 0.001), indicating a decline in their relative participation compared to market-oriented elites.</p>
-<p>The baseline post-shock effect is small and only marginally significant, suggesting that shocks do not substantially alter the overall size of the elite</p>
+<p>The baseline post-shock effect is small and only marginally significant, suggesting that shocks do not substantially alter the overall size of the elite.</p>
 <div class="cell">
 <div class="cell-output-display">
 <table class="caption-top">
@@ -938,7 +945,7 @@ ARG · BOL · CHL · COL · ECU · MEX · PRY · PER · URY · VEN</p>
 <p><strong>Elite Family Networks in Latin America</strong></p>
 <p><em>Evidence from Wikipedia Genealogical Data</em></p>
 <p><strong>Matías Deneken</strong></p>
-<p><em>Incoming PhD, LSE</em></p>
+<p><em>Methodolab</em></p>
 <p><a href="mailto:m.deneken@uc.cl" class="email-link">m.deneken@uc.cl</a></p>
 <p><a href="https://github.com/matdknu" class="github-link">GitHub: @matdknu</a></p>
 </section>
