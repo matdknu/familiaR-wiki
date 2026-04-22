@@ -30,7 +30,7 @@ editor:
 ![](image/yo.jpg){fig-align="center" width="34%"}
 
 **Matías Deneken**\
-Pontificia Universidad Católica de Chile
+
 
 GitHub: [\@matdknu](https://github.com/matdknu)\
 Email: [m.deneken\@uc.cl](mailto:m.deneken@uc.cl)
