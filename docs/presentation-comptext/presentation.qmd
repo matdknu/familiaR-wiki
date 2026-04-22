@@ -15,6 +15,7 @@ format:
     margin: 0.18
     footer: "8th Annual COMPTEXT Conference 2026 | GitHub: @matdknu"
     css: comptext-theme.css
+    include-in-header: deck-logos.html
 editor:
   markdown:
     wrap: 72
@@ -138,30 +139,9 @@ ARG · BOL · CHL · COL · ECU · MEX · PRY · PER · URY · VEN
 :::
 ::::
 
-:::: {.columns .data-pipeline-bottom}
-::: {.column width="56%"}
-#### Sociological grounding
-
-**The claim:** Surnames function as social capital certificates —
-encoding lineage, alliances, and institutional access across
-generations.
-
--   **Balmori, Voss & Wortman (1984):** *familias notables* as a unit of
-    analysis
--   **Bourdieu (1996):** social reproduction through symbolic capital
--   **Centeno (2002):** elite networks and state formation
-:::
-
-::::
-
 :::
 
 ------------------------------------------------------------------------
-
-## Wikipedia: Data source
-
-![](image/familias.jpg){fig-align="center" width="78%"}
-
 
 ## Wikipedia: Data source
 

@@ -322,6 +322,35 @@
       margin-right: 0; 
     }
   </style>
+  <script>
+  (function () {
+    /* Top-center host logos */
+    var centerLogos = true;
+
+    function insertLogos() {
+      var reveal = document.querySelector(".reveal");
+      if (!reveal || reveal.querySelector(".deck-host-logos")) return;
+      var wrap = document.createElement("div");
+      wrap.className = "deck-host-logos" + (centerLogos ? " deck-host-logos--center" : "");
+      wrap.setAttribute("aria-label", "BIRMI and COMPTEXT");
+      var paths = ["images/logo-birmi.png", "images/logo-conference.png"];
+      var alts = ["BIRMI", "COMPTEXT Conference"];
+      for (var i = 0; i < paths.length; i++) {
+        var img = document.createElement("img");
+        img.src = paths[i];
+        img.alt = alts[i];
+        wrap.appendChild(img);
+      }
+      reveal.appendChild(wrap);
+    }
+
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", insertLogos);
+    } else {
+      insertLogos();
+    }
+  })();
+  </script>
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -411,23 +440,9 @@ ARG · BOL · CHL · COL · ECU · MEX · PRY · PER · URY · VEN</p>
 <strong>743</strong> families (SBM unit of analysis)</p>
 </div>
 </div></div>
-<div class="columns data-pipeline-bottom">
-<div class="column" style="width:56%;">
-<h4 id="sociological-grounding">Sociological grounding</h4>
-<p><strong>The claim:</strong> Surnames function as social capital certificates — encoding lineage, alliances, and institutional access across generations.</p>
-<ul>
-<li><strong>Balmori, Voss &amp; Wortman (1984):</strong> <em>familias notables</em> as a unit of analysis</li>
-<li><strong>Bourdieu (1996):</strong> social reproduction through symbolic capital</li>
-<li><strong>Centeno (2002):</strong> elite networks and state formation</li>
-</ul>
-</div></div>
 </div>
 </section>
 <section id="wikipedia-data-source" class="slide level2">
-<h2>Wikipedia: Data source</h2>
-
-<img data-src="image/familias.jpg" class="quarto-figure quarto-figure-center r-stretch" style="width:78.0%"></section>
-<section id="wikipedia-data-source-1" class="slide level2">
 <h2>Wikipedia: Data source</h2>
 
 <img data-src="image/pizarro.png" class="quarto-figure quarto-figure-center r-stretch" style="width:78.0%"></section>

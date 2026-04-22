@@ -30,6 +30,46 @@ body {
   background: #ffffff !important;
 }
 
+/* Host logos: BIRMI + COMPTEXT — fixed above slides (see deck-logos.html) */
+.reveal .deck-host-logos {
+  position: fixed;
+  top: max(0.2rem, env(safe-area-inset-top, 0px));
+  left: max(0.35rem, env(safe-area-inset-left, 0px));
+  z-index: 42;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.05rem;
+  padding: 0.28rem 0.6rem;
+  pointer-events: none;
+  line-height: 0;
+}
+
+.reveal .deck-host-logos img {
+  height: clamp(2rem, 4.85vh, 2.9rem);
+  width: auto;
+  max-width: min(57vw, 16.5rem);
+  object-fit: contain;
+  object-position: center center;
+  display: block;
+}
+
+/* BIRMI (first) larger than COMPTEXT */
+.reveal .deck-host-logos img:first-child {
+  height: clamp(2.55rem, 6.15vh, 3.65rem);
+  max-width: min(64vw, 20.6rem);
+}
+
+/* Toggle in deck-logos.html: centerLogos = true */
+.reveal .deck-host-logos.deck-host-logos--center {
+  left: 50%;
+  right: auto;
+  transform: translateX(-50%);
+  justify-content: center;
+}
+
 .reveal .slides section {
   text-align: left;
   background: transparent !important;

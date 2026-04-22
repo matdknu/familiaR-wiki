@@ -1,0 +1,29 @@
+<script>
+(function () {
+  /* Top-center host logos */
+  var centerLogos = true;
+
+  function insertLogos() {
+    var reveal = document.querySelector(".reveal");
+    if (!reveal || reveal.querySelector(".deck-host-logos")) return;
+    var wrap = document.createElement("div");
+    wrap.className = "deck-host-logos" + (centerLogos ? " deck-host-logos--center" : "");
+    wrap.setAttribute("aria-label", "BIRMI and COMPTEXT");
+    var paths = ["images/logo-birmi.png", "images/logo-conference.png"];
+    var alts = ["BIRMI", "COMPTEXT Conference"];
+    for (var i = 0; i < paths.length; i++) {
+      var img = document.createElement("img");
+      img.src = paths[i];
+      img.alt = alts[i];
+      wrap.appendChild(img);
+    }
+    reveal.appendChild(wrap);
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", insertLogos);
+  } else {
+    insertLogos();
+  }
+})();
+</script>
