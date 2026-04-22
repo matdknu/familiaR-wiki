@@ -355,6 +355,11 @@ Pontificia Universidad Católica de Chile</p>
 <p>GitHub: <a href="https://github.com/matdknu">@matdknu</a><br>
 Email: <a href="mailto:m.deneken@uc.cl">m.deneken@uc.cl</a></p>
 </section>
+<section id="motivation" class="slide level2">
+<h2>Motivation</h2>
+<p>Latin American political history is often described in terms of oligarchies, elite continuity, and the intergenerational transmission of power. Yet, despite a rich historiographical tradition, we still lack systematic, comparable evidence on how elite families are actually connected across countries and over time.</p>
+<p>This paper addresses that gap by bringing a computational approach to the study of elites. Using large-scale biographical data from Spanish-language Wikipedia, we reconstruct kinship networks across multiple Latin American countries and analyze their structure using tools from network science.</p>
+</section>
 <section id="main-research-question" class="slide level2 question-slide">
 <h2>Main Research Question</h2>
 <div class="question-wrap">
@@ -365,9 +370,7 @@ Email: <a href="mailto:m.deneken@uc.cl">m.deneken@uc.cl</a></p>
 <p>A computational-text analysis of a collectively authored biographical archive (Spanish-language Wikipedia).</p>
 </div>
 </div>
-</section>
-<section id="allendepascal-hook" class="slide level2">
-<h2>Allende–Pascal Hook</h2>
+<p>The key argument is that family networks are not just a reflection of political order—they are part of the infrastructure through which that order is reproduced. By comparing these structures across countries, we show how different configurations of elite networks are associated with distinct political trajectories in the region.</p>
 </section>
 <section id="surnames-as-elite-markers" class="slide level2">
 <h2>Surnames as Elite Markers?</h2>
@@ -417,111 +420,19 @@ ARG · BOL · CHL · COL · ECU · MEX · PRY · PER · URY · VEN</p>
 </div>
 </div></div>
 </section>
-<section id="two-conceptual-distinctions" class="slide level2">
-<h2>Two Conceptual Distinctions</h2>
+<section id="theoretical-framework" class="slide level2">
+<h2>Theoretical Framework</h2>
 <div class="box-primary">
-<p><strong>1) Closure–reach trade-off</strong></p>
-<p>Families that maximize endogamy sacrifice bridging ties. Families that maximize transnational reach usually display lower endogamy. These are alternative strategies, not complementary ones.</p>
+<p><strong>Historical baseline</strong></p>
+<p>Research on Latin America has long emphasized the role of notable families in linking economic resources, marriage strategies, and access to political power. Classic work shows that elites reproduce themselves not only through institutions, but through kinship networks that structure opportunities across generations.</p>
 </div>
 <div class="box-primary">
-<p><strong>2) Documentary elite field</strong></p>
-<p>Wikipedia captures the stratum that successfully inscribed itself in public digital archives. Its boundaries are analytically substantive, not merely a nuisance.</p>
+<p><strong>Social reproduction and elite closure</strong></p>
+<p>This connects to broader debates on social reproduction and elite closure. Drawing on Bourdieu, elites can maintain their position by converting economic capital into social ties and institutional access, often through endogamy or strategic alliances.</p>
 </div>
-</section>
-<section id="five-hypotheses" class="slide level2">
-<h2>Five Hypotheses</h2>
-<table class="caption-top">
-<colgroup>
-<col style="width: 8%">
-<col style="width: 46%">
-<col style="width: 46%">
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th>Hypothesis</th>
-<th>Mechanism</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>H1</strong></td>
-<td>Family closure ↔︎ political concentration</td>
-<td>Marriage market as political institution</td>
-</tr>
-<tr class="even">
-<td><strong>H2</strong></td>
-<td>Network topology ↔︎ regime type</td>
-<td>Chain = patrimonial; Star = founding lineage; Web = oligarchy</td>
-</tr>
-<tr class="odd">
-<td><strong>H3</strong></td>
-<td>Transnational ties follow Pacific–Andean corridor</td>
-<td>Colonial administrative geography</td>
-</tr>
-<tr class="even">
-<td><strong>H4</strong></td>
-<td>Betweenness centrality = structural brokerage</td>
-<td>Multiplex positioning across kinship + institutions</td>
-</tr>
-<tr class="odd">
-<td><strong>H5</strong></td>
-<td>Core–periphery architecture with robust brokers</td>
-<td>Convergence across six complementary methods</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="methods-at-a-glance" class="slide level2">
-<h2>Methods at a glance</h2>
-<table class="caption-top">
-<colgroup>
-<col style="width: 29%">
-<col style="width: 45%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Method</th>
-<th>Question</th>
-<th>Graph layer</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ERGM</td>
-<td>Is tie formation structured or random?</td>
-<td>Family–family</td>
-</tr>
-<tr class="even">
-<td>SBM</td>
-<td>Is there mesoscopic structure?</td>
-<td>Family–family</td>
-</tr>
-<tr class="odd">
-<td>Homophily + permutation</td>
-<td>How do attributes sort?</td>
-<td>Node attributes</td>
-</tr>
-<tr class="even">
-<td>Cohort analysis</td>
-<td>Did structure change historically?</td>
-<td>Temporal subgraphs</td>
-</tr>
-<tr class="odd">
-<td>Targeted attack</td>
-<td>Is the graph fragile?</td>
-<td>Connectivity</td>
-</tr>
-<tr class="even">
-<td>Gould–Fernandez</td>
-<td>What brokerage roles exist?</td>
-<td>Paths over blocks</td>
-</tr>
-</tbody>
-</table>
-<div class="box-primary">
-<p>Six methods, one graph — convergence is the epistemic claim.</p>
+<div class="box-highlight">
+<p><strong>Network perspective and comparative interpretation</strong></p>
+<p>Network theory highlights a tension between closure and reach: while some families consolidate power through dense internal ties, others expand influence by bridging across groups. At a larger scale, network structures—such as dense cores, fragmented clusters, or brokerage positions—can reflect distinct modes of political organization. Rather than treating these as deterministic patterns, we use them as interpretive tools to understand variation across countries.</p>
 </div>
 </section>
 <section id="wikipedia-data-source" class="slide level2">
@@ -640,6 +551,11 @@ ARG · BOL · CHL · COL · ECU · MEX · PRY · PER · URY · VEN</p>
 <h2>H1: Mexican elite</h2>
 
 <img data-src="images/red_familias_mexico_animada.gif" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section>
+<section id="h2-transational-elites" class="title-slide slide level1 center">
+<h1>H2: Transational elites</h1>
+
+</section>
 <section id="h2-transnational-network-flow-maps" class="slide level2">
 <h2>H2: Transnational Network + Flow Maps</h2>
 <div class="columns">
@@ -686,106 +602,16 @@ ARG · BOL · CHL · COL · ECU · MEX · PRY · PER · URY · VEN</p>
 </div>
 </div></div>
 </section>
-<section id="h3-who-are-the-brokers" class="slide level2">
-<h2>H3: Who Are the Brokers?</h2>
-<div class="columns">
-<div class="column" style="width:56%;">
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Country</th>
-<th>Betweenness</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Luis Felipe Villaran</td>
-<td>Peru</td>
-<td>517,714</td>
-</tr>
-<tr class="even">
-<td>Walter Humala</td>
-<td>Peru</td>
-<td>473,134</td>
-</tr>
-<tr class="odd">
-<td>Luis Jaime Cisneros</td>
-<td>Peru</td>
-<td>391,641</td>
-</tr>
-<tr class="even">
-<td>Jose Evaristo Uriburu</td>
-<td>Argentina</td>
-<td>328,970</td>
-</tr>
-<tr class="odd">
-<td>Pastor Obligado</td>
-<td>Argentina</td>
-<td>267,974</td>
-</tr>
-<tr class="even">
-<td>Guido Di Tella</td>
-<td>Argentina</td>
-<td>240,510</td>
-</tr>
-<tr class="odd">
-<td>Cuauhtemoc Cardenas</td>
-<td>Mexico</td>
-<td>198,005</td>
-</tr>
-<tr class="even">
-<td>Roque Saenz Pena</td>
-<td>Argentina</td>
-<td>168,155</td>
-</tr>
-</tbody>
-</table>
-</div><div class="column" style="width:44%;">
-<p><strong>Interpretation</strong></p>
-<ul>
-<li>Peru and Argentina dominate top brokerage positions.</li>
-<li>Multiplex brokerage captures institutional pathways, not only kinship proximity.</li>
-<li>These are plausible structural coordinators, not causal estimates of influence.</li>
-</ul>
-</div></div>
-</section>
-<section id="h3-centrality-vs-closure-multiplex" class="slide level2">
-<h2>H3: Centrality vs Closure (Multiplex)</h2>
+<section class="slide level2">
 
-<img data-src="image/h4_centrality_vs_family_closure.png" class="r-stretch quarto-figure quarto-figure-center"></section>
-<section id="h4-sbm-the-hidden-core" class="slide level2">
-<h2>H4 SBM — The Hidden Core</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="box-primary">
-<ul>
-<li><strong>K = 2 blocks selected by ICL</strong></li>
-<li><strong>Block 1: 722 families, pi = 0.00066</strong></li>
-<li><strong>Block 2: 21 families, pi = 0.138</strong></li>
-<li><strong>Ratio 208:1 — this is not two rival coalitions</strong></li>
-<li><strong>This is a core and a periphery</strong></li>
-</ul>
-</div>
-</div><div class="column" style="width:50%;">
-<div class="box-primary">
-<ul>
-<li><strong>16 of 21 core families are Chilean</strong></li>
-<li><strong>4 Colombian (Acevedo, Caicedo, Eder, Obregon)</strong></li>
-<li><strong>1 Mexican (Pinal Hidalgo)</strong></li>
-<li><strong>Zero from Argentina, Peru, Venezuela, Paraguay</strong></li>
-</ul>
-</div>
-<div style="font-size:0.7em; color:#60748e;">
-<p>Peru contributes the largest national sub-corpus (185 families). Sub-corpus size does not predict core membership — structural position does.</p>
-</div>
-</div></div>
-<div class="box-highlight">
-<p>The core is not where we expected to find it.</p>
-</div>
+</section></section>
+<section>
+<section id="h3-changes" class="title-slide slide level1 center">
+<h1>H3: Changes</h1>
+
 </section>
-<section id="h4-temporal-consolidation" class="slide level2">
-<h2>H4 · Temporal Consolidation</h2>
+<section id="h3-temporal-consolidation" class="slide level2">
+<h2>H3 · Temporal Consolidation</h2>
 <h3 id="five-cohorts-one-trajectory">Five cohorts, one trajectory</h3>
 <div class="columns">
 <div class="column" style="width:55%;">
@@ -858,8 +684,8 @@ ARG · BOL · CHL · COL · ECU · MEX · PRY · PER · URY · VEN</p>
 <p>The network does not shrink. It becomes <strong>self-referential</strong>.</p>
 </div>
 </section>
-<section id="h4-temporal-consolidation-1" class="slide level2">
-<h2>H4 · Temporal Consolidation</h2>
+<section id="h3-temporal-consolidation-1" class="slide level2">
+<h2>H3 · Temporal Consolidation</h2>
 <h3 id="the-signature-of-oligarchic-consolidation">The signature of oligarchic consolidation</h3>
 
 <img data-src="image/temporal_consolidation.png" class="r-stretch quarto-figure quarto-figure-center"><div style="font-size:0.5em; color:#60748e; text-align:center; margin-top:0.3em;">
@@ -878,39 +704,20 @@ ARG · BOL · CHL · COL · ECU · MEX · PRY · PER · URY · VEN</p>
 </div>
 </div></div>
 </section>
-<section id="h4-network-changing" class="slide level2">
-<h2>H4 · Network changing</h2>
+<section id="h3-network-changing" class="slide level2">
+<h2>H3 · Network changing</h2>
 
 <img data-src="images/elite_latam_red_gradual-01.gif" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="h4-network-changing-education" class="slide level2">
-<h2>H4 · Network changing: Education</h2>
+<section id="h3-network-changing-education" class="slide level2">
+<h2>H3 · Network changing: Education</h2>
 
-<img data-src="images/03_circuit_shares_over_time-01.png" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="h4-robust-brokers" class="slide level2">
-<h2>H4 · Robust Brokers</h2>
-
-<img data-src="image/robust_brokers.png" class="r-stretch quarto-figure quarto-figure-center"></section>
-<section id="limitations" class="slide level2">
-<h2>Limitations</h2>
-<div class="box-primary">
-<p><strong>1) Visibility bias</strong>: Wikipedia disproportionately documents literate, urban, politically visible individuals. Indigenous, Afro-descendant, and subnational elites are underrepresented.</p>
-</div>
-<div class="box-highlight">
-<p><strong>2) Kinship incompleteness</strong>: 42.2% of infobox-declared ties do not resolve to a second scraped biography. Per-country matching rates have not yet been diagnosed — priority work for next iteration.</p>
-</div>
-<div class="box-primary">
-<p><strong>3) Label uncertainty</strong>: <code>familia_norm</code> may merge distinct lineages (common surname) or split unified ones (orthographic variation across borders).</p>
-</div>
-<div class="box-highlight">
-<p><strong>4) No causal identification</strong>: Network position measures covary with regime characteristics. They do not establish that kinship architecture causes political order — only that the two are structurally entangled in the documentary record.</p>
-</div>
-</section>
-<section id="toward-causal-identification" class="slide level2">
-<h2>Toward Causal Identification</h2>
+<img data-src="images/03_circuit_shares_over_time-01.png" class="quarto-figure quarto-figure-center r-stretch"></section></section>
+<section>
+<section id="toward-causal-identification" class="title-slide slide level1 center">
+<h1>Toward Causal Identification</h1>
 <div style="font-size:0.76em;">
 <p><strong>1) Cohort designs</strong> with birth-year slicing to test historical timing of closure and brokerage.</p>
 <p><strong>2) Shock-based comparisons</strong> (e.g., War of the Pacific) for structured pre/post contrasts.</p>
-<p><strong>3) Spatial constraints</strong> as quasi-instruments for corridor intensity.</p>
 </div>
 </section>
 <section id="causal-results-did-and-event-study" class="slide level2">
@@ -920,6 +727,8 @@ ARG · BOL · CHL · COL · ECU · MEX · PRY · PER · URY · VEN</p>
 <img data-src="images/mexica-revolution.jpg" class="quarto-figure quarto-figure-center r-stretch" width="414"></section>
 <section id="causal-results-did-and-event-study-1" class="slide level2">
 <h2>Causal Results: DiD and Event Study</h2>
+<p><strong>Table 1</strong> shows a significant negative effect of shocks on state-dependent elites (β ≈ -0.069, p &lt; 0.001), indicating a decline in their relative participation compared to market-oriented elites.</p>
+<p>The baseline post-shock effect is small and only marginally significant, suggesting that shocks do not substantially alter the overall size of the elite</p>
 <div class="cell">
 <div class="cell-output-display">
 <table class="caption-top">
@@ -970,7 +779,6 @@ ARG · BOL · CHL · COL · ECU · MEX · PRY · PER · URY · VEN</p>
 </table>
 </div>
 </div>
-<p>Table 1 shows a significant negative effect of shocks on state-dependent elites (β ≈ -0.069, p &lt; 0.001), indicating a decline in their relative participation compared to market-oriented elites. The baseline post-shock effect is small and only marginally significant, suggesting that shocks do not substantially alter the overall size of the elite.</p>
 </section>
 <section id="figure-1-event-study" class="slide level2">
 <h2>Figure 1 — Event Study</h2>
@@ -979,6 +787,8 @@ ARG · BOL · CHL · COL · ECU · MEX · PRY · PER · URY · VEN</p>
 </section>
 <section id="table-2-country-heterogeneity" class="slide level2">
 <h2>Table 2 — Country Heterogeneity</h2>
+<p>Table 2 reveals strong cross-national heterogeneity. The decline is largest in Mexico (β ≈ -0.143), followed by Argentina (β ≈ -0.101), and substantially smaller in Chile (β ≈ -0.028).</p>
+<p>This pattern is consistent with distinct regime dynamics: rupture in Mexico, recomposition in Argentina, and continuity in Chile.</p>
 <div class="cell">
 <div class="cell-output-display">
 <table class="caption-top">
@@ -1059,7 +869,6 @@ ARG · BOL · CHL · COL · ECU · MEX · PRY · PER · URY · VEN</p>
 </table>
 </div>
 </div>
-<p>Table 2 reveals strong cross-national heterogeneity. The decline is largest in Mexico (β ≈ -0.143), followed by Argentina (β ≈ -0.101), and substantially smaller in Chile (β ≈ -0.028). This pattern is consistent with distinct regime dynamics: rupture in Mexico, recomposition in Argentina, and continuity in Chile.</p>
 </section>
 <section id="figure-2-probabilities" class="slide level2">
 <h2>Figure 2 — Probabilities</h2>
@@ -1077,6 +886,21 @@ ARG · BOL · CHL · COL · ECU · MEX · PRY · PER · URY · VEN</p>
 </div>
 <div class="box-highlight">
 <p><strong>Public archives:</strong> Open genealogical data can increase both transparency and elite salience.</p>
+</div>
+</section>
+<section id="limitations" class="slide level2">
+<h2>Limitations</h2>
+<div class="box-primary">
+<p><strong>1) Visibility bias</strong>: Wikipedia disproportionately documents literate, urban, politically visible individuals. Indigenous, Afro-descendant, and subnational elites are underrepresented.</p>
+</div>
+<div class="box-highlight">
+<p><strong>2) Kinship incompleteness</strong>: 42.2% of infobox-declared ties do not resolve to a second scraped biography. Per-country matching rates have not yet been diagnosed — priority work for next iteration.</p>
+</div>
+<div class="box-primary">
+<p><strong>3) Label uncertainty</strong>: <code>familia_norm</code> may merge distinct lineages (common surname) or split unified ones (orthographic variation across borders).</p>
+</div>
+<div class="box-highlight">
+<p><strong>4) No causal identification</strong>: Network position measures covary with regime characteristics. They do not establish that kinship architecture causes political order — only that the two are structurally entangled in the documentary record.</p>
 </div>
 </section>
 <section id="summary" class="slide level2">
@@ -1112,7 +936,7 @@ ARG · BOL · CHL · COL · ECU · MEX · PRY · PER · URY · VEN</p>
 <p>8th Annual COMPTEXT Conference 2026 | GitHub: <span class="citation" data-cites="matdknu">@matdknu</span></p>
 </div>
 </div>
-</section>
+</section></section>
     </div>
   </div>
 
